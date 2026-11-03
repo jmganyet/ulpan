@@ -23,6 +23,7 @@
       "funcio": false,
       "extra": false,
       "perComprovar": false,
+      "icona": "hand-waving",
       "audio": {
         "normal": "51d43f8a1ba1.m4a",
         "lent": "62f222861d5c.m4a"
@@ -51,6 +52,7 @@
       "funcio": false,
       "extra": false,
       "perComprovar": false,
+      "icona": "handshake",
       "audio": {
         "normal": "78a9a4dd6c84.m4a",
         "lent": "11e1f8918df9.m4a"
@@ -96,6 +98,7 @@
       "formes": [
         "תַּלְמִידָה"
       ],
+      "icona": "student",
       "audio": {
         "normal": "e8319f4cd5fc.m4a",
         "lent": "21585b2e1585.m4a"
@@ -127,6 +130,7 @@
       "formes": [
         "עוֹלָה"
       ],
+      "icona": "airplane-landing",
       "audio": {
         "normal": "abd53ac5eae0.m4a",
         "lent": "0f1031c5c45e.m4a"
@@ -144,6 +148,7 @@
       "formes": [
         "חֲדָשָׁה"
       ],
+      "icona": "sparkle",
       "audio": {
         "normal": "7568996bfe14.m4a",
         "lent": "39b3ab6df71d.m4a"
@@ -175,6 +180,7 @@
       "formes": [
         "תַּיֶּרֶת"
       ],
+      "icona": "suitcase-rolling",
       "audio": {
         "normal": "8104a4ca00b1.m4a",
         "lent": "6e6b547b9e17.m4a"
@@ -254,6 +260,7 @@
       "funcio": false,
       "extra": false,
       "perComprovar": false,
+      "icona": "propia:senyor.svg",
       "audio": {
         "normal": "be31b439d4eb.m4a",
         "lent": "8ee06c204f76.m4a"
@@ -268,6 +275,7 @@
       "funcio": false,
       "extra": false,
       "perComprovar": false,
+      "icona": "propia:senyora.svg",
       "audio": {
         "normal": "4ec63a2ab9b3.m4a",
         "lent": "296c5a51f2cf.m4a"
@@ -285,6 +293,7 @@
       "formes": [
         "מוֹרָה"
       ],
+      "icona": "chalkboard-teacher",
       "audio": {
         "normal": "84f31750bdb1.m4a",
         "lent": "5f2c25628077.m4a"
@@ -302,6 +311,7 @@
       "formes": [
         "טוֹבָה"
       ],
+      "icona": "thumbs-up",
       "audio": {
         "normal": "58867d3abf36.m4a",
         "lent": "b4d4590420cf.m4a"
@@ -319,6 +329,7 @@
       "formes": [
         "חֲבֵרָה"
       ],
+      "icona": "users",
       "audio": {
         "normal": "30f998c2063a.m4a",
         "lent": "220edf74208d.m4a"
@@ -437,6 +448,7 @@
       "funcio": false,
       "extra": false,
       "perComprovar": false,
+      "icona": "gender-male",
       "audio": {
         "normal": "f6f0981ccf43.m4a",
         "lent": "4a2446554d45.m4a"
@@ -451,6 +463,7 @@
       "funcio": false,
       "extra": false,
       "perComprovar": false,
+      "icona": "gender-female",
       "audio": {
         "normal": "7d7152c4959d.m4a",
         "lent": "50b9cfab55ce.m4a"
@@ -465,6 +478,7 @@
       "funcio": false,
       "extra": false,
       "perComprovar": false,
+      "icona": "square",
       "audio": {
         "normal": "6ffa2088c5dc.m4a",
         "lent": "27d2368a4893.m4a"
@@ -482,6 +496,7 @@
       "formes": [
         "רַבּוֹת"
       ],
+      "icona": "squares-four",
       "audio": {
         "normal": "bcceb8add4ed.m4a",
         "lent": "a022b465241d.m4a"
@@ -510,6 +525,7 @@
       "funcio": false,
       "extra": false,
       "perComprovar": false,
+      "icona": "compass",
       "audio": {
         "normal": "a47d2a69960d.m4a",
         "lent": "09265c12f9e1.m4a"
@@ -541,6 +557,7 @@
       "formes": [
         "תַּרְגִּילִים"
       ],
+      "icona": "exam",
       "audio": {
         "normal": "5fa52d68bbb5.m4a",
         "lent": "094536fd39d9.m4a"
@@ -555,6 +572,7 @@
       "funcio": false,
       "extra": false,
       "perComprovar": false,
+      "icona": "pencil-simple",
       "audio": {
         "normal": "5491dc1ebdd8.m4a",
         "lent": "72552904d966.m4a"
@@ -572,6 +590,7 @@
       "formes": [
         "מִלִּים"
       ],
+      "icona": "text-aa",
       "audio": {
         "normal": "5da32f9d09ba.m4a",
         "lent": "eaba322a74a2.m4a"
@@ -589,13 +608,488 @@
       "formes": [
         "מִשְׁפָּטִים"
       ],
+      "icona": "text-align-left",
       "audio": {
         "normal": "ee6b1ad2dd03.m4a",
         "lent": "de7aad32f431.m4a"
       }
     }
   ],
-  "gramatica": [],
+  "gramatica": [
+    {
+      "id": "pronoms",
+      "titol": "Els pronoms personals",
+      "explicacio": "L'hebreu distingeix el masculí i el femení a la segona i a la tercera persona. La primera persona, אֲנִי i אֲנַחְנוּ, no té gènere.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u01-g-pronoms-0",
+          "text": {
+            "u": "אני, אתה, את, הוא, היא",
+            "n": "אֲנִי, אַתָּה, אַתְּ, הוּא, הִיא",
+            "extraVocals": true
+          },
+          "ca": "jo, tu (m.), tu (f.), ell, ella",
+          "perComprovar": false,
+          "audio": {
+            "normal": "3e6e5ba7c6a3.m4a",
+            "lent": "0385cd311b3d.m4a"
+          }
+        },
+        {
+          "id": "u01-g-pronoms-1",
+          "text": {
+            "u": "אנחנו, אתם, אתן, הם, הן",
+            "n": "אֲנַחְנוּ, אַתֶּם, אַתֶּן, הֵם, הֵן",
+            "extraVocals": true
+          },
+          "ca": "nosaltres, vosaltres (m.), vosaltres (f.), ells, elles",
+          "perComprovar": false,
+          "audio": {
+            "normal": "dd11d41d84df.m4a",
+            "lent": "bc5ccb9076d9.m4a"
+          }
+        },
+        {
+          "id": "u01-g-pronoms-2",
+          "text": {
+            "u": "אתה תלמיד? את תלמידה?",
+            "n": "אַתָּה תַּלְמִיד? אַתְּ תַּלְמִידָה?",
+            "extraVocals": true
+          },
+          "ca": "Ets alumne? Ets alumna?",
+          "perComprovar": false,
+          "audio": {
+            "normal": "fc61e0048aa4.m4a",
+            "lent": "cab996d56645.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "frase-sense-verb",
+      "titol": "La frase sense verb",
+      "explicacio": "En present no hi ha verb «ser»; es posa el subjecte i al costat el que se'n diu. Tampoc no hi ha article indefinit.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u01-g-frase-sense-verb-0",
+          "text": {
+            "u": "אני רוברטו.",
+            "n": "אֲנִי רוֹבֶּרְטוֹ.",
+            "extraVocals": true
+          },
+          "ca": "Sóc el Roberto.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "90b84e158201.m4a",
+            "lent": "852c6ffa9527.m4a"
+          }
+        },
+        {
+          "id": "u01-g-frase-sense-verb-1",
+          "text": {
+            "u": "הוא תלמיד.",
+            "n": "הוּא תַּלְמִיד.",
+            "extraVocals": true
+          },
+          "ca": "És alumne.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "6362e844fafd.m4a",
+            "lent": "b9e7b74df17a.m4a"
+          }
+        },
+        {
+          "id": "u01-g-frase-sense-verb-2",
+          "text": {
+            "u": "הם חברים טובים.",
+            "n": "הֵם חֲבֵרִים טוֹבִים.",
+            "extraVocals": true
+          },
+          "ca": "Són bons amics.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "2b253acc06d7.m4a",
+            "lent": "fe810d17f2a0.m4a"
+          }
+        },
+        {
+          "id": "u01-g-frase-sense-verb-3",
+          "text": {
+            "u": "היא לא תיירת, היא עולה חדשה.",
+            "n": "הִיא לֹא תַּייֶּרֶת, הִיא עוֹלָה חֲדָשָׁה.",
+            "extraVocals": true
+          },
+          "ca": "No és turista, és una immigrant nova.",
+          "perComprovar": false,
+          "extra": true,
+          "audio": {
+            "normal": "1fa97b70a6a8.m4a",
+            "lent": "49a72892a97f.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "negar-preguntar",
+      "titol": "Negar i preguntar",
+      "explicacio": "לֹא va just davant del que es nega i serveix també de «no» sol. La pregunta de sí o no és la mateixa frase amb entonació de pregunta.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u01-g-negar-preguntar-0",
+          "text": {
+            "u": "אני לא תייר.",
+            "n": "אֲנִי לֹא תַּייָּר.",
+            "extraVocals": true
+          },
+          "ca": "No sóc turista.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "f06c9aa75e81.m4a",
+            "lent": "31d4df799e45.m4a"
+          }
+        },
+        {
+          "id": "u01-g-negar-preguntar-1",
+          "text": {
+            "u": "לא, אני לא עולה חדשה.",
+            "n": "לֹא, אֲנִי לֹא עוֹלָה חֲדָשָׁה.",
+            "extraVocals": true
+          },
+          "ca": "No, no sóc una immigrant nova.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "637ef9968340.m4a",
+            "lent": "28409f152786.m4a"
+          }
+        },
+        {
+          "id": "u01-g-negar-preguntar-2",
+          "text": {
+            "u": "אתה תלמיד?",
+            "n": "אַתָּה תַּלְמִיד?",
+            "extraVocals": true
+          },
+          "ca": "Ets alumne?",
+          "perComprovar": false,
+          "audio": {
+            "normal": "b3e1c02eac29.m4a",
+            "lent": "89a2ea0c9827.m4a"
+          }
+        },
+        {
+          "id": "u01-g-negar-preguntar-3",
+          "text": {
+            "u": "מי אתה? מאין אתה?",
+            "n": "מִי אַתָּה? מֵאַיִן אַתָּה?",
+            "extraVocals": true
+          },
+          "ca": "Qui ets? D'on ets?",
+          "perComprovar": false,
+          "extra": true,
+          "audio": {
+            "normal": "4a30b9909f06.m4a",
+            "lent": "47bf04bdb1ba.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "masculi-femeni",
+      "titol": "Masculí i femení",
+      "explicacio": "El femení es fa afegint ‑ָה o ‑ֶת al masculí. Sense vocals, מורה i עולה s'escriuen igual en tots dos gèneres.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u01-g-masculi-femeni-0",
+          "text": {
+            "u": "תלמיד, תלמידה",
+            "n": "תַּלְמִיד, תַּלְמִידָה",
+            "extraVocals": true
+          },
+          "ca": "alumne, alumna",
+          "perComprovar": false,
+          "audio": {
+            "normal": "127aa4ff57c2.m4a",
+            "lent": "eba4ea91ffcf.m4a"
+          }
+        },
+        {
+          "id": "u01-g-masculi-femeni-1",
+          "text": {
+            "u": "תייר, תיירת",
+            "n": "תַּייָּר, תַּייֶּרֶת",
+            "extraVocals": true
+          },
+          "ca": "turista (m.), turista (f.)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "58dcee54cca2.m4a",
+            "lent": "d7f2bd3c1b86.m4a"
+          }
+        },
+        {
+          "id": "u01-g-masculi-femeni-2",
+          "text": {
+            "u": "מורה, מורה",
+            "n": "מוֹרֶה, מוֹרָה",
+            "extraVocals": true
+          },
+          "ca": "mestre, mestra",
+          "perComprovar": false,
+          "audio": {
+            "normal": "810da96acf36.m4a",
+            "lent": "c465d24da7dc.m4a"
+          }
+        },
+        {
+          "id": "u01-g-masculi-femeni-3",
+          "text": {
+            "u": "חבר, חברה",
+            "n": "חָבֵר, חֲבֵרָה",
+            "extraVocals": true
+          },
+          "ca": "amic, amiga",
+          "perComprovar": false,
+          "audio": {
+            "normal": "02eac7bc0a1c.m4a",
+            "lent": "fb9afd599e18.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "singular-plural",
+      "titol": "Singular i plural",
+      "explicacio": "El masculí plural acaba en ‑ִים i el femení plural en ‑וֹת. El femení perd la terminació del singular abans de prendre ‑וֹת.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u01-g-singular-plural-0",
+          "text": {
+            "u": "תלמידים, תלמידות",
+            "n": "תַּלְמִידִים, תַּלְמִידוֹת",
+            "extraVocals": true
+          },
+          "ca": "alumnes (m.), alumnes (f.)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "edbf589feb9f.m4a",
+            "lent": "8383878c3250.m4a"
+          }
+        },
+        {
+          "id": "u01-g-singular-plural-1",
+          "text": {
+            "u": "תיירים, תיירות",
+            "n": "תַּייָּרִים, תַּייָּרוֹת",
+            "extraVocals": true
+          },
+          "ca": "turistes (m.), turistes (f.)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "2f6bc32fc03c.m4a",
+            "lent": "8eba9b77b378.m4a"
+          }
+        },
+        {
+          "id": "u01-g-singular-plural-2",
+          "text": {
+            "u": "מורים, מורות",
+            "n": "מוֹרִים, מוֹרוֹת",
+            "extraVocals": true
+          },
+          "ca": "mestres (m.), mestres (f.)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "e11be8b978cb.m4a",
+            "lent": "96ae56ef3e98.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "adjectiu",
+      "titol": "L'adjectiu",
+      "explicacio": "Va darrere del nom i hi concorda en gènere i nombre. מְאוֹד va darrere de l'adjectiu.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u01-g-adjectiu-0",
+          "text": {
+            "u": "חבר טוב, חברה טובה",
+            "n": "חָבֵר טוֹב, חֲבֵרָה טוֹבָה",
+            "extraVocals": true
+          },
+          "ca": "un bon amic, una bona amiga",
+          "perComprovar": false,
+          "audio": {
+            "normal": "978308cff128.m4a",
+            "lent": "95ec421f2e79.m4a"
+          }
+        },
+        {
+          "id": "u01-g-adjectiu-1",
+          "text": {
+            "u": "חברים טובים, חברות טובות",
+            "n": "חֲבֵרִים טוֹבִים, חֲבֵרוֹת טוֹבוֹת",
+            "extraVocals": true
+          },
+          "ca": "bons amics, bones amigues",
+          "perComprovar": false,
+          "audio": {
+            "normal": "cbd867ee88fe.m4a",
+            "lent": "2ffdca492522.m4a"
+          }
+        },
+        {
+          "id": "u01-g-adjectiu-2",
+          "text": {
+            "u": "עולים חדשים, עולות חדשות",
+            "n": "עוֹלִים חֲדָשִׁים, עוֹלוֹת חֲדָשׁוֹת",
+            "extraVocals": true
+          },
+          "ca": "immigrants nous, immigrants noves",
+          "perComprovar": false,
+          "audio": {
+            "normal": "1747f630fb07.m4a",
+            "lent": "2993ee55e058.m4a"
+          }
+        },
+        {
+          "id": "u01-g-adjectiu-3",
+          "text": {
+            "u": "טוב מאוד",
+            "n": "טוֹב מְאוֹד",
+            "extraVocals": true
+          },
+          "ca": "molt bo",
+          "perComprovar": false,
+          "audio": {
+            "normal": "6993c90e868c.m4a",
+            "lent": "030152017ddf.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "particules",
+      "titol": "Les partícules enganxades al mot",
+      "explicacio": "הַ־ (el, la, els, les), מִ־ / מֵ־ (de, procedència) i וְ־ / וּ־ (i) s'escriuen unides al mot que les segueix. הַ־ no canvia per gènere ni per nombre.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u01-g-particules-0",
+          "text": {
+            "u": "המורים",
+            "n": "הַמּוֹרִים",
+            "extraVocals": true
+          },
+          "ca": "els mestres",
+          "perComprovar": false,
+          "audio": {
+            "normal": "879ddc3dfccd.m4a",
+            "lent": "5d26f78e0d86.m4a"
+          }
+        },
+        {
+          "id": "u01-g-particules-1",
+          "text": {
+            "u": "מברזיל, מאנגליה",
+            "n": "מִבְּרָזִיל, מֵאַנְגְלִיָּה",
+            "extraVocals": true
+          },
+          "ca": "del Brasil, d'Anglaterra",
+          "perComprovar": false,
+          "audio": {
+            "normal": "ecd86d3a6bb7.m4a",
+            "lent": "77c90cb0a6fe.m4a"
+          }
+        },
+        {
+          "id": "u01-g-particules-2",
+          "text": {
+            "u": "שרה ויצחק",
+            "n": "שָׂרָה וְיִצְחָק",
+            "extraVocals": true
+          },
+          "ca": "la Sara i l'Itshak",
+          "perComprovar": false,
+          "audio": {
+            "normal": "2b49b9e9c365.m4a",
+            "lent": "85ced5b5d059.m4a"
+          }
+        },
+        {
+          "id": "u01-g-particules-3",
+          "text": {
+            "u": "אסתר ותמר",
+            "n": "אֶסְתֵּר וְתָמָר",
+            "extraVocals": true
+          },
+          "ca": "l'Ester i la Tamar",
+          "perComprovar": false,
+          "audio": {
+            "normal": "357f1a5427f8.m4a",
+            "lent": "3a6bf226299c.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shel-gam-aval",
+      "titol": "«De» de possessió, «també» i «però»",
+      "explicacio": "שֶׁל marca qui té què i és un mot independent. גַּם va davant del que s'afegeix; אֲבָל vol dir «però».",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u01-g-shel-gam-aval-0",
+          "text": {
+            "u": "החבר של שרה",
+            "n": "הַחָבֵר שֶׁל שָׂרָה",
+            "extraVocals": true
+          },
+          "ca": "l'amic de la Sara",
+          "perComprovar": false,
+          "audio": {
+            "normal": "10aad42debdd.m4a",
+            "lent": "74493d2cb8a7.m4a"
+          }
+        },
+        {
+          "id": "u01-g-shel-gam-aval-1",
+          "text": {
+            "u": "גם אני תלמיד.",
+            "n": "גַּם אֲנִי תַּלְמִיד.",
+            "extraVocals": true
+          },
+          "ca": "Jo també sóc alumne.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "8a077adc5b58.m4a",
+            "lent": "f29a2213eab7.m4a"
+          }
+        },
+        {
+          "id": "u01-g-shel-gam-aval-2",
+          "text": {
+            "u": "גם היא מדרום-אמריקה, אבל לא מאורוגואי.",
+            "n": "גַּם הִיא מִדְּרוֹם-אֲמֶרִיקָה, אֲבָל לֹא מֵאוּרוּגְוַאי.",
+            "extraVocals": true
+          },
+          "ca": "També és de Sud-amèrica, però no de l'Uruguai.",
+          "perComprovar": false,
+          "extra": true,
+          "audio": {
+            "normal": "c6baa3170a3c.m4a",
+            "lent": "7da830a6ff68.m4a"
+          }
+        }
+      ]
+    }
+  ],
   "textos": [
     {
       "id": "pag-02-b0",
@@ -614,97 +1108,121 @@
         {
           "id": "pag-02-b0-l0",
           "text": {
-            "u": "שלום, אני רוברטו."
+            "u": "שלום, אני רוברטו.",
+            "n": "שָׁלוֹם, אֲנִי רוֹבֶּרְטוֹ.",
+            "extraVocals": true
           },
           "perComprovar": false,
           "qui": "רוברטו",
+          "ca": "Hola, sóc el Roberto.",
           "audio": {
-            "normal": "a6e67ece011e.m4a",
-            "lent": "deb339eeb2a1.m4a"
+            "normal": "e419a83b285c.m4a",
+            "lent": "dbb6d692b0bc.m4a"
           }
         },
         {
           "id": "pag-02-b0-l1",
           "text": {
-            "u": "אני דוריס."
+            "u": "אני דוריס.",
+            "n": "אֲנִי דּוֹרִיס.",
+            "extraVocals": true
           },
           "perComprovar": false,
           "qui": "דוריס",
+          "ca": "Jo sóc la Doris.",
           "audio": {
-            "normal": "50cd1a91653c.m4a",
-            "lent": "8c85c11c1fdf.m4a"
+            "normal": "d8ab2f2f55f9.m4a",
+            "lent": "770aad4c4a2b.m4a"
           }
         },
         {
           "id": "pag-02-b0-l2",
           "text": {
-            "u": "נעים מאוד."
+            "u": "נעים מאוד.",
+            "n": "נָעִים מְאוֹד.",
+            "extraVocals": true
           },
           "perComprovar": false,
           "qui": "רוברטו",
+          "ca": "Molt de gust.",
           "audio": {
-            "normal": "96edde9176aa.m4a",
-            "lent": "57081a44b56a.m4a"
+            "normal": "8d6d5b871587.m4a",
+            "lent": "b4fbb413dffa.m4a"
           }
         },
         {
           "id": "pag-02-b0-l3",
           "text": {
-            "u": "נעים מאוד. אתה תלמיד?"
+            "u": "נעים מאוד. אתה תלמיד?",
+            "n": "נָעִים מְאוֹד. אַתָּה תַּלְמִיד?",
+            "extraVocals": true
           },
           "perComprovar": false,
           "qui": "דוריס",
+          "ca": "Molt de gust. Ets alumne?",
           "audio": {
-            "normal": "3647bd395f53.m4a",
-            "lent": "223b364d27a4.m4a"
+            "normal": "e04b81d09fa2.m4a",
+            "lent": "9bce5c258b26.m4a"
           }
         },
         {
           "id": "pag-02-b0-l4",
           "text": {
-            "u": "כן, אני תלמיד. את תלמידה?"
+            "u": "כן, אני תלמיד. את תלמידה?",
+            "n": "כֵּן, אֲנִי תַּלְמִיד. אַתְּ תַּלְמִידָה?",
+            "extraVocals": true
           },
           "perComprovar": false,
           "qui": "רוברטו",
+          "ca": "Sí, sóc alumne. I tu, ets alumna?",
           "audio": {
-            "normal": "b3abcf39f394.m4a",
-            "lent": "a93c01ac100d.m4a"
+            "normal": "fb9866a1053e.m4a",
+            "lent": "5e9c20e51cc1.m4a"
           }
         },
         {
           "id": "pag-02-b0-l5",
           "text": {
-            "u": "כן, אני תלמידה."
+            "u": "כן, אני תלמידה.",
+            "n": "כֵּן, אֲנִי תַּלְמִידָה.",
+            "extraVocals": true
           },
           "perComprovar": false,
           "qui": "דוריס",
+          "ca": "Sí, sóc alumna.",
           "audio": {
-            "normal": "dcc3d6632a15.m4a",
-            "lent": "a933ba47d5d3.m4a"
+            "normal": "38e98a6346c6.m4a",
+            "lent": "0b38743d1480.m4a"
           }
         },
         {
           "id": "pag-02-b0-l6",
           "text": {
-            "u": "את עולה חדשה?"
+            "u": "את עולה חדשה?",
+            "n": "אַתְּ עוֹלָה חֲדָשָׁה?",
+            "extraVocals": true
           },
           "perComprovar": false,
           "qui": "רוברטו",
+          "ca": "Ets una immigrant nova?",
           "audio": {
-            "normal": "0366a0d53da5.m4a",
-            "lent": "e09c245eba07.m4a"
+            "normal": "5076ded6ba51.m4a",
+            "lent": "63653cf77fea.m4a"
           }
         },
         {
           "id": "pag-02-b0-l7",
           "text": {
-            "u": "לא, אני לא עולה חדשה."
+            "u": "לא, אני לא עולה חדשה.",
+            "n": "לֹא, אֲנִי לֹא עוֹלָה חֲדָשָׁה.",
+            "extraVocals": true
           },
           "perComprovar": false,
           "qui": "דוריס",
+          "ca": "No, no sóc una immigrant nova.",
           "audio": {
-            "normal": "031d4452f997.m4a",
-            "lent": "675ee0f959b2.m4a"
+            "normal": "637ef9968340.m4a",
+            "lent": "28409f152786.m4a"
           }
         },
         {
@@ -712,41 +1230,52 @@
           "text": {
             "u": "אני תיירת. אני תיירת מֵאַנְגְלִיָּה."
           },
-          "perComprovar": true
+          "perComprovar": true,
+          "qui": "דוריס"
         },
         {
           "id": "pag-02-b0-l9",
           "text": {
-            "u": "אתה תייר?"
+            "u": "אתה תייר?",
+            "n": "אַתָּה תַּייָּר?",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "qui": "דוריס",
+          "ca": "Tu ets turista?",
           "audio": {
-            "normal": "bceed02664a8.m4a",
-            "lent": "cb1865a145b8.m4a"
+            "normal": "826a9de0de30.m4a",
+            "lent": "56efdcce5dae.m4a"
           }
         },
         {
           "id": "pag-02-b0-l10",
           "text": {
-            "u": "לא, אני לא תייר. סטיב תייר."
+            "u": "לא, אני לא תייר. סטיב תייר.",
+            "n": "לֹא, אֲנִי לֹא תַּייָּר. סְטִיב תַּייָּר.",
+            "extraVocals": true
           },
           "perComprovar": false,
           "qui": "רוברטו",
+          "ca": "No, no sóc turista. L'Steve és turista.",
           "audio": {
-            "normal": "91ced3696cdf.m4a",
-            "lent": "1f08f7039945.m4a"
+            "normal": "864c8184cff7.m4a",
+            "lent": "9332dd69a274.m4a"
           }
         },
         {
           "id": "pag-02-b0-l11",
           "text": {
-            "u": "ואתה?"
+            "u": "ואתה?",
+            "n": "וְאַתָּה?",
+            "extraVocals": true
           },
           "perComprovar": false,
           "qui": "דוריס",
+          "ca": "I tu?",
           "audio": {
-            "normal": "ce357634dc77.m4a",
-            "lent": "2154ef7562b1.m4a"
+            "normal": "2b4ca411076d.m4a",
+            "lent": "058195ae0da3.m4a"
           }
         },
         {
@@ -772,23 +1301,29 @@
         {
           "id": "pag-02-b1-l0",
           "text": {
-            "u": "הוּא · רוברטו תלמיד. · הוא עולה חדש. · הוא לא תייר."
+            "u": "הוּא · רוברטו תלמיד. · הוא עולה חדש. · הוא לא תייר.",
+            "n": "הוּא · רוֹבֶּרְטוֹ תַּלְמִיד. · הוּא עוֹלֶה חָדָשׁ. · הוּא לֹא תַּייָּר.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Ell · el Roberto és alumne. · És un immigrant nou. · No és turista.",
           "audio": {
-            "normal": "bb547b3252fd.m4a",
-            "lent": "158858c01391.m4a"
+            "normal": "b98d1e17f5d2.m4a",
+            "lent": "280cdd998efc.m4a"
           }
         },
         {
           "id": "pag-02-b1-l1",
           "text": {
-            "u": "הִיא · דוריס תלמידה. · היא לא עולה חדשה. · היא תיירת."
+            "u": "הִיא · דוריס תלמידה. · היא לא עולה חדשה. · היא תיירת.",
+            "n": "הִיא · דּוֹרִיס תַּלְמִידָה. · הִיא לֹא עוֹלָה חֲדָשָׁה. · הִיא תַּייֶּרֶת.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Ella · la Doris és alumna. · No és una immigrant nova. · És turista.",
           "audio": {
-            "normal": "5bcd4ae5c1a9.m4a",
-            "lent": "626c934b1841.m4a"
+            "normal": "c6f61b699475.m4a",
+            "lent": "a4347520ee5a.m4a"
           }
         }
       ]
@@ -809,6 +1344,7 @@
             "u": "מִי אַתָּה?"
           },
           "perComprovar": false,
+          "ca": "Qui ets?",
           "audio": {
             "normal": "d1a39f9812eb.m4a",
             "lent": "49cd213b7e5c.m4a"
@@ -843,12 +1379,15 @@
         {
           "id": "pag-03-b1-l2",
           "text": {
-            "u": "לא, אני לא מוֹרֶה."
+            "u": "לא, אני לא מוֹרֶה.",
+            "n": "לֹא, אֲנִי לֹא מוֹרֶה.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "No, no sóc mestre.",
           "audio": {
-            "normal": "5ae790970161.m4a",
-            "lent": "47d639a567e1.m4a"
+            "normal": "9a594683a97f.m4a",
+            "lent": "711aeeb1abc2.m4a"
           }
         },
         {
@@ -861,23 +1400,29 @@
         {
           "id": "pag-03-b1-l4",
           "text": {
-            "u": "אתה תלמיד טוב?"
+            "u": "אתה תלמיד טוב?",
+            "n": "אַתָּה תַּלְמִיד טוֹב?",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Ets un bon alumne?",
           "audio": {
-            "normal": "0041555f6e73.m4a",
-            "lent": "b2f4b092d0f1.m4a"
+            "normal": "23ad08a18f01.m4a",
+            "lent": "0580c2fe2a2f.m4a"
           }
         },
         {
           "id": "pag-03-b1-l5",
           "text": {
-            "u": "כן, אני תלמיד טוב."
+            "u": "כן, אני תלמיד טוב.",
+            "n": "כֵּן, אֲנִי תַּלְמִיד טוֹב.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Sí, sóc un bon alumne.",
           "audio": {
-            "normal": "4023715cfc58.m4a",
-            "lent": "7202e141de59.m4a"
+            "normal": "3f376107d509.m4a",
+            "lent": "da6538317040.m4a"
           }
         }
       ]
@@ -895,34 +1440,43 @@
         {
           "id": "pag-03-b2-l0",
           "text": {
-            "u": "אני שָׂרָה לוי."
+            "u": "אני שָׂרָה לוי.",
+            "n": "אֲנִי שָׂרָה לֵוִי.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Sóc la Sara Leví.",
           "audio": {
-            "normal": "8e6e67ec3ce5.m4a",
-            "lent": "04f0af3761b5.m4a"
+            "normal": "3c126aeecfc4.m4a",
+            "lent": "38a1ddb52773.m4a"
           }
         },
         {
           "id": "pag-03-b2-l1",
           "text": {
-            "u": "גברת לוי, את מוֹרָה?"
+            "u": "גברת לוי, את מוֹרָה?",
+            "n": "גְּבֶרֶת לֵוִי, אַתְּ מוֹרָה?",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Senyora Leví, és mestra?",
           "audio": {
-            "normal": "4561ca192783.m4a",
-            "lent": "837241572117.m4a"
+            "normal": "c33d0fd829cc.m4a",
+            "lent": "f32a4588555f.m4a"
           }
         },
         {
           "id": "pag-03-b2-l2",
           "text": {
-            "u": "לא, אני לא מוֹרָה. אני תלמידה."
+            "u": "לא, אני לא מוֹרָה. אני תלמידה.",
+            "n": "לֹא, אֲנִי לֹא מוֹרָה. אֲנִי תַּלְמִידָה.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "No, no sóc mestra. Sóc alumna.",
           "audio": {
-            "normal": "206988995b11.m4a",
-            "lent": "70a538d1f9bd.m4a"
+            "normal": "0a095d7af4b7.m4a",
+            "lent": "c453ead3a0ec.m4a"
           }
         },
         {
@@ -935,23 +1489,29 @@
         {
           "id": "pag-03-b2-l4",
           "text": {
-            "u": "את תלמידה טובה?"
+            "u": "את תלמידה טובה?",
+            "n": "אַתְּ תַּלְמִידָה טוֹבָה?",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "És una bona alumna?",
           "audio": {
-            "normal": "fe8860d913d7.m4a",
-            "lent": "5fb4968ae7e4.m4a"
+            "normal": "eeb886cad4c6.m4a",
+            "lent": "b48fca66ae9b.m4a"
           }
         },
         {
           "id": "pag-03-b2-l5",
           "text": {
-            "u": "לא, אני תלמידה לא טובה."
+            "u": "לא, אני תלמידה לא טובה.",
+            "n": "לֹא, אֲנִי תַּלְמִידָה לֹא טוֹבָה.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "No, no sóc una bona alumna.",
           "audio": {
-            "normal": "2ea9eec50bf1.m4a",
-            "lent": "727ae37b4f54.m4a"
+            "normal": "c4ae13919af2.m4a",
+            "lent": "222946be66d7.m4a"
           }
         }
       ]
@@ -969,12 +1529,15 @@
         {
           "id": "pag-04-b0-l0",
           "text": {
-            "u": "הוא סטיב."
+            "u": "הוא סטיב.",
+            "n": "הוּא סְטִיב.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "És l'Steve.",
           "audio": {
-            "normal": "0cb5fba7efd4.m4a",
-            "lent": "700f2d229c3a.m4a"
+            "normal": "eb8fa2b0e495.m4a",
+            "lent": "19015aa98252.m4a"
           }
         },
         {
@@ -1001,34 +1564,43 @@
         {
           "id": "pag-04-b0-l4",
           "text": {
-            "u": "כן, הוא חבר של דוריס."
+            "u": "כן, הוא חבר של דוריס.",
+            "n": "כֵּן, הוּא חָבֵר שֶׁל דּוֹרִיס.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Sí, és amic de la Doris.",
           "audio": {
-            "normal": "4621af40f403.m4a",
-            "lent": "7a18fd009c6e.m4a"
+            "normal": "f9cac39420e9.m4a",
+            "lent": "2874feac976c.m4a"
           }
         },
         {
           "id": "pag-04-b0-l5",
           "text": {
-            "u": "סטיב חבר טוב?"
+            "u": "סטיב חבר טוב?",
+            "n": "סְטִיב חָבֵר טוֹב?",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "L'Steve és un bon amic?",
           "audio": {
-            "normal": "c0f8531712bd.m4a",
-            "lent": "6bc8caf20c5f.m4a"
+            "normal": "b5afadc69455.m4a",
+            "lent": "79c88f2d1e23.m4a"
           }
         },
         {
           "id": "pag-04-b0-l6",
           "text": {
-            "u": "כן, סטיב חבר טוב מאוד."
+            "u": "כן, סטיב חבר טוב מאוד.",
+            "n": "כֵּן, סְטִיב חָבֵר טוֹב מְאוֹד.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Sí, l'Steve és molt bon amic.",
           "audio": {
-            "normal": "5610cf1d7fac.m4a",
-            "lent": "f3d7df453bf7.m4a"
+            "normal": "0892ca7a4560.m4a",
+            "lent": "7ed423ec95f8.m4a"
           }
         }
       ]
@@ -1046,12 +1618,15 @@
         {
           "id": "pag-04-b1-l0",
           "text": {
-            "u": "היא דוריס."
+            "u": "היא דוריס.",
+            "n": "הִיא דּוֹרִיס.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "És la Doris.",
           "audio": {
-            "normal": "00cab1a8ab52.m4a",
-            "lent": "ea737b9f95fa.m4a"
+            "normal": "878ed98f1cd5.m4a",
+            "lent": "1a69b4f5c07c.m4a"
           }
         },
         {
@@ -1071,45 +1646,57 @@
         {
           "id": "pag-04-b1-l3",
           "text": {
-            "u": "דוריס חברה של סטיב?"
+            "u": "דוריס חברה של סטיב?",
+            "n": "דּוֹרִיס חֲבֵרָה שֶׁל סְטִיב?",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "La Doris és amiga de l'Steve?",
           "audio": {
-            "normal": "a46ccd1ab3bb.m4a",
-            "lent": "3712e42e5118.m4a"
+            "normal": "9933ef581a9d.m4a",
+            "lent": "d32b225f339f.m4a"
           }
         },
         {
           "id": "pag-04-b1-l4",
           "text": {
-            "u": "כן, היא חברה של סטיב."
+            "u": "כן, היא חברה של סטיב.",
+            "n": "כֵּן, הִיא חֲבֵרָה שֶׁל סְטִיב.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Sí, és amiga de l'Steve.",
           "audio": {
-            "normal": "66181b61dc16.m4a",
-            "lent": "3588bbe650be.m4a"
+            "normal": "f2c8cf341919.m4a",
+            "lent": "e7f7ef01d3e1.m4a"
           }
         },
         {
           "id": "pag-04-b1-l5",
           "text": {
-            "u": "דוריס חברה טובה?"
+            "u": "דוריס חברה טובה?",
+            "n": "דּוֹרִיס חֲבֵרָה טוֹבָה?",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "La Doris és una bona amiga?",
           "audio": {
-            "normal": "087bbe5a5fcf.m4a",
-            "lent": "a07d7272a52d.m4a"
+            "normal": "93d966247a6e.m4a",
+            "lent": "d1cab095ae71.m4a"
           }
         },
         {
           "id": "pag-04-b1-l6",
           "text": {
-            "u": "כן, היא חברה טובה מאוד."
+            "u": "כן, היא חברה טובה מאוד.",
+            "n": "כֵּן, הִיא חֲבֵרָה טוֹבָה מְאוֹד.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Sí, és molt bona amiga.",
           "audio": {
-            "normal": "70bb094c7c0e.m4a",
-            "lent": "b2f502cec0c7.m4a"
+            "normal": "4e486f96cfc7.m4a",
+            "lent": "77ccff2a3c2f.m4a"
           }
         }
       ]
@@ -1127,34 +1714,43 @@
         {
           "id": "pag-04-b2-l0",
           "text": {
-            "u": "יצחק תלמיד טוב. · שרה תלמידה לא טובה."
+            "u": "יצחק תלמיד טוב. · שרה תלמידה לא טובה.",
+            "n": "יִצְחָק תַּלְמִיד טוֹב. · שָׂרָה תַּלְמִידָה לֹא טוֹבָה.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "L'Itshak és un bon alumne. · La Sara no és una bona alumna.",
           "audio": {
-            "normal": "cac392fa62b1.m4a",
-            "lent": "b20e3bdf70e6.m4a"
+            "normal": "e11ae44fab1f.m4a",
+            "lent": "595c95ce10ce.m4a"
           }
         },
         {
           "id": "pag-04-b2-l1",
           "text": {
-            "u": "יוסף מורה טוב. · דבורה מורה טובה."
+            "u": "יוסף מורה טוב. · דבורה מורה טובה.",
+            "n": "יוֹסֵף מוֹרֶה טוֹב. · דְּבוֹרָה מוֹרָה טוֹבָה.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "El Iossef és un bon mestre. · La Dvorà és una bona mestra.",
           "audio": {
-            "normal": "3688236431da.m4a",
-            "lent": "9bf135f70bca.m4a"
+            "normal": "697de195e1cd.m4a",
+            "lent": "da5cca4bc226.m4a"
           }
         },
         {
           "id": "pag-04-b2-l2",
           "text": {
-            "u": "סטיב חבר טוב. · דוריס חברה טובה."
+            "u": "סטיב חבר טוב. · דוריס חברה טובה.",
+            "n": "סְטִיב חָבֵר טוֹב. · דּוֹרִיס חֲבֵרָה טוֹבָה.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "L'Steve és un bon amic. · La Doris és una bona amiga.",
           "audio": {
-            "normal": "2b47baf00b8f.m4a",
-            "lent": "1cbb5ee935a7.m4a"
+            "normal": "da9e9bf2e4e5.m4a",
+            "lent": "487ddb5b64a8.m4a"
           }
         }
       ]
@@ -1179,23 +1775,29 @@
         {
           "id": "pag-05-b0-l1",
           "text": {
-            "u": "אתם תלמידים?"
+            "u": "אתם תלמידים?",
+            "n": "אַתֶּם תַּלְמִידִים?",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Sou alumnes?",
           "audio": {
-            "normal": "196137d9354a.m4a",
-            "lent": "d2e2b0a74e93.m4a"
+            "normal": "f22485ea07e5.m4a",
+            "lent": "d83725e13d40.m4a"
           }
         },
         {
           "id": "pag-05-b0-l2",
           "text": {
-            "u": "לא, אנחנו מורים."
+            "u": "לא, אנחנו מורים.",
+            "n": "לֹא, אֲנַחְנוּ מוֹרִים.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "No, som mestres.",
           "audio": {
-            "normal": "924d81c4ca7f.m4a",
-            "lent": "121353459f3b.m4a"
+            "normal": "c2e451122e8e.m4a",
+            "lent": "8b1b76636a21.m4a"
           }
         },
         {
@@ -1227,34 +1829,43 @@
         {
           "id": "pag-05-b1-l1",
           "text": {
-            "u": "אתן מורות?"
+            "u": "אתן מורות?",
+            "n": "אַתֶּן מוֹרוֹת?",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Sou mestres?",
           "audio": {
-            "normal": "45269bba4f97.m4a",
-            "lent": "bf96e046fc97.m4a"
+            "normal": "3c5e21182d2a.m4a",
+            "lent": "430f87eb6a5c.m4a"
           }
         },
         {
           "id": "pag-05-b1-l2",
           "text": {
-            "u": "לא, אנחנו תלמידות."
+            "u": "לא, אנחנו תלמידות.",
+            "n": "לֹא, אֲנַחְנוּ תַּלְמִידוֹת.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "No, som alumnes.",
           "audio": {
-            "normal": "6d9240cd561c.m4a",
-            "lent": "09703a438666.m4a"
+            "normal": "a11ba3f4da0d.m4a",
+            "lent": "8b2976496a89.m4a"
           }
         },
         {
           "id": "pag-05-b1-l3",
           "text": {
-            "u": "אנחנו התלמידות של צפורה."
+            "u": "אנחנו התלמידות של צפורה.",
+            "n": "אֲנַחְנוּ הַתַּלְמִידוֹת שֶׁל צִפּוֹרָה.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Som les alumnes de la Tsiporà.",
           "audio": {
-            "normal": "29eba9170cb6.m4a",
-            "lent": "947a548e5228.m4a"
+            "normal": "b4652419005a.m4a",
+            "lent": "9cafb2244dbb.m4a"
           }
         }
       ]
@@ -1279,45 +1890,57 @@
         {
           "id": "pag-05-b2-l1",
           "text": {
-            "u": "הם תיירים?"
+            "u": "הם תיירים?",
+            "n": "הֵם תַּייָּרִים?",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Són turistes?",
           "audio": {
-            "normal": "ce76212c0a5b.m4a",
-            "lent": "4768eeee5f55.m4a"
+            "normal": "622835da0b23.m4a",
+            "lent": "0a4f5525d998.m4a"
           }
         },
         {
           "id": "pag-05-b2-l2",
           "text": {
-            "u": "לא, הם עולים חדשים מברזיל."
+            "u": "לא, הם עולים חדשים מברזיל.",
+            "n": "לֹא, הֵם עוֹלִים חֲדָשִׁים מִבְּרָזִיל.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "No, són immigrants nous del Brasil.",
           "audio": {
-            "normal": "7c7d4017bbe8.m4a",
-            "lent": "01ba065a2d9b.m4a"
+            "normal": "8ced19c66b0a.m4a",
+            "lent": "9b0004d6dc3f.m4a"
           }
         },
         {
           "id": "pag-05-b2-l3",
           "text": {
-            "u": "הם חברים?"
+            "u": "הם חברים?",
+            "n": "הֵם חֲבֵרִים?",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Són amics?",
           "audio": {
-            "normal": "9c299a82f6f7.m4a",
-            "lent": "a6784820df37.m4a"
+            "normal": "3f925b6d470d.m4a",
+            "lent": "6e223535db70.m4a"
           }
         },
         {
           "id": "pag-05-b2-l4",
           "text": {
-            "u": "כן, הם חברים טובים."
+            "u": "כן, הם חברים טובים.",
+            "n": "כֵּן, הֵם חֲבֵרִים טוֹבִים.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Sí, són bons amics.",
           "audio": {
-            "normal": "51eb723dda1c.m4a",
-            "lent": "aca37e0c5ed0.m4a"
+            "normal": "e31ee899c8c5.m4a",
+            "lent": "35c6e482a8b7.m4a"
           }
         }
       ]
@@ -1342,45 +1965,57 @@
         {
           "id": "pag-05-b3-l1",
           "text": {
-            "u": "הן תיירות?"
+            "u": "הן תיירות?",
+            "n": "הֵן תַּייָּרוֹת?",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Són turistes?",
           "audio": {
-            "normal": "221beb518299.m4a",
-            "lent": "1bea8cd58220.m4a"
+            "normal": "d1294f5fd1cf.m4a",
+            "lent": "c77f2331d286.m4a"
           }
         },
         {
           "id": "pag-05-b3-l2",
           "text": {
-            "u": "לא, הן עולות חדשות מברזיל."
+            "u": "לא, הן עולות חדשות מברזיל.",
+            "n": "לֹא, הֵן עוֹלוֹת חֲדָשׁוֹת מִבְּרָזִיל.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "No, són immigrants noves del Brasil.",
           "audio": {
-            "normal": "363bab13e619.m4a",
-            "lent": "394f57fc68f2.m4a"
+            "normal": "6b07eb5758ff.m4a",
+            "lent": "dfbc728e80e8.m4a"
           }
         },
         {
           "id": "pag-05-b3-l3",
           "text": {
-            "u": "הן חברות?"
+            "u": "הן חברות?",
+            "n": "הֵן חֲבֵרוֹת?",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Són amigues?",
           "audio": {
-            "normal": "784cc1a166ba.m4a",
-            "lent": "baa40dab3e86.m4a"
+            "normal": "6288f51bf058.m4a",
+            "lent": "794e3e05f181.m4a"
           }
         },
         {
           "id": "pag-05-b3-l4",
           "text": {
-            "u": "כן, הן חברות טובות."
+            "u": "כן, הן חברות טובות.",
+            "n": "כֵּן, הֵן חֲבֵרוֹת טוֹבוֹת.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Sí, són bones amigues.",
           "audio": {
-            "normal": "47e242f1d154.m4a",
-            "lent": "b6742f6123ad.m4a"
+            "normal": "b271327fa365.m4a",
+            "lent": "d0781b369686.m4a"
           }
         }
       ]
@@ -1398,89 +2033,113 @@
         {
           "id": "pag-06-b0-l0",
           "text": {
-            "u": "צפורה ויוסף מורים. · שושנה ורחל לא מורות."
+            "u": "צפורה ויוסף מורים. · שושנה ורחל לא מורות.",
+            "n": "צִפּוֹרָה וְיוֹסֵף מוֹרִים. · שׁוֹשַׁנָּה וְרָחֵל לֹא מוֹרוֹת.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "La Tsiporà i el Iossef són mestres. · La Xoixanà i la Rakhel no són mestres.",
           "audio": {
-            "normal": "26e539de54ac.m4a",
-            "lent": "df0f035e901f.m4a"
+            "normal": "85b94ab6a357.m4a",
+            "lent": "f190cbf5fa5f.m4a"
           }
         },
         {
           "id": "pag-06-b0-l1",
           "text": {
-            "u": "רוברטו ועמנואל תלמידים. · שושנה ורחל תלמידות."
+            "u": "רוברטו ועמנואל תלמידים. · שושנה ורחל תלמידות.",
+            "n": "רוֹבֶּרְטוֹ וְעִמָּנוּאֵל תַּלְמִידִים. · שׁוֹשַׁנָּה וְרָחֵל תַּלְמִידוֹת.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "El Roberto i l'Emanuel són alumnes. · La Xoixanà i la Rakhel són alumnes.",
           "audio": {
-            "normal": "81561650594f.m4a",
-            "lent": "f8d9cd7242d5.m4a"
+            "normal": "20c339ce9ed0.m4a",
+            "lent": "f2173e09d616.m4a"
           }
         },
         {
           "id": "pag-06-b0-l2",
           "text": {
-            "u": "הם תלמידים חדשים. · הן תלמידות חדשות."
+            "u": "הם תלמידים חדשים. · הן תלמידות חדשות.",
+            "n": "הֵם תַּלְמִידִים חֲדָשִׁים. · הֵן תַּלְמִידוֹת חֲדָשׁוֹת.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Són alumnes nous. · Són alumnes noves.",
           "audio": {
-            "normal": "b6e45900da50.m4a",
-            "lent": "6846bd0fb687.m4a"
+            "normal": "87d7cf4c42d8.m4a",
+            "lent": "c9b0777443a4.m4a"
           }
         },
         {
           "id": "pag-06-b0-l3",
           "text": {
-            "u": "הם תלמידים טובים. · הן תלמידות טובות."
+            "u": "הם תלמידים טובים. · הן תלמידות טובות.",
+            "n": "הֵם תַּלְמִידִים טוֹבִים. · הֵן תַּלְמִידוֹת טוֹבוֹת.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Són bons alumnes. · Són bones alumnes.",
           "audio": {
-            "normal": "4d0b0b24c2da.m4a",
-            "lent": "b47be933c22e.m4a"
+            "normal": "e33cc6ead153.m4a",
+            "lent": "9dc5331f0263.m4a"
           }
         },
         {
           "id": "pag-06-b0-l4",
           "text": {
-            "u": "הם לא תיירים. · הן לא תיירות."
+            "u": "הם לא תיירים. · הן לא תיירות.",
+            "n": "הֵם לֹא תַּייָּרִים. · הֵן לֹא תַּייָּרוֹת.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "No són turistes. · No són turistes.",
           "audio": {
-            "normal": "cb83c4111730.m4a",
-            "lent": "d161bf082a91.m4a"
+            "normal": "63b6c7cfe28d.m4a",
+            "lent": "a71b4da016c6.m4a"
           }
         },
         {
           "id": "pag-06-b0-l5",
           "text": {
-            "u": "הם עולים חדשים. · הן עולות חדשות."
+            "u": "הם עולים חדשים. · הן עולות חדשות.",
+            "n": "הֵם עוֹלִים חֲדָשִׁים. · הֵן עוֹלוֹת חֲדָשׁוֹת.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Són immigrants nous. · Són immigrants noves.",
           "audio": {
-            "normal": "e77210c01ae1.m4a",
-            "lent": "a50d61695c85.m4a"
+            "normal": "b9229becb8eb.m4a",
+            "lent": "24ba01d340be.m4a"
           }
         },
         {
           "id": "pag-06-b0-l6",
           "text": {
-            "u": "רוברטו ועמנואל חברים. · שושנה ורחל חברות."
+            "u": "רוברטו ועמנואל חברים. · שושנה ורחל חברות.",
+            "n": "רוֹבֶּרְטוֹ וְעִמָּנוּאֵל חֲבֵרִים. · שׁוֹשַׁנָּה וְרָחֵל חֲבֵרוֹת.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "El Roberto i l'Emanuel són amics. · La Xoixanà i la Rakhel són amigues.",
           "audio": {
-            "normal": "6a8c2a55743b.m4a",
-            "lent": "ed6c317438f9.m4a"
+            "normal": "365afec3241b.m4a",
+            "lent": "f513125bd0cf.m4a"
           }
         },
         {
           "id": "pag-06-b0-l7",
           "text": {
-            "u": "הם חברים טובים. · הן חברות טובות."
+            "u": "הם חברים טובים. · הן חברות טובות.",
+            "n": "הֵם חֲבֵרִים טוֹבִים. · הֵן חֲבֵרוֹת טוֹבוֹת.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Són bons amics. · Són bones amigues.",
           "audio": {
-            "normal": "e7a969bfa836.m4a",
-            "lent": "f494fcd197f1.m4a"
+            "normal": "f19720589257.m4a",
+            "lent": "619fe20224c5.m4a"
           }
         }
       ]
@@ -1498,34 +2157,43 @@
         {
           "id": "pag-06-b1-l0",
           "text": {
-            "u": "אני · תייר"
+            "u": "אני · תייר",
+            "n": "אֲנִי · תַּייָּר",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "jo · turista",
           "audio": {
-            "normal": "1935bf9f7c66.m4a",
-            "lent": "51d067e88fe4.m4a"
+            "normal": "db0697aa287f.m4a",
+            "lent": "286e70ceb2e7.m4a"
           }
         },
         {
           "id": "pag-06-b1-l1",
           "text": {
-            "u": "אתה · תלמיד"
+            "u": "אתה · תלמיד",
+            "n": "אַתָּה · תַּלְמִיד",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "tu · alumne",
           "audio": {
-            "normal": "96d73760160a.m4a",
-            "lent": "62726a0a99b6.m4a"
+            "normal": "bc5644726618.m4a",
+            "lent": "97591350d868.m4a"
           }
         },
         {
           "id": "pag-06-b1-l2",
           "text": {
-            "u": "הוא · מוֹרֶה"
+            "u": "הוא · מוֹרֶה",
+            "n": "הוּא · מוֹרֶה",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "ell · mestre",
           "audio": {
-            "normal": "70fa67339e38.m4a",
-            "lent": "c6a5b8904d07.m4a"
+            "normal": "9c5579d159e4.m4a",
+            "lent": "b0cfe94dcd57.m4a"
           }
         },
         {
@@ -1534,6 +2202,7 @@
             "u": "עוֹלֶה"
           },
           "perComprovar": false,
+          "ca": "immigrant",
           "audio": {
             "normal": "abd53ac5eae0.m4a",
             "lent": "0f1031c5c45e.m4a"
@@ -1568,12 +2237,15 @@
         {
           "id": "pag-06-b2-l2",
           "text": {
-            "u": "היא · מוֹרָה"
+            "u": "היא · מוֹרָה",
+            "n": "הִיא · מוֹרָה",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "ella · mestra",
           "audio": {
-            "normal": "4032daed32bc.m4a",
-            "lent": "8cb820275c32.m4a"
+            "normal": "bf5d94b21ee4.m4a",
+            "lent": "a764931fd0ca.m4a"
           }
         },
         {
@@ -1582,6 +2254,7 @@
             "u": "עוֹלָה"
           },
           "perComprovar": false,
+          "ca": "immigrant",
           "audio": {
             "normal": "25b6a962f0d9.m4a",
             "lent": "0cebb9502ff7.m4a"
@@ -1602,45 +2275,57 @@
         {
           "id": "pag-06-b3-l0",
           "text": {
-            "u": "אנחנו · תיירים"
+            "u": "אנחנו · תיירים",
+            "n": "אֲנַחְנוּ · תַּייָּרִים",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "nosaltres · turistes",
           "audio": {
-            "normal": "6d9bc12ca6b0.m4a",
-            "lent": "a61ffb361537.m4a"
+            "normal": "7f0669374739.m4a",
+            "lent": "dd92de379e0b.m4a"
           }
         },
         {
           "id": "pag-06-b3-l1",
           "text": {
-            "u": "אתם · תלמידים"
+            "u": "אתם · תלמידים",
+            "n": "אַתֶּם · תַּלְמִידִים",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "vosaltres · alumnes",
           "audio": {
-            "normal": "e7e07c700f9f.m4a",
-            "lent": "fb2ae035c5ab.m4a"
+            "normal": "740c71050493.m4a",
+            "lent": "88cf32d81b33.m4a"
           }
         },
         {
           "id": "pag-06-b3-l2",
           "text": {
-            "u": "הם · מורים"
+            "u": "הם · מורים",
+            "n": "הֵם · מוֹרִים",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "ells · mestres",
           "audio": {
-            "normal": "9a4f341d11d5.m4a",
-            "lent": "961c710d016a.m4a"
+            "normal": "5e92a0366e63.m4a",
+            "lent": "880306bb58c1.m4a"
           }
         },
         {
           "id": "pag-06-b3-l3",
           "text": {
-            "u": "עולים"
+            "u": "עולים",
+            "n": "עוֹלִים",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "immigrants",
           "audio": {
-            "normal": "79b8c87cd080.m4a",
-            "lent": "e986d3889903.m4a"
+            "normal": "8f9240fd5ff5.m4a",
+            "lent": "d1b98676d8d9.m4a"
           }
         }
       ]
@@ -1658,45 +2343,57 @@
         {
           "id": "pag-06-b4-l0",
           "text": {
-            "u": "אנחנו · תיירות"
+            "u": "אנחנו · תיירות",
+            "n": "אֲנַחְנוּ · תַּייָּרוֹת",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "nosaltres · turistes",
           "audio": {
-            "normal": "b85d31bf9d11.m4a",
-            "lent": "139d2088468c.m4a"
+            "normal": "054f6e2bffed.m4a",
+            "lent": "182582c54e50.m4a"
           }
         },
         {
           "id": "pag-06-b4-l1",
           "text": {
-            "u": "אתן · תלמידות"
+            "u": "אתן · תלמידות",
+            "n": "אַתֶּן · תַּלְמִידוֹת",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "vosaltres · alumnes",
           "audio": {
-            "normal": "eeb3739d306e.m4a",
-            "lent": "451dbdcce216.m4a"
+            "normal": "cdcc1edcf3d0.m4a",
+            "lent": "1fd2e8a5a536.m4a"
           }
         },
         {
           "id": "pag-06-b4-l2",
           "text": {
-            "u": "הן · מורות"
+            "u": "הן · מורות",
+            "n": "הֵן · מוֹרוֹת",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "elles · mestres",
           "audio": {
-            "normal": "03a520ef014c.m4a",
-            "lent": "3857e19d19c2.m4a"
+            "normal": "f33e5143da14.m4a",
+            "lent": "dc468e0cc499.m4a"
           }
         },
         {
           "id": "pag-06-b4-l3",
           "text": {
-            "u": "עולות"
+            "u": "עולות",
+            "n": "עוֹלוֹת",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "immigrants",
           "audio": {
-            "normal": "06deccced40c.m4a",
-            "lent": "be2583cba7c1.m4a"
+            "normal": "61a795ece029.m4a",
+            "lent": "7e852d4b514e.m4a"
           }
         }
       ]
@@ -1717,6 +2414,7 @@
             "u": "מֵאַיִן?"
           },
           "perComprovar": false,
+          "ca": "D'on?",
           "audio": {
             "normal": "a5c8938c7c46.m4a",
             "lent": "5b6064aa601a.m4a"
@@ -1740,6 +2438,7 @@
             "u": "...מִ ...מֵ"
           },
           "perComprovar": false,
+          "ca": "de...",
           "audio": {
             "normal": "6a6f0a15d464.m4a",
             "lent": "caed10bda37e.m4a"
@@ -1760,12 +2459,15 @@
         {
           "id": "pag-07-b2-l0",
           "text": {
-            "u": "מאין אתה רוברטו? — אני מִבְּרָזִיל."
+            "u": "מאין אתה רוברטו? — אני מִבְּרָזִיל.",
+            "n": "מֵאַיִן אַתָּה רוֹבֶּרְטוֹ? — אֲנִי מִבְּרָזִיל.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "D'on ets, Roberto? — Sóc del Brasil.",
           "audio": {
-            "normal": "f0e93d893516.m4a",
-            "lent": "aefb5365c5a1.m4a"
+            "normal": "8df249037e01.m4a",
+            "lent": "c0cf81ba71d0.m4a"
           }
         },
         {
@@ -1785,45 +2487,57 @@
         {
           "id": "pag-07-b2-l3",
           "text": {
-            "u": "גם מִרְיָם מֵאוּרוּגְוַאי? — לא."
+            "u": "גם מִרְיָם מֵאוּרוּגְוַאי? — לא.",
+            "n": "גַּם מִרְיָם מֵאוּרוּגְוַאי? — לֹא.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "La Miriam també és de l'Uruguai? — No.",
           "audio": {
-            "normal": "7b71ede75536.m4a",
-            "lent": "15c860e63aca.m4a"
+            "normal": "176c3e6d3ae2.m4a",
+            "lent": "976b9c7d8f4a.m4a"
           }
         },
         {
           "id": "pag-07-b2-l4",
           "text": {
-            "u": "מאין היא? — גם היא מִדְּרוֹם-אֲמֶרִיקָה"
+            "u": "מאין היא? — גם היא מִדְּרוֹם-אֲמֶרִיקָה",
+            "n": "מֵאַיִן הִיא? — גַּם הִיא מִדְּרוֹם-אֲמֶרִיקָה",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "D'on és? — També és de Sud-amèrica,",
           "audio": {
-            "normal": "5b55988f483f.m4a",
-            "lent": "3602b26cec9b.m4a"
+            "normal": "3b1af4057ea0.m4a",
+            "lent": "78c4014ecee1.m4a"
           }
         },
         {
           "id": "pag-07-b2-l5",
           "text": {
-            "u": "אבל לא מֵאוּרוּגְוַאי."
+            "u": "אבל לא מֵאוּרוּגְוַאי.",
+            "n": "אֲבָל לֹא מֵאוּרוּגְוַאי.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "però no de l'Uruguai.",
           "audio": {
-            "normal": "07e94b543d37.m4a",
-            "lent": "ce6666beac7c.m4a"
+            "normal": "891c1659b4aa.m4a",
+            "lent": "28efc7c2f742.m4a"
           }
         },
         {
           "id": "pag-07-b2-l6",
           "text": {
-            "u": "היא מֵאַרְגֶּנְטִינָה."
+            "u": "היא מֵאַרְגֶּנְטִינָה.",
+            "n": "הִיא מֵאַרְגֶּנְטִינָה.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "És de l'Argentina.",
           "audio": {
-            "normal": "3866795aa64e.m4a",
-            "lent": "3ca2595cc45f.m4a"
+            "normal": "6fe5423747ca.m4a",
+            "lent": "3ea8197ae471.m4a"
           }
         }
       ]
@@ -1841,23 +2555,29 @@
         {
           "id": "pag-07-b3-l0",
           "text": {
-            "u": "דוריס וסטיב מֵאַנְגְלִיָּה. · סָם מִדְּרוֹם-אַפְרִיקָה."
+            "u": "דוריס וסטיב מֵאַנְגְלִיָּה. · סָם מִדְּרוֹם-אַפְרִיקָה.",
+            "n": "דּוֹרִיס וּסְטִיב מֵאַנְגְלִיָּה. · סָם מִדְּרוֹם-אַפְרִיקָה.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "La Doris i l'Steve són d'Anglaterra. · En Sam és de Sud-àfrica.",
           "audio": {
-            "normal": "82464336d296.m4a",
-            "lent": "2f96426bf9b4.m4a"
+            "normal": "795d63422fa7.m4a",
+            "lent": "71b00d50c3b0.m4a"
           }
         },
         {
           "id": "pag-07-b3-l1",
           "text": {
-            "u": "בוריס וחנה מֵרוּסְיָה. · נָטָלִי מִצָּרְפַת."
+            "u": "בוריס וחנה מֵרוּסְיָה. · נָטָלִי מִצָּרְפַת.",
+            "n": "בּוֹרִיס וְחַנָּה מֵרוּסְיָה. · נָטָלִי מִצָּרְפַת.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "El Boris i la Hanà són de Rússia. · La Natalie és de França.",
           "audio": {
-            "normal": "d69588efe9e1.m4a",
-            "lent": "32bbe05b90b8.m4a"
+            "normal": "e17869b71fde.m4a",
+            "lent": "8a278ffe7051.m4a"
           }
         },
         {
@@ -1899,6 +2619,7 @@
             "u": "רוברטו, עמנואל, מריו, מרים ושושנה מִדְּרוֹם-אמריקה."
           },
           "perComprovar": false,
+          "ca": "El Roberto, l'Emanuel, el Mario, la Miriam i la Xoixanà són de Sud-amèrica.",
           "audio": {
             "normal": "e659f69128b9.m4a",
             "lent": "ae431ffda103.m4a"
@@ -1922,6 +2643,7 @@
             "u": "כתוב: אני, אתה, את, הוא, היא,"
           },
           "perComprovar": false,
+          "ca": "Escriu: jo, tu (m.), tu (f.), ell, ella,",
           "audio": {
             "normal": "301f0f3dd83e.m4a",
             "lent": "a4513f3fe47a.m4a"
@@ -1930,12 +2652,15 @@
         {
           "id": "pag-08-b0-l1",
           "text": {
-            "u": "אנחנו, אתם, אתן, הם, הן"
+            "u": "אנחנו, אתם, אתן, הם, הן",
+            "n": "אֲנַחְנוּ, אַתֶּם, אַתֶּן, הֵם, הֵן",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "nosaltres, vosaltres (m.), vosaltres (f.), ells, elles",
           "audio": {
-            "normal": "0125b03f0a5d.m4a",
-            "lent": "34022a4ea11e.m4a"
+            "normal": "dd11d41d84df.m4a",
+            "lent": "bc5ccb9076d9.m4a"
           }
         }
       ]
@@ -1953,51 +2678,72 @@
         {
           "id": "pag-08-b1-l0",
           "text": {
-            "u": "1. היא תלמידה טובה? — כן, ____ תלמידה טובה."
+            "u": "1. היא תלמידה טובה? — כן, ____ תלמידה טובה.",
+            "n": "1. הִיא תַּלְמִידָה טוֹבָה? — כֵּן, ____ תַּלְמִידָה טוֹבָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "1. Ella és una bona alumna? — Sí, ____ és una bona alumna."
         },
         {
           "id": "pag-08-b1-l1",
           "text": {
-            "u": "2. את גברת לוי? — לא, ____ לא גברת לוי."
+            "u": "2. את גברת לוי? — לא, ____ לא גברת לוי.",
+            "n": "2. אַתְּ גְּבֶרֶת לֵוִי? — לֹא, ____ לֹא גְּבֶרֶת לֵוִי.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "2. Ets la senyora Leví? — No, ____ no sóc la senyora Leví."
         },
         {
           "id": "pag-08-b1-l2",
           "text": {
-            "u": "3. מי הם? — ____ רוברטו ועמנואל."
+            "u": "3. מי הם? — ____ רוברטו ועמנואל.",
+            "n": "3. מִי הֵם? — ____ רוֹבֶּרְטוֹ וְעִמָּנוּאֵל.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "3. Qui són? — ____ són el Roberto i l'Emanuel."
         },
         {
           "id": "pag-08-b1-l3",
           "text": {
-            "u": "4. ____ תלמידות טובות? — כן, הן תלמידות טובות."
+            "u": "4. ____ תלמידות טובות? — כן, הן תלמידות טובות.",
+            "n": "4. ____ תַּלְמִידוֹת טוֹבוֹת? — כֵּן, הֵן תַּלְמִידוֹת טוֹבוֹת.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "4. ____ són bones alumnes? — Sí, són bones alumnes."
         },
         {
           "id": "pag-08-b1-l4",
           "text": {
-            "u": "5. מאין אתם? — ____ מִקָּנָדָה."
+            "u": "5. מאין אתם? — ____ מִקָּנָדָה.",
+            "n": "5. מֵאַיִן אַתֶּם? — ____ מִקָּנָדָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "5. D'on sou? — ____ som del Canadà."
         },
         {
           "id": "pag-08-b1-l5",
           "text": {
-            "u": "6. ____ מורה? — לא, אני תלמיד."
+            "u": "6. ____ מורה? — לא, אני תלמיד.",
+            "n": "6. ____ מוֹרֶה? — לֹא, אֲנִי תַּלְמִיד.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "6. ____ ets mestre? — No, sóc alumne."
         },
         {
           "id": "pag-08-b1-l6",
           "text": {
-            "u": "7. ____ מורה טוב? — כן, הוא מורה טוב."
+            "u": "7. ____ מורה טוב? — כן, הוא מורה טוב.",
+            "n": "7. ____ מוֹרֶה טוֹב? — כֵּן, הוּא מוֹרֶה טוֹב.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "7. ____ és un bon mestre? — Sí, és un bon mestre."
         },
         {
           "id": "pag-08-b1-l7",
@@ -2009,16 +2755,22 @@
         {
           "id": "pag-08-b1-l8",
           "text": {
-            "u": "9. ____ חברה של יצחק? — כן, אני חברה של יצחק."
+            "u": "9. ____ חברה של יצחק? — כן, אני חברה של יצחק.",
+            "n": "9. ____ חֲבֵרָה שֶׁל יִצְחָק? — כֵּן, אֲנִי חֲבֵרָה שֶׁל יִצְחָק.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "9. ____ ets amiga de l'Itshak? — Sí, sóc amiga de l'Itshak."
         },
         {
           "id": "pag-08-b1-l9",
           "text": {
-            "u": "10. ____ תיירים? — לא, אנחנו לא תיירים."
+            "u": "10. ____ תיירים? — לא, אנחנו לא תיירים.",
+            "n": "10. ____ תַּייָּרִים? — לֹא, אֲנַחְנוּ לֹא תַּייָּרִים.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "10. ____ sou turistes? — No, no som turistes."
         }
       ]
     },
@@ -2038,6 +2790,7 @@
             "u": "כתוב במקום המילים המודגשות את המילים שבסוגריים."
           },
           "perComprovar": false,
+          "ca": "Escriu en lloc de les paraules destacades les paraules entre parèntesis.",
           "audio": {
             "normal": "61718ca7f5b4.m4a",
             "lent": "2856f8c1e581.m4a"
@@ -2046,12 +2799,15 @@
         {
           "id": "pag-09-b0-l1",
           "text": {
-            "u": "שנה את המשפטים בהתאם."
+            "u": "שנה את המשפטים בהתאם.",
+            "n": "שַׁנֵּה אֶת הַמִּשְׁפָּטִים בְּהֶתְאֵם.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "Canvia les frases com calgui.",
           "audio": {
-            "normal": "e8397eed8aed.m4a",
-            "lent": "feff31c1c7ad.m4a"
+            "normal": "8bd99cfd0679.m4a",
+            "lent": "b212f3760652.m4a"
           }
         }
       ]
@@ -2069,23 +2825,29 @@
         {
           "id": "pag-09-b1-l0",
           "text": {
-            "u": "1. <u>צפורה</u> מוֹרָה. היא לא תלמידה."
+            "u": "1. <u>צפורה</u> מוֹרָה. היא לא תלמידה.",
+            "n": "1. <u>צִפּוֹרָה</u> מוֹרָה. הִיא לֹא תַּלְמִידָה.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "1. La Tsiporà és mestra. No és alumna.",
           "audio": {
-            "normal": "828f10379e78.m4a",
-            "lent": "36ceb05bf610.m4a"
+            "normal": "cbac738ceac5.m4a",
+            "lent": "3df4535dbaf8.m4a"
           }
         },
         {
           "id": "pag-09-b1-l1",
           "text": {
-            "u": "(יוסף, צפורה ויוסף, צפורה ודינה)"
+            "u": "(יוסף, צפורה ויוסף, צפורה ודינה)",
+            "n": "(יוֹסֵף, צִפּוֹרָה וְיוֹסֵף, צִפּוֹרָה וְדִינָה)",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "(el Iossef, la Tsiporà i el Iossef, la Tsiporà i la Dina)",
           "audio": {
-            "normal": "148f5c0a383c.m4a",
-            "lent": "2111139779d8.m4a"
+            "normal": "9b037cdd8e93.m4a",
+            "lent": "808729a07ec4.m4a"
           }
         },
         {
@@ -2112,12 +2874,15 @@
         {
           "id": "pag-09-b1-l5",
           "text": {
-            "u": "2. צפורה <u>מורה</u> טובה מאוד. (תלמידה, חברה)"
+            "u": "2. צפורה <u>מורה</u> טובה מאוד. (תלמידה, חברה)",
+            "n": "2. צִפּוֹרָה <u>מוֹרָה</u> טוֹבָה מְאוֹד. (תַּלְמִידָה, חֲבֵרָה)",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "2. La Tsiporà és molt bona mestra. (alumna, amiga)",
           "audio": {
-            "normal": "7ae0f0a34cf6.m4a",
-            "lent": "27dad7f39141.m4a"
+            "normal": "c274e07602fc.m4a",
+            "lent": "e206af849b30.m4a"
           }
         },
         {
@@ -2137,12 +2902,15 @@
         {
           "id": "pag-09-b1-l8",
           "text": {
-            "u": "3. מאין <u>אתה</u>? אני מֵרוּסְיָה. (אתם, הם, חנה, את)"
+            "u": "3. מאין <u>אתה</u>? אני מֵרוּסְיָה. (אתם, הם, חנה, את)",
+            "n": "3. מֵאַיִן <u>אַתָּה</u>? אֲנִי מֵרוּסְיָה. (אַתֶּם, הֵם, חַנָּה, אַתְּ)",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "3. D'on ets? Sóc de Rússia. (vosaltres, ells, la Hanà, tu f.)",
           "audio": {
-            "normal": "d09bc810ccdf.m4a",
-            "lent": "ee5e46bca4e7.m4a"
+            "normal": "1396094a7aff.m4a",
+            "lent": "61c65b1fd638.m4a"
           }
         },
         {
@@ -2176,34 +2944,43 @@
         {
           "id": "pag-09-b1-l13",
           "text": {
-            "u": "4. <u>אתה</u> לא תייר. (את, הוא, אתם, אתן)"
+            "u": "4. <u>אתה</u> לא תייר. (את, הוא, אתם, אתן)",
+            "n": "4. <u>אַתָּה</u> לֹא תַּייָּר. (אַתְּ, הוּא, אַתֶּם, אַתֶּן)",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "4. Tu no ets turista. (tu f., ell, vosaltres m., vosaltres f.)",
           "audio": {
-            "normal": "32c9dfc89963.m4a",
-            "lent": "3f349060ddf6.m4a"
+            "normal": "99809f00e982.m4a",
+            "lent": "c7cec88e034a.m4a"
           }
         },
         {
           "id": "pag-09-b1-l14",
           "text": {
-            "u": "5. <u>אנחנו</u> חברים של סטיב. (הן, דוריס, רוברטו)"
+            "u": "5. <u>אנחנו</u> חברים של סטיב. (הן, דוריס, רוברטו)",
+            "n": "5. <u>אֲנַחְנוּ</u> חֲבֵרִים שֶׁל סְטִיב. (הֵן, דּוֹרִיס, רוֹבֶּרְטוֹ)",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "5. Som amics de l'Steve. (elles, la Doris, el Roberto)",
           "audio": {
-            "normal": "08d72f02f2e8.m4a",
-            "lent": "09753801d005.m4a"
+            "normal": "859f1eaa4072.m4a",
+            "lent": "bab4b9237e99.m4a"
           }
         },
         {
           "id": "pag-09-b1-l15",
           "text": {
-            "u": "6. <u>יצחק</u> עולה חדש. הוא לא מורה. הוא תלמיד."
+            "u": "6. <u>יצחק</u> עולה חדש. הוא לא מורה. הוא תלמיד.",
+            "n": "6. <u>יִצְחָק</u> עוֹלֶה חָדָשׁ. הוּא לֹא מוֹרֶה. הוּא תַּלְמִיד.",
+            "extraVocals": true
           },
           "perComprovar": false,
+          "ca": "6. L'Itshak és un immigrant nou. No és mestre. És alumne.",
           "audio": {
-            "normal": "7dc64be8e5ca.m4a",
-            "lent": "6b7ce5c0bf98.m4a"
+            "normal": "57971a25c35c.m4a",
+            "lent": "fb16f1da0f2a.m4a"
           }
         },
         {
@@ -2212,6 +2989,7 @@
             "u": "(שרה, מריו ועמנואל, תמר ואסתר)"
           },
           "perComprovar": false,
+          "ca": "(la Sara, el Mario i l'Emanuel, la Tamar i l'Ester)",
           "audio": {
             "normal": "064266d65474.m4a",
             "lent": "be73d27c4c1b.m4a"
@@ -2220,5 +2998,578 @@
       ]
     }
   ],
-  "exercicis": []
+  "exercicis": [
+    {
+      "tipus": "forat",
+      "origen": "pag-08 ex. 1.1",
+      "extra": false,
+      "linies": [
+        "pag-08-b1-l0"
+      ],
+      "frase": {
+        "u": "היא תלמידה טובה? — כן, ____ תלמידה טובה.",
+        "n": "הִיא תַּלְמִידָה טוֹבָה? — כֵּן, ____ תַּלְמִידָה טוֹבָה."
+      },
+      "opcions": [
+        "הִיא",
+        "הוּא",
+        "אַתְּ",
+        "הֵן"
+      ],
+      "correcta": 0,
+      "retro": "Es parla d'ella: הִיא.",
+      "id": "u01-ex-0"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-08 ex. 1.2",
+      "extra": false,
+      "linies": [
+        "pag-08-b1-l1"
+      ],
+      "frase": {
+        "u": "את גברת לוי? — לא, ____ לא גברת לוי.",
+        "n": "אַתְּ גְּבֶרֶת לֵוִי? — לֹא, ____ לֹא גְּבֶרֶת לֵוִי."
+      },
+      "opcions": [
+        "אַתְּ",
+        "אֲנִי",
+        "הִיא",
+        "אַתָּה"
+      ],
+      "correcta": 1,
+      "retro": "Li pregunten a ella; respon en primera persona: אֲנִי.",
+      "id": "u01-ex-1"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-08 ex. 1.3",
+      "extra": false,
+      "linies": [
+        "pag-08-b1-l2"
+      ],
+      "frase": {
+        "u": "מי הם? — ____ רוברטו ועמנואל.",
+        "n": "מִי הֵם? — ____ רוֹבֶּרְטוֹ וְעִמָּנוּאֵל."
+      },
+      "opcions": [
+        "הֵן",
+        "הֵם",
+        "אַתֶּם",
+        "אֲנַחְנוּ"
+      ],
+      "correcta": 1,
+      "retro": "Dos homes: masculí plural, הֵם.",
+      "id": "u01-ex-2"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-08 ex. 1.4",
+      "extra": false,
+      "linies": [
+        "pag-08-b1-l3"
+      ],
+      "frase": {
+        "u": "____ תלמידות טובות? — כן, הן תלמידות טובות.",
+        "n": "____ תַּלְמִידוֹת טוֹבוֹת? — כֵּן, הֵן תַּלְמִידוֹת טוֹבוֹת."
+      },
+      "opcions": [
+        "הֵם",
+        "אַתֶּם",
+        "הֵן",
+        "הִיא"
+      ],
+      "correcta": 2,
+      "retro": "La resposta parla d'elles: הֵן.",
+      "id": "u01-ex-3"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-08 ex. 1.5",
+      "extra": false,
+      "linies": [
+        "pag-08-b1-l4"
+      ],
+      "frase": {
+        "u": "מאין אתם? — ____ מִקָּנָדָה.",
+        "n": "מֵאַיִן אַתֶּם? — ____ מִקָּנָדָה."
+      },
+      "opcions": [
+        "אַתֶּם",
+        "הֵם",
+        "אֲנִי",
+        "אֲנַחְנוּ"
+      ],
+      "correcta": 3,
+      "retro": "Pregunten «d'on sou?»; es respon «som»: אֲנַחְנוּ.",
+      "id": "u01-ex-4"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-08 ex. 1.6",
+      "extra": false,
+      "linies": [
+        "pag-08-b1-l5"
+      ],
+      "frase": {
+        "u": "____ מורה? — לא, אני תלמיד.",
+        "n": "____ מוֹרֶה? — לֹא, אֲנִי תַּלְמִיד."
+      },
+      "opcions": [
+        "אַתָּה",
+        "אַתְּ",
+        "הוּא",
+        "אֲנִי"
+      ],
+      "correcta": 0,
+      "retro": "Respon un home en primera persona; la pregunta és a ell: אַתָּה.",
+      "id": "u01-ex-5"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-08 ex. 1.7",
+      "extra": false,
+      "linies": [
+        "pag-08-b1-l6"
+      ],
+      "frase": {
+        "u": "____ מורה טוב? — כן, הוא מורה טוב.",
+        "n": "____ מוֹרֶה טוֹב? — כֵּן, הוּא מוֹרֶה טוֹב."
+      },
+      "opcions": [
+        "הִיא",
+        "הוּא",
+        "אַתָּה",
+        "הֵם"
+      ],
+      "correcta": 1,
+      "retro": "La resposta parla d'ell: הוּא.",
+      "id": "u01-ex-6"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-08 ex. 1.9",
+      "extra": false,
+      "linies": [
+        "pag-08-b1-l8"
+      ],
+      "frase": {
+        "u": "____ חברה של יצחק? — כן, אני חברה של יצחק.",
+        "n": "____ חֲבֵרָה שֶׁל יִצְחָק? — כֵּן, אֲנִי חֲבֵרָה שֶׁל יִצְחָק."
+      },
+      "opcions": [
+        "אַתָּה",
+        "הִיא",
+        "אַתְּ",
+        "אַתֶּן"
+      ],
+      "correcta": 2,
+      "retro": "Respon una dona en primera persona; la pregunta és a ella: אַתְּ.",
+      "id": "u01-ex-7"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-08 ex. 1.10",
+      "extra": false,
+      "linies": [
+        "pag-08-b1-l9"
+      ],
+      "frase": {
+        "u": "____ תיירים? — לא, אנחנו לא תיירים.",
+        "n": "____ תַּייָּרִים? — לֹא, אֲנַחְנוּ לֹא תַּייָּרִים."
+      },
+      "opcions": [
+        "אַתֶּם",
+        "אַתֶּן",
+        "הֵן",
+        "אֲנַחְנוּ"
+      ],
+      "correcta": 0,
+      "retro": "Responen «nosaltres» en masculí; la pregunta és a ells: אַתֶּם.",
+      "id": "u01-ex-8"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-09 ex. 2.1",
+      "extra": false,
+      "linies": [
+        "pag-09-b1-l0",
+        "pag-09-b1-l1"
+      ],
+      "enunciat": {
+        "n": "צִפּוֹרָה מוֹרָה. הִיא לֹא תַּלְמִידָה. ← יוֹסֵף",
+        "u": "צפורה מורה. היא לא תלמידה. ← יוסף"
+      },
+      "model": {
+        "n": "יוֹסֵף מוֹרֶה. הוּא לֹא תַּלְמִיד.",
+        "u": "יוסף מורה. הוא לא תלמיד."
+      },
+      "id": "u01-ex-9"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-09 ex. 2.1",
+      "extra": false,
+      "linies": [
+        "pag-09-b1-l0",
+        "pag-09-b1-l1"
+      ],
+      "enunciat": {
+        "n": "צִפּוֹרָה מוֹרָה. הִיא לֹא תַּלְמִידָה. ← צִפּוֹרָה וְיוֹסֵף",
+        "u": "צפורה מורה. היא לא תלמידה. ← צפורה ויוסף"
+      },
+      "model": {
+        "n": "צִפּוֹרָה וְיוֹסֵף מוֹרִים. הֵם לֹא תַּלְמִידִים.",
+        "u": "צפורה ויוסף מורים. הם לא תלמידים."
+      },
+      "id": "u01-ex-10"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-09 ex. 2.1",
+      "extra": false,
+      "linies": [
+        "pag-09-b1-l0",
+        "pag-09-b1-l1"
+      ],
+      "base": {
+        "n": "צִפּוֹרָה מוֹרָה. הִיא לֹא תַּלְמִידָה.",
+        "u": "צפורה מורה. היא לא תלמידה."
+      },
+      "demana": "amb צִפּוֹרָה וְדִינָה",
+      "opcions": [
+        "צִפּוֹרָה וְדִינָה מוֹרוֹת. הֵן לֹא תַּלְמִידוֹת.",
+        "צִפּוֹרָה וְדִינָה מוֹרִים. הֵם לֹא תַּלְמִידִים.",
+        "צִפּוֹרָה וְדִינָה מוֹרָה. הִיא לֹא תַּלְמִידָה."
+      ],
+      "correcta": 0,
+      "id": "u01-ex-11"
+    },
+    {
+      "tipus": "construir",
+      "origen": "pag-09 ex. 2.2",
+      "extra": false,
+      "linies": [
+        "pag-09-b1-l5"
+      ],
+      "ca": "La Tsiporà és molt bona alumna.",
+      "fitxes": [
+        "צִפּוֹרָה",
+        "תַּלְמִידָה",
+        "טוֹבָה",
+        "מְאוֹד",
+        "טוֹב"
+      ],
+      "ordre": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "id": "u01-ex-12"
+    },
+    {
+      "tipus": "construir",
+      "origen": "pag-09 ex. 2.2",
+      "extra": false,
+      "linies": [
+        "pag-09-b1-l5"
+      ],
+      "ca": "La Tsiporà és molt bona amiga.",
+      "fitxes": [
+        "חֲבֵרָה",
+        "מְאוֹד",
+        "צִפּוֹרָה",
+        "טוֹבָה",
+        "חָבֵר"
+      ],
+      "ordre": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "id": "u01-ex-13"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-09 ex. 2.3",
+      "extra": false,
+      "linies": [
+        "pag-09-b1-l8"
+      ],
+      "frase": {
+        "u": "מאין אתם? ____ מרוסיה.",
+        "n": "מֵאַיִן אַתֶּם? ____ מֵרוּסְיָה."
+      },
+      "opcions": [
+        "אֲנִי",
+        "אֲנַחְנוּ",
+        "הֵם",
+        "אַתֶּם"
+      ],
+      "correcta": 1,
+      "retro": "«D'on sou?» — «Som de Rússia»: אֲנַחְנוּ.",
+      "id": "u01-ex-14"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-09 ex. 2.3",
+      "extra": false,
+      "linies": [
+        "pag-09-b1-l8"
+      ],
+      "frase": {
+        "u": "מאין חנה? ____ מרוסיה.",
+        "n": "מֵאַיִן חַנָּה? ____ מֵרוּסְיָה."
+      },
+      "opcions": [
+        "הוּא",
+        "אֲנִי",
+        "הִיא",
+        "הֵן"
+      ],
+      "correcta": 2,
+      "retro": "La Hanà és una dona: הִיא.",
+      "id": "u01-ex-15"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-09 ex. 2.4",
+      "extra": false,
+      "linies": [
+        "pag-09-b1-l13"
+      ],
+      "base": {
+        "n": "אַתָּה לֹא תַּייָּר.",
+        "u": "אתה לא תייר."
+      },
+      "demana": "amb אַתְּ",
+      "opcions": [
+        "אַתְּ לֹא תַּייָּר.",
+        "אַתְּ לֹא תַּייֶּרֶת.",
+        "אַתְּ לֹא תַּייָּרוֹת."
+      ],
+      "correcta": 1,
+      "id": "u01-ex-16"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-09 ex. 2.4",
+      "extra": false,
+      "linies": [
+        "pag-09-b1-l13"
+      ],
+      "base": {
+        "n": "אַתָּה לֹא תַּייָּר.",
+        "u": "אתה לא תייר."
+      },
+      "demana": "amb אַתֶּן",
+      "opcions": [
+        "אַתֶּן לֹא תַּייָּרִים.",
+        "אַתֶּן לֹא תַּייֶּרֶת.",
+        "אַתֶּן לֹא תַּייָּרוֹת."
+      ],
+      "correcta": 2,
+      "id": "u01-ex-17"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-09 ex. 2.5",
+      "extra": false,
+      "linies": [
+        "pag-09-b1-l14"
+      ],
+      "base": {
+        "n": "אֲנַחְנוּ חֲבֵרִים שֶׁל סְטִיב.",
+        "u": "אנחנו חברים של סטיב."
+      },
+      "demana": "amb הֵן",
+      "opcions": [
+        "הֵן חֲבֵרִים שֶׁל סְטִיב.",
+        "הֵן חֲבֵרוֹת שֶׁל סְטִיב.",
+        "הֵן חֲבֵרָה שֶׁל סְטִיב."
+      ],
+      "correcta": 1,
+      "id": "u01-ex-18"
+    },
+    {
+      "tipus": "construir",
+      "origen": "pag-09 ex. 2.5",
+      "extra": false,
+      "linies": [
+        "pag-09-b1-l14"
+      ],
+      "ca": "La Doris és amiga de l'Steve.",
+      "fitxes": [
+        "שֶׁל",
+        "דּוֹרִיס",
+        "סְטִיב",
+        "חֲבֵרָה",
+        "חֲבֵרִים"
+      ],
+      "ordre": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "id": "u01-ex-19"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-09 ex. 2.6",
+      "extra": false,
+      "linies": [
+        "pag-09-b1-l15"
+      ],
+      "enunciat": {
+        "n": "יִצְחָק עוֹלֶה חָדָשׁ. הוּא לֹא מוֹרֶה. הוּא תַּלְמִיד. ← שָׂרָה",
+        "u": "יצחק עולה חדש. הוא לא מורה. הוא תלמיד. ← שרה"
+      },
+      "model": {
+        "n": "שָׂרָה עוֹלָה חֲדָשָׁה. הִיא לֹא מוֹרָה. הִיא תַּלְמִידָה.",
+        "u": "שרה עולה חדשה. היא לא מורה. היא תלמידה."
+      },
+      "id": "u01-ex-20"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-09 ex. 2.6",
+      "extra": false,
+      "linies": [
+        "pag-09-b1-l15"
+      ],
+      "enunciat": {
+        "n": "יִצְחָק עוֹלֶה חָדָשׁ. הוּא לֹא מוֹרֶה. הוּא תַּלְמִיד. ← תָּמָר וְאֶסְתֵּר",
+        "u": "יצחק עולה חדש. הוא לא מורה. הוא תלמיד. ← תמר ואסתר"
+      },
+      "model": {
+        "n": "תָּמָר וְאֶסְתֵּר עוֹלוֹת חֲדָשׁוֹת. הֵן לֹא מוֹרוֹת. הֵן תַּלְמִידוֹת.",
+        "u": "תמר ואסתר עולות חדשות. הן לא מורות. הן תלמידות."
+      },
+      "id": "u01-ex-21"
+    },
+    {
+      "tipus": "comprensio",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-02-b0-l0",
+        "pag-02-b0-l1",
+        "pag-02-b0-l2",
+        "pag-02-b0-l3",
+        "pag-02-b0-l4",
+        "pag-02-b0-l5"
+      ],
+      "text": "שָׁלוֹם, אֲנִי רוֹבֶּרְטוֹ. — אֲנִי דּוֹרִיס. — נָעִים מְאוֹד. — נָעִים מְאוֹד. אַתָּה תַּלְמִיד? — כֵּן, אֲנִי תַּלְמִיד. אַתְּ תַּלְמִידָה? — כֵּן, אֲנִי תַּלְמִידָה.",
+      "pregunta": "Què són el Roberto i la Doris?",
+      "opcions": [
+        "Alumnes",
+        "Mestres",
+        "Turistes"
+      ],
+      "correcta": 0,
+      "id": "u01-ex-22"
+    },
+    {
+      "tipus": "comprensio",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-05-b2-l1",
+        "pag-05-b2-l2",
+        "pag-05-b2-l3",
+        "pag-05-b2-l4"
+      ],
+      "text": "הֵם תַּייָּרִים? — לֹא, הֵם עוֹלִים חֲדָשִׁים מִבְּרָזִיל. — הֵם חֲבֵרִים? — כֵּן, הֵם חֲבֵרִים טוֹבִים.",
+      "pregunta": "D'on són?",
+      "opcions": [
+        "D'Anglaterra",
+        "Del Brasil",
+        "De Rússia"
+      ],
+      "correcta": 1,
+      "id": "u01-ex-23"
+    },
+    {
+      "tipus": "comprensio",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-03-b2-l0",
+        "pag-03-b2-l1",
+        "pag-03-b2-l2"
+      ],
+      "text": "אֲנִי שָׂרָה לֵוִי. — גְּבֶרֶת לֵוִי, אַתְּ מוֹרָה? — לֹא, אֲנִי לֹא מוֹרָה. אֲנִי תַּלְמִידָה.",
+      "pregunta": "Què és la senyora Leví?",
+      "opcions": [
+        "Mestra",
+        "Turista",
+        "Alumna"
+      ],
+      "correcta": 2,
+      "id": "u01-ex-24"
+    },
+    {
+      "tipus": "comprensio",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-07-b3-l0",
+        "pag-07-b3-l1"
+      ],
+      "text": "דּוֹרִיס וּסְטִיב מֵאַנְגְלִיָּה. סָם מִדְּרוֹם-אַפְרִיקָה. בּוֹרִיס וְחַנָּה מֵרוּסְיָה. נָטָלִי מִצָּרְפַת.",
+      "pregunta": "D'on és la Natalie?",
+      "opcions": [
+        "De Rússia",
+        "De Sud-àfrica",
+        "De França"
+      ],
+      "correcta": 2,
+      "id": "u01-ex-25"
+    },
+    {
+      "tipus": "construir",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-05-b2-l4",
+        "u01-19",
+        "u01-18"
+      ],
+      "ca": "Són bons amics.",
+      "fitxes": [
+        "טוֹבִים",
+        "הֵם",
+        "חֲבֵרִים",
+        "טוֹבוֹת"
+      ],
+      "ordre": [
+        1,
+        2,
+        0
+      ],
+      "id": "u01-ex-26"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-07-b2-l0",
+        "u01-14",
+        "u01-31"
+      ],
+      "enunciat": {
+        "n": "מִי אַתָּה? מֵאַיִן אַתָּה?",
+        "u": "מי אתה? מאין אתה?"
+      },
+      "model": {
+        "n": "אֲנִי רוֹבֶּרְטוֹ. אֲנִי מִבְּרָזִיל.",
+        "u": "אני רוברטו. אני מברזיל."
+      },
+      "id": "u01-ex-27"
+    }
+  ]
 }

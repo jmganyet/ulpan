@@ -1,2 +1,451 @@
-# Capa curada de la unitat 1: icones, textos, gramatica, exercicis, extres.
+# Capa curada de la unitat 1: icones, textos, gramàtica, exercicis.
 # Format: vegeu scripts/genera-contingut.ts (tipus Curat).
+# Vocals verificades amb els TSV i la fitxa u01-presentacions del dossier i amb Pealim;
+# les línies «per comprovar» (⁇) no porten vocals ni traducció.
+
+textos:
+  pag-02-b0:
+    # correcció: les línies 9 i 10 (l8, l9) també són de la Doris
+    tipus: dialeg
+    personatges: ["רוברטו", "דוריס"]
+    qui: [0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0]
+    vocals:
+      0: "שָׁלוֹם, אֲנִי רוֹבֶּרְטוֹ."
+      1: "אֲנִי דּוֹרִיס."
+      2: "נָעִים מְאוֹד."
+      3: "נָעִים מְאוֹד. אַתָּה תַּלְמִיד?"
+      4: "כֵּן, אֲנִי תַּלְמִיד. אַתְּ תַּלְמִידָה?"
+      5: "כֵּן, אֲנִי תַּלְמִידָה."
+      6: "אַתְּ עוֹלָה חֲדָשָׁה?"
+      7: "לֹא, אֲנִי לֹא עוֹלָה חֲדָשָׁה."
+      9: "אַתָּה תַּייָּר?"
+      10: "לֹא, אֲנִי לֹא תַּייָּר. סְטִיב תַּייָּר."
+      11: "וְאַתָּה?"
+    ca:
+      0: "Hola, sóc el Roberto."
+      1: "Jo sóc la Doris."
+      2: "Molt de gust."
+      3: "Molt de gust. Ets alumne?"
+      4: "Sí, sóc alumne. I tu, ets alumna?"
+      5: "Sí, sóc alumna."
+      6: "Ets una immigrant nova?"
+      7: "No, no sóc una immigrant nova."
+      9: "Tu ets turista?"
+      10: "No, no sóc turista. L'Steve és turista."
+      11: "I tu?"
+  pag-02-b1:
+    vocals:
+      0: "הוּא · רוֹבֶּרְטוֹ תַּלְמִיד. · הוּא עוֹלֶה חָדָשׁ. · הוּא לֹא תַּייָּר."
+      1: "הִיא · דּוֹרִיס תַּלְמִידָה. · הִיא לֹא עוֹלָה חֲדָשָׁה. · הִיא תַּייֶּרֶת."
+    ca:
+      0: "Ell · el Roberto és alumne. · És un immigrant nou. · No és turista."
+      1: "Ella · la Doris és alumna. · No és una immigrant nova. · És turista."
+  pag-03-b0:
+    ca:
+      0: "Qui ets?"
+  pag-03-b1:
+    vocals:
+      2: "לֹא, אֲנִי לֹא מוֹרֶה."
+      4: "אַתָּה תַּלְמִיד טוֹב?"
+      5: "כֵּן, אֲנִי תַּלְמִיד טוֹב."
+    ca:
+      2: "No, no sóc mestre."
+      4: "Ets un bon alumne?"
+      5: "Sí, sóc un bon alumne."
+  pag-03-b2:
+    vocals:
+      0: "אֲנִי שָׂרָה לֵוִי."
+      1: "גְּבֶרֶת לֵוִי, אַתְּ מוֹרָה?"
+      2: "לֹא, אֲנִי לֹא מוֹרָה. אֲנִי תַּלְמִידָה."
+      4: "אַתְּ תַּלְמִידָה טוֹבָה?"
+      5: "לֹא, אֲנִי תַּלְמִידָה לֹא טוֹבָה."
+    ca:
+      0: "Sóc la Sara Leví."
+      1: "Senyora Leví, és mestra?"
+      2: "No, no sóc mestra. Sóc alumna."
+      4: "És una bona alumna?"
+      5: "No, no sóc una bona alumna."
+  pag-04-b0:
+    vocals:
+      0: "הוּא סְטִיב."
+      4: "כֵּן, הוּא חָבֵר שֶׁל דּוֹרִיס."
+      5: "סְטִיב חָבֵר טוֹב?"
+      6: "כֵּן, סְטִיב חָבֵר טוֹב מְאוֹד."
+    ca:
+      0: "És l'Steve."
+      4: "Sí, és amic de la Doris."
+      5: "L'Steve és un bon amic?"
+      6: "Sí, l'Steve és molt bon amic."
+  pag-04-b1:
+    vocals:
+      0: "הִיא דּוֹרִיס."
+      3: "דּוֹרִיס חֲבֵרָה שֶׁל סְטִיב?"
+      4: "כֵּן, הִיא חֲבֵרָה שֶׁל סְטִיב."
+      5: "דּוֹרִיס חֲבֵרָה טוֹבָה?"
+      6: "כֵּן, הִיא חֲבֵרָה טוֹבָה מְאוֹד."
+    ca:
+      0: "És la Doris."
+      3: "La Doris és amiga de l'Steve?"
+      4: "Sí, és amiga de l'Steve."
+      5: "La Doris és una bona amiga?"
+      6: "Sí, és molt bona amiga."
+  pag-04-b2:
+    vocals:
+      0: "יִצְחָק תַּלְמִיד טוֹב. · שָׂרָה תַּלְמִידָה לֹא טוֹבָה."
+      1: "יוֹסֵף מוֹרֶה טוֹב. · דְּבוֹרָה מוֹרָה טוֹבָה."
+      2: "סְטִיב חָבֵר טוֹב. · דּוֹרִיס חֲבֵרָה טוֹבָה."
+    ca:
+      0: "L'Itshak és un bon alumne. · La Sara no és una bona alumna."
+      1: "El Iossef és un bon mestre. · La Dvorà és una bona mestra."
+      2: "L'Steve és un bon amic. · La Doris és una bona amiga."
+  pag-05-b0:
+    vocals:
+      1: "אַתֶּם תַּלְמִידִים?"
+      2: "לֹא, אֲנַחְנוּ מוֹרִים."
+    ca:
+      1: "Sou alumnes?"
+      2: "No, som mestres."
+  pag-05-b1:
+    vocals:
+      1: "אַתֶּן מוֹרוֹת?"
+      2: "לֹא, אֲנַחְנוּ תַּלְמִידוֹת."
+      3: "אֲנַחְנוּ הַתַּלְמִידוֹת שֶׁל צִפּוֹרָה."
+    ca:
+      1: "Sou mestres?"
+      2: "No, som alumnes."
+      3: "Som les alumnes de la Tsiporà."
+  pag-05-b2:
+    vocals:
+      1: "הֵם תַּייָּרִים?"
+      2: "לֹא, הֵם עוֹלִים חֲדָשִׁים מִבְּרָזִיל."
+      3: "הֵם חֲבֵרִים?"
+      4: "כֵּן, הֵם חֲבֵרִים טוֹבִים."
+    ca:
+      1: "Són turistes?"
+      2: "No, són immigrants nous del Brasil."
+      3: "Són amics?"
+      4: "Sí, són bons amics."
+  pag-05-b3:
+    vocals:
+      1: "הֵן תַּייָּרוֹת?"
+      2: "לֹא, הֵן עוֹלוֹת חֲדָשׁוֹת מִבְּרָזִיל."
+      3: "הֵן חֲבֵרוֹת?"
+      4: "כֵּן, הֵן חֲבֵרוֹת טוֹבוֹת."
+    ca:
+      1: "Són turistes?"
+      2: "No, són immigrants noves del Brasil."
+      3: "Són amigues?"
+      4: "Sí, són bones amigues."
+  pag-06-b0:
+    vocals:
+      0: "צִפּוֹרָה וְיוֹסֵף מוֹרִים. · שׁוֹשַׁנָּה וְרָחֵל לֹא מוֹרוֹת."
+      1: "רוֹבֶּרְטוֹ וְעִמָּנוּאֵל תַּלְמִידִים. · שׁוֹשַׁנָּה וְרָחֵל תַּלְמִידוֹת."
+      2: "הֵם תַּלְמִידִים חֲדָשִׁים. · הֵן תַּלְמִידוֹת חֲדָשׁוֹת."
+      3: "הֵם תַּלְמִידִים טוֹבִים. · הֵן תַּלְמִידוֹת טוֹבוֹת."
+      4: "הֵם לֹא תַּייָּרִים. · הֵן לֹא תַּייָּרוֹת."
+      5: "הֵם עוֹלִים חֲדָשִׁים. · הֵן עוֹלוֹת חֲדָשׁוֹת."
+      6: "רוֹבֶּרְטוֹ וְעִמָּנוּאֵל חֲבֵרִים. · שׁוֹשַׁנָּה וְרָחֵל חֲבֵרוֹת."
+      7: "הֵם חֲבֵרִים טוֹבִים. · הֵן חֲבֵרוֹת טוֹבוֹת."
+    ca:
+      0: "La Tsiporà i el Iossef són mestres. · La Xoixanà i la Rakhel no són mestres."
+      1: "El Roberto i l'Emanuel són alumnes. · La Xoixanà i la Rakhel són alumnes."
+      2: "Són alumnes nous. · Són alumnes noves."
+      3: "Són bons alumnes. · Són bones alumnes."
+      4: "No són turistes. · No són turistes."
+      5: "Són immigrants nous. · Són immigrants noves."
+      6: "El Roberto i l'Emanuel són amics. · La Xoixanà i la Rakhel són amigues."
+      7: "Són bons amics. · Són bones amigues."
+  pag-06-b1:
+    vocals:
+      0: "אֲנִי · תַּייָּר"
+      1: "אַתָּה · תַּלְמִיד"
+      2: "הוּא · מוֹרֶה"
+    ca:
+      0: "jo · turista"
+      1: "tu · alumne"
+      2: "ell · mestre"
+      3: "immigrant"
+  pag-06-b2:
+    vocals:
+      2: "הִיא · מוֹרָה"
+    ca:
+      2: "ella · mestra"
+      3: "immigrant"
+  pag-06-b3:
+    vocals:
+      0: "אֲנַחְנוּ · תַּייָּרִים"
+      1: "אַתֶּם · תַּלְמִידִים"
+      2: "הֵם · מוֹרִים"
+      3: "עוֹלִים"
+    ca:
+      0: "nosaltres · turistes"
+      1: "vosaltres · alumnes"
+      2: "ells · mestres"
+      3: "immigrants"
+  pag-06-b4:
+    vocals:
+      0: "אֲנַחְנוּ · תַּייָּרוֹת"
+      1: "אַתֶּן · תַּלְמִידוֹת"
+      2: "הֵן · מוֹרוֹת"
+      3: "עוֹלוֹת"
+    ca:
+      0: "nosaltres · turistes"
+      1: "vosaltres · alumnes"
+      2: "elles · mestres"
+      3: "immigrants"
+  pag-07-b0:
+    ca:
+      0: "D'on?"
+  pag-07-b1:
+    ca:
+      0: "de..."
+  pag-07-b2:
+    vocals:
+      0: "מֵאַיִן אַתָּה רוֹבֶּרְטוֹ? — אֲנִי מִבְּרָזִיל."
+      3: "גַּם מִרְיָם מֵאוּרוּגְוַאי? — לֹא."
+      4: "מֵאַיִן הִיא? — גַּם הִיא מִדְּרוֹם-אֲמֶרִיקָה"
+      5: "אֲבָל לֹא מֵאוּרוּגְוַאי."
+      6: "הִיא מֵאַרְגֶּנְטִינָה."
+    ca:
+      0: "D'on ets, Roberto? — Sóc del Brasil."
+      3: "La Miriam també és de l'Uruguai? — No."
+      4: "D'on és? — També és de Sud-amèrica,"
+      5: "però no de l'Uruguai."
+      6: "És de l'Argentina."
+  pag-07-b3:
+    vocals:
+      0: "דּוֹרִיס וּסְטִיב מֵאַנְגְלִיָּה. · סָם מִדְּרוֹם-אַפְרִיקָה."
+      1: "בּוֹרִיס וְחַנָּה מֵרוּסְיָה. · נָטָלִי מִצָּרְפַת."
+    ca:
+      0: "La Doris i l'Steve són d'Anglaterra. · En Sam és de Sud-àfrica."
+      1: "El Boris i la Hanà són de Rússia. · La Natalie és de França."
+  pag-07-b4:
+    ca:
+      0: "El Roberto, l'Emanuel, el Mario, la Miriam i la Xoixanà són de Sud-amèrica."
+  pag-08-b0:
+    vocals:
+      1: "אֲנַחְנוּ, אַתֶּם, אַתֶּן, הֵם, הֵן"
+    ca:
+      0: "Escriu: jo, tu (m.), tu (f.), ell, ella,"
+      1: "nosaltres, vosaltres (m.), vosaltres (f.), ells, elles"
+  pag-08-b1:
+    vocals:
+      0: "1. הִיא תַּלְמִידָה טוֹבָה? — כֵּן, ____ תַּלְמִידָה טוֹבָה."
+      1: "2. אַתְּ גְּבֶרֶת לֵוִי? — לֹא, ____ לֹא גְּבֶרֶת לֵוִי."
+      2: "3. מִי הֵם? — ____ רוֹבֶּרְטוֹ וְעִמָּנוּאֵל."
+      3: "4. ____ תַּלְמִידוֹת טוֹבוֹת? — כֵּן, הֵן תַּלְמִידוֹת טוֹבוֹת."
+      4: "5. מֵאַיִן אַתֶּם? — ____ מִקָּנָדָה."
+      5: "6. ____ מוֹרֶה? — לֹא, אֲנִי תַּלְמִיד."
+      6: "7. ____ מוֹרֶה טוֹב? — כֵּן, הוּא מוֹרֶה טוֹב."
+      8: "9. ____ חֲבֵרָה שֶׁל יִצְחָק? — כֵּן, אֲנִי חֲבֵרָה שֶׁל יִצְחָק."
+      9: "10. ____ תַּייָּרִים? — לֹא, אֲנַחְנוּ לֹא תַּייָּרִים."
+    ca:
+      0: "1. Ella és una bona alumna? — Sí, ____ és una bona alumna."
+      1: "2. Ets la senyora Leví? — No, ____ no sóc la senyora Leví."
+      2: "3. Qui són? — ____ són el Roberto i l'Emanuel."
+      3: "4. ____ són bones alumnes? — Sí, són bones alumnes."
+      4: "5. D'on sou? — ____ som del Canadà."
+      5: "6. ____ ets mestre? — No, sóc alumne."
+      6: "7. ____ és un bon mestre? — Sí, és un bon mestre."
+      8: "9. ____ ets amiga de l'Itshak? — Sí, sóc amiga de l'Itshak."
+      9: "10. ____ sou turistes? — No, no som turistes."
+  pag-09-b0:
+    vocals:
+      1: "שַׁנֵּה אֶת הַמִּשְׁפָּטִים בְּהֶתְאֵם."
+    ca:
+      0: "Escriu en lloc de les paraules destacades les paraules entre parèntesis."
+      1: "Canvia les frases com calgui."
+  pag-09-b1:
+    vocals:
+      0: "1. <u>צִפּוֹרָה</u> מוֹרָה. הִיא לֹא תַּלְמִידָה."
+      1: "(יוֹסֵף, צִפּוֹרָה וְיוֹסֵף, צִפּוֹרָה וְדִינָה)"
+      5: "2. צִפּוֹרָה <u>מוֹרָה</u> טוֹבָה מְאוֹד. (תַּלְמִידָה, חֲבֵרָה)"
+      8: "3. מֵאַיִן <u>אַתָּה</u>? אֲנִי מֵרוּסְיָה. (אַתֶּם, הֵם, חַנָּה, אַתְּ)"
+      13: "4. <u>אַתָּה</u> לֹא תַּייָּר. (אַתְּ, הוּא, אַתֶּם, אַתֶּן)"
+      14: "5. <u>אֲנַחְנוּ</u> חֲבֵרִים שֶׁל סְטִיב. (הֵן, דּוֹרִיס, רוֹבֶּרְטוֹ)"
+      15: "6. <u>יִצְחָק</u> עוֹלֶה חָדָשׁ. הוּא לֹא מוֹרֶה. הוּא תַּלְמִיד."
+    ca:
+      0: "1. La Tsiporà és mestra. No és alumna."
+      1: "(el Iossef, la Tsiporà i el Iossef, la Tsiporà i la Dina)"
+      5: "2. La Tsiporà és molt bona mestra. (alumna, amiga)"
+      8: "3. D'on ets? Sóc de Rússia. (vosaltres, ells, la Hanà, tu f.)"
+      13: "4. Tu no ets turista. (tu f., ell, vosaltres m., vosaltres f.)"
+      14: "5. Som amics de l'Steve. (elles, la Doris, el Roberto)"
+      15: "6. L'Itshak és un immigrant nou. No és mestre. És alumne."
+      16: "(la Sara, el Mario i l'Emanuel, la Tamar i l'Ester)"
+
+icones:
+  u01-0: hand-waving        # שָׁלוֹם
+  u01-2: handshake          # נָעִים מְאוֹד
+  u01-5: student            # תַּלְמִיד
+  u01-7: airplane-landing   # עוֹלֶה
+  u01-8: sparkle            # חָדָשׁ
+  u01-10: suitcase-rolling  # תַּייָּר
+  u01-15: "propia:senyor.svg"   # אָדוֹן
+  u01-16: "propia:senyora.svg"  # גְּבֶרֶת
+  u01-17: chalkboard-teacher    # מוֹרֶה
+  u01-18: thumbs-up         # טוֹב
+  u01-19: users             # חָבֵר
+  u01-27: gender-male       # זָכָר
+  u01-28: gender-female     # נְקֵבָה
+  u01-29: square            # יָחִיד
+  u01-30: squares-four      # רַבִּים
+  u01-32: compass           # דָּרוֹם
+  u01-34: exam              # תַּרְגִּיל
+  u01-35: pencil-simple     # כְּתֹב!
+  u01-36: text-aa           # מִלָּה
+  u01-37: text-align-left   # מִשְׁפָּט
+
+gramatica:
+  - id: pronoms
+    titol: Els pronoms personals
+    explicacio: L'hebreu distingeix el masculí i el femení a la segona i a la tercera persona. La primera persona, אֲנִי i אֲנַחְנוּ, no té gènere.
+    exemples:
+      - { n: "אֲנִי, אַתָּה, אַתְּ, הוּא, הִיא", ca: "jo, tu (m.), tu (f.), ell, ella" }
+      - { n: "אֲנַחְנוּ, אַתֶּם, אַתֶּן, הֵם, הֵן", ca: "nosaltres, vosaltres (m.), vosaltres (f.), ells, elles" }
+      - { n: "אַתָּה תַּלְמִיד? אַתְּ תַּלְמִידָה?", ca: "Ets alumne? Ets alumna?" }
+  - id: frase-sense-verb
+    titol: La frase sense verb
+    explicacio: En present no hi ha verb «ser»; es posa el subjecte i al costat el que se'n diu. Tampoc no hi ha article indefinit.
+    exemples:
+      - { n: "אֲנִי רוֹבֶּרְטוֹ.", ca: "Sóc el Roberto." }
+      - { n: "הוּא תַּלְמִיד.", ca: "És alumne." }
+      - { n: "הֵם חֲבֵרִים טוֹבִים.", ca: "Són bons amics." }
+      - { n: "הִיא לֹא תַּייֶּרֶת, הִיא עוֹלָה חֲדָשָׁה.", ca: "No és turista, és una immigrant nova.", extra: true }
+  - id: negar-preguntar
+    titol: Negar i preguntar
+    explicacio: לֹא va just davant del que es nega i serveix també de «no» sol. La pregunta de sí o no és la mateixa frase amb entonació de pregunta.
+    exemples:
+      - { n: "אֲנִי לֹא תַּייָּר.", ca: "No sóc turista." }
+      - { n: "לֹא, אֲנִי לֹא עוֹלָה חֲדָשָׁה.", ca: "No, no sóc una immigrant nova." }
+      - { n: "אַתָּה תַּלְמִיד?", ca: "Ets alumne?" }
+      - { n: "מִי אַתָּה? מֵאַיִן אַתָּה?", ca: "Qui ets? D'on ets?", extra: true }
+  - id: masculi-femeni
+    titol: Masculí i femení
+    explicacio: El femení es fa afegint ‑ָה o ‑ֶת al masculí. Sense vocals, מורה i עולה s'escriuen igual en tots dos gèneres.
+    exemples:
+      - { n: "תַּלְמִיד, תַּלְמִידָה", ca: "alumne, alumna" }
+      - { n: "תַּייָּר, תַּייֶּרֶת", ca: "turista (m.), turista (f.)" }
+      - { n: "מוֹרֶה, מוֹרָה", ca: "mestre, mestra" }
+      - { n: "חָבֵר, חֲבֵרָה", ca: "amic, amiga" }
+  - id: singular-plural
+    titol: Singular i plural
+    explicacio: El masculí plural acaba en ‑ִים i el femení plural en ‑וֹת. El femení perd la terminació del singular abans de prendre ‑וֹת.
+    exemples:
+      - { n: "תַּלְמִידִים, תַּלְמִידוֹת", ca: "alumnes (m.), alumnes (f.)" }
+      - { n: "תַּייָּרִים, תַּייָּרוֹת", ca: "turistes (m.), turistes (f.)" }
+      - { n: "מוֹרִים, מוֹרוֹת", ca: "mestres (m.), mestres (f.)" }
+  - id: adjectiu
+    titol: L'adjectiu
+    explicacio: Va darrere del nom i hi concorda en gènere i nombre. מְאוֹד va darrere de l'adjectiu.
+    exemples:
+      - { n: "חָבֵר טוֹב, חֲבֵרָה טוֹבָה", ca: "un bon amic, una bona amiga" }
+      - { n: "חֲבֵרִים טוֹבִים, חֲבֵרוֹת טוֹבוֹת", ca: "bons amics, bones amigues" }
+      - { n: "עוֹלִים חֲדָשִׁים, עוֹלוֹת חֲדָשׁוֹת", ca: "immigrants nous, immigrants noves" }
+      - { n: "טוֹב מְאוֹד", ca: "molt bo" }
+  - id: particules
+    titol: Les partícules enganxades al mot
+    explicacio: הַ־ (el, la, els, les), מִ־ / מֵ־ (de, procedència) i וְ־ / וּ־ (i) s'escriuen unides al mot que les segueix. הַ־ no canvia per gènere ni per nombre.
+    exemples:
+      - { n: "הַמּוֹרִים", ca: "els mestres" }
+      - { n: "מִבְּרָזִיל, מֵאַנְגְלִיָּה", ca: "del Brasil, d'Anglaterra" }
+      - { n: "שָׂרָה וְיִצְחָק", ca: "la Sara i l'Itshak" }
+      - { n: "אֶסְתֵּר וְתָמָר", ca: "l'Ester i la Tamar" }
+  - id: shel-gam-aval
+    titol: «De» de possessió, «també» i «però»
+    explicacio: שֶׁל marca qui té què i és un mot independent. גַּם va davant del que s'afegeix; אֲבָל vol dir «però».
+    exemples:
+      - { n: "הַחָבֵר שֶׁל שָׂרָה", ca: "l'amic de la Sara" }
+      - { n: "גַּם אֲנִי תַּלְמִיד.", ca: "Jo també sóc alumne." }
+      - { n: "גַּם הִיא מִדְּרוֹם-אֲמֶרִיקָה, אֲבָל לֹא מֵאוּרוּגְוַאי.", ca: "També és de Sud-amèrica, però no de l'Uruguai.", extra: true }
+
+exercicis:
+  # pag-08, תרגיל 1: el pronom que falta
+  - { tipus: forat, origen: "pag-08 ex. 1.1", extra: false, linies: [pag-08-b1-l0],
+      frase: { u: "היא תלמידה טובה? — כן, ____ תלמידה טובה.", n: "הִיא תַּלְמִידָה טוֹבָה? — כֵּן, ____ תַּלְמִידָה טוֹבָה." },
+      opcions: ["הִיא", "הוּא", "אַתְּ", "הֵן"], correcta: 0, retro: "Es parla d'ella: הִיא." }
+  - { tipus: forat, origen: "pag-08 ex. 1.2", extra: false, linies: [pag-08-b1-l1],
+      frase: { u: "את גברת לוי? — לא, ____ לא גברת לוי.", n: "אַתְּ גְּבֶרֶת לֵוִי? — לֹא, ____ לֹא גְּבֶרֶת לֵוִי." },
+      opcions: ["אַתְּ", "אֲנִי", "הִיא", "אַתָּה"], correcta: 1, retro: "Li pregunten a ella; respon en primera persona: אֲנִי." }
+  - { tipus: forat, origen: "pag-08 ex. 1.3", extra: false, linies: [pag-08-b1-l2],
+      frase: { u: "מי הם? — ____ רוברטו ועמנואל.", n: "מִי הֵם? — ____ רוֹבֶּרְטוֹ וְעִמָּנוּאֵל." },
+      opcions: ["הֵן", "הֵם", "אַתֶּם", "אֲנַחְנוּ"], correcta: 1, retro: "Dos homes: masculí plural, הֵם." }
+  - { tipus: forat, origen: "pag-08 ex. 1.4", extra: false, linies: [pag-08-b1-l3],
+      frase: { u: "____ תלמידות טובות? — כן, הן תלמידות טובות.", n: "____ תַּלְמִידוֹת טוֹבוֹת? — כֵּן, הֵן תַּלְמִידוֹת טוֹבוֹת." },
+      opcions: ["הֵם", "אַתֶּם", "הֵן", "הִיא"], correcta: 2, retro: "La resposta parla d'elles: הֵן." }
+  - { tipus: forat, origen: "pag-08 ex. 1.5", extra: false, linies: [pag-08-b1-l4],
+      frase: { u: "מאין אתם? — ____ מִקָּנָדָה.", n: "מֵאַיִן אַתֶּם? — ____ מִקָּנָדָה." },
+      opcions: ["אַתֶּם", "הֵם", "אֲנִי", "אֲנַחְנוּ"], correcta: 3, retro: "Pregunten «d'on sou?»; es respon «som»: אֲנַחְנוּ." }
+  - { tipus: forat, origen: "pag-08 ex. 1.6", extra: false, linies: [pag-08-b1-l5],
+      frase: { u: "____ מורה? — לא, אני תלמיד.", n: "____ מוֹרֶה? — לֹא, אֲנִי תַּלְמִיד." },
+      opcions: ["אַתָּה", "אַתְּ", "הוּא", "אֲנִי"], correcta: 0, retro: "Respon un home en primera persona; la pregunta és a ell: אַתָּה." }
+  - { tipus: forat, origen: "pag-08 ex. 1.7", extra: false, linies: [pag-08-b1-l6],
+      frase: { u: "____ מורה טוב? — כן, הוא מורה טוב.", n: "____ מוֹרֶה טוֹב? — כֵּן, הוּא מוֹרֶה טוֹב." },
+      opcions: ["הִיא", "הוּא", "אַתָּה", "הֵם"], correcta: 1, retro: "La resposta parla d'ell: הוּא." }
+  - { tipus: forat, origen: "pag-08 ex. 1.9", extra: false, linies: [pag-08-b1-l8],
+      frase: { u: "____ חברה של יצחק? — כן, אני חברה של יצחק.", n: "____ חֲבֵרָה שֶׁל יִצְחָק? — כֵּן, אֲנִי חֲבֵרָה שֶׁל יִצְחָק." },
+      opcions: ["אַתָּה", "הִיא", "אַתְּ", "אַתֶּן"], correcta: 2, retro: "Respon una dona en primera persona; la pregunta és a ella: אַתְּ." }
+  - { tipus: forat, origen: "pag-08 ex. 1.10", extra: false, linies: [pag-08-b1-l9],
+      frase: { u: "____ תיירים? — לא, אנחנו לא תיירים.", n: "____ תַּייָּרִים? — לֹא, אֲנַחְנוּ לֹא תַּייָּרִים." },
+      opcions: ["אַתֶּם", "אַתֶּן", "הֵן", "אֲנַחְנוּ"], correcta: 0, retro: "Responen «nosaltres» en masculí; la pregunta és a ells: אַתֶּם." }
+
+  # pag-09, תרגיל 2: canvia el mot destacat i fes concordar la frase
+  - { tipus: autocorreccio, origen: "pag-09 ex. 2.1", extra: false, linies: [pag-09-b1-l0, pag-09-b1-l1],
+      enunciat: { n: "צִפּוֹרָה מוֹרָה. הִיא לֹא תַּלְמִידָה. ← יוֹסֵף", u: "צפורה מורה. היא לא תלמידה. ← יוסף" },
+      model: { n: "יוֹסֵף מוֹרֶה. הוּא לֹא תַּלְמִיד.", u: "יוסף מורה. הוא לא תלמיד." } }
+  - { tipus: autocorreccio, origen: "pag-09 ex. 2.1", extra: false, linies: [pag-09-b1-l0, pag-09-b1-l1],
+      enunciat: { n: "צִפּוֹרָה מוֹרָה. הִיא לֹא תַּלְמִידָה. ← צִפּוֹרָה וְיוֹסֵף", u: "צפורה מורה. היא לא תלמידה. ← צפורה ויוסף" },
+      model: { n: "צִפּוֹרָה וְיוֹסֵף מוֹרִים. הֵם לֹא תַּלְמִידִים.", u: "צפורה ויוסף מורים. הם לא תלמידים." } }
+  - { tipus: conjugar, origen: "pag-09 ex. 2.1", extra: false, linies: [pag-09-b1-l0, pag-09-b1-l1],
+      base: { n: "צִפּוֹרָה מוֹרָה. הִיא לֹא תַּלְמִידָה.", u: "צפורה מורה. היא לא תלמידה." }, demana: "amb צִפּוֹרָה וְדִינָה",
+      opcions: ["צִפּוֹרָה וְדִינָה מוֹרוֹת. הֵן לֹא תַּלְמִידוֹת.", "צִפּוֹרָה וְדִינָה מוֹרִים. הֵם לֹא תַּלְמִידִים.", "צִפּוֹרָה וְדִינָה מוֹרָה. הִיא לֹא תַּלְמִידָה."], correcta: 0 }
+  - { tipus: construir, origen: "pag-09 ex. 2.2", extra: false, linies: [pag-09-b1-l5],
+      ca: "La Tsiporà és molt bona alumna.",
+      fitxes: ["צִפּוֹרָה", "תַּלְמִידָה", "טוֹבָה", "מְאוֹד", "טוֹב"], ordre: [0, 1, 2, 3] }
+  - { tipus: construir, origen: "pag-09 ex. 2.2", extra: false, linies: [pag-09-b1-l5],
+      ca: "La Tsiporà és molt bona amiga.",
+      fitxes: ["חֲבֵרָה", "מְאוֹד", "צִפּוֹרָה", "טוֹבָה", "חָבֵר"], ordre: [2, 0, 3, 1] }
+  - { tipus: forat, origen: "pag-09 ex. 2.3", extra: false, linies: [pag-09-b1-l8],
+      frase: { u: "מאין אתם? ____ מרוסיה.", n: "מֵאַיִן אַתֶּם? ____ מֵרוּסְיָה." },
+      opcions: ["אֲנִי", "אֲנַחְנוּ", "הֵם", "אַתֶּם"], correcta: 1, retro: "«D'on sou?» — «Som de Rússia»: אֲנַחְנוּ." }
+  - { tipus: forat, origen: "pag-09 ex. 2.3", extra: false, linies: [pag-09-b1-l8],
+      frase: { u: "מאין חנה? ____ מרוסיה.", n: "מֵאַיִן חַנָּה? ____ מֵרוּסְיָה." },
+      opcions: ["הוּא", "אֲנִי", "הִיא", "הֵן"], correcta: 2, retro: "La Hanà és una dona: הִיא." }
+  - { tipus: conjugar, origen: "pag-09 ex. 2.4", extra: false, linies: [pag-09-b1-l13],
+      base: { n: "אַתָּה לֹא תַּייָּר.", u: "אתה לא תייר." }, demana: "amb אַתְּ",
+      opcions: ["אַתְּ לֹא תַּייָּר.", "אַתְּ לֹא תַּייֶּרֶת.", "אַתְּ לֹא תַּייָּרוֹת."], correcta: 1 }
+  - { tipus: conjugar, origen: "pag-09 ex. 2.4", extra: false, linies: [pag-09-b1-l13],
+      base: { n: "אַתָּה לֹא תַּייָּר.", u: "אתה לא תייר." }, demana: "amb אַתֶּן",
+      opcions: ["אַתֶּן לֹא תַּייָּרִים.", "אַתֶּן לֹא תַּייֶּרֶת.", "אַתֶּן לֹא תַּייָּרוֹת."], correcta: 2 }
+  - { tipus: conjugar, origen: "pag-09 ex. 2.5", extra: false, linies: [pag-09-b1-l14],
+      base: { n: "אֲנַחְנוּ חֲבֵרִים שֶׁל סְטִיב.", u: "אנחנו חברים של סטיב." }, demana: "amb הֵן",
+      opcions: ["הֵן חֲבֵרִים שֶׁל סְטִיב.", "הֵן חֲבֵרוֹת שֶׁל סְטִיב.", "הֵן חֲבֵרָה שֶׁל סְטִיב."], correcta: 1 }
+  - { tipus: construir, origen: "pag-09 ex. 2.5", extra: false, linies: [pag-09-b1-l14],
+      ca: "La Doris és amiga de l'Steve.",
+      fitxes: ["שֶׁל", "דּוֹרִיס", "סְטִיב", "חֲבֵרָה", "חֲבֵרִים"], ordre: [1, 3, 0, 2] }
+  - { tipus: autocorreccio, origen: "pag-09 ex. 2.6", extra: false, linies: [pag-09-b1-l15],
+      enunciat: { n: "יִצְחָק עוֹלֶה חָדָשׁ. הוּא לֹא מוֹרֶה. הוּא תַּלְמִיד. ← שָׂרָה", u: "יצחק עולה חדש. הוא לא מורה. הוא תלמיד. ← שרה" },
+      model: { n: "שָׂרָה עוֹלָה חֲדָשָׁה. הִיא לֹא מוֹרָה. הִיא תַּלְמִידָה.", u: "שרה עולה חדשה. היא לא מורה. היא תלמידה." } }
+  - { tipus: autocorreccio, origen: "pag-09 ex. 2.6", extra: false, linies: [pag-09-b1-l15],
+      enunciat: { n: "יִצְחָק עוֹלֶה חָדָשׁ. הוּא לֹא מוֹרֶה. הוּא תַּלְמִיד. ← תָּמָר וְאֶסְתֵּר", u: "יצחק עולה חדש. הוא לא מורה. הוא תלמיד. ← תמר ואסתר" },
+      model: { n: "תָּמָר וְאֶסְתֵּר עוֹלוֹת חֲדָשׁוֹת. הֵן לֹא מוֹרוֹת. הֵן תַּלְמִידוֹת.", u: "תמר ואסתר עולות חדשות. הן לא מורות. הן תלמידות." } }
+
+  # Extra: comprensió i producció a partir dels diàlegs
+  - { tipus: comprensio, origen: extra, extra: true, linies: [pag-02-b0-l0, pag-02-b0-l1, pag-02-b0-l2, pag-02-b0-l3, pag-02-b0-l4, pag-02-b0-l5],
+      text: "שָׁלוֹם, אֲנִי רוֹבֶּרְטוֹ. — אֲנִי דּוֹרִיס. — נָעִים מְאוֹד. — נָעִים מְאוֹד. אַתָּה תַּלְמִיד? — כֵּן, אֲנִי תַּלְמִיד. אַתְּ תַּלְמִידָה? — כֵּן, אֲנִי תַּלְמִידָה.",
+      pregunta: "Què són el Roberto i la Doris?", opcions: ["Alumnes", "Mestres", "Turistes"], correcta: 0 }
+  - { tipus: comprensio, origen: extra, extra: true, linies: [pag-05-b2-l1, pag-05-b2-l2, pag-05-b2-l3, pag-05-b2-l4],
+      text: "הֵם תַּייָּרִים? — לֹא, הֵם עוֹלִים חֲדָשִׁים מִבְּרָזִיל. — הֵם חֲבֵרִים? — כֵּן, הֵם חֲבֵרִים טוֹבִים.",
+      pregunta: "D'on són?", opcions: ["D'Anglaterra", "Del Brasil", "De Rússia"], correcta: 1 }
+  - { tipus: comprensio, origen: extra, extra: true, linies: [pag-03-b2-l0, pag-03-b2-l1, pag-03-b2-l2],
+      text: "אֲנִי שָׂרָה לֵוִי. — גְּבֶרֶת לֵוִי, אַתְּ מוֹרָה? — לֹא, אֲנִי לֹא מוֹרָה. אֲנִי תַּלְמִידָה.",
+      pregunta: "Què és la senyora Leví?", opcions: ["Mestra", "Turista", "Alumna"], correcta: 2 }
+  - { tipus: comprensio, origen: extra, extra: true, linies: [pag-07-b3-l0, pag-07-b3-l1],
+      text: "דּוֹרִיס וּסְטִיב מֵאַנְגְלִיָּה. סָם מִדְּרוֹם-אַפְרִיקָה. בּוֹרִיס וְחַנָּה מֵרוּסְיָה. נָטָלִי מִצָּרְפַת.",
+      pregunta: "D'on és la Natalie?", opcions: ["De Rússia", "De Sud-àfrica", "De França"], correcta: 2 }
+  - { tipus: construir, origen: extra, extra: true, linies: [pag-05-b2-l4, u01-19, u01-18],
+      ca: "Són bons amics.",
+      fitxes: ["טוֹבִים", "הֵם", "חֲבֵרִים", "טוֹבוֹת"], ordre: [1, 2, 0] }
+  - { tipus: autocorreccio, origen: extra, extra: true, linies: [pag-07-b2-l0, u01-14, u01-31],
+      enunciat: { n: "מִי אַתָּה? מֵאַיִן אַתָּה?", u: "מי אתה? מאין אתה?" },
+      model: { n: "אֲנִי רוֹבֶּרְטוֹ. אֲנִי מִבְּרָזִיל.", u: "אני רוברטו. אני מברזיל." } }
