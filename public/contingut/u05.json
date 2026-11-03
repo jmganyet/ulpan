@@ -519,7 +519,7 @@
     {
       "id": "preguntes-lloc",
       "titol": "D'on, on, cap a on: מֵאַיִן, אֵיפֹה, לְאָן",
-      "explicacio": "Cada pregunta té la seva preposició: מֵאַיִן amb מִ־ (de), אֵיפֹה amb בְּ־ (quiet: גָּר, לוֹמֵד, עוֹבֵד) i לְאָן amb לְ־ (en moviment: הוֹלֵךְ, בָּא). En català diem «on» per a tot.",
+      "explicacio": "Cada pregunta té la seva preposició: מֵאַיִן amb מִ־ (de), אֵיפֹה amb בְּ־ (quiet: גָּר, לוֹמֵד, עוֹבֵד) i לְאָן amb לְ־ (en moviment: הוֹלֵךְ, בָּא). En català diem «on» tant per al lloc com per a la direcció.",
       "extra": false,
       "exemples": [
         {
@@ -676,7 +676,7 @@
     {
       "id": "bi-li",
       "titol": "בִּ־ i לִ־ davant de xevà",
-      "explicacio": "Si el mot comença amb xevà, la preposició no pot portar-ne un altre i passa a בִּ־ o לִ־. Ho fa el dossier a בִּדְרוֹם-אֲמֶרִיקָה i a לִתְשׁוּבוֹת.",
+      "explicacio": "Si el mot comença amb xevà, la preposició no pot portar-ne un altre i passa a בִּ־ o לִ־: בִּדְרוֹם-אֲמֶרִיקָה. Sense vocals no es veu (בדרום).",
       "extra": false,
       "exemples": [
         {
@@ -696,15 +696,15 @@
         {
           "id": "u05-g-bi-li-1",
           "text": {
-            "u": "כתוב שאלות לתשובות.",
-            "n": "כְּתוֹב שְׁאֵלוֹת לִתְשׁוּבוֹת.",
+            "u": "לא, בדרום-אמריקה אין קיבוצים.",
+            "n": "לֹא, בִּדְרוֹם-אֲמֶרִיקָה אֵין קִיבּוּצִים.",
             "extraVocals": true
           },
-          "ca": "Escriu preguntes per a les respostes.",
+          "ca": "No, a Sud-amèrica no hi ha quibutsos.",
           "perComprovar": false,
           "audio": {
-            "normal": "b4484d0dd97a.m4a",
-            "lent": "a2224a004483.m4a"
+            "normal": "07b5576642cd.m4a",
+            "lent": "d5c22d8861e2.m4a"
           }
         }
       ]
@@ -1601,7 +1601,7 @@
             "u": "מְ... מֵ... · בְּ... בַּ... (בָּ...) · לְ... לַ... (לָ...)"
           },
           "perComprovar": false,
-          "ca": "mi-, me- (de) · be-, ba- (a, en) · le-, la- (a, cap a)",
+          "ca": "me-, me- · be-, ba- (ba-) · le-, la- (la-)",
           "audio": {
             "normal": "81258fb3873f.m4a",
             "lent": "37052e2f6112.m4a"
@@ -2664,11 +2664,12 @@
       "origen": "extra",
       "extra": true,
       "linies": [
+        "pag-28-b0-l4",
         "pag-28-b0-l5"
       ],
       "frase": {
-        "u": "לא, בדרום-אמריקה ____ קיבוצים.",
-        "n": "לֹא, בִּדְרוֹם-אֲמֶרִיקָה ____ קִיבּוּצִים."
+        "u": "גם בדרום-אמריקה יש קיבוצים? – לא, בדרום-אמריקה ____ קיבוצים.",
+        "n": "גַּם בִּדְרוֹם-אֲמֶרִיקָה יֵשׁ קִיבּוּצִים? – לֹא, בִּדְרוֹם-אֲמֶרִיקָה ____ קִיבּוּצִים."
       },
       "opcions": [
         "יֵשׁ",
@@ -2853,7 +2854,7 @@
       "opcions": [
         "Al teatre",
         "Al concert",
-        "A l'ulpan"
+        "Al museu"
       ],
       "correcta": 1,
       "id": "u05-ex-40"

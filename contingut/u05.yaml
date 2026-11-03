@@ -129,7 +129,7 @@ textos:
       0: "מֵאַיִן...? · אֵיפֹה...? · לְאָן...?"
     ca:
       0: "D'on...? · On...? · Cap a on...?"
-      1: "mi-, me- (de) · be-, ba- (a, en) · le-, la- (a, cap a)"
+      1: "me-, me- · be-, ba- (ba-) · le-, la- (la-)"
   pag-31-b1:
     vocals:
       0: "זֶה הַבַּיִת שֶׁל רָחֵל וְיַעֲקֹב."
@@ -257,7 +257,7 @@ gramatica:
       - { n: "הוֹלֵךְ - לָלֶכֶת (הָלַךְ) · בָּא - לָבוֹא (בָּא)", ca: "va – anar (va anar) · ve – venir (va venir)" }
   - id: preguntes-lloc
     titol: "D'on, on, cap a on: מֵאַיִן, אֵיפֹה, לְאָן"
-    explicacio: "Cada pregunta té la seva preposició: מֵאַיִן amb מִ־ (de), אֵיפֹה amb בְּ־ (quiet: גָּר, לוֹמֵד, עוֹבֵד) i לְאָן amb לְ־ (en moviment: הוֹלֵךְ, בָּא). En català diem «on» per a tot."
+    explicacio: "Cada pregunta té la seva preposició: מֵאַיִן amb מִ־ (de), אֵיפֹה amb בְּ־ (quiet: גָּר, לוֹמֵד, עוֹבֵד) i לְאָן amb לְ־ (en moviment: הוֹלֵךְ, בָּא). En català diem «on» tant per al lloc com per a la direcció."
     exemples:
       - { n: "מֵאַיִן...? · אֵיפֹה...? · לְאָן...?", ca: "D'on...? · On...? · Cap a on...?" }
       - { n: "אֵיפֹה רָחֵל? — רָחֵל בַּבַּיִת.", ca: "On és la Rakhel? — La Rakhel és a casa." }
@@ -275,10 +275,10 @@ gramatica:
       - { n: "לְ + הַקִּיבּוּץ = לַקִּיבּוּץ · בְּ + הַקִּיבּוּץ = בַּקִּיבּוּץ", ca: "a + el quibuts = al quibuts (cap a i dins)", extra: true }
   - id: bi-li
     titol: "בִּ־ i לִ־ davant de xevà"
-    explicacio: "Si el mot comença amb xevà, la preposició no pot portar-ne un altre i passa a בִּ־ o לִ־. Ho fa el dossier a בִּדְרוֹם-אֲמֶרִיקָה i a לִתְשׁוּבוֹת."
+    explicacio: "Si el mot comença amb xevà, la preposició no pot portar-ne un altre i passa a בִּ־ o לִ־: בִּדְרוֹם-אֲמֶרִיקָה. Sense vocals no es veu (בדרום)."
     exemples:
       - { n: "גַּם בִּדְרוֹם-אֲמֶרִיקָה יֵשׁ קִיבּוּצִים?", ca: "També hi ha quibutsos a Sud-amèrica?" }
-      - { n: "כְּתוֹב שְׁאֵלוֹת לִתְשׁוּבוֹת.", ca: "Escriu preguntes per a les respostes." }
+      - { n: "לֹא, בִּדְרוֹם-אֲמֶרִיקָה אֵין קִיבּוּצִים.", ca: "No, a Sud-amèrica no hi ha quibutsos." }
   - id: babayit-habayta
     titol: "בַּבַּיִת, לַבַּיִת, הַבַּיְתָה"
     explicacio: "בַּבַּיִת és a casa, sense moviment; לַבַּיִת שֶׁל… és cap a la casa d'algú; הַבַּיְתָה és cap a casa (la pròpia). הַבַּיְתָה va sola, mai «לְהַבַּיְתָה», i només amb verbs de moviment."
@@ -398,8 +398,8 @@ exercicis:
       model: { n: "יֵשׁ הַרְבֵּה אוּלְפָּנִים בַּקִּיבּוּצִים.", u: "יש הרבה אולפנים בקיבוצים." } }
 
   # Extra: יֵשׁ / אֵין, quantitat, concordança dels verbs, הַבַּיְתָה, comprensió i construir
-  - { tipus: forat, origen: extra, extra: true, linies: [pag-28-b0-l5],
-      frase: { u: "לא, בדרום-אמריקה ____ קיבוצים.", n: "לֹא, בִּדְרוֹם-אֲמֶרִיקָה ____ קִיבּוּצִים." },
+  - { tipus: forat, origen: extra, extra: true, linies: [pag-28-b0-l4, pag-28-b0-l5],
+      frase: { u: "גם בדרום-אמריקה יש קיבוצים? – לא, בדרום-אמריקה ____ קיבוצים.", n: "גַּם בִּדְרוֹם-אֲמֶרִיקָה יֵשׁ קִיבּוּצִים? – לֹא, בִּדְרוֹם-אֲמֶרִיקָה ____ קִיבּוּצִים." },
       opcions: ["יֵשׁ", "אֵין", "לֹא"], correcta: 1, retro: "No hi ha: אֵין, mai לֹא davant del nom." }
   - { tipus: forat, origen: extra, extra: true, linies: [pag-28-b0-l11],
       frase: { u: "באולפן, בקיבוץ דן יש ____ שלוש כיתות.", n: "בָּאוּלְפָּן, בְּקִיבּוּץ דָּן יֵשׁ ____ שָׁלוֹשׁ כִּיתּוֹת." },
@@ -427,7 +427,7 @@ exercicis:
       pregunta: "Qui fa classe a l'ulpan del quibuts Dan?", opcions: ["Només mestres homes", "Només mestres dones", "Mestres homes i dones"], correcta: 1 }
   - { tipus: comprensio, origen: extra, extra: true, linies: [pag-30-b1-l0, pag-30-b1-l1, pag-30-b1-l2],
       text: "אֶסְתֵּר: יוֹסִי, לְאָן אַתָּה הוֹלֵךְ? — יוֹסִי: אֲנִי הוֹלֵךְ לַתֵּיאַטְרוֹן, גַּם אַתְּ בָּאָה לַתֵּיאַטְרוֹן? — אֶסְתֵּר: לֹא, אֲנִי הוֹלֶכֶת לַקּוֹנְצֶרְט.",
-      pregunta: "On va l'Ester?", opcions: ["Al teatre", "Al concert", "A l'ulpan"], correcta: 1 }
+      pregunta: "On va l'Ester?", opcions: ["Al teatre", "Al concert", "Al museu"], correcta: 1 }
   - { tipus: construir, origen: extra, extra: true, linies: [pag-28-b0-l11],
       ca: "només tres classes",
       fitxes: ["רַק", "שָׁלוֹשׁ", "כִּיתּוֹת", "הַרְבֵּה", "כִּיתָּה"], ordre: [0, 1, 2] }
