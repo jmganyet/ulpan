@@ -48,4 +48,19 @@ describe('llegeixPagina', () => {
     expect(p8.blocs).toHaveLength(2)
     expect(p8.vocabulariMarge[1].perComprovar).toBe(true)
   })
+  it('pag-40: marge ### i nota al peu fora dels blocs', () => {
+    const p = llegeixPagina(f('pag-40.md'), 'pag-40')
+    expect(p.vocabulariMarge.length).toBeGreaterThan(2)
+    expect(p.notes).toHaveLength(1)
+    expect(p.notes[0].perComprovar).toBe(true)
+    const tots = p.blocs.flatMap((b) => b.linies.map((l) => l.text))
+    for (const m of [...p.vocabulariMarge, ...p.notes]) expect(tots).not.toContain(m.text)
+    expect(p.blocs.map((b) => b.titol?.text)).not.toContain('Vocabulari (marge)')
+  })
+  it('fila d\'una columna, CRLF i [!hebreu]-', () => {
+    const md = '---\r\ntitol: "א — b"\r\npagina-original: 3\r\n---\r\n## T\r\n\r\n> [!hebreu]-\r\n> | | |\r\n> |---|---|\r\n> | שלום |\r\n> | a | b ⁇ |\r\n'
+    const p = llegeixPagina(md, 'x')
+    expect(p.blocs[0].linies).toEqual([{ text: 'שלום', perComprovar: false }, { text: 'a', perComprovar: true }])
+    expect(p.paginaOriginal).toBe(3)
+  })
 })

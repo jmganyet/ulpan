@@ -4,7 +4,7 @@ export type Item = { text: string; perComprovar: boolean }
 export type Bloc = { titol?: Item; linies: Item[] }
 export type Pagina = {
   nom: string; paginaOriginal: number; titol: { he: string; ca: string }
-  blocs: Bloc[]; vocabulariMarge: Item[]
+  blocs: Bloc[]; vocabulariMarge: Item[]; notes: Item[]
 }
 
 const item = (s: string): Item => ({ text: senseComprovar(s), perComprovar: teComprovar(s) })
@@ -28,11 +28,13 @@ export function llegeixPagina(md: string, nom: string): Pagina {
   const [he, ...resta] = (fm['titol'] ?? '').split(' — ')
   const blocs: Bloc[] = []
   const vocabulariMarge: Item[] = []
+  const notes: Item[] = []
   let titolActual: string | undefined
   for (let i = 0; i < cos.length; i++) {
     const l = cos[i]
-    if (/^## /.test(l)) { titolActual = l.slice(3).trim(); continue }
-    if (!/^> \[!hebreu\]\s*$/.test(l)) continue
+    const h = /^(#{2,3}) (.*)$/.exec(l)
+    if (h) { titolActual = h[2].trim(); if (h[1] === '###' && !/^Vocabulari \(marge\)/.test(titolActual)) titolActual = undefined; continue }
+    if (!/^> \[!hebreu\]/.test(l)) continue
     const linies: Item[] = []
     for (i++; i < cos.length && cos[i].startsWith('>'); i++) {
       const f = cos[i].replace(/^>\s?/, '')
@@ -44,12 +46,14 @@ export function llegeixPagina(md: string, nom: string): Pagina {
     i--
     if (titolActual !== undefined && /^Vocabulari \(marge\)/.test(titolActual)) {
       vocabulariMarge.push(...linies)
+    } else if (titolActual !== undefined && /^Nota al peu/.test(titolActual)) {
+      notes.push(...linies)
     } else {
       blocs.push({ ...(titolActual !== undefined ? { titol: item(titolActual) } : {}), linies })
     }
   }
   return {
     nom, paginaOriginal: Number(fm['pagina-original']),
-    titol: { he: he ?? '', ca: resta.join(' — ') }, blocs, vocabulariMarge,
+    titol: { he: he ?? '', ca: resta.join(' — ') }, blocs, vocabulariMarge, notes,
   }
 }
