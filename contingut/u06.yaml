@@ -1,2 +1,594 @@
-# Capa curada de la unitat 6: icones, textos, gramatica, exercicis, extres.
+# Capa curada de la unitat 6: icones, textos, gramàtica, exercicis.
 # Format: vegeu scripts/genera-contingut.ts (tipus Curat).
+# Vocals verificades amb els TSV (u01-u06) i la fitxa u06-a-la-classe del dossier, i amb Pealim
+# (יוֹשֵׁב, עוֹמֵד, כּוֹתֵב, אוֹמֵר: pa'al, present, passat i infinitiu; טֶלֶווִיזְיָה, דֶּמוֹקְרַטְיָה) i Wiktionary
+# (גִּיטָרָה, דִּיקְטָטוּרָה, טְרַקְטוֹר, טְרַנְזִיסְטוֹר, מֶקְסִיקוֹ).
+# Grafia plena amb vocals (R19): כִּיסֵּא, כִּיסְאוֹת, עִיפָּרוֹן, מִיטָּה, כִּיתָּה, מִילִּים, מְעַנְייֵן, לַעֲמוֹד, לִכְתּוֹב.
+# On el dossier escriu defectiu, s'hi segueix: הַכִּסְאוֹת (pag-36-b9), וְהָעִפָּרוֹן (pag-35-b1-l8).
+# Article: הֶחָתוּל (הַ davant de חָ àtona passa a הֶ; la fitxa u06 escriu הַחָתוּל), הָאָרוֹן, הָעֵט, הָעִיפָּרוֹן, הָאִישׁ;
+# הַכְּנֶסֶת amb article (בַּכְּנֶסֶת). מָה davant de א, ה, ע (מָה אוֹמֵר, מָה הֵם), com a les unitats anteriors.
+# לְבּוֹרִיס amb dagesh per mantenir la b del nom estranger, com la fitxa u06 i בְּפֶבְּרוּאָר a la u05.
+# Les línies «per comprovar» (⁇) no porten vocals ni traducció: pag-33-b0-l0 i pag-39-b1-l11.
+# Sense vocals: pag-39-b0-l0 (תרגיל המרה, com a la u03 i la u05).
+# Línies que el dossier ja dona amb vocals (pag-33-b0-l1, pag-33-b2-l0, pag-34-b2, pag-34-b7): només traducció.
+
+textos:
+  pag-33-b0:
+    ca:
+      1: "No hi ha a..."
+  pag-33-b1:
+    vocals:
+      0: "אוֹמְרִים: בְּיִשְׂרָאֵל יֵשׁ קִיבּוּצִים. בְּאַנְגְלִיָּה אֵין קִיבּוּצִים."
+      1: "אוֹ: יֵשׁ בְּיִשְׂרָאֵל קִיבּוּצִים. אֵין בְּאַנְגְלִיָּה קִיבּוּצִים."
+      2: "אוֹ: יֵשׁ קִיבּוּצִים בְּיִשְׂרָאֵל. אֵין קִיבּוּצִים בְּאַנְגְלִיָּה."
+    ca:
+      0: "Es diu: a Israel hi ha quibutsos. A Anglaterra no hi ha quibutsos."
+      1: "O bé, amb יֵשׁ i אֵין al davant: hi ha quibutsos a Israel. No hi ha quibutsos a Anglaterra."
+      2: "O bé, amb el lloc al final: hi ha quibutsos a Israel. No hi ha quibutsos a Anglaterra."
+  pag-33-b2:
+    ca:
+      0: "Respon...!"
+  pag-33-b3:
+    vocals:
+      0: "עֲנֵה עַל הַשְּׁאֵלוֹת."
+    ca:
+      0: "Respon les preguntes."
+  pag-33-b4:
+    vocals:
+      0: "1. בְּיִשְׂרָאֵל יֵשׁ דֶּמוֹקְרַטְיָה? ____"
+      1: "2. יֵשׁ דֶּמוֹקְרַטְיָה בְּרוּסְיָה? ____"
+      2: "3. יֵשׁ דִּיקְטָטוּרָה בְּאַרְצוֹת-הַבְּרִית? ____"
+      3: "4. אֵיפֹה יֵשׁ דִּיקְטָטוּרָה? ____"
+      4: "5. יֵשׁ מֵאָה וְעֶשְׂרִים (120) חֲבֵרִים בַּכְּנֶסֶת? ____"
+      5: "6. יֵשׁ בַּכְּנֶסֶת נָשִׁים? ____"
+      6: "7. בַּכְּנֶסֶת יֵשׁ עֲרָבִים? ____"
+      7: "8. יֵשׁ נֵפְט בְּמֶקְסִיקוֹ? ____"
+      8: "9. בְּיִשְׂרָאֵל יֵשׁ נֵפְט? ____"
+      9: "10. אֵיפֹה יֵשׁ נֵפְט? ____"
+      10: "11. יֵשׁ יְהוּדִים בְּסוּרְיָה? ____"
+      11: "12. בַּכִּיתָּה יֵשׁ טֶלֶווִיזְיָה? ____"
+      12: "13. יֵשׁ טֶלֶפוֹן בַּכִּיתָּה? ____"
+      13: "14. יֵשׁ בַּכִּיתָּה טְרַקְטוֹר? ____"
+      14: "15. יֵשׁ אוּלְפָּנִים בַּקִּיבּוּצִים? ____"
+    ca:
+      0: "1. A Israel hi ha democràcia? ____"
+      1: "2. Hi ha democràcia a Rússia? ____"
+      2: "3. Hi ha dictadura als Estats Units? ____"
+      3: "4. On hi ha dictadura? ____"
+      4: "5. Hi ha cent vint (120) membres a la Kenésset? ____"
+      5: "6. Hi ha dones a la Kenésset? ____"
+      6: "7. A la Kenésset hi ha àrabs? ____"
+      7: "8. Hi ha petroli a Mèxic? ____"
+      8: "9. A Israel hi ha petroli? ____"
+      9: "10. On hi ha petroli? ____"
+      10: "11. Hi ha jueus a Síria? ____"
+      11: "12. A la classe hi ha televisor? ____"
+      12: "13. Hi ha telèfon a la classe? ____"
+      13: "14. Hi ha cap tractor a la classe? ____"
+      14: "15. Hi ha ulpans als quibutsos? ____"
+  pag-34-b0:
+    vocals:
+      0: "שׁוּלְחָן"
+      1: "כִּיסֵּא"
+      2: "אָרוֹן"
+      3: "חַלּוֹן"
+    ca:
+      0: "taula"
+      1: "cadira"
+      2: "armari"
+      3: "finestra"
+  pag-34-b1:
+    vocals:
+      0: "לוּחַ"
+      1: "מַחְבֶּרֶת"
+      2: "עֵט"
+      3: "עִיפָּרוֹן"
+    ca:
+      0: "pissarra"
+      1: "llibreta"
+      2: "ploma"
+      3: "llapis"
+  pag-34-b2:
+    ca:
+      0: "sobre, damunt de"
+      1: "al costat de"
+      2: "entre"
+      3: "sota"
+  pag-34-b3:
+    vocals:
+      0: "הֶחָתוּל עַל הַכִּיסֵּא"
+      1: "עַל-יַד הַשּׁוּלְחָן."
+    ca:
+      0: "El gat és damunt la cadira,"
+      1: "al costat de la taula."
+  pag-34-b4:
+    vocals:
+      0: "הֶחָתוּל עַל הַכִּיסֵּא"
+      1: "בֵּין הַשּׁוּלְחָן וְהָאָרוֹן."
+    ca:
+      0: "El gat és damunt la cadira,"
+      1: "entre la taula i l'armari."
+  pag-34-b5:
+    vocals:
+      0: "אֵיפֹה הַכֶּלֶב?"
+    ca:
+      0: "On és el gos?"
+  pag-34-b6:
+    vocals:
+      0: "הַכֶּלֶב תַּחַת הַשּׁוּלְחָן."
+    ca:
+      0: "El gos és sota la taula."
+  pag-34-b7:
+    ca:
+      0: "sobre, damunt de"
+      1: "al costat de"
+      2: "entre"
+      3: "sota"
+  pag-35-b0:
+    vocals:
+      0: "כְּתוֹב עַל עַל-יַד בֵּין תַּחַת"
+    ca:
+      0: "Escriu: sobre, al costat de, entre, sota"
+  pag-35-b1:
+    vocals:
+      0: "1. הַגִּיטָרָה ____ הַשָּׁטִיחַ ____ הַשּׁוּלְחָן."
+      1: "2. הַשָּׁטִיחַ ____ הַגִּיטָרָה."
+      2: "3. הַשּׁוּלְחָן ____ הַכִּיסֵּא וְהַמִּיטָּה."
+      3: "4. הַטֶּלֶווִיזְיָה ____ הָאָרוֹן ____ הַטְּרַנְזִיסְטוֹר."
+      4: "5. הֶחָתוּל ____ הַחַלּוֹן. הַכֶּלֶב ____ הַמִּיטָּה."
+      5: "6. הַמִּיטָּה ____ הַשּׁוּלְחָן. הַסֵּפֶר ____ הַמִּיטָּה."
+      6: "7. הָעִיפָּרוֹן ____ הָעֵט וְהַטֶּלֶפוֹן."
+      7: "8. הָעֵט ____ הַשּׁוּלְחָן. הַמַּחְבֶּרֶת ____ הָעֵט."
+      8: "9. הָעֵט ____ הַמַּחְבֶּרֶת וְהָעִפָּרוֹן."
+      9: "10. הַיַּלְדָּה וְהָאִישׁ ____ הַדֶּלֶת."
+      10: "11. הַטְּרַנְזִיסְטוֹר ____ הַטֶּלֶווִיזְיָה ____ הָאָרוֹן."
+      11: "12. הָאָרוֹן ____ הַדֶּלֶת."
+    ca:
+      0: "1. La guitarra és ____ la catifa, ____ la taula."
+      1: "2. La catifa és ____ la guitarra."
+      2: "3. La taula és ____ la cadira i el llit."
+      3: "4. El televisor és ____ l'armari, ____ el transistor."
+      4: "5. El gat és ____ la finestra. El gos és ____ el llit."
+      5: "6. El llit és ____ la taula. El llibre és ____ el llit."
+      6: "7. El llapis és ____ la ploma i el telèfon."
+      7: "8. La ploma és ____ la taula. La llibreta és ____ la ploma."
+      8: "9. La ploma és ____ la llibreta i el llapis."
+      9: "10. La nena i l'home són ____ la porta."
+      10: "11. El transistor és ____ el televisor, ____ l'armari."
+      11: "12. L'armari és ____ la porta."
+  pag-36-b0:
+    vocals:
+      0: "זֹאת כִּיתָּה בָּאוּלְפָּן. מַה יֵּשׁ בַּכִּיתָּה?"
+    ca:
+      0: "Aquesta és una classe de l'ulpan. Què hi ha a la classe?"
+  pag-36-b1:
+    vocals:
+      0: "בַּכִּיתָּה יֵשׁ שׁוּלְחָן. עַל הַשּׁוּלְחָן יֵשׁ סֵפֶר, מַחְבֶּרֶת וְעֵט."
+      1: "בַּכִּיתָּה יֵשׁ לוּחַ גָּדוֹל שָׁחוֹר, חַלּוֹנוֹת גְּדוֹלִים וְדֶלֶת."
+    ca:
+      0: "A la classe hi ha una taula. Damunt la taula hi ha un llibre, una llibreta i una ploma."
+      1: "A la classe hi ha una pissarra gran i negra, finestres grans i una porta."
+  pag-36-b2:
+    vocals:
+      0: "יֵשׁ בַּכִּיתָּה טֶלֶווִיזְיָה?"
+    ca:
+      0: "Hi ha televisor a la classe?"
+  pag-36-b3:
+    vocals:
+      0: "לֹא, טֶלֶווִיזְיָה יֵשׁ בַּמּוֹעֲדוֹן שֶׁל הָאוּלְפָּן."
+    ca:
+      0: "No, televisor n'hi ha al club de l'ulpan."
+  pag-36-b4:
+    vocals:
+      0: "וְטֶלֶפוֹן יֵשׁ בַּכִּיתָּה?"
+    ca:
+      0: "I telèfon, n'hi ha a la classe?"
+  pag-36-b5:
+    vocals:
+      0: "לֹא. גַּם טֶלֶפוֹן אֵין בַּכִּיתָּה. טֶלֶפוֹן יֵשׁ בַּמִּשְׂרָד."
+    ca:
+      0: "No. A la classe tampoc no hi ha telèfon. Telèfon n'hi ha a l'oficina."
+  pag-36-b6:
+    vocals:
+      0: "יֵשׁ פֹּה כִּיסֵּא?"
+    ca:
+      0: "Hi ha cap cadira, aquí?"
+  pag-36-b7:
+    vocals:
+      0: "יֵשׁ פֹּה הַרְבֵּה כִּיסְאוֹת."
+    ca:
+      0: "Aquí hi ha moltes cadires."
+  pag-36-b8:
+    vocals:
+      0: "וְאֵיפֹה הַתַּלְמִידִים? מָה הֵם עוֹשִׂים?"
+    ca:
+      0: "I on són els alumnes? Què fan?"
+  pag-36-b9:
+    vocals:
+      0: "הַתַּלְמִידִים בַּכִּיתָּה. הֵם יוֹשְׁבִים עַל הַכִּסְאוֹת וְלוֹמְדִים."
+    ca:
+      0: "Els alumnes són a la classe. Estan asseguts a les cadires i estudien."
+  pag-36-b10:
+    vocals:
+      0: "אֵיפֹה הַמּוֹרָה? מָה הִיא עוֹשָׂה?"
+    ca:
+      0: "On és la mestra? Què fa?"
+  pag-36-b11:
+    vocals:
+      0: "גַּם הִיא בַּכִּיתָּה. הִיא עוֹמֶדֶת עַל-יַד הַלּוּחַ וְכוֹתֶבֶת עַל הַלּוּחַ בְּגִיר לָבָן. הִיא כּוֹתֶבֶת עַל הַלּוּחַ מִילִּים חֲדָשׁוֹת."
+    ca:
+      0: "Ella també és a la classe. És dreta al costat de la pissarra i escriu a la pissarra amb guix blanc. Escriu paraules noves a la pissarra."
+  pag-37-b0:
+    vocals:
+      0: "גַּם הַתַּלְמִידִים כּוֹתְבִים עַל הַלּוּחַ בְּגִיר?"
+    ca:
+      0: "Els alumnes també escriuen a la pissarra amb guix?"
+  pag-37-b1:
+    vocals:
+      0: "לֹא, הֵם כּוֹתְבִים בַּמַּחְבָּרוֹת בְּעִיפָּרוֹן, אוֹ בְּעֵט."
+    ca:
+      0: "No, escriuen a les llibretes amb llapis o amb ploma."
+  pag-37-b2:
+    vocals:
+      0: "מִי עוֹמֵד עַל-יַד הַדֶּלֶת?"
+    ca:
+      0: "Qui és dret al costat de la porta?"
+  pag-37-b3:
+    vocals:
+      0: "יִצְחָק עוֹמֵד עַל-יַד הַדֶּלֶת. הַמּוֹרָה אוֹמֶרֶת:"
+      1: '"בּוֹקֶר טוֹב יִצְחָק! הִנֵּה כִּיסֵּא. בְּבַקָּשָׁה לָשֶׁבֶת!"'
+      2: '"בּוֹקֶר טוֹב" אוֹמֵר יִצְחָק וְיוֹשֵׁב.'
+      3: "עַכְשָׁיו גַּם יִצְחָק לוֹמֵד. עַכְשָׁיו גַּם יִצְחָק כּוֹתֵב."
+    ca:
+      0: "L'Itshak és dret al costat de la porta. La mestra diu:"
+      1: "«Bon dia, Itshak! Aquí tens una cadira. Seu, si us plau!»"
+      2: "«Bon dia», diu l'Itshak, i s'asseu."
+      3: "Ara l'Itshak també estudia. Ara l'Itshak també escriu."
+  pag-37-b4:
+    vocals:
+      0: "הַמּוֹרָה כּוֹתֶבֶת בְּגִיר. הַתַּלְמִיד כּוֹתֵב בְּעֵט."
+    ca:
+      0: "La mestra escriu amb guix. L'alumne escriu amb ploma."
+  pag-37-b5:
+    vocals:
+      0: "יוֹשֵׁב  ·  יוֹשֶׁבֶת  ·  יוֹשְׁבִים  ·  יוֹשְׁבוֹת"
+      1: "עוֹמֵד  ·  עוֹמֶדֶת  ·  עוֹמְדִים  ·  עוֹמְדוֹת"
+      2: "כּוֹתֵב  ·  כּוֹתֶבֶת  ·  כּוֹתְבִים  ·  כּוֹתְבוֹת"
+      3: "אוֹמֵר  ·  אוֹמֶרֶת  ·  אוֹמְרִים  ·  אוֹמְרוֹת"
+    ca:
+      0: "estar assegut, en present: m. sg. · f. sg. · m. pl. · f. pl."
+      1: "estar dret, en present: m. sg. · f. sg. · m. pl. · f. pl."
+      2: "escriure, en present: m. sg. · f. sg. · m. pl. · f. pl."
+      3: "dir, en present: m. sg. · f. sg. · m. pl. · f. pl."
+  pag-38-b0:
+    vocals:
+      0: 'אוֹמֵר: "......"'
+      1: "אוֹמֵר לְ......"
+      2: "אוֹמֵר שֶׁ......"
+    ca:
+      0: "diu: «...»"
+      1: "diu a..."
+      2: "diu que..."
+  pag-38-b1:
+    vocals:
+      0: 'הַמּוֹרָה אוֹמֶרֶת: "בּוֹקֶר טוֹב, יִצְחָק!"'
+    ca:
+      0: "La mestra diu: «Bon dia, Itshak!»"
+  pag-38-b2:
+    vocals:
+      0: "מָה אוֹמֶרֶת הַמּוֹרָה לְיִצְחָק?"
+      1: "הַמּוֹרָה אוֹמֶרֶת לְיִצְחָק בּוֹקֶר-טוֹב."
+    ca:
+      0: "Què li diu la mestra a l'Itshak?"
+      1: "La mestra diu bon dia a l'Itshak."
+  pag-38-b3:
+    vocals:
+      0: "יֶלֶד, מַה שִּׁמְךָ?"
+      1: "שְׁמִי דָּנִי."
+    ca:
+      0: "Nen, com et dius?"
+      1: "Em dic Dani."
+  pag-38-b4:
+    vocals:
+      0: "מָה אוֹמֵר הַיֶּלֶד לָאִישׁ? הוּא אוֹמֵר שֶׁשְּׁמוֹ דָּנִי."
+    ca:
+      0: "Què li diu el nen a l'home? Diu que es diu Dani."
+  pag-38-b5:
+    vocals:
+      0: "אֵיפֹה אַתְּ גָּרָה?"
+      1: "אֲנִי גָּרָה בְּחֵיפָה."
+    ca:
+      0: "On vius?"
+      1: "Visc a Haifa."
+  pag-38-b6:
+    vocals:
+      0: "מָה אוֹמֶרֶת תָּמָר לְיוֹסֵף?"
+      1: "הִיא אוֹמֶרֶת שֶׁהִיא גָּרָה בְּחֵיפָה."
+    ca:
+      0: "Què li diu la Tamar al Iossef?"
+      1: "Diu que viu a Haifa."
+  pag-38-b7:
+    vocals:
+      0: "אֵיפֹה סְטִיב?"
+      1: "רָחֵל אוֹמֶרֶת שֶׁהוּא בַּמִּשְׂרָד."
+    ca:
+      0: "On és l'Steve?"
+      1: "La Rakhel diu que és a l'oficina."
+  pag-38-b8:
+    vocals:
+      0: "מָה אוֹמֵר רוֹבֶּרְטוֹ לְבּוֹרִיס?"
+      1: "רוֹבֶּרְטוֹ אוֹמֵר לְבּוֹרִיס שֶׁרָחֵל אוֹמֶרֶת שֶׁסְּטִיב בַּמִּשְׂרָד."
+    ca:
+      0: "Què li diu el Roberto al Boris?"
+      1: "El Roberto li diu al Boris que la Rakhel diu que l'Steve és a l'oficina."
+  pag-38-b9:
+    vocals:
+      0: "אֵיךְ אוֹמְרִים בְּעִבְרִית.....?"
+    ca:
+      0: "Com es diu en hebreu...?"
+  pag-39-b0:
+    ca:
+      0: "Exercici de substitució"
+  pag-39-b1:
+    vocals:
+      0: "1. [הַמּוֹרָה] עוֹמֶדֶת עַל-יַד הַלּוּחַ וְכוֹתֶבֶת בְּגִיר."
+      1: "(הַמּוֹרֶה, הֵם, הַתַּלְמִידוֹת)"
+      2: "2. יִצְחָק עוֹמֵד [פֹּה]."
+      3: "(שָׁם, עַל-יַד הַחַלּוֹן, בַּכִּיתָּה, בֵּין הַחַלּוֹן וְהַדֶּלֶת)"
+      4: '3. [הוּא] אוֹמֵר "שָׁלוֹם" וְיוֹשֵׁב.'
+      5: "(דָּנִי וַאֲנִי, שָׂרָה וְדוֹרִיס, הַמּוֹרָה)"
+      6: "4. מָה [אַתָּה] אוֹמֵר?"
+      7: "(אַתְּ, אַתֶּם, הַיְּלָדוֹת)"
+      8: "5. סְטִיב אוֹמֵר שֶׁ[אֶסְתֵּר יָפָה]."
+      9: "(הֵם בַּבַּיִת, הַשִּׁיעוּר מְעַנְייֵן, הַחֶדֶר יָפֶה)"
+      10: "6. חַנָּה כּוֹתֶבֶת [בְּעֵט]."
+    ca:
+      0: "1. [La mestra] és dreta al costat de la pissarra i escriu amb guix."
+      1: "(el mestre, ells, les alumnes)"
+      2: "2. L'Itshak és dret [aquí]."
+      3: "(allà, al costat de la finestra, a la classe, entre la finestra i la porta)"
+      4: "3. [Ell] diu «hola» i s'asseu."
+      5: "(el Dani i jo, la Sara i la Doris, la mestra)"
+      6: "4. Què dius [tu]?"
+      7: "(tu, a una dona; vosaltres; les nenes)"
+      8: "5. L'Steve diu que [l'Ester és bonica]."
+      9: "(són a casa, la classe és interessant, l'habitació és bonica)"
+      10: "6. La Hanà escriu [amb ploma]."
+
+icones:
+  u06-0: bank                         # כְּנֶסֶת
+  u06-1: identification-badge         # חֲבֵר כְּנֶסֶת
+  u06-3: gas-pump                     # נֵפְט
+  u06-5: table                        # שׁוּלְחָן
+  u06-6: chair                        # כִּיסֵּא
+  u06-7: lockers                      # אָרוֹן
+  u06-8: "propia:finestra.svg"        # חַלּוֹן
+  u06-9: chalkboard-simple            # לוּחַ
+  u06-10: notepad                     # מַחְבֶּרֶת
+  u06-11: pen                         # עֵט
+  u06-12: pencil                      # עִיפָּרוֹן
+  u06-13: cat                         # חָתוּל
+  u06-18: rug                         # שָׁטִיחַ
+  u06-19: "propia:llit.svg"           # מִיטָּה
+  u06-21: door                        # דֶּלֶת
+  u06-22: couch                       # מוֹעֲדוֹן
+  u06-23: building-office             # מִשְׂרָד
+  u06-24: map-pin-area                # פֹּה
+  u06-25: "propia:assegut.svg"        # יוֹשֵׁב
+  u06-26: person-simple               # עוֹמֵד
+  u06-27: note-pencil                 # כּוֹתֵב
+  u06-29: "propia:guix.svg"           # גִּיר
+  u06-32: chat-teardrop-text          # אוֹמֵר
+  u06-34: chats                       # אֵיךְ אוֹמְרִים...?
+
+gramatica:
+  - id: yesh-lloc
+    titol: "יֵשׁ i אֵין amb un lloc: l'ordre és lliure"
+    explicacio: "El lloc amb בְּ־ pot anar davant de יֵשׁ, entre יֵשׁ i la cosa o al final, i el sentit no canvia. La negació és sempre אֵין, mai «לֹא יֵשׁ»; לֹא queda per al «no» de la resposta."
+    exemples:
+      - { n: "בְּיִשְׂרָאֵל יֵשׁ קִיבּוּצִים. בְּאַנְגְלִיָּה אֵין קִיבּוּצִים.", ca: "A Israel hi ha quibutsos. A Anglaterra no hi ha quibutsos." }
+      - { n: "יֵשׁ בְּיִשְׂרָאֵל קִיבּוּצִים. אֵין בְּאַנְגְלִיָּה קִיבּוּצִים.", ca: "El mateix, amb יֵשׁ i אֵין al davant." }
+      - { n: "יֵשׁ קִיבּוּצִים בְּיִשְׂרָאֵל. אֵין קִיבּוּצִים בְּאַנְגְלִיָּה.", ca: "El mateix, amb el lloc al final." }
+      - { n: "לֹא. גַּם טֶלֶפוֹן אֵין בַּכִּיתָּה. טֶלֶפוֹן יֵשׁ בַּמִּשְׂרָד.", ca: "No. A la classe tampoc no hi ha telèfon. Telèfon n'hi ha a l'oficina." }
+      - { n: "לֹא, אֵין נֵפְט בְּיִשְׂרָאֵל.", ca: "No, a Israel no hi ha petroli.", extra: true }
+  - id: plural-ot
+    titol: "Masculins amb el plural en ‑וֹת"
+    explicacio: "שׁוּלְחָן, כִּיסֵּא, אָרוֹן, חַלּוֹן, לוּחַ i עִיפָּרוֹן fan el plural en ‑וֹת però continuen sent masculins: l'adjectiu va en ‑ִים (חַלּוֹנוֹת גְּדוֹלִים). מַחְבֶּרֶת és femení i עֵט fa עֵטִים; sovint també canvia una vocal, i cal aprendre la parella sencera."
+    exemples:
+      - { n: "בַּכִּיתָּה יֵשׁ לוּחַ גָּדוֹל שָׁחוֹר, חַלּוֹנוֹת גְּדוֹלִים וְדֶלֶת.", ca: "A la classe hi ha una pissarra gran i negra, finestres grans i una porta." }
+      - { n: "יֵשׁ פֹּה הַרְבֵּה כִּיסְאוֹת.", ca: "Aquí hi ha moltes cadires." }
+      - { n: "שׁוּלְחָן, שׁוּלְחָנוֹת · כִּיסֵּא, כִּיסְאוֹת · אָרוֹן, אֲרוֹנוֹת", ca: "taula · cadira · armari (singular, plural)" }
+      - { n: "חַלּוֹן, חַלּוֹנוֹת · לוּחַ, לוּחוֹת · עִיפָּרוֹן, עֶפְרוֹנוֹת", ca: "finestra · pissarra · llapis (singular, plural)" }
+      - { n: "מַחְבֶּרֶת, מַחְבָּרוֹת · עֵט, עֵטִים", ca: "llibreta (femení) · ploma (singular, plural)" }
+  - id: preposicions-lloc
+    titol: "On és? עַל, עַל-יַד, בֵּין, תַּחַת"
+    explicacio: "Són mots separats i l'article es manté (עַל הַשּׁוּלְחָן), no com amb בְּ־ i לְ־. בֵּין uneix els dos termes amb וְ־ sense repetir-se, i en present no hi ha verb «ser»."
+    exemples:
+      - { n: "הֶחָתוּל עַל הַכִּיסֵּא עַל-יַד הַשּׁוּלְחָן.", ca: "El gat és damunt la cadira, al costat de la taula." }
+      - { n: "הֶחָתוּל עַל הַכִּיסֵּא בֵּין הַשּׁוּלְחָן וְהָאָרוֹן.", ca: "El gat és damunt la cadira, entre la taula i l'armari." }
+      - { n: "אֵיפֹה הַכֶּלֶב? — הַכֶּלֶב תַּחַת הַשּׁוּלְחָן.", ca: "On és el gos? — El gos és sota la taula." }
+      - { n: "עַל הַשּׁוּלְחָן יֵשׁ סֵפֶר, מַחְבֶּרֶת וְעֵט.", ca: "Damunt la taula hi ha un llibre, una llibreta i una ploma." }
+  - id: be-instrument
+    titol: "בְּ־ d'instrument: «amb»"
+    explicacio: "A més de «a, en», בְּ־ vol dir «amb» quan introdueix l'eina: בְּגִיר, בְּעֵט. Una frase pot dur les dues, i l'«amb» de companyia no és בְּ־ sinó עִם."
+    exemples:
+      - { n: "הַמּוֹרָה כּוֹתֶבֶת בְּגִיר. הַתַּלְמִיד כּוֹתֵב בְּעֵט.", ca: "La mestra escriu amb guix. L'alumne escriu amb ploma." }
+      - { n: "לֹא, הֵם כּוֹתְבִים בַּמַּחְבָּרוֹת בְּעִיפָּרוֹן, אוֹ בְּעֵט.", ca: "No, escriuen a les llibretes (lloc) amb llapis o amb ploma (eina)." }
+      - { n: "הִיא עוֹמֶדֶת עַל-יַד הַלּוּחַ וְכוֹתֶבֶת עַל הַלּוּחַ בְּגִיר לָבָן.", ca: "És dreta al costat de la pissarra i escriu a la pissarra amb guix blanc." }
+  - id: verbs-nous
+    titol: "Els verbs nous: יוֹשֵׁב, עוֹמֵד, כּוֹתֵב, אוֹמֵר"
+    explicacio: "Fan el present com לוֹמֵד: femení en ‑ֶת (יוֹשֶׁבֶת) i plurals que perden la vocal del mig (יוֹשְׁבִים). Només לִכְתּוֹב fa l'infinitiu regular; לָשֶׁבֶת, לַעֲמוֹד i לוֹמַר s'han d'aprendre."
+    exemples:
+      - { u: "יושב · יושבת · יושבים · יושבות", n: "יוֹשֵׁב · יוֹשֶׁבֶת · יוֹשְׁבִים · יוֹשְׁבוֹת", ca: "està assegut (m. sg. · f. sg. · m. pl. · f. pl.)" }
+      - { u: "עומד · עומדת · עומדים · עומדות", n: "עוֹמֵד · עוֹמֶדֶת · עוֹמְדִים · עוֹמְדוֹת", ca: "està dret (m. sg. · f. sg. · m. pl. · f. pl.)" }
+      - { u: "כותב · כותבת · כותבים · כותבות", n: "כּוֹתֵב · כּוֹתֶבֶת · כּוֹתְבִים · כּוֹתְבוֹת", ca: "escriu (m. sg. · f. sg. · m. pl. · f. pl.)" }
+      - { u: "אומר · אומרת · אומרים · אומרות", n: "אוֹמֵר · אוֹמֶרֶת · אוֹמְרִים · אוֹמְרוֹת", ca: "diu (m. sg. · f. sg. · m. pl. · f. pl.)" }
+      - { n: "יוֹשֵׁב - לָשֶׁבֶת (יָשַׁב) · עוֹמֵד - לַעֲמוֹד (עָמַד)", ca: "seu – seure (va seure) · està dret – estar dret (va estar dret)" }
+      - { n: "כּוֹתֵב - לִכְתּוֹב (כָּתַב) · אוֹמֵר - לוֹמַר (אָמַר)", ca: "escriu – escriure (va escriure) · diu – dir (va dir)" }
+      - { n: '"בּוֹקֶר טוֹב יִצְחָק! הִנֵּה כִּיסֵּא. בְּבַקָּשָׁה לָשֶׁבֶת!"', ca: "«Bon dia, Itshak! Aquí tens una cadira. Seu, si us plau!» (l'infinitiu fa d'ordre educada)" }
+  - id: omer
+    titol: "Dir: אוֹמֵר: \"...\", אוֹמֵר לְ..., אוֹמֵר שֶׁ..."
+    explicacio: "Entre cometes van les paraules exactes; לְ־ marca a qui es diu, i שֶׁ־ (enganxat al mot següent) introdueix l'estil indirecte, on canvia la persona però no el temps. A les preguntes i darrere d'una cita, el verb sol anar davant del subjecte."
+    exemples:
+      - { n: 'הַמּוֹרָה אוֹמֶרֶת: "בּוֹקֶר טוֹב, יִצְחָק!"', ca: "La mestra diu: «Bon dia, Itshak!»" }
+      - { n: "הַמּוֹרָה אוֹמֶרֶת לְיִצְחָק בּוֹקֶר-טוֹב.", ca: "La mestra diu bon dia a l'Itshak." }
+      - { n: "שְׁמִי דָּנִי. — הוּא אוֹמֵר שֶׁשְּׁמוֹ דָּנִי.", ca: "Em dic Dani. — Diu que es diu Dani." }
+      - { n: "אֲנִי גָּרָה בְּחֵיפָה. — הִיא אוֹמֶרֶת שֶׁהִיא גָּרָה בְּחֵיפָה.", ca: "Visc a Haifa. — Diu que viu a Haifa." }
+      - { n: "רוֹבֶּרְטוֹ אוֹמֵר לְבּוֹרִיס שֶׁרָחֵל אוֹמֶרֶת שֶׁסְּטִיב בַּמִּשְׂרָד.", ca: "El Roberto li diu al Boris que la Rakhel diu que l'Steve és a l'oficina." }
+      - { n: '"בּוֹקֶר טוֹב" אוֹמֵר יִצְחָק וְיוֹשֵׁב.', ca: "«Bon dia», diu l'Itshak, i s'asseu." }
+  - id: omrim
+    titol: "אוֹמְרִים: «es diu»"
+    explicacio: "El verb en plural i sense subjecte fa d'impersonal, com «es diu» o «diuen». אֵיךְ אוֹמְרִים בְּעִבְרִית...? és la frase per demanar un mot a classe."
+    exemples:
+      - { n: "אוֹמְרִים: בְּיִשְׂרָאֵל יֵשׁ קִיבּוּצִים.", ca: "Es diu: a Israel hi ha quibutsos." }
+      - { n: "אֵיךְ אוֹמְרִים בְּעִבְרִית.....?", ca: "Com es diu en hebreu...?" }
+
+exercicis:
+  # pag-33, תרגיל 19: respon les preguntes amb una frase sencera. Es deixen fora les preguntes obertes
+  # o d'opinió (2, 3, 4, 10, 11). Respostes segons context-kenesset (5, 6, 7, 9) i el text de la pag-36 (12, 13).
+  - { tipus: autocorreccio, origen: "pag-33 ex. 19.1", extra: false, linies: [pag-33-b4-l0],
+      enunciat: { n: "בְּיִשְׂרָאֵל יֵשׁ דֶּמוֹקְרַטְיָה?", u: "בישראל יש דמוקרטיה?" },
+      model: { n: "כֵּן, בְּיִשְׂרָאֵל יֵשׁ דֶּמוֹקְרַטְיָה.", u: "כן, בישראל יש דמוקרטיה." } }
+  - { tipus: autocorreccio, origen: "pag-33 ex. 19.5", extra: false, linies: [pag-33-b4-l4],
+      enunciat: { n: "יֵשׁ מֵאָה וְעֶשְׂרִים (120) חֲבֵרִים בַּכְּנֶסֶת?", u: "יש מאה ועשרים (120) חברים בכנסת?" },
+      model: { n: "כֵּן, יֵשׁ מֵאָה וְעֶשְׂרִים חֲבֵרִים בַּכְּנֶסֶת.", u: "כן, יש מאה ועשרים חברים בכנסת." } }
+  - { tipus: autocorreccio, origen: "pag-33 ex. 19.6", extra: false, linies: [pag-33-b4-l5],
+      enunciat: { n: "יֵשׁ בַּכְּנֶסֶת נָשִׁים?", u: "יש בכנסת נשים?" },
+      model: { n: "כֵּן, יֵשׁ בַּכְּנֶסֶת נָשִׁים.", u: "כן, יש בכנסת נשים." } }
+  - { tipus: autocorreccio, origen: "pag-33 ex. 19.7", extra: false, linies: [pag-33-b4-l6],
+      enunciat: { n: "בַּכְּנֶסֶת יֵשׁ עֲרָבִים?", u: "בכנסת יש ערבים?" },
+      model: { n: "כֵּן, בַּכְּנֶסֶת יֵשׁ עֲרָבִים.", u: "כן, בכנסת יש ערבים." } }
+  - { tipus: autocorreccio, origen: "pag-33 ex. 19.8", extra: false, linies: [pag-33-b4-l7],
+      enunciat: { n: "יֵשׁ נֵפְט בְּמֶקְסִיקוֹ?", u: "יש נפט במקסיקו?" },
+      model: { n: "כֵּן, יֵשׁ נֵפְט בְּמֶקְסִיקוֹ.", u: "כן, יש נפט במקסיקו." } }
+  - { tipus: autocorreccio, origen: "pag-33 ex. 19.9", extra: false, linies: [pag-33-b4-l8],
+      enunciat: { n: "בְּיִשְׂרָאֵל יֵשׁ נֵפְט?", u: "בישראל יש נפט?" },
+      model: { n: "לֹא, בְּיִשְׂרָאֵל אֵין נֵפְט.", u: "לא, בישראל אין נפט." } }
+  - { tipus: forat, origen: "pag-33 ex. 19.12", extra: false, linies: [pag-33-b4-l11],
+      frase: { u: "בכיתה יש טלוויזיה? – לא, בכיתה ____ טלוויזיה.", n: "בַּכִּיתָּה יֵשׁ טֶלֶווִיזְיָה? – לֹא, בַּכִּיתָּה ____ טֶלֶווִיזְיָה." },
+      opcions: ["יֵשׁ", "אֵין", "לֹא"], correcta: 1, retro: "No hi ha: אֵין, mai לֹא davant del nom." }
+  - { tipus: autocorreccio, origen: "pag-33 ex. 19.13", extra: false, linies: [pag-33-b4-l12],
+      enunciat: { n: "יֵשׁ טֶלֶפוֹן בַּכִּיתָּה?", u: "יש טלפון בכיתה?" },
+      model: { n: "לֹא, אֵין טֶלֶפוֹן בַּכִּיתָּה.", u: "לא, אין טלפון בכיתה." } }
+  - { tipus: forat, origen: "pag-33 ex. 19.14", extra: false, linies: [pag-33-b4-l13],
+      frase: { u: "יש בכיתה טרקטור? – לא, ____ בכיתה טרקטור.", n: "יֵשׁ בַּכִּיתָּה טְרַקְטוֹר? – לֹא, ____ בַּכִּיתָּה טְרַקְטוֹר." },
+      opcions: ["אֵין", "לֹא יֵשׁ", "לֹא"], correcta: 0, retro: "La negació de יֵשׁ és אֵין; «לֹא יֵשׁ» no es diu." }
+  - { tipus: autocorreccio, origen: "pag-33 ex. 19.15", extra: false, linies: [pag-33-b4-l14],
+      enunciat: { n: "יֵשׁ אוּלְפָּנִים בַּקִּיבּוּצִים?", u: "יש אולפנים בקיבוצים?" },
+      model: { n: "כֵּן, יֵשׁ אוּלְפָּנִים בַּקִּיבּוּצִים.", u: "כן, יש אולפנים בקיבוצים." } }
+
+  # pag-35, תרגיל 20: la preposició segons el dibuix de la pàgina. Sense el dibuix, més d'una preposició
+  # és gramatical en cada buit; per això és d'autocorrecció, amb el model que dona el dibuix.
+  - { tipus: autocorreccio, origen: "pag-35 ex. 20.1", extra: false, linies: [pag-35-b1-l0],
+      enunciat: { n: "הַגִּיטָרָה ____ הַשָּׁטִיחַ ____ הַשּׁוּלְחָן.", u: "הגיטרה ____ השטיח ____ השולחן." },
+      model: { n: "הַגִּיטָרָה עַל הַשָּׁטִיחַ עַל-יַד הַשּׁוּלְחָן.", u: "הגיטרה על השטיח על-יד השולחן." } }
+  - { tipus: autocorreccio, origen: "pag-35 ex. 20.2", extra: false, linies: [pag-35-b1-l1],
+      enunciat: { n: "הַשָּׁטִיחַ ____ הַגִּיטָרָה.", u: "השטיח ____ הגיטרה." },
+      model: { n: "הַשָּׁטִיחַ תַּחַת הַגִּיטָרָה.", u: "השטיח תחת הגיטרה." } }
+  - { tipus: autocorreccio, origen: "pag-35 ex. 20.3", extra: false, linies: [pag-35-b1-l2],
+      enunciat: { n: "הַשּׁוּלְחָן ____ הַכִּיסֵּא וְהַמִּיטָּה.", u: "השולחן ____ הכיסא והמיטה." },
+      model: { n: "הַשּׁוּלְחָן בֵּין הַכִּיסֵּא וְהַמִּיטָּה.", u: "השולחן בין הכיסא והמיטה." } }
+  - { tipus: autocorreccio, origen: "pag-35 ex. 20.4", extra: false, linies: [pag-35-b1-l3],
+      enunciat: { n: "הַטֶּלֶווִיזְיָה ____ הָאָרוֹן ____ הַטְּרַנְזִיסְטוֹר.", u: "הטלוויזיה ____ הארון ____ הטרנזיסטור." },
+      model: { n: "הַטֶּלֶווִיזְיָה עַל הָאָרוֹן עַל-יַד הַטְּרַנְזִיסְטוֹר.", u: "הטלוויזיה על הארון על-יד הטרנזיסטור." } }
+  - { tipus: autocorreccio, origen: "pag-35 ex. 20.5", extra: false, linies: [pag-35-b1-l4],
+      enunciat: { n: "הֶחָתוּל ____ הַחַלּוֹן. הַכֶּלֶב ____ הַמִּיטָּה.", u: "החתול ____ החלון. הכלב ____ המיטה." },
+      model: { n: "הֶחָתוּל עַל הַחַלּוֹן. הַכֶּלֶב תַּחַת הַמִּיטָּה.", u: "החתול על החלון. הכלב תחת המיטה." } }
+  - { tipus: autocorreccio, origen: "pag-35 ex. 20.6", extra: false, linies: [pag-35-b1-l5],
+      enunciat: { n: "הַמִּיטָּה ____ הַשּׁוּלְחָן. הַסֵּפֶר ____ הַמִּיטָּה.", u: "המיטה ____ השולחן. הספר ____ המיטה." },
+      model: { n: "הַמִּיטָּה עַל-יַד הַשּׁוּלְחָן. הַסֵּפֶר עַל הַמִּיטָּה.", u: "המיטה על-יד השולחן. הספר על המיטה." } }
+  - { tipus: autocorreccio, origen: "pag-35 ex. 20.7", extra: false, linies: [pag-35-b1-l6],
+      enunciat: { n: "הָעִיפָּרוֹן ____ הָעֵט וְהַטֶּלֶפוֹן.", u: "העיפרון ____ העט והטלפון." },
+      model: { n: "הָעִיפָּרוֹן בֵּין הָעֵט וְהַטֶּלֶפוֹן.", u: "העיפרון בין העט והטלפון." } }
+  - { tipus: autocorreccio, origen: "pag-35 ex. 20.8", extra: false, linies: [pag-35-b1-l7],
+      enunciat: { n: "הָעֵט ____ הַשּׁוּלְחָן. הַמַּחְבֶּרֶת ____ הָעֵט.", u: "העט ____ השולחן. המחברת ____ העט." },
+      model: { n: "הָעֵט עַל הַשּׁוּלְחָן. הַמַּחְבֶּרֶת עַל-יַד הָעֵט.", u: "העט על השולחן. המחברת על-יד העט." } }
+  - { tipus: autocorreccio, origen: "pag-35 ex. 20.9", extra: false, linies: [pag-35-b1-l8],
+      enunciat: { n: "הָעֵט ____ הַמַּחְבֶּרֶת וְהָעִפָּרוֹן.", u: "העט ____ המחברת והעפרון." },
+      model: { n: "הָעֵט בֵּין הַמַּחְבֶּרֶת וְהָעִפָּרוֹן.", u: "העט בין המחברת והעפרון." } }
+  - { tipus: autocorreccio, origen: "pag-35 ex. 20.10", extra: false, linies: [pag-35-b1-l9],
+      enunciat: { n: "הַיַּלְדָּה וְהָאִישׁ ____ הַדֶּלֶת.", u: "הילדה והאיש ____ הדלת." },
+      model: { n: "הַיַּלְדָּה וְהָאִישׁ עַל-יַד הַדֶּלֶת.", u: "הילדה והאיש על-יד הדלת." } }
+  - { tipus: autocorreccio, origen: "pag-35 ex. 20.11", extra: false, linies: [pag-35-b1-l10],
+      enunciat: { n: "הַטְּרַנְזִיסְטוֹר ____ הַטֶּלֶווִיזְיָה ____ הָאָרוֹן.", u: "הטרנזיסטור ____ הטלוויזיה ____ הארון." },
+      model: { n: "הַטְּרַנְזִיסְטוֹר עַל-יַד הַטֶּלֶווִיזְיָה עַל הָאָרוֹן.", u: "הטרנזיסטור על-יד הטלוויזיה על הארון." } }
+  - { tipus: autocorreccio, origen: "pag-35 ex. 20.12", extra: false, linies: [pag-35-b1-l11],
+      enunciat: { n: "הָאָרוֹן ____ הַדֶּלֶת.", u: "הארון ____ הדלת." },
+      model: { n: "הָאָרוֹן עַל-יַד הַדֶּלֶת.", u: "הארון על-יד הדלת." } }
+
+  # pag-39, תרגיל 21: substitució (el subjecte o el lloc canvia; el verb concorda).
+  # La frase 6 queda fora: la seva línia de substituts (pag-39-b1-l11) és per comprovar.
+  - { tipus: conjugar, origen: "pag-39 ex. 21.1", extra: false, linies: [pag-39-b1-l0, pag-39-b1-l1],
+      base: { n: "הַמּוֹרָה עוֹמֶדֶת עַל-יַד הַלּוּחַ וְכוֹתֶבֶת בְּגִיר.", u: "המורה עומדת על-יד הלוח וכותבת בגיר." }, demana: "amb הַמּוֹרֶה (el mestre)",
+      opcions: ["הַמּוֹרֶה עוֹמֵד עַל-יַד הַלּוּחַ וְכוֹתֵב בְּגִיר.", "הַמּוֹרֶה עוֹמֶדֶת עַל-יַד הַלּוּחַ וְכוֹתֶבֶת בְּגִיר.", "הַמּוֹרֶה עוֹמְדִים עַל-יַד הַלּוּחַ וְכוֹתְבִים בְּגִיר."], correcta: 0 }
+  - { tipus: conjugar, origen: "pag-39 ex. 21.1", extra: false, linies: [pag-39-b1-l0, pag-39-b1-l1],
+      base: { n: "הַמּוֹרָה עוֹמֶדֶת עַל-יַד הַלּוּחַ וְכוֹתֶבֶת בְּגִיר.", u: "המורה עומדת על-יד הלוח וכותבת בגיר." }, demana: "amb הֵם",
+      opcions: ["הֵם עוֹמְדוֹת עַל-יַד הַלּוּחַ וְכוֹתְבוֹת בְּגִיר.", "הֵם עוֹמֵד עַל-יַד הַלּוּחַ וְכוֹתֵב בְּגִיר.", "הֵם עוֹמְדִים עַל-יַד הַלּוּחַ וְכוֹתְבִים בְּגִיר."], correcta: 2 }
+  - { tipus: conjugar, origen: "pag-39 ex. 21.1", extra: false, linies: [pag-39-b1-l0, pag-39-b1-l1],
+      base: { n: "הַמּוֹרָה עוֹמֶדֶת עַל-יַד הַלּוּחַ וְכוֹתֶבֶת בְּגִיר.", u: "המורה עומדת על-יד הלוח וכותבת בגיר." }, demana: "amb הַתַּלְמִידוֹת",
+      opcions: ["הַתַּלְמִידוֹת עוֹמְדִים עַל-יַד הַלּוּחַ וְכוֹתְבִים בְּגִיר.", "הַתַּלְמִידוֹת עוֹמְדוֹת עַל-יַד הַלּוּחַ וְכוֹתְבוֹת בְּגִיר.", "הַתַּלְמִידוֹת עוֹמֶדֶת עַל-יַד הַלּוּחַ וְכוֹתֶבֶת בְּגִיר."], correcta: 1 }
+  - { tipus: conjugar, origen: "pag-39 ex. 21.2", extra: false, linies: [pag-39-b1-l2, pag-39-b1-l3],
+      base: { n: "יִצְחָק עוֹמֵד פֹּה.", u: "יצחק עומד פה." }, demana: "al costat de la finestra",
+      opcions: ["יִצְחָק עוֹמֵד עַל הַחַלּוֹן.", "יִצְחָק עוֹמֵד עַל-יַד הַחַלּוֹן.", "יִצְחָק עוֹמֵד תַּחַת הַחַלּוֹן."], correcta: 1 }
+  - { tipus: conjugar, origen: "pag-39 ex. 21.2", extra: false, linies: [pag-39-b1-l2, pag-39-b1-l3],
+      base: { n: "יִצְחָק עוֹמֵד פֹּה.", u: "יצחק עומד פה." }, demana: "entre la finestra i la porta",
+      opcions: ["יִצְחָק עוֹמֵד בֵּין הַחַלּוֹן וְהַדֶּלֶת.", "יִצְחָק עוֹמֵד עַל-יַד הַחַלּוֹן וְהַדֶּלֶת.", "יִצְחָק עוֹמֵד בֵּין הַחַלּוֹן הַדֶּלֶת."], correcta: 0 }
+  - { tipus: conjugar, origen: "pag-39 ex. 21.3", extra: false, linies: [pag-39-b1-l4, pag-39-b1-l5],
+      base: { n: 'הוּא אוֹמֵר "שָׁלוֹם" וְיוֹשֵׁב.', u: 'הוא אומר "שלום" ויושב.' }, demana: "amb דָּנִי וַאֲנִי",
+      opcions: ['דָּנִי וַאֲנִי אוֹמֵר "שָׁלוֹם" וְיוֹשֵׁב.', 'דָּנִי וַאֲנִי אוֹמְרִים "שָׁלוֹם" וְיוֹשְׁבִים.', 'דָּנִי וַאֲנִי אוֹמְרוֹת "שָׁלוֹם" וְיוֹשְׁבוֹת.'], correcta: 1 }
+  - { tipus: conjugar, origen: "pag-39 ex. 21.3", extra: false, linies: [pag-39-b1-l4, pag-39-b1-l5],
+      base: { n: 'הוּא אוֹמֵר "שָׁלוֹם" וְיוֹשֵׁב.', u: 'הוא אומר "שלום" ויושב.' }, demana: "amb שָׂרָה וְדוֹרִיס",
+      opcions: ['שָׂרָה וְדוֹרִיס אוֹמְרוֹת "שָׁלוֹם" וְיוֹשְׁבוֹת.', 'שָׂרָה וְדוֹרִיס אוֹמֶרֶת "שָׁלוֹם" וְיוֹשֶׁבֶת.', 'שָׂרָה וְדוֹרִיס אוֹמְרִים "שָׁלוֹם" וְיוֹשְׁבִים.'], correcta: 0 }
+  - { tipus: conjugar, origen: "pag-39 ex. 21.3", extra: false, linies: [pag-39-b1-l4, pag-39-b1-l5],
+      base: { n: 'הוּא אוֹמֵר "שָׁלוֹם" וְיוֹשֵׁב.', u: 'הוא אומר "שלום" ויושב.' }, demana: "amb הַמּוֹרָה (la mestra)",
+      opcions: ['הַמּוֹרָה אוֹמֵר "שָׁלוֹם" וְיוֹשֵׁב.', 'הַמּוֹרָה אוֹמְרוֹת "שָׁלוֹם" וְיוֹשְׁבוֹת.', 'הַמּוֹרָה אוֹמֶרֶת "שָׁלוֹם" וְיוֹשֶׁבֶת.'], correcta: 2 }
+  - { tipus: conjugar, origen: "pag-39 ex. 21.4", extra: false, linies: [pag-39-b1-l6, pag-39-b1-l7],
+      base: { n: "מָה אַתָּה אוֹמֵר?", u: "מה אתה אומר?" }, demana: "amb אַתְּ",
+      opcions: ["מָה אַתְּ אוֹמֵר?", "מָה אַתְּ אוֹמֶרֶת?", "מָה אַתְּ אוֹמְרוֹת?"], correcta: 1 }
+  - { tipus: conjugar, origen: "pag-39 ex. 21.4", extra: false, linies: [pag-39-b1-l6, pag-39-b1-l7],
+      base: { n: "מָה אַתָּה אוֹמֵר?", u: "מה אתה אומר?" }, demana: "amb אַתֶּם",
+      opcions: ["מָה אַתֶּם אוֹמְרִים?", "מָה אַתֶּם אוֹמֵר?", "מָה אַתֶּם אוֹמְרוֹת?"], correcta: 0 }
+  - { tipus: conjugar, origen: "pag-39 ex. 21.4", extra: false, linies: [pag-39-b1-l6, pag-39-b1-l7],
+      base: { n: "מָה אַתָּה אוֹמֵר?", u: "מה אתה אומר?" }, demana: "amb הַיְּלָדוֹת",
+      opcions: ["מָה הַיְּלָדוֹת אוֹמְרִים?", "מָה הַיְּלָדוֹת אוֹמֶרֶת?", "מָה הַיְּלָדוֹת אוֹמְרוֹת?"], correcta: 2 }
+  - { tipus: conjugar, origen: "pag-39 ex. 21.5", extra: false, linies: [pag-39-b1-l8, pag-39-b1-l9],
+      base: { n: "סְטִיב אוֹמֵר שֶׁאֶסְתֵּר יָפָה.", u: "סטיב אומר שאסתר יפה." }, demana: "que ells són a casa",
+      opcions: ["סְטִיב אוֹמֵר שֶׁהֵם הַבַּיְתָה.", "סְטִיב אוֹמֵר שֶׁהֵם בַּבַּיִת.", "סְטִיב אוֹמֵר שֶׁהֵן בַּבַּיִת."], correcta: 1 }
+  - { tipus: conjugar, origen: "pag-39 ex. 21.5", extra: false, linies: [pag-39-b1-l8, pag-39-b1-l9],
+      base: { n: "סְטִיב אוֹמֵר שֶׁאֶסְתֵּר יָפָה.", u: "סטיב אומר שאסתר יפה." }, demana: "que la classe és interessant",
+      opcions: ["סְטִיב אוֹמֵר שֶׁהַשִּׁיעוּר מְעַנְייֵן.", "סְטִיב אוֹמֵר שֶׁהַשִּׁיעוּר מְעַנְייֶנֶת.", "סְטִיב אוֹמֵר שֶׁהַשִּׁיעוּר מְעַנְייְנִים."], correcta: 0 }
+
+  # Extra: plurals i concordança, verbs nous, estil indirecte, comprensió i construir
+  - { tipus: forat, origen: extra, extra: true, linies: [pag-36-b1-l1],
+      frase: { u: "בכיתה יש לוח גדול שחור, חלונות ____ ודלת.", n: "בַּכִּיתָּה יֵשׁ לוּחַ גָּדוֹל שָׁחוֹר, חַלּוֹנוֹת ____ וְדֶלֶת." },
+      opcions: ["גְּדוֹלִים", "גְּדוֹלוֹת", "גָּדוֹל"], correcta: 0, retro: "חַלּוֹן és masculí encara que el plural acabi en ‑וֹת: גְּדוֹלִים." }
+  - { tipus: forat, origen: extra, extra: true, linies: [pag-36-b7-l0],
+      frase: { u: "יש פה הרבה ____.", n: "יֵשׁ פֹּה הַרְבֵּה ____." },
+      opcions: ["כִּיסְאִים", "כִּיסְאוֹת", "כִּיסֵּא"], correcta: 1, retro: "El plural de כִּיסֵּא és כִּיסְאוֹת." }
+  - { tipus: forat, origen: extra, extra: true, linies: [pag-36-b9-l0],
+      frase: { u: "התלמידים בכיתה. הם ____ על הכסאות ולומדים.", n: "הַתַּלְמִידִים בַּכִּיתָּה. הֵם ____ עַל הַכִּסְאוֹת וְלוֹמְדִים." },
+      opcions: ["יוֹשֵׁב", "יוֹשְׁבִים", "יוֹשְׁבוֹת"], correcta: 1, retro: "הֵם, masculí plural: יוֹשְׁבִים." }
+  - { tipus: forat, origen: extra, extra: true, linies: [pag-36-b11-l0],
+      frase: { u: "גם היא בכיתה. היא ____ על-יד הלוח.", n: "גַּם הִיא בַּכִּיתָּה. הִיא ____ עַל-יַד הַלּוּחַ." },
+      opcions: ["עוֹמֵד", "עוֹמֶדֶת", "עוֹמְדוֹת"], correcta: 1, retro: "הִיא, femení singular: עוֹמֶדֶת." }
+  - { tipus: conjugar, origen: extra, extra: true, linies: [pag-38-b3-l1, pag-38-b4-l0],
+      base: { n: "שְׁמִי דָּנִי.", u: "שמי דני." }, demana: "en estil indirecte: הוּא אוֹמֵר…",
+      opcions: ["הוּא אוֹמֵר שֶׁשְּׁמִי דָּנִי.", "הוּא אוֹמֵר שֶׁשְּׁמוֹ דָּנִי.", "הוּא אוֹמֵר שֶׁשְּׁמָהּ דָּנִי."], correcta: 1 }
+  - { tipus: conjugar, origen: extra, extra: true, linies: [pag-38-b5-l1, pag-38-b6-l1],
+      base: { n: "אֲנִי גָּרָה בְּחֵיפָה.", u: "אני גרה בחיפה." }, demana: "en estil indirecte: הִיא אוֹמֶרֶת…",
+      opcions: ["הִיא אוֹמֶרֶת שֶׁאֲנִי גָּרָה בְּחֵיפָה.", "הִיא אוֹמֶרֶת שֶׁהוּא גָּר בְּחֵיפָה.", "הִיא אוֹמֶרֶת שֶׁהִיא גָּרָה בְּחֵיפָה."], correcta: 2 }
+  - { tipus: comprensio, origen: extra, extra: true, linies: [pag-36-b4-l0, pag-36-b5-l0],
+      text: "וְטֶלֶפוֹן יֵשׁ בַּכִּיתָּה? — לֹא. גַּם טֶלֶפוֹן אֵין בַּכִּיתָּה. טֶלֶפוֹן יֵשׁ בַּמִּשְׂרָד.",
+      pregunta: "On és el telèfon?", opcions: ["A la classe", "Al club", "A l'oficina"], correcta: 2 }
+  - { tipus: comprensio, origen: extra, extra: true, linies: [pag-37-b0-l0, pag-37-b1-l0],
+      text: "גַּם הַתַּלְמִידִים כּוֹתְבִים עַל הַלּוּחַ בְּגִיר? — לֹא, הֵם כּוֹתְבִים בַּמַּחְבָּרוֹת בְּעִיפָּרוֹן, אוֹ בְּעֵט.",
+      pregunta: "Amb què escriuen els alumnes?", opcions: ["Amb guix", "Amb llapis o amb ploma", "Només amb ploma"], correcta: 1 }
+  - { tipus: comprensio, origen: extra, extra: true, linies: [pag-37-b2-l0, pag-37-b3-l0, pag-37-b3-l1, pag-37-b3-l2],
+      text: 'מִי עוֹמֵד עַל-יַד הַדֶּלֶת? — יִצְחָק עוֹמֵד עַל-יַד הַדֶּלֶת. הַמּוֹרָה אוֹמֶרֶת: "בּוֹקֶר טוֹב יִצְחָק! הִנֵּה כִּיסֵּא. בְּבַקָּשָׁה לָשֶׁבֶת!" "בּוֹקֶר טוֹב" אוֹמֵר יִצְחָק וְיוֹשֵׁב.',
+      pregunta: "Què fa l'Itshak després de dir bon dia?", opcions: ["Se'n va", "S'asseu", "Escriu a la pissarra"], correcta: 1 }
+  - { tipus: construir, origen: extra, extra: true, linies: [pag-34-b6-l0],
+      ca: "sota la taula",
+      fitxes: ["תַּחַת", "הַשּׁוּלְחָן", "עַל", "שׁוּלְחָנוֹת"], ordre: [0, 1] }
+  - { tipus: construir, origen: extra, extra: true, linies: [pag-34-b4-l1],
+      ca: "entre la taula i l'armari",
+      fitxes: ["בֵּין", "הַשּׁוּלְחָן", "וְהָאָרוֹן", "עַל-יַד", "הָאָרוֹן"], ordre: [0, 1, 2] }

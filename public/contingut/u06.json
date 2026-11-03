@@ -21,7 +21,12 @@
       "pagina": "pag-33",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "bank",
+      "audio": {
+        "normal": "c973dae468e5.m4a",
+        "lent": "31c0aa73b1fb.m4a"
+      }
     },
     {
       "id": "u06-1",
@@ -34,7 +39,12 @@
       "perComprovar": false,
       "formes": [
         "חַבְרֵי כְּנֶסֶת"
-      ]
+      ],
+      "icona": "identification-badge",
+      "audio": {
+        "normal": "b55ad7c33555.m4a",
+        "lent": "b65ca6be3aba.m4a"
+      }
     },
     {
       "id": "u06-2",
@@ -47,7 +57,11 @@
       "perComprovar": false,
       "formes": [
         "עֲרָבִים"
-      ]
+      ],
+      "audio": {
+        "normal": "5dac231e627e.m4a",
+        "lent": "4899951733e2.m4a"
+      }
     },
     {
       "id": "u06-3",
@@ -57,7 +71,12 @@
       "pagina": "pag-33",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "gas-pump",
+      "audio": {
+        "normal": "da8daf4f4a16.m4a",
+        "lent": "7df418094171.m4a"
+      }
     },
     {
       "id": "u06-4",
@@ -70,7 +89,11 @@
       "perComprovar": false,
       "formes": [
         "יְהוּדִים"
-      ]
+      ],
+      "audio": {
+        "normal": "a1e2559dd6f4.m4a",
+        "lent": "7bbb90a99fb6.m4a"
+      }
     },
     {
       "id": "u06-5",
@@ -83,7 +106,12 @@
       "perComprovar": false,
       "formes": [
         "שׁוּלְחָנוֹת"
-      ]
+      ],
+      "icona": "table",
+      "audio": {
+        "normal": "d8dbfdf1c2c6.m4a",
+        "lent": "dce462af61eb.m4a"
+      }
     },
     {
       "id": "u06-6",
@@ -96,7 +124,12 @@
       "perComprovar": false,
       "formes": [
         "כִּיסְאוֹת"
-      ]
+      ],
+      "icona": "chair",
+      "audio": {
+        "normal": "65c3675fc687.m4a",
+        "lent": "4eb549b40dff.m4a"
+      }
     },
     {
       "id": "u06-7",
@@ -109,7 +142,12 @@
       "perComprovar": false,
       "formes": [
         "אֲרוֹנוֹת"
-      ]
+      ],
+      "icona": "lockers",
+      "audio": {
+        "normal": "c3818dc153b9.m4a",
+        "lent": "375136bd3588.m4a"
+      }
     },
     {
       "id": "u06-8",
@@ -122,7 +160,12 @@
       "perComprovar": false,
       "formes": [
         "חַלּוֹנוֹת"
-      ]
+      ],
+      "icona": "propia:finestra.svg",
+      "audio": {
+        "normal": "7f4b699ee780.m4a",
+        "lent": "e59d121136e8.m4a"
+      }
     },
     {
       "id": "u06-9",
@@ -135,7 +178,12 @@
       "perComprovar": false,
       "formes": [
         "לוּחוֹת"
-      ]
+      ],
+      "icona": "chalkboard-simple",
+      "audio": {
+        "normal": "a1c07e410f80.m4a",
+        "lent": "11f8423db233.m4a"
+      }
     },
     {
       "id": "u06-10",
@@ -148,7 +196,12 @@
       "perComprovar": false,
       "formes": [
         "מַחְבָּרוֹת"
-      ]
+      ],
+      "icona": "notepad",
+      "audio": {
+        "normal": "3c31fac2ad31.m4a",
+        "lent": "0460d02a11da.m4a"
+      }
     },
     {
       "id": "u06-11",
@@ -161,7 +214,12 @@
       "perComprovar": false,
       "formes": [
         "עֵטִים"
-      ]
+      ],
+      "icona": "pen",
+      "audio": {
+        "normal": "3fe164d664b1.m4a",
+        "lent": "723ca78bef0b.m4a"
+      }
     },
     {
       "id": "u06-12",
@@ -174,7 +232,12 @@
       "perComprovar": false,
       "formes": [
         "עֶפְרוֹנוֹת"
-      ]
+      ],
+      "icona": "pencil",
+      "audio": {
+        "normal": "5e7f801985c2.m4a",
+        "lent": "2cccd61ff584.m4a"
+      }
     },
     {
       "id": "u06-13",
@@ -184,7 +247,12 @@
       "pagina": "pag-34",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "cat",
+      "audio": {
+        "normal": "622ebfccdfb1.m4a",
+        "lent": "ffd3862fc2ba.m4a"
+      }
     },
     {
       "id": "u06-14",
@@ -194,7 +262,11 @@
       "pagina": "pag-34",
       "funcio": true,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "9689e3197c83.m4a",
+        "lent": "b2ef3b9306d1.m4a"
+      }
     },
     {
       "id": "u06-15",
@@ -204,7 +276,11 @@
       "pagina": "pag-34",
       "funcio": true,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "d51a8adc83f4.m4a",
+        "lent": "0a58732182f2.m4a"
+      }
     },
     {
       "id": "u06-16",
@@ -214,7 +290,11 @@
       "pagina": "pag-34",
       "funcio": true,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "ee9db6995f29.m4a",
+        "lent": "f9f5bf08e92f.m4a"
+      }
     },
     {
       "id": "u06-17",
@@ -224,7 +304,11 @@
       "pagina": "pag-34",
       "funcio": true,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "d92655c9a0a3.m4a",
+        "lent": "a148d54e0c34.m4a"
+      }
     },
     {
       "id": "u06-18",
@@ -237,7 +321,12 @@
       "perComprovar": false,
       "formes": [
         "שְׁטִיחִים"
-      ]
+      ],
+      "icona": "rug",
+      "audio": {
+        "normal": "f79df37bc7cc.m4a",
+        "lent": "83cadcbea464.m4a"
+      }
     },
     {
       "id": "u06-19",
@@ -250,7 +339,12 @@
       "perComprovar": false,
       "formes": [
         "מִיטּוֹת"
-      ]
+      ],
+      "icona": "propia:llit.svg",
+      "audio": {
+        "normal": "db1af44bc3a6.m4a",
+        "lent": "894093d7f817.m4a"
+      }
     },
     {
       "id": "u06-20",
@@ -265,7 +359,11 @@
         "שְׁחוֹרָה",
         "שְׁחוֹרִים",
         "שְׁחוֹרוֹת"
-      ]
+      ],
+      "audio": {
+        "normal": "ab58a61e8c6e.m4a",
+        "lent": "93ef87e0d943.m4a"
+      }
     },
     {
       "id": "u06-21",
@@ -278,7 +376,12 @@
       "perComprovar": false,
       "formes": [
         "דְּלָתוֹת"
-      ]
+      ],
+      "icona": "door",
+      "audio": {
+        "normal": "030e0d949c47.m4a",
+        "lent": "645e9c455a34.m4a"
+      }
     },
     {
       "id": "u06-22",
@@ -291,7 +394,12 @@
       "perComprovar": false,
       "formes": [
         "מוֹעֲדוֹנִים"
-      ]
+      ],
+      "icona": "couch",
+      "audio": {
+        "normal": "e38af21b0abf.m4a",
+        "lent": "8f262cd0896b.m4a"
+      }
     },
     {
       "id": "u06-23",
@@ -304,7 +412,12 @@
       "perComprovar": false,
       "formes": [
         "מִשְׂרָדִים"
-      ]
+      ],
+      "icona": "building-office",
+      "audio": {
+        "normal": "7830f8d87569.m4a",
+        "lent": "19c9f6ec2a07.m4a"
+      }
     },
     {
       "id": "u06-24",
@@ -314,7 +427,12 @@
       "pagina": "pag-36",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "map-pin-area",
+      "audio": {
+        "normal": "597cd9ccba13.m4a",
+        "lent": "c8f000e20312.m4a"
+      }
     },
     {
       "id": "u06-25",
@@ -324,7 +442,12 @@
       "pagina": "pag-36",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "propia:assegut.svg",
+      "audio": {
+        "normal": "3f0da254b0a1.m4a",
+        "lent": "ad5bc3d48ceb.m4a"
+      }
     },
     {
       "id": "u06-26",
@@ -334,7 +457,12 @@
       "pagina": "pag-36",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "person-simple",
+      "audio": {
+        "normal": "7cb867434a11.m4a",
+        "lent": "d32eb1c4b38e.m4a"
+      }
     },
     {
       "id": "u06-27",
@@ -344,7 +472,12 @@
       "pagina": "pag-36",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "note-pencil",
+      "audio": {
+        "normal": "a7d8ab15c82a.m4a",
+        "lent": "71ff92fa942e.m4a"
+      }
     },
     {
       "id": "u06-28",
@@ -368,7 +501,12 @@
       "pagina": "pag-37",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "propia:guix.svg",
+      "audio": {
+        "normal": "a6bd54b802d9.m4a",
+        "lent": "4a735f38fce9.m4a"
+      }
     },
     {
       "id": "u06-30",
@@ -383,7 +521,11 @@
         "לְבָנָה",
         "לְבָנִים",
         "לְבָנוֹת"
-      ]
+      ],
+      "audio": {
+        "normal": "9c09df5e92bc.m4a",
+        "lent": "cc9dece8688b.m4a"
+      }
     },
     {
       "id": "u06-31",
@@ -393,7 +535,11 @@
       "pagina": "pag-37",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "ec5960572d6e.m4a",
+        "lent": "2a5955fabebe.m4a"
+      }
     },
     {
       "id": "u06-32",
@@ -403,7 +549,12 @@
       "pagina": "pag-37",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "chat-teardrop-text",
+      "audio": {
+        "normal": "95030a9ab1ed.m4a",
+        "lent": "8f218d1329d1.m4a"
+      }
     },
     {
       "id": "u06-33",
@@ -413,7 +564,11 @@
       "pagina": "pag-38",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "e614f515b5d5.m4a",
+        "lent": "b42180c774f0.m4a"
+      }
     },
     {
       "id": "u06-34",
@@ -423,10 +578,521 @@
       "pagina": "pag-38",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "chats",
+      "audio": {
+        "normal": "df022fea69ef.m4a",
+        "lent": "7ee2d3969e40.m4a"
+      }
     }
   ],
-  "gramatica": [],
+  "gramatica": [
+    {
+      "id": "yesh-lloc",
+      "titol": "יֵשׁ i אֵין amb un lloc: l'ordre és lliure",
+      "explicacio": "El lloc amb בְּ־ pot anar davant de יֵשׁ, entre יֵשׁ i la cosa o al final, i el sentit no canvia. La negació és sempre אֵין, mai «לֹא יֵשׁ»; לֹא queda per al «no» de la resposta.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u06-g-yesh-lloc-0",
+          "text": {
+            "u": "בישראל יש קיבוצים. באנגליה אין קיבוצים.",
+            "n": "בְּיִשְׂרָאֵל יֵשׁ קִיבּוּצִים. בְּאַנְגְלִיָּה אֵין קִיבּוּצִים.",
+            "extraVocals": true
+          },
+          "ca": "A Israel hi ha quibutsos. A Anglaterra no hi ha quibutsos.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "6dc86f0caa68.m4a",
+            "lent": "c32e0abca737.m4a"
+          }
+        },
+        {
+          "id": "u06-g-yesh-lloc-1",
+          "text": {
+            "u": "יש בישראל קיבוצים. אין באנגליה קיבוצים.",
+            "n": "יֵשׁ בְּיִשְׂרָאֵל קִיבּוּצִים. אֵין בְּאַנְגְלִיָּה קִיבּוּצִים.",
+            "extraVocals": true
+          },
+          "ca": "El mateix, amb יֵשׁ i אֵין al davant.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "d1afbfcc9988.m4a",
+            "lent": "49b9907f376f.m4a"
+          }
+        },
+        {
+          "id": "u06-g-yesh-lloc-2",
+          "text": {
+            "u": "יש קיבוצים בישראל. אין קיבוצים באנגליה.",
+            "n": "יֵשׁ קִיבּוּצִים בְּיִשְׂרָאֵל. אֵין קִיבּוּצִים בְּאַנְגְלִיָּה.",
+            "extraVocals": true
+          },
+          "ca": "El mateix, amb el lloc al final.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "e8846a7932fa.m4a",
+            "lent": "7445d08fc651.m4a"
+          }
+        },
+        {
+          "id": "u06-g-yesh-lloc-3",
+          "text": {
+            "u": "לא. גם טלפון אין בכיתה. טלפון יש במשרד.",
+            "n": "לֹא. גַּם טֶלֶפוֹן אֵין בַּכִּיתָּה. טֶלֶפוֹן יֵשׁ בַּמִּשְׂרָד.",
+            "extraVocals": true
+          },
+          "ca": "No. A la classe tampoc no hi ha telèfon. Telèfon n'hi ha a l'oficina.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "24df4486c124.m4a",
+            "lent": "a8530c756a9e.m4a"
+          }
+        },
+        {
+          "id": "u06-g-yesh-lloc-4",
+          "text": {
+            "u": "לא, אין נפט בישראל.",
+            "n": "לֹא, אֵין נֵפְט בְּיִשְׂרָאֵל.",
+            "extraVocals": true
+          },
+          "ca": "No, a Israel no hi ha petroli.",
+          "perComprovar": false,
+          "extra": true,
+          "audio": {
+            "normal": "800ad5a4f7c8.m4a",
+            "lent": "ea9b115f1ecb.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plural-ot",
+      "titol": "Masculins amb el plural en ‑וֹת",
+      "explicacio": "שׁוּלְחָן, כִּיסֵּא, אָרוֹן, חַלּוֹן, לוּחַ i עִיפָּרוֹן fan el plural en ‑וֹת però continuen sent masculins: l'adjectiu va en ‑ִים (חַלּוֹנוֹת גְּדוֹלִים). מַחְבֶּרֶת és femení i עֵט fa עֵטִים; sovint també canvia una vocal, i cal aprendre la parella sencera.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u06-g-plural-ot-0",
+          "text": {
+            "u": "בכיתה יש לוח גדול שחור, חלונות גדולים ודלת.",
+            "n": "בַּכִּיתָּה יֵשׁ לוּחַ גָּדוֹל שָׁחוֹר, חַלּוֹנוֹת גְּדוֹלִים וְדֶלֶת.",
+            "extraVocals": true
+          },
+          "ca": "A la classe hi ha una pissarra gran i negra, finestres grans i una porta.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "2b3c70575770.m4a",
+            "lent": "28db50fd37ab.m4a"
+          }
+        },
+        {
+          "id": "u06-g-plural-ot-1",
+          "text": {
+            "u": "יש פה הרבה כיסאות.",
+            "n": "יֵשׁ פֹּה הַרְבֵּה כִּיסְאוֹת.",
+            "extraVocals": true
+          },
+          "ca": "Aquí hi ha moltes cadires.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "60607fd5c171.m4a",
+            "lent": "dc536e7a533f.m4a"
+          }
+        },
+        {
+          "id": "u06-g-plural-ot-2",
+          "text": {
+            "u": "שולחן, שולחנות · כיסא, כיסאות · ארון, ארונות",
+            "n": "שׁוּלְחָן, שׁוּלְחָנוֹת · כִּיסֵּא, כִּיסְאוֹת · אָרוֹן, אֲרוֹנוֹת",
+            "extraVocals": true
+          },
+          "ca": "taula · cadira · armari (singular, plural)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "496398588872.m4a",
+            "lent": "fa42167d9dcc.m4a"
+          }
+        },
+        {
+          "id": "u06-g-plural-ot-3",
+          "text": {
+            "u": "חלון, חלונות · לוח, לוחות · עיפרון, עפרונות",
+            "n": "חַלּוֹן, חַלּוֹנוֹת · לוּחַ, לוּחוֹת · עִיפָּרוֹן, עֶפְרוֹנוֹת",
+            "extraVocals": true
+          },
+          "ca": "finestra · pissarra · llapis (singular, plural)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "933824c133da.m4a",
+            "lent": "609c8f02f01f.m4a"
+          }
+        },
+        {
+          "id": "u06-g-plural-ot-4",
+          "text": {
+            "u": "מחברת, מחברות · עט, עטים",
+            "n": "מַחְבֶּרֶת, מַחְבָּרוֹת · עֵט, עֵטִים",
+            "extraVocals": true
+          },
+          "ca": "llibreta (femení) · ploma (singular, plural)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "58720fba2829.m4a",
+            "lent": "181c765a0e74.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "preposicions-lloc",
+      "titol": "On és? עַל, עַל-יַד, בֵּין, תַּחַת",
+      "explicacio": "Són mots separats i l'article es manté (עַל הַשּׁוּלְחָן), no com amb בְּ־ i לְ־. בֵּין uneix els dos termes amb וְ־ sense repetir-se, i en present no hi ha verb «ser».",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u06-g-preposicions-lloc-0",
+          "text": {
+            "u": "החתול על הכיסא על-יד השולחן.",
+            "n": "הֶחָתוּל עַל הַכִּיסֵּא עַל-יַד הַשּׁוּלְחָן.",
+            "extraVocals": true
+          },
+          "ca": "El gat és damunt la cadira, al costat de la taula.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "180e213e68dc.m4a",
+            "lent": "aa0e160dc501.m4a"
+          }
+        },
+        {
+          "id": "u06-g-preposicions-lloc-1",
+          "text": {
+            "u": "החתול על הכיסא בין השולחן והארון.",
+            "n": "הֶחָתוּל עַל הַכִּיסֵּא בֵּין הַשּׁוּלְחָן וְהָאָרוֹן.",
+            "extraVocals": true
+          },
+          "ca": "El gat és damunt la cadira, entre la taula i l'armari.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "96c68dc5c8d2.m4a",
+            "lent": "17bd4020ff67.m4a"
+          }
+        },
+        {
+          "id": "u06-g-preposicions-lloc-2",
+          "text": {
+            "u": "איפה הכלב? — הכלב תחת השולחן.",
+            "n": "אֵיפֹה הַכֶּלֶב? — הַכֶּלֶב תַּחַת הַשּׁוּלְחָן.",
+            "extraVocals": true
+          },
+          "ca": "On és el gos? — El gos és sota la taula.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "367b2275e92e.m4a",
+            "lent": "22cbb9991f72.m4a"
+          }
+        },
+        {
+          "id": "u06-g-preposicions-lloc-3",
+          "text": {
+            "u": "על השולחן יש ספר, מחברת ועט.",
+            "n": "עַל הַשּׁוּלְחָן יֵשׁ סֵפֶר, מַחְבֶּרֶת וְעֵט.",
+            "extraVocals": true
+          },
+          "ca": "Damunt la taula hi ha un llibre, una llibreta i una ploma.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "5c623807c1ac.m4a",
+            "lent": "65b92a9f37a0.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "be-instrument",
+      "titol": "בְּ־ d'instrument: «amb»",
+      "explicacio": "A més de «a, en», בְּ־ vol dir «amb» quan introdueix l'eina: בְּגִיר, בְּעֵט. Una frase pot dur les dues, i l'«amb» de companyia no és בְּ־ sinó עִם.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u06-g-be-instrument-0",
+          "text": {
+            "u": "המורה כותבת בגיר. התלמיד כותב בעט.",
+            "n": "הַמּוֹרָה כּוֹתֶבֶת בְּגִיר. הַתַּלְמִיד כּוֹתֵב בְּעֵט.",
+            "extraVocals": true
+          },
+          "ca": "La mestra escriu amb guix. L'alumne escriu amb ploma.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "72d09aeb5a5a.m4a",
+            "lent": "563db3eaf9d2.m4a"
+          }
+        },
+        {
+          "id": "u06-g-be-instrument-1",
+          "text": {
+            "u": "לא, הם כותבים במחברות בעיפרון, או בעט.",
+            "n": "לֹא, הֵם כּוֹתְבִים בַּמַּחְבָּרוֹת בְּעִיפָּרוֹן, אוֹ בְּעֵט.",
+            "extraVocals": true
+          },
+          "ca": "No, escriuen a les llibretes (lloc) amb llapis o amb ploma (eina).",
+          "perComprovar": false,
+          "audio": {
+            "normal": "bdc06b362965.m4a",
+            "lent": "d5e50e9d14e6.m4a"
+          }
+        },
+        {
+          "id": "u06-g-be-instrument-2",
+          "text": {
+            "u": "היא עומדת על-יד הלוח וכותבת על הלוח בגיר לבן.",
+            "n": "הִיא עוֹמֶדֶת עַל-יַד הַלּוּחַ וְכוֹתֶבֶת עַל הַלּוּחַ בְּגִיר לָבָן.",
+            "extraVocals": true
+          },
+          "ca": "És dreta al costat de la pissarra i escriu a la pissarra amb guix blanc.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "a517ead0ee0c.m4a",
+            "lent": "7e50ec9b4f47.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "verbs-nous",
+      "titol": "Els verbs nous: יוֹשֵׁב, עוֹמֵד, כּוֹתֵב, אוֹמֵר",
+      "explicacio": "Fan el present com לוֹמֵד: femení en ‑ֶת (יוֹשֶׁבֶת) i plurals que perden la vocal del mig (יוֹשְׁבִים). Només לִכְתּוֹב fa l'infinitiu regular; לָשֶׁבֶת, לַעֲמוֹד i לוֹמַר s'han d'aprendre.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u06-g-verbs-nous-0",
+          "text": {
+            "u": "יושב · יושבת · יושבים · יושבות",
+            "n": "יוֹשֵׁב · יוֹשֶׁבֶת · יוֹשְׁבִים · יוֹשְׁבוֹת",
+            "extraVocals": true
+          },
+          "ca": "està assegut (m. sg. · f. sg. · m. pl. · f. pl.)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "41bbfa09b532.m4a",
+            "lent": "8e67934de8ff.m4a"
+          }
+        },
+        {
+          "id": "u06-g-verbs-nous-1",
+          "text": {
+            "u": "עומד · עומדת · עומדים · עומדות",
+            "n": "עוֹמֵד · עוֹמֶדֶת · עוֹמְדִים · עוֹמְדוֹת",
+            "extraVocals": true
+          },
+          "ca": "està dret (m. sg. · f. sg. · m. pl. · f. pl.)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "0211f873a0f4.m4a",
+            "lent": "f0e59b4e63a1.m4a"
+          }
+        },
+        {
+          "id": "u06-g-verbs-nous-2",
+          "text": {
+            "u": "כותב · כותבת · כותבים · כותבות",
+            "n": "כּוֹתֵב · כּוֹתֶבֶת · כּוֹתְבִים · כּוֹתְבוֹת",
+            "extraVocals": true
+          },
+          "ca": "escriu (m. sg. · f. sg. · m. pl. · f. pl.)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "fe28850b9230.m4a",
+            "lent": "314917040372.m4a"
+          }
+        },
+        {
+          "id": "u06-g-verbs-nous-3",
+          "text": {
+            "u": "אומר · אומרת · אומרים · אומרות",
+            "n": "אוֹמֵר · אוֹמֶרֶת · אוֹמְרִים · אוֹמְרוֹת",
+            "extraVocals": true
+          },
+          "ca": "diu (m. sg. · f. sg. · m. pl. · f. pl.)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "f621c265d5ce.m4a",
+            "lent": "8a0e2a46879f.m4a"
+          }
+        },
+        {
+          "id": "u06-g-verbs-nous-4",
+          "text": {
+            "u": "יושב - לשבת (ישב) · עומד - לעמוד (עמד)",
+            "n": "יוֹשֵׁב - לָשֶׁבֶת (יָשַׁב) · עוֹמֵד - לַעֲמוֹד (עָמַד)",
+            "extraVocals": true
+          },
+          "ca": "seu – seure (va seure) · està dret – estar dret (va estar dret)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "f5cf47b33f03.m4a",
+            "lent": "6de253ad9dee.m4a"
+          }
+        },
+        {
+          "id": "u06-g-verbs-nous-5",
+          "text": {
+            "u": "כותב - לכתוב (כתב) · אומר - לומר (אמר)",
+            "n": "כּוֹתֵב - לִכְתּוֹב (כָּתַב) · אוֹמֵר - לוֹמַר (אָמַר)",
+            "extraVocals": true
+          },
+          "ca": "escriu – escriure (va escriure) · diu – dir (va dir)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "7c8bcbc872d3.m4a",
+            "lent": "965729d7245f.m4a"
+          }
+        },
+        {
+          "id": "u06-g-verbs-nous-6",
+          "text": {
+            "u": "\"בוקר טוב יצחק! הנה כיסא. בבקשה לשבת!\"",
+            "n": "\"בּוֹקֶר טוֹב יִצְחָק! הִנֵּה כִּיסֵּא. בְּבַקָּשָׁה לָשֶׁבֶת!\"",
+            "extraVocals": true
+          },
+          "ca": "«Bon dia, Itshak! Aquí tens una cadira. Seu, si us plau!» (l'infinitiu fa d'ordre educada)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "7dd103272d77.m4a",
+            "lent": "ac401c069bef.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "omer",
+      "titol": "Dir: אוֹמֵר: \"...\", אוֹמֵר לְ..., אוֹמֵר שֶׁ...",
+      "explicacio": "Entre cometes van les paraules exactes; לְ־ marca a qui es diu, i שֶׁ־ (enganxat al mot següent) introdueix l'estil indirecte, on canvia la persona però no el temps. A les preguntes i darrere d'una cita, el verb sol anar davant del subjecte.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u06-g-omer-0",
+          "text": {
+            "u": "המורה אומרת: \"בוקר טוב, יצחק!\"",
+            "n": "הַמּוֹרָה אוֹמֶרֶת: \"בּוֹקֶר טוֹב, יִצְחָק!\"",
+            "extraVocals": true
+          },
+          "ca": "La mestra diu: «Bon dia, Itshak!»",
+          "perComprovar": false,
+          "audio": {
+            "normal": "00fae9b2a3cf.m4a",
+            "lent": "5f9be72ec94f.m4a"
+          }
+        },
+        {
+          "id": "u06-g-omer-1",
+          "text": {
+            "u": "המורה אומרת ליצחק בוקר-טוב.",
+            "n": "הַמּוֹרָה אוֹמֶרֶת לְיִצְחָק בּוֹקֶר-טוֹב.",
+            "extraVocals": true
+          },
+          "ca": "La mestra diu bon dia a l'Itshak.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "a7afcf1b5107.m4a",
+            "lent": "526961b2abf4.m4a"
+          }
+        },
+        {
+          "id": "u06-g-omer-2",
+          "text": {
+            "u": "שמי דני. — הוא אומר ששמו דני.",
+            "n": "שְׁמִי דָּנִי. — הוּא אוֹמֵר שֶׁשְּׁמוֹ דָּנִי.",
+            "extraVocals": true
+          },
+          "ca": "Em dic Dani. — Diu que es diu Dani.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "3a1d1c6f7156.m4a",
+            "lent": "13c037172de7.m4a"
+          }
+        },
+        {
+          "id": "u06-g-omer-3",
+          "text": {
+            "u": "אני גרה בחיפה. — היא אומרת שהיא גרה בחיפה.",
+            "n": "אֲנִי גָּרָה בְּחֵיפָה. — הִיא אוֹמֶרֶת שֶׁהִיא גָּרָה בְּחֵיפָה.",
+            "extraVocals": true
+          },
+          "ca": "Visc a Haifa. — Diu que viu a Haifa.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "92cd7c1e2697.m4a",
+            "lent": "69b010ac6b4d.m4a"
+          }
+        },
+        {
+          "id": "u06-g-omer-4",
+          "text": {
+            "u": "רוברטו אומר לבוריס שרחל אומרת שסטיב במשרד.",
+            "n": "רוֹבֶּרְטוֹ אוֹמֵר לְבּוֹרִיס שֶׁרָחֵל אוֹמֶרֶת שֶׁסְּטִיב בַּמִּשְׂרָד.",
+            "extraVocals": true
+          },
+          "ca": "El Roberto li diu al Boris que la Rakhel diu que l'Steve és a l'oficina.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "d4de812510bc.m4a",
+            "lent": "9417a885cbdb.m4a"
+          }
+        },
+        {
+          "id": "u06-g-omer-5",
+          "text": {
+            "u": "\"בוקר טוב\" אומר יצחק ויושב.",
+            "n": "\"בּוֹקֶר טוֹב\" אוֹמֵר יִצְחָק וְיוֹשֵׁב.",
+            "extraVocals": true
+          },
+          "ca": "«Bon dia», diu l'Itshak, i s'asseu.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "48f89e87bcf7.m4a",
+            "lent": "418bb0473918.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "omrim",
+      "titol": "אוֹמְרִים: «es diu»",
+      "explicacio": "El verb en plural i sense subjecte fa d'impersonal, com «es diu» o «diuen». אֵיךְ אוֹמְרִים בְּעִבְרִית...? és la frase per demanar un mot a classe.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u06-g-omrim-0",
+          "text": {
+            "u": "אומרים: בישראל יש קיבוצים.",
+            "n": "אוֹמְרִים: בְּיִשְׂרָאֵל יֵשׁ קִיבּוּצִים.",
+            "extraVocals": true
+          },
+          "ca": "Es diu: a Israel hi ha quibutsos.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "165b0b364a8c.m4a",
+            "lent": "98c8765edeab.m4a"
+          }
+        },
+        {
+          "id": "u06-g-omrim-1",
+          "text": {
+            "u": "איך אומרים בעברית.....?",
+            "n": "אֵיךְ אוֹמְרִים בְּעִבְרִית.....?",
+            "extraVocals": true
+          },
+          "ca": "Com es diu en hebreu...?",
+          "perComprovar": false,
+          "audio": {
+            "normal": "6d5930431fa0.m4a",
+            "lent": "9f227a26a78c.m4a"
+          }
+        }
+      ]
+    }
+  ],
   "textos": [
     {
       "id": "pag-33-b0",
@@ -450,7 +1116,12 @@
           "text": {
             "u": "אֵין בְּ..."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "No hi ha a...",
+          "audio": {
+            "normal": "55dd397f17f3.m4a",
+            "lent": "035c02b4cd23.m4a"
+          }
         }
       ]
     },
@@ -467,23 +1138,44 @@
         {
           "id": "pag-33-b1-l0",
           "text": {
-            "u": "אומרים: בישראל יש קיבוצים. באנגליה אין קיבוצים."
+            "u": "אומרים: בישראל יש קיבוצים. באנגליה אין קיבוצים.",
+            "n": "אוֹמְרִים: בְּיִשְׂרָאֵל יֵשׁ קִיבּוּצִים. בְּאַנְגְלִיָּה אֵין קִיבּוּצִים.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Es diu: a Israel hi ha quibutsos. A Anglaterra no hi ha quibutsos.",
+          "audio": {
+            "normal": "a2e0e3d40250.m4a",
+            "lent": "eaf075cfd5cb.m4a"
+          }
         },
         {
           "id": "pag-33-b1-l1",
           "text": {
-            "u": "או: יש בישראל קיבוצים. אין באנגליה קיבוצים."
+            "u": "או: יש בישראל קיבוצים. אין באנגליה קיבוצים.",
+            "n": "אוֹ: יֵשׁ בְּיִשְׂרָאֵל קִיבּוּצִים. אֵין בְּאַנְגְלִיָּה קִיבּוּצִים.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "O bé, amb יֵשׁ i אֵין al davant: hi ha quibutsos a Israel. No hi ha quibutsos a Anglaterra.",
+          "audio": {
+            "normal": "56559f31b4ef.m4a",
+            "lent": "1af21774e633.m4a"
+          }
         },
         {
           "id": "pag-33-b1-l2",
           "text": {
-            "u": "או: יש קיבוצים בישראל. אין קיבוצים באנגליה."
+            "u": "או: יש קיבוצים בישראל. אין קיבוצים באנגליה.",
+            "n": "אוֹ: יֵשׁ קִיבּוּצִים בְּיִשְׂרָאֵל. אֵין קִיבּוּצִים בְּאַנְגְלִיָּה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "O bé, amb el lloc al final: hi ha quibutsos a Israel. No hi ha quibutsos a Anglaterra.",
+          "audio": {
+            "normal": "34f719d143d9.m4a",
+            "lent": "c411b5204c5b.m4a"
+          }
         }
       ]
     },
@@ -502,7 +1194,12 @@
           "text": {
             "u": "עֲנֵה...!"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Respon...!",
+          "audio": {
+            "normal": "ec5fc7c1b98c.m4a",
+            "lent": "ebc6d1c15577.m4a"
+          }
         }
       ]
     },
@@ -519,9 +1216,16 @@
         {
           "id": "pag-33-b3-l0",
           "text": {
-            "u": "ענה על השאלות."
+            "u": "ענה על השאלות.",
+            "n": "עֲנֵה עַל הַשְּׁאֵלוֹת.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Respon les preguntes.",
+          "audio": {
+            "normal": "d3afc1d7aa2e.m4a",
+            "lent": "f16d47a42cef.m4a"
+          }
         }
       ]
     },
@@ -538,107 +1242,152 @@
         {
           "id": "pag-33-b4-l0",
           "text": {
-            "u": "1. בישראל יש דמוקרטיה? ____"
+            "u": "1. בישראל יש דמוקרטיה? ____",
+            "n": "1. בְּיִשְׂרָאֵל יֵשׁ דֶּמוֹקְרַטְיָה? ____",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "1. A Israel hi ha democràcia? ____"
         },
         {
           "id": "pag-33-b4-l1",
           "text": {
-            "u": "2. יש דמוקרטיה ברוסיה? ____"
+            "u": "2. יש דמוקרטיה ברוסיה? ____",
+            "n": "2. יֵשׁ דֶּמוֹקְרַטְיָה בְּרוּסְיָה? ____",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "2. Hi ha democràcia a Rússia? ____"
         },
         {
           "id": "pag-33-b4-l2",
           "text": {
-            "u": "3. יש דיקטטורה בארצות-הברית? ____"
+            "u": "3. יש דיקטטורה בארצות-הברית? ____",
+            "n": "3. יֵשׁ דִּיקְטָטוּרָה בְּאַרְצוֹת-הַבְּרִית? ____",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "3. Hi ha dictadura als Estats Units? ____"
         },
         {
           "id": "pag-33-b4-l3",
           "text": {
-            "u": "4. איפה יש דיקטטורה? ____"
+            "u": "4. איפה יש דיקטטורה? ____",
+            "n": "4. אֵיפֹה יֵשׁ דִּיקְטָטוּרָה? ____",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "4. On hi ha dictadura? ____"
         },
         {
           "id": "pag-33-b4-l4",
           "text": {
-            "u": "5. יש מֵאָה וְעֶשְׂרִים (120) חברים בכנסת? ____"
+            "u": "5. יש מֵאָה וְעֶשְׂרִים (120) חברים בכנסת? ____",
+            "n": "5. יֵשׁ מֵאָה וְעֶשְׂרִים (120) חֲבֵרִים בַּכְּנֶסֶת? ____",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "5. Hi ha cent vint (120) membres a la Kenésset? ____"
         },
         {
           "id": "pag-33-b4-l5",
           "text": {
-            "u": "6. יש בכנסת נשים? ____"
+            "u": "6. יש בכנסת נשים? ____",
+            "n": "6. יֵשׁ בַּכְּנֶסֶת נָשִׁים? ____",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "6. Hi ha dones a la Kenésset? ____"
         },
         {
           "id": "pag-33-b4-l6",
           "text": {
-            "u": "7. בכנסת יש ערבים? ____"
+            "u": "7. בכנסת יש ערבים? ____",
+            "n": "7. בַּכְּנֶסֶת יֵשׁ עֲרָבִים? ____",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "7. A la Kenésset hi ha àrabs? ____"
         },
         {
           "id": "pag-33-b4-l7",
           "text": {
-            "u": "8. יש נפט במקסיקו? ____"
+            "u": "8. יש נפט במקסיקו? ____",
+            "n": "8. יֵשׁ נֵפְט בְּמֶקְסִיקוֹ? ____",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "8. Hi ha petroli a Mèxic? ____"
         },
         {
           "id": "pag-33-b4-l8",
           "text": {
-            "u": "9. בישראל יש נפט? ____"
+            "u": "9. בישראל יש נפט? ____",
+            "n": "9. בְּיִשְׂרָאֵל יֵשׁ נֵפְט? ____",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "9. A Israel hi ha petroli? ____"
         },
         {
           "id": "pag-33-b4-l9",
           "text": {
-            "u": "10. איפה יש נפט? ____"
+            "u": "10. איפה יש נפט? ____",
+            "n": "10. אֵיפֹה יֵשׁ נֵפְט? ____",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "10. On hi ha petroli? ____"
         },
         {
           "id": "pag-33-b4-l10",
           "text": {
-            "u": "11. יש יהודים בסוריה? ____"
+            "u": "11. יש יהודים בסוריה? ____",
+            "n": "11. יֵשׁ יְהוּדִים בְּסוּרְיָה? ____",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "11. Hi ha jueus a Síria? ____"
         },
         {
           "id": "pag-33-b4-l11",
           "text": {
-            "u": "12. בכיתה יש טלוויזיה? ____"
+            "u": "12. בכיתה יש טלוויזיה? ____",
+            "n": "12. בַּכִּיתָּה יֵשׁ טֶלֶווִיזְיָה? ____",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "12. A la classe hi ha televisor? ____"
         },
         {
           "id": "pag-33-b4-l12",
           "text": {
-            "u": "13. יש טלפון בכיתה? ____"
+            "u": "13. יש טלפון בכיתה? ____",
+            "n": "13. יֵשׁ טֶלֶפוֹן בַּכִּיתָּה? ____",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "13. Hi ha telèfon a la classe? ____"
         },
         {
           "id": "pag-33-b4-l13",
           "text": {
-            "u": "14. יש בכיתה טרקטור? ____"
+            "u": "14. יש בכיתה טרקטור? ____",
+            "n": "14. יֵשׁ בַּכִּיתָּה טְרַקְטוֹר? ____",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "14. Hi ha cap tractor a la classe? ____"
         },
         {
           "id": "pag-33-b4-l14",
           "text": {
-            "u": "15. יש אולפנים בקיבוצים? ____"
+            "u": "15. יש אולפנים בקיבוצים? ____",
+            "n": "15. יֵשׁ אוּלְפָּנִים בַּקִּיבּוּצִים? ____",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "15. Hi ha ulpans als quibutsos? ____"
         }
       ]
     },
@@ -655,30 +1404,58 @@
         {
           "id": "pag-34-b0-l0",
           "text": {
-            "u": "שולחָן"
+            "u": "שולחָן",
+            "n": "שׁוּלְחָן",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "taula",
+          "audio": {
+            "normal": "d8dbfdf1c2c6.m4a",
+            "lent": "dce462af61eb.m4a"
+          }
         },
         {
           "id": "pag-34-b0-l1",
           "text": {
-            "u": "כִּיסֵא"
+            "u": "כִּיסֵא",
+            "n": "כִּיסֵּא",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "cadira",
+          "audio": {
+            "normal": "65c3675fc687.m4a",
+            "lent": "4eb549b40dff.m4a"
+          }
         },
         {
           "id": "pag-34-b0-l2",
           "text": {
-            "u": "אָרון"
+            "u": "אָרון",
+            "n": "אָרוֹן",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "armari",
+          "audio": {
+            "normal": "c3818dc153b9.m4a",
+            "lent": "375136bd3588.m4a"
+          }
         },
         {
           "id": "pag-34-b0-l3",
           "text": {
-            "u": "חַלון"
+            "u": "חַלון",
+            "n": "חַלּוֹן",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "finestra",
+          "audio": {
+            "normal": "7f4b699ee780.m4a",
+            "lent": "e59d121136e8.m4a"
+          }
         }
       ]
     },
@@ -695,30 +1472,58 @@
         {
           "id": "pag-34-b1-l0",
           "text": {
-            "u": "לוּחַ"
+            "u": "לוּחַ",
+            "n": "לוּחַ",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "pissarra",
+          "audio": {
+            "normal": "a1c07e410f80.m4a",
+            "lent": "11f8423db233.m4a"
+          }
         },
         {
           "id": "pag-34-b1-l1",
           "text": {
-            "u": "מַחבֶּרֶת"
+            "u": "מַחבֶּרֶת",
+            "n": "מַחְבֶּרֶת",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "llibreta",
+          "audio": {
+            "normal": "3c31fac2ad31.m4a",
+            "lent": "0460d02a11da.m4a"
+          }
         },
         {
           "id": "pag-34-b1-l2",
           "text": {
-            "u": "עֵט"
+            "u": "עֵט",
+            "n": "עֵט",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "ploma",
+          "audio": {
+            "normal": "3fe164d664b1.m4a",
+            "lent": "723ca78bef0b.m4a"
+          }
         },
         {
           "id": "pag-34-b1-l3",
           "text": {
-            "u": "עִיפָּרון"
+            "u": "עִיפָּרון",
+            "n": "עִיפָּרוֹן",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "llapis",
+          "audio": {
+            "normal": "5e7f801985c2.m4a",
+            "lent": "2cccd61ff584.m4a"
+          }
         }
       ]
     },
@@ -737,28 +1542,48 @@
           "text": {
             "u": "עַל"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "sobre, damunt de",
+          "audio": {
+            "normal": "9689e3197c83.m4a",
+            "lent": "b2ef3b9306d1.m4a"
+          }
         },
         {
           "id": "pag-34-b2-l1",
           "text": {
             "u": "עַל-יַד"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "al costat de",
+          "audio": {
+            "normal": "d51a8adc83f4.m4a",
+            "lent": "0a58732182f2.m4a"
+          }
         },
         {
           "id": "pag-34-b2-l2",
           "text": {
             "u": "בֵּין"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "entre",
+          "audio": {
+            "normal": "9af95b834b48.m4a",
+            "lent": "b8143e6202bc.m4a"
+          }
         },
         {
           "id": "pag-34-b2-l3",
           "text": {
             "u": "תַּחַת"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "sota",
+          "audio": {
+            "normal": "d92655c9a0a3.m4a",
+            "lent": "a148d54e0c34.m4a"
+          }
         }
       ]
     },
@@ -775,16 +1600,30 @@
         {
           "id": "pag-34-b3-l0",
           "text": {
-            "u": "החתול על הכיסא"
+            "u": "החתול על הכיסא",
+            "n": "הֶחָתוּל עַל הַכִּיסֵּא",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "El gat és damunt la cadira,",
+          "audio": {
+            "normal": "cfe50cb28c01.m4a",
+            "lent": "e152dda8929d.m4a"
+          }
         },
         {
           "id": "pag-34-b3-l1",
           "text": {
-            "u": "על-יד השולחן."
+            "u": "על-יד השולחן.",
+            "n": "עַל-יַד הַשּׁוּלְחָן.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "al costat de la taula.",
+          "audio": {
+            "normal": "893b0e3e946f.m4a",
+            "lent": "b43aa0844678.m4a"
+          }
         }
       ]
     },
@@ -801,16 +1640,30 @@
         {
           "id": "pag-34-b4-l0",
           "text": {
-            "u": "החתול על הכיסא"
+            "u": "החתול על הכיסא",
+            "n": "הֶחָתוּל עַל הַכִּיסֵּא",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "El gat és damunt la cadira,",
+          "audio": {
+            "normal": "cfe50cb28c01.m4a",
+            "lent": "e152dda8929d.m4a"
+          }
         },
         {
           "id": "pag-34-b4-l1",
           "text": {
-            "u": "בין השולחן והארון."
+            "u": "בין השולחן והארון.",
+            "n": "בֵּין הַשּׁוּלְחָן וְהָאָרוֹן.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "entre la taula i l'armari.",
+          "audio": {
+            "normal": "d1ca533e8e71.m4a",
+            "lent": "56e89f5305a3.m4a"
+          }
         }
       ]
     },
@@ -827,9 +1680,16 @@
         {
           "id": "pag-34-b5-l0",
           "text": {
-            "u": "איפה הכלב?"
+            "u": "איפה הכלב?",
+            "n": "אֵיפֹה הַכֶּלֶב?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "On és el gos?",
+          "audio": {
+            "normal": "3c1a9ecad2b1.m4a",
+            "lent": "e5719114e93b.m4a"
+          }
         }
       ]
     },
@@ -846,9 +1706,16 @@
         {
           "id": "pag-34-b6-l0",
           "text": {
-            "u": "הכלב תחת השולחן."
+            "u": "הכלב תחת השולחן.",
+            "n": "הַכֶּלֶב תַּחַת הַשּׁוּלְחָן.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "El gos és sota la taula.",
+          "audio": {
+            "normal": "6866c151a031.m4a",
+            "lent": "ef63130b4d96.m4a"
+          }
         }
       ]
     },
@@ -867,28 +1734,48 @@
           "text": {
             "u": "עַל"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "sobre, damunt de",
+          "audio": {
+            "normal": "9689e3197c83.m4a",
+            "lent": "b2ef3b9306d1.m4a"
+          }
         },
         {
           "id": "pag-34-b7-l1",
           "text": {
             "u": "עַל-יַד"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "al costat de",
+          "audio": {
+            "normal": "d51a8adc83f4.m4a",
+            "lent": "0a58732182f2.m4a"
+          }
         },
         {
           "id": "pag-34-b7-l2",
           "text": {
             "u": "בֵּין"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "entre",
+          "audio": {
+            "normal": "9af95b834b48.m4a",
+            "lent": "b8143e6202bc.m4a"
+          }
         },
         {
           "id": "pag-34-b7-l3",
           "text": {
             "u": "תַּחַת"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "sota",
+          "audio": {
+            "normal": "d92655c9a0a3.m4a",
+            "lent": "a148d54e0c34.m4a"
+          }
         }
       ]
     },
@@ -905,9 +1792,16 @@
         {
           "id": "pag-35-b0-l0",
           "text": {
-            "u": "כתוב על על-יד בין תחת"
+            "u": "כתוב על על-יד בין תחת",
+            "n": "כְּתוֹב עַל עַל-יַד בֵּין תַּחַת",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Escriu: sobre, al costat de, entre, sota",
+          "audio": {
+            "normal": "11db2c59787e.m4a",
+            "lent": "bea49b9e4d11.m4a"
+          }
         }
       ]
     },
@@ -924,86 +1818,122 @@
         {
           "id": "pag-35-b1-l0",
           "text": {
-            "u": "1. הגיטרה ____ השטיח ____ השולחן."
+            "u": "1. הגיטרה ____ השטיח ____ השולחן.",
+            "n": "1. הַגִּיטָרָה ____ הַשָּׁטִיחַ ____ הַשּׁוּלְחָן.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "1. La guitarra és ____ la catifa, ____ la taula."
         },
         {
           "id": "pag-35-b1-l1",
           "text": {
-            "u": "2. השטיח ____ הגיטרה."
+            "u": "2. השטיח ____ הגיטרה.",
+            "n": "2. הַשָּׁטִיחַ ____ הַגִּיטָרָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "2. La catifa és ____ la guitarra."
         },
         {
           "id": "pag-35-b1-l2",
           "text": {
-            "u": "3. השולחן ____ הכיסא והמיטה."
+            "u": "3. השולחן ____ הכיסא והמיטה.",
+            "n": "3. הַשּׁוּלְחָן ____ הַכִּיסֵּא וְהַמִּיטָּה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "3. La taula és ____ la cadira i el llit."
         },
         {
           "id": "pag-35-b1-l3",
           "text": {
-            "u": "4. הטלוויזיה ____ הארון ____ הטרנזיסטור."
+            "u": "4. הטלוויזיה ____ הארון ____ הטרנזיסטור.",
+            "n": "4. הַטֶּלֶווִיזְיָה ____ הָאָרוֹן ____ הַטְּרַנְזִיסְטוֹר.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "4. El televisor és ____ l'armari, ____ el transistor."
         },
         {
           "id": "pag-35-b1-l4",
           "text": {
-            "u": "5. החתול ____ החלון. הכלב ____ המיטה."
+            "u": "5. החתול ____ החלון. הכלב ____ המיטה.",
+            "n": "5. הֶחָתוּל ____ הַחַלּוֹן. הַכֶּלֶב ____ הַמִּיטָּה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "5. El gat és ____ la finestra. El gos és ____ el llit."
         },
         {
           "id": "pag-35-b1-l5",
           "text": {
-            "u": "6. המיטה ____ השולחן. הספר ____ המיטה."
+            "u": "6. המיטה ____ השולחן. הספר ____ המיטה.",
+            "n": "6. הַמִּיטָּה ____ הַשּׁוּלְחָן. הַסֵּפֶר ____ הַמִּיטָּה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "6. El llit és ____ la taula. El llibre és ____ el llit."
         },
         {
           "id": "pag-35-b1-l6",
           "text": {
-            "u": "7. העיפרון ____ העט והטלפון."
+            "u": "7. העיפרון ____ העט והטלפון.",
+            "n": "7. הָעִיפָּרוֹן ____ הָעֵט וְהַטֶּלֶפוֹן.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "7. El llapis és ____ la ploma i el telèfon."
         },
         {
           "id": "pag-35-b1-l7",
           "text": {
-            "u": "8. העט ____ השולחן. המחברת ____ העט."
+            "u": "8. העט ____ השולחן. המחברת ____ העט.",
+            "n": "8. הָעֵט ____ הַשּׁוּלְחָן. הַמַּחְבֶּרֶת ____ הָעֵט.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "8. La ploma és ____ la taula. La llibreta és ____ la ploma."
         },
         {
           "id": "pag-35-b1-l8",
           "text": {
-            "u": "9. העט ____ המחברת והעפרון."
+            "u": "9. העט ____ המחברת והעפרון.",
+            "n": "9. הָעֵט ____ הַמַּחְבֶּרֶת וְהָעִפָּרוֹן.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "9. La ploma és ____ la llibreta i el llapis."
         },
         {
           "id": "pag-35-b1-l9",
           "text": {
-            "u": "10. הילדה והאיש ____ הדלת."
+            "u": "10. הילדה והאיש ____ הדלת.",
+            "n": "10. הַיַּלְדָּה וְהָאִישׁ ____ הַדֶּלֶת.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "10. La nena i l'home són ____ la porta."
         },
         {
           "id": "pag-35-b1-l10",
           "text": {
-            "u": "11. הטרנזיסטור ____ הטלוויזיה ____ הארון."
+            "u": "11. הטרנזיסטור ____ הטלוויזיה ____ הארון.",
+            "n": "11. הַטְּרַנְזִיסְטוֹר ____ הַטֶּלֶווִיזְיָה ____ הָאָרוֹן.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "11. El transistor és ____ el televisor, ____ l'armari."
         },
         {
           "id": "pag-35-b1-l11",
           "text": {
-            "u": "12. הארון ____ הדלת."
+            "u": "12. הארון ____ הדלת.",
+            "n": "12. הָאָרוֹן ____ הַדֶּלֶת.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "12. L'armari és ____ la porta."
         }
       ]
     },
@@ -1020,9 +1950,16 @@
         {
           "id": "pag-36-b0-l0",
           "text": {
-            "u": "זאת כיתה באולפן. מה יש בכיתה?"
+            "u": "זאת כיתה באולפן. מה יש בכיתה?",
+            "n": "זֹאת כִּיתָּה בָּאוּלְפָּן. מַה יֵּשׁ בַּכִּיתָּה?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Aquesta és una classe de l'ulpan. Què hi ha a la classe?",
+          "audio": {
+            "normal": "729e6514833e.m4a",
+            "lent": "977a944051c3.m4a"
+          }
         }
       ]
     },
@@ -1039,16 +1976,30 @@
         {
           "id": "pag-36-b1-l0",
           "text": {
-            "u": "בכיתה יש שולחן. על השולחן יש ספר, מחברת ועט."
+            "u": "בכיתה יש שולחן. על השולחן יש ספר, מחברת ועט.",
+            "n": "בַּכִּיתָּה יֵשׁ שׁוּלְחָן. עַל הַשּׁוּלְחָן יֵשׁ סֵפֶר, מַחְבֶּרֶת וְעֵט.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "A la classe hi ha una taula. Damunt la taula hi ha un llibre, una llibreta i una ploma.",
+          "audio": {
+            "normal": "c3d5ce134823.m4a",
+            "lent": "64e8d04dc582.m4a"
+          }
         },
         {
           "id": "pag-36-b1-l1",
           "text": {
-            "u": "בכיתה יש לוח גדול שחור, חלונות גדולים ודלת."
+            "u": "בכיתה יש לוח גדול שחור, חלונות גדולים ודלת.",
+            "n": "בַּכִּיתָּה יֵשׁ לוּחַ גָּדוֹל שָׁחוֹר, חַלּוֹנוֹת גְּדוֹלִים וְדֶלֶת.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "A la classe hi ha una pissarra gran i negra, finestres grans i una porta.",
+          "audio": {
+            "normal": "2b3c70575770.m4a",
+            "lent": "28db50fd37ab.m4a"
+          }
         }
       ]
     },
@@ -1065,9 +2016,16 @@
         {
           "id": "pag-36-b2-l0",
           "text": {
-            "u": "יש בכיתה טלוויזיה?"
+            "u": "יש בכיתה טלוויזיה?",
+            "n": "יֵשׁ בַּכִּיתָּה טֶלֶווִיזְיָה?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Hi ha televisor a la classe?",
+          "audio": {
+            "normal": "2960f158b6be.m4a",
+            "lent": "b278926fa198.m4a"
+          }
         }
       ]
     },
@@ -1084,9 +2042,16 @@
         {
           "id": "pag-36-b3-l0",
           "text": {
-            "u": "לא, טלוויזיה יש במועדון של האולפן."
+            "u": "לא, טלוויזיה יש במועדון של האולפן.",
+            "n": "לֹא, טֶלֶווִיזְיָה יֵשׁ בַּמּוֹעֲדוֹן שֶׁל הָאוּלְפָּן.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "No, televisor n'hi ha al club de l'ulpan.",
+          "audio": {
+            "normal": "cc0bf8030d80.m4a",
+            "lent": "b964cb6fd5c3.m4a"
+          }
         }
       ]
     },
@@ -1103,9 +2068,16 @@
         {
           "id": "pag-36-b4-l0",
           "text": {
-            "u": "וטלפון יש בכיתה?"
+            "u": "וטלפון יש בכיתה?",
+            "n": "וְטֶלֶפוֹן יֵשׁ בַּכִּיתָּה?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "I telèfon, n'hi ha a la classe?",
+          "audio": {
+            "normal": "0e9d98f25725.m4a",
+            "lent": "397714a036a5.m4a"
+          }
         }
       ]
     },
@@ -1122,9 +2094,16 @@
         {
           "id": "pag-36-b5-l0",
           "text": {
-            "u": "לא. גם טלפון אין בכיתה. טלפון יש במשרד."
+            "u": "לא. גם טלפון אין בכיתה. טלפון יש במשרד.",
+            "n": "לֹא. גַּם טֶלֶפוֹן אֵין בַּכִּיתָּה. טֶלֶפוֹן יֵשׁ בַּמִּשְׂרָד.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "No. A la classe tampoc no hi ha telèfon. Telèfon n'hi ha a l'oficina.",
+          "audio": {
+            "normal": "24df4486c124.m4a",
+            "lent": "a8530c756a9e.m4a"
+          }
         }
       ]
     },
@@ -1141,9 +2120,16 @@
         {
           "id": "pag-36-b6-l0",
           "text": {
-            "u": "יש פה כיסא?"
+            "u": "יש פה כיסא?",
+            "n": "יֵשׁ פֹּה כִּיסֵּא?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Hi ha cap cadira, aquí?",
+          "audio": {
+            "normal": "58bc18743ab8.m4a",
+            "lent": "8b37fb4a045c.m4a"
+          }
         }
       ]
     },
@@ -1160,9 +2146,16 @@
         {
           "id": "pag-36-b7-l0",
           "text": {
-            "u": "יש פה הרבה כיסאות."
+            "u": "יש פה הרבה כיסאות.",
+            "n": "יֵשׁ פֹּה הַרְבֵּה כִּיסְאוֹת.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Aquí hi ha moltes cadires.",
+          "audio": {
+            "normal": "60607fd5c171.m4a",
+            "lent": "dc536e7a533f.m4a"
+          }
         }
       ]
     },
@@ -1179,9 +2172,16 @@
         {
           "id": "pag-36-b8-l0",
           "text": {
-            "u": "ואיפה התלמידים? מה הם עושים?"
+            "u": "ואיפה התלמידים? מה הם עושים?",
+            "n": "וְאֵיפֹה הַתַּלְמִידִים? מָה הֵם עוֹשִׂים?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "I on són els alumnes? Què fan?",
+          "audio": {
+            "normal": "6512a4d920c8.m4a",
+            "lent": "3c6bed67a835.m4a"
+          }
         }
       ]
     },
@@ -1198,9 +2198,16 @@
         {
           "id": "pag-36-b9-l0",
           "text": {
-            "u": "התלמידים בכיתה. הם יושבים על הכסאות ולומדים."
+            "u": "התלמידים בכיתה. הם יושבים על הכסאות ולומדים.",
+            "n": "הַתַּלְמִידִים בַּכִּיתָּה. הֵם יוֹשְׁבִים עַל הַכִּסְאוֹת וְלוֹמְדִים.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Els alumnes són a la classe. Estan asseguts a les cadires i estudien.",
+          "audio": {
+            "normal": "407248a1cce6.m4a",
+            "lent": "12561bc5bdd5.m4a"
+          }
         }
       ]
     },
@@ -1217,9 +2224,16 @@
         {
           "id": "pag-36-b10-l0",
           "text": {
-            "u": "איפה המורה? מה היא עושה?"
+            "u": "איפה המורה? מה היא עושה?",
+            "n": "אֵיפֹה הַמּוֹרָה? מָה הִיא עוֹשָׂה?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "On és la mestra? Què fa?",
+          "audio": {
+            "normal": "ab9b66fcb9a6.m4a",
+            "lent": "f74ef37b80c7.m4a"
+          }
         }
       ]
     },
@@ -1236,9 +2250,16 @@
         {
           "id": "pag-36-b11-l0",
           "text": {
-            "u": "גם היא בכיתה. היא עומדת על-יד הלוח וכותבת על הלוח בגיר לבן. היא כותבת על הלוח מילים חדשות."
+            "u": "גם היא בכיתה. היא עומדת על-יד הלוח וכותבת על הלוח בגיר לבן. היא כותבת על הלוח מילים חדשות.",
+            "n": "גַּם הִיא בַּכִּיתָּה. הִיא עוֹמֶדֶת עַל-יַד הַלּוּחַ וְכוֹתֶבֶת עַל הַלּוּחַ בְּגִיר לָבָן. הִיא כּוֹתֶבֶת עַל הַלּוּחַ מִילִּים חֲדָשׁוֹת.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Ella també és a la classe. És dreta al costat de la pissarra i escriu a la pissarra amb guix blanc. Escriu paraules noves a la pissarra.",
+          "audio": {
+            "normal": "c5601ef96fc6.m4a",
+            "lent": "26b555360d34.m4a"
+          }
         }
       ]
     },
@@ -1255,9 +2276,16 @@
         {
           "id": "pag-37-b0-l0",
           "text": {
-            "u": "גם התלמידים כותבים על הלוח בגיר?"
+            "u": "גם התלמידים כותבים על הלוח בגיר?",
+            "n": "גַּם הַתַּלְמִידִים כּוֹתְבִים עַל הַלּוּחַ בְּגִיר?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Els alumnes també escriuen a la pissarra amb guix?",
+          "audio": {
+            "normal": "dbe9b3128dbf.m4a",
+            "lent": "9a7a87d603a4.m4a"
+          }
         }
       ]
     },
@@ -1274,9 +2302,16 @@
         {
           "id": "pag-37-b1-l0",
           "text": {
-            "u": "לא, הם כותבים במחברות בעיפרון, או בעט."
+            "u": "לא, הם כותבים במחברות בעיפרון, או בעט.",
+            "n": "לֹא, הֵם כּוֹתְבִים בַּמַּחְבָּרוֹת בְּעִיפָּרוֹן, אוֹ בְּעֵט.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "No, escriuen a les llibretes amb llapis o amb ploma.",
+          "audio": {
+            "normal": "bdc06b362965.m4a",
+            "lent": "d5e50e9d14e6.m4a"
+          }
         }
       ]
     },
@@ -1293,9 +2328,16 @@
         {
           "id": "pag-37-b2-l0",
           "text": {
-            "u": "מי עומד על-יד הדלת?"
+            "u": "מי עומד על-יד הדלת?",
+            "n": "מִי עוֹמֵד עַל-יַד הַדֶּלֶת?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Qui és dret al costat de la porta?",
+          "audio": {
+            "normal": "f2da5291e0b8.m4a",
+            "lent": "9952b2db321d.m4a"
+          }
         }
       ]
     },
@@ -1312,30 +2354,58 @@
         {
           "id": "pag-37-b3-l0",
           "text": {
-            "u": "יצחק עומד על-יד הדלת. המורה אומרת:"
+            "u": "יצחק עומד על-יד הדלת. המורה אומרת:",
+            "n": "יִצְחָק עוֹמֵד עַל-יַד הַדֶּלֶת. הַמּוֹרָה אוֹמֶרֶת:",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "L'Itshak és dret al costat de la porta. La mestra diu:",
+          "audio": {
+            "normal": "40a5e7e5a1b6.m4a",
+            "lent": "498d465f1e17.m4a"
+          }
         },
         {
           "id": "pag-37-b3-l1",
           "text": {
-            "u": "\"בוקר טוב יצחק! הנה כיסא. בבקשה לשבת!\""
+            "u": "\"בוקר טוב יצחק! הנה כיסא. בבקשה לשבת!\"",
+            "n": "\"בּוֹקֶר טוֹב יִצְחָק! הִנֵּה כִּיסֵּא. בְּבַקָּשָׁה לָשֶׁבֶת!\"",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "«Bon dia, Itshak! Aquí tens una cadira. Seu, si us plau!»",
+          "audio": {
+            "normal": "7dd103272d77.m4a",
+            "lent": "ac401c069bef.m4a"
+          }
         },
         {
           "id": "pag-37-b3-l2",
           "text": {
-            "u": "\"בוקר טוב\" אומר יצחק ויושב."
+            "u": "\"בוקר טוב\" אומר יצחק ויושב.",
+            "n": "\"בּוֹקֶר טוֹב\" אוֹמֵר יִצְחָק וְיוֹשֵׁב.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "«Bon dia», diu l'Itshak, i s'asseu.",
+          "audio": {
+            "normal": "48f89e87bcf7.m4a",
+            "lent": "418bb0473918.m4a"
+          }
         },
         {
           "id": "pag-37-b3-l3",
           "text": {
-            "u": "עכשיו גם יצחק לומד. עכשיו גם יצחק כותב."
+            "u": "עכשיו גם יצחק לומד. עכשיו גם יצחק כותב.",
+            "n": "עַכְשָׁיו גַּם יִצְחָק לוֹמֵד. עַכְשָׁיו גַּם יִצְחָק כּוֹתֵב.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Ara l'Itshak també estudia. Ara l'Itshak també escriu.",
+          "audio": {
+            "normal": "5d05147c4ee2.m4a",
+            "lent": "6e1705f8971d.m4a"
+          }
         }
       ]
     },
@@ -1352,9 +2422,16 @@
         {
           "id": "pag-37-b4-l0",
           "text": {
-            "u": "המורה כותבת בְּגיר. התלמיד כותב בעט."
+            "u": "המורה כותבת בְּגיר. התלמיד כותב בעט.",
+            "n": "הַמּוֹרָה כּוֹתֶבֶת בְּגִיר. הַתַּלְמִיד כּוֹתֵב בְּעֵט.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "La mestra escriu amb guix. L'alumne escriu amb ploma.",
+          "audio": {
+            "normal": "72d09aeb5a5a.m4a",
+            "lent": "563db3eaf9d2.m4a"
+          }
         }
       ]
     },
@@ -1371,30 +2448,58 @@
         {
           "id": "pag-37-b5-l0",
           "text": {
-            "u": "יושֵב · יושֶבֶת · יושְבִים · יושְבות"
+            "u": "יושֵב · יושֶבֶת · יושְבִים · יושְבות",
+            "n": "יוֹשֵׁב  ·  יוֹשֶׁבֶת  ·  יוֹשְׁבִים  ·  יוֹשְׁבוֹת",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "estar assegut, en present: m. sg. · f. sg. · m. pl. · f. pl.",
+          "audio": {
+            "normal": "be4e065c964f.m4a",
+            "lent": "9edc545abbac.m4a"
+          }
         },
         {
           "id": "pag-37-b5-l1",
           "text": {
-            "u": "עומֵד · עומֶדֶת · עומְדִים · עומְדות"
+            "u": "עומֵד · עומֶדֶת · עומְדִים · עומְדות",
+            "n": "עוֹמֵד  ·  עוֹמֶדֶת  ·  עוֹמְדִים  ·  עוֹמְדוֹת",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "estar dret, en present: m. sg. · f. sg. · m. pl. · f. pl.",
+          "audio": {
+            "normal": "f66279a2759f.m4a",
+            "lent": "a66d52ae9384.m4a"
+          }
         },
         {
           "id": "pag-37-b5-l2",
           "text": {
-            "u": "כותֵב · כותֶבֶת · כותְבִים · כותְבות"
+            "u": "כותֵב · כותֶבֶת · כותְבִים · כותְבות",
+            "n": "כּוֹתֵב  ·  כּוֹתֶבֶת  ·  כּוֹתְבִים  ·  כּוֹתְבוֹת",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "escriure, en present: m. sg. · f. sg. · m. pl. · f. pl.",
+          "audio": {
+            "normal": "62117cba4636.m4a",
+            "lent": "2a1269647433.m4a"
+          }
         },
         {
           "id": "pag-37-b5-l3",
           "text": {
-            "u": "אומֵר · אומֶרֶת · אומְרִים · אומְרות"
+            "u": "אומֵר · אומֶרֶת · אומְרִים · אומְרות",
+            "n": "אוֹמֵר  ·  אוֹמֶרֶת  ·  אוֹמְרִים  ·  אוֹמְרוֹת",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "dir, en present: m. sg. · f. sg. · m. pl. · f. pl.",
+          "audio": {
+            "normal": "519f60c08593.m4a",
+            "lent": "ad65ddeb5c57.m4a"
+          }
         }
       ]
     },
@@ -1411,23 +2516,44 @@
         {
           "id": "pag-38-b0-l0",
           "text": {
-            "u": "אומֵר: \"......\""
+            "u": "אומֵר: \"......\"",
+            "n": "אוֹמֵר: \"......\"",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "diu: «...»",
+          "audio": {
+            "normal": "5921bba044ad.m4a",
+            "lent": "c44a50d87fa3.m4a"
+          }
         },
         {
           "id": "pag-38-b0-l1",
           "text": {
-            "u": "אומֵר ל......"
+            "u": "אומֵר ל......",
+            "n": "אוֹמֵר לְ......",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "diu a...",
+          "audio": {
+            "normal": "4ecbc746faa1.m4a",
+            "lent": "43a8d6b5ca92.m4a"
+          }
         },
         {
           "id": "pag-38-b0-l2",
           "text": {
-            "u": "אומֵר שֶ......"
+            "u": "אומֵר שֶ......",
+            "n": "אוֹמֵר שֶׁ......",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "diu que...",
+          "audio": {
+            "normal": "09d5413fbddc.m4a",
+            "lent": "2f5cddb2e222.m4a"
+          }
         }
       ]
     },
@@ -1444,9 +2570,16 @@
         {
           "id": "pag-38-b1-l0",
           "text": {
-            "u": "המורה אומרת: \"בוקר טוב, יצחק!\""
+            "u": "המורה אומרת: \"בוקר טוב, יצחק!\"",
+            "n": "הַמּוֹרָה אוֹמֶרֶת: \"בּוֹקֶר טוֹב, יִצְחָק!\"",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "La mestra diu: «Bon dia, Itshak!»",
+          "audio": {
+            "normal": "00fae9b2a3cf.m4a",
+            "lent": "5f9be72ec94f.m4a"
+          }
         }
       ]
     },
@@ -1463,16 +2596,30 @@
         {
           "id": "pag-38-b2-l0",
           "text": {
-            "u": "מה אומרת המורה ליצחק?"
+            "u": "מה אומרת המורה ליצחק?",
+            "n": "מָה אוֹמֶרֶת הַמּוֹרָה לְיִצְחָק?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Què li diu la mestra a l'Itshak?",
+          "audio": {
+            "normal": "7a680fde8b21.m4a",
+            "lent": "5957d659dfac.m4a"
+          }
         },
         {
           "id": "pag-38-b2-l1",
           "text": {
-            "u": "המורה אומרת ליצחק בוקר-טוב."
+            "u": "המורה אומרת ליצחק בוקר-טוב.",
+            "n": "הַמּוֹרָה אוֹמֶרֶת לְיִצְחָק בּוֹקֶר-טוֹב.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "La mestra diu bon dia a l'Itshak.",
+          "audio": {
+            "normal": "a7afcf1b5107.m4a",
+            "lent": "526961b2abf4.m4a"
+          }
         }
       ]
     },
@@ -1493,18 +2640,32 @@
         {
           "id": "pag-38-b3-l0",
           "text": {
-            "u": "ילד, מה שמך?"
+            "u": "ילד, מה שמך?",
+            "n": "יֶלֶד, מַה שִּׁמְךָ?",
+            "extraVocals": true
           },
           "perComprovar": false,
-          "qui": "איש"
+          "qui": "איש",
+          "ca": "Nen, com et dius?",
+          "audio": {
+            "normal": "906b273ea33e.m4a",
+            "lent": "866fd8c66d15.m4a"
+          }
         },
         {
           "id": "pag-38-b3-l1",
           "text": {
-            "u": "שמי דני."
+            "u": "שמי דני.",
+            "n": "שְׁמִי דָּנִי.",
+            "extraVocals": true
           },
           "perComprovar": false,
-          "qui": "ילד"
+          "qui": "ילד",
+          "ca": "Em dic Dani.",
+          "audio": {
+            "normal": "131b1007f42b.m4a",
+            "lent": "74fe65d29bef.m4a"
+          }
         }
       ]
     },
@@ -1521,9 +2682,16 @@
         {
           "id": "pag-38-b4-l0",
           "text": {
-            "u": "מה אומר הילד לאיש? הוא אומר שֶשמו דני."
+            "u": "מה אומר הילד לאיש? הוא אומר שֶשמו דני.",
+            "n": "מָה אוֹמֵר הַיֶּלֶד לָאִישׁ? הוּא אוֹמֵר שֶׁשְּׁמוֹ דָּנִי.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Què li diu el nen a l'home? Diu que es diu Dani.",
+          "audio": {
+            "normal": "3c3c8328098a.m4a",
+            "lent": "9a5442a3bfe4.m4a"
+          }
         }
       ]
     },
@@ -1544,18 +2712,32 @@
         {
           "id": "pag-38-b5-l0",
           "text": {
-            "u": "איפה את גרה?"
+            "u": "איפה את גרה?",
+            "n": "אֵיפֹה אַתְּ גָּרָה?",
+            "extraVocals": true
           },
           "perComprovar": false,
-          "qui": "יוסף"
+          "qui": "יוסף",
+          "ca": "On vius?",
+          "audio": {
+            "normal": "0f1f5301f3ce.m4a",
+            "lent": "59511f83c977.m4a"
+          }
         },
         {
           "id": "pag-38-b5-l1",
           "text": {
-            "u": "אני גרה בְּחיפה."
+            "u": "אני גרה בְּחיפה.",
+            "n": "אֲנִי גָּרָה בְּחֵיפָה.",
+            "extraVocals": true
           },
           "perComprovar": false,
-          "qui": "תמר"
+          "qui": "תמר",
+          "ca": "Visc a Haifa.",
+          "audio": {
+            "normal": "a954012ceabd.m4a",
+            "lent": "3d5a27385822.m4a"
+          }
         }
       ]
     },
@@ -1572,16 +2754,30 @@
         {
           "id": "pag-38-b6-l0",
           "text": {
-            "u": "מה אומרת תמר ליוסף?"
+            "u": "מה אומרת תמר ליוסף?",
+            "n": "מָה אוֹמֶרֶת תָּמָר לְיוֹסֵף?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Què li diu la Tamar al Iossef?",
+          "audio": {
+            "normal": "feec0566cbae.m4a",
+            "lent": "028d6fe1c263.m4a"
+          }
         },
         {
           "id": "pag-38-b6-l1",
           "text": {
-            "u": "היא אומרת שֶהיא גרה בחיפה."
+            "u": "היא אומרת שֶהיא גרה בחיפה.",
+            "n": "הִיא אוֹמֶרֶת שֶׁהִיא גָּרָה בְּחֵיפָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Diu que viu a Haifa.",
+          "audio": {
+            "normal": "31c8a12f2324.m4a",
+            "lent": "06a70604bc2f.m4a"
+          }
         }
       ]
     },
@@ -1602,18 +2798,32 @@
         {
           "id": "pag-38-b7-l0",
           "text": {
-            "u": "איפה סטיב?"
+            "u": "איפה סטיב?",
+            "n": "אֵיפֹה סְטִיב?",
+            "extraVocals": true
           },
           "perComprovar": false,
-          "qui": "בוריס"
+          "qui": "בוריס",
+          "ca": "On és l'Steve?",
+          "audio": {
+            "normal": "2a1be721aeb9.m4a",
+            "lent": "48d51ebb2580.m4a"
+          }
         },
         {
           "id": "pag-38-b7-l1",
           "text": {
-            "u": "רחל אומרת שהוא במשרד."
+            "u": "רחל אומרת שהוא במשרד.",
+            "n": "רָחֵל אוֹמֶרֶת שֶׁהוּא בַּמִּשְׂרָד.",
+            "extraVocals": true
           },
           "perComprovar": false,
-          "qui": "רוברטו"
+          "qui": "רוברטו",
+          "ca": "La Rakhel diu que és a l'oficina.",
+          "audio": {
+            "normal": "bd4ba718b1ea.m4a",
+            "lent": "3402e94dee83.m4a"
+          }
         }
       ]
     },
@@ -1630,16 +2840,30 @@
         {
           "id": "pag-38-b8-l0",
           "text": {
-            "u": "מה אומר רוברטו לבוריס?"
+            "u": "מה אומר רוברטו לבוריס?",
+            "n": "מָה אוֹמֵר רוֹבֶּרְטוֹ לְבּוֹרִיס?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Què li diu el Roberto al Boris?",
+          "audio": {
+            "normal": "b0f26036f5a9.m4a",
+            "lent": "286aa20cd21f.m4a"
+          }
         },
         {
           "id": "pag-38-b8-l1",
           "text": {
-            "u": "רוברטו אומר לבוריס שרחל אומרת שסטיב במשרד."
+            "u": "רוברטו אומר לבוריס שרחל אומרת שסטיב במשרד.",
+            "n": "רוֹבֶּרְטוֹ אוֹמֵר לְבּוֹרִיס שֶׁרָחֵל אוֹמֶרֶת שֶׁסְּטִיב בַּמִּשְׂרָד.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "El Roberto li diu al Boris que la Rakhel diu que l'Steve és a l'oficina.",
+          "audio": {
+            "normal": "d4de812510bc.m4a",
+            "lent": "9417a885cbdb.m4a"
+          }
         }
       ]
     },
@@ -1656,9 +2880,16 @@
         {
           "id": "pag-38-b9-l0",
           "text": {
-            "u": "איך אומרים בעברית.....?"
+            "u": "איך אומרים בעברית.....?",
+            "n": "אֵיךְ אוֹמְרִים בְּעִבְרִית.....?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Com es diu en hebreu...?",
+          "audio": {
+            "normal": "6d5930431fa0.m4a",
+            "lent": "9f227a26a78c.m4a"
+          }
         }
       ]
     },
@@ -1678,6 +2909,7 @@
             "u": "תרגיל המרה"
           },
           "perComprovar": false,
+          "ca": "Exercici de substitució",
           "audio": {
             "normal": "2707cf4fdfe6.m4a",
             "lent": "72c37150c99b.m4a"
@@ -1698,79 +2930,156 @@
         {
           "id": "pag-39-b1-l0",
           "text": {
-            "u": "1. [המוֹרָה] עומדת על-יד הלוח וכותבת בגיר."
+            "u": "1. [המוֹרָה] עומדת על-יד הלוח וכותבת בגיר.",
+            "n": "1. [הַמּוֹרָה] עוֹמֶדֶת עַל-יַד הַלּוּחַ וְכוֹתֶבֶת בְּגִיר.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "1. [La mestra] és dreta al costat de la pissarra i escriu amb guix.",
+          "audio": {
+            "normal": "5a9e1fc7b050.m4a",
+            "lent": "4a7b7117ccd1.m4a"
+          }
         },
         {
           "id": "pag-39-b1-l1",
           "text": {
-            "u": "(המוֹרֶה, הם, התלמידות)"
+            "u": "(המוֹרֶה, הם, התלמידות)",
+            "n": "(הַמּוֹרֶה, הֵם, הַתַּלְמִידוֹת)",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "(el mestre, ells, les alumnes)",
+          "audio": {
+            "normal": "afa0abde3497.m4a",
+            "lent": "c3e63c1f15ee.m4a"
+          }
         },
         {
           "id": "pag-39-b1-l2",
           "text": {
-            "u": "2. יצחק עומד [פה]."
+            "u": "2. יצחק עומד [פה].",
+            "n": "2. יִצְחָק עוֹמֵד [פֹּה].",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "2. L'Itshak és dret [aquí].",
+          "audio": {
+            "normal": "c0377128d0e4.m4a",
+            "lent": "72a8e14f9e33.m4a"
+          }
         },
         {
           "id": "pag-39-b1-l3",
           "text": {
-            "u": "(שם, על-יד החלון, בכיתה, בין החלון והדלת)"
+            "u": "(שם, על-יד החלון, בכיתה, בין החלון והדלת)",
+            "n": "(שָׁם, עַל-יַד הַחַלּוֹן, בַּכִּיתָּה, בֵּין הַחַלּוֹן וְהַדֶּלֶת)",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "(allà, al costat de la finestra, a la classe, entre la finestra i la porta)",
+          "audio": {
+            "normal": "5eced6b08c95.m4a",
+            "lent": "1d4058de1730.m4a"
+          }
         },
         {
           "id": "pag-39-b1-l4",
           "text": {
-            "u": "3. [הוא] אומר \"שלום\" ויושב."
+            "u": "3. [הוא] אומר \"שלום\" ויושב.",
+            "n": "3. [הוּא] אוֹמֵר \"שָׁלוֹם\" וְיוֹשֵׁב.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "3. [Ell] diu «hola» i s'asseu.",
+          "audio": {
+            "normal": "a5e77eea4745.m4a",
+            "lent": "7660d37a9a1a.m4a"
+          }
         },
         {
           "id": "pag-39-b1-l5",
           "text": {
-            "u": "(דני ואני, שׂרה ודוריס, המוֹרָה)"
+            "u": "(דני ואני, שׂרה ודוריס, המוֹרָה)",
+            "n": "(דָּנִי וַאֲנִי, שָׂרָה וְדוֹרִיס, הַמּוֹרָה)",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "(el Dani i jo, la Sara i la Doris, la mestra)",
+          "audio": {
+            "normal": "1315c7a7f1a4.m4a",
+            "lent": "d7f38ba8cd78.m4a"
+          }
         },
         {
           "id": "pag-39-b1-l6",
           "text": {
-            "u": "4. מה [אתה] אומר?"
+            "u": "4. מה [אתה] אומר?",
+            "n": "4. מָה [אַתָּה] אוֹמֵר?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "4. Què dius [tu]?",
+          "audio": {
+            "normal": "66d7ea7dc864.m4a",
+            "lent": "0ae451c7129b.m4a"
+          }
         },
         {
           "id": "pag-39-b1-l7",
           "text": {
-            "u": "(את, אתם, הילדות)"
+            "u": "(את, אתם, הילדות)",
+            "n": "(אַתְּ, אַתֶּם, הַיְּלָדוֹת)",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "(tu, a una dona; vosaltres; les nenes)",
+          "audio": {
+            "normal": "3ff5740a16e9.m4a",
+            "lent": "cb4c544e8462.m4a"
+          }
         },
         {
           "id": "pag-39-b1-l8",
           "text": {
-            "u": "5. סטיב אומר ש[אסתר יפה]."
+            "u": "5. סטיב אומר ש[אסתר יפה].",
+            "n": "5. סְטִיב אוֹמֵר שֶׁ[אֶסְתֵּר יָפָה].",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "5. L'Steve diu que [l'Ester és bonica].",
+          "audio": {
+            "normal": "2a6c5f403ba2.m4a",
+            "lent": "3898be201ed6.m4a"
+          }
         },
         {
           "id": "pag-39-b1-l9",
           "text": {
-            "u": "(הם בבית, השיעור מעניין, החדר יפה)"
+            "u": "(הם בבית, השיעור מעניין, החדר יפה)",
+            "n": "(הֵם בַּבַּיִת, הַשִּׁיעוּר מְעַנְייֵן, הַחֶדֶר יָפֶה)",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "(són a casa, la classe és interessant, l'habitació és bonica)",
+          "audio": {
+            "normal": "64048004eb8c.m4a",
+            "lent": "bc3366a36e6e.m4a"
+          }
         },
         {
           "id": "pag-39-b1-l10",
           "text": {
-            "u": "6. חנה כותבת [בעט]."
+            "u": "6. חנה כותבת [בעט].",
+            "n": "6. חַנָּה כּוֹתֶבֶת [בְּעֵט].",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "6. La Hanà escriu [amb ploma].",
+          "audio": {
+            "normal": "b6e2eaa1bcdd.m4a",
+            "lent": "b0b47b246b53.m4a"
+          }
         },
         {
           "id": "pag-39-b1-l11",
@@ -1782,5 +3091,879 @@
       ]
     }
   ],
-  "exercicis": []
+  "exercicis": [
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-33 ex. 19.1",
+      "extra": false,
+      "linies": [
+        "pag-33-b4-l0"
+      ],
+      "enunciat": {
+        "n": "בְּיִשְׂרָאֵל יֵשׁ דֶּמוֹקְרַטְיָה?",
+        "u": "בישראל יש דמוקרטיה?"
+      },
+      "model": {
+        "n": "כֵּן, בְּיִשְׂרָאֵל יֵשׁ דֶּמוֹקְרַטְיָה.",
+        "u": "כן, בישראל יש דמוקרטיה."
+      },
+      "id": "u06-ex-0"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-33 ex. 19.5",
+      "extra": false,
+      "linies": [
+        "pag-33-b4-l4"
+      ],
+      "enunciat": {
+        "n": "יֵשׁ מֵאָה וְעֶשְׂרִים (120) חֲבֵרִים בַּכְּנֶסֶת?",
+        "u": "יש מאה ועשרים (120) חברים בכנסת?"
+      },
+      "model": {
+        "n": "כֵּן, יֵשׁ מֵאָה וְעֶשְׂרִים חֲבֵרִים בַּכְּנֶסֶת.",
+        "u": "כן, יש מאה ועשרים חברים בכנסת."
+      },
+      "id": "u06-ex-1"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-33 ex. 19.6",
+      "extra": false,
+      "linies": [
+        "pag-33-b4-l5"
+      ],
+      "enunciat": {
+        "n": "יֵשׁ בַּכְּנֶסֶת נָשִׁים?",
+        "u": "יש בכנסת נשים?"
+      },
+      "model": {
+        "n": "כֵּן, יֵשׁ בַּכְּנֶסֶת נָשִׁים.",
+        "u": "כן, יש בכנסת נשים."
+      },
+      "id": "u06-ex-2"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-33 ex. 19.7",
+      "extra": false,
+      "linies": [
+        "pag-33-b4-l6"
+      ],
+      "enunciat": {
+        "n": "בַּכְּנֶסֶת יֵשׁ עֲרָבִים?",
+        "u": "בכנסת יש ערבים?"
+      },
+      "model": {
+        "n": "כֵּן, בַּכְּנֶסֶת יֵשׁ עֲרָבִים.",
+        "u": "כן, בכנסת יש ערבים."
+      },
+      "id": "u06-ex-3"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-33 ex. 19.8",
+      "extra": false,
+      "linies": [
+        "pag-33-b4-l7"
+      ],
+      "enunciat": {
+        "n": "יֵשׁ נֵפְט בְּמֶקְסִיקוֹ?",
+        "u": "יש נפט במקסיקו?"
+      },
+      "model": {
+        "n": "כֵּן, יֵשׁ נֵפְט בְּמֶקְסִיקוֹ.",
+        "u": "כן, יש נפט במקסיקו."
+      },
+      "id": "u06-ex-4"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-33 ex. 19.9",
+      "extra": false,
+      "linies": [
+        "pag-33-b4-l8"
+      ],
+      "enunciat": {
+        "n": "בְּיִשְׂרָאֵל יֵשׁ נֵפְט?",
+        "u": "בישראל יש נפט?"
+      },
+      "model": {
+        "n": "לֹא, בְּיִשְׂרָאֵל אֵין נֵפְט.",
+        "u": "לא, בישראל אין נפט."
+      },
+      "id": "u06-ex-5"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-33 ex. 19.12",
+      "extra": false,
+      "linies": [
+        "pag-33-b4-l11"
+      ],
+      "frase": {
+        "u": "בכיתה יש טלוויזיה? – לא, בכיתה ____ טלוויזיה.",
+        "n": "בַּכִּיתָּה יֵשׁ טֶלֶווִיזְיָה? – לֹא, בַּכִּיתָּה ____ טֶלֶווִיזְיָה."
+      },
+      "opcions": [
+        "יֵשׁ",
+        "אֵין",
+        "לֹא"
+      ],
+      "correcta": 1,
+      "retro": "No hi ha: אֵין, mai לֹא davant del nom.",
+      "id": "u06-ex-6"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-33 ex. 19.13",
+      "extra": false,
+      "linies": [
+        "pag-33-b4-l12"
+      ],
+      "enunciat": {
+        "n": "יֵשׁ טֶלֶפוֹן בַּכִּיתָּה?",
+        "u": "יש טלפון בכיתה?"
+      },
+      "model": {
+        "n": "לֹא, אֵין טֶלֶפוֹן בַּכִּיתָּה.",
+        "u": "לא, אין טלפון בכיתה."
+      },
+      "id": "u06-ex-7"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-33 ex. 19.14",
+      "extra": false,
+      "linies": [
+        "pag-33-b4-l13"
+      ],
+      "frase": {
+        "u": "יש בכיתה טרקטור? – לא, ____ בכיתה טרקטור.",
+        "n": "יֵשׁ בַּכִּיתָּה טְרַקְטוֹר? – לֹא, ____ בַּכִּיתָּה טְרַקְטוֹר."
+      },
+      "opcions": [
+        "אֵין",
+        "לֹא יֵשׁ",
+        "לֹא"
+      ],
+      "correcta": 0,
+      "retro": "La negació de יֵשׁ és אֵין; «לֹא יֵשׁ» no es diu.",
+      "id": "u06-ex-8"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-33 ex. 19.15",
+      "extra": false,
+      "linies": [
+        "pag-33-b4-l14"
+      ],
+      "enunciat": {
+        "n": "יֵשׁ אוּלְפָּנִים בַּקִּיבּוּצִים?",
+        "u": "יש אולפנים בקיבוצים?"
+      },
+      "model": {
+        "n": "כֵּן, יֵשׁ אוּלְפָּנִים בַּקִּיבּוּצִים.",
+        "u": "כן, יש אולפנים בקיבוצים."
+      },
+      "id": "u06-ex-9"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-35 ex. 20.1",
+      "extra": false,
+      "linies": [
+        "pag-35-b1-l0"
+      ],
+      "enunciat": {
+        "n": "הַגִּיטָרָה ____ הַשָּׁטִיחַ ____ הַשּׁוּלְחָן.",
+        "u": "הגיטרה ____ השטיח ____ השולחן."
+      },
+      "model": {
+        "n": "הַגִּיטָרָה עַל הַשָּׁטִיחַ עַל-יַד הַשּׁוּלְחָן.",
+        "u": "הגיטרה על השטיח על-יד השולחן."
+      },
+      "id": "u06-ex-10"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-35 ex. 20.2",
+      "extra": false,
+      "linies": [
+        "pag-35-b1-l1"
+      ],
+      "enunciat": {
+        "n": "הַשָּׁטִיחַ ____ הַגִּיטָרָה.",
+        "u": "השטיח ____ הגיטרה."
+      },
+      "model": {
+        "n": "הַשָּׁטִיחַ תַּחַת הַגִּיטָרָה.",
+        "u": "השטיח תחת הגיטרה."
+      },
+      "id": "u06-ex-11"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-35 ex. 20.3",
+      "extra": false,
+      "linies": [
+        "pag-35-b1-l2"
+      ],
+      "enunciat": {
+        "n": "הַשּׁוּלְחָן ____ הַכִּיסֵּא וְהַמִּיטָּה.",
+        "u": "השולחן ____ הכיסא והמיטה."
+      },
+      "model": {
+        "n": "הַשּׁוּלְחָן בֵּין הַכִּיסֵּא וְהַמִּיטָּה.",
+        "u": "השולחן בין הכיסא והמיטה."
+      },
+      "id": "u06-ex-12"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-35 ex. 20.4",
+      "extra": false,
+      "linies": [
+        "pag-35-b1-l3"
+      ],
+      "enunciat": {
+        "n": "הַטֶּלֶווִיזְיָה ____ הָאָרוֹן ____ הַטְּרַנְזִיסְטוֹר.",
+        "u": "הטלוויזיה ____ הארון ____ הטרנזיסטור."
+      },
+      "model": {
+        "n": "הַטֶּלֶווִיזְיָה עַל הָאָרוֹן עַל-יַד הַטְּרַנְזִיסְטוֹר.",
+        "u": "הטלוויזיה על הארון על-יד הטרנזיסטור."
+      },
+      "id": "u06-ex-13"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-35 ex. 20.5",
+      "extra": false,
+      "linies": [
+        "pag-35-b1-l4"
+      ],
+      "enunciat": {
+        "n": "הֶחָתוּל ____ הַחַלּוֹן. הַכֶּלֶב ____ הַמִּיטָּה.",
+        "u": "החתול ____ החלון. הכלב ____ המיטה."
+      },
+      "model": {
+        "n": "הֶחָתוּל עַל הַחַלּוֹן. הַכֶּלֶב תַּחַת הַמִּיטָּה.",
+        "u": "החתול על החלון. הכלב תחת המיטה."
+      },
+      "id": "u06-ex-14"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-35 ex. 20.6",
+      "extra": false,
+      "linies": [
+        "pag-35-b1-l5"
+      ],
+      "enunciat": {
+        "n": "הַמִּיטָּה ____ הַשּׁוּלְחָן. הַסֵּפֶר ____ הַמִּיטָּה.",
+        "u": "המיטה ____ השולחן. הספר ____ המיטה."
+      },
+      "model": {
+        "n": "הַמִּיטָּה עַל-יַד הַשּׁוּלְחָן. הַסֵּפֶר עַל הַמִּיטָּה.",
+        "u": "המיטה על-יד השולחן. הספר על המיטה."
+      },
+      "id": "u06-ex-15"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-35 ex. 20.7",
+      "extra": false,
+      "linies": [
+        "pag-35-b1-l6"
+      ],
+      "enunciat": {
+        "n": "הָעִיפָּרוֹן ____ הָעֵט וְהַטֶּלֶפוֹן.",
+        "u": "העיפרון ____ העט והטלפון."
+      },
+      "model": {
+        "n": "הָעִיפָּרוֹן בֵּין הָעֵט וְהַטֶּלֶפוֹן.",
+        "u": "העיפרון בין העט והטלפון."
+      },
+      "id": "u06-ex-16"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-35 ex. 20.8",
+      "extra": false,
+      "linies": [
+        "pag-35-b1-l7"
+      ],
+      "enunciat": {
+        "n": "הָעֵט ____ הַשּׁוּלְחָן. הַמַּחְבֶּרֶת ____ הָעֵט.",
+        "u": "העט ____ השולחן. המחברת ____ העט."
+      },
+      "model": {
+        "n": "הָעֵט עַל הַשּׁוּלְחָן. הַמַּחְבֶּרֶת עַל-יַד הָעֵט.",
+        "u": "העט על השולחן. המחברת על-יד העט."
+      },
+      "id": "u06-ex-17"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-35 ex. 20.9",
+      "extra": false,
+      "linies": [
+        "pag-35-b1-l8"
+      ],
+      "enunciat": {
+        "n": "הָעֵט ____ הַמַּחְבֶּרֶת וְהָעִפָּרוֹן.",
+        "u": "העט ____ המחברת והעפרון."
+      },
+      "model": {
+        "n": "הָעֵט בֵּין הַמַּחְבֶּרֶת וְהָעִפָּרוֹן.",
+        "u": "העט בין המחברת והעפרון."
+      },
+      "id": "u06-ex-18"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-35 ex. 20.10",
+      "extra": false,
+      "linies": [
+        "pag-35-b1-l9"
+      ],
+      "enunciat": {
+        "n": "הַיַּלְדָּה וְהָאִישׁ ____ הַדֶּלֶת.",
+        "u": "הילדה והאיש ____ הדלת."
+      },
+      "model": {
+        "n": "הַיַּלְדָּה וְהָאִישׁ עַל-יַד הַדֶּלֶת.",
+        "u": "הילדה והאיש על-יד הדלת."
+      },
+      "id": "u06-ex-19"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-35 ex. 20.11",
+      "extra": false,
+      "linies": [
+        "pag-35-b1-l10"
+      ],
+      "enunciat": {
+        "n": "הַטְּרַנְזִיסְטוֹר ____ הַטֶּלֶווִיזְיָה ____ הָאָרוֹן.",
+        "u": "הטרנזיסטור ____ הטלוויזיה ____ הארון."
+      },
+      "model": {
+        "n": "הַטְּרַנְזִיסְטוֹר עַל-יַד הַטֶּלֶווִיזְיָה עַל הָאָרוֹן.",
+        "u": "הטרנזיסטור על-יד הטלוויזיה על הארון."
+      },
+      "id": "u06-ex-20"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-35 ex. 20.12",
+      "extra": false,
+      "linies": [
+        "pag-35-b1-l11"
+      ],
+      "enunciat": {
+        "n": "הָאָרוֹן ____ הַדֶּלֶת.",
+        "u": "הארון ____ הדלת."
+      },
+      "model": {
+        "n": "הָאָרוֹן עַל-יַד הַדֶּלֶת.",
+        "u": "הארון על-יד הדלת."
+      },
+      "id": "u06-ex-21"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-39 ex. 21.1",
+      "extra": false,
+      "linies": [
+        "pag-39-b1-l0",
+        "pag-39-b1-l1"
+      ],
+      "base": {
+        "n": "הַמּוֹרָה עוֹמֶדֶת עַל-יַד הַלּוּחַ וְכוֹתֶבֶת בְּגִיר.",
+        "u": "המורה עומדת על-יד הלוח וכותבת בגיר."
+      },
+      "demana": "amb הַמּוֹרֶה (el mestre)",
+      "opcions": [
+        "הַמּוֹרֶה עוֹמֵד עַל-יַד הַלּוּחַ וְכוֹתֵב בְּגִיר.",
+        "הַמּוֹרֶה עוֹמֶדֶת עַל-יַד הַלּוּחַ וְכוֹתֶבֶת בְּגִיר.",
+        "הַמּוֹרֶה עוֹמְדִים עַל-יַד הַלּוּחַ וְכוֹתְבִים בְּגִיר."
+      ],
+      "correcta": 0,
+      "id": "u06-ex-22"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-39 ex. 21.1",
+      "extra": false,
+      "linies": [
+        "pag-39-b1-l0",
+        "pag-39-b1-l1"
+      ],
+      "base": {
+        "n": "הַמּוֹרָה עוֹמֶדֶת עַל-יַד הַלּוּחַ וְכוֹתֶבֶת בְּגִיר.",
+        "u": "המורה עומדת על-יד הלוח וכותבת בגיר."
+      },
+      "demana": "amb הֵם",
+      "opcions": [
+        "הֵם עוֹמְדוֹת עַל-יַד הַלּוּחַ וְכוֹתְבוֹת בְּגִיר.",
+        "הֵם עוֹמֵד עַל-יַד הַלּוּחַ וְכוֹתֵב בְּגִיר.",
+        "הֵם עוֹמְדִים עַל-יַד הַלּוּחַ וְכוֹתְבִים בְּגִיר."
+      ],
+      "correcta": 2,
+      "id": "u06-ex-23"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-39 ex. 21.1",
+      "extra": false,
+      "linies": [
+        "pag-39-b1-l0",
+        "pag-39-b1-l1"
+      ],
+      "base": {
+        "n": "הַמּוֹרָה עוֹמֶדֶת עַל-יַד הַלּוּחַ וְכוֹתֶבֶת בְּגִיר.",
+        "u": "המורה עומדת על-יד הלוח וכותבת בגיר."
+      },
+      "demana": "amb הַתַּלְמִידוֹת",
+      "opcions": [
+        "הַתַּלְמִידוֹת עוֹמְדִים עַל-יַד הַלּוּחַ וְכוֹתְבִים בְּגִיר.",
+        "הַתַּלְמִידוֹת עוֹמְדוֹת עַל-יַד הַלּוּחַ וְכוֹתְבוֹת בְּגִיר.",
+        "הַתַּלְמִידוֹת עוֹמֶדֶת עַל-יַד הַלּוּחַ וְכוֹתֶבֶת בְּגִיר."
+      ],
+      "correcta": 1,
+      "id": "u06-ex-24"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-39 ex. 21.2",
+      "extra": false,
+      "linies": [
+        "pag-39-b1-l2",
+        "pag-39-b1-l3"
+      ],
+      "base": {
+        "n": "יִצְחָק עוֹמֵד פֹּה.",
+        "u": "יצחק עומד פה."
+      },
+      "demana": "al costat de la finestra",
+      "opcions": [
+        "יִצְחָק עוֹמֵד עַל הַחַלּוֹן.",
+        "יִצְחָק עוֹמֵד עַל-יַד הַחַלּוֹן.",
+        "יִצְחָק עוֹמֵד תַּחַת הַחַלּוֹן."
+      ],
+      "correcta": 1,
+      "id": "u06-ex-25"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-39 ex. 21.2",
+      "extra": false,
+      "linies": [
+        "pag-39-b1-l2",
+        "pag-39-b1-l3"
+      ],
+      "base": {
+        "n": "יִצְחָק עוֹמֵד פֹּה.",
+        "u": "יצחק עומד פה."
+      },
+      "demana": "entre la finestra i la porta",
+      "opcions": [
+        "יִצְחָק עוֹמֵד בֵּין הַחַלּוֹן וְהַדֶּלֶת.",
+        "יִצְחָק עוֹמֵד עַל-יַד הַחַלּוֹן וְהַדֶּלֶת.",
+        "יִצְחָק עוֹמֵד בֵּין הַחַלּוֹן הַדֶּלֶת."
+      ],
+      "correcta": 0,
+      "id": "u06-ex-26"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-39 ex. 21.3",
+      "extra": false,
+      "linies": [
+        "pag-39-b1-l4",
+        "pag-39-b1-l5"
+      ],
+      "base": {
+        "n": "הוּא אוֹמֵר \"שָׁלוֹם\" וְיוֹשֵׁב.",
+        "u": "הוא אומר \"שלום\" ויושב."
+      },
+      "demana": "amb דָּנִי וַאֲנִי",
+      "opcions": [
+        "דָּנִי וַאֲנִי אוֹמֵר \"שָׁלוֹם\" וְיוֹשֵׁב.",
+        "דָּנִי וַאֲנִי אוֹמְרִים \"שָׁלוֹם\" וְיוֹשְׁבִים.",
+        "דָּנִי וַאֲנִי אוֹמְרוֹת \"שָׁלוֹם\" וְיוֹשְׁבוֹת."
+      ],
+      "correcta": 1,
+      "id": "u06-ex-27"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-39 ex. 21.3",
+      "extra": false,
+      "linies": [
+        "pag-39-b1-l4",
+        "pag-39-b1-l5"
+      ],
+      "base": {
+        "n": "הוּא אוֹמֵר \"שָׁלוֹם\" וְיוֹשֵׁב.",
+        "u": "הוא אומר \"שלום\" ויושב."
+      },
+      "demana": "amb שָׂרָה וְדוֹרִיס",
+      "opcions": [
+        "שָׂרָה וְדוֹרִיס אוֹמְרוֹת \"שָׁלוֹם\" וְיוֹשְׁבוֹת.",
+        "שָׂרָה וְדוֹרִיס אוֹמֶרֶת \"שָׁלוֹם\" וְיוֹשֶׁבֶת.",
+        "שָׂרָה וְדוֹרִיס אוֹמְרִים \"שָׁלוֹם\" וְיוֹשְׁבִים."
+      ],
+      "correcta": 0,
+      "id": "u06-ex-28"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-39 ex. 21.3",
+      "extra": false,
+      "linies": [
+        "pag-39-b1-l4",
+        "pag-39-b1-l5"
+      ],
+      "base": {
+        "n": "הוּא אוֹמֵר \"שָׁלוֹם\" וְיוֹשֵׁב.",
+        "u": "הוא אומר \"שלום\" ויושב."
+      },
+      "demana": "amb הַמּוֹרָה (la mestra)",
+      "opcions": [
+        "הַמּוֹרָה אוֹמֵר \"שָׁלוֹם\" וְיוֹשֵׁב.",
+        "הַמּוֹרָה אוֹמְרוֹת \"שָׁלוֹם\" וְיוֹשְׁבוֹת.",
+        "הַמּוֹרָה אוֹמֶרֶת \"שָׁלוֹם\" וְיוֹשֶׁבֶת."
+      ],
+      "correcta": 2,
+      "id": "u06-ex-29"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-39 ex. 21.4",
+      "extra": false,
+      "linies": [
+        "pag-39-b1-l6",
+        "pag-39-b1-l7"
+      ],
+      "base": {
+        "n": "מָה אַתָּה אוֹמֵר?",
+        "u": "מה אתה אומר?"
+      },
+      "demana": "amb אַתְּ",
+      "opcions": [
+        "מָה אַתְּ אוֹמֵר?",
+        "מָה אַתְּ אוֹמֶרֶת?",
+        "מָה אַתְּ אוֹמְרוֹת?"
+      ],
+      "correcta": 1,
+      "id": "u06-ex-30"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-39 ex. 21.4",
+      "extra": false,
+      "linies": [
+        "pag-39-b1-l6",
+        "pag-39-b1-l7"
+      ],
+      "base": {
+        "n": "מָה אַתָּה אוֹמֵר?",
+        "u": "מה אתה אומר?"
+      },
+      "demana": "amb אַתֶּם",
+      "opcions": [
+        "מָה אַתֶּם אוֹמְרִים?",
+        "מָה אַתֶּם אוֹמֵר?",
+        "מָה אַתֶּם אוֹמְרוֹת?"
+      ],
+      "correcta": 0,
+      "id": "u06-ex-31"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-39 ex. 21.4",
+      "extra": false,
+      "linies": [
+        "pag-39-b1-l6",
+        "pag-39-b1-l7"
+      ],
+      "base": {
+        "n": "מָה אַתָּה אוֹמֵר?",
+        "u": "מה אתה אומר?"
+      },
+      "demana": "amb הַיְּלָדוֹת",
+      "opcions": [
+        "מָה הַיְּלָדוֹת אוֹמְרִים?",
+        "מָה הַיְּלָדוֹת אוֹמֶרֶת?",
+        "מָה הַיְּלָדוֹת אוֹמְרוֹת?"
+      ],
+      "correcta": 2,
+      "id": "u06-ex-32"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-39 ex. 21.5",
+      "extra": false,
+      "linies": [
+        "pag-39-b1-l8",
+        "pag-39-b1-l9"
+      ],
+      "base": {
+        "n": "סְטִיב אוֹמֵר שֶׁאֶסְתֵּר יָפָה.",
+        "u": "סטיב אומר שאסתר יפה."
+      },
+      "demana": "que ells són a casa",
+      "opcions": [
+        "סְטִיב אוֹמֵר שֶׁהֵם הַבַּיְתָה.",
+        "סְטִיב אוֹמֵר שֶׁהֵם בַּבַּיִת.",
+        "סְטִיב אוֹמֵר שֶׁהֵן בַּבַּיִת."
+      ],
+      "correcta": 1,
+      "id": "u06-ex-33"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-39 ex. 21.5",
+      "extra": false,
+      "linies": [
+        "pag-39-b1-l8",
+        "pag-39-b1-l9"
+      ],
+      "base": {
+        "n": "סְטִיב אוֹמֵר שֶׁאֶסְתֵּר יָפָה.",
+        "u": "סטיב אומר שאסתר יפה."
+      },
+      "demana": "que la classe és interessant",
+      "opcions": [
+        "סְטִיב אוֹמֵר שֶׁהַשִּׁיעוּר מְעַנְייֵן.",
+        "סְטִיב אוֹמֵר שֶׁהַשִּׁיעוּר מְעַנְייֶנֶת.",
+        "סְטִיב אוֹמֵר שֶׁהַשִּׁיעוּר מְעַנְייְנִים."
+      ],
+      "correcta": 0,
+      "id": "u06-ex-34"
+    },
+    {
+      "tipus": "forat",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-36-b1-l1"
+      ],
+      "frase": {
+        "u": "בכיתה יש לוח גדול שחור, חלונות ____ ודלת.",
+        "n": "בַּכִּיתָּה יֵשׁ לוּחַ גָּדוֹל שָׁחוֹר, חַלּוֹנוֹת ____ וְדֶלֶת."
+      },
+      "opcions": [
+        "גְּדוֹלִים",
+        "גְּדוֹלוֹת",
+        "גָּדוֹל"
+      ],
+      "correcta": 0,
+      "retro": "חַלּוֹן és masculí encara que el plural acabi en ‑וֹת: גְּדוֹלִים.",
+      "id": "u06-ex-35"
+    },
+    {
+      "tipus": "forat",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-36-b7-l0"
+      ],
+      "frase": {
+        "u": "יש פה הרבה ____.",
+        "n": "יֵשׁ פֹּה הַרְבֵּה ____."
+      },
+      "opcions": [
+        "כִּיסְאִים",
+        "כִּיסְאוֹת",
+        "כִּיסֵּא"
+      ],
+      "correcta": 1,
+      "retro": "El plural de כִּיסֵּא és כִּיסְאוֹת.",
+      "id": "u06-ex-36"
+    },
+    {
+      "tipus": "forat",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-36-b9-l0"
+      ],
+      "frase": {
+        "u": "התלמידים בכיתה. הם ____ על הכסאות ולומדים.",
+        "n": "הַתַּלְמִידִים בַּכִּיתָּה. הֵם ____ עַל הַכִּסְאוֹת וְלוֹמְדִים."
+      },
+      "opcions": [
+        "יוֹשֵׁב",
+        "יוֹשְׁבִים",
+        "יוֹשְׁבוֹת"
+      ],
+      "correcta": 1,
+      "retro": "הֵם, masculí plural: יוֹשְׁבִים.",
+      "id": "u06-ex-37"
+    },
+    {
+      "tipus": "forat",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-36-b11-l0"
+      ],
+      "frase": {
+        "u": "גם היא בכיתה. היא ____ על-יד הלוח.",
+        "n": "גַּם הִיא בַּכִּיתָּה. הִיא ____ עַל-יַד הַלּוּחַ."
+      },
+      "opcions": [
+        "עוֹמֵד",
+        "עוֹמֶדֶת",
+        "עוֹמְדוֹת"
+      ],
+      "correcta": 1,
+      "retro": "הִיא, femení singular: עוֹמֶדֶת.",
+      "id": "u06-ex-38"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-38-b3-l1",
+        "pag-38-b4-l0"
+      ],
+      "base": {
+        "n": "שְׁמִי דָּנִי.",
+        "u": "שמי דני."
+      },
+      "demana": "en estil indirecte: הוּא אוֹמֵר…",
+      "opcions": [
+        "הוּא אוֹמֵר שֶׁשְּׁמִי דָּנִי.",
+        "הוּא אוֹמֵר שֶׁשְּׁמוֹ דָּנִי.",
+        "הוּא אוֹמֵר שֶׁשְּׁמָהּ דָּנִי."
+      ],
+      "correcta": 1,
+      "id": "u06-ex-39"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-38-b5-l1",
+        "pag-38-b6-l1"
+      ],
+      "base": {
+        "n": "אֲנִי גָּרָה בְּחֵיפָה.",
+        "u": "אני גרה בחיפה."
+      },
+      "demana": "en estil indirecte: הִיא אוֹמֶרֶת…",
+      "opcions": [
+        "הִיא אוֹמֶרֶת שֶׁאֲנִי גָּרָה בְּחֵיפָה.",
+        "הִיא אוֹמֶרֶת שֶׁהוּא גָּר בְּחֵיפָה.",
+        "הִיא אוֹמֶרֶת שֶׁהִיא גָּרָה בְּחֵיפָה."
+      ],
+      "correcta": 2,
+      "id": "u06-ex-40"
+    },
+    {
+      "tipus": "comprensio",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-36-b4-l0",
+        "pag-36-b5-l0"
+      ],
+      "text": "וְטֶלֶפוֹן יֵשׁ בַּכִּיתָּה? — לֹא. גַּם טֶלֶפוֹן אֵין בַּכִּיתָּה. טֶלֶפוֹן יֵשׁ בַּמִּשְׂרָד.",
+      "pregunta": "On és el telèfon?",
+      "opcions": [
+        "A la classe",
+        "Al club",
+        "A l'oficina"
+      ],
+      "correcta": 2,
+      "id": "u06-ex-41"
+    },
+    {
+      "tipus": "comprensio",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-37-b0-l0",
+        "pag-37-b1-l0"
+      ],
+      "text": "גַּם הַתַּלְמִידִים כּוֹתְבִים עַל הַלּוּחַ בְּגִיר? — לֹא, הֵם כּוֹתְבִים בַּמַּחְבָּרוֹת בְּעִיפָּרוֹן, אוֹ בְּעֵט.",
+      "pregunta": "Amb què escriuen els alumnes?",
+      "opcions": [
+        "Amb guix",
+        "Amb llapis o amb ploma",
+        "Només amb ploma"
+      ],
+      "correcta": 1,
+      "id": "u06-ex-42"
+    },
+    {
+      "tipus": "comprensio",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-37-b2-l0",
+        "pag-37-b3-l0",
+        "pag-37-b3-l1",
+        "pag-37-b3-l2"
+      ],
+      "text": "מִי עוֹמֵד עַל-יַד הַדֶּלֶת? — יִצְחָק עוֹמֵד עַל-יַד הַדֶּלֶת. הַמּוֹרָה אוֹמֶרֶת: \"בּוֹקֶר טוֹב יִצְחָק! הִנֵּה כִּיסֵּא. בְּבַקָּשָׁה לָשֶׁבֶת!\" \"בּוֹקֶר טוֹב\" אוֹמֵר יִצְחָק וְיוֹשֵׁב.",
+      "pregunta": "Què fa l'Itshak després de dir bon dia?",
+      "opcions": [
+        "Se'n va",
+        "S'asseu",
+        "Escriu a la pissarra"
+      ],
+      "correcta": 1,
+      "id": "u06-ex-43"
+    },
+    {
+      "tipus": "construir",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-34-b6-l0"
+      ],
+      "ca": "sota la taula",
+      "fitxes": [
+        "תַּחַת",
+        "הַשּׁוּלְחָן",
+        "עַל",
+        "שׁוּלְחָנוֹת"
+      ],
+      "ordre": [
+        0,
+        1
+      ],
+      "id": "u06-ex-44"
+    },
+    {
+      "tipus": "construir",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-34-b4-l1"
+      ],
+      "ca": "entre la taula i l'armari",
+      "fitxes": [
+        "בֵּין",
+        "הַשּׁוּלְחָן",
+        "וְהָאָרוֹן",
+        "עַל-יַד",
+        "הָאָרוֹן"
+      ],
+      "ordre": [
+        0,
+        1,
+        2
+      ],
+      "id": "u06-ex-45"
+    }
+  ]
 }
