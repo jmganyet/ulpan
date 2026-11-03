@@ -40,10 +40,10 @@ describe('App', () => {
     const desat = m.desa.mock.calls.at(-1)![0]
     expect(desat.darrera).toEqual({ unitat: 'u01', pas: 'vocabulari' })
   })
-  it('una ruta de tasques posteriors mostra «Aviat»', async () => {
+  it('#/u/<id>/text/<pag> mostra la pantalla de conversa', async () => {
     window.location.hash = '#/u/u01/text/pag-08'
     render(<App magatzem={magatzem()} />)
-    await waitFor(() => expect(screen.getByText('Aviat')).toBeTruthy())
+    await waitFor(() => expect(screen.getByText(/No hi ha cap text/)).toBeTruthy())
   })
   it('#/u/<id>/exercicis mostra la pantalla d\'exercicis', async () => {
     window.location.hash = '#/u/u01/exercicis'

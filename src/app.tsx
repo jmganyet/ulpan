@@ -10,6 +10,7 @@ import { Vocabulari } from './pantalles/Vocabulari'
 import { Exercicis } from './pantalles/Exercicis'
 import { Gramatica } from './pantalles/Gramatica'
 import { Repas } from './pantalles/Repas'
+import { Conversa } from './pantalles/Conversa'
 import { Aviat } from './pantalles/Aviat'
 import { Alefat } from './pantalles/Alefat'
 import { Ajustos } from './pantalles/Ajustos'
@@ -89,7 +90,7 @@ export function App({ magatzem = MAGATZEM_PER_DEFECTE }: { magatzem?: Magatzem }
     if (ruta.pantalla === 'vocabulari') return <Vocabulari unitat={u} alVeure={veure} />
     if (ruta.pantalla === 'gramatica') return <Gramatica unitat={u} n={ruta.n} />
     if (ruta.pantalla === 'exercicis') return <Exercicis unitat={u} progres={progres} canvia={canvia} />
-    return <Aviat enrere={`#/u/${ruta.id}`} />
+    return <Conversa unitat={u} pag={ruta.pag} />
   }
 
   return (

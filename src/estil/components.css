@@ -74,3 +74,26 @@
 .explicacio { background: var(--blanc); border-radius: 16px; padding: 12px 14px; white-space: pre-line; }
 .exemples { list-style: none; padding: 0; margin: 0 0 8px; display: flex; flex-direction: column; gap: 8px; }
 .exemples li { background: var(--blanc); border-radius: 16px; padding: 10px 14px; display: flex; flex-direction: column; gap: 2px; }
+
+/* conversa */
+.bloc-conversa { margin: 14px 0 26px; }
+.titol-bloc { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 18px; margin: 0 0 8px; }
+.eines { display: flex; gap: 6px; flex-wrap: wrap; margin: 6px 0; }
+.eines button { border: 0; background: var(--gris-clar); border-radius: 99px; padding: 8px 12px; font-size: 13px; cursor: pointer; color: var(--tinta); }
+.eines button.on { background: var(--tinta); color: var(--blanc); }
+.xat { display: flex; flex-direction: column; gap: 8px; margin: 10px 0; }
+.bomb { max-width: 86%; border-radius: 18px; padding: 8px 12px; font-size: 22px; line-height: 1.35; }
+.bomb.p0 { align-self: flex-end; background: var(--blanc); border-bottom-right-radius: 6px; }
+.bomb.p1 { align-self: flex-start; background: var(--color-unitat, #3DB8A5); color: var(--blanc); border-bottom-left-radius: 6px; }
+.bomb.actual { outline: 3px solid var(--tinta); }
+.bomb .qui { display: block; font-size: 10px; color: var(--gris); }
+.bomb.p1 .qui { color: var(--blanc); }
+.bomb-text { border: 0; background: none; color: inherit; font: inherit; cursor: pointer; padding: 0; text-align: inherit; }
+.bomb-text:disabled { cursor: default; }
+.bomb .tradueix { border: 0; background: var(--gris-clar); border-radius: 99px; font-size: 11px; margin-inline-start: 6px; min-width: 28px; height: 28px; cursor: pointer; }
+.bomb .ca-linia { display: block; color: inherit; opacity: .8; }
+.bomb.amagat { background: repeating-linear-gradient(45deg, var(--gris-clar), var(--gris-clar) 6px, var(--filet) 6px, var(--filet) 12px); color: var(--gris); font-size: 13px; }
+.controls-conversa { display: flex; justify-content: center; align-items: center; gap: 18px; }
+.controls-conversa button { border: 0; background: var(--gris-clar); color: var(--tinta); border-radius: 99px; min-width: 44px; height: 44px; font-size: 22px; cursor: pointer; }
+.controls-conversa .gran-play { width: 56px; height: 56px; background: var(--tinta); color: var(--blanc); }
+.controls-conversa button:disabled { opacity: .4; }

@@ -9,3 +9,8 @@ export function reprodueix(el: HTMLAudioElement, url: string): Promise<void> | u
   el.src = url
   return el.play() as Promise<void> | undefined
 }
+
+/** Atura el so que soni (si n'hi ha). */
+export function aturaSo(): void {
+  try { actual?.pause() } catch { /* res a aturar */ }
+}
