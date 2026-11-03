@@ -359,7 +359,7 @@ gramatica:
     titol: «De» de possessió, «també» i «però»
     explicacio: שֶׁל marca qui té què i és un mot independent. גַּם va davant del que s'afegeix; אֲבָל vol dir «però».
     exemples:
-      - { n: "הַחָבֵר שֶׁל שָׂרָה", ca: "l'amic de la Sara" }
+      - { n: "הֶחָבֵר שֶׁל שָׂרָה", ca: "l'amic de la Sara" }
       - { n: "גַּם אֲנִי תַּלְמִיד.", ca: "Jo també sóc alumne." }
       - { n: "גַּם הִיא מִדְּרוֹם-אֲמֶרִיקָה, אֲבָל לֹא מֵאוּרוּגְוַאי.", ca: "També és de Sud-amèrica, però no de l'Uruguai.", extra: true }
 

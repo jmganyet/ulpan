@@ -8,7 +8,7 @@ textos:
   pag-10-b0:
     ca:
       0: "aquest"
-      1: "aquesta, aquests"
+      1: "aquesta · aquests, aquestes"
   pag-10-b1:
     vocals:
       0: "זֶה יֶלֶד"
@@ -239,7 +239,7 @@ icones:
   u02-11: image                 # תְּמוּנָה
   u02-12: flower                # יָפֶה
   u02-13: smiley-meh            # כָּכָה-כָּכָה
-  u02-17: users                 # הוֹרִים
+  u02-17: users-three           # הוֹרִים
   u02-22: users-four            # מִשְׁפָּחָה
   u02-23: users-four            # מִשְׁפַּחַת ...
   u02-24: hands-praying         # בְּבַקָּשָׁה
@@ -265,12 +265,12 @@ gramatica:
       - { n: "הַתְּמוּנָה יָפָה? — כָּכָה-כָּכָה.", ca: "El quadre és bonic? — Així així." }
   - id: adjectiu-quatre-formes
     titol: L'adjectiu en quatre formes
-    explicacio: Les terminacions són les de la unitat 1, i sovint s'escurça la primera vocal (גָּדוֹל → גְּדוֹלָה). Sense vocals, יפה és igual en masculí i femení, i מעניין s'escriu amb dues י.
+    explicacio: Les terminacions són les de la unitat 1, i sovint s'escurça la primera vocal (גָּדוֹל → גְּדוֹלָה). Sense vocals, יפה és igual en masculí i femení; מעניין s'escriu amb dues י, i amb vocals el dossier en posa una (מְעַנְיֵן).
     exemples:
       - { n: "גָּדוֹל, גְּדוֹלָה, גְּדוֹלִים, גְּדוֹלוֹת", ca: "gran (m. sg., f. sg., m. pl., f. pl.)" }
       - { n: "קָטָן, קְטַנָּה, קְטַנִּים, קְטַנּוֹת", ca: "petit, petita, petits, petites" }
       - { n: "יָפֶה, יָפָה, יָפִים, יָפוֹת", ca: "bonic, bonica, bonics, boniques" }
-      - { n: "מְעַנְייֵן, מְעַנְייֶנֶת, מְעַנְייְנִים, מְעַנְייְנוֹת", ca: "interessant (m. sg., f. sg., m. pl., f. pl.)" }
+      - { u: "מעניין, מעניינת, מעניינים, מעניינות", n: "מְעַנְייֵן, מְעַנְייֶנֶת, מְעַנְייְנִים, מְעַנְייְנוֹת", ca: "interessant (m. sg., f. sg., m. pl., f. pl.)" }
       - { n: "אֵלֶּה יְלָדוֹת קְטַנּוֹת.", ca: "Aquestes són nenes petites." }
   - id: nom-amb-article
     titol: Nom amb article i adjectiu sense
@@ -373,15 +373,15 @@ exercicis:
   - { tipus: construir, origen: "pag-14 ex. 3.7", extra: false, linies: [pag-14-b2-l6],
       ca: "És el germà de la Sara.",
       fitxes: ["שֶׁל", "הָאָח", "שָׂרָה", "הוּא", "הָאָחוֹת"], ordre: [3, 1, 0, 2] }
-  - { tipus: forat, origen: "pag-14 ex. 3.8", extra: false, linies: [pag-14-b2-l7],
-      frase: { u: "____ של יצחק יפה.", n: "____ שֶׁל יִצְחָק יָפָה." },
-      opcions: ["הַבֵּן", "הָאָח", "הַבַּת", "הַבַּעַל"], correcta: 2, retro: "יָפָה és femení: només hi va הַבַּת." }
+  - { tipus: construir, origen: "pag-14 ex. 3.8", extra: false, linies: [pag-14-b2-l7],
+      ca: "La filla de l'Itshak és bonica.",
+      fitxes: ["יָפָה", "שֶׁל", "הַבַּת", "יִצְחָק", "הַבֵּן"], ordre: [2, 1, 3, 0] }
   - { tipus: conjugar, origen: "pag-14 ex. 3.9", extra: false, linies: [pag-14-b2-l8],
       base: { n: "הַבַּעַל שֶׁל שָׂרָה יָפֶה.", u: "הבעל של שרה יפה." }, demana: "amb הַיְּלָדִים",
       opcions: ["הַיְּלָדִים שֶׁל שָׂרָה יָפֶה.", "הַיְּלָדִים שֶׁל שָׂרָה יָפִים.", "הַיְּלָדִים שֶׁל שָׂרָה יָפוֹת."], correcta: 1 }
   - { tipus: forat, origen: "pag-14 ex. 3.10", extra: false, linies: [pag-14-b2-l9],
       frase: { u: "הן נשים ____.", n: "הֵן נָשִׁים ____." },
-      opcions: ["יָפִים", "יָפוֹת", "יָפָה", "יָפֶה"], correcta: 1, retro: "נָשִׁים és femení encara que acabi en ‑ִים: יָפוֹת." }
+      opcions: ["יָפִים", "יָפוֹת", "יָפָה"], correcta: 1, retro: "נָשִׁים és femení encara que acabi en ‑ִים: יָפוֹת." }
 
   # Extra: comprensió i producció a partir dels textos
   - { tipus: comprensio, origen: extra, extra: true, linies: [pag-11-b0-l0, pag-11-b0-l1, pag-11-b0-l2, pag-11-b0-l3, pag-11-b0-l4, pag-11-b0-l5],
@@ -396,6 +396,6 @@ exercicis:
   - { tipus: comprensio, origen: extra, extra: true, linies: [pag-13-b1-l0, pag-13-b1-l1, pag-13-b1-l2],
       text: "שָׂרָה, יִצְחָק, אֶסְתֵּר וְרוֹבֶּרְטוֹ - מִשְׁפָּחָה. זֹאת מִשְׁפַּחַת לֵוִי. זֹאת מִשְׁפָּחָה שֶׁל עוֹלִים. זֹאת מִשְׁפָּחָה שֶׁל עוֹלִים חֲדָשִׁים מִבְּרָזִיל.",
       pregunta: "D'on és la família Leví?", opcions: ["De Rússia", "D'Anglaterra", "Del Brasil"], correcta: 2 }
-  - { tipus: construir, origen: extra, extra: true, linies: [pag-10-b4-l3, u02-3, u02-7],
+  - { tipus: construir, origen: extra, extra: true, linies: [pag-10-b4-l3],
       ca: "Aquestes són nenes petites.",
       fitxes: ["קְטַנּוֹת", "אֵלֶּה", "זֹאת", "יְלָדוֹת", "קְטַנִּים"], ordre: [1, 3, 0] }

@@ -302,7 +302,7 @@
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "icona": "users",
+      "icona": "users-three",
       "audio": {
         "normal": "57156dbe983c.m4a",
         "lent": "c7d6fb61a8f0.m4a"
@@ -586,7 +586,7 @@
     {
       "id": "adjectiu-quatre-formes",
       "titol": "L'adjectiu en quatre formes",
-      "explicacio": "Les terminacions són les de la unitat 1, i sovint s'escurça la primera vocal (גָּדוֹל → גְּדוֹלָה). Sense vocals, יפה és igual en masculí i femení, i מעניין s'escriu amb dues י.",
+      "explicacio": "Les terminacions són les de la unitat 1, i sovint s'escurça la primera vocal (גָּדוֹל → גְּדוֹלָה). Sense vocals, יפה és igual en masculí i femení; מעניין s'escriu amb dues י, i amb vocals el dossier en posa una (מְעַנְיֵן).",
       "extra": false,
       "exemples": [
         {
@@ -962,7 +962,7 @@
             "u": "זֹאת אֵלֶּה"
           },
           "perComprovar": false,
-          "ca": "aquesta, aquests",
+          "ca": "aquesta · aquests, aquestes",
           "audio": {
             "normal": "85dc517c6b4a.m4a",
             "lent": "c18e36a9ae80.m4a"
@@ -2778,24 +2778,26 @@
       "id": "u02-ex-20"
     },
     {
-      "tipus": "forat",
+      "tipus": "construir",
       "origen": "pag-14 ex. 3.8",
       "extra": false,
       "linies": [
         "pag-14-b2-l7"
       ],
-      "frase": {
-        "u": "____ של יצחק יפה.",
-        "n": "____ שֶׁל יִצְחָק יָפָה."
-      },
-      "opcions": [
-        "הַבֵּן",
-        "הָאָח",
+      "ca": "La filla de l'Itshak és bonica.",
+      "fitxes": [
+        "יָפָה",
+        "שֶׁל",
         "הַבַּת",
-        "הַבַּעַל"
+        "יִצְחָק",
+        "הַבֵּן"
       ],
-      "correcta": 2,
-      "retro": "יָפָה és femení: només hi va הַבַּת.",
+      "ordre": [
+        2,
+        1,
+        3,
+        0
+      ],
       "id": "u02-ex-21"
     },
     {
@@ -2832,8 +2834,7 @@
       "opcions": [
         "יָפִים",
         "יָפוֹת",
-        "יָפָה",
-        "יָפֶה"
+        "יָפָה"
       ],
       "correcta": 1,
       "retro": "נָשִׁים és femení encara que acabi en ‑ִים: יָפוֹת.",
@@ -2924,9 +2925,7 @@
       "origen": "extra",
       "extra": true,
       "linies": [
-        "pag-10-b4-l3",
-        "u02-3",
-        "u02-7"
+        "pag-10-b4-l3"
       ],
       "ca": "Aquestes són nenes petites.",
       "fitxes": [
