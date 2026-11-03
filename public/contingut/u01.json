@@ -22,7 +22,11 @@
       "pagina": "pag-02",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "51d43f8a1ba1.m4a",
+        "lent": "62f222861d5c.m4a"
+      }
     },
     {
       "id": "u01-1",
@@ -32,7 +36,11 @@
       "pagina": "pag-02",
       "funcio": true,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "778e01af73f0.m4a",
+        "lent": "b4fa3de4f6d6.m4a"
+      }
     },
     {
       "id": "u01-2",
@@ -42,7 +50,11 @@
       "pagina": "pag-02",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "78a9a4dd6c84.m4a",
+        "lent": "11e1f8918df9.m4a"
+      }
     },
     {
       "id": "u01-3",
@@ -52,7 +64,11 @@
       "pagina": "pag-02",
       "funcio": true,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "2d774efb4e1b.m4a",
+        "lent": "3c0284ea5d34.m4a"
+      }
     },
     {
       "id": "u01-4",
@@ -62,7 +78,11 @@
       "pagina": "pag-02",
       "funcio": true,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "7ca8ca67507f.m4a",
+        "lent": "b792f0512447.m4a"
+      }
     },
     {
       "id": "u01-5",
@@ -75,7 +95,11 @@
       "perComprovar": false,
       "formes": [
         "תַּלְמִידָה"
-      ]
+      ],
+      "audio": {
+        "normal": "e8319f4cd5fc.m4a",
+        "lent": "21585b2e1585.m4a"
+      }
     },
     {
       "id": "u01-6",
@@ -85,7 +109,11 @@
       "pagina": "pag-02",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "79f6222b5715.m4a",
+        "lent": "2467590789e3.m4a"
+      }
     },
     {
       "id": "u01-7",
@@ -98,7 +126,11 @@
       "perComprovar": false,
       "formes": [
         "עוֹלָה"
-      ]
+      ],
+      "audio": {
+        "normal": "abd53ac5eae0.m4a",
+        "lent": "0f1031c5c45e.m4a"
+      }
     },
     {
       "id": "u01-8",
@@ -111,7 +143,11 @@
       "perComprovar": false,
       "formes": [
         "חֲדָשָׁה"
-      ]
+      ],
+      "audio": {
+        "normal": "7568996bfe14.m4a",
+        "lent": "39b3ab6df71d.m4a"
+      }
     },
     {
       "id": "u01-9",
@@ -121,7 +157,11 @@
       "pagina": "pag-02",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "bcc10e76b3d4.m4a",
+        "lent": "3e30ad82fc7c.m4a"
+      }
     },
     {
       "id": "u01-10",
@@ -134,7 +174,11 @@
       "perComprovar": false,
       "formes": [
         "תַּיֶּרֶת"
-      ]
+      ],
+      "audio": {
+        "normal": "8104a4ca00b1.m4a",
+        "lent": "6e6b547b9e17.m4a"
+      }
     },
     {
       "id": "u01-11",
@@ -147,7 +191,11 @@
       "perComprovar": false,
       "formes": [
         "הִיא"
-      ]
+      ],
+      "audio": {
+        "normal": "af401a2e17e9.m4a",
+        "lent": "332ac7fb2c88.m4a"
+      }
     },
     {
       "id": "u01-12",
@@ -160,7 +208,11 @@
       "perComprovar": false,
       "formes": [
         "מֵ־"
-      ]
+      ],
+      "audio": {
+        "normal": "c6a634080cf5.m4a",
+        "lent": "07532e6772d9.m4a"
+      }
     },
     {
       "id": "u01-13",
@@ -173,7 +225,11 @@
       "perComprovar": false,
       "formes": [
         "וּ־"
-      ]
+      ],
+      "audio": {
+        "normal": "e9e52f524454.m4a",
+        "lent": "a982cc68239f.m4a"
+      }
     },
     {
       "id": "u01-14",
@@ -183,7 +239,11 @@
       "pagina": "pag-03",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "3b32f3cea455.m4a",
+        "lent": "8e2567e230c3.m4a"
+      }
     },
     {
       "id": "u01-15",
@@ -193,7 +253,11 @@
       "pagina": "pag-03",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "be31b439d4eb.m4a",
+        "lent": "8ee06c204f76.m4a"
+      }
     },
     {
       "id": "u01-16",
@@ -203,7 +267,11 @@
       "pagina": "pag-03",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "4ec63a2ab9b3.m4a",
+        "lent": "296c5a51f2cf.m4a"
+      }
     },
     {
       "id": "u01-17",
@@ -216,7 +284,11 @@
       "perComprovar": false,
       "formes": [
         "מוֹרָה"
-      ]
+      ],
+      "audio": {
+        "normal": "84f31750bdb1.m4a",
+        "lent": "5f2c25628077.m4a"
+      }
     },
     {
       "id": "u01-18",
@@ -229,7 +301,11 @@
       "perComprovar": false,
       "formes": [
         "טוֹבָה"
-      ]
+      ],
+      "audio": {
+        "normal": "58867d3abf36.m4a",
+        "lent": "b4d4590420cf.m4a"
+      }
     },
     {
       "id": "u01-19",
@@ -242,7 +318,11 @@
       "perComprovar": false,
       "formes": [
         "חֲבֵרָה"
-      ]
+      ],
+      "audio": {
+        "normal": "30f998c2063a.m4a",
+        "lent": "220edf74208d.m4a"
+      }
     },
     {
       "id": "u01-20",
@@ -252,7 +332,11 @@
       "pagina": "pag-04",
       "funcio": true,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "870a17af1fc9.m4a",
+        "lent": "a35a71f2fd2f.m4a"
+      }
     },
     {
       "id": "u01-21",
@@ -262,7 +346,11 @@
       "pagina": "pag-04",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "9f28dd9eba2f.m4a",
+        "lent": "5422a0d792bb.m4a"
+      }
     },
     {
       "id": "u01-22",
@@ -272,7 +360,11 @@
       "pagina": "pag-04",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "346f82bf8b75.m4a",
+        "lent": "d7160d3053ec.m4a"
+      }
     },
     {
       "id": "u01-23",
@@ -282,7 +374,11 @@
       "pagina": "pag-05",
       "funcio": true,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "023eed6b20e9.m4a",
+        "lent": "fd747f895f13.m4a"
+      }
     },
     {
       "id": "u01-24",
@@ -295,7 +391,11 @@
       "perComprovar": false,
       "formes": [
         "אַתֶּן"
-      ]
+      ],
+      "audio": {
+        "normal": "16efc3efa785.m4a",
+        "lent": "ada3b453578b.m4a"
+      }
     },
     {
       "id": "u01-25",
@@ -308,7 +408,11 @@
       "perComprovar": false,
       "formes": [
         "הֵן"
-      ]
+      ],
+      "audio": {
+        "normal": "e1802dde1c48.m4a",
+        "lent": "07789b3a1f7b.m4a"
+      }
     },
     {
       "id": "u01-26",
@@ -318,7 +422,11 @@
       "pagina": "pag-05",
       "funcio": true,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "0bf911e9fa6d.m4a",
+        "lent": "af8ce19c21d4.m4a"
+      }
     },
     {
       "id": "u01-27",
@@ -328,7 +436,11 @@
       "pagina": "pag-06",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "f6f0981ccf43.m4a",
+        "lent": "4a2446554d45.m4a"
+      }
     },
     {
       "id": "u01-28",
@@ -338,7 +450,11 @@
       "pagina": "pag-06",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "7d7152c4959d.m4a",
+        "lent": "50b9cfab55ce.m4a"
+      }
     },
     {
       "id": "u01-29",
@@ -348,7 +464,11 @@
       "pagina": "pag-06",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "6ffa2088c5dc.m4a",
+        "lent": "27d2368a4893.m4a"
+      }
     },
     {
       "id": "u01-30",
@@ -361,7 +481,11 @@
       "perComprovar": false,
       "formes": [
         "רַבּוֹת"
-      ]
+      ],
+      "audio": {
+        "normal": "bcceb8add4ed.m4a",
+        "lent": "a022b465241d.m4a"
+      }
     },
     {
       "id": "u01-31",
@@ -371,7 +495,11 @@
       "pagina": "pag-07",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "a5c8938c7c46.m4a",
+        "lent": "5b6064aa601a.m4a"
+      }
     },
     {
       "id": "u01-32",
@@ -381,7 +509,11 @@
       "pagina": "pag-07",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "a47d2a69960d.m4a",
+        "lent": "09265c12f9e1.m4a"
+      }
     },
     {
       "id": "u01-33",
@@ -391,7 +523,11 @@
       "pagina": "pag-07",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "7909b9bc2cc4.m4a",
+        "lent": "091265896edc.m4a"
+      }
     },
     {
       "id": "u01-34",
@@ -404,7 +540,11 @@
       "perComprovar": false,
       "formes": [
         "תַּרְגִּילִים"
-      ]
+      ],
+      "audio": {
+        "normal": "5fa52d68bbb5.m4a",
+        "lent": "094536fd39d9.m4a"
+      }
     },
     {
       "id": "u01-35",
@@ -414,7 +554,11 @@
       "pagina": "pag-08",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "5491dc1ebdd8.m4a",
+        "lent": "72552904d966.m4a"
+      }
     },
     {
       "id": "u01-36",
@@ -427,7 +571,11 @@
       "perComprovar": false,
       "formes": [
         "מִלִּים"
-      ]
+      ],
+      "audio": {
+        "normal": "5da32f9d09ba.m4a",
+        "lent": "eaba322a74a2.m4a"
+      }
     },
     {
       "id": "u01-37",
@@ -440,7 +588,11 @@
       "perComprovar": false,
       "formes": [
         "מִשְׁפָּטִים"
-      ]
+      ],
+      "audio": {
+        "normal": "ee6b1ad2dd03.m4a",
+        "lent": "de7aad32f431.m4a"
+      }
     }
   ],
   "gramatica": [],
@@ -460,56 +612,88 @@
           "text": {
             "u": "**רוברטו:** שלום, אני רוברטו."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "a068ea42e558.m4a",
+            "lent": "0a20bee33fdb.m4a"
+          }
         },
         {
           "id": "pag-02-b0-l1",
           "text": {
             "u": "**דוריס:** אני דוריס."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "37be93c5ddeb.m4a",
+            "lent": "3bbcbd22a3aa.m4a"
+          }
         },
         {
           "id": "pag-02-b0-l2",
           "text": {
             "u": "**רוברטו:** נעים מאוד."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "a999af57102d.m4a",
+            "lent": "8b5ebbb5b314.m4a"
+          }
         },
         {
           "id": "pag-02-b0-l3",
           "text": {
             "u": "**דוריס:** נעים מאוד. אתה תלמיד?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "19282e0177f1.m4a",
+            "lent": "97726befa609.m4a"
+          }
         },
         {
           "id": "pag-02-b0-l4",
           "text": {
             "u": "**רוברטו:** כן, אני תלמיד. את תלמידה?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "3a22df72d2ae.m4a",
+            "lent": "21003cb1ea6a.m4a"
+          }
         },
         {
           "id": "pag-02-b0-l5",
           "text": {
             "u": "**דוריס:** כן, אני תלמידה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "ba238d757a59.m4a",
+            "lent": "b5e1b855e269.m4a"
+          }
         },
         {
           "id": "pag-02-b0-l6",
           "text": {
             "u": "**רוברטו:** את עולה חדשה?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "ca4c9d1f62e4.m4a",
+            "lent": "d6c885323868.m4a"
+          }
         },
         {
           "id": "pag-02-b0-l7",
           "text": {
             "u": "**דוריס:** לא, אני לא עולה חדשה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "14160aa5e042.m4a",
+            "lent": "06ea5b2c9585.m4a"
+          }
         },
         {
           "id": "pag-02-b0-l8",
@@ -523,21 +707,33 @@
           "text": {
             "u": "אתה תייר?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "bceed02664a8.m4a",
+            "lent": "cb1865a145b8.m4a"
+          }
         },
         {
           "id": "pag-02-b0-l10",
           "text": {
             "u": "**רוברטו:** לא, אני לא תייר. סטיב תייר."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "2f61774da211.m4a",
+            "lent": "8c457d69f940.m4a"
+          }
         },
         {
           "id": "pag-02-b0-l11",
           "text": {
             "u": "**דוריס:** ואתה?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "ada1625779ec.m4a",
+            "lent": "ef0fe9c1d659.m4a"
+          }
         },
         {
           "id": "pag-02-b0-l12",
@@ -563,14 +759,22 @@
           "text": {
             "u": "הוּא · רוברטו תלמיד. · הוא עולה חדש. · הוא לא תייר."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "bb547b3252fd.m4a",
+            "lent": "158858c01391.m4a"
+          }
         },
         {
           "id": "pag-02-b1-l1",
           "text": {
             "u": "הִיא · דוריס תלמידה. · היא לא עולה חדשה. · היא תיירת."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "5bcd4ae5c1a9.m4a",
+            "lent": "626c934b1841.m4a"
+          }
         }
       ]
     },
@@ -589,7 +793,11 @@
           "text": {
             "u": "מִי אַתָּה?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "d1a39f9812eb.m4a",
+            "lent": "49cd213b7e5c.m4a"
+          }
         }
       ]
     },
@@ -622,7 +830,11 @@
           "text": {
             "u": "לא, אני לא מוֹרֶה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "5ae790970161.m4a",
+            "lent": "47d639a567e1.m4a"
+          }
         },
         {
           "id": "pag-03-b1-l3",
@@ -636,14 +848,22 @@
           "text": {
             "u": "אתה תלמיד טוב?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "0041555f6e73.m4a",
+            "lent": "b2f4b092d0f1.m4a"
+          }
         },
         {
           "id": "pag-03-b1-l5",
           "text": {
             "u": "כן, אני תלמיד טוב."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "4023715cfc58.m4a",
+            "lent": "7202e141de59.m4a"
+          }
         }
       ]
     },
@@ -662,21 +882,33 @@
           "text": {
             "u": "אני שָׂרָה לוי."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "8e6e67ec3ce5.m4a",
+            "lent": "04f0af3761b5.m4a"
+          }
         },
         {
           "id": "pag-03-b2-l1",
           "text": {
             "u": "גברת לוי, את מוֹרָה?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "4561ca192783.m4a",
+            "lent": "837241572117.m4a"
+          }
         },
         {
           "id": "pag-03-b2-l2",
           "text": {
             "u": "לא, אני לא מוֹרָה. אני תלמידה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "206988995b11.m4a",
+            "lent": "70a538d1f9bd.m4a"
+          }
         },
         {
           "id": "pag-03-b2-l3",
@@ -690,14 +922,22 @@
           "text": {
             "u": "את תלמידה טובה?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "fe8860d913d7.m4a",
+            "lent": "5fb4968ae7e4.m4a"
+          }
         },
         {
           "id": "pag-03-b2-l5",
           "text": {
             "u": "לא, אני תלמידה לא טובה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "2ea9eec50bf1.m4a",
+            "lent": "727ae37b4f54.m4a"
+          }
         }
       ]
     },
@@ -716,7 +956,11 @@
           "text": {
             "u": "הוא סטיב."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "0cb5fba7efd4.m4a",
+            "lent": "700f2d229c3a.m4a"
+          }
         },
         {
           "id": "pag-04-b0-l1",
@@ -744,21 +988,33 @@
           "text": {
             "u": "כן, הוא חבר של דוריס."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "4621af40f403.m4a",
+            "lent": "7a18fd009c6e.m4a"
+          }
         },
         {
           "id": "pag-04-b0-l5",
           "text": {
             "u": "סטיב חבר טוב?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "c0f8531712bd.m4a",
+            "lent": "6bc8caf20c5f.m4a"
+          }
         },
         {
           "id": "pag-04-b0-l6",
           "text": {
             "u": "כן, סטיב חבר טוב מאוד."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "5610cf1d7fac.m4a",
+            "lent": "f3d7df453bf7.m4a"
+          }
         }
       ]
     },
@@ -777,7 +1033,11 @@
           "text": {
             "u": "היא דוריס."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "00cab1a8ab52.m4a",
+            "lent": "ea737b9f95fa.m4a"
+          }
         },
         {
           "id": "pag-04-b1-l1",
@@ -798,28 +1058,44 @@
           "text": {
             "u": "דוריס חברה של סטיב?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "a46ccd1ab3bb.m4a",
+            "lent": "3712e42e5118.m4a"
+          }
         },
         {
           "id": "pag-04-b1-l4",
           "text": {
             "u": "כן, היא חברה של סטיב."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "66181b61dc16.m4a",
+            "lent": "3588bbe650be.m4a"
+          }
         },
         {
           "id": "pag-04-b1-l5",
           "text": {
             "u": "דוריס חברה טובה?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "087bbe5a5fcf.m4a",
+            "lent": "a07d7272a52d.m4a"
+          }
         },
         {
           "id": "pag-04-b1-l6",
           "text": {
             "u": "כן, היא חברה טובה מאוד."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "70bb094c7c0e.m4a",
+            "lent": "b2f502cec0c7.m4a"
+          }
         }
       ]
     },
@@ -838,21 +1114,33 @@
           "text": {
             "u": "יצחק תלמיד טוב. · שרה תלמידה לא טובה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "cac392fa62b1.m4a",
+            "lent": "b20e3bdf70e6.m4a"
+          }
         },
         {
           "id": "pag-04-b2-l1",
           "text": {
             "u": "יוסף מורה טוב. · דבורה מורה טובה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "3688236431da.m4a",
+            "lent": "9bf135f70bca.m4a"
+          }
         },
         {
           "id": "pag-04-b2-l2",
           "text": {
             "u": "סטיב חבר טוב. · דוריס חברה טובה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "2b47baf00b8f.m4a",
+            "lent": "1cbb5ee935a7.m4a"
+          }
         }
       ]
     },
@@ -878,14 +1166,22 @@
           "text": {
             "u": "אתם תלמידים?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "196137d9354a.m4a",
+            "lent": "d2e2b0a74e93.m4a"
+          }
         },
         {
           "id": "pag-05-b0-l2",
           "text": {
             "u": "לא, אנחנו מורים."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "924d81c4ca7f.m4a",
+            "lent": "121353459f3b.m4a"
+          }
         },
         {
           "id": "pag-05-b0-l3",
@@ -918,21 +1214,33 @@
           "text": {
             "u": "אתן מורות?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "45269bba4f97.m4a",
+            "lent": "bf96e046fc97.m4a"
+          }
         },
         {
           "id": "pag-05-b1-l2",
           "text": {
             "u": "לא, אנחנו תלמידות."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "6d9240cd561c.m4a",
+            "lent": "09703a438666.m4a"
+          }
         },
         {
           "id": "pag-05-b1-l3",
           "text": {
             "u": "אנחנו התלמידות של צפורה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "29eba9170cb6.m4a",
+            "lent": "947a548e5228.m4a"
+          }
         }
       ]
     },
@@ -958,28 +1266,44 @@
           "text": {
             "u": "הם תיירים?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "ce76212c0a5b.m4a",
+            "lent": "4768eeee5f55.m4a"
+          }
         },
         {
           "id": "pag-05-b2-l2",
           "text": {
             "u": "לא, הם עולים חדשים מברזיל."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "7c7d4017bbe8.m4a",
+            "lent": "01ba065a2d9b.m4a"
+          }
         },
         {
           "id": "pag-05-b2-l3",
           "text": {
             "u": "הם חברים?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "9c299a82f6f7.m4a",
+            "lent": "a6784820df37.m4a"
+          }
         },
         {
           "id": "pag-05-b2-l4",
           "text": {
             "u": "כן, הם חברים טובים."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "51eb723dda1c.m4a",
+            "lent": "aca37e0c5ed0.m4a"
+          }
         }
       ]
     },
@@ -1005,28 +1329,44 @@
           "text": {
             "u": "הן תיירות?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "221beb518299.m4a",
+            "lent": "1bea8cd58220.m4a"
+          }
         },
         {
           "id": "pag-05-b3-l2",
           "text": {
             "u": "לא, הן עולות חדשות מברזיל."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "363bab13e619.m4a",
+            "lent": "394f57fc68f2.m4a"
+          }
         },
         {
           "id": "pag-05-b3-l3",
           "text": {
             "u": "הן חברות?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "784cc1a166ba.m4a",
+            "lent": "baa40dab3e86.m4a"
+          }
         },
         {
           "id": "pag-05-b3-l4",
           "text": {
             "u": "כן, הן חברות טובות."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "47e242f1d154.m4a",
+            "lent": "b6742f6123ad.m4a"
+          }
         }
       ]
     },
@@ -1045,56 +1385,88 @@
           "text": {
             "u": "צפורה ויוסף מורים. · שושנה ורחל לא מורות."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "26e539de54ac.m4a",
+            "lent": "df0f035e901f.m4a"
+          }
         },
         {
           "id": "pag-06-b0-l1",
           "text": {
             "u": "רוברטו ועמנואל תלמידים. · שושנה ורחל תלמידות."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "81561650594f.m4a",
+            "lent": "f8d9cd7242d5.m4a"
+          }
         },
         {
           "id": "pag-06-b0-l2",
           "text": {
             "u": "הם תלמידים חדשים. · הן תלמידות חדשות."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "b6e45900da50.m4a",
+            "lent": "6846bd0fb687.m4a"
+          }
         },
         {
           "id": "pag-06-b0-l3",
           "text": {
             "u": "הם תלמידים טובים. · הן תלמידות טובות."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "4d0b0b24c2da.m4a",
+            "lent": "b47be933c22e.m4a"
+          }
         },
         {
           "id": "pag-06-b0-l4",
           "text": {
             "u": "הם לא תיירים. · הן לא תיירות."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "cb83c4111730.m4a",
+            "lent": "d161bf082a91.m4a"
+          }
         },
         {
           "id": "pag-06-b0-l5",
           "text": {
             "u": "הם עולים חדשים. · הן עולות חדשות."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "e77210c01ae1.m4a",
+            "lent": "a50d61695c85.m4a"
+          }
         },
         {
           "id": "pag-06-b0-l6",
           "text": {
             "u": "רוברטו ועמנואל חברים. · שושנה ורחל חברות."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "6a8c2a55743b.m4a",
+            "lent": "ed6c317438f9.m4a"
+          }
         },
         {
           "id": "pag-06-b0-l7",
           "text": {
             "u": "הם חברים טובים. · הן חברות טובות."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "e7a969bfa836.m4a",
+            "lent": "f494fcd197f1.m4a"
+          }
         }
       ]
     },
@@ -1113,28 +1485,44 @@
           "text": {
             "u": "אני · תייר"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "1935bf9f7c66.m4a",
+            "lent": "51d067e88fe4.m4a"
+          }
         },
         {
           "id": "pag-06-b1-l1",
           "text": {
             "u": "אתה · תלמיד"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "96d73760160a.m4a",
+            "lent": "62726a0a99b6.m4a"
+          }
         },
         {
           "id": "pag-06-b1-l2",
           "text": {
             "u": "הוא · מוֹרֶה"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "70fa67339e38.m4a",
+            "lent": "c6a5b8904d07.m4a"
+          }
         },
         {
           "id": "pag-06-b1-l3",
           "text": {
             "u": "עוֹלֶה"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "abd53ac5eae0.m4a",
+            "lent": "0f1031c5c45e.m4a"
+          }
         }
       ]
     },
@@ -1167,14 +1555,22 @@
           "text": {
             "u": "היא · מוֹרָה"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "4032daed32bc.m4a",
+            "lent": "8cb820275c32.m4a"
+          }
         },
         {
           "id": "pag-06-b2-l3",
           "text": {
             "u": "עוֹלָה"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "25b6a962f0d9.m4a",
+            "lent": "0cebb9502ff7.m4a"
+          }
         }
       ]
     },
@@ -1193,28 +1589,44 @@
           "text": {
             "u": "אנחנו · תיירים"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "6d9bc12ca6b0.m4a",
+            "lent": "a61ffb361537.m4a"
+          }
         },
         {
           "id": "pag-06-b3-l1",
           "text": {
             "u": "אתם · תלמידים"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "e7e07c700f9f.m4a",
+            "lent": "fb2ae035c5ab.m4a"
+          }
         },
         {
           "id": "pag-06-b3-l2",
           "text": {
             "u": "הם · מורים"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "9a4f341d11d5.m4a",
+            "lent": "961c710d016a.m4a"
+          }
         },
         {
           "id": "pag-06-b3-l3",
           "text": {
             "u": "עולים"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "79b8c87cd080.m4a",
+            "lent": "e986d3889903.m4a"
+          }
         }
       ]
     },
@@ -1233,28 +1645,44 @@
           "text": {
             "u": "אנחנו · תיירות"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "b85d31bf9d11.m4a",
+            "lent": "139d2088468c.m4a"
+          }
         },
         {
           "id": "pag-06-b4-l1",
           "text": {
             "u": "אתן · תלמידות"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "eeb3739d306e.m4a",
+            "lent": "451dbdcce216.m4a"
+          }
         },
         {
           "id": "pag-06-b4-l2",
           "text": {
             "u": "הן · מורות"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "03a520ef014c.m4a",
+            "lent": "3857e19d19c2.m4a"
+          }
         },
         {
           "id": "pag-06-b4-l3",
           "text": {
             "u": "עולות"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "06deccced40c.m4a",
+            "lent": "be2583cba7c1.m4a"
+          }
         }
       ]
     },
@@ -1273,7 +1701,11 @@
           "text": {
             "u": "מֵאַיִן?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "a5c8938c7c46.m4a",
+            "lent": "5b6064aa601a.m4a"
+          }
         }
       ]
     },
@@ -1292,7 +1724,11 @@
           "text": {
             "u": "...מִ ...מֵ"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "6a6f0a15d464.m4a",
+            "lent": "caed10bda37e.m4a"
+          }
         }
       ]
     },
@@ -1311,7 +1747,11 @@
           "text": {
             "u": "מאין אתה רוברטו? — אני מִבְּרָזִיל."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "f0e93d893516.m4a",
+            "lent": "aefb5365c5a1.m4a"
+          }
         },
         {
           "id": "pag-07-b2-l1",
@@ -1332,28 +1772,44 @@
           "text": {
             "u": "גם מִרְיָם מֵאוּרוּגְוַאי? — לא."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "7b71ede75536.m4a",
+            "lent": "15c860e63aca.m4a"
+          }
         },
         {
           "id": "pag-07-b2-l4",
           "text": {
             "u": "מאין היא? — גם היא מִדְּרוֹם-אֲמֶרִיקָה"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "5b55988f483f.m4a",
+            "lent": "3602b26cec9b.m4a"
+          }
         },
         {
           "id": "pag-07-b2-l5",
           "text": {
             "u": "אבל לא מֵאוּרוּגְוַאי."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "07e94b543d37.m4a",
+            "lent": "ce6666beac7c.m4a"
+          }
         },
         {
           "id": "pag-07-b2-l6",
           "text": {
             "u": "היא מֵאַרְגֶּנְטִינָה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "3866795aa64e.m4a",
+            "lent": "3ca2595cc45f.m4a"
+          }
         }
       ]
     },
@@ -1372,14 +1828,22 @@
           "text": {
             "u": "דוריס וסטיב מֵאַנְגְלִיָּה. · סָם מִדְּרוֹם-אַפְרִיקָה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "82464336d296.m4a",
+            "lent": "2f96426bf9b4.m4a"
+          }
         },
         {
           "id": "pag-07-b3-l1",
           "text": {
             "u": "בוריס וחנה מֵרוּסְיָה. · נָטָלִי מִצָּרְפַת."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "d69588efe9e1.m4a",
+            "lent": "32bbe05b90b8.m4a"
+          }
         },
         {
           "id": "pag-07-b3-l2",
@@ -1419,7 +1883,11 @@
           "text": {
             "u": "רוברטו, עמנואל, מריו, מרים ושושנה מִדְּרוֹם-אמריקה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "e659f69128b9.m4a",
+            "lent": "ae431ffda103.m4a"
+          }
         }
       ]
     },
@@ -1438,14 +1906,22 @@
           "text": {
             "u": "כתוב: אני, אתה, את, הוא, היא,"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "301f0f3dd83e.m4a",
+            "lent": "a4513f3fe47a.m4a"
+          }
         },
         {
           "id": "pag-08-b0-l1",
           "text": {
             "u": "אנחנו, אתם, אתן, הם, הן"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "0125b03f0a5d.m4a",
+            "lent": "34022a4ea11e.m4a"
+          }
         }
       ]
     },
@@ -1546,14 +2022,22 @@
           "text": {
             "u": "כתוב במקום המילים המודגשות את המילים שבסוגריים."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "61718ca7f5b4.m4a",
+            "lent": "2856f8c1e581.m4a"
+          }
         },
         {
           "id": "pag-09-b0-l1",
           "text": {
             "u": "שנה את המשפטים בהתאם."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "e8397eed8aed.m4a",
+            "lent": "feff31c1c7ad.m4a"
+          }
         }
       ]
     },
@@ -1572,14 +2056,22 @@
           "text": {
             "u": "1. <u>צפורה</u> מוֹרָה. היא לא תלמידה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "828f10379e78.m4a",
+            "lent": "36ceb05bf610.m4a"
+          }
         },
         {
           "id": "pag-09-b1-l1",
           "text": {
             "u": "(יוסף, צפורה ויוסף, צפורה ודינה)"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "148f5c0a383c.m4a",
+            "lent": "2111139779d8.m4a"
+          }
         },
         {
           "id": "pag-09-b1-l2",
@@ -1607,7 +2099,11 @@
           "text": {
             "u": "2. צפורה <u>מורה</u> טובה מאוד. (תלמידה, חברה)"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "7ae0f0a34cf6.m4a",
+            "lent": "27dad7f39141.m4a"
+          }
         },
         {
           "id": "pag-09-b1-l6",
@@ -1628,7 +2124,11 @@
           "text": {
             "u": "3. מאין <u>אתה</u>? אני מֵרוּסְיָה. (אתם, הם, חנה, את)"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "d09bc810ccdf.m4a",
+            "lent": "ee5e46bca4e7.m4a"
+          }
         },
         {
           "id": "pag-09-b1-l9",
@@ -1663,28 +2163,44 @@
           "text": {
             "u": "4. <u>אתה</u> לא תייר. (את, הוא, אתם, אתן)"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "32c9dfc89963.m4a",
+            "lent": "3f349060ddf6.m4a"
+          }
         },
         {
           "id": "pag-09-b1-l14",
           "text": {
             "u": "5. <u>אנחנו</u> חברים של סטיב. (הן, דוריס, רוברטו)"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "08d72f02f2e8.m4a",
+            "lent": "09753801d005.m4a"
+          }
         },
         {
           "id": "pag-09-b1-l15",
           "text": {
             "u": "6. <u>יצחק</u> עולה חדש. הוא לא מורה. הוא תלמיד."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "7dc64be8e5ca.m4a",
+            "lent": "6b7ce5c0bf98.m4a"
+          }
         },
         {
           "id": "pag-09-b1-l16",
           "text": {
             "u": "(שרה, מריו ועמנואל, תמר ואסתר)"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "064266d65474.m4a",
+            "lent": "be73d27c4c1b.m4a"
+          }
         }
       ]
     }

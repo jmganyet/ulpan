@@ -8,7 +8,8 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "contingut": "tsx scripts/contingut-cli.ts"
+    "contingut": "tsx scripts/contingut-cli.ts",
+    "audio": "tsx scripts/audio-cli.ts"
   },
   "dependencies": {
     "@phosphor-icons/web": "2.1.2",

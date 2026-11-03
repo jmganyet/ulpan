@@ -8,6 +8,7 @@ import { valida } from './valida'
 import { llegeixPagina } from './dossier/pagina'
 import { llegeixVocabulari } from './dossier/vocabulari'
 import { DOSSIER } from './dossier/ruta'
+import { afegeixAudio } from './genera-audio'
 
 type Entrada = { num: number; titol: string; color: string; pagines: string; vocabulari: string }
 
@@ -35,7 +36,7 @@ for (const e of entrades) {
   const vocab = llegeixVocabulari(readFileSync(join(DOSSIER, 'unitats', `${e.vocabulari}-vocabulari.tsv`), 'utf8'), e.vocabulari)
   const fitxer = join(arrel, 'contingut', `${id}.yaml`)
   const curat = ((existsSync(fitxer) ? parse(readFileSync(fitxer, 'utf8')) : null) ?? {}) as Curat
-  const u = combina(base, pagines, vocab, curat)
+  const u = afegeixAudio(combina(base, pagines, vocab, curat), (f) => existsSync(join(arrel, 'public/audio', f)))
   errors.push(...valida(u, curat))
   resultats.push({ nom: `${id}.json`, json: JSON.stringify(u, null, 2) + '\n' })
   const linies = u.textos.flatMap((t) => t.linies)
