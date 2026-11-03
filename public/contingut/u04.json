@@ -1,0 +1,1819 @@
+{
+  "id": "u04",
+  "num": 4,
+  "titol": "Possessió i salutacions",
+  "color": "#7B6CF6",
+  "pagines": [
+    "pag-20",
+    "pag-21",
+    "pag-22",
+    "pag-23",
+    "pag-24",
+    "pag-25",
+    "pag-26",
+    "pag-27"
+  ],
+  "vocabulari": [
+    {
+      "id": "u04-0",
+      "hebreu": "חֶדֶר",
+      "translit": "ḥeder, accent a la penúltima / ḥadarim",
+      "ca": "habitació / habitacions",
+      "pagina": "pag-20",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "חֲדָרִים"
+      ]
+    },
+    {
+      "id": "u04-1",
+      "hebreu": "שֶׁל מִי?",
+      "translit": "shel mi",
+      "ca": "de qui?",
+      "pagina": "pag-20",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u04-2",
+      "hebreu": "כֶּסֶף",
+      "translit": "kesef, accent a la penúltima",
+      "ca": "diners; plata",
+      "pagina": "pag-20",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u04-3",
+      "hebreu": "בַּיִת",
+      "translit": "bayit, accent a la penúltima / batim",
+      "ca": "casa / cases",
+      "pagina": "pag-20",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "בָּתִּים"
+      ]
+    },
+    {
+      "id": "u04-4",
+      "hebreu": "מְכוֹנִית",
+      "translit": "mekhonit / mekhoniyot",
+      "ca": "cotxe / cotxes",
+      "pagina": "pag-20",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "מְכוֹנִיּוֹת"
+      ]
+    },
+    {
+      "id": "u04-5",
+      "hebreu": "כֶּלֶב",
+      "translit": "kelev, accent a la penúltima / klavim",
+      "ca": "gos / gossos",
+      "pagina": "pag-20",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "כְּלָבִים"
+      ]
+    },
+    {
+      "id": "u04-6",
+      "hebreu": "סִיגַרְיָה",
+      "translit": "sigarya / sigariyot",
+      "ca": "cigarret / cigarrets",
+      "pagina": "pag-20",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "סִיגַרְיּוֹת"
+      ]
+    },
+    {
+      "id": "u04-7",
+      "hebreu": "בּוֹקֶר",
+      "translit": "boker, accent a la penúltima",
+      "ca": "matí",
+      "pagina": "pag-22",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u04-8",
+      "hebreu": "בּוֹקֶר טוֹב",
+      "translit": "boker tov",
+      "ca": "bon dia",
+      "pagina": "pag-22",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u04-9",
+      "hebreu": "סְלִיחָה",
+      "translit": "sliḥa",
+      "ca": "perdó, disculpi",
+      "pagina": "pag-22",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u04-10",
+      "hebreu": "שְׁמִי",
+      "translit": "shmi",
+      "ca": "el meu nom; em dic",
+      "pagina": "pag-22",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u04-11",
+      "hebreu": "מַה שְּׁמֵךְ?",
+      "translit": "ma shmekh",
+      "ca": "com et dius?, a una dona",
+      "pagina": "pag-22",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u04-12",
+      "hebreu": "מַה שִּׁמְךָ?",
+      "translit": "ma shimkha",
+      "ca": "com et dius?, a un home",
+      "pagina": "pag-22",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u04-13",
+      "hebreu": "שְׁמוֹ",
+      "translit": "shmo / shma",
+      "ca": "el seu nom, d'ell / d'ella",
+      "pagina": "pag-22",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "שְׁמָהּ"
+      ]
+    },
+    {
+      "id": "u04-14",
+      "hebreu": "לְהִתְרָאוֹת",
+      "translit": "lehitraot",
+      "ca": "a reveure",
+      "pagina": "pag-22",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u04-15",
+      "hebreu": "שֵׁם",
+      "translit": "shem / shemot",
+      "ca": "nom / noms, masc.",
+      "pagina": "pag-22",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "שֵׁמוֹת"
+      ]
+    },
+    {
+      "id": "u04-16",
+      "hebreu": "עִבְרִי",
+      "translit": "ivri / ivrit",
+      "ca": "hebreu / hebrea, adjectiu",
+      "pagina": "pag-22",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "עִבְרִית"
+      ]
+    },
+    {
+      "id": "u04-17",
+      "hebreu": "עִבְרִיִּים",
+      "translit": "ivriyim / ivriyot",
+      "ca": "hebreus / hebrees",
+      "pagina": "pag-22",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "עִבְרִיּוֹת"
+      ]
+    },
+    {
+      "id": "u04-18",
+      "hebreu": "תַּנַ\"ךְ",
+      "translit": "tanakh",
+      "ca": "Bíblia hebrea",
+      "pagina": "pag-22",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u04-19",
+      "hebreu": "אוֹמְרִים",
+      "translit": "omrim",
+      "ca": "es diu, diuen",
+      "pagina": "pag-23",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u04-20",
+      "hebreu": "מַה שֵּׁם הַ...?",
+      "translit": "ma shem ha-",
+      "ca": "com es diu el/la...?",
+      "pagina": "pag-23",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u04-21",
+      "hebreu": "מַה שְּׁלוֹמֵךְ?",
+      "translit": "ma shlomekh",
+      "ca": "com estàs?, a una dona",
+      "pagina": "pag-24",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u04-22",
+      "hebreu": "מַה שְּׁלוֹמְךָ?",
+      "translit": "ma shlomkha",
+      "ca": "com estàs?, a un home",
+      "pagina": "pag-24",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u04-23",
+      "hebreu": "שְׁלוֹמִי",
+      "translit": "shlomi / shlomo / shloma",
+      "ca": "estic / està ell / està ella",
+      "pagina": "pag-24",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "שְׁלוֹמוֹ",
+        "שְׁלוֹמָהּ"
+      ]
+    },
+    {
+      "id": "u04-24",
+      "hebreu": "שְׁלוֹמֵנוּ",
+      "translit": "shlomenu / shlomkhem / shlomkhen",
+      "ca": "estem / esteu, masc. / esteu, fem.",
+      "pagina": "pag-24",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "שְׁלוֹמְכֶם",
+        "שְׁלוֹמְכֶן"
+      ]
+    },
+    {
+      "id": "u04-25",
+      "hebreu": "שְׁלוֹמָם",
+      "translit": "shlomam / shloman",
+      "ca": "estan, masc. / estan, fem.",
+      "pagina": "pag-24",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "שְׁלוֹמָן"
+      ]
+    },
+    {
+      "id": "u04-26",
+      "hebreu": "תּוֹדָה",
+      "translit": "toda",
+      "ca": "gràcies",
+      "pagina": "pag-24",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u04-27",
+      "hebreu": "בָּרוּךְ הַשֵּׁם",
+      "translit": "barukh hashem",
+      "ca": "gràcies a Déu, lit. beneït el Nom",
+      "pagina": "pag-24",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u04-28",
+      "hebreu": "מְצוּיָן",
+      "translit": "metsuyan / metsuyenet",
+      "ca": "excel·lent, molt bé",
+      "pagina": "pag-24",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "מְצוּיֶנֶת"
+      ]
+    },
+    {
+      "id": "u04-29",
+      "hebreu": "מְצוּיָנִים",
+      "translit": "metsuyanim / metsuyanot",
+      "ca": "excel·lents",
+      "pagina": "pag-24",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "מְצוּיָנוֹת"
+      ]
+    },
+    {
+      "id": "u04-30",
+      "hebreu": "רַע",
+      "translit": "ra / ra'a",
+      "ca": "dolent / dolenta; malament",
+      "pagina": "pag-24",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "רָעָה"
+      ]
+    },
+    {
+      "id": "u04-31",
+      "hebreu": "רָעִים",
+      "translit": "raim / raot",
+      "ca": "dolents / dolentes",
+      "pagina": "pag-24",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "רָעוֹת"
+      ]
+    },
+    {
+      "id": "u04-32",
+      "hebreu": "חֲזָרָה",
+      "translit": "ḥazara",
+      "ca": "repàs, repetició",
+      "pagina": "pag-26",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u04-33",
+      "hebreu": "הַשְׁלֵם!",
+      "translit": "hashlem",
+      "ca": "completa!",
+      "pagina": "pag-26",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u04-34",
+      "hebreu": "כִּרְצוֹנְךָ",
+      "translit": "kirtsonkha",
+      "ca": "com vulguis, lliurement",
+      "pagina": "pag-26",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u04-35",
+      "hebreu": "שׁוּרָה",
+      "translit": "shura / shurot",
+      "ca": "fila, línia / files",
+      "pagina": "pag-26",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "שׁוּרוֹת"
+      ]
+    },
+    {
+      "id": "u04-36",
+      "hebreu": "הִשְׁתַּמֵּשׁ בְּ...!",
+      "translit": "hishtamesh be-",
+      "ca": "fes servir...!, usa...!",
+      "pagina": "pag-26",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u04-37",
+      "hebreu": "כָּל",
+      "translit": "kol",
+      "ca": "tot, cada",
+      "pagina": "pag-26",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u04-38",
+      "hebreu": "תִּרְגּוּל",
+      "translit": "tirgul",
+      "ca": "pràctica",
+      "pagina": "pag-27",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u04-39",
+      "hebreu": "קְבוּצָה",
+      "translit": "kvutsa / kvutsot",
+      "ca": "grup / grups",
+      "pagina": "pag-27",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "קְבוּצוֹת"
+      ]
+    }
+  ],
+  "gramatica": [],
+  "textos": [
+    {
+      "id": "pag-20-b0",
+      "pagina": "pag-20",
+      "titol": {
+        "u": "Requadres del títol",
+        "perComprovar": false,
+        "ca": "De qui és el/la...?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-20-b0-l0",
+          "text": {
+            "u": "שֶׁל מִי הַ...?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-20-b0-l1",
+          "text": {
+            "u": "שֶׁל...שֶׁל הַ..."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-20-b1",
+      "pagina": "pag-20",
+      "titol": {
+        "u": "Frases",
+        "perComprovar": false,
+        "ca": "De qui és el/la...?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-20-b1-l0",
+          "text": {
+            "u": "זה החדר של המוֹרָה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-20-b1-l1",
+          "text": {
+            "u": "– לא, זה לא החדר של המורה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-20-b1-l2",
+          "text": {
+            "u": "של מי החדר? - החדר של רוברטו ושל עמנואל."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-20-b2",
+      "pagina": "pag-20",
+      "titol": {
+        "u": "Frases",
+        "perComprovar": false,
+        "ca": "De qui és el/la...?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-20-b2-l0",
+          "text": {
+            "u": "של מי הכסף? - הכסף של שרה."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-20-b3",
+      "pagina": "pag-20",
+      "titol": {
+        "u": "Frases",
+        "perComprovar": false,
+        "ca": "De qui és el/la...?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-20-b3-l0",
+          "text": {
+            "u": "של מי הבית? - הבית של יעקֹב ורחל."
+          },
+          "perComprovar": true
+        }
+      ]
+    },
+    {
+      "id": "pag-20-b4",
+      "pagina": "pag-20",
+      "titol": {
+        "u": "Frases",
+        "perComprovar": false,
+        "ca": "De qui és el/la...?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-20-b4-l0",
+          "text": {
+            "u": "של מי המכונית? - המכונית של משה."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-20-b5",
+      "pagina": "pag-20",
+      "titol": {
+        "u": "Frases",
+        "perComprovar": false,
+        "ca": "De qui és el/la...?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-20-b5-l0",
+          "text": {
+            "u": "של מי הכלב? - הכלב של הילדים."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-20-b6",
+      "pagina": "pag-20",
+      "titol": {
+        "u": "Esquemes",
+        "perComprovar": false,
+        "ca": "De qui és el/la...?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-20-b6-l0",
+          "text": {
+            "u": "Esquema de la dreta (pregunta): של מי ← הַ ← [nom] ← ?, amb זה a sota que remet al nom."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-20-b7",
+      "pagina": "pag-20",
+      "titol": {
+        "u": "Esquemes",
+        "perComprovar": false,
+        "ca": "De qui és el/la...?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-20-b7-l0",
+          "text": {
+            "u": "של מי · הַ + תמונות / ספר / מכונית / סיגריות ?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-20-b7-l1",
+          "text": {
+            "u": "זה"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-20-b8",
+      "pagina": "pag-20",
+      "titol": {
+        "u": "Esquemes",
+        "perComprovar": false,
+        "ca": "De qui és el/la...?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-20-b8-l0",
+          "text": {
+            "u": "Esquema de l'esquerra (resposta): הַ ← [nom] ← של ← [nom propi] o הַ + [nom], amb זה a sota."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-20-b9",
+      "pagina": "pag-20",
+      "titol": {
+        "u": "Esquemes",
+        "perComprovar": false,
+        "ca": "De qui és el/la...?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-20-b9-l0",
+          "text": {
+            "u": "הַ + תמונות / ספר / מכונית / סיגריות · של · אדון לוי / חנה"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-20-b9-l1",
+          "text": {
+            "u": "הַ + מורה / תלמיד"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-20-b9-l2",
+          "text": {
+            "u": "זה"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-21-b0",
+      "pagina": "pag-21",
+      "titol": {
+        "u": "תרגיל 9",
+        "perComprovar": false,
+        "ca": "Exercicis 9 i 10"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-21-b0-l0",
+          "text": {
+            "u": "כתוב ה... מ... ב... של"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-21-b1",
+      "pagina": "pag-21",
+      "titol": {
+        "u": "תרגיל 9",
+        "perComprovar": false,
+        "ca": "Exercicis 9 i 10"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-21-b1-l0",
+          "text": {
+            "u": "1. מאין המכונית של סטיב? – ____אנגליה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-21-b1-l1",
+          "text": {
+            "u": "2. מי לומד ____אולפן עבודה? – רוברטו."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-21-b1-l2",
+          "text": {
+            "u": "3. זֹאת האחות ____רוברטו? – כן."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-21-b1-l3",
+          "text": {
+            "u": "4. זאת ____אישה ____יצחק? – לא, זאת ____אישה ____משה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-21-b1-l4",
+          "text": {
+            "u": "5. מי גר ____חיפה? – תמר ואסתר."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-21-b1-l5",
+          "text": {
+            "u": "6. ____מי הכלב? – של ____בן של חנה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-21-b1-l6",
+          "text": {
+            "u": "7. של מי הסיגריות? – ____סטיב."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-21-b1-l7",
+          "text": {
+            "u": "8. צפורה ____מורה ____שרה? – כן."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-21-b1-l8",
+          "text": {
+            "u": "9. ____הורים ____רוברטו ____בית? – לא, הם לא ____בית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-21-b1-l9",
+          "text": {
+            "u": "10. מריו עולה חדש ____ברזיל? – לא, הוא ____אורוגוואי."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-21-b2",
+      "pagina": "pag-21",
+      "titol": {
+        "u": "תרגיל 10",
+        "perComprovar": false,
+        "ca": "Exercicis 9 i 10"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-21-b2-l0",
+          "text": {
+            "u": "כתוב הוא היא הם הן"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-21-b3",
+      "pagina": "pag-21",
+      "titol": {
+        "u": "תרגיל 10",
+        "perComprovar": false,
+        "ca": "Exercicis 9 i 10"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-21-b3-l0",
+          "text": {
+            "u": "1. הבתים ברחוב הארון קטנים? – לא, ____גדולים."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-21-b3-l1",
+          "text": {
+            "u": "2. המכונית של משה טובה? – כן, ____טובה מאוד."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-21-b3-l2",
+          "text": {
+            "u": "3. התמונות חדשות? – לא, ____לא חדשות."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-21-b3-l3",
+          "text": {
+            "u": "4. התמונה יפה? – כן, ____יפה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-21-b3-l4",
+          "text": {
+            "u": "5. הספר מעניין? – כן, ____מעניין מאוד."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-21-b3-l5",
+          "text": {
+            "u": "6. החדר של רוברטו יפה? – לא, ____לא יפה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-21-b3-l6",
+          "text": {
+            "u": "7. הסיגריות טובות? – לא, ____לא טובות."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-21-b3-l7",
+          "text": {
+            "u": "8. הספרים מעניינים? – לא, ____לא מעניינים."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-22-b0",
+      "pagina": "pag-22",
+      "titol": {
+        "u": "מַה שְּׁמֵךְ?",
+        "perComprovar": false,
+        "ca": "Com et dius?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-22-b0-l0",
+          "text": {
+            "u": "**יוסף:** בוקר טוב רחל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-22-b0-l1",
+          "text": {
+            "u": "**שרה:** אני לא רחל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-22-b0-l2",
+          "text": {
+            "u": "**יוסף:** סליחה, מי את? מה שמֵךְ?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-22-b0-l3",
+          "text": {
+            "u": "**שרה:** שמי שרה. ומה שמְךָ?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-22-b0-l4",
+          "text": {
+            "u": "**יוסף:** שמי יוסף."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-22-b0-l5",
+          "text": {
+            "u": "**שרה:** נעים מאוד."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-22-b0-l6",
+          "text": {
+            "u": "**יוסף:** נעים מאוד, שרה, את תלמידה באולפן?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-22-b0-l7",
+          "text": {
+            "u": "**שרה:** כן. גם אתה תלמיד באולפן?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-22-b0-l8",
+          "text": {
+            "u": "**יוסף:** לא, אני מורה באולפן."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-22-b0-l9",
+          "text": {
+            "u": "**שרה:** שלום יוסף, להתראות באולפן."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-22-b0-l10",
+          "text": {
+            "u": "**יוסף:** שלום ולהתראות."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-22-b1",
+      "pagina": "pag-22",
+      "titol": {
+        "u": "Quadre",
+        "perComprovar": false,
+        "ca": "Com et dius?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-22-b1-l0",
+          "text": {
+            "u": "שמו יוסף. שמה שרה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-22-b1-l1",
+          "text": {
+            "u": "יוסף - שם עברי וגם שרה - שם עברי."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-22-b1-l2",
+          "text": {
+            "u": "שרה ויוסף שמות עבריים מֵהַתנ\"ך."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-22-b2",
+      "pagina": "pag-22",
+      "titol": {
+        "u": "הַשֵּׁם שֶׁל",
+        "perComprovar": false,
+        "ca": "Com et dius?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-22-b2-l0",
+          "text": {
+            "u": "אני · אתה · את · הוא · היא"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-22-b2-l1",
+          "text": {
+            "u": "שְׁמִי · שִׁמְךָ · שְׁמֵךְ · שְׁמוֹ · שְׁמָהּ"
+          },
+          "perComprovar": true
+        }
+      ]
+    },
+    {
+      "id": "pag-23-b0",
+      "pagina": "pag-23",
+      "titol": {
+        "u": "אומרים",
+        "perComprovar": false,
+        "ca": "Exercici 11"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-23-b0-l0",
+          "text": {
+            "u": "אומרים: זה ילד. שמו דני."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-23-b0-l1",
+          "text": {
+            "u": "זה ילד. השם של הילד דני."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-23-b0-l2",
+          "text": {
+            "u": "זה ילד. שם הילד דני."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-23-b0-l3",
+          "text": {
+            "u": "מה שם הילד? – דני."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-23-b1",
+      "pagina": "pag-23",
+      "titol": {
+        "u": "תרגיל 11",
+        "perComprovar": false,
+        "ca": "Exercici 11"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-23-b1-l0",
+          "text": {
+            "u": "כתוב: שֵׁם שְׁמִי שִׁמְךָ שְׁמֵךְ שְׁמוֹ שְׁמָהּ"
+          },
+          "perComprovar": true
+        }
+      ]
+    },
+    {
+      "id": "pag-23-b2",
+      "pagina": "pag-23",
+      "titol": {
+        "u": "תרגיל 11",
+        "perComprovar": false,
+        "ca": "Exercici 11"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-23-b2-l0",
+          "text": {
+            "u": "1. זה דוִד. ____ דוִד."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-23-b2-l1",
+          "text": {
+            "u": "2. את תלמידה חדשה? מה ____?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-23-b2-l2",
+          "text": {
+            "u": "3. אתה תלמיד חדש? מה ____?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-23-b2-l3",
+          "text": {
+            "u": "4. מה ____ הילד? מה ____ הילדה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-23-b2-l4",
+          "text": {
+            "u": "5. מי הוא? מה ____? מי היא? מה ____?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-23-b2-l5",
+          "text": {
+            "u": "6. הוא תייר מאנגליה. ____ סטיב."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-23-b2-l6",
+          "text": {
+            "u": "7. הוא תלמיד של המורה צפורה. ____ דוד."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-23-b2-l7",
+          "text": {
+            "u": "8. זה קיבוץ חדש. ____ קיבוץ גָבִית."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-23-b2-l8",
+          "text": {
+            "u": "9. ילד, מה ____? ילדה, מה ____?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-23-b2-l9",
+          "text": {
+            "u": "10. היא עולה חדשה. ____ שושנה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-23-b2-l10",
+          "text": {
+            "u": "11. מה ____ הרחוב? מה ____ האולפן?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-23-b2-l11",
+          "text": {
+            "u": "12. זה אולפן טוב. ____ אולפן \"תבור\"."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-23-b2-l12",
+          "text": {
+            "u": "13. זאת ילדה יפה. מה ____? – ____ רותי."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-23-b2-l13",
+          "text": {
+            "u": "14. זה ילד יפה. מה ____? – ____ דני."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-23-b2-l14",
+          "text": {
+            "u": "15. רוברטו - לא ____ עברי. דניאל - ____ עברי."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-24-b0",
+      "pagina": "pag-24",
+      "titol": {
+        "u": "מַה שְּׁלוֹמֵךְ?",
+        "perComprovar": false,
+        "ca": "Com estàs?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-24-b0-l0",
+          "text": {
+            "u": "**יוסף:** בוקר טוב שרה. מה שלומֵךְ?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-24-b0-l1",
+          "text": {
+            "u": "**שרה:** טוב, תודה. מה שלומְךָ?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-24-b0-l2",
+          "text": {
+            "u": "**יוסף:** גם שלומי טוב. ברוך השם!"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-24-b0-l3",
+          "text": {
+            "u": "**שרה:** מה שלום צפורה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-24-b0-l4",
+          "text": {
+            "u": "**יוסף:** שלומה מצוין. מה שלום יצחק?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-24-b0-l5",
+          "text": {
+            "u": "**שרה:** גם שלומו לא רע."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-24-b0-l6",
+          "text": {
+            "u": "**יוסף:** מה שלום הילדים?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-24-b0-l7",
+          "text": {
+            "u": "**שרה:** שלומם מצוין."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-24-b1",
+      "pagina": "pag-24",
+      "titol": {
+        "u": "Paradigma",
+        "perComprovar": false,
+        "ca": "Com estàs?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-24-b1-l0",
+          "text": {
+            "u": "אני · אתה · את · הוא · היא"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-24-b1-l1",
+          "text": {
+            "u": "שְׁלוֹמִי · שְׁלוֹמְךָ · שְׁלוֹמֵךְ · שְׁלוֹמוֹ · שְׁלוֹמָהּ"
+          },
+          "perComprovar": true
+        }
+      ]
+    },
+    {
+      "id": "pag-24-b2",
+      "pagina": "pag-24",
+      "titol": {
+        "u": "Paradigma",
+        "perComprovar": false,
+        "ca": "Com estàs?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-24-b2-l0",
+          "text": {
+            "u": "אנחנו · אתם · אתן · הם · הן"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-24-b2-l1",
+          "text": {
+            "u": "שְׁלוֹמֵנוּ · שְׁלוֹמְכֶם · שְׁלוֹמְכֶן · שְׁלוֹמָם · שְׁלוֹמָן"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-25-b0",
+      "pagina": "pag-25",
+      "titol": {
+        "u": "תרגיל 12",
+        "perComprovar": false,
+        "ca": "Exercici 12"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-25-b0-l0",
+          "text": {
+            "u": "א. כתוב שָׁלוֹם שְׁלוֹמִי שְׁלוֹמְךָ שְׁלוֹמֵךְ שְׁלוֹמוֹ שְׁלוֹמָהּ"
+          },
+          "perComprovar": true
+        }
+      ]
+    },
+    {
+      "id": "pag-25-b1",
+      "pagina": "pag-25",
+      "titol": {
+        "u": "תרגיל 12",
+        "perComprovar": false,
+        "ca": "Exercici 12"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-25-b1-l0",
+          "text": {
+            "u": "1. מה שלום יוסף? – ____ טוב."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-25-b1-l1",
+          "text": {
+            "u": "2. חנה, מה ____? – שלומי לא רע."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-25-b1-l2",
+          "text": {
+            "u": "3. מה ____ שרה? – שלומה טוב."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-25-b1-l3",
+          "text": {
+            "u": "4. מה ____, שרה? – שלומי טוב."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-25-b1-l4",
+          "text": {
+            "u": "5. מה ____ יצחק? – שלומו מצוין."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-25-b1-l5",
+          "text": {
+            "u": "6. מה ____ רחל? – ____ טוב מאוד."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-25-b1-l6",
+          "text": {
+            "u": "7. יצחק, מה ____? – ככה-ככה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-25-b1-l7",
+          "text": {
+            "u": "8. מה שלומך? – שלומי טוב."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-25-b1-l8",
+          "text": {
+            "u": "9. מה שלום אבא? – ____ רע מאוד."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-25-b1-l9",
+          "text": {
+            "u": "10. מה שלום אמא? – ____ טוב."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-25-b2",
+      "pagina": "pag-25",
+      "titol": {
+        "u": "תרגיל 12",
+        "perComprovar": false,
+        "ca": "Exercici 12"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-25-b2-l0",
+          "text": {
+            "u": "ב. כתוב שָׁלוֹם שְׁלוֹמֵנוּ שְׁלוֹמְכֶם שְׁלוֹמְכֶן שְׁלוֹמָם שְׁלוֹמָן"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-25-b3",
+      "pagina": "pag-25",
+      "titol": {
+        "u": "תרגיל 12",
+        "perComprovar": false,
+        "ca": "Exercici 12"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-25-b3-l0",
+          "text": {
+            "u": "1. מה שלומכם? – ____ מצוין."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-25-b3-l1",
+          "text": {
+            "u": "2. מה שלומכן? – ____ טוב."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-25-b3-l2",
+          "text": {
+            "u": "3. מה ____ שרה ויצחק? – ____ טוב."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-25-b3-l3",
+          "text": {
+            "u": "4. מה ____ הילדים? – ____ לא רע."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-25-b3-l4",
+          "text": {
+            "u": "5. חברים, מה ____ דוריס וסטיב? – ____ טוב מאוד."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-25-b3-l5",
+          "text": {
+            "u": "6. מה ____, שרה וצפורה? – ____ טוב תודה."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-26-b0",
+      "pagina": "pag-26",
+      "titol": {
+        "u": "תרגיל 13",
+        "perComprovar": false,
+        "ca": "Exercicis de repàs"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-26-b0-l0",
+          "text": {
+            "u": "השלם כרצונך"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-26-b1",
+      "pagina": "pag-26",
+      "titol": {
+        "u": "תרגיל 13",
+        "perComprovar": false,
+        "ca": "Exercicis de repàs"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-26-b1-l0",
+          "text": {
+            "u": "שמי עמנואל פְּרִידְמָן."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-26-b1-l1",
+          "text": {
+            "u": "אני עולה ____ מברזיל. אני הבן"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-26-b1-l2",
+          "text": {
+            "u": "של לֵיאוֹן וְגֶנְיָה פרידמן ____ סַאן-פאולו."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-26-b1-l3",
+          "text": {
+            "u": "עכשיו אני ____ ישראל. אני גר בקיבוץ"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-26-b1-l4",
+          "text": {
+            "u": "דן בגליל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-26-b1-l5",
+          "text": {
+            "u": "בקיבוץ אני לומד ו____, אני"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-26-b1-l6",
+          "text": {
+            "u": "לומד באולפן-עבודה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-26-b1-l7",
+          "text": {
+            "u": "אני לומד ____. אני תלמיד ____."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-26-b1-l8",
+          "text": {
+            "u": "אני חבר ____ רוברטו לוי. אנחנו ____ טובים."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-26-b1-l9",
+          "text": {
+            "u": "אני גר בחדר ____ רוברטו."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-26-b1-l10",
+          "text": {
+            "u": "אנחנו תלמידים של ____ מורה רחל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-26-b1-l11",
+          "text": {
+            "u": "רחל אישה ____ ומעניינת. היא ____ טובה מאוד."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-26-b2",
+      "pagina": "pag-26",
+      "titol": {
+        "u": "תרגיל 14",
+        "perComprovar": false,
+        "ca": "Exercicis de repàs"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-26-b2-l0",
+          "text": {
+            "u": "כתוב משפטים מהמילים בשורות א' ב' ג'"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-26-b2-l1",
+          "text": {
+            "u": "השתמש במילה אחת מכל שורה."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-26-b3",
+      "pagina": "pag-26",
+      "titol": {
+        "u": "תרגיל 14",
+        "perComprovar": false,
+        "ca": "Exercicis de repàs"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-26-b3-l0",
+          "text": {
+            "u": "א' זה, זאת, אלה, הם, הן"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-26-b3-l1",
+          "text": {
+            "u": "ב' חברות, משפחה, אנשים, מכונית, חדר, רחוב"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-26-b3-l2",
+          "text": {
+            "u": "ג' קטנה, טובות, מעניינים, חדשה, יפה, גדול, מצוינת, רעים"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-27-b0",
+      "pagina": "pag-27",
+      "titol": {
+        "u": "תִרגוּל בִּקבוּצות",
+        "perComprovar": false,
+        "ca": "Pràctica en grups"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-27-b0-l0",
+          "text": {
+            "u": "הנחיות בהקדמה"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-27-b1",
+      "pagina": "pag-27",
+      "titol": {
+        "u": "תרגיל 15",
+        "perComprovar": false,
+        "ca": "Pràctica en grups"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-27-b1-l0",
+          "text": {
+            "u": "1. מה שמְךָ? מה שמֵךְ?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-27-b1-l1",
+          "text": {
+            "u": "2. מאין אתה? מאין את?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-27-b1-l2",
+          "text": {
+            "u": "3. איפה אתה עכשיו? איפה את עכשיו?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-27-b1-l3",
+          "text": {
+            "u": "4. איפה אתה גר? איפה את גרה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-27-b1-l4",
+          "text": {
+            "u": "5. אתה תייר? את תיירת?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-27-b1-l5",
+          "text": {
+            "u": "6. אתה עולה חדש? את עולה חדשה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-27-b1-l6",
+          "text": {
+            "u": "7. אתה עולה מרוסיה? את עולה מרוסיה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-27-b1-l7",
+          "text": {
+            "u": "8. אתה מוֹרֶה? את מוֹרָה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-27-b1-l8",
+          "text": {
+            "u": "9. אתה תלמיד? את תלמידה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-27-b1-l9",
+          "text": {
+            "u": "10. אתה תלמיד של המורה צפורה? את תלמידה של המורה צפורה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-27-b1-l10",
+          "text": {
+            "u": "11. אתה תלמיד טוב? את תלמידה טובה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-27-b1-l11",
+          "text": {
+            "u": "12. איפה אתה לומד? איפה את לומדת?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-27-b1-l12",
+          "text": {
+            "u": "13. איפה האולפן?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-27-b1-l13",
+          "text": {
+            "u": "14. אתה עובד? את עובדת?"
+          },
+          "perComprovar": false
+        }
+      ]
+    }
+  ],
+  "exercicis": []
+}

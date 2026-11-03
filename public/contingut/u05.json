@@ -1,0 +1,976 @@
+{
+  "id": "u05",
+  "num": 5,
+  "titol": "Anar i venir",
+  "color": "#3DB8A5",
+  "pagines": [
+    "pag-28",
+    "pag-29",
+    "pag-30",
+    "pag-31",
+    "pag-32"
+  ],
+  "vocabulari": [
+    {
+      "id": "u05-0",
+      "hebreu": "יֵשׁ",
+      "translit": "yesh",
+      "ca": "hi ha",
+      "pagina": "pag-28",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u05-1",
+      "hebreu": "הַרְבֵּה",
+      "translit": "harbe",
+      "ca": "molt, molts; invariable",
+      "pagina": "pag-28",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u05-2",
+      "hebreu": "אֵין",
+      "translit": "en",
+      "ca": "no hi ha",
+      "pagina": "pag-28",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u05-3",
+      "hebreu": "כִּיתָּה",
+      "translit": "kita / kitot",
+      "ca": "classe (grup), aula",
+      "pagina": "pag-28",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "כִּיתּוֹת"
+      ]
+    },
+    {
+      "id": "u05-4",
+      "hebreu": "רַק",
+      "translit": "rak",
+      "ca": "només",
+      "pagina": "pag-28",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u05-5",
+      "hebreu": "אַרְצוֹת־הַבְּרִית",
+      "translit": "artsot haberit",
+      "ca": "els Estats Units",
+      "pagina": "pag-28",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u05-6",
+      "hebreu": "מְעַט",
+      "translit": "meat",
+      "ca": "poc, pocs",
+      "pagina": "pag-28",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u05-7",
+      "hebreu": "אוֹ",
+      "translit": "o",
+      "ca": "o",
+      "pagina": "pag-28",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u05-8",
+      "hebreu": "שִׁיעוּר",
+      "translit": "shiur / shiurim",
+      "ca": "lliçó, sessió de classe",
+      "pagina": "pag-29",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "שִׁיעוּרִים"
+      ]
+    },
+    {
+      "id": "u05-9",
+      "hebreu": "הוֹלֵךְ – לָלֶכֶת (הָלַךְ)",
+      "translit": "holekh – lalékhet (halakh)",
+      "ca": "anar, caminar; present – infinitiu (passat)",
+      "pagina": "pag-29",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u05-10",
+      "hebreu": "לְ־",
+      "translit": "le- / la-",
+      "ca": "a, cap a (direcció); לַ־ amb l'article",
+      "pagina": "pag-29",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "לַ־"
+      ]
+    },
+    {
+      "id": "u05-11",
+      "hebreu": "בָּא – לָבוֹא (בָּא)",
+      "translit": "ba – lavo (ba)",
+      "ca": "venir, arribar; present – infinitiu (passat)",
+      "pagina": "pag-29",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u05-12",
+      "hebreu": "לְאָן?",
+      "translit": "lean",
+      "ca": "cap a on?",
+      "pagina": "pag-29",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u05-13",
+      "hebreu": "הַבַּיְתָה",
+      "translit": "habáyta",
+      "ca": "cap a casa",
+      "pagina": "pag-29",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u05-14",
+      "hebreu": "הַפְּעָלִים הַחֲדָשִׁים",
+      "translit": "hapealim haḥadashim",
+      "ca": "els verbs nous",
+      "pagina": "pag-29",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u05-15",
+      "hebreu": "פּוֹעַל",
+      "translit": "póal / pealim",
+      "ca": "verb",
+      "pagina": "pag-29",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "פְּעָלִים"
+      ]
+    },
+    {
+      "id": "u05-16",
+      "hebreu": "שְׁאֵלָה",
+      "translit": "sheela / sheelot",
+      "ca": "pregunta",
+      "pagina": "pag-32",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "שְׁאֵלוֹת"
+      ]
+    },
+    {
+      "id": "u05-17",
+      "hebreu": "תְּשׁוּבָה",
+      "translit": "teshuva / teshuvot",
+      "ca": "resposta",
+      "pagina": "pag-32",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "תְּשׁוּבוֹת"
+      ]
+    }
+  ],
+  "gramatica": [],
+  "textos": [
+    {
+      "id": "pag-28-b0",
+      "pagina": "pag-28",
+      "titol": {
+        "u": "בָּאוּלְפָּן בְּקִיבּוּץ דָּן",
+        "perComprovar": true,
+        "ca": "A l'ulpan del quibuts Dan"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-28-b0-l0",
+          "text": {
+            "u": "איפה אתה גר, רוברטו?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-28-b0-l1",
+          "text": {
+            "u": "אני גר בקיבוץ דן בגליל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-28-b0-l2",
+          "text": {
+            "u": "בגליל יש הרבה קיבוצים?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-28-b0-l3",
+          "text": {
+            "u": "כן, בגליל יש הרבה קיבוצים."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-28-b0-l4",
+          "text": {
+            "u": "גם בדרום-אמריקה יש קיבוצים?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-28-b0-l5",
+          "text": {
+            "u": "לא, בדרום-אמריקה אין קיבוצים."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-28-b0-l6",
+          "text": {
+            "u": "בקיבוץ דן יש אולפן?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-28-b0-l7",
+          "text": {
+            "u": "כן, בקיבוץ דן יש אולפן-עבודה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-28-b0-l8",
+          "text": {
+            "u": "אתה לומד באולפן בקיבוץ דן?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-28-b0-l9",
+          "text": {
+            "u": "כן, אני לומד שם."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-28-b0-l10",
+          "text": {
+            "u": "באולפן יש הרבה כיתות?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-28-b0-l11",
+          "text": {
+            "u": "לא, באולפן, בקיבוץ דן יש רק שלוש כיתות."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-28-b0-l12",
+          "text": {
+            "u": "יש באולפן הרבה תלמידים מארצות-הברית?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-28-b0-l13",
+          "text": {
+            "u": "לא, מארצות-הברית אין הרבה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-28-b0-l14",
+          "text": {
+            "u": "ומברזיל?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-28-b0-l15",
+          "text": {
+            "u": "גם מברזיל יש רק מעט תלמידים."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-28-b0-l16",
+          "text": {
+            "u": "באולפן יש מורים, או מורות?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-28-b0-l17",
+          "text": {
+            "u": "באולפן בקיבוץ דן יש רק מורות."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-28-b0-l18",
+          "text": {
+            "u": "הכיתה גדולה? היא יפה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-28-b0-l19",
+          "text": {
+            "u": "ככה-ככה."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-29-b0",
+      "pagina": "pag-29",
+      "titol": {
+        "u": "Continuació del diàleg",
+        "perComprovar": false,
+        "ca": "Els verbs nous"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-29-b0-l0",
+          "text": {
+            "u": "מה יש בכיתה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-29-b0-l1",
+          "text": {
+            "u": "סליחה, עכשיו יש שיעור. שלום! אני הולך לכיתה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-29-b0-l2",
+          "text": {
+            "u": "גם אתה בא לכיתה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-29-b0-l3",
+          "text": {
+            "u": "לא."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-29-b0-l4",
+          "text": {
+            "u": "לאן אתה הולך?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-29-b0-l5",
+          "text": {
+            "u": "אני הולך הביתה. להתראות!"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-29-b0-l6",
+          "text": {
+            "u": "להתראות!"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-29-b1",
+      "pagina": "pag-29",
+      "titol": {
+        "u": "הַפְּעָלִים הַחֲדָשִׁים",
+        "perComprovar": false,
+        "ca": "Els verbs nous"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-29-b1-l0",
+          "text": {
+            "u": "הוֹלֵךְ · הוֹלֶכֶת · הוֹלְכִים · הוֹלְכוֹת"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-29-b1-l1",
+          "text": {
+            "u": "בָּא · בָּאָה · בָּאִים · בָּאוֹת"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-29-b2",
+      "pagina": "pag-29",
+      "titol": {
+        "u": "תרגיל 16",
+        "perComprovar": false,
+        "ca": "Els verbs nous"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-29-b2-l0",
+          "text": {
+            "u": "תרגיל [המרה]"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-29-b3",
+      "pagina": "pag-29",
+      "titol": {
+        "u": "תרגיל 16",
+        "perComprovar": false,
+        "ca": "Els verbs nous"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-29-b3-l0",
+          "text": {
+            "u": "1. [חנה] באה לשיעור. (יצחק, שרה ושושנה, התלמידים)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-29-b3-l1",
+          "text": {
+            "u": "2. הוא בא [לכיתה]. (מתל-אביב, לחדר, לישראל, הביתה)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-29-b3-l2",
+          "text": {
+            "u": "3. [סטיב] הולך לעבודה. (יצחק ואני, המורות, חנה)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-29-b3-l3",
+          "text": {
+            "u": "4. מאין [אתה] בא ולאן אתה הולך? (אתם, את, אתן, חנה)"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-30-b0",
+      "pagina": "pag-30",
+      "titol": {
+        "u": "Quadre (marge)",
+        "perComprovar": false,
+        "ca": "Cap a on?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-30-b0-l0",
+          "text": {
+            "u": "לְאָן?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-30-b0-l1",
+          "text": {
+            "u": "לְ... לַ..."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-30-b1",
+      "pagina": "pag-30",
+      "titol": {
+        "u": "Diàleg",
+        "perComprovar": false,
+        "ca": "Cap a on?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-30-b1-l0",
+          "text": {
+            "u": "**אסתר:** יוסי, לאן אתה הולך?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-30-b1-l1",
+          "text": {
+            "u": "**יוסי:** אני הולך לתיאטרון, גם את באה לתיאטרון?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-30-b1-l2",
+          "text": {
+            "u": "**אסתר:** לא, אני הולכת לקונצרט."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-30-b1-l3",
+          "text": {
+            "u": "**יוסי:** גם דינה הולכת לקונצרט?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-30-b1-l4",
+          "text": {
+            "u": "**אסתר:** לא."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-30-b1-l5",
+          "text": {
+            "u": "**יוסי:** לאן היא הולכת?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-30-b1-l6",
+          "text": {
+            "u": "**אסתר:** היא הולכת לאולפָן. היא לומדת עברית."
+          },
+          "perComprovar": true
+        }
+      ]
+    },
+    {
+      "id": "pag-30-b2",
+      "pagina": "pag-30",
+      "titol": {
+        "u": "בְּ... בַּ... / לְ... לַ... (הבחנה)",
+        "perComprovar": false,
+        "ca": "Cap a on?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-30-b2-l0",
+          "text": {
+            "u": "רוברטו בא מברזיל לְקיבוץ דן."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-30-b2-l1",
+          "text": {
+            "u": "הוא בא לַקיבוץ בפברואר."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-30-b3",
+      "pagina": "pag-30",
+      "titol": {
+        "u": "בְּ... בַּ... / לְ... לַ... (הבחנה)",
+        "perComprovar": false,
+        "ca": "Cap a on?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-30-b3-l0",
+          "text": {
+            "u": "רוברטו גר עכשיו בְּקיבוץ דן."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-30-b3-l1",
+          "text": {
+            "u": "בַּקיבוץ הוא עובד ולומד."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-31-b0",
+      "pagina": "pag-31",
+      "titol": {
+        "u": "Quadres",
+        "perComprovar": false,
+        "ca": "A casa, cap a la casa, cap a casa"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-31-b0-l0",
+          "text": {
+            "u": "מאין...? · איפה...? · לאן...?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-31-b0-l1",
+          "text": {
+            "u": "מְ... מֵ... · בְּ... בַּ... (בָּ...) · לְ... לַ... (לָ...)"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-31-b1",
+      "pagina": "pag-31",
+      "titol": {
+        "u": "בַּבַּיִת / לַבַּיִת / הַבַּיְתָה (הבחנה)",
+        "perComprovar": false,
+        "ca": "A casa, cap a la casa, cap a casa"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-31-b1-l0",
+          "text": {
+            "u": "זה הבית של רחל ויעקב."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-31-b1-l1",
+          "text": {
+            "u": "איפה רחל?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-31-b1-l2",
+          "text": {
+            "u": "רחל בבית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-31-b1-l3",
+          "text": {
+            "u": "לאן הולכים רוברטו ויעקב?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-31-b1-l4",
+          "text": {
+            "u": "רוברטו הולך לבית של רחל ויעקב."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-31-b1-l5",
+          "text": {
+            "u": "יעקב הולך הביתה."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-31-b2",
+      "pagina": "pag-31",
+      "titol": {
+        "u": "Esquemes",
+        "perComprovar": false,
+        "ca": "A casa, cap a la casa, cap a casa"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-31-b2-l0",
+          "text": {
+            "u": "הוא ← לומד / עובד / גר"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-31-b2-l1",
+          "text": {
+            "u": "בְּ / בַּ ← אולפן, קיבוץ"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-31-b2-l2",
+          "text": {
+            "u": "בְּ ← ישראל, חיפה"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-31-b2-l3",
+          "text": {
+            "u": "הוא ← הולך / בא"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-31-b2-l4",
+          "text": {
+            "u": "לְ / לַ ← קונצרט, כיתה, מוזיאון"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-31-b2-l5",
+          "text": {
+            "u": "לְ ← קיבוץ דן, חנה"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-31-b2-l6",
+          "text": {
+            "u": "← הביתה"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-32-b0",
+      "pagina": "pag-32",
+      "titol": {
+        "u": "תרגיל 17",
+        "perComprovar": false,
+        "ca": "Exercicis 17 i 18"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-32-b0-l0",
+          "text": {
+            "u": "כתוב שאלות לתשובות. השתמש במילים: איפה מאין לאן"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-32-b1",
+      "pagina": "pag-32",
+      "titol": {
+        "u": "תרגיל 17",
+        "perComprovar": false,
+        "ca": "Exercicis 17 i 18"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-32-b1-l0",
+          "text": {
+            "u": "1. ____ — היא הולכת לאופרה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-32-b1-l1",
+          "text": {
+            "u": "2. ____ — היא עובדת בבנק."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-32-b1-l2",
+          "text": {
+            "u": "3. ____ — היא באה מהבית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-32-b1-l3",
+          "text": {
+            "u": "4. ____ — היא הולכת הביתה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-32-b1-l4",
+          "text": {
+            "u": "5. ____ — זה מרוסיה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-32-b1-l5",
+          "text": {
+            "u": "6. ____ — זה בבית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-32-b1-l6",
+          "text": {
+            "u": "7. ____ — הם באים לכיתה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-32-b1-l7",
+          "text": {
+            "u": "8. ____ — הם באים מהכיתה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-32-b1-l8",
+          "text": {
+            "u": "9. ____ — הן לומדות בחיפה."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-32-b2",
+      "pagina": "pag-32",
+      "titol": {
+        "u": "תרגיל 18",
+        "perComprovar": false,
+        "ca": "Exercicis 17 i 18"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-32-b2-l0",
+          "text": {
+            "u": "כתוב: בְּ... בַּ... לְ... לַ..."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-32-b3",
+      "pagina": "pag-32",
+      "titol": {
+        "u": "תרגיל 18",
+        "perComprovar": false,
+        "ca": "Exercicis 17 i 18"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-32-b3-l0",
+          "text": {
+            "u": "1. רוברטו גר ____קיבוץ דן. ____קיבוץ יש אולפן."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-32-b3-l1",
+          "text": {
+            "u": "2. רוברטו בא ____קיבוץ דן בפברואר."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-32-b3-l2",
+          "text": {
+            "u": "3. הם לומדים עברית ____אולפן-עבודה ____קיבוץ."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-32-b3-l3",
+          "text": {
+            "u": "4. הרבה תיירים באים ____ישראל ____אפריל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-32-b3-l4",
+          "text": {
+            "u": "5. אנחנו הולכים עכשיו ____כיתה והם הולכים ____עבודה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-32-b3-l5",
+          "text": {
+            "u": "6. יצחק לא ____בית, אבל שרה ____בית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-32-b3-l6",
+          "text": {
+            "u": "7. סטיב הולך ____חדר של רוברטו."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-32-b3-l7",
+          "text": {
+            "u": "8. יש הרבה אולפנים ____קיבוצים."
+          },
+          "perComprovar": false
+        }
+      ]
+    }
+  ],
+  "exercicis": []
+}

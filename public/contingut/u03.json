@@ -1,0 +1,1152 @@
+{
+  "id": "u03",
+  "num": 3,
+  "titol": "On vius i què fas",
+  "color": "#F2A93B",
+  "pagines": [
+    "pag-15",
+    "pag-16",
+    "pag-17",
+    "pag-18",
+    "pag-19"
+  ],
+  "vocabulari": [
+    {
+      "id": "u03-0",
+      "hebreu": "אֵיפֹה?",
+      "translit": "eifo",
+      "ca": "on?",
+      "pagina": "pag-15",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-1",
+      "hebreu": "עַכְשָׁיו",
+      "translit": "akhshav",
+      "ca": "ara",
+      "pagina": "pag-15",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-2",
+      "hebreu": "בְּ־",
+      "translit": "be- / ba-",
+      "ca": "a, en / al, a la",
+      "pagina": "pag-15",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "בַּ־"
+      ]
+    },
+    {
+      "id": "u03-3",
+      "hebreu": "מֶרְכַּז-קְלִיטָה",
+      "translit": "merkaz klita",
+      "ca": "centre d'acollida d'immigrants",
+      "pagina": "pag-15",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-4",
+      "hebreu": "אוּלְפָּן",
+      "translit": "ulpan / ulpanim",
+      "ca": "ulpan, escola d'hebreu intensiu",
+      "pagina": "pag-15",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "אוּלְפָּנִים"
+      ]
+    },
+    {
+      "id": "u03-5",
+      "hebreu": "קִיבּוּץ",
+      "translit": "kibuts / kibutsim",
+      "ca": "quibuts, colònia agrícola col·lectiva",
+      "pagina": "pag-15",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "קִיבּוּצִים"
+      ]
+    },
+    {
+      "id": "u03-6",
+      "hebreu": "אֶרֶץ",
+      "translit": "erets / aratsot",
+      "ca": "país, terra; fem.",
+      "pagina": "pag-15",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "אֲרָצוֹת (נ׳)"
+      ]
+    },
+    {
+      "id": "u03-7",
+      "hebreu": "בָּאָרֶץ",
+      "translit": "baarets",
+      "ca": "al país, a Israel",
+      "pagina": "pag-15",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-8",
+      "hebreu": "גָּר – לָגוּר",
+      "translit": "gar – lagur",
+      "ca": "viu – viure, residir",
+      "pagina": "pag-17",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-9",
+      "hebreu": "רְחוֹב",
+      "translit": "reḥov / reḥovot",
+      "ca": "carrer; masc.",
+      "pagina": "pag-17",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "רְחוֹבוֹת (ז׳)"
+      ]
+    },
+    {
+      "id": "u03-10",
+      "hebreu": "לוֹמֵד – לִלְמוֹד",
+      "translit": "lomed – lilmod",
+      "ca": "estudia, aprèn – estudiar, aprendre",
+      "pagina": "pag-17",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-11",
+      "hebreu": "שָׁם",
+      "translit": "sham",
+      "ca": "allà",
+      "pagina": "pag-17",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-12",
+      "hebreu": "עִבְרִית",
+      "translit": "ivrit",
+      "ca": "hebreu, la llengua",
+      "pagina": "pag-17",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-13",
+      "hebreu": "עֲבוֹדָה",
+      "translit": "avoda / avodot",
+      "ca": "feina, treball",
+      "pagina": "pag-17",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "עֲבוֹדוֹת"
+      ]
+    },
+    {
+      "id": "u03-14",
+      "hebreu": "אוּלְפַּן-עֲבוֹדָה",
+      "translit": "ulpan avoda",
+      "ca": "ulpan de treball, d'un quibuts",
+      "pagina": "pag-17",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-15",
+      "hebreu": "עוֹבֵד – לַעֲבוֹד",
+      "translit": "oved – laavod",
+      "ca": "treballa – treballar",
+      "pagina": "pag-17",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-16",
+      "hebreu": "עִם",
+      "translit": "im",
+      "ca": "amb",
+      "pagina": "pag-17",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-17",
+      "hebreu": "סְטוּדֶנְטִית",
+      "translit": "studentit / studentiyot",
+      "ca": "estudiant universitària / estudiants",
+      "pagina": "pag-17",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "סְטוּדֶנְטִיּוֹת"
+      ]
+    },
+    {
+      "id": "u03-18",
+      "hebreu": "מִסְפָּר",
+      "translit": "mispar / misparim",
+      "ca": "número, nombre",
+      "pagina": "pag-17",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "מִסְפָּרִים"
+      ]
+    },
+    {
+      "id": "u03-19",
+      "hebreu": "עוֹשֶׂה – לַעֲשׂוֹת",
+      "translit": "ose – laasot",
+      "ca": "fa – fer",
+      "pagina": "pag-18",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-20",
+      "hebreu": "אֶפֶס",
+      "translit": "efes",
+      "ca": "zero",
+      "pagina": "pag-19",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-21",
+      "hebreu": "אַחַת",
+      "translit": "aḥat",
+      "ca": "u, una",
+      "pagina": "pag-19",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-22",
+      "hebreu": "שְׁתַּיִם",
+      "translit": "shtayim",
+      "ca": "dos",
+      "pagina": "pag-19",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-23",
+      "hebreu": "שָׁלוֹשׁ",
+      "translit": "shalosh",
+      "ca": "tres",
+      "pagina": "pag-19",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-24",
+      "hebreu": "אַרְבַּע",
+      "translit": "arba",
+      "ca": "quatre",
+      "pagina": "pag-19",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-25",
+      "hebreu": "חָמֵשׁ",
+      "translit": "ḥamesh",
+      "ca": "cinc",
+      "pagina": "pag-19",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-26",
+      "hebreu": "שֵׁשׁ",
+      "translit": "shesh",
+      "ca": "sis",
+      "pagina": "pag-19",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-27",
+      "hebreu": "שֶׁבַע",
+      "translit": "sheva",
+      "ca": "set",
+      "pagina": "pag-19",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-28",
+      "hebreu": "שְׁמוֹנֶה",
+      "translit": "shmone",
+      "ca": "vuit",
+      "pagina": "pag-19",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-29",
+      "hebreu": "תֵּשַׁע",
+      "translit": "tesha",
+      "ca": "nou",
+      "pagina": "pag-19",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-30",
+      "hebreu": "עֶשֶׂר",
+      "translit": "eser",
+      "ca": "deu",
+      "pagina": "pag-19",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-31",
+      "hebreu": "עַד",
+      "translit": "ad",
+      "ca": "fins a",
+      "pagina": "pag-19",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-32",
+      "hebreu": "קְרָא!",
+      "translit": "kra",
+      "ca": "llegeix!",
+      "pagina": "pag-19",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-33",
+      "hebreu": "מְכַבֵּי-אֵשׁ",
+      "translit": "mekhabei esh",
+      "ca": "bombers",
+      "pagina": "pag-19",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-34",
+      "hebreu": "מָגֵן דָּוִד אָדוֹם",
+      "translit": "magen david adom",
+      "ca": "Maguen David Adom, el servei d'ambulàncies",
+      "pagina": "pag-19",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u03-35",
+      "hebreu": "מִשְׁטָרָה",
+      "translit": "mishtara",
+      "ca": "policia",
+      "pagina": "pag-19",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    }
+  ],
+  "gramatica": [],
+  "textos": [
+    {
+      "id": "pag-15-b0",
+      "pagina": "pag-15",
+      "titol": {
+        "u": "איפה?",
+        "perComprovar": false,
+        "ca": "Ara la família Leví és a Israel"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-15-b0-l0",
+          "text": {
+            "u": "יצחק, מאין אתה ושרה? — אנחנו מברזיל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-15-b0-l1",
+          "text": {
+            "u": "איפה אתם עכשיו? — עכשיו אנחנו בְּישראל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-15-b0-l2",
+          "text": {
+            "u": "בְּמרכז-קליטה בְּקרית-שמונָה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-15-b0-l3",
+          "text": {
+            "u": "איפה קרית-שמונה? — קרית-שמונה בַּגָּליל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-15-b0-l4",
+          "text": {
+            "u": "ואיפה רוברטו? — רוברטו בַּאולפן בְּקיבוץ דָּן."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-15-b0-l5",
+          "text": {
+            "u": "גם קיבוץ דן בַּגליל? — כן, גם קיבוץ דן בַּגליל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-15-b0-l6",
+          "text": {
+            "u": "גם אסתר בְּקיבוץ? — לא, אסתר בְּחיפָה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-15-b0-l7",
+          "text": {
+            "u": "היא סטודנטית בָּאוניברסיטה"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-15-b0-l8",
+          "text": {
+            "u": "בְּחיפה."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-15-b1",
+      "pagina": "pag-15",
+      "titol": {
+        "u": "איפה?",
+        "perComprovar": false,
+        "ca": "Ara la família Leví és a Israel"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-15-b1-l0",
+          "text": {
+            "u": "עכשיו משפחת לוי בארץ."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-16-b0",
+      "pagina": "pag-16",
+      "titol": {
+        "u": "תרגיל 5",
+        "perComprovar": false,
+        "ca": "Exercicis 5 i 6"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-16-b0-l0",
+          "text": {
+            "u": "כתוב: מי, מה, מאין, איפה"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-16-b1",
+      "pagina": "pag-16",
+      "titol": {
+        "u": "תרגיל 5",
+        "perComprovar": false,
+        "ca": "Exercicis 5 i 6"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-16-b1-l0",
+          "text": {
+            "u": "1. ____ אתה? — אני סטיב."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-16-b1-l1",
+          "text": {
+            "u": "2. ____ אתה? — אני מאנגליה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-16-b1-l2",
+          "text": {
+            "u": "3. ____ אתה עכשיו? — בישראל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-16-b1-l3",
+          "text": {
+            "u": "4. ____ אילת? — בישראל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-16-b1-l4",
+          "text": {
+            "u": "5. ____ יוהנסבורג? — בְּדרום-אפריקה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-16-b1-l5",
+          "text": {
+            "u": "6. ____ סם? — מִדרום-אפריקה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-16-b1-l6",
+          "text": {
+            "u": "7. ____ מברזיל? — רוברטו מִברזיל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-16-b1-l7",
+          "text": {
+            "u": "8. ____ עמנואל? — עמנואל מִברזיל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-16-b1-l8",
+          "text": {
+            "u": "9. ____ זה? — זה ספר."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-16-b1-l9",
+          "text": {
+            "u": "10. ____ המוֹרָה של יצחק? — צפורה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-16-b1-l10",
+          "text": {
+            "u": "11. ____ המורה של יצחק? — מישראל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-16-b1-l11",
+          "text": {
+            "u": "12. ____ המורה? — באולפן."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-16-b2",
+      "pagina": "pag-16",
+      "titol": {
+        "u": "תרגיל 6",
+        "perComprovar": false,
+        "ca": "Exercicis 5 i 6"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-16-b2-l0",
+          "text": {
+            "u": "כתוב ו... בּ... מ... ה..."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-16-b3",
+      "pagina": "pag-16",
+      "titol": {
+        "u": "תרגיל 6",
+        "perComprovar": false,
+        "ca": "Exercicis 5 i 6"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-16-b3-l0",
+          "text": {
+            "u": "1. רוברטו ____אסתר אח ____אחות. הם עולים חדשים ____ברזיל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-16-b3-l1",
+          "text": {
+            "u": "2. ירושלים לא ____אנגליה. ירושלים ____ישראל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-16-b3-l2",
+          "text": {
+            "u": "3. זה לא ____ארגנטינה, זה מרוסיה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-16-b3-l3",
+          "text": {
+            "u": "4. ____הורים של רוברטו תלמידים ____אולפן ____קרית-שמונה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-16-b3-l4",
+          "text": {
+            "u": "5. סטיב ____דוריס תיירים ____אנגליה. עכשיו הם ____ישראל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-16-b3-l5",
+          "text": {
+            "u": "6. ____ילדים של צפורה גדולים ____יפים."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-17-b0",
+      "pagina": "pag-17",
+      "titol": {
+        "u": "איפה אתה גר?",
+        "perComprovar": false,
+        "ca": "On vius?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-17-b0-l0",
+          "text": {
+            "u": "יצחק, איפה אתה גר? — אני גר בקרית-שמונה,"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-17-b0-l1",
+          "text": {
+            "u": "במרכז-קליטה בְּרחוב תֵּל-חַי."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-17-b0-l2",
+          "text": {
+            "u": "ואיפה אתה לומד? — אני לומד באולפן במרכז-קליטה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-17-b0-l3",
+          "text": {
+            "u": "גם שרה לומדת שם? — כן גם היא לומדת שם."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-17-b0-l4",
+          "text": {
+            "u": "מה אתם לומדים? — אנחנו לומדים עברית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-17-b0-l5",
+          "text": {
+            "u": "ואיפה לומד רוברטו? — הוא לומד באולפן-עבודה"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-17-b0-l6",
+          "text": {
+            "u": "בקיבוץ דן. הוא עובד ולומד."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-17-b0-l7",
+          "text": {
+            "u": "התלמידים באולפן-עבודה"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-17-b0-l8",
+          "text": {
+            "u": "עובדים ולומדים."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-17-b0-l9",
+          "text": {
+            "u": "גם אסתר גרה בקיבוץ? — לא, היא גרה בחיפה"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-17-b0-l10",
+          "text": {
+            "u": "עם חברה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-17-b0-l11",
+          "text": {
+            "u": "אסתר עובדת? — לא, היא לא עובדת, היא לומדת."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-17-b0-l12",
+          "text": {
+            "u": "היא סטודנטית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-17-b0-l13",
+          "text": {
+            "u": "מי החברה של אסתר? — תמר כֹּהֵן. גם היא"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-17-b0-l14",
+          "text": {
+            "u": "עולה חדשה מברזיל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-17-b0-l15",
+          "text": {
+            "u": "גם היא סטודנטית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-17-b0-l16",
+          "text": {
+            "u": "איפה הן גרות? — הן גרות ברחוב הָאוֹרֶן מספר 7 (שֶׁבַע)."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-17-b0-l17",
+          "text": {
+            "u": "תמר ואסתר לומדות באוניברסיטה"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-17-b0-l18",
+          "text": {
+            "u": "בחיפה. הן לא עובדות."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-17-b0-l19",
+          "text": {
+            "u": "אסתר לומדת פסיכולוגיה"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-17-b0-l20",
+          "text": {
+            "u": "ותמר לומדת סוציולוגיה."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-18-b0",
+      "pagina": "pag-18",
+      "titol": {
+        "u": "מה עושה?",
+        "perComprovar": false,
+        "ca": "Què fa en Roberto?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-18-b0-l0",
+          "text": {
+            "u": "מה עושֶׂה רוברטו? — רוברטו עובד ולומד בקיבוץ."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-18-b0-l1",
+          "text": {
+            "u": "מה עושָׂה אסתר? — אסתר לומדת פסיכולוגיה"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-18-b0-l2",
+          "text": {
+            "u": "באוניברסיטה בחיפה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-18-b0-l3",
+          "text": {
+            "u": "מה עושִׂים שרה ויצחק? — הם לומדים עברית"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-18-b0-l4",
+          "text": {
+            "u": "באולפן בקרית-שמונה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-18-b0-l5",
+          "text": {
+            "u": "מה עושות אסתר ותמר? — הן לומדות"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-18-b0-l6",
+          "text": {
+            "u": "באוניברסיטה בחיפה."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-18-b1",
+      "pagina": "pag-18",
+      "titol": {
+        "u": "El present",
+        "perComprovar": false,
+        "ca": "Què fa en Roberto?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-18-b1-l0",
+          "text": {
+            "u": "גָּר · גָּרָה · גָּרִים · גָּרות"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-18-b1-l1",
+          "text": {
+            "u": "לומֵד · לומֶדֶת · לומְדִים · לומדות"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-18-b1-l2",
+          "text": {
+            "u": "עובֵד · עובֶדֶת · עובְדִים · עובְדות"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-18-b1-l3",
+          "text": {
+            "u": "עושֶׂה · עושָׂה · עושִׂים · עושות"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-18-b2",
+      "pagina": "pag-18",
+      "titol": {
+        "u": "תרגיל 7",
+        "perComprovar": false,
+        "ca": "Què fa en Roberto?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-18-b2-l0",
+          "text": {
+            "u": "תרגיל המרה"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-18-b3",
+      "pagina": "pag-18",
+      "titol": {
+        "u": "תרגיל 7",
+        "perComprovar": false,
+        "ca": "Què fa en Roberto?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-18-b3-l0",
+          "text": {
+            "u": "1. <u>הוא</u> גר בירושלים. הוא לומד. הוא לא עובד."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-18-b3-l1",
+          "text": {
+            "u": "(רחל, הם, חנה ורחל, הסטודנט)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-18-b3-l2",
+          "text": {
+            "u": "2. מה <u>אתה</u> עושה? (אתן, את, אתם, היא, הם)"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-19-b0",
+      "pagina": "pag-19",
+      "titol": {
+        "u": "מספרים",
+        "perComprovar": false,
+        "ca": "Els nombres"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-19-b0-l0",
+          "text": {
+            "u": "0 אֶפֶס"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-19-b0-l1",
+          "text": {
+            "u": "1 אַחַת"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-19-b0-l2",
+          "text": {
+            "u": "2 שְׁתַּיִם"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-19-b0-l3",
+          "text": {
+            "u": "3 שָׁלוש"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-19-b0-l4",
+          "text": {
+            "u": "4 אַרְבַּע"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-19-b0-l5",
+          "text": {
+            "u": "5 חָמֵש"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-19-b0-l6",
+          "text": {
+            "u": "6 שֵׁש"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-19-b0-l7",
+          "text": {
+            "u": "7 שֶׁבַע"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-19-b0-l8",
+          "text": {
+            "u": "8 שְׁמוֹנֶה"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-19-b0-l9",
+          "text": {
+            "u": "9 תֵּשַׁע"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-19-b0-l10",
+          "text": {
+            "u": "10 עֶשֶׂר"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-19-b1",
+      "pagina": "pag-19",
+      "titol": {
+        "u": "תרגיל 8",
+        "perComprovar": false,
+        "ca": "Els nombres"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-19-b1-l0",
+          "text": {
+            "u": "קרא את המשפטים:"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-19-b2",
+      "pagina": "pag-19",
+      "titol": {
+        "u": "תרגיל 8",
+        "perComprovar": false,
+        "ca": "Els nombres"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-19-b2-l0",
+          "text": {
+            "u": "1. מִספר הטלפון של משה הוא: 228071."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-19-b2-l1",
+          "text": {
+            "u": "2. מספר הטלפון של המורה הוא: 544963."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-19-b2-l2",
+          "text": {
+            "u": "3. שמואל גר ברחוב הֶרצל מספר 10."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-19-b2-l3",
+          "text": {
+            "u": "4. צפורה גרה ברחוב שָׁפִּירָא מספר 6."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-19-b2-l4",
+          "text": {
+            "u": "5. זה אוטובוס מספר 9."
+          },
+          "perComprovar": false
+        }
+      ]
+    }
+  ],
+  "exercicis": []
+}

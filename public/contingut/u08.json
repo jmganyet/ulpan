@@ -1,0 +1,1496 @@
+{
+  "id": "u08",
+  "num": 8,
+  "titol": "L'infinitiu i els verbs modals",
+  "color": "#C06BD6",
+  "pagines": [
+    "pag-44",
+    "pag-45",
+    "pag-46",
+    "pag-47",
+    "pag-48",
+    "pag-49"
+  ],
+  "vocabulari": [
+    {
+      "id": "u08-0",
+      "hebreu": "שֵׁם הַפּוֹעַל",
+      "translit": "shem hapoal",
+      "ca": "infinitiu; lit. «el nom del verb»",
+      "pagina": "pag-44",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u08-1",
+      "hebreu": "בָּא – לָבוֹא",
+      "translit": "ba – lavo",
+      "ca": "venir: present – infinitiu",
+      "pagina": "pag-44",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u08-2",
+      "hebreu": "כּוֹתֵב – לִכְתּוֹב",
+      "translit": "kotev – likhtov",
+      "ca": "escriure: present – infinitiu",
+      "pagina": "pag-44",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u08-3",
+      "hebreu": "עוֹמֵד – לַעֲמוֹד",
+      "translit": "omed – laamod",
+      "ca": "estar dret: present – infinitiu",
+      "pagina": "pag-44",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u08-4",
+      "hebreu": "הוֹלֵךְ – לָלֶכֶת",
+      "translit": "holekh – lalekhet, accent la-LE-khet",
+      "ca": "anar: present – infinitiu",
+      "pagina": "pag-44",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u08-5",
+      "hebreu": "יוֹשֵׁב – לָשֶׁבֶת",
+      "translit": "yoshev – lashevet, accent la-SHE-vet",
+      "ca": "seure, estar assegut: present – infinitiu",
+      "pagina": "pag-44",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u08-6",
+      "hebreu": "אוֹמֵר – לוֹמַר",
+      "translit": "omer – lomar / leemor",
+      "ca": "dir: present – infinitiu",
+      "pagina": "pag-44",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "לֶאֱמוֹר"
+      ]
+    },
+    {
+      "id": "u08-7",
+      "hebreu": "לְמַד!",
+      "translit": "lemad",
+      "ca": "aprèn!, estudia!",
+      "pagina": "pag-44",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u08-8",
+      "hebreu": "וְכוּ׳ (וְכוּלֵי)",
+      "translit": "vekhule",
+      "ca": "etcètera",
+      "pagina": "pag-45",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u08-9",
+      "hebreu": "אֵילוּ",
+      "translit": "elu",
+      "ca": "quins, quines",
+      "pagina": "pag-46",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u08-10",
+      "hebreu": "צָרְפַת",
+      "translit": "tsarfat",
+      "ca": "França",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u08-11",
+      "hebreu": "מִצְרַיִם",
+      "translit": "mitsrayim, accent mits-RA-yim",
+      "ca": "Egipte",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u08-12",
+      "hebreu": "אוֹסְטְרַלְיָה",
+      "translit": "ostralya",
+      "ca": "Austràlia",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u08-13",
+      "hebreu": "יָוָן",
+      "translit": "yavan / yevanit",
+      "ca": "Grècia / grec",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "יְוָנִית"
+      ]
+    },
+    {
+      "id": "u08-14",
+      "hebreu": "אִיטַלְיָה",
+      "translit": "italya / italkit",
+      "ca": "Itàlia / italià",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "אִיטַלְקִית"
+      ]
+    },
+    {
+      "id": "u08-15",
+      "hebreu": "יַפָּן",
+      "translit": "yapan / yapanit",
+      "ca": "Japó / japonès",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "יַפָּנִית"
+      ]
+    },
+    {
+      "id": "u08-16",
+      "hebreu": "גֶּרְמַנְיָה",
+      "translit": "germanya",
+      "ca": "Alemanya",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u08-17",
+      "hebreu": "סְפָרַד",
+      "translit": "sfarad / sfaradit",
+      "ca": "Espanya / castellà",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "סְפָרַדִּית"
+      ]
+    },
+    {
+      "id": "u08-18",
+      "hebreu": "הוֹלַנְד",
+      "translit": "holand / holandit",
+      "ca": "Holanda / neerlandès",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "הוֹלַנְדִּית"
+      ]
+    },
+    {
+      "id": "u08-19",
+      "hebreu": "סִין",
+      "translit": "sin / sinit",
+      "ca": "Xina / xinès",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "סִינִית"
+      ]
+    },
+    {
+      "id": "u08-20",
+      "hebreu": "הוּנְגַרְיָה",
+      "translit": "hungarya / hungarit",
+      "ca": "Hongria / hongarès",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "הוּנְגָרִית"
+      ]
+    },
+    {
+      "id": "u08-21",
+      "hebreu": "פּוֹלִין",
+      "translit": "polin / polanit",
+      "ca": "Polònia / polonès",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "פּוֹלָנִית"
+      ]
+    },
+    {
+      "id": "u08-22",
+      "hebreu": "רוֹמַנְיָה",
+      "translit": "romanya / romanit",
+      "ca": "Romania / romanès",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "רוֹמָנִית"
+      ]
+    },
+    {
+      "id": "u08-23",
+      "hebreu": "שְׁוֶודְיָה",
+      "translit": "shvedya / shvedit",
+      "ca": "Suècia / suec",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "שְׁוֶודִית"
+      ]
+    },
+    {
+      "id": "u08-24",
+      "hebreu": "טוּרְקִיָּה",
+      "translit": "turkiya / turkit",
+      "ca": "Turquia / turc",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "טוּרְקִית"
+      ]
+    },
+    {
+      "id": "u08-25",
+      "hebreu": "אוֹהֵב – לֶאֱהוֹב",
+      "translit": "ohev – leehov",
+      "ca": "agradar, estimar: present – infinitiu",
+      "pagina": "pag-47",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u08-26",
+      "hebreu": "צָרִיךְ",
+      "translit": "tsarikh / tsrikha",
+      "ca": "haver de, caldre",
+      "pagina": "pag-47",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "צְרִיכָה"
+      ]
+    },
+    {
+      "id": "u08-27",
+      "hebreu": "בְּרֵירָה",
+      "translit": "breira / breirot",
+      "ca": "opció, alternativa",
+      "pagina": "pag-47",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "בְּרֵירוֹת"
+      ]
+    },
+    {
+      "id": "u08-28",
+      "hebreu": "אֵין בְּרֵירָה",
+      "translit": "ein breira",
+      "ca": "no hi ha més remei",
+      "pagina": "pag-47",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u08-29",
+      "hebreu": "יָכוֹל",
+      "translit": "yakhol / yekhola",
+      "ca": "poder",
+      "pagina": "pag-47",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "יְכוֹלָה"
+      ]
+    },
+    {
+      "id": "u08-30",
+      "hebreu": "חוֹלֶה",
+      "translit": "ḥole / ḥola",
+      "ca": "malalt / malalta",
+      "pagina": "pag-48",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "חוֹלָה"
+      ]
+    },
+    {
+      "id": "u08-31",
+      "hebreu": "הַיּוֹם",
+      "translit": "hayom",
+      "ca": "avui",
+      "pagina": "pag-48",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u08-32",
+      "hebreu": "טוּר",
+      "translit": "tur / turim",
+      "ca": "columna / columnes",
+      "pagina": "pag-49",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "טוּרִים"
+      ]
+    },
+    {
+      "id": "u08-33",
+      "hebreu": "הוֹסֵף ל...!",
+      "translit": "hosef le-",
+      "ca": "afegeix a...!",
+      "pagina": "pag-49",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u08-34",
+      "hebreu": "כַּמָּה",
+      "translit": "kama, accent KA-ma",
+      "ca": "uns quants; quant?",
+      "pagina": "pag-49",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    }
+  ],
+  "gramatica": [],
+  "textos": [
+    {
+      "id": "pag-44-b0",
+      "pagina": "pag-44",
+      "titol": {
+        "u": "רוצה + שם הפועל",
+        "perComprovar": false,
+        "ca": "L'infinitiu"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-44-b0-l0",
+          "text": {
+            "u": "יצחק לא יודע עברית, הוא רוצה לָדַעַת עברית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-44-b0-l1",
+          "text": {
+            "u": "יצחק לא מבין עברית, הוא רוצה לְהָבִין עברית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-44-b0-l2",
+          "text": {
+            "u": "יצחק רוצה ללמוד לְדַבֵּר, לִקרוא וְלִכתוב עברית."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-44-b1",
+      "pagina": "pag-44",
+      "titol": {
+        "u": "שֵׁם הַפּוֹעַל",
+        "perComprovar": false,
+        "ca": "L'infinitiu"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-44-b1-l0",
+          "text": {
+            "u": "יצחק רוֹצֶה"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-44-b1-l1",
+          "text": {
+            "u": "שרה רוֹצָה"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-44-b1-l2",
+          "text": {
+            "u": "הילדים רוֹצִים"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-44-b1-l3",
+          "text": {
+            "u": "הילדות רוצות"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-44-b2",
+      "pagina": "pag-44",
+      "titol": {
+        "u": "שֵׁם הַפּוֹעַל",
+        "perComprovar": false,
+        "ca": "L'infinitiu"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-44-b2-l0",
+          "text": {
+            "u": "לָדַעַת"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-44-b2-l1",
+          "text": {
+            "u": "ללמוד"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-44-b2-l2",
+          "text": {
+            "u": "לְדַבֵּר"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-44-b2-l3",
+          "text": {
+            "u": "לִקרוא"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-44-b2-l4",
+          "text": {
+            "u": "לִכתוב"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-44-b2-l5",
+          "text": {
+            "u": "לְהָבִין"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-44-b3",
+      "pagina": "pag-44",
+      "titol": {
+        "u": "שֵׁם הַפּוֹעַל",
+        "perComprovar": false,
+        "ca": "L'infinitiu"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-44-b3-l0",
+          "text": {
+            "u": "→ עברית"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-44-b4",
+      "pagina": "pag-44",
+      "titol": {
+        "u": "שֵׁם הַפּוֹעַל",
+        "perComprovar": false,
+        "ca": "L'infinitiu"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-44-b4-l0",
+          "text": {
+            "u": "דוריס יודעת לְדַבֵּר, לִקרוא וְלִכתוב אנגלית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-44-b4-l1",
+          "text": {
+            "u": "דוריס לומדת לְדַבֵּר, לִקרוא וְלִכתוב עברית."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-44-b5",
+      "pagina": "pag-44",
+      "titol": {
+        "u": "Llista de verbs",
+        "perComprovar": false,
+        "ca": "L'infinitiu"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-44-b5-l0",
+          "text": {
+            "u": "בָּא - לָבוא · לומֵד - ללמוד · מְדַבֵּר - לְדַבֵּר"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-44-b5-l1",
+          "text": {
+            "u": "גָּר - לָגור · כותֵב - לִכתוב · יודֵעַ - לָדַעַת"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-44-b5-l2",
+          "text": {
+            "u": "מֵבִין - לְהָבִין · קורֵא - לִקרוא · רוצֶה - לִרצות"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-44-b5-l3",
+          "text": {
+            "u": "הולֵך - לָלֶכֶת · עובֵד - לַעֲבוד · עושֶׂה - לַעֲשׂות"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-44-b5-l4",
+          "text": {
+            "u": "יושֵב - לָשֶׁבֶת · עומֵד - לַעֲמוד · אומֵר - לומַר/לֶאֱמור"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-45-b0",
+      "pagina": "pag-45",
+      "titol": {
+        "u": "קשה + שם הפועל",
+        "perComprovar": false,
+        "ca": "«És difícil» + infinitiu"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-45-b0-l0",
+          "text": {
+            "u": "דוריס אומרת: \"קשה ללמוד עברית\"."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-45-b0-l1",
+          "text": {
+            "u": "אומרים: קשה ללכת, קשה לומר, קשה לקרוא,"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-45-b0-l2",
+          "text": {
+            "u": "קשה להבין, קשה לדבר וכו' (וְכוּלֵי)"
+          },
+          "perComprovar": true
+        }
+      ]
+    },
+    {
+      "id": "pag-45-b1",
+      "pagina": "pag-45",
+      "titol": {
+        "u": "תרגיל 26",
+        "perComprovar": false,
+        "ca": "«És difícil» + infinitiu"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-45-b1-l0",
+          "text": {
+            "u": "כתוב את שם הפועל"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-45-b2",
+      "pagina": "pag-45",
+      "titol": {
+        "u": "תרגיל 26",
+        "perComprovar": false,
+        "ca": "«És difícil» + infinitiu"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-45-b2-l0",
+          "text": {
+            "u": "1. רוברטו עובד. גם עמנואל ומריו רוצים ____."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-45-b2-l1",
+          "text": {
+            "u": "2. יצחק גר בקרית-שמונה, הוא רוצה ____ באילת."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-45-b2-l2",
+          "text": {
+            "u": "3. שרה לומדת עברית, היא רוצה ____ גם אנגלית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-45-b2-l3",
+          "text": {
+            "u": "4. הן הולכות הביתה. גם אני רוצה ____ הביתה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-45-b2-l4",
+          "text": {
+            "u": "5. אסתר יושבת על-יד החלון. תמר רוצה ____ על-יד אסתר."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-45-b2-l5",
+          "text": {
+            "u": "6. חנה קוראת עברית. גם רחל יודעת ____ עברית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-45-b2-l6",
+          "text": {
+            "u": "7. יוסף כותב עברית. רוברטו לומד ____ עברית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-45-b2-l7",
+          "text": {
+            "u": "8. חנה באה לקונצרט. גם אתה רוצה ____?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-45-b2-l8",
+          "text": {
+            "u": "9. מה אתן עושות? מה אתן רוצות ____?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-45-b2-l9",
+          "text": {
+            "u": "10. היא עומדת באוטובוס. היא אומרת שקשה ____."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-45-b2-l10",
+          "text": {
+            "u": "11. אנחנו לא יודעים מה הילד רוצה. קשה ____ מה הוא רוצה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-45-b2-l11",
+          "text": {
+            "u": "12. שרה לא מבינה מה אומרים ברדיו. קשה ____ מה שאומרים ברדיו בעברית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-45-b2-l12",
+          "text": {
+            "u": "13. דוריס מדברת אנגלית. היא אומרת שקשה ____ עברית."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-46-b0",
+      "pagina": "pag-46",
+      "titol": {
+        "u": "אֵיזֶה - אֵיזוֹ",
+        "perComprovar": false,
+        "ca": "Quines llengües parlen?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-46-b0-l0",
+          "text": {
+            "u": "איזה קפה אתה רוצה? אני רוצה קפה שחור."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-46-b0-l1",
+          "text": {
+            "u": "איזו שפה אתה לומד? אני לומד עברית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-46-b0-l2",
+          "text": {
+            "u": "איזה (אֵילוּ) שפות יודע סטיב? סטיב יודע אַנגלִית, גֶרמַנִית וְצָרפַתִית."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-46-b1",
+      "pagina": "pag-46",
+      "titol": {
+        "u": "אֵיזֶה שָׂפוֹת הֵם מְדַבְּרִים?",
+        "perComprovar": false,
+        "ca": "Quines llengües parlen?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-46-b1-l0",
+          "text": {
+            "u": "בוריס מרוסיָה, הוא מדבר רוסִית. ברוסיה מדברים רוסית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-46-b1-l1",
+          "text": {
+            "u": "נטלי מצָרפַת, היא מדברת צָרפַתִית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-46-b1-l2",
+          "text": {
+            "u": "בצרפת מדברים צרפתית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-46-b1-l3",
+          "text": {
+            "u": "אַחמד ממִצְרַיִם, הוא מדבר עֲרָבִית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-46-b1-l4",
+          "text": {
+            "u": "במצרים מדברים ערבית."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-46-b2",
+      "pagina": "pag-46",
+      "titol": {
+        "u": "Països i llengües",
+        "perComprovar": false,
+        "ca": "Quines llengües parlen?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-46-b2-l0",
+          "text": {
+            "u": "אוסטרַלְיָה - אַנגלִית · יָוָן - יְוָנִית"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-46-b2-l1",
+          "text": {
+            "u": "אִיטַלְיָה - אִיטַלְקִית · יַפָּן - יַפָּנִית"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-46-b2-l2",
+          "text": {
+            "u": "גֶרמַנְיָה - גֶרמָנִית · סְפָרַד - סְפָרַדִּית"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-46-b2-l3",
+          "text": {
+            "u": "הולַנד - הולַנדִית · סִין - סִינִית"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-46-b2-l4",
+          "text": {
+            "u": "הונגַרְיָה - הונגָרִית · פּולִין - פּולָנִית"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-46-b2-l5",
+          "text": {
+            "u": "בְּרָזִיל - פורטוגֶזִית · רומַנְיָה - רומָנִית"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-46-b2-l6",
+          "text": {
+            "u": "שְׁוֶודְיָה - שְׁוֶודִית · טורְקִיָה - טורְקִית"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-47-b0",
+      "pagina": "pag-47",
+      "titol": {
+        "u": "תרגיל 27",
+        "perComprovar": false,
+        "ca": "Qui li agrada estudiar?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-47-b0-l0",
+          "text": {
+            "u": "כתוב איזה איזו"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-47-b1",
+      "pagina": "pag-47",
+      "titol": {
+        "u": "תרגיל 27",
+        "perComprovar": false,
+        "ca": "Qui li agrada estudiar?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-47-b1-l0",
+          "text": {
+            "u": "1. ____ רחוב זה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-47-b1-l1",
+          "text": {
+            "u": "2. ____ אולפן זה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-47-b1-l2",
+          "text": {
+            "u": "3. ____ תלמידה היא?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-47-b1-l3",
+          "text": {
+            "u": "4. ____ תלמיד הוא?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-47-b1-l4",
+          "text": {
+            "u": "5. ____ תלמידים הם?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-47-b1-l5",
+          "text": {
+            "u": "6. ____ שפה זאת?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-47-b1-l6",
+          "text": {
+            "u": "7. ____ מכונית את רוצה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-47-b1-l7",
+          "text": {
+            "u": "8. ____ ספר את קוראת?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-47-b1-l8",
+          "text": {
+            "u": "9. ____ טלוויזיה יש במועדון?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-47-b1-l9",
+          "text": {
+            "u": "10. ____ שפות מדברים בקנדה?"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-47-b2",
+      "pagina": "pag-47",
+      "titol": {
+        "u": "מִי אוֹהֵב לִלְמוֹד?",
+        "perComprovar": false,
+        "ca": "Qui li agrada estudiar?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-47-b2-l0",
+          "text": {
+            "u": "יצחק אוהב ללמוד."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-47-b2-l1",
+          "text": {
+            "u": "יצחק רוצה ללמוד."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-47-b2-l2",
+          "text": {
+            "u": "יצחק לומד."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-47-b3",
+      "pagina": "pag-47",
+      "titol": {
+        "u": "מִי אוֹהֵב לִלְמוֹד?",
+        "perComprovar": false,
+        "ca": "Qui li agrada estudiar?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-47-b3-l0",
+          "text": {
+            "u": "יוסף לא אוהב ללמוד,"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-47-b3-l1",
+          "text": {
+            "u": "אבל הוא צריך ללמוד."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-47-b3-l2",
+          "text": {
+            "u": "אין ברירה הוא לומד."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-47-b4",
+      "pagina": "pag-47",
+      "titol": {
+        "u": "מִי אוֹהֵב לִלְמוֹד?",
+        "perComprovar": false,
+        "ca": "Qui li agrada estudiar?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-47-b4-l0",
+          "text": {
+            "u": "דוד רוצה וצריך ללמוד."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-47-b4-l1",
+          "text": {
+            "u": "דוד אוהב ללמוד, אבל"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-47-b4-l2",
+          "text": {
+            "u": "הוא לא יכול ללמוד."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-47-b4-l3",
+          "text": {
+            "u": "הוא לא לומד."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-48-b0",
+      "pagina": "pag-48",
+      "titol": {
+        "u": "הִיא לא יְכוֹלָה לַעֲבוֹד.",
+        "perComprovar": false,
+        "ca": "No pot treballar"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-48-b0-l0",
+          "text": {
+            "u": "**יוסף:** רחל, את הולכת לעבודה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-48-b0-l1",
+          "text": {
+            "u": "**רחל:** עכשיו אני לא יכולה ללכת לעבודה. אני חולה. היום אני לא עובדת. ואתה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-48-b0-l2",
+          "text": {
+            "u": "**יוסף:** אני הולך לעבודה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-48-b0-l3",
+          "text": {
+            "u": "**רחל:** אתה אוהב לעבוד?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-48-b0-l4",
+          "text": {
+            "u": "**יוסף:** אני לא אוהב לעבוד, אבל אין ברירה. אני צריך לעבוד."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-48-b0-l5",
+          "text": {
+            "u": "**רחל:** גם אני צריכה לעבוד."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-48-b0-l6",
+          "text": {
+            "u": "**יוסף:** ואת רוצה לעבוד?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-48-b0-l7",
+          "text": {
+            "u": "**רחל:** אני רוצה לעבוד, אני אוהבת לעבוד, אבל אני לא יכולה...."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-48-b1",
+      "pagina": "pag-48",
+      "titol": {
+        "u": "הפעלים החדשים",
+        "perComprovar": false,
+        "ca": "No pot treballar"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-48-b1-l0",
+          "text": {
+            "u": "אוֹהֵב · אוֹהֶבֶת · אוֹהֲבִים · אוֹהֲבוֹת · לֶאֱהוֹב"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-48-b1-l1",
+          "text": {
+            "u": "יָכוֹל · יְכוֹלָה · יְכוֹלִים · יְכוֹלוֹת · —"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-48-b1-l2",
+          "text": {
+            "u": "צָרִיךְ · צְרִיכָה · צְרִיכִים · צְרִיכוֹת · —"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-48-b2",
+      "pagina": "pag-48",
+      "titol": {
+        "u": "אוהב",
+        "perComprovar": false,
+        "ca": "No pot treballar"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-48-b2-l0",
+          "text": {
+            "u": "אומרים: הוא אוהב ללמוד. הוא לא אוהב לעבוד."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-48-b2-l1",
+          "text": {
+            "u": "הוא אוהב שוקולד. הוא לא אוהב קוניאק."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-48-b2-l2",
+          "text": {
+            "u": "אבל: הוא אוהב אֶת חנה. הוא אוהב אֶת הַמורה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-48-b2-l3",
+          "text": {
+            "u": "הוא לא אוהב אֶת הַבַּעַל של רחל."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-49-b0",
+      "pagina": "pag-49",
+      "titol": {
+        "u": "תרגיל 28",
+        "perComprovar": false,
+        "ca": "Exercicis 28 i 29"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-49-b0-l0",
+          "text": {
+            "u": "תרגיל המרה"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-49-b1",
+      "pagina": "pag-49",
+      "titol": {
+        "u": "תרגיל 28",
+        "perComprovar": false,
+        "ca": "Exercicis 28 i 29"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-49-b1-l0",
+          "text": {
+            "u": "1. רוברטו אוהב אֶת ירושלים. (תמר, אסתר ותמר, שׂרה ויצחק)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-49-b1-l1",
+          "text": {
+            "u": "2. תמר אוהבת אֶת יוסי. (אֶת האחות של רוברטו, ילדים, אֶת חיפה, ויסקי)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-49-b1-l2",
+          "text": {
+            "u": "3. הן לא יכולות לבוא היום. (הם, אני, רוברטו, אסתר)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-49-b1-l3",
+          "text": {
+            "u": "4. אנחנו צריכים ללכת למשרד. (שׂרה, יצחק, הן, הם)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-49-b1-l4",
+          "text": {
+            "u": "5. הוא לא רוצה ללכת למשרד. (צריך, יכול, אוהב)"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-49-b2",
+      "pagina": "pag-49",
+      "titol": {
+        "u": "תרגיל 29",
+        "perComprovar": false,
+        "ca": "Exercicis 28 i 29"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-49-b2-l0",
+          "text": {
+            "u": "כתוב משפטים מהמילים בטורים א'ב'ג' השתמש במלה"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-49-b2-l1",
+          "text": {
+            "u": "מכל טור, הוסף לכל משפט מלה, או כמה מילים."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-49-b3",
+      "pagina": "pag-49",
+      "titol": {
+        "u": "תרגיל 29",
+        "perComprovar": false,
+        "ca": "Exercicis 28 i 29"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-49-b3-l0",
+          "text": {
+            "u": "דוגמה:"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-49-b4",
+      "pagina": "pag-49",
+      "titol": {
+        "u": "תרגיל 29",
+        "perComprovar": false,
+        "ca": "Exercicis 28 i 29"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-49-b4-l0",
+          "text": {
+            "u": "1. הם לא רוצים לדבר עם חנה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-49-b4-l1",
+          "text": {
+            "u": "2. הם יכולים לשבת על-יד החלון."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-49-b5",
+      "pagina": "pag-49",
+      "titol": {
+        "u": "תרגיל 29",
+        "perComprovar": false,
+        "ca": "Exercicis 28 i 29"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-49-b5-l0",
+          "text": {
+            "u": "א' · ב' · ג'"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-49-b5-l1",
+          "text": {
+            "u": "הם (לא) · רוצים · להבין"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-49-b5-l2",
+          "text": {
+            "u": "יכולים · לשבת"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-49-b5-l3",
+          "text": {
+            "u": "צריכים · ללכת"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-49-b5-l4",
+          "text": {
+            "u": "אוהבים · לדעת"
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-49-b5-l5",
+          "text": {
+            "u": "לומדים · לדבר"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-49-b5-l6",
+          "text": {
+            "u": "יודעים · לעמוד"
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-49-b5-l7",
+          "text": {
+            "u": "לבוא"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-49-b5-l8",
+          "text": {
+            "u": "לומר"
+          },
+          "perComprovar": false
+        }
+      ]
+    }
+  ],
+  "exercicis": []
+}

@@ -1,0 +1,1164 @@
+{
+  "id": "u02",
+  "num": 2,
+  "titol": "Demostratius i família",
+  "color": "#4A90E2",
+  "pagines": [
+    "pag-10",
+    "pag-11",
+    "pag-12",
+    "pag-13",
+    "pag-14"
+  ],
+  "vocabulari": [
+    {
+      "id": "u02-0",
+      "hebreu": "זֶה",
+      "translit": "ze / zot",
+      "ca": "aquest, aquesta; això",
+      "pagina": "pag-10",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "זֹאת"
+      ]
+    },
+    {
+      "id": "u02-1",
+      "hebreu": "אֵלֶּה",
+      "translit": "E-le",
+      "ca": "aquests, aquestes",
+      "pagina": "pag-10",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u02-2",
+      "hebreu": "יֶלֶד",
+      "translit": "YE-led / yeladim",
+      "ca": "nen / nens",
+      "pagina": "pag-10",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "יְלָדִים"
+      ]
+    },
+    {
+      "id": "u02-3",
+      "hebreu": "יַלְדָּה",
+      "translit": "yalda / yeladot",
+      "ca": "nena / nenes",
+      "pagina": "pag-10",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "יְלָדוֹת"
+      ]
+    },
+    {
+      "id": "u02-4",
+      "hebreu": "אִישׁ",
+      "translit": "ish / anashim",
+      "ca": "home / homes; persona / gent",
+      "pagina": "pag-10",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "אֲנָשִׁים"
+      ]
+    },
+    {
+      "id": "u02-5",
+      "hebreu": "אִשָּׁה",
+      "translit": "isha / nashim",
+      "ca": "dona / dones; esposa",
+      "pagina": "pag-10",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "נָשִׁים"
+      ]
+    },
+    {
+      "id": "u02-6",
+      "hebreu": "גָּדוֹל",
+      "translit": "gadol / gdola",
+      "ca": "gran, masc. / fem.",
+      "pagina": "pag-10",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "גְּדוֹלָה"
+      ]
+    },
+    {
+      "id": "u02-7",
+      "hebreu": "קָטָן",
+      "translit": "katan / ktana",
+      "ca": "petit / petita",
+      "pagina": "pag-10",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "קְטַנָּה"
+      ]
+    },
+    {
+      "id": "u02-8",
+      "hebreu": "מַה?",
+      "translit": "ma",
+      "ca": "què?",
+      "pagina": "pag-11",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u02-9",
+      "hebreu": "סֵפֶר",
+      "translit": "SE-fer / sfarim",
+      "ca": "llibre / llibres",
+      "pagina": "pag-11",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "סְפָרִים"
+      ]
+    },
+    {
+      "id": "u02-10",
+      "hebreu": "מְעַנְיֵן",
+      "translit": "meanyen / meanyenet",
+      "ca": "interessant, masc. / fem.",
+      "pagina": "pag-11",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "מְעַנְיֶנֶת"
+      ]
+    },
+    {
+      "id": "u02-11",
+      "hebreu": "תְּמוּנָה",
+      "translit": "tmuna / tmunot",
+      "ca": "quadre, imatge, foto / quadres",
+      "pagina": "pag-11",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "תְּמוּנוֹת"
+      ]
+    },
+    {
+      "id": "u02-12",
+      "hebreu": "יָפֶה",
+      "translit": "yafe / yafa",
+      "ca": "bonic / bonica; maco",
+      "pagina": "pag-11",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "יָפָה"
+      ]
+    },
+    {
+      "id": "u02-13",
+      "hebreu": "כָּכָה-כָּכָה",
+      "translit": "KA-kha KA-kha",
+      "ca": "així així, regular",
+      "pagina": "pag-11",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u02-14",
+      "hebreu": "בַּעַל",
+      "translit": "BA-al",
+      "ca": "marit",
+      "pagina": "pag-12",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u02-15",
+      "hebreu": "אַבָּא",
+      "translit": "A-ba",
+      "ca": "pare, papa",
+      "pagina": "pag-12",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u02-16",
+      "hebreu": "אִמָּא",
+      "translit": "I-ma",
+      "ca": "mare, mama",
+      "pagina": "pag-12",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u02-17",
+      "hebreu": "הוֹרִים",
+      "translit": "horim",
+      "ca": "pares (el pare i la mare)",
+      "pagina": "pag-12",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u02-18",
+      "hebreu": "בַּת",
+      "translit": "bat / banot",
+      "ca": "filla / filles",
+      "pagina": "pag-13",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "בָּנוֹת"
+      ]
+    },
+    {
+      "id": "u02-19",
+      "hebreu": "בֵּן",
+      "translit": "ben / banim",
+      "ca": "fill / fills",
+      "pagina": "pag-13",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "בָּנִים"
+      ]
+    },
+    {
+      "id": "u02-20",
+      "hebreu": "אָחוֹת",
+      "translit": "aḥot / aḥayot",
+      "ca": "germana / germanes",
+      "pagina": "pag-13",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "אֲחָיוֹת"
+      ]
+    },
+    {
+      "id": "u02-21",
+      "hebreu": "אָח",
+      "translit": "aḥ / aḥim",
+      "ca": "germà / germans",
+      "pagina": "pag-13",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "אַחִים"
+      ]
+    },
+    {
+      "id": "u02-22",
+      "hebreu": "מִשְׁפָּחָה",
+      "translit": "mishpaḥa / mishpaḥot",
+      "ca": "família / famílies",
+      "pagina": "pag-13",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "מִשְׁפָּחוֹת"
+      ]
+    },
+    {
+      "id": "u02-23",
+      "hebreu": "מִשְׁפַּחַת ...",
+      "translit": "mish-PA-ḥat",
+      "ca": "la família (de)…",
+      "pagina": "pag-13",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u02-24",
+      "hebreu": "בְּבַקָּשָׁה",
+      "translit": "bevakasha",
+      "ca": "si us plau; té, aquí té",
+      "pagina": "pag-13",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u02-25",
+      "hebreu": "בְּבַקָּשָׁה לְהַכִּיר",
+      "translit": "bevakasha lehakir",
+      "ca": "us presento…",
+      "pagina": "pag-13",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    }
+  ],
+  "gramatica": [],
+  "textos": [
+    {
+      "id": "pag-10-b0",
+      "pagina": "pag-10",
+      "titol": {
+        "u": "זֶה, זֹאת, אֵלֶּה",
+        "perComprovar": false,
+        "ca": "Aquest, aquesta, aquests"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-10-b0-l0",
+          "text": {
+            "u": "זֶה"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-10-b0-l1",
+          "text": {
+            "u": "זֹאת אֵלֶּה"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-10-b1",
+      "pagina": "pag-10",
+      "titol": {
+        "u": "Singular i plural",
+        "perComprovar": false,
+        "ca": "Aquest, aquesta, aquests"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-10-b1-l0",
+          "text": {
+            "u": "זה ילד"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-10-b1-l1",
+          "text": {
+            "u": "זאת ילדה"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-10-b1-l2",
+          "text": {
+            "u": "אלה ילדים"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-10-b1-l3",
+          "text": {
+            "u": "אלה ילדות"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-10-b2",
+      "pagina": "pag-10",
+      "titol": {
+        "u": "Singular i plural",
+        "perComprovar": false,
+        "ca": "Aquest, aquesta, aquests"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-10-b2-l0",
+          "text": {
+            "u": "זה איש"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-10-b2-l1",
+          "text": {
+            "u": "זאת אישה"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-10-b2-l2",
+          "text": {
+            "u": "אלה אנשים"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-10-b2-l3",
+          "text": {
+            "u": "אלה נשים"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-10-b3",
+      "pagina": "pag-10",
+      "titol": {
+        "u": "גדול, קטן",
+        "perComprovar": false,
+        "ca": "Aquest, aquesta, aquests"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-10-b3-l0",
+          "text": {
+            "u": "זה ילד גדול."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-10-b3-l1",
+          "text": {
+            "u": "זה ילד קטן."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-10-b3-l2",
+          "text": {
+            "u": "זאת ילדה גדולה"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-10-b3-l3",
+          "text": {
+            "u": "זאת ילדה קטנה"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-10-b4",
+      "pagina": "pag-10",
+      "titol": {
+        "u": "גדול, קטן",
+        "perComprovar": false,
+        "ca": "Aquest, aquesta, aquests"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-10-b4-l0",
+          "text": {
+            "u": "אלה ילדים גדולים?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-10-b4-l1",
+          "text": {
+            "u": "— לא, אלה ילדים קטנים."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-10-b4-l2",
+          "text": {
+            "u": "אלה ילדות גדולות?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-10-b4-l3",
+          "text": {
+            "u": "— לא, אלה ילדות קטנות."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-11-b0",
+      "pagina": "pag-11",
+      "titol": {
+        "u": "מה זה?",
+        "perComprovar": false,
+        "ca": "Què és això?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-11-b0-l0",
+          "text": {
+            "u": "מה זה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-11-b0-l1",
+          "text": {
+            "u": "— זה ספר."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-11-b0-l2",
+          "text": {
+            "u": "— זה ספר קטן?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-11-b0-l3",
+          "text": {
+            "u": "— לא, זה ספר גדול."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-11-b0-l4",
+          "text": {
+            "u": "— הַספר מעניין?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-11-b0-l5",
+          "text": {
+            "u": "— כן, הַספר מעניין מאוד."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-11-b1",
+      "pagina": "pag-11",
+      "titol": {
+        "u": "מה זה?",
+        "perComprovar": false,
+        "ca": "Què és això?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-11-b1-l0",
+          "text": {
+            "u": "מה זה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-11-b1-l1",
+          "text": {
+            "u": "— זאת תמונה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-11-b1-l2",
+          "text": {
+            "u": "— זאת תמונה קטנה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-11-b1-l3",
+          "text": {
+            "u": "— לא, זאת לא תמונה קטנה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-11-b1-l4",
+          "text": {
+            "u": "זאת תמונה גדולה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-11-b1-l5",
+          "text": {
+            "u": "— הַתמונה יפה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-11-b1-l6",
+          "text": {
+            "u": "— ככה - ככה."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-11-b2",
+      "pagina": "pag-11",
+      "titol": {
+        "u": "L'adjectiu",
+        "perComprovar": false,
+        "ca": "Què és això?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-11-b2-l0",
+          "text": {
+            "u": "טוב · טובָה · טובִים · טובות"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-11-b2-l1",
+          "text": {
+            "u": "חָדָשׁ · חֲדָשָׁה · חֲדָשִׁים · חֲדָשׁוֹת"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-11-b2-l2",
+          "text": {
+            "u": "גָּדוֹל · גְּדוֹלָה · גְּדוֹלִים · גְּדוֹלוֹת"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-11-b2-l3",
+          "text": {
+            "u": "קָטָן · קְטַנָּה · קְטַנִּים · קְטַנּוֹת"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-11-b2-l4",
+          "text": {
+            "u": "יָפֶה · יָפָה · יָפִים · יָפוֹת"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-11-b2-l5",
+          "text": {
+            "u": "מְעַנְיֵן · מְעַנְיֶנֶת · מְעַנְיְנִים · מְעַנְיְנוֹת"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-12-b0",
+      "pagina": "pag-12",
+      "titol": {
+        "u": "מִשְׁפַּחַת לֵוִי",
+        "perComprovar": false,
+        "ca": "La família Leví"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-12-b0-l0",
+          "text": {
+            "u": "מִשְׁפַּחַת לֵוִי"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-12-b1",
+      "pagina": "pag-12",
+      "titol": {
+        "u": "מי זה?",
+        "perComprovar": false,
+        "ca": "La família Leví"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-12-b1-l0",
+          "text": {
+            "u": "זה אדון יצחק לוי."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-12-b1-l1",
+          "text": {
+            "u": "יצחק לוי - בעל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-12-b1-l2",
+          "text": {
+            "u": "הוא הבעל של שרה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-12-b1-l3",
+          "text": {
+            "u": "יצחק לוי - אבא."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-12-b1-l4",
+          "text": {
+            "u": "הוא אבא של רוברטו."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-12-b1-l5",
+          "text": {
+            "u": "הוא אבא של אסתר."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-12-b2",
+      "pagina": "pag-12",
+      "titol": {
+        "u": "מי זאת?",
+        "perComprovar": false,
+        "ca": "La família Leví"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-12-b2-l0",
+          "text": {
+            "u": "זאת גברת שרה לוי."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-12-b2-l1",
+          "text": {
+            "u": "שרה לוי - אישה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-12-b2-l2",
+          "text": {
+            "u": "היא האישה של יצחק."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-12-b2-l3",
+          "text": {
+            "u": "שרה לוי - אמא."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-12-b2-l4",
+          "text": {
+            "u": "היא אמא של רוברטו."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-12-b2-l5",
+          "text": {
+            "u": "היא אמא של אסתר."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-12-b3",
+      "pagina": "pag-12",
+      "titol": {
+        "u": "מי אלה?",
+        "perComprovar": false,
+        "ca": "La família Leví"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-12-b3-l0",
+          "text": {
+            "u": "אלה שרה ויצחק. אלה גברת ואדון לוי."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-12-b3-l1",
+          "text": {
+            "u": "יצחק ושרה בעל ואישה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-12-b3-l2",
+          "text": {
+            "u": "הם אמא ואבא של רוברטו ושל אסתר."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-12-b3-l3",
+          "text": {
+            "u": "הם ההורים של רוברטו ושל אסתר."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-13-b0",
+      "pagina": "pag-13",
+      "titol": {
+        "u": "מי הם?",
+        "perComprovar": false,
+        "ca": "Qui són?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-13-b0-l0",
+          "text": {
+            "u": "הם רוברטו ואסתר. אלה הילדים של שרה ויצחק."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-13-b0-l1",
+          "text": {
+            "u": "אסתר - בת. היא הבת של שרה ויצחק."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-13-b0-l2",
+          "text": {
+            "u": "רוברטו - בן. הוא הבן של שרה ויצחק."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-13-b0-l3",
+          "text": {
+            "u": "אסתר - אחות. היא הָאחות של רוברטו."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-13-b0-l4",
+          "text": {
+            "u": "רוברטו - אח. הוא האח של אסתר."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-13-b1",
+      "pagina": "pag-13",
+      "titol": {
+        "u": "משפחה",
+        "perComprovar": false,
+        "ca": "Qui són?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-13-b1-l0",
+          "text": {
+            "u": "שרה, יצחק, אסתר ורוברטו - משפחה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-13-b1-l1",
+          "text": {
+            "u": "זאת משפחת לוי. זאת משפחה של עולים."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-13-b1-l2",
+          "text": {
+            "u": "זאת משפחה של עולים חדשים מברזיל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-13-b1-l3",
+          "text": {
+            "u": "בבקשה להכיר: משפחת לוי."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-14-b0",
+      "pagina": "pag-14",
+      "titol": {
+        "u": "תרגיל 3",
+        "perComprovar": false,
+        "ca": "Exercicis 3 i 4"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-14-b0-l0",
+          "text": {
+            "u": "תרגיל המרה"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-14-b0-l1",
+          "text": {
+            "u": "הנחיות בהקדמה"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-14-b1",
+      "pagina": "pag-14",
+      "titol": {
+        "u": "תרגיל 3",
+        "perComprovar": false,
+        "ca": "Exercicis 3 i 4"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-14-b1-l0",
+          "text": {
+            "u": "כתוב במקום המילים המודגשות את המילים שבסוגריים"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-14-b1-l1",
+          "text": {
+            "u": "שנה את המשפטים בהתאם. (ראה עמוד 17)"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-14-b2",
+      "pagina": "pag-14",
+      "titol": {
+        "u": "תרגיל 3",
+        "perComprovar": false,
+        "ca": "Exercicis 3 i 4"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-14-b2-l0",
+          "text": {
+            "u": "1. זה ספר <u>חדש</u>. (גדול, קטן, יָפֶה, מעניין)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-14-b2-l1",
+          "text": {
+            "u": "2. <u>הוא</u> ילד יפה. (היא, זאת, הם, הן)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-14-b2-l2",
+          "text": {
+            "u": "3. התמונה לא <u>יפה</u>. (גדולה, קטנה, חדשה, מעניינת)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-14-b2-l3",
+          "text": {
+            "u": "4. הספרים של יצחק <u>מעניינים</u>. (יפים, קטנים, חדשים)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-14-b2-l4",
+          "text": {
+            "u": "5. <u>היא</u> לא יפה, אבל היא מעניינת. (הוא, הם, הן)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-14-b2-l5",
+          "text": {
+            "u": "6. <u>היא</u> אישה מעניינת. (הוא, צפורה ושרה, הם, זאת)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-14-b2-l6",
+          "text": {
+            "u": "7. הוא <u>הבעל</u> של שרה (האח, הבן, החבר, המוֹרֶה)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-14-b2-l7",
+          "text": {
+            "u": "8. <u>האישה</u> של יצחק יפה. (הבת, האחות, המוֹרָה)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-14-b2-l8",
+          "text": {
+            "u": "9. <u>הבעל</u> של שרה יפה (הבן, הבת, האח, הילדים)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-14-b2-l9",
+          "text": {
+            "u": "10. הן <u>נשים</u> טובות. (יפות, מעניינות, קטנות)"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-14-b3",
+      "pagina": "pag-14",
+      "titol": {
+        "u": "תרגיל 4",
+        "perComprovar": false,
+        "ca": "Exercicis 3 i 4"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-14-b3-l0",
+          "text": {
+            "u": "כתוב: מי, מה"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-14-b4",
+      "pagina": "pag-14",
+      "titol": {
+        "u": "תרגיל 4",
+        "perComprovar": false,
+        "ca": "Exercicis 3 i 4"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-14-b4-l0",
+          "text": {
+            "u": "1. ____ זה? — יצחק."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-14-b4-l1",
+          "text": {
+            "u": "2. ____ הוא? — תלמיד."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-14-b4-l2",
+          "text": {
+            "u": "3. ____ היא? — שרה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-14-b4-l3",
+          "text": {
+            "u": "4. ____ זה? — זאת תמונה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-14-b4-l4",
+          "text": {
+            "u": "5. ____ תלמיד? — רוברטו."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-14-b4-l5",
+          "text": {
+            "u": "6. ____ מורה? — יוסף."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-14-b4-l6",
+          "text": {
+            "u": "7. ____ זה? — הספר של רוברטו."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-14-b4-l7",
+          "text": {
+            "u": "8. ____ זה? — אבא של רוברטו."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-14-b4-l8",
+          "text": {
+            "u": "9. ____ זאת? — האחות של רוברטו."
+          },
+          "perComprovar": false
+        }
+      ]
+    }
+  ],
+  "exercicis": []
+}

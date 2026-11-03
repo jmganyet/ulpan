@@ -1,0 +1,52 @@
+# Unitats del curs: número, títol, color, pàgines del dossier i fitxer de vocabulari.
+# pag-01 (taula de l'alfabet) no pertany a cap unitat.
+- num: 1
+  titol: "Presentacions"
+  color: "#E35D8F"
+  pagines: pag-02..pag-09
+  vocabulari: u01
+- num: 2
+  titol: "Demostratius i família"
+  color: "#4A90E2"
+  pagines: pag-10..pag-14
+  vocabulari: u02
+- num: 3
+  titol: "On vius i què fas"
+  color: "#F2A93B"
+  pagines: pag-15..pag-19
+  vocabulari: u03
+- num: 4
+  titol: "Possessió i salutacions"
+  color: "#7B6CF6"
+  pagines: pag-20..pag-27
+  vocabulari: u04
+- num: 5
+  titol: "Anar i venir"
+  color: "#3DB8A5"
+  pagines: pag-28..pag-32
+  vocabulari: u05
+- num: 6
+  titol: "A la classe"
+  color: "#FF7A59"
+  pagines: pag-33..pag-39
+  vocabulari: u06
+- num: 7
+  titol: "Saps hebreu?"
+  color: "#8BC34A"
+  pagines: pag-40..pag-43
+  vocabulari: u07
+- num: 8
+  titol: "L'infinitiu i els verbs modals"
+  color: "#C06BD6"
+  pagines: pag-44..pag-49
+  vocabulari: u08
+- num: 9
+  titol: "Per què i si"
+  color: "#26A6D1"
+  pagines: pag-50..pag-54
+  vocabulari: u09
+- num: 10
+  titol: "El passat de לִהְיוֹת"
+  color: "#E0794A"
+  pagines: pag-55..pag-58
+  vocabulari: u10

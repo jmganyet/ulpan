@@ -1,0 +1,75 @@
+import type { Exercici, Hebreu, Linia, Paraula, PuntGramatica, Text, Unitat } from '../src/contingut/tipus'
+import { treuVocals } from '../src/hebreu'
+import type { Pagina } from './dossier/pagina'
+
+export type UnitatBase = { id: string; num: number; titol: string; color: string; pagines: string[]; vocabulari: string }
+
+type SenseId<T> = T extends unknown ? Omit<T, 'id'> : never
+
+export type CuratText = {
+  tipus?: 'dialeg' | 'text'; personatges?: string[]; qui?: number[]
+  vocals?: Record<string, string>; ca?: Record<string, string>
+}
+export type CuratExemple = { u?: string; n?: string; ca?: string; extra?: boolean }
+export type CuratGramatica = { id: string; titol: string; explicacio: string; exemples: CuratExemple[]; extra?: boolean }
+export type Curat = {
+  icones?: Record<string, string>
+  textos?: Record<string, CuratText>
+  gramatica?: CuratGramatica[]
+  exercicis?: SenseId<Exercici>[]
+  extres?: { vocabulari?: (Partial<Paraula> & { hebreu: string })[] }
+}
+
+const hebreu = (u: string, n: string | undefined): Hebreu =>
+  n === undefined ? { u } : { u, n, extraVocals: true }
+
+/** Combina el dossier (pàgines, vocabulari) amb la capa curada. Pura: sense IO. */
+export function combina(base: UnitatBase, pagines: Pagina[], vocab: Paraula[], curat: Curat): Unitat {
+  const icones = curat.icones ?? {}
+  const vocabulari: Paraula[] = vocab.map((p) => (icones[p.id] ? { ...p, icona: icones[p.id] } : { ...p }))
+  ;(curat.extres?.vocabulari ?? []).forEach((e, i) => {
+    vocabulari.push({
+      id: `${base.id}-x${i}`, translit: '', ca: '', pagina: 'extra', funcio: false, perComprovar: false,
+      ...e, extra: e.extra ?? false,
+    } as Paraula)
+  })
+
+  const textos: Text[] = []
+  for (const pag of pagines) {
+    pag.blocs.forEach((bloc, k) => {
+      const id = `${pag.nom}-b${k}`
+      const c: CuratText = curat.textos?.[id] ?? (k === 0 ? curat.textos?.[pag.nom] : undefined) ?? {}
+      const titol = bloc.titol
+        ? { u: bloc.titol.text, perComprovar: bloc.titol.perComprovar }
+        : { u: pag.titol.he, perComprovar: false }
+      const pers = c.personatges
+      const linies: Linia[] = bloc.linies.map((l, j) => {
+        const linia: Linia = { id: `${id}-l${j}`, text: hebreu(l.text, c.vocals?.[j]), perComprovar: l.perComprovar }
+        if (pers?.length) linia.qui = pers[(c.qui ? c.qui[j] : undefined) ?? j % pers.length]
+        const ca = c.ca?.[j]
+        if (ca !== undefined) linia.ca = ca
+        return linia
+      })
+      textos.push({
+        id, pagina: pag.nom, titol: { ...titol, ca: pag.titol.ca },
+        tipus: c.tipus ?? 'text', ...(pers ? { personatges: pers } : {}), linies,
+      })
+    })
+  }
+
+  const gramatica: PuntGramatica[] = (curat.gramatica ?? []).map((g) => ({
+    id: g.id, titol: g.titol, explicacio: g.explicacio, extra: g.extra ?? false,
+    exemples: g.exemples.map((e, i): Linia => ({
+      id: `${base.id}-g-${g.id}-${i}`,
+      text: hebreu(e.u ?? treuVocals(e.n ?? ''), e.n),
+      ...(e.ca !== undefined ? { ca: e.ca } : {}), perComprovar: false,
+    })),
+  }))
+
+  const exercicis = (curat.exercicis ?? []).map((e, i) => ({ ...e, id: `${base.id}-ex-${i}` })) as Exercici[]
+
+  return {
+    id: base.id, num: base.num, titol: base.titol, color: base.color, pagines: base.pagines,
+    vocabulari, gramatica, textos, exercicis,
+  }
+}

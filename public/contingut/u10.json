@@ -1,0 +1,851 @@
+{
+  "id": "u10",
+  "num": 10,
+  "titol": "El passat de לִהְיוֹת",
+  "color": "#E0794A",
+  "pagines": [
+    "pag-55",
+    "pag-56",
+    "pag-57",
+    "pag-58"
+  ],
+  "vocabulari": [
+    {
+      "id": "u10-0",
+      "hebreu": "הָיָה – לִהְיוֹת",
+      "translit": "haya – lihyot",
+      "ca": "ser, estar; va ser – ser",
+      "pagina": "pag-55",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u10-1",
+      "hebreu": "אֶתְמוֹל",
+      "translit": "etmol",
+      "ca": "ahir",
+      "pagina": "pag-55",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u10-2",
+      "hebreu": "הוֹוֶה",
+      "translit": "hove",
+      "ca": "present (temps verbal)",
+      "pagina": "pag-55",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u10-3",
+      "hebreu": "עָבָר",
+      "translit": "avar",
+      "ca": "passat",
+      "pagina": "pag-55",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u10-4",
+      "hebreu": "עָתִיד",
+      "translit": "atid",
+      "ca": "futur",
+      "pagina": "pag-55",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u10-5",
+      "hebreu": "זְמַן",
+      "translit": "zman, zmanim",
+      "ca": "temps, temps verbal",
+      "pagina": "pag-55",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "זְמַנִּים"
+      ]
+    },
+    {
+      "id": "u10-6",
+      "hebreu": "שִׂיחָה – שִׂיחוֹת",
+      "translit": "siḥa – siḥot",
+      "ca": "conversa, diàleg",
+      "pagina": "pag-56",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u10-7",
+      "hebreu": "קֻפַּת־חוֹלִים",
+      "translit": "kupat ḥolim",
+      "ca": "mútua de salut, ambulatori",
+      "pagina": "pag-56",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u10-8",
+      "hebreu": "יוֹם",
+      "translit": "yom, yamim",
+      "ca": "dia, dies",
+      "pagina": "pag-56",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "יָמִים"
+      ]
+    },
+    {
+      "id": "u10-9",
+      "hebreu": "יוֹמַיִם",
+      "translit": "yomayim, accent a -MA-",
+      "ca": "dos dies",
+      "pagina": "pag-56",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u10-10",
+      "hebreu": "שְׁנֵי יָמִים",
+      "translit": "shney yamim",
+      "ca": "dos dies",
+      "pagina": "pag-56",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u10-11",
+      "hebreu": "כָּךְ",
+      "translit": "kakh",
+      "ca": "així",
+      "pagina": "pag-56",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u10-12",
+      "hebreu": "יָכוֹל לִהְיוֹת",
+      "translit": "yakhol lihyot",
+      "ca": "pot ser, és possible",
+      "pagina": "pag-56",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u10-13",
+      "hebreu": "אֵצֶל",
+      "translit": "etsel, accent a E-",
+      "ca": "a casa de, amb, al costat de",
+      "pagina": "pag-56",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u10-14",
+      "hebreu": "שַׁבָּת",
+      "translit": "shabat",
+      "ca": "dissabte, sàbat",
+      "pagina": "pag-58",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    }
+  ],
+  "gramatica": [],
+  "textos": [
+    {
+      "id": "pag-55-b0",
+      "pagina": "pag-55",
+      "titol": {
+        "u": "לִהְיוֹת — זמן עבר",
+        "perComprovar": false,
+        "ca": "זמן עבר — Ser/estar: el temps passat"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-55-b0-l0",
+          "text": {
+            "u": "הַמלט אומר: \"להיות, או לא להיות - זאת השאלה!\""
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-55-b0-l1",
+          "text": {
+            "u": "יוסף רוצה להיות בכיתה, אבל הוא צריך להיות במשׂרד."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-55-b0-l2",
+          "text": {
+            "u": "התלמידים צריכים להיות בכיתה ב-8."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-55-b1",
+      "pagina": "pag-55",
+      "titol": {
+        "u": "לִהְיוֹת — זמן עבר",
+        "perComprovar": false,
+        "ca": "זמן עבר — Ser/estar: el temps passat"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-55-b1-l0",
+          "text": {
+            "u": "היום משה [requadre ratllat amb una creu] בבית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-55-b1-l1",
+          "text": {
+            "u": "אתמול משה הָיָה בבית."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-55-b2",
+      "pagina": "pag-55",
+      "titol": {
+        "u": "לִהְיוֹת — זמן עבר",
+        "perComprovar": false,
+        "ca": "זמן עבר — Ser/estar: el temps passat"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-55-b2-l0",
+          "text": {
+            "u": "לפועל \"להיות\" בעברית אין הווה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-55-b2-l1",
+          "text": {
+            "u": "לפועל \"להיות\" בעברית יש רק עבר ועתיד."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-55-b3",
+      "pagina": "pag-55",
+      "titol": {
+        "u": "לִהְיוֹת - זמן עבר",
+        "perComprovar": false,
+        "ca": "זמן עבר — Ser/estar: el temps passat"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-55-b3-l0",
+          "text": {
+            "u": "אני · אתה · את · אנחנו · אתם · אתן"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-55-b3-l1",
+          "text": {
+            "u": "הָיִיתִי · הָיִיתָ · הָיִית · הָיִינוּ · הֱיִיתֶם · הֱיִיתֶן"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-55-b4",
+      "pagina": "pag-55",
+      "titol": {
+        "u": "לִהְיוֹת - זמן עבר",
+        "perComprovar": false,
+        "ca": "זמן עבר — Ser/estar: el temps passat"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-55-b4-l0",
+          "text": {
+            "u": "הוא · היא · הם/הן"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-55-b4-l1",
+          "text": {
+            "u": "הָיָה · הָיְתָה · הָיוּ"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-56-b0",
+      "pagina": "pag-56",
+      "titol": {
+        "u": "להיות ב... / להיות אצל...",
+        "perComprovar": false,
+        "ca": "Ser a... / estar a casa de..."
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-56-b0-l0",
+          "text": {
+            "u": "**מורה:** יצחק איפה הָיִיתָ אתמול?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-56-b0-l1",
+          "text": {
+            "u": "**יצחק:** הָיִיתִי בקופת-חולים."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-56-b0-l2",
+          "text": {
+            "u": "**מורה:** ואיפה הָיְתָה שׂרה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-56-b0-l3",
+          "text": {
+            "u": "**יצחק:** היא הָיְתָה בתל-אביב."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-56-b0-l4",
+          "text": {
+            "u": "**מורה:** ואיפה היא היום?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-56-b0-l5",
+          "text": {
+            "u": "**יצחק:** היום היא צריכה לִהיות בחיפה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-56-b0-l6",
+          "text": {
+            "u": "**מורה:** יום לומדים ויומיים לא. כך זה לא יכול לִהיות!"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-56-b0-l7",
+          "text": {
+            "u": "**יצחק:** כן כבר המלט אמר: \"להיות או לא להיות"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-56-b0-l8",
+          "text": {
+            "u": "זאת השאלה!\""
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-56-b1",
+      "pagina": "pag-56",
+      "titol": {
+        "u": "לִהְיוֹת אֵצֶל....",
+        "perComprovar": false,
+        "ca": "Ser a... / estar a casa de..."
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-56-b1-l0",
+          "text": {
+            "u": "רחל בִּירושלים אצל חברים."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-56-b1-l1",
+          "text": {
+            "u": "יוסף גר בחיפה אצל חבר."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-56-b1-l2",
+          "text": {
+            "u": "שׂרה לומדת באולפן אצל המורה רחל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-56-b1-l3",
+          "text": {
+            "u": "משה היה במשׂרד אצל גברת כֹּהן."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-56-b1-l4",
+          "text": {
+            "u": "היא היתה בקופת-חולים אצל דוקטור יעקובי."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-56-b1-l5",
+          "text": {
+            "u": "הספר של יצחק אצל רוברטו."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-56-b1-l6",
+          "text": {
+            "u": "אתמול הן היו אצל חנה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-56-b1-l7",
+          "text": {
+            "u": "אנחנו רוצים להיות אצל משפחת לוי."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-57-b0",
+      "pagina": "pag-57",
+      "titol": {
+        "u": "תרגיל 32",
+        "perComprovar": false,
+        "ca": "Exercici 32"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-57-b0-l0",
+          "text": {
+            "u": "א. כתוב בזמן עבר."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-57-b1",
+      "pagina": "pag-57",
+      "titol": {
+        "u": "תרגיל 32",
+        "perComprovar": false,
+        "ca": "Exercici 32"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-57-b1-l0",
+          "text": {
+            "u": "היום — זמן הווה → אתמול — זמן עבר"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-57-b2",
+      "pagina": "pag-57",
+      "titol": {
+        "u": "תרגיל 32",
+        "perComprovar": false,
+        "ca": "Exercici 32"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-57-b2-l0",
+          "text": {
+            "u": "1. אני בחיפה. — ____ בחיפה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-57-b2-l1",
+          "text": {
+            "u": "2. היא לא בכיתה. — ____ בכיתה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-57-b2-l2",
+          "text": {
+            "u": "3. אני אצל חנה. — ____ אצל חנה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-57-b2-l3",
+          "text": {
+            "u": "4. היא בירושלים. — ____ ____ בירושלים."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-57-b2-l4",
+          "text": {
+            "u": "5. את בארגנטינה? — ____ בארגנטינה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-57-b2-l5",
+          "text": {
+            "u": "6. אתם בבית? — ____ בבית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-57-b2-l6",
+          "text": {
+            "u": "7. אתה באמריקה? — ____ באמריקה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-57-b2-l7",
+          "text": {
+            "u": "8. היא אצל משפחת לוי. — ____ ____ אצל משפחת לוי."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-57-b2-l8",
+          "text": {
+            "u": "9. הם במועדון? — ____ ____ במועדון."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-57-b2-l9",
+          "text": {
+            "u": "10. הן לא בבית. — ____ לא ____ בבית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-57-b2-l10",
+          "text": {
+            "u": "11. אנחנו לא שם. — לא ____ שם."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-57-b2-l11",
+          "text": {
+            "u": "12. אתן לא אצל רחל? — לא ____ אצל רחל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-57-b2-l12",
+          "text": {
+            "u": "13. איפה אתה? — איפה ____?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-57-b2-l13",
+          "text": {
+            "u": "14. אצל מי אתה? — אצל מי ____?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-57-b2-l14",
+          "text": {
+            "u": "15. מי בירושלים? — מי ____ בירושלים?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-57-b2-l15",
+          "text": {
+            "u": "16. מי שם? — מי ____ שם?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-57-b2-l16",
+          "text": {
+            "u": "17. אתם בקונצרט? — ____ בקונצרט?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-57-b2-l17",
+          "text": {
+            "u": "18. את לא באילת? — לא ____ באילת?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-57-b2-l18",
+          "text": {
+            "u": "19. יצחק באילת. — יצחק ____ באילת."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-57-b2-l19",
+          "text": {
+            "u": "20. סטיב ודוריס באילת. — סטיב ודוריס ____ באילת."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-58-b0",
+      "pagina": "pag-58",
+      "titol": {
+        "u": "תרגיל 32 (ב)",
+        "perComprovar": false,
+        "ca": "Exercici 32 (b) i exercici 33"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-58-b0-l0",
+          "text": {
+            "u": "ב. כתוב בזמן הווה."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-58-b1",
+      "pagina": "pag-58",
+      "titol": {
+        "u": "תרגיל 32 (ב)",
+        "perComprovar": false,
+        "ca": "Exercici 32 (b) i exercici 33"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-58-b1-l0",
+          "text": {
+            "u": "אתמול — זמן עבר → היום — זמן הווה"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-58-b2",
+      "pagina": "pag-58",
+      "titol": {
+        "u": "תרגיל 32 (ב)",
+        "perComprovar": false,
+        "ca": "Exercici 32 (b) i exercici 33"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-58-b2-l0",
+          "text": {
+            "u": "1. הייתי בקופת-חולים. — ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-58-b2-l1",
+          "text": {
+            "u": "2. בשבת היינו אצל חברים. — ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-58-b2-l2",
+          "text": {
+            "u": "3. משה היה אצל חברים. — ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-58-b2-l3",
+          "text": {
+            "u": "4. חנה היתה בירושלים. — ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-58-b2-l4",
+          "text": {
+            "u": "5. מדוע לא הָיִיתָ בכיתה? — ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-58-b2-l5",
+          "text": {
+            "u": "6. מדוע לא הָיִית בשיעור? — ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-58-b2-l6",
+          "text": {
+            "u": "7. שׂרה ויצחק היו בבית. — ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-58-b2-l7",
+          "text": {
+            "u": "8. בשבת לא הייתם בקיבוץ. — ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-58-b2-l8",
+          "text": {
+            "u": "9. הייתן אצל המורה? — ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-58-b2-l9",
+          "text": {
+            "u": "10. הייתם בשיעור? — ____"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-58-b3",
+      "pagina": "pag-58",
+      "titol": {
+        "u": "תרגיל 33",
+        "perComprovar": false,
+        "ca": "Exercici 32 (b) i exercici 33"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-58-b3-l0",
+          "text": {
+            "u": "כתוב: בְּ... אצל"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-58-b4",
+      "pagina": "pag-58",
+      "titol": {
+        "u": "תרגיל 33",
+        "perComprovar": false,
+        "ca": "Exercici 32 (b) i exercici 33"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-58-b4-l0",
+          "text": {
+            "u": "1. ____ שבת היינו ____ חיפה ____ משפחת כהן."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-58-b4-l1",
+          "text": {
+            "u": "2. אנחנו לומדים ____ כיתה של המורה צפורה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-58-b4-l2",
+          "text": {
+            "u": "3. אנחנו לומדים ____ המורה צפורה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-58-b4-l3",
+          "text": {
+            "u": "4. הם היו ____ קונצרט. הילדים היו ____ חברים."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-58-b4-l4",
+          "text": {
+            "u": "5. סטיב יושב ____ דוריס וקורא."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-58-b4-l5",
+          "text": {
+            "u": "6. סטיב יושב ____ חדר של דוריס וקורא."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-58-b4-l6",
+          "text": {
+            "u": "7. ____ מי הספר של עמנואל? הוא ____ רוברטו."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-58-b4-l7",
+          "text": {
+            "u": "8. יצחק, ____ מי אתה גר ____ ירושלים?"
+          },
+          "perComprovar": false
+        }
+      ]
+    }
+  ],
+  "exercicis": []
+}

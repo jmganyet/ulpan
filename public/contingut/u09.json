@@ -1,0 +1,1012 @@
+{
+  "id": "u09",
+  "num": 9,
+  "titol": "Per què i si",
+  "color": "#26A6D1",
+  "pagines": [
+    "pag-50",
+    "pag-51",
+    "pag-52",
+    "pag-53",
+    "pag-54"
+  ],
+  "vocabulari": [
+    {
+      "id": "u09-0",
+      "hebreu": "מַדּוּעַ?",
+      "translit": "madua, accent a la penúltima: ma-DU-a",
+      "ca": "per què?",
+      "pagina": "pag-50",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u09-1",
+      "hebreu": "כִּי",
+      "translit": "ki",
+      "ca": "perquè",
+      "pagina": "pag-50",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u09-2",
+      "hebreu": "חָסֵר",
+      "translit": "ḥaser / ḥasera",
+      "ca": "absent, que falta",
+      "pagina": "pag-50",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "חֲסֵרָה"
+      ]
+    },
+    {
+      "id": "u09-3",
+      "hebreu": "שֶׁקֶט",
+      "translit": "sheket, accent a la primera: SHE-ket",
+      "ca": "silenci",
+      "pagina": "pag-50",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u09-4",
+      "hebreu": "מַתְחִיל – לְהַתְחִיל",
+      "translit": "matḥil – lehatḥil",
+      "ca": "començar",
+      "pagina": "pag-50",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u09-5",
+      "hebreu": "עוֹנֶה – לַעֲנוֹת",
+      "translit": "one – laanot",
+      "ca": "respondre",
+      "pagina": "pag-50",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u09-6",
+      "hebreu": "לְהַגִּיד",
+      "translit": "lehagid",
+      "ca": "dir",
+      "pagina": "pag-50",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u09-7",
+      "hebreu": "עוֹד פַּעַם",
+      "translit": "od paam, accent: PA-am",
+      "ca": "una altra vegada",
+      "pagina": "pag-50",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u09-8",
+      "hebreu": "הַכֹּל",
+      "translit": "hakol",
+      "ca": "tot",
+      "pagina": "pag-50",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u09-9",
+      "hebreu": "בְּשֶׁקֶט",
+      "translit": "besheket",
+      "ca": "en silenci, tranquil",
+      "pagina": "pag-50",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u09-10",
+      "hebreu": "נִכְנָס – לְהִיכָּנֵס",
+      "translit": "nikhnas – lehikanes",
+      "ca": "entrar",
+      "pagina": "pag-51",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u09-11",
+      "hebreu": "מָקוֹם",
+      "translit": "makom / mekomot",
+      "ca": "lloc, seient; masc.",
+      "pagina": "pag-51",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "מְקוֹמוֹת"
+      ]
+    },
+    {
+      "id": "u09-12",
+      "hebreu": "מַמְשִׁיךְ – לְהַמְשִׁיךְ",
+      "translit": "mamshikh – lehamshikh",
+      "ca": "continuar",
+      "pagina": "pag-51",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u09-13",
+      "hebreu": "שׁוֹאֵל – לִשְׁאוֹל",
+      "translit": "shoel – lishol",
+      "ca": "preguntar",
+      "pagina": "pag-51",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u09-14",
+      "hebreu": "מָתַי?",
+      "translit": "matay",
+      "ca": "quan?",
+      "pagina": "pag-51",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u09-15",
+      "hebreu": "הַפְסָקָה",
+      "translit": "hafsaka / hafsakot",
+      "ca": "pausa, esbarjo",
+      "pagina": "pag-51",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "הַפְסָקוֹת"
+      ]
+    },
+    {
+      "id": "u09-16",
+      "hebreu": "חָכָם",
+      "translit": "ḥakham / ḥakhama",
+      "ca": "savi / sàvia",
+      "pagina": "pag-51",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "חֲכָמָה"
+      ]
+    },
+    {
+      "id": "u09-17",
+      "hebreu": "אֵיזֶהוּ?",
+      "translit": "eizehu",
+      "ca": "qui és?, quin és?",
+      "pagina": "pag-51",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u09-18",
+      "hebreu": "לָמָּה?",
+      "translit": "lama",
+      "ca": "per què?",
+      "pagina": "pag-51",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u09-19",
+      "hebreu": "מִפְּנֵי שֶׁ־",
+      "translit": "mipnei she-",
+      "ca": "perquè",
+      "pagina": "pag-51",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u09-20",
+      "hebreu": "וְכוּלֵי (וכו')",
+      "translit": "vekhule",
+      "ca": "etcètera",
+      "pagina": "pag-52",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u09-21",
+      "hebreu": "אִם",
+      "translit": "im",
+      "ca": "si (pregunta indirecta)",
+      "pagina": "pag-54",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u09-22",
+      "hebreu": "דִּבּוּר עָקִיף",
+      "translit": "dibur akif",
+      "ca": "estil indirecte",
+      "pagina": "pag-54",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u09-23",
+      "hebreu": "חַבֵּר!",
+      "translit": "ḥaber",
+      "ca": "ajunta!, combina!",
+      "pagina": "pag-54",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u09-24",
+      "hebreu": "נָכוֹן",
+      "translit": "nakhon / nekhona",
+      "ca": "correcte, cert",
+      "pagina": "pag-54",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "נְכוֹנָה"
+      ]
+    }
+  ],
+  "gramatica": [],
+  "textos": [
+    {
+      "id": "pag-50-b0",
+      "pagina": "pag-50",
+      "titol": {
+        "u": "שִׁעור בַּכִּתָּה שֶׁל רובֶּרטו",
+        "perComprovar": true,
+        "ca": "Classe a l'aula d'en Roberto"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-50-b0-l0",
+          "text": {
+            "u": "**מורה:** בוקר טוב, תלמידים!"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-50-b0-l1",
+          "text": {
+            "u": "**תלמידים:** בוקר טוב!"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-50-b0-l2",
+          "text": {
+            "u": "**מורה:** מדוע שושנה לא באה היום?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-50-b0-l3",
+          "text": {
+            "u": "**תלמידים:** כי היא חולה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-50-b0-l4",
+          "text": {
+            "u": "**מורה:** ואיפה דוריס?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-50-b0-l5",
+          "text": {
+            "u": "**תלמידים:** אנחנו לא יודעים."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-50-b0-l6",
+          "text": {
+            "u": "**מורה:** גם יוסף חסר."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-50-b0-l7",
+          "text": {
+            "u": "**יוסף:** לא, אני פה!"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-50-b0-l8",
+          "text": {
+            "u": "**מורה:** יפה מאוד! מה זה שם?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-50-b0-l9",
+          "text": {
+            "u": "רוברטו ועמנואל, שקט בבקשה! מדוע אתם מדברים?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-50-b0-l10",
+          "text": {
+            "u": "**עמנואל:** אנחנו לא מדברים."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-50-b0-l11",
+          "text": {
+            "u": "**מורה:** מצוין. אנחנו מתחילים. אני כותבת שאלות על הלוח"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-50-b0-l12",
+          "text": {
+            "u": "ואתם עונים. אתם כותבים תשובות במחברות."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-50-b0-l13",
+          "text": {
+            "u": "**עמנואל:** סליחה, המורה, אני לא מבין."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-50-b0-l14",
+          "text": {
+            "u": "בבקשה להגיד עוד פעם."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-50-b0-l15",
+          "text": {
+            "u": "**מורה:** סטיב, אתה מבין מה שאני אומרת?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-50-b0-l16",
+          "text": {
+            "u": "**סטיב:** כן, אני מבין הכול."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-50-b0-l17",
+          "text": {
+            "u": "**מורה:** עמנואל, סטיב מבין הכול. הוא לא מדבר עם חבר..."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-50-b0-l18",
+          "text": {
+            "u": "עמנואל! אתה לא יכול לשבת בשקט?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-50-b0-l19",
+          "text": {
+            "u": "**סטיב:** הנה דוריס."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-51-b0",
+      "pagina": "pag-51",
+      "titol": {
+        "u": "שיעור בכיתה של רוברטו (המשך)",
+        "perComprovar": false,
+        "ca": "Classe a l'aula d'en Roberto (continuació)"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-51-b0-l0",
+          "text": {
+            "u": "**מורה:** בוקר טוב, דוריס. עכשיו את באה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-51-b0-l1",
+          "text": {
+            "u": "**דוריס:** סליחה.... האוטובוס...."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-51-b0-l2",
+          "text": {
+            "u": "**מורה:** בבקשה להיכנס. יש מקום על-יד רוברטו."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-51-b0-l3",
+          "text": {
+            "u": "(דוריס נכנסת ויושבת)."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-51-b0-l4",
+          "text": {
+            "u": "חברים, אנחנו ממשיכים. על הלוח יש שאלות."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-51-b0-l5",
+          "text": {
+            "u": "אתם צריכים לכתוב תשובות במחברות."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-51-b0-l6",
+          "text": {
+            "u": "יש שאלות?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-51-b0-l7",
+          "text": {
+            "u": "**עמנואל:** כן, אני רוצה לשאול שאלה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-51-b0-l8",
+          "text": {
+            "u": "**מורה:** יפה מאוד. בבקשה לשאול."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-51-b0-l9",
+          "text": {
+            "u": "**עמנואל:** אני רוצה לשאול מתי יש הפסקה?"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-51-b1",
+      "pagina": "pag-51",
+      "titol": {
+        "u": "שיעור בכיתה של רוברטו (המשך)",
+        "perComprovar": false,
+        "ca": "Classe a l'aula d'en Roberto (continuació)"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-51-b1-l0",
+          "text": {
+            "u": "פתגם: אֵיזֶהוּ חָכָם? הַיּוֹדֵעַ לִשְׁאוֹל ____"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-51-b2",
+      "pagina": "pag-51",
+      "titol": {
+        "u": "מַדּוּעַ? כִּי",
+        "perComprovar": false,
+        "ca": "Classe a l'aula d'en Roberto (continuació)"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-51-b2-l0",
+          "text": {
+            "u": "מדוע רוברטו לא יודע עברית?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-51-b2-l1",
+          "text": {
+            "u": "- כי הוא עולה חדש."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-51-b2-l2",
+          "text": {
+            "u": "למה הוא בא לאולפן?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-51-b2-l3",
+          "text": {
+            "u": "- כי הוא רוצה ללמוד עברית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-51-b2-l4",
+          "text": {
+            "u": "מדוע הוא לא בא היום לכיתה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-51-b2-l5",
+          "text": {
+            "u": "- מפני שהוא חולה."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-52-b0",
+      "pagina": "pag-52",
+      "titol": {
+        "u": "הפעלים החדשים",
+        "perComprovar": false,
+        "ca": "Els verbs nous"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-52-b0-l0",
+          "text": {
+            "u": "מַתְחִיל · מַתְחִילָה · מַתְחִילִים · מַתְחִילוֹת · לְהַתְחִיל"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-52-b0-l1",
+          "text": {
+            "u": "עוֹנֶה · עוֹנָה · עוֹנִים · עוֹנוֹת · לַעֲנוֹת"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-52-b0-l2",
+          "text": {
+            "u": "נִכְנָס · נִכְנֶסֶת · נִכְנָסִים · נִכְנָסוֹת · לְהִיכָּנֵס"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-52-b0-l3",
+          "text": {
+            "u": "מַמְשִׁיךְ · מַמְשִׁיכָה · מַמְשִׁיכִים · מַמְשִׁיכוֹת · לְהַמְשִׁיךְ"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-52-b0-l4",
+          "text": {
+            "u": "שׁוֹאֵל · שׁוֹאֶלֶת · שׁוֹאֲלִים · שׁוֹאֲלוֹת · לִשְׁאוֹל"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-52-b1",
+      "pagina": "pag-52",
+      "titol": {
+        "u": "בבקשה + שם הפועל",
+        "perComprovar": false,
+        "ca": "Els verbs nous"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-52-b1-l0",
+          "text": {
+            "u": "המורה אומרת: \"בבקשה לשאול\" והתלמידים שואלים."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-52-b1-l1",
+          "text": {
+            "u": "היא אומרת: \"בבקשה להיכנס\" ודוריס נכנסת."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-52-b1-l2",
+          "text": {
+            "u": "אומרים: בבקשה לשבת, בבקשה לא לדבר,"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-52-b1-l3",
+          "text": {
+            "u": "בבקשה לכתוב, בבקשה להמשיך וכו' (וכולי)"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-53-b0",
+      "pagina": "pag-53",
+      "titol": {
+        "u": "שואל",
+        "perComprovar": false,
+        "ca": "Preguntar; exercici 30"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-53-b0-l0",
+          "text": {
+            "u": "אומרים: המורה שואלת והתלמידים עונים."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-53-b0-l1",
+          "text": {
+            "u": "הוא שואל הרבה שאלות."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-53-b0-l2",
+          "text": {
+            "u": "אבל: המורה שואלת אֶת רוברטו."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-53-b0-l3",
+          "text": {
+            "u": "המורה שואלת אֶת הַתלמידים."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-53-b1",
+      "pagina": "pag-53",
+      "titol": {
+        "u": "תרגיל 30",
+        "perComprovar": false,
+        "ca": "Preguntar; exercici 30"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-53-b1-l0",
+          "text": {
+            "u": "תרגיל המרה"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-53-b2",
+      "pagina": "pag-53",
+      "titol": {
+        "u": "תרגיל 30",
+        "perComprovar": false,
+        "ca": "Preguntar; exercici 30"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-53-b2-l0",
+          "text": {
+            "u": "1. דני שואל שאלה. (הן, הילדים, אני רוצה)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-53-b2-l1",
+          "text": {
+            "u": "2. המורה שואלת והתלמידים עונים. (ויצחק, ודוריס, והן, והוא רוצה)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-53-b2-l2",
+          "text": {
+            "u": "3. דני שואל את אבא. (אֶת המורה, איפה חנה, מה זה)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-53-b2-l3",
+          "text": {
+            "u": "4. אבא נכנס הביתה. (היא, משה ואני, אסתר ותמר, בבקשה)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-53-b2-l4",
+          "text": {
+            "u": "5. אתה רוצה להיכנס לחדר? (למשרד, הביתה, למועדון)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-53-b2-l5",
+          "text": {
+            "u": "6. השיעור מתחיל. (הקונצרט, העבודה, השיעורים)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-53-b2-l6",
+          "text": {
+            "u": "7. משה מתחיל לעבוד. (שׂרה, הם, אני רוצה, הן, בבקשה)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-53-b2-l7",
+          "text": {
+            "u": "8. אנחנו מתחילים לעבוד. (ללמוד, לכתוב, להבין)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-53-b2-l8",
+          "text": {
+            "u": "9. אתה רוצה להמשיך לקרוא? (להתחיל, לדעת)"
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-53-b2-l9",
+          "text": {
+            "u": "10. הם מתחילים לכתוב בכיתה וממשיכים בבית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-53-b2-l10",
+          "text": {
+            "u": "(שׂרה ודוריס, שׂרה, רוברטו, אני רוצה)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-53-b2-l11",
+          "text": {
+            "u": "11. מי חסר היום? שושנה חסרה כי היא חולה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-53-b2-l12",
+          "text": {
+            "u": "(עמנואל, עמנואל ודוד, שושנה ושׂרה)"
+          },
+          "perComprovar": true
+        }
+      ]
+    },
+    {
+      "id": "pag-54-b0",
+      "pagina": "pag-54",
+      "titol": {
+        "u": "אם",
+        "perComprovar": false,
+        "ca": "דיבור עקיף — «Si»: l'estil indirecte"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-54-b0-l0",
+          "text": {
+            "u": "מה שואל שמואל?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-54-b0-l1",
+          "text": {
+            "u": "- הוא שואל אם יש טלפון במשׂרד."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-54-b1",
+      "pagina": "pag-54",
+      "titol": {
+        "u": "אם",
+        "perComprovar": false,
+        "ca": "דיבור עקיף — «Si»: l'estil indirecte"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-54-b1-l0",
+          "text": {
+            "u": "מה שואלת חנה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-54-b1-l1",
+          "text": {
+            "u": "- חנה שואלת אֶת שׂרה אם התמונה יפה."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-54-b2",
+      "pagina": "pag-54",
+      "titol": {
+        "u": "אם",
+        "perComprovar": false,
+        "ca": "דיבור עקיף — «Si»: l'estil indirecte"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-54-b2-l0",
+          "text": {
+            "u": "הוא רוצה לשאול את המורה אם היא יודעת רוסית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-54-b2-l1",
+          "text": {
+            "u": "אורי לא יודע אם אבא בבית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-54-b2-l2",
+          "text": {
+            "u": "הוא רוצה לדעת אם אבא בבית."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-54-b2-l3",
+          "text": {
+            "u": "הוא שואל את אמא אם אבא בבית."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-54-b3",
+      "pagina": "pag-54",
+      "titol": {
+        "u": "תרגיל 31",
+        "perComprovar": false,
+        "ca": "דיבור עקיף — «Si»: l'estil indirecte"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-54-b3-l0",
+          "text": {
+            "u": "חבר משפטים נכונים מהטורים א' ב' ג' ו-ד'"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-54-b4",
+      "pagina": "pag-54",
+      "titol": {
+        "u": "תרגיל 31",
+        "perComprovar": false,
+        "ca": "דיבור עקיף — «Si»: l'estil indirecte"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-54-b4-l0",
+          "text": {
+            "u": "א' · ב' · ג' · ד'"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-54-b4-l1",
+          "text": {
+            "u": "הוא · יודע · שֶׁ · הבן של שׂרה גדול."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-54-b4-l2",
+          "text": {
+            "u": "הוא לא · רוצה לדעת · אם · הבן של שׂרה גדול, או קטן."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-54-b4-l3",
+          "text": {
+            "u": "אומר · הם באים."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-54-b4-l4",
+          "text": {
+            "u": "שואל · הם באים, או לא."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-54-b4-l5",
+          "text": {
+            "u": "רוצה לשאול · יצחק חולה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-54-b4-l6",
+          "text": {
+            "u": "יש היום שיעור."
+          },
+          "perComprovar": false
+        }
+      ]
+    }
+  ],
+  "exercicis": []
+}

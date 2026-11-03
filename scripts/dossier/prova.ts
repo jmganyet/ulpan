@@ -3,9 +3,8 @@ import { readdirSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { llegeixPagina } from './pagina'
 import { llegeixVocabulari } from './vocabulari'
+import { DOSSIER } from './ruta'
 
-const DOSSIER = process.env.DOSSIER ??
-  '/Users/josepm/Library/Mobile Documents/iCloud~md~obsidian/Documents/Mouseion/Studia/grammateion/hebreu/curs-master/dossier'
 
 // Les línies [il·lustració] amb ⁇ (pag-15) s'exclouen del recompte font.
 // ⁇ fora de l'abast de les regles (fitxer -> nombre esperat de línies)

@@ -1,0 +1,1693 @@
+{
+  "id": "u01",
+  "num": 1,
+  "titol": "Presentacions",
+  "color": "#E35D8F",
+  "pagines": [
+    "pag-02",
+    "pag-03",
+    "pag-04",
+    "pag-05",
+    "pag-06",
+    "pag-07",
+    "pag-08",
+    "pag-09"
+  ],
+  "vocabulari": [
+    {
+      "id": "u01-0",
+      "hebreu": "שָׁלוֹם",
+      "translit": "shalom",
+      "ca": "hola, adéu; pau",
+      "pagina": "pag-02",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u01-1",
+      "hebreu": "אֲנִי",
+      "translit": "ani",
+      "ca": "jo",
+      "pagina": "pag-02",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u01-2",
+      "hebreu": "נָעִים מְאוֹד",
+      "translit": "naim meod",
+      "ca": "encantat, molt de gust",
+      "pagina": "pag-02",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u01-3",
+      "hebreu": "אַתָּה",
+      "translit": "ata",
+      "ca": "tu, masc.",
+      "pagina": "pag-02",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u01-4",
+      "hebreu": "אַתְּ",
+      "translit": "at",
+      "ca": "tu, fem.",
+      "pagina": "pag-02",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u01-5",
+      "hebreu": "תַּלְמִיד",
+      "translit": "talmid / talmida",
+      "ca": "alumne / alumna",
+      "pagina": "pag-02",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "תַּלְמִידָה"
+      ]
+    },
+    {
+      "id": "u01-6",
+      "hebreu": "כֵּן",
+      "translit": "ken",
+      "ca": "sí",
+      "pagina": "pag-02",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u01-7",
+      "hebreu": "עוֹלֶה",
+      "translit": "ole / ola",
+      "ca": "immigrant jueu a Israel, el que fa l'aliyà",
+      "pagina": "pag-02",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "עוֹלָה"
+      ]
+    },
+    {
+      "id": "u01-8",
+      "hebreu": "חָדָשׁ",
+      "translit": "ḥadash / ḥadasha",
+      "ca": "nou / nova",
+      "pagina": "pag-02",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "חֲדָשָׁה"
+      ]
+    },
+    {
+      "id": "u01-9",
+      "hebreu": "לֹא",
+      "translit": "lo",
+      "ca": "no",
+      "pagina": "pag-02",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u01-10",
+      "hebreu": "תַּיָּר",
+      "translit": "tayar / tayeret",
+      "ca": "turista",
+      "pagina": "pag-02",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "תַּיֶּרֶת"
+      ]
+    },
+    {
+      "id": "u01-11",
+      "hebreu": "הוּא",
+      "translit": "hu / hi",
+      "ca": "ell / ella",
+      "pagina": "pag-02",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "הִיא"
+      ]
+    },
+    {
+      "id": "u01-12",
+      "hebreu": "מִ־",
+      "translit": "mi- / me-",
+      "ca": "de, des de (procedència)",
+      "pagina": "pag-02",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "מֵ־"
+      ]
+    },
+    {
+      "id": "u01-13",
+      "hebreu": "וְ־",
+      "translit": "ve- / u-",
+      "ca": "i",
+      "pagina": "pag-02",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "וּ־"
+      ]
+    },
+    {
+      "id": "u01-14",
+      "hebreu": "מִי?",
+      "translit": "mi",
+      "ca": "qui?",
+      "pagina": "pag-03",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u01-15",
+      "hebreu": "אָדוֹן",
+      "translit": "adon",
+      "ca": "senyor",
+      "pagina": "pag-03",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u01-16",
+      "hebreu": "גְּבֶרֶת",
+      "translit": "geveret",
+      "ca": "senyora",
+      "pagina": "pag-03",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u01-17",
+      "hebreu": "מוֹרֶה",
+      "translit": "more / mora",
+      "ca": "mestre / mestra",
+      "pagina": "pag-03",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "מוֹרָה"
+      ]
+    },
+    {
+      "id": "u01-18",
+      "hebreu": "טוֹב",
+      "translit": "tov / tova",
+      "ca": "bo / bona",
+      "pagina": "pag-03",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "טוֹבָה"
+      ]
+    },
+    {
+      "id": "u01-19",
+      "hebreu": "חָבֵר",
+      "translit": "ḥaver / ḥavera",
+      "ca": "amic / amiga; company",
+      "pagina": "pag-04",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "חֲבֵרָה"
+      ]
+    },
+    {
+      "id": "u01-20",
+      "hebreu": "שֶׁל",
+      "translit": "shel",
+      "ca": "de (possessió)",
+      "pagina": "pag-04",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u01-21",
+      "hebreu": "מְאוֹד",
+      "translit": "meod",
+      "ca": "molt",
+      "pagina": "pag-04",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u01-22",
+      "hebreu": "גַּם",
+      "translit": "gam",
+      "ca": "també",
+      "pagina": "pag-04",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u01-23",
+      "hebreu": "אֲנַחְנוּ",
+      "translit": "anaḥnu",
+      "ca": "nosaltres",
+      "pagina": "pag-05",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u01-24",
+      "hebreu": "אַתֶּם",
+      "translit": "atem / aten",
+      "ca": "vosaltres masc. / fem.",
+      "pagina": "pag-05",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "אַתֶּן"
+      ]
+    },
+    {
+      "id": "u01-25",
+      "hebreu": "הֵם",
+      "translit": "hem / hen",
+      "ca": "ells / elles",
+      "pagina": "pag-05",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "הֵן"
+      ]
+    },
+    {
+      "id": "u01-26",
+      "hebreu": "הַ־",
+      "translit": "ha-",
+      "ca": "el, la, els, les",
+      "pagina": "pag-05",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u01-27",
+      "hebreu": "זָכָר",
+      "translit": "zakhar",
+      "ca": "masculí",
+      "pagina": "pag-06",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u01-28",
+      "hebreu": "נְקֵבָה",
+      "translit": "nekeva",
+      "ca": "femení",
+      "pagina": "pag-06",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u01-29",
+      "hebreu": "יָחִיד",
+      "translit": "yaḥid",
+      "ca": "singular",
+      "pagina": "pag-06",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u01-30",
+      "hebreu": "רַבִּים",
+      "translit": "rabim / rabot",
+      "ca": "plural",
+      "pagina": "pag-06",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "רַבּוֹת"
+      ]
+    },
+    {
+      "id": "u01-31",
+      "hebreu": "מֵאַיִן?",
+      "translit": "meayin",
+      "ca": "d'on?",
+      "pagina": "pag-07",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u01-32",
+      "hebreu": "דָּרוֹם",
+      "translit": "darom",
+      "ca": "sud",
+      "pagina": "pag-07",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u01-33",
+      "hebreu": "אֲבָל",
+      "translit": "aval",
+      "ca": "però",
+      "pagina": "pag-07",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u01-34",
+      "hebreu": "תַּרְגִּיל",
+      "translit": "targil / targilim",
+      "ca": "exercici / exercicis",
+      "pagina": "pag-08",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "תַּרְגִּילִים"
+      ]
+    },
+    {
+      "id": "u01-35",
+      "hebreu": "כְּתֹב!",
+      "translit": "ktov",
+      "ca": "escriu!",
+      "pagina": "pag-08",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u01-36",
+      "hebreu": "מִלָּה",
+      "translit": "mila / milim",
+      "ca": "paraula / paraules",
+      "pagina": "pag-09",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "מִלִּים"
+      ]
+    },
+    {
+      "id": "u01-37",
+      "hebreu": "מִשְׁפָּט",
+      "translit": "mishpat / mishpatim",
+      "ca": "frase / frases",
+      "pagina": "pag-09",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "מִשְׁפָּטִים"
+      ]
+    }
+  ],
+  "gramatica": [],
+  "textos": [
+    {
+      "id": "pag-02-b0",
+      "pagina": "pag-02",
+      "titol": {
+        "u": "Diàleg",
+        "perComprovar": false,
+        "ca": "Coneixença"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-02-b0-l0",
+          "text": {
+            "u": "**רוברטו:** שלום, אני רוברטו."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-02-b0-l1",
+          "text": {
+            "u": "**דוריס:** אני דוריס."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-02-b0-l2",
+          "text": {
+            "u": "**רוברטו:** נעים מאוד."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-02-b0-l3",
+          "text": {
+            "u": "**דוריס:** נעים מאוד. אתה תלמיד?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-02-b0-l4",
+          "text": {
+            "u": "**רוברטו:** כן, אני תלמיד. את תלמידה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-02-b0-l5",
+          "text": {
+            "u": "**דוריס:** כן, אני תלמידה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-02-b0-l6",
+          "text": {
+            "u": "**רוברטו:** את עולה חדשה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-02-b0-l7",
+          "text": {
+            "u": "**דוריס:** לא, אני לא עולה חדשה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-02-b0-l8",
+          "text": {
+            "u": "אני תיירת. אני תיירת מֵאַנְגְלִיָּה."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-02-b0-l9",
+          "text": {
+            "u": "אתה תייר?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-02-b0-l10",
+          "text": {
+            "u": "**רוברטו:** לא, אני לא תייר. סטיב תייר."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-02-b0-l11",
+          "text": {
+            "u": "**דוריס:** ואתה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-02-b0-l12",
+          "text": {
+            "u": "**רוברטו:** אני עולה חדש מִבְּרָזִיל."
+          },
+          "perComprovar": true
+        }
+      ]
+    },
+    {
+      "id": "pag-02-b1",
+      "pagina": "pag-02",
+      "titol": {
+        "u": "Taula",
+        "perComprovar": false,
+        "ca": "Coneixença"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-02-b1-l0",
+          "text": {
+            "u": "הוּא · רוברטו תלמיד. · הוא עולה חדש. · הוא לא תייר."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-02-b1-l1",
+          "text": {
+            "u": "הִיא · דוריס תלמידה. · היא לא עולה חדשה. · היא תיירת."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-03-b0",
+      "pagina": "pag-03",
+      "titol": {
+        "u": "מִי אַתָּה?",
+        "perComprovar": false,
+        "ca": "Qui ets?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-03-b0-l0",
+          "text": {
+            "u": "מִי אַתָּה?"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-03-b1",
+      "pagina": "pag-03",
+      "titol": {
+        "u": "מי אתה?",
+        "perComprovar": false,
+        "ca": "Qui ets?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-03-b1-l0",
+          "text": {
+            "u": "אני יִצְחָק לֵוִי."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-03-b1-l1",
+          "text": {
+            "u": "אדון לֵוִי, אתה מוֹרֶה?"
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-03-b1-l2",
+          "text": {
+            "u": "לא, אני לא מוֹרֶה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-03-b1-l3",
+          "text": {
+            "u": "יוֹסֵף מוֹרֶה. הוא מורה טוב."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-03-b1-l4",
+          "text": {
+            "u": "אתה תלמיד טוב?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-03-b1-l5",
+          "text": {
+            "u": "כן, אני תלמיד טוב."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-03-b2",
+      "pagina": "pag-03",
+      "titol": {
+        "u": "מי את?",
+        "perComprovar": false,
+        "ca": "Qui ets?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-03-b2-l0",
+          "text": {
+            "u": "אני שָׂרָה לוי."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-03-b2-l1",
+          "text": {
+            "u": "גברת לוי, את מוֹרָה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-03-b2-l2",
+          "text": {
+            "u": "לא, אני לא מוֹרָה. אני תלמידה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-03-b2-l3",
+          "text": {
+            "u": "דְּבוֹרָה מוֹרָה. היא מורה טובה."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-03-b2-l4",
+          "text": {
+            "u": "את תלמידה טובה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-03-b2-l5",
+          "text": {
+            "u": "לא, אני תלמידה לא טובה."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-04-b0",
+      "pagina": "pag-04",
+      "titol": {
+        "u": "מי הוא?",
+        "perComprovar": false,
+        "ca": "Qui és ell? Qui és ella?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-04-b0-l0",
+          "text": {
+            "u": "הוא סטיב."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-04-b0-l1",
+          "text": {
+            "u": "סטיב עוֹלֶה חדש?"
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-04-b0-l2",
+          "text": {
+            "u": "לא, הוא תַּיָּר מֵאַנְגְלִיָּה."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-04-b0-l3",
+          "text": {
+            "u": "סטיב חבר שֶׁל דוריס?"
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-04-b0-l4",
+          "text": {
+            "u": "כן, הוא חבר של דוריס."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-04-b0-l5",
+          "text": {
+            "u": "סטיב חבר טוב?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-04-b0-l6",
+          "text": {
+            "u": "כן, סטיב חבר טוב מאוד."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-04-b1",
+      "pagina": "pag-04",
+      "titol": {
+        "u": "מי היא?",
+        "perComprovar": false,
+        "ca": "Qui és ell? Qui és ella?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-04-b1-l0",
+          "text": {
+            "u": "היא דוריס."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-04-b1-l1",
+          "text": {
+            "u": "דוריס עוֹלָה חדשה?"
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-04-b1-l2",
+          "text": {
+            "u": "לא, גם היא תַּיֶּרֶת מֵאַנְגְלִיָּה."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-04-b1-l3",
+          "text": {
+            "u": "דוריס חברה של סטיב?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-04-b1-l4",
+          "text": {
+            "u": "כן, היא חברה של סטיב."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-04-b1-l5",
+          "text": {
+            "u": "דוריס חברה טובה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-04-b1-l6",
+          "text": {
+            "u": "כן, היא חברה טובה מאוד."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-04-b2",
+      "pagina": "pag-04",
+      "titol": {
+        "u": "Taula",
+        "perComprovar": false,
+        "ca": "Qui és ell? Qui és ella?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-04-b2-l0",
+          "text": {
+            "u": "יצחק תלמיד טוב. · שרה תלמידה לא טובה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-04-b2-l1",
+          "text": {
+            "u": "יוסף מורה טוב. · דבורה מורה טובה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-04-b2-l2",
+          "text": {
+            "u": "סטיב חבר טוב. · דוריס חברה טובה."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-05-b0",
+      "pagina": "pag-05",
+      "titol": {
+        "u": "מי אתם?",
+        "perComprovar": false,
+        "ca": "Qui sou?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-05-b0-l0",
+          "text": {
+            "u": "אנחנו צִפּוֹרָה ויוסף."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-05-b0-l1",
+          "text": {
+            "u": "אתם תלמידים?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-05-b0-l2",
+          "text": {
+            "u": "לא, אנחנו מורים."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-05-b0-l3",
+          "text": {
+            "u": "אנחנו הַמּוֹרִים של שרה ויצחק."
+          },
+          "perComprovar": true
+        }
+      ]
+    },
+    {
+      "id": "pag-05-b1",
+      "pagina": "pag-05",
+      "titol": {
+        "u": "מי אתן?",
+        "perComprovar": false,
+        "ca": "Qui sou?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-05-b1-l0",
+          "text": {
+            "u": "אנחנו שׁוֹשַׁנָּה וְרָחֵל."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-05-b1-l1",
+          "text": {
+            "u": "אתן מורות?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-05-b1-l2",
+          "text": {
+            "u": "לא, אנחנו תלמידות."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-05-b1-l3",
+          "text": {
+            "u": "אנחנו התלמידות של צפורה."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-05-b2",
+      "pagina": "pag-05",
+      "titol": {
+        "u": "מי הם?",
+        "perComprovar": false,
+        "ca": "Qui sou?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-05-b2-l0",
+          "text": {
+            "u": "הם רוברטו ועִמָּנוּאֵל."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-05-b2-l1",
+          "text": {
+            "u": "הם תיירים?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-05-b2-l2",
+          "text": {
+            "u": "לא, הם עולים חדשים מברזיל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-05-b2-l3",
+          "text": {
+            "u": "הם חברים?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-05-b2-l4",
+          "text": {
+            "u": "כן, הם חברים טובים."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-05-b3",
+      "pagina": "pag-05",
+      "titol": {
+        "u": "מי הן?",
+        "perComprovar": false,
+        "ca": "Qui sou?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-05-b3-l0",
+          "text": {
+            "u": "הן אסתר וְתָמָר."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-05-b3-l1",
+          "text": {
+            "u": "הן תיירות?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-05-b3-l2",
+          "text": {
+            "u": "לא, הן עולות חדשות מברזיל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-05-b3-l3",
+          "text": {
+            "u": "הן חברות?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-05-b3-l4",
+          "text": {
+            "u": "כן, הן חברות טובות."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-06-b0",
+      "pagina": "pag-06",
+      "titol": {
+        "u": "Frases",
+        "perComprovar": false,
+        "ca": "Masculí i femení, singular i plural"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-06-b0-l0",
+          "text": {
+            "u": "צפורה ויוסף מורים. · שושנה ורחל לא מורות."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-06-b0-l1",
+          "text": {
+            "u": "רוברטו ועמנואל תלמידים. · שושנה ורחל תלמידות."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-06-b0-l2",
+          "text": {
+            "u": "הם תלמידים חדשים. · הן תלמידות חדשות."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-06-b0-l3",
+          "text": {
+            "u": "הם תלמידים טובים. · הן תלמידות טובות."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-06-b0-l4",
+          "text": {
+            "u": "הם לא תיירים. · הן לא תיירות."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-06-b0-l5",
+          "text": {
+            "u": "הם עולים חדשים. · הן עולות חדשות."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-06-b0-l6",
+          "text": {
+            "u": "רוברטו ועמנואל חברים. · שושנה ורחל חברות."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-06-b0-l7",
+          "text": {
+            "u": "הם חברים טובים. · הן חברות טובות."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-06-b1",
+      "pagina": "pag-06",
+      "titol": {
+        "u": "זָכָר וּנְקֵבָה, יָחִיד וְרַבִּים",
+        "perComprovar": false,
+        "ca": "Masculí i femení, singular i plural"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-06-b1-l0",
+          "text": {
+            "u": "אני · תייר"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-06-b1-l1",
+          "text": {
+            "u": "אתה · תלמיד"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-06-b1-l2",
+          "text": {
+            "u": "הוא · מוֹרֶה"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-06-b1-l3",
+          "text": {
+            "u": "עוֹלֶה"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-06-b2",
+      "pagina": "pag-06",
+      "titol": {
+        "u": "זָכָר וּנְקֵבָה, יָחִיד וְרַבִּים",
+        "perComprovar": false,
+        "ca": "Masculí i femení, singular i plural"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-06-b2-l0",
+          "text": {
+            "u": "אני · תַּיֶּרֶת"
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-06-b2-l1",
+          "text": {
+            "u": "את · תלמידָה"
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-06-b2-l2",
+          "text": {
+            "u": "היא · מוֹרָה"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-06-b2-l3",
+          "text": {
+            "u": "עוֹלָה"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-06-b3",
+      "pagina": "pag-06",
+      "titol": {
+        "u": "זָכָר וּנְקֵבָה, יָחִיד וְרַבִּים",
+        "perComprovar": false,
+        "ca": "Masculí i femení, singular i plural"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-06-b3-l0",
+          "text": {
+            "u": "אנחנו · תיירים"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-06-b3-l1",
+          "text": {
+            "u": "אתם · תלמידים"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-06-b3-l2",
+          "text": {
+            "u": "הם · מורים"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-06-b3-l3",
+          "text": {
+            "u": "עולים"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-06-b4",
+      "pagina": "pag-06",
+      "titol": {
+        "u": "זָכָר וּנְקֵבָה, יָחִיד וְרַבִּים",
+        "perComprovar": false,
+        "ca": "Masculí i femení, singular i plural"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-06-b4-l0",
+          "text": {
+            "u": "אנחנו · תיירות"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-06-b4-l1",
+          "text": {
+            "u": "אתן · תלמידות"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-06-b4-l2",
+          "text": {
+            "u": "הן · מורות"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-06-b4-l3",
+          "text": {
+            "u": "עולות"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-07-b0",
+      "pagina": "pag-07",
+      "titol": {
+        "u": "מֵאַיִן?",
+        "perComprovar": false,
+        "ca": "D'on?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-07-b0-l0",
+          "text": {
+            "u": "מֵאַיִן?"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-07-b1",
+      "pagina": "pag-07",
+      "titol": {
+        "u": "מֵאַיִן?",
+        "perComprovar": false,
+        "ca": "D'on?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-07-b1-l0",
+          "text": {
+            "u": "...מִ ...מֵ"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-07-b2",
+      "pagina": "pag-07",
+      "titol": {
+        "u": "Diàleg",
+        "perComprovar": false,
+        "ca": "D'on?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-07-b2-l0",
+          "text": {
+            "u": "מאין אתה רוברטו? — אני מִבְּרָזִיל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-07-b2-l1",
+          "text": {
+            "u": "מאין דָּוִד וְלֵאָה? — הם מִסּוּרְיָה."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-07-b2-l2",
+          "text": {
+            "u": "ומאין מָרִיוֹ? — מָרִיוֹ מֵאוּרוּגְוַאי."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-07-b2-l3",
+          "text": {
+            "u": "גם מִרְיָם מֵאוּרוּגְוַאי? — לא."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-07-b2-l4",
+          "text": {
+            "u": "מאין היא? — גם היא מִדְּרוֹם-אֲמֶרִיקָה"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-07-b2-l5",
+          "text": {
+            "u": "אבל לא מֵאוּרוּגְוַאי."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-07-b2-l6",
+          "text": {
+            "u": "היא מֵאַרְגֶּנְטִינָה."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-07-b3",
+      "pagina": "pag-07",
+      "titol": {
+        "u": "מאין החברים של רוברטו?",
+        "perComprovar": false,
+        "ca": "D'on?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-07-b3-l0",
+          "text": {
+            "u": "דוריס וסטיב מֵאַנְגְלִיָּה. · סָם מִדְּרוֹם-אַפְרִיקָה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-07-b3-l1",
+          "text": {
+            "u": "בוריס וחנה מֵרוּסְיָה. · נָטָלִי מִצָּרְפַת."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-07-b3-l2",
+          "text": {
+            "u": "שַׁמַּאי מִפָּרָס. · קָרוֹל וסוֹנְיָה מֵרוֹמַנְיָה."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-07-b3-l3",
+          "text": {
+            "u": "מוריס ורָחֵל מִמָּרוֹקוֹ. · יְהוּדָה וְלֵאָה מִטּוּרְקִיָּה."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-07-b3-l4",
+          "text": {
+            "u": "עמנואל מִבְּרָזִיל. · שׁוֹשַׁנָּה מִצִּ'ילֶה."
+          },
+          "perComprovar": true
+        }
+      ]
+    },
+    {
+      "id": "pag-07-b4",
+      "pagina": "pag-07",
+      "titol": {
+        "u": "מאין החברים של רוברטו?",
+        "perComprovar": false,
+        "ca": "D'on?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-07-b4-l0",
+          "text": {
+            "u": "רוברטו, עמנואל, מריו, מרים ושושנה מִדְּרוֹם-אמריקה."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-08-b0",
+      "pagina": "pag-08",
+      "titol": {
+        "u": "תרגיל 1",
+        "perComprovar": false,
+        "ca": "Exercici 1"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-08-b0-l0",
+          "text": {
+            "u": "כתוב: אני, אתה, את, הוא, היא,"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-08-b0-l1",
+          "text": {
+            "u": "אנחנו, אתם, אתן, הם, הן"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-08-b1",
+      "pagina": "pag-08",
+      "titol": {
+        "u": "תרגיל 1",
+        "perComprovar": false,
+        "ca": "Exercici 1"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-08-b1-l0",
+          "text": {
+            "u": "1. היא תלמידה טובה? — כן, ____ תלמידה טובה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-08-b1-l1",
+          "text": {
+            "u": "2. את גברת לוי? — לא, ____ לא גברת לוי."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-08-b1-l2",
+          "text": {
+            "u": "3. מי הם? — ____ רוברטו ועמנואל."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-08-b1-l3",
+          "text": {
+            "u": "4. ____ תלמידות טובות? — כן, הן תלמידות טובות."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-08-b1-l4",
+          "text": {
+            "u": "5. מאין אתם? — ____ מִקָּנָדָה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-08-b1-l5",
+          "text": {
+            "u": "6. ____ מורה? — לא, אני תלמיד."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-08-b1-l6",
+          "text": {
+            "u": "7. ____ מורה טוב? — כן, הוא מורה טוב."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-08-b1-l7",
+          "text": {
+            "u": "8. ____ תיירות מִבְּרָזִיל? — לא, אנחנו תיירות מאמריקה."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-08-b1-l8",
+          "text": {
+            "u": "9. ____ חברה של יצחק? — כן, אני חברה של יצחק."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-08-b1-l9",
+          "text": {
+            "u": "10. ____ תיירים? — לא, אנחנו לא תיירים."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-09-b0",
+      "pagina": "pag-09",
+      "titol": {
+        "u": "תרגיל 2",
+        "perComprovar": false,
+        "ca": "Exercici 2"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-09-b0-l0",
+          "text": {
+            "u": "כתוב במקום המילים המודגשות את המילים שבסוגריים."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-09-b0-l1",
+          "text": {
+            "u": "שנה את המשפטים בהתאם."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-09-b1",
+      "pagina": "pag-09",
+      "titol": {
+        "u": "תרגיל 2",
+        "perComprovar": false,
+        "ca": "Exercici 2"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-09-b1-l0",
+          "text": {
+            "u": "1. <u>צפורה</u> מוֹרָה. היא לא תלמידה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-09-b1-l1",
+          "text": {
+            "u": "(יוסף, צפורה ויוסף, צפורה ודינה)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-09-b1-l2",
+          "text": {
+            "u": "____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-09-b1-l3",
+          "text": {
+            "u": "____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-09-b1-l4",
+          "text": {
+            "u": "____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-09-b1-l5",
+          "text": {
+            "u": "2. צפורה <u>מורה</u> טובה מאוד. (תלמידה, חברה)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-09-b1-l6",
+          "text": {
+            "u": "____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-09-b1-l7",
+          "text": {
+            "u": "____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-09-b1-l8",
+          "text": {
+            "u": "3. מאין <u>אתה</u>? אני מֵרוּסְיָה. (אתם, הם, חנה, את)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-09-b1-l9",
+          "text": {
+            "u": "____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-09-b1-l10",
+          "text": {
+            "u": "____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-09-b1-l11",
+          "text": {
+            "u": "____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-09-b1-l12",
+          "text": {
+            "u": "____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-09-b1-l13",
+          "text": {
+            "u": "4. <u>אתה</u> לא תייר. (את, הוא, אתם, אתן)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-09-b1-l14",
+          "text": {
+            "u": "5. <u>אנחנו</u> חברים של סטיב. (הן, דוריס, רוברטו)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-09-b1-l15",
+          "text": {
+            "u": "6. <u>יצחק</u> עולה חדש. הוא לא מורה. הוא תלמיד."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-09-b1-l16",
+          "text": {
+            "u": "(שרה, מריו ועמנואל, תמר ואסתר)"
+          },
+          "perComprovar": false
+        }
+      ]
+    }
+  ],
+  "exercicis": []
+}

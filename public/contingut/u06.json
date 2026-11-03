@@ -1,0 +1,1760 @@
+{
+  "id": "u06",
+  "num": 6,
+  "titol": "A la classe",
+  "color": "#FF7A59",
+  "pagines": [
+    "pag-33",
+    "pag-34",
+    "pag-35",
+    "pag-36",
+    "pag-37",
+    "pag-38",
+    "pag-39"
+  ],
+  "vocabulari": [
+    {
+      "id": "u06-0",
+      "hebreu": "כְּנֶסֶת",
+      "translit": "kneset, accent a KNE",
+      "ca": "Kenésset, el parlament d'Israel",
+      "pagina": "pag-33",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u06-1",
+      "hebreu": "חֲבֵר כְּנֶסֶת",
+      "translit": "ḥaver kneset / ḥavre kneset",
+      "ca": "diputat, membre de la Kenésset",
+      "pagina": "pag-33",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "חַבְרֵי כְּנֶסֶת"
+      ]
+    },
+    {
+      "id": "u06-2",
+      "hebreu": "עֲרָבִי",
+      "translit": "aravi / aravim",
+      "ca": "àrab / àrabs",
+      "pagina": "pag-33",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "עֲרָבִים"
+      ]
+    },
+    {
+      "id": "u06-3",
+      "hebreu": "נֵפְט",
+      "translit": "neft",
+      "ca": "petroli",
+      "pagina": "pag-33",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u06-4",
+      "hebreu": "יְהוּדִי",
+      "translit": "yehudi / yehudim",
+      "ca": "jueu / jueus",
+      "pagina": "pag-33",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "יְהוּדִים"
+      ]
+    },
+    {
+      "id": "u06-5",
+      "hebreu": "שׁוּלְחָן",
+      "translit": "shulḥan / shulḥanot",
+      "ca": "taula",
+      "pagina": "pag-34",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "שׁוּלְחָנוֹת"
+      ]
+    },
+    {
+      "id": "u06-6",
+      "hebreu": "כִּיסֵּא",
+      "translit": "kise / kisot",
+      "ca": "cadira",
+      "pagina": "pag-34",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "כִּיסְאוֹת"
+      ]
+    },
+    {
+      "id": "u06-7",
+      "hebreu": "אָרוֹן",
+      "translit": "aron / aronot",
+      "ca": "armari",
+      "pagina": "pag-34",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "אֲרוֹנוֹת"
+      ]
+    },
+    {
+      "id": "u06-8",
+      "hebreu": "חַלּוֹן",
+      "translit": "ḥalon / ḥalonot",
+      "ca": "finestra",
+      "pagina": "pag-34",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "חַלּוֹנוֹת"
+      ]
+    },
+    {
+      "id": "u06-9",
+      "hebreu": "לוּחַ",
+      "translit": "luaḥ / luḥot",
+      "ca": "pissarra",
+      "pagina": "pag-34",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "לוּחוֹת"
+      ]
+    },
+    {
+      "id": "u06-10",
+      "hebreu": "מַחְבֶּרֶת",
+      "translit": "maḥberet / maḥbarot",
+      "ca": "llibreta",
+      "pagina": "pag-34",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "מַחְבָּרוֹת"
+      ]
+    },
+    {
+      "id": "u06-11",
+      "hebreu": "עֵט",
+      "translit": "et / etim",
+      "ca": "ploma, bolígraf",
+      "pagina": "pag-34",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "עֵטִים"
+      ]
+    },
+    {
+      "id": "u06-12",
+      "hebreu": "עִיפָּרוֹן",
+      "translit": "iparon / efronot",
+      "ca": "llapis",
+      "pagina": "pag-34",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "עֶפְרוֹנוֹת"
+      ]
+    },
+    {
+      "id": "u06-13",
+      "hebreu": "חָתוּל",
+      "translit": "ḥatul",
+      "ca": "gat",
+      "pagina": "pag-34",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u06-14",
+      "hebreu": "עַל",
+      "translit": "al",
+      "ca": "sobre, damunt de",
+      "pagina": "pag-34",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u06-15",
+      "hebreu": "עַל-יַד",
+      "translit": "al-yad",
+      "ca": "al costat de",
+      "pagina": "pag-34",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u06-16",
+      "hebreu": "בֵּין... וְ...",
+      "translit": "ben",
+      "ca": "entre... i...",
+      "pagina": "pag-34",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u06-17",
+      "hebreu": "תַּחַת",
+      "translit": "taḥat",
+      "ca": "sota",
+      "pagina": "pag-34",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u06-18",
+      "hebreu": "שָׁטִיחַ",
+      "translit": "shatiaḥ / shtiḥim",
+      "ca": "catifa",
+      "pagina": "pag-35",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "שְׁטִיחִים"
+      ]
+    },
+    {
+      "id": "u06-19",
+      "hebreu": "מִיטָּה",
+      "translit": "mita / mitot",
+      "ca": "llit",
+      "pagina": "pag-35",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "מִיטּוֹת"
+      ]
+    },
+    {
+      "id": "u06-20",
+      "hebreu": "שָׁחוֹר",
+      "translit": "shaḥor / shḥora / shḥorim / shḥorot",
+      "ca": "negre",
+      "pagina": "pag-36",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "שְׁחוֹרָה",
+        "שְׁחוֹרִים",
+        "שְׁחוֹרוֹת"
+      ]
+    },
+    {
+      "id": "u06-21",
+      "hebreu": "דֶּלֶת",
+      "translit": "delet / dlatot",
+      "ca": "porta",
+      "pagina": "pag-36",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "דְּלָתוֹת"
+      ]
+    },
+    {
+      "id": "u06-22",
+      "hebreu": "מוֹעֲדוֹן",
+      "translit": "moadon / moadonim",
+      "ca": "club, sala social",
+      "pagina": "pag-36",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "מוֹעֲדוֹנִים"
+      ]
+    },
+    {
+      "id": "u06-23",
+      "hebreu": "מִשְׂרָד",
+      "translit": "misrad / misradim",
+      "ca": "oficina, despatx",
+      "pagina": "pag-36",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "מִשְׂרָדִים"
+      ]
+    },
+    {
+      "id": "u06-24",
+      "hebreu": "פֹּה",
+      "translit": "po",
+      "ca": "aquí",
+      "pagina": "pag-36",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u06-25",
+      "hebreu": "יוֹשֵׁב – לָשֶׁבֶת (יָשַׁב)",
+      "translit": "yoshev – lashevet",
+      "ca": "seure, estar assegut",
+      "pagina": "pag-36",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u06-26",
+      "hebreu": "עוֹמֵד – לַעֲמוֹד (עָמַד)",
+      "translit": "omed – laamod",
+      "ca": "estar dret, estar dempeus",
+      "pagina": "pag-36",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u06-27",
+      "hebreu": "כּוֹתֵב – לִכְתּוֹב (כָּתַב)",
+      "translit": "kotev – likhtov",
+      "ca": "escriure",
+      "pagina": "pag-36",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u06-28",
+      "hebreu": "בְּ־",
+      "translit": "be-",
+      "ca": "amb (instrument): בְּגִיר, amb guix",
+      "pagina": "pag-37",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u06-29",
+      "hebreu": "גִּיר",
+      "translit": "gir",
+      "ca": "guix",
+      "pagina": "pag-37",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u06-30",
+      "hebreu": "לָבָן",
+      "translit": "lavan / levana / levanim / levanot",
+      "ca": "blanc",
+      "pagina": "pag-37",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "formes": [
+        "לְבָנָה",
+        "לְבָנִים",
+        "לְבָנוֹת"
+      ]
+    },
+    {
+      "id": "u06-31",
+      "hebreu": "הִנֵּה",
+      "translit": "hine",
+      "ca": "aquí tens, heus aquí",
+      "pagina": "pag-37",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u06-32",
+      "hebreu": "אוֹמֵר – לוֹמַר (אָמַר)",
+      "translit": "omer – lomar",
+      "ca": "dir",
+      "pagina": "pag-37",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u06-33",
+      "hebreu": "שֶׁ־",
+      "translit": "she-",
+      "ca": "que (conjunció)",
+      "pagina": "pag-38",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    },
+    {
+      "id": "u06-34",
+      "hebreu": "אֵיךְ אוֹמְרִים...?",
+      "translit": "ekh omrim",
+      "ca": "com es diu...?",
+      "pagina": "pag-38",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
+    }
+  ],
+  "gramatica": [],
+  "textos": [
+    {
+      "id": "pag-33-b0",
+      "pagina": "pag-33",
+      "titol": {
+        "u": "Quadre (marge)",
+        "perComprovar": false,
+        "ca": "Hi ha a... / No hi ha a..."
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-33-b0-l0",
+          "text": {
+            "u": "יֵשׁ בְּ..."
+          },
+          "perComprovar": true
+        },
+        {
+          "id": "pag-33-b0-l1",
+          "text": {
+            "u": "אֵין בְּ..."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-33-b1",
+      "pagina": "pag-33",
+      "titol": {
+        "u": "יש / אין",
+        "perComprovar": false,
+        "ca": "Hi ha a... / No hi ha a..."
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-33-b1-l0",
+          "text": {
+            "u": "אומרים: בישראל יש קיבוצים. באנגליה אין קיבוצים."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-33-b1-l1",
+          "text": {
+            "u": "או: יש בישראל קיבוצים. אין באנגליה קיבוצים."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-33-b1-l2",
+          "text": {
+            "u": "או: יש קיבוצים בישראל. אין קיבוצים באנגליה."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-33-b2",
+      "pagina": "pag-33",
+      "titol": {
+        "u": "תרגיל 19",
+        "perComprovar": false,
+        "ca": "Hi ha a... / No hi ha a..."
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-33-b2-l0",
+          "text": {
+            "u": "עֲנֵה...!"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-33-b3",
+      "pagina": "pag-33",
+      "titol": {
+        "u": "תרגיל 19",
+        "perComprovar": false,
+        "ca": "Hi ha a... / No hi ha a..."
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-33-b3-l0",
+          "text": {
+            "u": "ענה על השאלות."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-33-b4",
+      "pagina": "pag-33",
+      "titol": {
+        "u": "תרגיל 19",
+        "perComprovar": false,
+        "ca": "Hi ha a... / No hi ha a..."
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-33-b4-l0",
+          "text": {
+            "u": "1. בישראל יש דמוקרטיה? ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-33-b4-l1",
+          "text": {
+            "u": "2. יש דמוקרטיה ברוסיה? ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-33-b4-l2",
+          "text": {
+            "u": "3. יש דיקטטורה בארצות-הברית? ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-33-b4-l3",
+          "text": {
+            "u": "4. איפה יש דיקטטורה? ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-33-b4-l4",
+          "text": {
+            "u": "5. יש מֵאָה וְעֶשְׂרִים (120) חברים בכנסת? ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-33-b4-l5",
+          "text": {
+            "u": "6. יש בכנסת נשים? ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-33-b4-l6",
+          "text": {
+            "u": "7. בכנסת יש ערבים? ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-33-b4-l7",
+          "text": {
+            "u": "8. יש נפט במקסיקו? ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-33-b4-l8",
+          "text": {
+            "u": "9. בישראל יש נפט? ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-33-b4-l9",
+          "text": {
+            "u": "10. איפה יש נפט? ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-33-b4-l10",
+          "text": {
+            "u": "11. יש יהודים בסוריה? ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-33-b4-l11",
+          "text": {
+            "u": "12. בכיתה יש טלוויזיה? ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-33-b4-l12",
+          "text": {
+            "u": "13. יש טלפון בכיתה? ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-33-b4-l13",
+          "text": {
+            "u": "14. יש בכיתה טרקטור? ____"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-33-b4-l14",
+          "text": {
+            "u": "15. יש אולפנים בקיבוצים? ____"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-34-b0",
+      "pagina": "pag-34",
+      "titol": {
+        "u": "מַה יֵשׁ בַּכִּיתָה?",
+        "perComprovar": false,
+        "ca": "Què hi ha a la classe?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-34-b0-l0",
+          "text": {
+            "u": "שולחָן"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-34-b0-l1",
+          "text": {
+            "u": "כִּיסֵא"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-34-b0-l2",
+          "text": {
+            "u": "אָרון"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-34-b0-l3",
+          "text": {
+            "u": "חַלון"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-34-b1",
+      "pagina": "pag-34",
+      "titol": {
+        "u": "מַה יֵשׁ בַּכִּיתָה?",
+        "perComprovar": false,
+        "ca": "Què hi ha a la classe?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-34-b1-l0",
+          "text": {
+            "u": "לוּחַ"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-34-b1-l1",
+          "text": {
+            "u": "מַחבֶּרֶת"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-34-b1-l2",
+          "text": {
+            "u": "עֵט"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-34-b1-l3",
+          "text": {
+            "u": "עִיפָּרון"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-34-b2",
+      "pagina": "pag-34",
+      "titol": {
+        "u": "Quadre (marge)",
+        "perComprovar": false,
+        "ca": "Què hi ha a la classe?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-34-b2-l0",
+          "text": {
+            "u": "עַל"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-34-b2-l1",
+          "text": {
+            "u": "עַל-יַד"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-34-b2-l2",
+          "text": {
+            "u": "בֵּין"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-34-b2-l3",
+          "text": {
+            "u": "תַּחַת"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-34-b3",
+      "pagina": "pag-34",
+      "titol": {
+        "u": "איפה החתול?",
+        "perComprovar": false,
+        "ca": "Què hi ha a la classe?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-34-b3-l0",
+          "text": {
+            "u": "החתול על הכיסא"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-34-b3-l1",
+          "text": {
+            "u": "על-יד השולחן."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-34-b4",
+      "pagina": "pag-34",
+      "titol": {
+        "u": "איפה החתול?",
+        "perComprovar": false,
+        "ca": "Què hi ha a la classe?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-34-b4-l0",
+          "text": {
+            "u": "החתול על הכיסא"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-34-b4-l1",
+          "text": {
+            "u": "בין השולחן והארון."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-34-b5",
+      "pagina": "pag-34",
+      "titol": {
+        "u": "איפה החתול?",
+        "perComprovar": false,
+        "ca": "Què hi ha a la classe?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-34-b5-l0",
+          "text": {
+            "u": "איפה הכלב?"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-34-b6",
+      "pagina": "pag-34",
+      "titol": {
+        "u": "איפה החתול?",
+        "perComprovar": false,
+        "ca": "Què hi ha a la classe?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-34-b6-l0",
+          "text": {
+            "u": "הכלב תחת השולחן."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-34-b7",
+      "pagina": "pag-34",
+      "titol": {
+        "u": "Preposicions (marge)",
+        "perComprovar": false,
+        "ca": "Què hi ha a la classe?"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-34-b7-l0",
+          "text": {
+            "u": "עַל"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-34-b7-l1",
+          "text": {
+            "u": "עַל-יַד"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-34-b7-l2",
+          "text": {
+            "u": "בֵּין"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-34-b7-l3",
+          "text": {
+            "u": "תַּחַת"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-35-b0",
+      "pagina": "pag-35",
+      "titol": {
+        "u": "תרגיל 20",
+        "perComprovar": false,
+        "ca": "Exercici 20"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-35-b0-l0",
+          "text": {
+            "u": "כתוב על על-יד בין תחת"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-35-b1",
+      "pagina": "pag-35",
+      "titol": {
+        "u": "תרגיל 20",
+        "perComprovar": false,
+        "ca": "Exercici 20"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-35-b1-l0",
+          "text": {
+            "u": "1. הגיטרה ____ השטיח ____ השולחן."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-35-b1-l1",
+          "text": {
+            "u": "2. השטיח ____ הגיטרה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-35-b1-l2",
+          "text": {
+            "u": "3. השולחן ____ הכיסא והמיטה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-35-b1-l3",
+          "text": {
+            "u": "4. הטלוויזיה ____ הארון ____ הטרנזיסטור."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-35-b1-l4",
+          "text": {
+            "u": "5. החתול ____ החלון. הכלב ____ המיטה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-35-b1-l5",
+          "text": {
+            "u": "6. המיטה ____ השולחן. הספר ____ המיטה."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-35-b1-l6",
+          "text": {
+            "u": "7. העיפרון ____ העט והטלפון."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-35-b1-l7",
+          "text": {
+            "u": "8. העט ____ השולחן. המחברת ____ העט."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-35-b1-l8",
+          "text": {
+            "u": "9. העט ____ המחברת והעפרון."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-35-b1-l9",
+          "text": {
+            "u": "10. הילדה והאיש ____ הדלת."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-35-b1-l10",
+          "text": {
+            "u": "11. הטרנזיסטור ____ הטלוויזיה ____ הארון."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-35-b1-l11",
+          "text": {
+            "u": "12. הארון ____ הדלת."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-36-b0",
+      "pagina": "pag-36",
+      "titol": {
+        "u": "בַּכִּיתָה",
+        "perComprovar": false,
+        "ca": "A la classe"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-36-b0-l0",
+          "text": {
+            "u": "זאת כיתה באולפן. מה יש בכיתה?"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-36-b1",
+      "pagina": "pag-36",
+      "titol": {
+        "u": "בַּכִּיתָה",
+        "perComprovar": false,
+        "ca": "A la classe"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-36-b1-l0",
+          "text": {
+            "u": "בכיתה יש שולחן. על השולחן יש ספר, מחברת ועט."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-36-b1-l1",
+          "text": {
+            "u": "בכיתה יש לוח גדול שחור, חלונות גדולים ודלת."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-36-b2",
+      "pagina": "pag-36",
+      "titol": {
+        "u": "בַּכִּיתָה",
+        "perComprovar": false,
+        "ca": "A la classe"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-36-b2-l0",
+          "text": {
+            "u": "יש בכיתה טלוויזיה?"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-36-b3",
+      "pagina": "pag-36",
+      "titol": {
+        "u": "בַּכִּיתָה",
+        "perComprovar": false,
+        "ca": "A la classe"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-36-b3-l0",
+          "text": {
+            "u": "לא, טלוויזיה יש במועדון של האולפן."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-36-b4",
+      "pagina": "pag-36",
+      "titol": {
+        "u": "בַּכִּיתָה",
+        "perComprovar": false,
+        "ca": "A la classe"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-36-b4-l0",
+          "text": {
+            "u": "וטלפון יש בכיתה?"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-36-b5",
+      "pagina": "pag-36",
+      "titol": {
+        "u": "בַּכִּיתָה",
+        "perComprovar": false,
+        "ca": "A la classe"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-36-b5-l0",
+          "text": {
+            "u": "לא. גם טלפון אין בכיתה. טלפון יש במשרד."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-36-b6",
+      "pagina": "pag-36",
+      "titol": {
+        "u": "בַּכִּיתָה",
+        "perComprovar": false,
+        "ca": "A la classe"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-36-b6-l0",
+          "text": {
+            "u": "יש פה כיסא?"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-36-b7",
+      "pagina": "pag-36",
+      "titol": {
+        "u": "בַּכִּיתָה",
+        "perComprovar": false,
+        "ca": "A la classe"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-36-b7-l0",
+          "text": {
+            "u": "יש פה הרבה כיסאות."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-36-b8",
+      "pagina": "pag-36",
+      "titol": {
+        "u": "בַּכִּיתָה",
+        "perComprovar": false,
+        "ca": "A la classe"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-36-b8-l0",
+          "text": {
+            "u": "ואיפה התלמידים? מה הם עושים?"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-36-b9",
+      "pagina": "pag-36",
+      "titol": {
+        "u": "בַּכִּיתָה",
+        "perComprovar": false,
+        "ca": "A la classe"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-36-b9-l0",
+          "text": {
+            "u": "התלמידים בכיתה. הם יושבים על הכסאות ולומדים."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-36-b10",
+      "pagina": "pag-36",
+      "titol": {
+        "u": "בַּכִּיתָה",
+        "perComprovar": false,
+        "ca": "A la classe"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-36-b10-l0",
+          "text": {
+            "u": "איפה המורה? מה היא עושה?"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-36-b11",
+      "pagina": "pag-36",
+      "titol": {
+        "u": "בַּכִּיתָה",
+        "perComprovar": false,
+        "ca": "A la classe"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-36-b11-l0",
+          "text": {
+            "u": "גם היא בכיתה. היא עומדת על-יד הלוח וכותבת על הלוח בגיר לבן. היא כותבת על הלוח מילים חדשות."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-37-b0",
+      "pagina": "pag-37",
+      "titol": {
+        "u": "הפעלים החדשים",
+        "perComprovar": false,
+        "ca": "Els verbs nous"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-37-b0-l0",
+          "text": {
+            "u": "גם התלמידים כותבים על הלוח בגיר?"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-37-b1",
+      "pagina": "pag-37",
+      "titol": {
+        "u": "הפעלים החדשים",
+        "perComprovar": false,
+        "ca": "Els verbs nous"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-37-b1-l0",
+          "text": {
+            "u": "לא, הם כותבים במחברות בעיפרון, או בעט."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-37-b2",
+      "pagina": "pag-37",
+      "titol": {
+        "u": "הפעלים החדשים",
+        "perComprovar": false,
+        "ca": "Els verbs nous"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-37-b2-l0",
+          "text": {
+            "u": "מי עומד על-יד הדלת?"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-37-b3",
+      "pagina": "pag-37",
+      "titol": {
+        "u": "הפעלים החדשים",
+        "perComprovar": false,
+        "ca": "Els verbs nous"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-37-b3-l0",
+          "text": {
+            "u": "יצחק עומד על-יד הדלת. המורה אומרת:"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-37-b3-l1",
+          "text": {
+            "u": "\"בוקר טוב יצחק! הנה כיסא. בבקשה לשבת!\""
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-37-b3-l2",
+          "text": {
+            "u": "\"בוקר טוב\" אומר יצחק ויושב."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-37-b3-l3",
+          "text": {
+            "u": "עכשיו גם יצחק לומד. עכשיו גם יצחק כותב."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-37-b4",
+      "pagina": "pag-37",
+      "titol": {
+        "u": "בְּ",
+        "perComprovar": false,
+        "ca": "Els verbs nous"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-37-b4-l0",
+          "text": {
+            "u": "המורה כותבת בְּגיר. התלמיד כותב בעט."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-37-b5",
+      "pagina": "pag-37",
+      "titol": {
+        "u": "הפעלים החדשים",
+        "perComprovar": false,
+        "ca": "Els verbs nous"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-37-b5-l0",
+          "text": {
+            "u": "יושֵב · יושֶבֶת · יושְבִים · יושְבות"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-37-b5-l1",
+          "text": {
+            "u": "עומֵד · עומֶדֶת · עומְדִים · עומְדות"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-37-b5-l2",
+          "text": {
+            "u": "כותֵב · כותֶבֶת · כותְבִים · כותְבות"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-37-b5-l3",
+          "text": {
+            "u": "אומֵר · אומֶרֶת · אומְרִים · אומְרות"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-38-b0",
+      "pagina": "pag-38",
+      "titol": {
+        "u": "Quadre (marge)",
+        "perComprovar": false,
+        "ca": "Dir: estil directe i indirecte"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-38-b0-l0",
+          "text": {
+            "u": "אומֵר: \"......\""
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-38-b0-l1",
+          "text": {
+            "u": "אומֵר ל......"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-38-b0-l2",
+          "text": {
+            "u": "אומֵר שֶ......"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-38-b1",
+      "pagina": "pag-38",
+      "titol": {
+        "u": "Exemples",
+        "perComprovar": false,
+        "ca": "Dir: estil directe i indirecte"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-38-b1-l0",
+          "text": {
+            "u": "המורה אומרת: \"בוקר טוב, יצחק!\""
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-38-b2",
+      "pagina": "pag-38",
+      "titol": {
+        "u": "Exemples",
+        "perComprovar": false,
+        "ca": "Dir: estil directe i indirecte"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-38-b2-l0",
+          "text": {
+            "u": "מה אומרת המורה ליצחק?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-38-b2-l1",
+          "text": {
+            "u": "המורה אומרת ליצחק בוקר-טוב."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-38-b3",
+      "pagina": "pag-38",
+      "titol": {
+        "u": "Exemples",
+        "perComprovar": false,
+        "ca": "Dir: estil directe i indirecte"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-38-b3-l0",
+          "text": {
+            "u": "**איש:** ילד, מה שמך?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-38-b3-l1",
+          "text": {
+            "u": "**ילד:** שמי דני."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-38-b4",
+      "pagina": "pag-38",
+      "titol": {
+        "u": "Exemples",
+        "perComprovar": false,
+        "ca": "Dir: estil directe i indirecte"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-38-b4-l0",
+          "text": {
+            "u": "מה אומר הילד לאיש? הוא אומר שֶשמו דני."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-38-b5",
+      "pagina": "pag-38",
+      "titol": {
+        "u": "Exemples",
+        "perComprovar": false,
+        "ca": "Dir: estil directe i indirecte"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-38-b5-l0",
+          "text": {
+            "u": "**יוסף:** איפה את גרה?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-38-b5-l1",
+          "text": {
+            "u": "**תמר:** אני גרה בְּחיפה."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-38-b6",
+      "pagina": "pag-38",
+      "titol": {
+        "u": "Exemples",
+        "perComprovar": false,
+        "ca": "Dir: estil directe i indirecte"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-38-b6-l0",
+          "text": {
+            "u": "מה אומרת תמר ליוסף?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-38-b6-l1",
+          "text": {
+            "u": "היא אומרת שֶהיא גרה בחיפה."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-38-b7",
+      "pagina": "pag-38",
+      "titol": {
+        "u": "Exemples",
+        "perComprovar": false,
+        "ca": "Dir: estil directe i indirecte"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-38-b7-l0",
+          "text": {
+            "u": "**בוריס:** איפה סטיב?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-38-b7-l1",
+          "text": {
+            "u": "**רוברטו:** רחל אומרת שהוא במשרד."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-38-b8",
+      "pagina": "pag-38",
+      "titol": {
+        "u": "Exemples",
+        "perComprovar": false,
+        "ca": "Dir: estil directe i indirecte"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-38-b8-l0",
+          "text": {
+            "u": "מה אומר רוברטו לבוריס?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-38-b8-l1",
+          "text": {
+            "u": "רוברטו אומר לבוריס שרחל אומרת שסטיב במשרד."
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-38-b9",
+      "pagina": "pag-38",
+      "titol": {
+        "u": "Exemples",
+        "perComprovar": false,
+        "ca": "Dir: estil directe i indirecte"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-38-b9-l0",
+          "text": {
+            "u": "איך אומרים בעברית.....?"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-39-b0",
+      "pagina": "pag-39",
+      "titol": {
+        "u": "תרגיל 21",
+        "perComprovar": false,
+        "ca": "Exercici 21"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-39-b0-l0",
+          "text": {
+            "u": "תרגיל המרה"
+          },
+          "perComprovar": false
+        }
+      ]
+    },
+    {
+      "id": "pag-39-b1",
+      "pagina": "pag-39",
+      "titol": {
+        "u": "תרגיל 21",
+        "perComprovar": false,
+        "ca": "Exercici 21"
+      },
+      "tipus": "text",
+      "linies": [
+        {
+          "id": "pag-39-b1-l0",
+          "text": {
+            "u": "1. [המוֹרָה] עומדת על-יד הלוח וכותבת בגיר."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-39-b1-l1",
+          "text": {
+            "u": "(המוֹרֶה, הם, התלמידות)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-39-b1-l2",
+          "text": {
+            "u": "2. יצחק עומד [פה]."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-39-b1-l3",
+          "text": {
+            "u": "(שם, על-יד החלון, בכיתה, בין החלון והדלת)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-39-b1-l4",
+          "text": {
+            "u": "3. [הוא] אומר \"שלום\" ויושב."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-39-b1-l5",
+          "text": {
+            "u": "(דני ואני, שׂרה ודוריס, המוֹרָה)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-39-b1-l6",
+          "text": {
+            "u": "4. מה [אתה] אומר?"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-39-b1-l7",
+          "text": {
+            "u": "(את, אתם, הילדות)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-39-b1-l8",
+          "text": {
+            "u": "5. סטיב אומר ש[אסתר יפה]."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-39-b1-l9",
+          "text": {
+            "u": "(הם בבית, השיעור מעניין, החדר יפה)"
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-39-b1-l10",
+          "text": {
+            "u": "6. חנה כותבת [בעט]."
+          },
+          "perComprovar": false
+        },
+        {
+          "id": "pag-39-b1-l11",
+          "text": {
+            "u": "(בעיפרון, במחברת, על הלוח, לַהורים)"
+          },
+          "perComprovar": true
+        }
+      ]
+    }
+  ],
+  "exercicis": []
+}
