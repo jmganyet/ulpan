@@ -58,7 +58,7 @@ textos:
       2: "3. ____ ets ara? — A Israel."
       3: "4. ____ és Eilat? — A Israel."
       4: "5. ____ és Johannesburg? — A Sud-àfrica."
-      5: "6. ____ és en Sam? — De Sud-àfrica."
+      5: "6. ____ és el Sam? — De Sud-àfrica."
       6: "7. ____ és del Brasil? — El Roberto és del Brasil."
       7: "8. ____ és l'Emanuel? — L'Emanuel és del Brasil."
       8: "9. ____ és això? — És un llibre."
@@ -230,7 +230,7 @@ icones:
   u03-15: hammer                # עוֹבֵד
   u03-17: graduation-cap        # סְטוּדֶנְטִית
   u03-18: hash                  # מִסְפָּר
-  u03-19: gear-six              # עוֹשֶׂה
+  u03-19: hand-grabbing         # עוֹשֶׂה
   u03-20: number-circle-zero    # אֶפֶס
   u03-21: number-circle-one     # אַחַת
   u03-22: number-circle-two     # שְׁתַּיִם
@@ -282,7 +282,7 @@ gramatica:
       - { n: "מָה אַתְּ עוֹשָׂה?", ca: "Què fas? (a una dona)", extra: true }
   - id: ordre-pregunta
     titol: L'ordre a la pregunta
-    explicacio: "Després de la partícula interrogativa, el verb sovint passa davant del subjecte; a la resposta torna l'ordre de sempre. Dos verbs seguits s'uneixen amb וְ־."
+    explicacio: "Després de la partícula interrogativa, el verb sovint passa davant del subjecte, però no si el subjecte és un pronom; a la resposta torna l'ordre de sempre. Dos verbs seguits s'uneixen amb וְ־."
     exemples:
       - { n: "וְאֵיפֹה לוֹמֵד רוֹבֶּרְטוֹ?", ca: "I on estudia el Roberto?" }
       - { n: "מָה עוֹשִׂים שָׂרָה וְיִצְחָק?", ca: "Què fan la Sara i l'Itshak?" }
@@ -296,21 +296,22 @@ gramatica:
       - { n: "שֵׁשׁ, שֶׁבַע, שְׁמוֹנֶה, תֵּשַׁע, עֶשֶׂר", ca: "sis, set, vuit, nou, deu" }
       - { n: "הֵן גָּרוֹת בִּרְחוֹב הָאוֹרֶן מִסְפָּר 7 (שֶׁבַע).", ca: "Viuen al carrer Haoren, número 7 (set)." }
       - { n: "228071: שְׁתַּיִם, שְׁתַּיִם, שְׁמוֹנֶה, אֶפֶס, שֶׁבַע, אַחַת", ca: "El telèfon del Moixè, xifra a xifra." }
+      - { n: "זֶה אוֹטוֹבּוּס מִסְפָּר 9.", ca: "És l'autobús número 9." }
   - id: mispar-constructe
     titol: מִסְפַּר הַטֶּלֶפוֹן
     explicacio: "Davant d'un altre nom, מִסְפָּר pren la forma מִסְפַּר i no porta article; l'article va al segon nom. És la construcció de מִשְׁפַּחַת לֵוִי."
     exemples:
       - { n: "מִסְפַּר הַטֶּלֶפוֹן שֶׁל מֹשֶׁה", ca: "el número de telèfon del Moixè" }
-      - { n: "זֶה אוֹטוֹבּוּס מִסְפָּר 9.", ca: "És l'autobús número 9." }
       - { n: "מִשְׁפַּחַת לֵוִי", ca: "la família Leví" }
   - id: nombres-masculins
     titol: Els nombres amb un nom masculí
     extra: true
-    explicacio: "Amb un nom masculí es fa servir una altra sèrie, i del 3 al 10 és la que acaba en ‑ָה, al revés que els adjectius. אֶחָד i אַחַת van darrere del nom; els altres, davant."
+    explicacio: "Amb un nom masculí es fa servir una altra sèrie, i del 3 al 10 és la que acaba en ‑ָה, al revés que els adjectius. אֶחָד i אַחַת van darrere del nom; el 2, davant i en la forma שְׁנֵי (m.) o שְׁתֵּי (f.); del 3 al 10, davant tal com són."
     exemples:
       - { u: "אחד, שניים, שלושה, ארבעה, חמישה", n: "אֶחָד, שְׁנַייִם, שְׁלוֹשָׁה, אַרְבָּעָה, חֲמִישָּׁה", ca: "de l'1 al 5, amb un nom masculí", extra: true }
       - { u: "שישה, שבעה, שמונה, תשעה, עשרה", n: "שִׁישָּׁה, שִׁבְעָה, שְׁמוֹנָה, תִּשְׁעָה, עֲשָׂרָה", ca: "del 6 al 10, amb un nom masculí", extra: true }
       - { n: "סֵפֶר אֶחָד · תְּמוּנָה אַחַת", ca: "un llibre · un quadre", extra: true }
+      - { u: "שני ספרים · שתי תמונות", n: "שְׁנֵי סְפָרִים · שְׁתֵּי תְּמוּנוֹת", ca: "dos llibres · dos quadres", extra: true }
       - { u: "שלושה ספרים · שלוש תמונות", n: "שְׁלוֹשָׁה סְפָרִים · שָׁלוֹשׁ תְּמוּנוֹת", ca: "tres llibres · tres quadres", extra: true }
       - { n: "שְׁמוֹנָה · שְׁמוֹנֶה", ca: "vuit (m.) · vuit (f.): sense vocals, s'escriuen igual", extra: true }
 
@@ -384,7 +385,7 @@ exercicis:
       enunciat: { n: "הוּא גָּר בִּירוּשָׁלַיִם. הוּא לוֹמֵד. הוּא לֹא עוֹבֵד. ← חַנָּה וְרָחֵל", u: "הוא גר בירושלים. הוא לומד. הוא לא עובד. ← חנה ורחל" },
       model: { n: "חַנָּה וְרָחֵל גָּרוֹת בִּירוּשָׁלַיִם. הֵן לוֹמְדוֹת. הֵן לֹא עוֹבְדוֹת.", u: "חנה ורחל גרות בירושלים. הן לומדות. הן לא עובדות." } }
   - { tipus: construir, origen: "pag-18 ex. 7.1", extra: false, linies: [pag-18-b3-l0, pag-18-b3-l1],
-      ca: "L'estudiant viu a Jerusalem.",
+      ca: "L'estudiant (un noi) viu a Jerusalem.",
       fitxes: ["גָּרָה", "הַסְּטוּדֶנְט", "בִּירוּשָׁלַיִם", "גָּר", "גָּרִים"], ordre: [1, 3, 2] }
   - { tipus: conjugar, origen: "pag-18 ex. 7.2", extra: false, linies: [pag-18-b3-l2],
       base: { n: "מָה אַתָּה עוֹשֶׂה?", u: "מה אתה עושה?" }, demana: "amb אַתֶּן",
@@ -398,7 +399,7 @@ exercicis:
 
   # pag-19, תרגיל 8: llegeix els números
   - { tipus: forat, origen: "pag-19 ex. 8.1", extra: false, linies: [pag-19-b2-l0],
-      frase: { u: "228071: שתים, שתים, ____, אפס, שבע, אחת", n: "228071: שְׁתַּיִם, שְׁתַּיִם, ____, אֶפֶס, שֶׁבַע, אַחַת" },
+      frase: { u: "228071: שתיים, שתיים, ____, אפס, שבע, אחת", n: "228071: שְׁתַּייִם, שְׁתַּייִם, ____, אֶפֶס, שֶׁבַע, אַחַת" },
       opcions: ["שֶׁבַע", "שְׁמוֹנֶה", "שָׁלוֹשׁ"], correcta: 1, retro: "La tercera xifra és un 8: שְׁמוֹנֶה." }
   - { tipus: forat, origen: "pag-19 ex. 8.2", extra: false, linies: [pag-19-b2-l1],
       frase: { u: "544963: חמש, ארבע, ארבע, ____, שש, שלוש", n: "544963: חָמֵשׁ, אַרְבַּע, אַרְבַּע, ____, שֵׁשׁ, שָׁלוֹשׁ" },
@@ -417,9 +418,9 @@ exercicis:
   - { tipus: comprensio, origen: extra, extra: true, linies: [pag-17-b0-l9, pag-17-b0-l10, pag-17-b0-l11, pag-17-b0-l12],
       text: "גַּם אֶסְתֵּר גָּרָה בְּקִיבּוּץ? — לֹא, הִיא גָּרָה בְּחֵיפָה עִם חֲבֵרָה. אֶסְתֵּר עוֹבֶדֶת? — לֹא, הִיא לֹא עוֹבֶדֶת, הִיא לוֹמֶדֶת. הִיא סְטוּדֶנְטִית.",
       pregunta: "Què fa l'Ester a Haifa?", opcions: ["Treballa", "Estudia", "Treballa i estudia"], correcta: 1 }
-  - { tipus: construir, origen: extra, extra: true, linies: [pag-17-b0-l3, u03-10],
-      ca: "Ella també estudia allà.",
-      fitxes: ["לוֹמֵד", "שָׁם", "הִיא", "לוֹמֶדֶת", "גַּם"], ordre: [4, 2, 3, 1] }
+  - { tipus: construir, origen: extra, extra: true, linies: [pag-17-b0-l9, u03-8],
+      ca: "Ella viu a Haifa.",
+      fitxes: ["גָּר", "הִיא", "בְּחֵיפָה", "גָּרָה", "בְּקִיבּוּץ"], ordre: [1, 3, 2] }
   - { tipus: forat, origen: extra, extra: true, linies: [u03-21],
       frase: { u: "ילד ____", n: "יֶלֶד ____" },
       opcions: ["אַחַת", "אֶחָד"], correcta: 1, retro: "יֶלֶד és masculí: אֶחָד, darrere del nom." }
