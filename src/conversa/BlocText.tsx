@@ -58,7 +58,7 @@ export function BlocText({ text, deps }: { text: Text; deps: Deps }) {
                 <>
                   <button type="button" class="bomb-text" disabled={!l.audio || l.perComprovar}
                     aria-label={`Escolta la línia ${i + 1}`} onClick={() => void r.playLinia(i)}>
-                    <Hebreu valor={l.text} />
+                    <Hebreu valor={l.text} subratllat={l.subratllat} />
                   </button>
                   <Marques extra={l.extra} perComprovar={l.perComprovar} />
                   {l.ca && (

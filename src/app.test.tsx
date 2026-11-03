@@ -50,6 +50,21 @@ describe('App', () => {
     render(<App magatzem={magatzem()} />)
     await waitFor(() => expect(document.querySelector('.sessio')).toBeTruthy())
   })
+  it('canviar de punt de gramàtica torna a pintar la pantalla', async () => {
+    const ex = (id: string) => ({ id, text: { u: 'שלום' }, perComprovar: false })
+    const amb = { ...unitat, gramatica: [
+      { id: 'a', titol: 'Primer punt', explicacio: 'u', extra: false, exemples: [ex('g0')] },
+      { id: 'b', titol: 'Segon punt', explicacio: 'd', extra: false, exemples: [ex('g1')] },
+    ] }
+    vi.stubGlobal('fetch', vi.fn(async (u: string) =>
+      u.endsWith('u01.json') ? { ok: true, json: async () => amb } : { ok: true, json: async () => index }))
+    window.location.hash = '#/u/u01/gramatica/1'
+    render(<App magatzem={magatzem()} />)
+    await waitFor(() => expect(screen.getByRole('heading', { name: 'Primer punt' })).toBeTruthy())
+    window.location.hash = '#/u/u01/gramatica/2'
+    window.dispatchEvent(new HashChangeEvent('hashchange'))
+    await waitFor(() => expect(screen.getByRole('heading', { name: 'Segon punt' })).toBeTruthy())
+  })
   it('un error de càrrega mostra un missatge en català', async () => {
     window.location.hash = '#/u/u99'
     render(<App magatzem={magatzem()} />)

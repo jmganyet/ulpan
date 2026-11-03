@@ -48,6 +48,7 @@ export function combina(base: UnitatBase, pagines: Pagina[], vocab: Paraula[], c
         const linia: Linia = { id: `${id}-l${j}`, text: hebreu(l.text, c.vocals?.[j]), perComprovar: l.perComprovar }
         if (c.personatges?.length) linia.qui = pers![(c.qui ? c.qui[j] : undefined) ?? j % pers!.length]
         else if (pers?.length && l.qui) linia.qui = l.qui
+        if (l.subratllat?.length) linia.subratllat = l.subratllat
         const ca = c.ca?.[j]
         if (ca !== undefined) linia.ca = ca
         return linia

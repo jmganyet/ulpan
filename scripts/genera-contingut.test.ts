@@ -82,3 +82,15 @@ describe('combina: parlants del dossier', () => {
     expect(u.linies[0].qui).toBe('A')
   })
 })
+
+describe('combina: subratllat', () => {
+  it('passa els mots subratllats a la Linia i les vocals es comparen sense etiquetes', () => {
+    const md = '---\ntitol: "תרגיל 2 — Exercici"\n---\n> [!hebreu]\n> | | |\n> |---|---|\n> | 4. <u>אתה</u> לא תייר. | 4. <u>אתה</u> לא תייר. |\n'
+    const p9 = llegeixPagina(md, 'pag-09')
+    const u = combina({ ...base, id: 'u01', pagines: ['pag-09'] }, [p9], [], { textos: { 'pag-09': { vocals: { 0: '4. אַתָּה לֹא תַּייָּר.' } } } })
+    const l = u.textos[0].linies[0]
+    expect(l.subratllat).toEqual(['אתה'])
+    expect(l.text).toEqual({ u: '4. אתה לא תייר.', n: '4. אַתָּה לֹא תַּייָּר.', extraVocals: true })
+    expect(u.textos[0].linies.every((x) => !x.text.u.includes('<'))).toBe(true)
+  })
+})

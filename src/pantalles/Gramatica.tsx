@@ -26,7 +26,7 @@ export function Gramatica({ unitat: u, n }: { unitat: Unitat; n: string }) {
       <ul class="exemples">
         {punt.exemples.map((l) => (
           <li key={l.id}>
-            <Hebreu valor={l.text} classe="gran" />
+            <Hebreu valor={l.text} classe="gran" subratllat={l.subratllat} />
             <Marques extra={l.extra} perComprovar={l.perComprovar} />
             {l.ca && <span class="ca">{l.ca}</span>}
             {!l.perComprovar && <BotoSo audio={l.audio} etiqueta={l.text.u} />}

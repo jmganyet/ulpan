@@ -37,4 +37,14 @@ describe('Hebreu', () => {
     render(<Hebreu valor={{ u: 'שלום' }} />)
     expect(screen.getByText('שלום').className).toContain('cursiva')
   })
+  it('subratlla els mots indicats, amb vocals i sense', () => {
+    const valor = { u: '3. מאין אתה? אני מרוסיה.', n: '3. מֵאַיִן אַתָּה? אֲנִי מֵרוּסְיָה.' }
+    const { container, unmount } = render(<Hebreu valor={valor} subratllat={['אתה']} />)
+    expect([...container.querySelectorAll('u')].map((e) => e.textContent)).toEqual(['אתה'])
+    expect(container.textContent).toBe('3. מאין אתה? אני מרוסיה.')
+    unmount()
+    desaPreferencies({ vocals: true, lletra: 'quadrada' })
+    const r = render(<Hebreu valor={valor} subratllat={['אתה']} />)
+    expect([...r.container.querySelectorAll('u')].map((e) => e.textContent)).toEqual(['אַתָּה'])
+  })
 })

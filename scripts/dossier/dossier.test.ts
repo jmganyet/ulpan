@@ -79,3 +79,16 @@ describe('parlants i anotacions', () => {
     expect(netejaCella("**מורה:** *כן* ... *(a la pissarra)*")).toEqual({ text: 'כן ...', qui: 'מורה' })
   })
 })
+
+describe('subratllat (pag-09)', () => {
+  it('treu <u>…</u> del text i en desa els mots', () => {
+    expect(netejaCella('1. <u>צפורה</u> מוֹרָה. היא לא תלמידה.'))
+      .toEqual({ text: '1. צפורה מוֹרָה. היא לא תלמידה.', subratllat: ['צפורה'] })
+    expect(netejaCella('אני תלמיד.')).toEqual({ text: 'אני תלמיד.' })
+  })
+  it('la línia de la pàgina no porta etiquetes', () => {
+    const md = '---\ntitol: "תרגיל 2 — Exercici"\n---\n> [!hebreu]\n> | | |\n> |---|---|\n> | 3. מאין <u>אתה</u>? | 3. מאין <u>אתה</u>? |\n'
+    const l = llegeixPagina(md, 'pag-09').blocs[0].linies[0]
+    expect(l).toEqual({ text: '3. מאין אתה?', perComprovar: false, subratllat: ['אתה'] })
+  })
+})
