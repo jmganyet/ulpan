@@ -1,2 +1,431 @@
-# Capa curada de la unitat 3: icones, textos, gramatica, exercicis, extres.
+# Capa curada de la unitat 3: icones, textos, gramàtica, exercicis.
 # Format: vegeu scripts/genera-contingut.ts (tipus Curat).
+# Vocals verificades amb els TSV i la fitxa u03-on-vius-i-que-fas del dossier i amb Pealim
+# (אוּנִיבֶרְסִיטָה, פְּסִיכוֹלוֹגְיָה, אוֹטוֹבּוּס, els nombres masculins de l'extra).
+# Prefixos amb la vocal estàndard: בָּאוּלְפָּן (com el dossier fa a בָּאָרֶץ i בָּאוניברסיטה),
+# בִּרְחוֹב, בִּירוּשָׁלַיִם (com la fitxa i la pàg. 56). Vegeu l'informe de la tasca.
+# Sense vocals (no confirmades): pag-16-b1-l4 (יוהנסבורג), pag-17-b0-l20 (סוציולוגיה),
+# pag-18-b2-l0 (תרגיל המרה).
+
+textos:
+  pag-15-b0:
+    vocals:
+      0: "יִצְחָק, מֵאַיִן אַתָּה וְשָׂרָה? — אֲנַחְנוּ מִבְּרָזִיל."
+      1: "אֵיפֹה אַתֶּם עַכְשָׁיו? — עַכְשָׁיו אֲנַחְנוּ בְּיִשְׂרָאֵל."
+      2: "בְּמֶרְכַּז-קְלִיטָה בְּקִרְיַת-שְׁמוֹנָה."
+      3: "אֵיפֹה קִרְיַת-שְׁמוֹנָה? — קִרְיַת-שְׁמוֹנָה בַּגָּלִיל."
+      4: "וְאֵיפֹה רוֹבֶּרְטוֹ? — רוֹבֶּרְטוֹ בָּאוּלְפָּן בְּקִיבּוּץ דָּן."
+      5: "גַּם קִיבּוּץ דָּן בַּגָּלִיל? — כֵּן, גַּם קִיבּוּץ דָּן בַּגָּלִיל."
+      6: "גַּם אֶסְתֵּר בְּקִיבּוּץ? — לֹא, אֶסְתֵּר בְּחֵיפָה."
+      7: "הִיא סְטוּדֶנְטִית בָּאוּנִיבֶרְסִיטָה"
+      8: "בְּחֵיפָה."
+    ca:
+      0: "Itshak, d'on sou tu i la Sara? — Som del Brasil."
+      1: "On sou ara? — Ara som a Israel."
+      2: "En un centre d'acollida, a Kiryat Shmona."
+      3: "On és Kiryat Shmona? — Kiryat Shmona és a Galilea."
+      4: "I on és el Roberto? — El Roberto és a l'ulpan, al quibuts Dan."
+      5: "El quibuts Dan també és a Galilea? — Sí, el quibuts Dan també és a Galilea."
+      6: "L'Ester també és en un quibuts? — No, l'Ester és a Haifa."
+      7: "És estudiant a la universitat"
+      8: "de Haifa."
+  pag-15-b1:
+    vocals:
+      0: "עַכְשָׁיו מִשְׁפַּחַת לֵוִי בָּאָרֶץ."
+    ca:
+      0: "Ara la família Leví és a Israel."
+  pag-16-b0:
+    vocals:
+      0: "כְּתוֹב: מִי, מַה, מֵאַיִן, אֵיפֹה"
+    ca:
+      0: "Escriu: qui, què, d'on, on"
+  pag-16-b1:
+    vocals:
+      0: "1. ____ אַתָּה? — אֲנִי סְטִיב."
+      1: "2. ____ אַתָּה? — אֲנִי מֵאַנְגְלִיָּה."
+      2: "3. ____ אַתָּה עַכְשָׁיו? — בְּיִשְׂרָאֵל."
+      3: "4. ____ אֵילַת? — בְּיִשְׂרָאֵל."
+      5: "6. ____ סָם? — מִדְּרוֹם-אַפְרִיקָה."
+      6: "7. ____ מִבְּרָזִיל? — רוֹבֶּרְטוֹ מִבְּרָזִיל."
+      7: "8. ____ עִמָּנוּאֵל? — עִמָּנוּאֵל מִבְּרָזִיל."
+      8: "9. ____ זֶה? — זֶה סֵפֶר."
+      9: "10. ____ הַמּוֹרָה שֶׁל יִצְחָק? — צִפּוֹרָה."
+      10: "11. ____ הַמּוֹרָה שֶׁל יִצְחָק? — מִיִּשְׂרָאֵל."
+      11: "12. ____ הַמּוֹרָה? — בָּאוּלְפָּן."
+    ca:
+      0: "1. ____ ets? — Sóc l'Steve."
+      1: "2. ____ ets? — Sóc d'Anglaterra."
+      2: "3. ____ ets ara? — A Israel."
+      3: "4. ____ és Eilat? — A Israel."
+      4: "5. ____ és Johannesburg? — A Sud-àfrica."
+      5: "6. ____ és en Sam? — De Sud-àfrica."
+      6: "7. ____ és del Brasil? — El Roberto és del Brasil."
+      7: "8. ____ és l'Emanuel? — L'Emanuel és del Brasil."
+      8: "9. ____ és això? — És un llibre."
+      9: "10. ____ és la mestra de l'Itshak? — La Tsiporà."
+      10: "11. ____ és la mestra de l'Itshak? — D'Israel."
+      11: "12. ____ és la mestra? — A l'ulpan."
+  pag-16-b2:
+    vocals:
+      0: "כְּתוֹב וְ... בְּ... מִ... הַ..."
+    ca:
+      0: "Escriu: i, a o en, de, el o la"
+  pag-16-b3:
+    vocals:
+      0: "1. רוֹבֶּרְטוֹ ____אֶסְתֵּר אָח ____אָחוֹת. הֵם עוֹלִים חֲדָשִׁים ____בְּרָזִיל."
+      1: "2. יְרוּשָׁלַיִם לֹא ____אַנְגְלִיָּה. יְרוּשָׁלַיִם ____יִשְׂרָאֵל."
+      2: "3. זֶה לֹא ____אַרְגֶּנְטִינָה, זֶה מֵרוּסְיָה."
+      3: "4. ____הוֹרִים שֶׁל רוֹבֶּרְטוֹ תַּלְמִידִים ____אוּלְפָּן ____קִרְיַת-שְׁמוֹנָה."
+      4: "5. סְטִיב ____דּוֹרִיס תַּייָּרִים ____אַנְגְלִיָּה. עַכְשָׁיו הֵם ____יִשְׂרָאֵל."
+      5: "6. ____יְלָדִים שֶׁל צִפּוֹרָה גְּדוֹלִים ____יָפִים."
+    ca:
+      0: "1. El Roberto ____ l'Ester són germà ____ germana. Són immigrants nous ____ Brasil."
+      1: "2. Jerusalem no és ____ Anglaterra. Jerusalem és ____ Israel."
+      2: "3. Això no és ____ l'Argentina, és de Rússia."
+      3: "4. ____ pares del Roberto són alumnes ____ ulpan ____ Kiryat Shmona."
+      4: "5. L'Steve ____ la Doris són turistes ____ Anglaterra. Ara són ____ Israel."
+      5: "6. ____ fills de la Tsiporà són grans ____ macos."
+  pag-17-b0:
+    vocals:
+      0: "יִצְחָק, אֵיפֹה אַתָּה גָּר? — אֲנִי גָּר בְּקִרְיַת-שְׁמוֹנָה,"
+      1: "בְּמֶרְכַּז-קְלִיטָה בִּרְחוֹב תֵּל-חַי."
+      2: "וְאֵיפֹה אַתָּה לוֹמֵד? — אֲנִי לוֹמֵד בָּאוּלְפָּן בְּמֶרְכַּז-קְלִיטָה."
+      3: "גַּם שָׂרָה לוֹמֶדֶת שָׁם? — כֵּן גַּם הִיא לוֹמֶדֶת שָׁם."
+      4: "מָה אַתֶּם לוֹמְדִים? — אֲנַחְנוּ לוֹמְדִים עִבְרִית."
+      5: "וְאֵיפֹה לוֹמֵד רוֹבֶּרְטוֹ? — הוּא לוֹמֵד בְּאוּלְפַּן-עֲבוֹדָה"
+      6: "בְּקִיבּוּץ דָּן. הוּא עוֹבֵד וְלוֹמֵד."
+      7: "הַתַּלְמִידִים בְּאוּלְפַּן-עֲבוֹדָה"
+      8: "עוֹבְדִים וְלוֹמְדִים."
+      9: "גַּם אֶסְתֵּר גָּרָה בְּקִיבּוּץ? — לֹא, הִיא גָּרָה בְּחֵיפָה"
+      10: "עִם חֲבֵרָה."
+      11: "אֶסְתֵּר עוֹבֶדֶת? — לֹא, הִיא לֹא עוֹבֶדֶת, הִיא לוֹמֶדֶת."
+      12: "הִיא סְטוּדֶנְטִית."
+      13: "מִי הַחֲבֵרָה שֶׁל אֶסְתֵּר? — תָּמָר כֹּהֵן. גַּם הִיא"
+      14: "עוֹלָה חֲדָשָׁה מִבְּרָזִיל."
+      15: "גַּם הִיא סְטוּדֶנְטִית."
+      16: "אֵיפֹה הֵן גָּרוֹת? — הֵן גָּרוֹת בִּרְחוֹב הָאוֹרֶן מִסְפָּר 7 (שֶׁבַע)."
+      17: "תָּמָר וְאֶסְתֵּר לוֹמְדוֹת בָּאוּנִיבֶרְסִיטָה"
+      18: "בְּחֵיפָה. הֵן לֹא עוֹבְדוֹת."
+      19: "אֶסְתֵּר לוֹמֶדֶת פְּסִיכוֹלוֹגְיָה"
+    ca:
+      0: "Itshak, on vius? — Visc a Kiryat Shmona,"
+      1: "en un centre d'acollida, al carrer Tel Hai."
+      2: "I on estudies? — Estudio a l'ulpan del centre d'acollida."
+      3: "La Sara també hi estudia? — Sí, ella també hi estudia."
+      4: "Què estudieu? — Estudiem hebreu."
+      5: "I on estudia el Roberto? — Estudia en un ulpan de treball"
+      6: "al quibuts Dan. Treballa i estudia."
+      7: "Els alumnes d'un ulpan de treball"
+      8: "treballen i estudien."
+      9: "L'Ester també viu en un quibuts? — No, viu a Haifa"
+      10: "amb una amiga."
+      11: "L'Ester treballa? — No, no treballa, estudia."
+      12: "És estudiant."
+      13: "Qui és l'amiga de l'Ester? — La Tamar Cohen. Ella també"
+      14: "és una immigrant nova del Brasil."
+      15: "Ella també és estudiant."
+      16: "On viuen? — Viuen al carrer Haoren, número 7 (set)."
+      17: "La Tamar i l'Ester estudien a la universitat"
+      18: "de Haifa. No treballen."
+      19: "L'Ester estudia psicologia"
+      20: "i la Tamar estudia sociologia."
+  pag-18-b0:
+    vocals:
+      0: "מָה עוֹשֶׂה רוֹבֶּרְטוֹ? — רוֹבֶּרְטוֹ עוֹבֵד וְלוֹמֵד בַּקִּיבּוּץ."
+      1: "מָה עוֹשָׂה אֶסְתֵּר? — אֶסְתֵּר לוֹמֶדֶת פְּסִיכוֹלוֹגְיָה"
+      2: "בָּאוּנִיבֶרְסִיטָה בְּחֵיפָה."
+      3: "מָה עוֹשִׂים שָׂרָה וְיִצְחָק? — הֵם לוֹמְדִים עִבְרִית"
+      4: "בָּאוּלְפָּן בְּקִרְיַת-שְׁמוֹנָה."
+      5: "מָה עוֹשׂוֹת אֶסְתֵּר וְתָמָר? — הֵן לוֹמְדוֹת"
+      6: "בָּאוּנִיבֶרְסִיטָה בְּחֵיפָה."
+    ca:
+      0: "Què fa el Roberto? — El Roberto treballa i estudia al quibuts."
+      1: "Què fa l'Ester? — L'Ester estudia psicologia"
+      2: "a la universitat de Haifa."
+      3: "Què fan la Sara i l'Itshak? — Estudien hebreu"
+      4: "a l'ulpan de Kiryat Shmona."
+      5: "Què fan l'Ester i la Tamar? — Estudien"
+      6: "a la universitat de Haifa."
+  pag-18-b1:
+    vocals:
+      0: "גָּר · גָּרָה · גָּרִים · גָּרוֹת"
+      1: "לוֹמֵד · לוֹמֶדֶת · לוֹמְדִים · לוֹמְדוֹת"
+      2: "עוֹבֵד · עוֹבֶדֶת · עוֹבְדִים · עוֹבְדוֹת"
+      3: "עוֹשֶׂה · עוֹשָׂה · עוֹשִׂים · עוֹשׂוֹת"
+    ca:
+      0: "viu (m.) · viu (f.) · viuen (m.) · viuen (f.)"
+      1: "estudia (m.) · estudia (f.) · estudien (m.) · estudien (f.)"
+      2: "treballa (m.) · treballa (f.) · treballen (m.) · treballen (f.)"
+      3: "fa (m.) · fa (f.) · fan (m.) · fan (f.)"
+  pag-18-b2:
+    ca:
+      0: "Exercici de transformació"
+  pag-18-b3:
+    vocals:
+      0: "1. הוּא גָּר בִּירוּשָׁלַיִם. הוּא לוֹמֵד. הוּא לֹא עוֹבֵד."
+      1: "(רָחֵל, הֵם, חַנָּה וְרָחֵל, הַסְּטוּדֶנְט)"
+      2: "2. מָה אַתָּה עוֹשֶׂה? (אַתֶּן, אַתְּ, אַתֶּם, הִיא, הֵם)"
+    ca:
+      0: "1. Viu a Jerusalem. Estudia. No treballa."
+      1: "(la Rakhel, ells, la Hanà i la Rakhel, l'estudiant)"
+      2: "2. Què fas? (vosaltres f., tu f., vosaltres m., ella, ells)"
+  pag-19-b0:
+    vocals:
+      0: "0 אֶפֶס"
+      1: "1 אַחַת"
+      2: "2 שְׁתַּיִם"
+      3: "3 שָׁלוֹשׁ"
+      4: "4 אַרְבַּע"
+      5: "5 חָמֵשׁ"
+      6: "6 שֵׁשׁ"
+      7: "7 שֶׁבַע"
+      8: "8 שְׁמוֹנֶה"
+      9: "9 תֵּשַׁע"
+      10: "10 עֶשֶׂר"
+    ca:
+      0: "0 zero"
+      1: "1 u, una"
+      2: "2 dos"
+      3: "3 tres"
+      4: "4 quatre"
+      5: "5 cinc"
+      6: "6 sis"
+      7: "7 set"
+      8: "8 vuit"
+      9: "9 nou"
+      10: "10 deu"
+  pag-19-b1:
+    vocals:
+      0: "קְרָא אֶת הַמִּשְׁפָּטִים:"
+    ca:
+      0: "Llegeix les frases:"
+  pag-19-b2:
+    vocals:
+      0: "1. מִסְפַּר הַטֶּלֶפוֹן שֶׁל מֹשֶׁה הוּא: 228071."
+      1: "2. מִסְפַּר הַטֶּלֶפוֹן שֶׁל הַמּוֹרָה הוּא: 544963."
+      2: "3. שְׁמוּאֵל גָּר בִּרְחוֹב הֶרְצְל מִסְפָּר 10."
+      3: "4. צִפּוֹרָה גָּרָה בִּרְחוֹב שָׁפִּירָא מִסְפָּר 6."
+      4: "5. זֶה אוֹטוֹבּוּס מִסְפָּר 9."
+    ca:
+      0: "1. El número de telèfon del Moixè és: 228071."
+      1: "2. El número de telèfon de la mestra és: 544963."
+      2: "3. El Xmuel viu al carrer Herzl, número 10."
+      3: "4. La Tsiporà viu al carrer Xapira, número 6."
+      4: "5. És l'autobús número 9."
+
+icones:
+  u03-1: clock                  # עַכְשָׁיו
+  u03-3: buildings              # מֶרְכַּז-קְלִיטָה
+  u03-4: chalkboard             # אוּלְפָּן
+  u03-5: farm                   # קִיבּוּץ
+  u03-6: map-trifold            # אֶרֶץ
+  u03-7: map-trifold            # בָּאָרֶץ
+  u03-8: house                  # גָּר
+  u03-9: road-horizon           # רְחוֹב
+  u03-10: notebook              # לוֹמֵד
+  u03-11: hand-pointing         # שָׁם
+  u03-12: translate             # עִבְרִית
+  u03-13: briefcase             # עֲבוֹדָה
+  u03-14: tractor               # אוּלְפַּן-עֲבוֹדָה
+  u03-15: hammer                # עוֹבֵד
+  u03-17: graduation-cap        # סְטוּדֶנְטִית
+  u03-18: hash                  # מִסְפָּר
+  u03-19: gear-six              # עוֹשֶׂה
+  u03-20: number-circle-zero    # אֶפֶס
+  u03-21: number-circle-one     # אַחַת
+  u03-22: number-circle-two     # שְׁתַּיִם
+  u03-23: number-circle-three   # שָׁלוֹשׁ
+  u03-24: number-circle-four    # אַרְבַּע
+  u03-25: number-circle-five    # חָמֵשׁ
+  u03-26: number-circle-six     # שֵׁשׁ
+  u03-27: number-circle-seven   # שֶׁבַע
+  u03-28: number-circle-eight   # שְׁמוֹנֶה
+  u03-29: number-circle-nine    # תֵּשַׁע
+  u03-30: "propia:deu.svg"      # עֶשֶׂר
+  u03-32: book-open-text        # קְרָא!
+  u03-33: fire-truck            # מְכַבֵּי-אֵשׁ
+  u03-34: ambulance             # מָגֵן דָּוִד אָדוֹם
+  u03-35: police-car            # מִשְׁטָרָה
+
+gramatica:
+  - id: eifo-meayin
+    titol: On? D'on?
+    explicacio: "אֵיפֹה? pregunta pel lloc on és algú i מֵאַיִן? per la procedència. Si la resposta porta בְּ־, la pregunta és אֵיפֹה; si porta מִ־, és מֵאַיִן."
+    exemples:
+      - { n: "אֵיפֹה אַתֶּם עַכְשָׁיו? — עַכְשָׁיו אֲנַחְנוּ בְּיִשְׂרָאֵל.", ca: "On sou ara? — Ara som a Israel." }
+      - { n: "אֵיפֹה קִרְיַת-שְׁמוֹנָה? — קִרְיַת-שְׁמוֹנָה בַּגָּלִיל.", ca: "On és Kiryat Shmona? — Kiryat Shmona és a Galilea." }
+      - { n: "יִצְחָק, מֵאַיִן אַתָּה וְשָׂרָה? — אֲנַחְנוּ מִבְּרָזִיל.", ca: "Itshak, d'on sou tu i la Sara? — Som del Brasil." }
+  - id: be-ba
+    titol: La preposició בְּ־ i l'article
+    explicacio: "בְּ־ (a, en) s'enganxa al mot. Si el mot porta l'article, la ה cau i en queda la vocal: בְּ + הַ = בַּ. Les ciutats i els països no porten article; la Galilea, sí."
+    exemples:
+      - { n: "אֶסְתֵּר בְּחֵיפָה.", ca: "L'Ester és a Haifa." }
+      - { n: "בְּקִיבּוּץ · בַּקִּיבּוּץ", ca: "en un quibuts · al quibuts" }
+      - { n: "גַּם קִיבּוּץ דָּן בַּגָּלִיל.", ca: "El quibuts Dan també és a Galilea." }
+      - { n: "עַכְשָׁיו מִשְׁפַּחַת לֵוִי בָּאָרֶץ.", ca: "Ara la família Leví és a Israel (literalment, al país)." }
+  - id: present
+    titol: El present en quatre formes
+    explicacio: "En present el verb canvia per gènere i nombre, no per persona, i per això el pronom és obligatori. Les terminacions són les dels adjectius; al plural, la e de dins cau (לוֹמֵד → לוֹמְדִים)."
+    exemples:
+      - { n: "גָּר, גָּרָה, גָּרִים, גָּרוֹת", ca: "viu, viu, viuen, viuen (m. sg., f. sg., m. pl., f. pl.)" }
+      - { n: "לוֹמֵד, לוֹמֶדֶת, לוֹמְדִים, לוֹמְדוֹת", ca: "estudia (m. sg., f. sg., m. pl., f. pl.)" }
+      - { n: "עוֹבֵד, עוֹבֶדֶת, עוֹבְדִים, עוֹבְדוֹת", ca: "treballa (m. sg., f. sg., m. pl., f. pl.)" }
+      - { n: "אֲנִי לוֹמֵד בָּאוּלְפָּן.", ca: "Estudio a l'ulpan (parla un home)." }
+      - { n: "הִיא לֹא עוֹבֶדֶת, הִיא לוֹמֶדֶת.", ca: "No treballa, estudia." }
+  - id: oseh
+    titol: עוֹשֶׂה, «fa»
+    explicacio: "עוֹשֶׂה fa el femení en ‑ָה, com מוֹרֶה. Sense vocals, עושה serveix per als dos gèneres i el context decideix."
+    exemples:
+      - { n: "עוֹשֶׂה, עוֹשָׂה, עוֹשִׂים, עוֹשׂוֹת", ca: "fa (m. sg., f. sg., m. pl., f. pl.)" }
+      - { n: "מָה עוֹשֶׂה רוֹבֶּרְטוֹ?", ca: "Què fa el Roberto?" }
+      - { n: "מָה עוֹשָׂה אֶסְתֵּר?", ca: "Què fa l'Ester?" }
+      - { n: "מָה אַתְּ עוֹשָׂה?", ca: "Què fas? (a una dona)", extra: true }
+  - id: ordre-pregunta
+    titol: L'ordre a la pregunta
+    explicacio: "Després de la partícula interrogativa, el verb sovint passa davant del subjecte; a la resposta torna l'ordre de sempre. Dos verbs seguits s'uneixen amb וְ־."
+    exemples:
+      - { n: "וְאֵיפֹה לוֹמֵד רוֹבֶּרְטוֹ?", ca: "I on estudia el Roberto?" }
+      - { n: "מָה עוֹשִׂים שָׂרָה וְיִצְחָק?", ca: "Què fan la Sara i l'Itshak?" }
+      - { n: "רוֹבֶּרְטוֹ עוֹבֵד וְלוֹמֵד בַּקִּיבּוּץ.", ca: "El Roberto treballa i estudia al quibuts." }
+      - { n: "אֵיפֹה אַתָּה גָּר?", ca: "On vius?" }
+  - id: nombres
+    titol: Els nombres del 0 al 10
+    explicacio: "El dossier dona els nombres en femení, que és la forma per comptar i per dir xifres soltes (telèfons, adreces, autobusos). מִסְפָּר va davant de la xifra, com en català."
+    exemples:
+      - { n: "אֶפֶס, אַחַת, שְׁתַּיִם, שָׁלוֹשׁ, אַרְבַּע, חָמֵשׁ", ca: "zero, u, dos, tres, quatre, cinc" }
+      - { n: "שֵׁשׁ, שֶׁבַע, שְׁמוֹנֶה, תֵּשַׁע, עֶשֶׂר", ca: "sis, set, vuit, nou, deu" }
+      - { n: "הֵן גָּרוֹת בִּרְחוֹב הָאוֹרֶן מִסְפָּר 7 (שֶׁבַע).", ca: "Viuen al carrer Haoren, número 7 (set)." }
+      - { n: "228071: שְׁתַּיִם, שְׁתַּיִם, שְׁמוֹנֶה, אֶפֶס, שֶׁבַע, אַחַת", ca: "El telèfon del Moixè, xifra a xifra." }
+  - id: mispar-constructe
+    titol: מִסְפַּר הַטֶּלֶפוֹן
+    explicacio: "Davant d'un altre nom, מִסְפָּר pren la forma מִסְפַּר i no porta article; l'article va al segon nom. És la construcció de מִשְׁפַּחַת לֵוִי."
+    exemples:
+      - { n: "מִסְפַּר הַטֶּלֶפוֹן שֶׁל מֹשֶׁה", ca: "el número de telèfon del Moixè" }
+      - { n: "זֶה אוֹטוֹבּוּס מִסְפָּר 9.", ca: "És l'autobús número 9." }
+      - { n: "מִשְׁפַּחַת לֵוִי", ca: "la família Leví" }
+  - id: nombres-masculins
+    titol: Els nombres amb un nom masculí
+    extra: true
+    explicacio: "Amb un nom masculí es fa servir una altra sèrie, i del 3 al 10 és la que acaba en ‑ָה, al revés que els adjectius. אֶחָד i אַחַת van darrere del nom; els altres, davant."
+    exemples:
+      - { u: "אחד, שניים, שלושה, ארבעה, חמישה", n: "אֶחָד, שְׁנַייִם, שְׁלוֹשָׁה, אַרְבָּעָה, חֲמִישָּׁה", ca: "de l'1 al 5, amb un nom masculí", extra: true }
+      - { u: "שישה, שבעה, שמונה, תשעה, עשרה", n: "שִׁישָּׁה, שִׁבְעָה, שְׁמוֹנָה, תִּשְׁעָה, עֲשָׂרָה", ca: "del 6 al 10, amb un nom masculí", extra: true }
+      - { n: "סֵפֶר אֶחָד · תְּמוּנָה אַחַת", ca: "un llibre · un quadre", extra: true }
+      - { u: "שלושה ספרים · שלוש תמונות", n: "שְׁלוֹשָׁה סְפָרִים · שָׁלוֹשׁ תְּמוּנוֹת", ca: "tres llibres · tres quadres", extra: true }
+      - { n: "שְׁמוֹנָה · שְׁמוֹנֶה", ca: "vuit (m.) · vuit (f.): sense vocals, s'escriuen igual", extra: true }
+
+exercicis:
+  # pag-16, תרגיל 5: מִי, מַה, מֵאַיִן o אֵיפֹה
+  - { tipus: forat, origen: "pag-16 ex. 5.1", extra: false, linies: [pag-16-b1-l0],
+      frase: { u: "____ אתה? — אני סטיב.", n: "____ אַתָּה? — אֲנִי סְטִיב." },
+      opcions: ["מִי", "מַה", "מֵאַיִן", "אֵיפֹה"], correcta: 0, retro: "Respon amb el nom: es pregunta qui és, מִי." }
+  - { tipus: forat, origen: "pag-16 ex. 5.2", extra: false, linies: [pag-16-b1-l1],
+      frase: { u: "____ אתה? — אני מאנגליה.", n: "____ אַתָּה? — אֲנִי מֵאַנְגְלִיָּה." },
+      opcions: ["מִי", "מַה", "מֵאַיִן", "אֵיפֹה"], correcta: 2, retro: "La resposta porta מִ־ (d'Anglaterra): מֵאַיִן." }
+  - { tipus: forat, origen: "pag-16 ex. 5.3", extra: false, linies: [pag-16-b1-l2],
+      frase: { u: "____ אתה עכשיו? — בישראל.", n: "____ אַתָּה עַכְשָׁיו? — בְּיִשְׂרָאֵל." },
+      opcions: ["מִי", "מַה", "מֵאַיִן", "אֵיפֹה"], correcta: 3, retro: "La resposta porta בְּ־ (a Israel): אֵיפֹה." }
+  - { tipus: forat, origen: "pag-16 ex. 5.4", extra: false, linies: [pag-16-b1-l3],
+      frase: { u: "____ אילת? — בישראל.", n: "____ אֵילַת? — בְּיִשְׂרָאֵל." },
+      opcions: ["מִי", "מַה", "מֵאַיִן", "אֵיפֹה"], correcta: 3, retro: "Es pregunta on és una ciutat; la resposta porta בְּ־: אֵיפֹה." }
+  - { tipus: forat, origen: "pag-16 ex. 5.5", extra: false, linies: [pag-16-b1-l4],
+      frase: { u: "____ יוהנסבורג? — בדרום-אפריקה." },
+      opcions: ["מִי", "מַה", "מֵאַיִן", "אֵיפֹה"], correcta: 3, retro: "La resposta porta בְּ־ (a Sud-àfrica): אֵיפֹה." }
+  - { tipus: forat, origen: "pag-16 ex. 5.6", extra: false, linies: [pag-16-b1-l5],
+      frase: { u: "____ סם? — מדרום-אפריקה.", n: "____ סָם? — מִדְּרוֹם-אַפְרִיקָה." },
+      opcions: ["מִי", "מַה", "מֵאַיִן", "אֵיפֹה"], correcta: 2, retro: "La resposta porta מִ־ (de Sud-àfrica): מֵאַיִן." }
+  - { tipus: forat, origen: "pag-16 ex. 5.7", extra: false, linies: [pag-16-b1-l6],
+      frase: { u: "____ מברזיל? — רוברטו מברזיל.", n: "____ מִבְּרָזִיל? — רוֹבֶּרְטוֹ מִבְּרָזִיל." },
+      opcions: ["מִי", "מַה", "מֵאַיִן", "אֵיפֹה"], correcta: 0, retro: "Es pregunta quina persona és del Brasil: מִי." }
+  - { tipus: forat, origen: "pag-16 ex. 5.8", extra: false, linies: [pag-16-b1-l7],
+      frase: { u: "____ עמנואל? — עמנואל מברזיל.", n: "____ עִמָּנוּאֵל? — עִמָּנוּאֵל מִבְּרָזִיל." },
+      opcions: ["מִי", "מַה", "מֵאַיִן", "אֵיפֹה"], correcta: 2, retro: "La resposta diu d'on és, amb מִ־: מֵאַיִן." }
+  - { tipus: forat, origen: "pag-16 ex. 5.9", extra: false, linies: [pag-16-b1-l8],
+      frase: { u: "____ זה? — זה ספר.", n: "____ זֶה? — זֶה סֵפֶר." },
+      opcions: ["מִי", "מַה", "מֵאַיִן", "אֵיפֹה"], correcta: 1, retro: "Un llibre és una cosa: מַה." }
+  - { tipus: forat, origen: "pag-16 ex. 5.10", extra: false, linies: [pag-16-b1-l9],
+      frase: { u: "____ המורה של יצחק? — צפורה.", n: "____ הַמּוֹרָה שֶׁל יִצְחָק? — צִפּוֹרָה." },
+      opcions: ["מִי", "מַה", "מֵאַיִן", "אֵיפֹה"], correcta: 0, retro: "La resposta és una persona: מִי." }
+  - { tipus: forat, origen: "pag-16 ex. 5.11", extra: false, linies: [pag-16-b1-l10],
+      frase: { u: "____ המורה של יצחק? — מישראל.", n: "____ הַמּוֹרָה שֶׁל יִצְחָק? — מִיִּשְׂרָאֵל." },
+      opcions: ["מִי", "מַה", "מֵאַיִן", "אֵיפֹה"], correcta: 2, retro: "La resposta porta מִ־ (d'Israel): מֵאַיִן." }
+  - { tipus: forat, origen: "pag-16 ex. 5.12", extra: false, linies: [pag-16-b1-l11],
+      frase: { u: "____ המורה? — באולפן.", n: "____ הַמּוֹרָה? — בָּאוּלְפָּן." },
+      opcions: ["מִי", "מַה", "מֵאַיִן", "אֵיפֹה"], correcta: 3, retro: "La resposta porta בְּ־ (a l'ulpan): אֵיפֹה." }
+
+  # pag-16, תרגיל 6: וְ־, בְּ־, מִ־ o הַ־
+  - { tipus: autocorreccio, origen: "pag-16 ex. 6.1", extra: false, linies: [pag-16-b3-l0],
+      enunciat: { n: "רוֹבֶּרְטוֹ ____אֶסְתֵּר אָח ____אָחוֹת. הֵם עוֹלִים חֲדָשִׁים ____בְּרָזִיל.", u: "רוברטו ____אסתר אח ____אחות. הם עולים חדשים ____ברזיל." },
+      model: { n: "רוֹבֶּרְטוֹ וְאֶסְתֵּר אָח וְאָחוֹת. הֵם עוֹלִים חֲדָשִׁים מִבְּרָזִיל.", u: "רוברטו ואסתר אח ואחות. הם עולים חדשים מברזיל." } }
+  - { tipus: forat, origen: "pag-16 ex. 6.2", extra: false, linies: [pag-16-b3-l1],
+      frase: { u: "ירושלים לא באנגליה. ירושלים ____ישראל.", n: "יְרוּשָׁלַיִם לֹא בְּאַנְגְלִיָּה. יְרוּשָׁלַיִם ____יִשְׂרָאֵל." },
+      opcions: ["וְ־", "בְּ־", "מִ־", "הַ־"], correcta: 1, retro: "Es diu on és Jerusalem: בְּ־." }
+  - { tipus: forat, origen: "pag-16 ex. 6.3", extra: false, linies: [pag-16-b3-l2],
+      frase: { u: "זה לא ____ארגנטינה, זה מרוסיה.", n: "זֶה לֹא ____אַרְגֶּנְטִינָה, זֶה מֵרוּסְיָה." },
+      opcions: ["וְ־", "בְּ־", "מִ־", "הַ־"], correcta: 2, retro: "Fa parella amb מֵרוּסְיָה: és procedència, מִ־ (aquí מֵאַרְגֶּנְטִינָה)." }
+  - { tipus: autocorreccio, origen: "pag-16 ex. 6.4", extra: false, linies: [pag-16-b3-l3],
+      enunciat: { n: "____הוֹרִים שֶׁל רוֹבֶּרְטוֹ תַּלְמִידִים ____אוּלְפָּן ____קִרְיַת-שְׁמוֹנָה.", u: "____הורים של רוברטו תלמידים ____אולפן ____קרית-שמונה." },
+      model: { n: "הַהוֹרִים שֶׁל רוֹבֶּרְטוֹ תַּלְמִידִים בָּאוּלְפָּן בְּקִרְיַת-שְׁמוֹנָה.", u: "ההורים של רוברטו תלמידים באולפן בקרית-שמונה." } }
+  - { tipus: forat, origen: "pag-16 ex. 6.5", extra: false, linies: [pag-16-b3-l4],
+      frase: { u: "סטיב ודוריס תיירים מאנגליה. עכשיו הם ____ישראל.", n: "סְטִיב וְדוֹרִיס תַּייָּרִים מֵאַנְגְלִיָּה. עַכְשָׁיו הֵם ____יִשְׂרָאֵל." },
+      opcions: ["וְ־", "בְּ־", "מִ־", "הַ־"], correcta: 1, retro: "Ara són en un lloc: בְּ־." }
+  - { tipus: forat, origen: "pag-16 ex. 6.6", extra: false, linies: [pag-16-b3-l5],
+      frase: { u: "____ילדים של צפורה גדולים ויפים.", n: "____יְלָדִים שֶׁל צִפּוֹרָה גְּדוֹלִים וְיָפִים." },
+      opcions: ["וְ־", "בְּ־", "מִ־", "הַ־"], correcta: 3, retro: "El nom que va davant de שֶׁל porta article: הַ־." }
+
+  # pag-18, תרגיל 7: canvia el mot destacat i fes concordar el verb
+  - { tipus: conjugar, origen: "pag-18 ex. 7.1", extra: false, linies: [pag-18-b3-l0, pag-18-b3-l1],
+      base: { n: "הוּא גָּר בִּירוּשָׁלַיִם. הוּא לוֹמֵד. הוּא לֹא עוֹבֵד.", u: "הוא גר בירושלים. הוא לומד. הוא לא עובד." }, demana: "amb רָחֵל",
+      opcions: ["רָחֵל גָּרָה בִּירוּשָׁלַיִם. הִיא לוֹמֶדֶת. הִיא לֹא עוֹבֶדֶת.", "רָחֵל גָּר בִּירוּשָׁלַיִם. הִיא לוֹמֵד. הִיא לֹא עוֹבֵד.", "רָחֵל גָּרוֹת בִּירוּשָׁלַיִם. הִיא לוֹמְדוֹת. הִיא לֹא עוֹבְדוֹת."], correcta: 0 }
+  - { tipus: conjugar, origen: "pag-18 ex. 7.1", extra: false, linies: [pag-18-b3-l0, pag-18-b3-l1],
+      base: { n: "הוּא גָּר בִּירוּשָׁלַיִם. הוּא לוֹמֵד. הוּא לֹא עוֹבֵד.", u: "הוא גר בירושלים. הוא לומד. הוא לא עובד." }, demana: "amb הֵם",
+      opcions: ["הֵם גָּרוֹת בִּירוּשָׁלַיִם. הֵם לוֹמְדוֹת. הֵם לֹא עוֹבְדוֹת.", "הֵם גָּר בִּירוּשָׁלַיִם. הֵם לוֹמֵד. הֵם לֹא עוֹבֵד.", "הֵם גָּרִים בִּירוּשָׁלַיִם. הֵם לוֹמְדִים. הֵם לֹא עוֹבְדִים."], correcta: 2 }
+  - { tipus: autocorreccio, origen: "pag-18 ex. 7.1", extra: false, linies: [pag-18-b3-l0, pag-18-b3-l1],
+      enunciat: { n: "הוּא גָּר בִּירוּשָׁלַיִם. הוּא לוֹמֵד. הוּא לֹא עוֹבֵד. ← חַנָּה וְרָחֵל", u: "הוא גר בירושלים. הוא לומד. הוא לא עובד. ← חנה ורחל" },
+      model: { n: "חַנָּה וְרָחֵל גָּרוֹת בִּירוּשָׁלַיִם. הֵן לוֹמְדוֹת. הֵן לֹא עוֹבְדוֹת.", u: "חנה ורחל גרות בירושלים. הן לומדות. הן לא עובדות." } }
+  - { tipus: construir, origen: "pag-18 ex. 7.1", extra: false, linies: [pag-18-b3-l0, pag-18-b3-l1],
+      ca: "L'estudiant viu a Jerusalem.",
+      fitxes: ["גָּרָה", "הַסְּטוּדֶנְט", "בִּירוּשָׁלַיִם", "גָּר", "גָּרִים"], ordre: [1, 3, 2] }
+  - { tipus: conjugar, origen: "pag-18 ex. 7.2", extra: false, linies: [pag-18-b3-l2],
+      base: { n: "מָה אַתָּה עוֹשֶׂה?", u: "מה אתה עושה?" }, demana: "amb אַתֶּן",
+      opcions: ["מָה אַתֶּן עוֹשִׂים?", "מָה אַתֶּן עוֹשׂוֹת?", "מָה אַתֶּן עוֹשֶׂה?"], correcta: 1 }
+  - { tipus: forat, origen: "pag-18 ex. 7.2", extra: false, linies: [pag-18-b3-l2],
+      frase: { u: "מה את ____?", n: "מָה אַתְּ ____?" },
+      opcions: ["עוֹשִׂים", "עוֹשָׂה", "עוֹשׂוֹת"], correcta: 1, retro: "אַתְּ és femení singular: עוֹשָׂה (sense vocals, עושה, com el masculí)." }
+  - { tipus: autocorreccio, origen: "pag-18 ex. 7.2", extra: false, linies: [pag-18-b3-l2],
+      enunciat: { n: "מָה אַתָּה עוֹשֶׂה? ← אַתֶּם", u: "מה אתה עושה? ← אתם" },
+      model: { n: "מָה אַתֶּם עוֹשִׂים?", u: "מה אתם עושים?" } }
+
+  # pag-19, תרגיל 8: llegeix els números
+  - { tipus: forat, origen: "pag-19 ex. 8.1", extra: false, linies: [pag-19-b2-l0],
+      frase: { u: "228071: שתים, שתים, ____, אפס, שבע, אחת", n: "228071: שְׁתַּיִם, שְׁתַּיִם, ____, אֶפֶס, שֶׁבַע, אַחַת" },
+      opcions: ["שֶׁבַע", "שְׁמוֹנֶה", "שָׁלוֹשׁ"], correcta: 1, retro: "La tercera xifra és un 8: שְׁמוֹנֶה." }
+  - { tipus: forat, origen: "pag-19 ex. 8.2", extra: false, linies: [pag-19-b2-l1],
+      frase: { u: "544963: חמש, ארבע, ארבע, ____, שש, שלוש", n: "544963: חָמֵשׁ, אַרְבַּע, אַרְבַּע, ____, שֵׁשׁ, שָׁלוֹשׁ" },
+      opcions: ["שֶׁבַע", "אַחַת", "תֵּשַׁע"], correcta: 2, retro: "La quarta xifra és un 9: תֵּשַׁע." }
+  - { tipus: forat, origen: "pag-19 ex. 8.3", extra: false, linies: [pag-19-b2-l2],
+      frase: { u: "שמואל גר ברחוב הרצל מספר 10 (____).", n: "שְׁמוּאֵל גָּר בִּרְחוֹב הֶרְצְל מִסְפָּר 10 (____)." },
+      opcions: ["עֶשֶׂר", "שֶׁבַע", "שְׁתַּיִם"], correcta: 0, retro: "10 és עֶשֶׂר." }
+  - { tipus: forat, origen: "pag-19 ex. 8.4", extra: false, linies: [pag-19-b2-l3],
+      frase: { u: "צפורה גרה ברחוב שפירא מספר 6 (____).", n: "צִפּוֹרָה גָּרָה בִּרְחוֹב שָׁפִּירָא מִסְפָּר 6 (____)." },
+      opcions: ["שֶׁבַע", "שֵׁשׁ", "חָמֵשׁ"], correcta: 1, retro: "6 és שֵׁשׁ; שֶׁבַע és 7." }
+
+  # Extra: comprensió i producció a partir dels textos
+  - { tipus: comprensio, origen: extra, extra: true, linies: [pag-17-b0-l5, pag-17-b0-l6, pag-17-b0-l7, pag-17-b0-l8],
+      text: "וְאֵיפֹה לוֹמֵד רוֹבֶּרְטוֹ? — הוּא לוֹמֵד בְּאוּלְפַּן-עֲבוֹדָה בְּקִיבּוּץ דָּן. הוּא עוֹבֵד וְלוֹמֵד. הַתַּלְמִידִים בְּאוּלְפַּן-עֲבוֹדָה עוֹבְדִים וְלוֹמְדִים.",
+      pregunta: "On estudia el Roberto?", opcions: ["A l'ulpan del centre d'acollida", "En un ulpan de treball del quibuts Dan", "A la universitat de Haifa"], correcta: 1 }
+  - { tipus: comprensio, origen: extra, extra: true, linies: [pag-17-b0-l9, pag-17-b0-l10, pag-17-b0-l11, pag-17-b0-l12],
+      text: "גַּם אֶסְתֵּר גָּרָה בְּקִיבּוּץ? — לֹא, הִיא גָּרָה בְּחֵיפָה עִם חֲבֵרָה. אֶסְתֵּר עוֹבֶדֶת? — לֹא, הִיא לֹא עוֹבֶדֶת, הִיא לוֹמֶדֶת. הִיא סְטוּדֶנְטִית.",
+      pregunta: "Què fa l'Ester a Haifa?", opcions: ["Treballa", "Estudia", "Treballa i estudia"], correcta: 1 }
+  - { tipus: construir, origen: extra, extra: true, linies: [pag-17-b0-l3, u03-10],
+      ca: "Ella també estudia allà.",
+      fitxes: ["לוֹמֵד", "שָׁם", "הִיא", "לוֹמֶדֶת", "גַּם"], ordre: [4, 2, 3, 1] }
+  - { tipus: forat, origen: extra, extra: true, linies: [u03-21],
+      frase: { u: "ילד ____", n: "יֶלֶד ____" },
+      opcions: ["אַחַת", "אֶחָד"], correcta: 1, retro: "יֶלֶד és masculí: אֶחָד, darrere del nom." }
+  - { tipus: forat, origen: extra, extra: true, linies: [u03-23],
+      frase: { u: "____ תמונות", n: "____ תְּמוּנוֹת" },
+      opcions: ["שָׁלוֹשׁ", "שְׁלוֹשָׁה"], correcta: 0, retro: "תְּמוּנוֹת és femení: la forma del dossier, שָׁלוֹשׁ." }
+  - { tipus: construir, origen: extra, extra: true, linies: [u03-24],
+      ca: "quatre llibres",
+      fitxes: ["סְפָרִים", "אַרְבַּע", "אַרְבָּעָה"], ordre: [2, 0] }

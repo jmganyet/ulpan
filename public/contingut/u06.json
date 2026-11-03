@@ -354,7 +354,11 @@
       "pagina": "pag-37",
       "funcio": true,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "c053e550b9ee.m4a",
+        "lent": "7672748db3da.m4a"
+      }
     },
     {
       "id": "u06-29",

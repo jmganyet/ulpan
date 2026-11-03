@@ -19,7 +19,11 @@
       "pagina": "pag-15",
       "funcio": true,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "21e70510609a.m4a",
+        "lent": "829bec9939b9.m4a"
+      }
     },
     {
       "id": "u03-1",
@@ -29,7 +33,12 @@
       "pagina": "pag-15",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "clock",
+      "audio": {
+        "normal": "8fc1f115f6a3.m4a",
+        "lent": "b7b2dd03fcc6.m4a"
+      }
     },
     {
       "id": "u03-2",
@@ -42,7 +51,11 @@
       "perComprovar": false,
       "formes": [
         "בַּ־"
-      ]
+      ],
+      "audio": {
+        "normal": "c053e550b9ee.m4a",
+        "lent": "7672748db3da.m4a"
+      }
     },
     {
       "id": "u03-3",
@@ -52,7 +65,12 @@
       "pagina": "pag-15",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "buildings",
+      "audio": {
+        "normal": "40beff912b77.m4a",
+        "lent": "ffcde7fef718.m4a"
+      }
     },
     {
       "id": "u03-4",
@@ -65,7 +83,12 @@
       "perComprovar": false,
       "formes": [
         "אוּלְפָּנִים"
-      ]
+      ],
+      "icona": "chalkboard",
+      "audio": {
+        "normal": "c080bfffc1c9.m4a",
+        "lent": "4ad450b37df3.m4a"
+      }
     },
     {
       "id": "u03-5",
@@ -78,7 +101,12 @@
       "perComprovar": false,
       "formes": [
         "קִיבּוּצִים"
-      ]
+      ],
+      "icona": "farm",
+      "audio": {
+        "normal": "3ea83796753e.m4a",
+        "lent": "2f184d5f65e4.m4a"
+      }
     },
     {
       "id": "u03-6",
@@ -91,7 +119,12 @@
       "perComprovar": false,
       "formes": [
         "אֲרָצוֹת (נ׳)"
-      ]
+      ],
+      "icona": "map-trifold",
+      "audio": {
+        "normal": "08b44b7e612b.m4a",
+        "lent": "f26ac61ef67c.m4a"
+      }
     },
     {
       "id": "u03-7",
@@ -101,7 +134,12 @@
       "pagina": "pag-15",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "map-trifold",
+      "audio": {
+        "normal": "f22e01c8ca83.m4a",
+        "lent": "9e66b22b108b.m4a"
+      }
     },
     {
       "id": "u03-8",
@@ -111,7 +149,12 @@
       "pagina": "pag-17",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "house",
+      "audio": {
+        "normal": "5b9d3cc6e19c.m4a",
+        "lent": "c62777a95858.m4a"
+      }
     },
     {
       "id": "u03-9",
@@ -124,7 +167,12 @@
       "perComprovar": false,
       "formes": [
         "רְחוֹבוֹת (ז׳)"
-      ]
+      ],
+      "icona": "road-horizon",
+      "audio": {
+        "normal": "bddfa81a639b.m4a",
+        "lent": "9f6f46e75088.m4a"
+      }
     },
     {
       "id": "u03-10",
@@ -134,7 +182,12 @@
       "pagina": "pag-17",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "notebook",
+      "audio": {
+        "normal": "92d59b57e594.m4a",
+        "lent": "6ff3303113eb.m4a"
+      }
     },
     {
       "id": "u03-11",
@@ -144,7 +197,12 @@
       "pagina": "pag-17",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "hand-pointing",
+      "audio": {
+        "normal": "30815db869d4.m4a",
+        "lent": "cc254ecf931c.m4a"
+      }
     },
     {
       "id": "u03-12",
@@ -154,7 +212,12 @@
       "pagina": "pag-17",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "translate",
+      "audio": {
+        "normal": "e163e734ab39.m4a",
+        "lent": "f106b9b0f630.m4a"
+      }
     },
     {
       "id": "u03-13",
@@ -167,7 +230,12 @@
       "perComprovar": false,
       "formes": [
         "עֲבוֹדוֹת"
-      ]
+      ],
+      "icona": "briefcase",
+      "audio": {
+        "normal": "acb73b42626e.m4a",
+        "lent": "0b6595d229df.m4a"
+      }
     },
     {
       "id": "u03-14",
@@ -177,7 +245,12 @@
       "pagina": "pag-17",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "tractor",
+      "audio": {
+        "normal": "c3223aa9e4b8.m4a",
+        "lent": "e9adb40327ec.m4a"
+      }
     },
     {
       "id": "u03-15",
@@ -187,7 +260,12 @@
       "pagina": "pag-17",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "hammer",
+      "audio": {
+        "normal": "cd4fb1f8119f.m4a",
+        "lent": "7fd71b918af5.m4a"
+      }
     },
     {
       "id": "u03-16",
@@ -197,7 +275,11 @@
       "pagina": "pag-17",
       "funcio": true,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "f85dfd91e3d4.m4a",
+        "lent": "c9f77e9c0d5f.m4a"
+      }
     },
     {
       "id": "u03-17",
@@ -210,7 +292,12 @@
       "perComprovar": false,
       "formes": [
         "סְטוּדֶנְטִיּוֹת"
-      ]
+      ],
+      "icona": "graduation-cap",
+      "audio": {
+        "normal": "30877e839294.m4a",
+        "lent": "df7d83f5f652.m4a"
+      }
     },
     {
       "id": "u03-18",
@@ -223,7 +310,12 @@
       "perComprovar": false,
       "formes": [
         "מִסְפָּרִים"
-      ]
+      ],
+      "icona": "hash",
+      "audio": {
+        "normal": "a4595fc6f710.m4a",
+        "lent": "6a6a660eb4f8.m4a"
+      }
     },
     {
       "id": "u03-19",
@@ -233,7 +325,12 @@
       "pagina": "pag-18",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "gear-six",
+      "audio": {
+        "normal": "b261a62bff49.m4a",
+        "lent": "4d29089b87e7.m4a"
+      }
     },
     {
       "id": "u03-20",
@@ -243,7 +340,12 @@
       "pagina": "pag-19",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "number-circle-zero",
+      "audio": {
+        "normal": "2276edf37df6.m4a",
+        "lent": "6280e07f7d6c.m4a"
+      }
     },
     {
       "id": "u03-21",
@@ -253,7 +355,12 @@
       "pagina": "pag-19",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "number-circle-one",
+      "audio": {
+        "normal": "2e00c0c31721.m4a",
+        "lent": "52f482609288.m4a"
+      }
     },
     {
       "id": "u03-22",
@@ -263,7 +370,12 @@
       "pagina": "pag-19",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "number-circle-two",
+      "audio": {
+        "normal": "24e5830aef29.m4a",
+        "lent": "43b6a4faa9e6.m4a"
+      }
     },
     {
       "id": "u03-23",
@@ -273,7 +385,12 @@
       "pagina": "pag-19",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "number-circle-three",
+      "audio": {
+        "normal": "e6bd5a1fa7fb.m4a",
+        "lent": "c57f889f9948.m4a"
+      }
     },
     {
       "id": "u03-24",
@@ -283,7 +400,12 @@
       "pagina": "pag-19",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "number-circle-four",
+      "audio": {
+        "normal": "e58fc9d6ee3b.m4a",
+        "lent": "744abcafc5ed.m4a"
+      }
     },
     {
       "id": "u03-25",
@@ -293,7 +415,12 @@
       "pagina": "pag-19",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "number-circle-five",
+      "audio": {
+        "normal": "5d54b0852645.m4a",
+        "lent": "567bde4b7867.m4a"
+      }
     },
     {
       "id": "u03-26",
@@ -303,7 +430,12 @@
       "pagina": "pag-19",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "number-circle-six",
+      "audio": {
+        "normal": "af0da4884fdc.m4a",
+        "lent": "b4a4538367ee.m4a"
+      }
     },
     {
       "id": "u03-27",
@@ -313,7 +445,12 @@
       "pagina": "pag-19",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "number-circle-seven",
+      "audio": {
+        "normal": "f73b1d1cab5a.m4a",
+        "lent": "c2829841f70d.m4a"
+      }
     },
     {
       "id": "u03-28",
@@ -323,7 +460,12 @@
       "pagina": "pag-19",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "number-circle-eight",
+      "audio": {
+        "normal": "ca954277a9f5.m4a",
+        "lent": "414a703b5eef.m4a"
+      }
     },
     {
       "id": "u03-29",
@@ -333,7 +475,12 @@
       "pagina": "pag-19",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "number-circle-nine",
+      "audio": {
+        "normal": "2ab856dcbef0.m4a",
+        "lent": "ec353f5d7267.m4a"
+      }
     },
     {
       "id": "u03-30",
@@ -343,7 +490,12 @@
       "pagina": "pag-19",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "propia:deu.svg",
+      "audio": {
+        "normal": "6ae23249c7de.m4a",
+        "lent": "9e4068e66751.m4a"
+      }
     },
     {
       "id": "u03-31",
@@ -353,7 +505,11 @@
       "pagina": "pag-19",
       "funcio": true,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "023774ca98d6.m4a",
+        "lent": "e9bc31760475.m4a"
+      }
     },
     {
       "id": "u03-32",
@@ -363,7 +519,12 @@
       "pagina": "pag-19",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "book-open-text",
+      "audio": {
+        "normal": "b5bbf1714aad.m4a",
+        "lent": "56ca79474ce2.m4a"
+      }
     },
     {
       "id": "u03-33",
@@ -373,7 +534,12 @@
       "pagina": "pag-19",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "fire-truck",
+      "audio": {
+        "normal": "c919c1bda7d4.m4a",
+        "lent": "4e0ba8785413.m4a"
+      }
     },
     {
       "id": "u03-34",
@@ -383,7 +549,12 @@
       "pagina": "pag-19",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "ambulance",
+      "audio": {
+        "normal": "dc451f7259ee.m4a",
+        "lent": "755135692a77.m4a"
+      }
     },
     {
       "id": "u03-35",
@@ -393,10 +564,534 @@
       "pagina": "pag-19",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "police-car",
+      "audio": {
+        "normal": "fb97eb571047.m4a",
+        "lent": "a0f76cbbe228.m4a"
+      }
     }
   ],
-  "gramatica": [],
+  "gramatica": [
+    {
+      "id": "eifo-meayin",
+      "titol": "On? D'on?",
+      "explicacio": "אֵיפֹה? pregunta pel lloc on és algú i מֵאַיִן? per la procedència. Si la resposta porta בְּ־, la pregunta és אֵיפֹה; si porta מִ־, és מֵאַיִן.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u03-g-eifo-meayin-0",
+          "text": {
+            "u": "איפה אתם עכשיו? — עכשיו אנחנו בישראל.",
+            "n": "אֵיפֹה אַתֶּם עַכְשָׁיו? — עַכְשָׁיו אֲנַחְנוּ בְּיִשְׂרָאֵל.",
+            "extraVocals": true
+          },
+          "ca": "On sou ara? — Ara som a Israel.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "cbe98ca61f86.m4a",
+            "lent": "4396bc929edf.m4a"
+          }
+        },
+        {
+          "id": "u03-g-eifo-meayin-1",
+          "text": {
+            "u": "איפה קרית-שמונה? — קרית-שמונה בגליל.",
+            "n": "אֵיפֹה קִרְיַת-שְׁמוֹנָה? — קִרְיַת-שְׁמוֹנָה בַּגָּלִיל.",
+            "extraVocals": true
+          },
+          "ca": "On és Kiryat Shmona? — Kiryat Shmona és a Galilea.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "b777183ee24e.m4a",
+            "lent": "11669619a177.m4a"
+          }
+        },
+        {
+          "id": "u03-g-eifo-meayin-2",
+          "text": {
+            "u": "יצחק, מאין אתה ושרה? — אנחנו מברזיל.",
+            "n": "יִצְחָק, מֵאַיִן אַתָּה וְשָׂרָה? — אֲנַחְנוּ מִבְּרָזִיל.",
+            "extraVocals": true
+          },
+          "ca": "Itshak, d'on sou tu i la Sara? — Som del Brasil.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "4e64d9c9e565.m4a",
+            "lent": "61675d0da66a.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "be-ba",
+      "titol": "La preposició בְּ־ i l'article",
+      "explicacio": "בְּ־ (a, en) s'enganxa al mot. Si el mot porta l'article, la ה cau i en queda la vocal: בְּ + הַ = בַּ. Les ciutats i els països no porten article; la Galilea, sí.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u03-g-be-ba-0",
+          "text": {
+            "u": "אסתר בחיפה.",
+            "n": "אֶסְתֵּר בְּחֵיפָה.",
+            "extraVocals": true
+          },
+          "ca": "L'Ester és a Haifa.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "fe04e890c706.m4a",
+            "lent": "020dae615a88.m4a"
+          }
+        },
+        {
+          "id": "u03-g-be-ba-1",
+          "text": {
+            "u": "בקיבוץ · בקיבוץ",
+            "n": "בְּקִיבּוּץ · בַּקִּיבּוּץ",
+            "extraVocals": true
+          },
+          "ca": "en un quibuts · al quibuts",
+          "perComprovar": false,
+          "audio": {
+            "normal": "770c883acab5.m4a",
+            "lent": "e66e137a4fbc.m4a"
+          }
+        },
+        {
+          "id": "u03-g-be-ba-2",
+          "text": {
+            "u": "גם קיבוץ דן בגליל.",
+            "n": "גַּם קִיבּוּץ דָּן בַּגָּלִיל.",
+            "extraVocals": true
+          },
+          "ca": "El quibuts Dan també és a Galilea.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "f6432dc5ca2d.m4a",
+            "lent": "92b6eb0417b3.m4a"
+          }
+        },
+        {
+          "id": "u03-g-be-ba-3",
+          "text": {
+            "u": "עכשיו משפחת לוי בארץ.",
+            "n": "עַכְשָׁיו מִשְׁפַּחַת לֵוִי בָּאָרֶץ.",
+            "extraVocals": true
+          },
+          "ca": "Ara la família Leví és a Israel (literalment, al país).",
+          "perComprovar": false,
+          "audio": {
+            "normal": "ae1204ad4dfa.m4a",
+            "lent": "c1979f0dffed.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "present",
+      "titol": "El present en quatre formes",
+      "explicacio": "En present el verb canvia per gènere i nombre, no per persona, i per això el pronom és obligatori. Les terminacions són les dels adjectius; al plural, la e de dins cau (לוֹמֵד → לוֹמְדִים).",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u03-g-present-0",
+          "text": {
+            "u": "גר, גרה, גרים, גרות",
+            "n": "גָּר, גָּרָה, גָּרִים, גָּרוֹת",
+            "extraVocals": true
+          },
+          "ca": "viu, viu, viuen, viuen (m. sg., f. sg., m. pl., f. pl.)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "ff2bc05857de.m4a",
+            "lent": "08f8350a7fd8.m4a"
+          }
+        },
+        {
+          "id": "u03-g-present-1",
+          "text": {
+            "u": "לומד, לומדת, לומדים, לומדות",
+            "n": "לוֹמֵד, לוֹמֶדֶת, לוֹמְדִים, לוֹמְדוֹת",
+            "extraVocals": true
+          },
+          "ca": "estudia (m. sg., f. sg., m. pl., f. pl.)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "6e533e0424e1.m4a",
+            "lent": "e72372dfd045.m4a"
+          }
+        },
+        {
+          "id": "u03-g-present-2",
+          "text": {
+            "u": "עובד, עובדת, עובדים, עובדות",
+            "n": "עוֹבֵד, עוֹבֶדֶת, עוֹבְדִים, עוֹבְדוֹת",
+            "extraVocals": true
+          },
+          "ca": "treballa (m. sg., f. sg., m. pl., f. pl.)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "485f7c5164d1.m4a",
+            "lent": "1c0d8e2da81d.m4a"
+          }
+        },
+        {
+          "id": "u03-g-present-3",
+          "text": {
+            "u": "אני לומד באולפן.",
+            "n": "אֲנִי לוֹמֵד בָּאוּלְפָּן.",
+            "extraVocals": true
+          },
+          "ca": "Estudio a l'ulpan (parla un home).",
+          "perComprovar": false,
+          "audio": {
+            "normal": "38038930e7d2.m4a",
+            "lent": "acefe21cd791.m4a"
+          }
+        },
+        {
+          "id": "u03-g-present-4",
+          "text": {
+            "u": "היא לא עובדת, היא לומדת.",
+            "n": "הִיא לֹא עוֹבֶדֶת, הִיא לוֹמֶדֶת.",
+            "extraVocals": true
+          },
+          "ca": "No treballa, estudia.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "a4ac524c6272.m4a",
+            "lent": "f8a9c45358a4.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oseh",
+      "titol": "עוֹשֶׂה, «fa»",
+      "explicacio": "עוֹשֶׂה fa el femení en ‑ָה, com מוֹרֶה. Sense vocals, עושה serveix per als dos gèneres i el context decideix.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u03-g-oseh-0",
+          "text": {
+            "u": "עושה, עושה, עושים, עושות",
+            "n": "עוֹשֶׂה, עוֹשָׂה, עוֹשִׂים, עוֹשׂוֹת",
+            "extraVocals": true
+          },
+          "ca": "fa (m. sg., f. sg., m. pl., f. pl.)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "466d86d7e719.m4a",
+            "lent": "2891663820e7.m4a"
+          }
+        },
+        {
+          "id": "u03-g-oseh-1",
+          "text": {
+            "u": "מה עושה רוברטו?",
+            "n": "מָה עוֹשֶׂה רוֹבֶּרְטוֹ?",
+            "extraVocals": true
+          },
+          "ca": "Què fa el Roberto?",
+          "perComprovar": false,
+          "audio": {
+            "normal": "157c947494f3.m4a",
+            "lent": "f05d99b573e1.m4a"
+          }
+        },
+        {
+          "id": "u03-g-oseh-2",
+          "text": {
+            "u": "מה עושה אסתר?",
+            "n": "מָה עוֹשָׂה אֶסְתֵּר?",
+            "extraVocals": true
+          },
+          "ca": "Què fa l'Ester?",
+          "perComprovar": false,
+          "audio": {
+            "normal": "1e4258452e8b.m4a",
+            "lent": "850b3af7fd13.m4a"
+          }
+        },
+        {
+          "id": "u03-g-oseh-3",
+          "text": {
+            "u": "מה את עושה?",
+            "n": "מָה אַתְּ עוֹשָׂה?",
+            "extraVocals": true
+          },
+          "ca": "Què fas? (a una dona)",
+          "perComprovar": false,
+          "extra": true,
+          "audio": {
+            "normal": "6485b8aea77c.m4a",
+            "lent": "2e7e7b170d11.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ordre-pregunta",
+      "titol": "L'ordre a la pregunta",
+      "explicacio": "Després de la partícula interrogativa, el verb sovint passa davant del subjecte; a la resposta torna l'ordre de sempre. Dos verbs seguits s'uneixen amb וְ־.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u03-g-ordre-pregunta-0",
+          "text": {
+            "u": "ואיפה לומד רוברטו?",
+            "n": "וְאֵיפֹה לוֹמֵד רוֹבֶּרְטוֹ?",
+            "extraVocals": true
+          },
+          "ca": "I on estudia el Roberto?",
+          "perComprovar": false,
+          "audio": {
+            "normal": "4384849c88e3.m4a",
+            "lent": "27981823e8b4.m4a"
+          }
+        },
+        {
+          "id": "u03-g-ordre-pregunta-1",
+          "text": {
+            "u": "מה עושים שרה ויצחק?",
+            "n": "מָה עוֹשִׂים שָׂרָה וְיִצְחָק?",
+            "extraVocals": true
+          },
+          "ca": "Què fan la Sara i l'Itshak?",
+          "perComprovar": false,
+          "audio": {
+            "normal": "cf2a77b65b06.m4a",
+            "lent": "92a549afa606.m4a"
+          }
+        },
+        {
+          "id": "u03-g-ordre-pregunta-2",
+          "text": {
+            "u": "רוברטו עובד ולומד בקיבוץ.",
+            "n": "רוֹבֶּרְטוֹ עוֹבֵד וְלוֹמֵד בַּקִּיבּוּץ.",
+            "extraVocals": true
+          },
+          "ca": "El Roberto treballa i estudia al quibuts.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "d31c18e51e27.m4a",
+            "lent": "e8f2dd98c92a.m4a"
+          }
+        },
+        {
+          "id": "u03-g-ordre-pregunta-3",
+          "text": {
+            "u": "איפה אתה גר?",
+            "n": "אֵיפֹה אַתָּה גָּר?",
+            "extraVocals": true
+          },
+          "ca": "On vius?",
+          "perComprovar": false,
+          "audio": {
+            "normal": "3d9ef8a5c18e.m4a",
+            "lent": "80a0ea7a3507.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nombres",
+      "titol": "Els nombres del 0 al 10",
+      "explicacio": "El dossier dona els nombres en femení, que és la forma per comptar i per dir xifres soltes (telèfons, adreces, autobusos). מִסְפָּר va davant de la xifra, com en català.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u03-g-nombres-0",
+          "text": {
+            "u": "אפס, אחת, שתים, שלוש, ארבע, חמש",
+            "n": "אֶפֶס, אַחַת, שְׁתַּיִם, שָׁלוֹשׁ, אַרְבַּע, חָמֵשׁ",
+            "extraVocals": true
+          },
+          "ca": "zero, u, dos, tres, quatre, cinc",
+          "perComprovar": false,
+          "audio": {
+            "normal": "b3bda7636aa6.m4a",
+            "lent": "909aaf953e57.m4a"
+          }
+        },
+        {
+          "id": "u03-g-nombres-1",
+          "text": {
+            "u": "שש, שבע, שמונה, תשע, עשר",
+            "n": "שֵׁשׁ, שֶׁבַע, שְׁמוֹנֶה, תֵּשַׁע, עֶשֶׂר",
+            "extraVocals": true
+          },
+          "ca": "sis, set, vuit, nou, deu",
+          "perComprovar": false,
+          "audio": {
+            "normal": "5cd2d09092bf.m4a",
+            "lent": "91a36f781c10.m4a"
+          }
+        },
+        {
+          "id": "u03-g-nombres-2",
+          "text": {
+            "u": "הן גרות ברחוב האורן מספר 7 (שבע).",
+            "n": "הֵן גָּרוֹת בִּרְחוֹב הָאוֹרֶן מִסְפָּר 7 (שֶׁבַע).",
+            "extraVocals": true
+          },
+          "ca": "Viuen al carrer Haoren, número 7 (set).",
+          "perComprovar": false,
+          "audio": {
+            "normal": "eae1356114ec.m4a",
+            "lent": "9360805bd850.m4a"
+          }
+        },
+        {
+          "id": "u03-g-nombres-3",
+          "text": {
+            "u": "228071: שתים, שתים, שמונה, אפס, שבע, אחת",
+            "n": "228071: שְׁתַּיִם, שְׁתַּיִם, שְׁמוֹנֶה, אֶפֶס, שֶׁבַע, אַחַת",
+            "extraVocals": true
+          },
+          "ca": "El telèfon del Moixè, xifra a xifra.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "ab56b8514ba3.m4a",
+            "lent": "2a2c87d7a982.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mispar-constructe",
+      "titol": "מִסְפַּר הַטֶּלֶפוֹן",
+      "explicacio": "Davant d'un altre nom, מִסְפָּר pren la forma מִסְפַּר i no porta article; l'article va al segon nom. És la construcció de מִשְׁפַּחַת לֵוִי.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u03-g-mispar-constructe-0",
+          "text": {
+            "u": "מספר הטלפון של משה",
+            "n": "מִסְפַּר הַטֶּלֶפוֹן שֶׁל מֹשֶׁה",
+            "extraVocals": true
+          },
+          "ca": "el número de telèfon del Moixè",
+          "perComprovar": false,
+          "audio": {
+            "normal": "097987ac1bfd.m4a",
+            "lent": "ce550d021543.m4a"
+          }
+        },
+        {
+          "id": "u03-g-mispar-constructe-1",
+          "text": {
+            "u": "זה אוטובוס מספר 9.",
+            "n": "זֶה אוֹטוֹבּוּס מִסְפָּר 9.",
+            "extraVocals": true
+          },
+          "ca": "És l'autobús número 9.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "1abbfaa1529b.m4a",
+            "lent": "5e0c719fe9e3.m4a"
+          }
+        },
+        {
+          "id": "u03-g-mispar-constructe-2",
+          "text": {
+            "u": "משפחת לוי",
+            "n": "מִשְׁפַּחַת לֵוִי",
+            "extraVocals": true
+          },
+          "ca": "la família Leví",
+          "perComprovar": false,
+          "audio": {
+            "normal": "346113b0914d.m4a",
+            "lent": "0beff6985783.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nombres-masculins",
+      "titol": "Els nombres amb un nom masculí",
+      "explicacio": "Amb un nom masculí es fa servir una altra sèrie, i del 3 al 10 és la que acaba en ‑ָה, al revés que els adjectius. אֶחָד i אַחַת van darrere del nom; els altres, davant.",
+      "extra": true,
+      "exemples": [
+        {
+          "id": "u03-g-nombres-masculins-0",
+          "text": {
+            "u": "אחד, שניים, שלושה, ארבעה, חמישה",
+            "n": "אֶחָד, שְׁנַייִם, שְׁלוֹשָׁה, אַרְבָּעָה, חֲמִישָּׁה",
+            "extraVocals": true
+          },
+          "ca": "de l'1 al 5, amb un nom masculí",
+          "perComprovar": false,
+          "extra": true,
+          "audio": {
+            "normal": "45fa7f52c2c4.m4a",
+            "lent": "1f16bd35506f.m4a"
+          }
+        },
+        {
+          "id": "u03-g-nombres-masculins-1",
+          "text": {
+            "u": "שישה, שבעה, שמונה, תשעה, עשרה",
+            "n": "שִׁישָּׁה, שִׁבְעָה, שְׁמוֹנָה, תִּשְׁעָה, עֲשָׂרָה",
+            "extraVocals": true
+          },
+          "ca": "del 6 al 10, amb un nom masculí",
+          "perComprovar": false,
+          "extra": true,
+          "audio": {
+            "normal": "fafbdb7df8a3.m4a",
+            "lent": "9413cde33462.m4a"
+          }
+        },
+        {
+          "id": "u03-g-nombres-masculins-2",
+          "text": {
+            "u": "ספר אחד · תמונה אחת",
+            "n": "סֵפֶר אֶחָד · תְּמוּנָה אַחַת",
+            "extraVocals": true
+          },
+          "ca": "un llibre · un quadre",
+          "perComprovar": false,
+          "extra": true,
+          "audio": {
+            "normal": "5c54792515a4.m4a",
+            "lent": "3c1281dd7ad5.m4a"
+          }
+        },
+        {
+          "id": "u03-g-nombres-masculins-3",
+          "text": {
+            "u": "שלושה ספרים · שלוש תמונות",
+            "n": "שְׁלוֹשָׁה סְפָרִים · שָׁלוֹשׁ תְּמוּנוֹת",
+            "extraVocals": true
+          },
+          "ca": "tres llibres · tres quadres",
+          "perComprovar": false,
+          "extra": true,
+          "audio": {
+            "normal": "39fb1889a071.m4a",
+            "lent": "d5e965421c87.m4a"
+          }
+        },
+        {
+          "id": "u03-g-nombres-masculins-4",
+          "text": {
+            "u": "שמונה · שמונה",
+            "n": "שְׁמוֹנָה · שְׁמוֹנֶה",
+            "extraVocals": true
+          },
+          "ca": "vuit (m.) · vuit (f.): sense vocals, s'escriuen igual",
+          "perComprovar": false,
+          "extra": true,
+          "audio": {
+            "normal": "313be35ef742.m4a",
+            "lent": "5e4ffb378207.m4a"
+          }
+        }
+      ]
+    }
+  ],
   "textos": [
     {
       "id": "pag-15-b0",
@@ -411,65 +1106,128 @@
         {
           "id": "pag-15-b0-l0",
           "text": {
-            "u": "יצחק, מאין אתה ושרה? — אנחנו מברזיל."
+            "u": "יצחק, מאין אתה ושרה? — אנחנו מברזיל.",
+            "n": "יִצְחָק, מֵאַיִן אַתָּה וְשָׂרָה? — אֲנַחְנוּ מִבְּרָזִיל.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Itshak, d'on sou tu i la Sara? — Som del Brasil.",
+          "audio": {
+            "normal": "4e64d9c9e565.m4a",
+            "lent": "61675d0da66a.m4a"
+          }
         },
         {
           "id": "pag-15-b0-l1",
           "text": {
-            "u": "איפה אתם עכשיו? — עכשיו אנחנו בְּישראל."
+            "u": "איפה אתם עכשיו? — עכשיו אנחנו בְּישראל.",
+            "n": "אֵיפֹה אַתֶּם עַכְשָׁיו? — עַכְשָׁיו אֲנַחְנוּ בְּיִשְׂרָאֵל.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "On sou ara? — Ara som a Israel.",
+          "audio": {
+            "normal": "cbe98ca61f86.m4a",
+            "lent": "4396bc929edf.m4a"
+          }
         },
         {
           "id": "pag-15-b0-l2",
           "text": {
-            "u": "בְּמרכז-קליטה בְּקרית-שמונָה."
+            "u": "בְּמרכז-קליטה בְּקרית-שמונָה.",
+            "n": "בְּמֶרְכַּז-קְלִיטָה בְּקִרְיַת-שְׁמוֹנָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "En un centre d'acollida, a Kiryat Shmona.",
+          "audio": {
+            "normal": "0370e60ab556.m4a",
+            "lent": "8e045d813418.m4a"
+          }
         },
         {
           "id": "pag-15-b0-l3",
           "text": {
-            "u": "איפה קרית-שמונה? — קרית-שמונה בַּגָּליל."
+            "u": "איפה קרית-שמונה? — קרית-שמונה בַּגָּליל.",
+            "n": "אֵיפֹה קִרְיַת-שְׁמוֹנָה? — קִרְיַת-שְׁמוֹנָה בַּגָּלִיל.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "On és Kiryat Shmona? — Kiryat Shmona és a Galilea.",
+          "audio": {
+            "normal": "b777183ee24e.m4a",
+            "lent": "11669619a177.m4a"
+          }
         },
         {
           "id": "pag-15-b0-l4",
           "text": {
-            "u": "ואיפה רוברטו? — רוברטו בַּאולפן בְּקיבוץ דָּן."
+            "u": "ואיפה רוברטו? — רוברטו בַּאולפן בְּקיבוץ דָּן.",
+            "n": "וְאֵיפֹה רוֹבֶּרְטוֹ? — רוֹבֶּרְטוֹ בָּאוּלְפָּן בְּקִיבּוּץ דָּן.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "I on és el Roberto? — El Roberto és a l'ulpan, al quibuts Dan.",
+          "audio": {
+            "normal": "7a06566bd8a2.m4a",
+            "lent": "9790d7738213.m4a"
+          }
         },
         {
           "id": "pag-15-b0-l5",
           "text": {
-            "u": "גם קיבוץ דן בַּגליל? — כן, גם קיבוץ דן בַּגליל."
+            "u": "גם קיבוץ דן בַּגליל? — כן, גם קיבוץ דן בַּגליל.",
+            "n": "גַּם קִיבּוּץ דָּן בַּגָּלִיל? — כֵּן, גַּם קִיבּוּץ דָּן בַּגָּלִיל.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "El quibuts Dan també és a Galilea? — Sí, el quibuts Dan també és a Galilea.",
+          "audio": {
+            "normal": "41c4320e910e.m4a",
+            "lent": "5e71cd54733d.m4a"
+          }
         },
         {
           "id": "pag-15-b0-l6",
           "text": {
-            "u": "גם אסתר בְּקיבוץ? — לא, אסתר בְּחיפָה."
+            "u": "גם אסתר בְּקיבוץ? — לא, אסתר בְּחיפָה.",
+            "n": "גַּם אֶסְתֵּר בְּקִיבּוּץ? — לֹא, אֶסְתֵּר בְּחֵיפָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "L'Ester també és en un quibuts? — No, l'Ester és a Haifa.",
+          "audio": {
+            "normal": "286d13929d78.m4a",
+            "lent": "a0c2edd07d9f.m4a"
+          }
         },
         {
           "id": "pag-15-b0-l7",
           "text": {
-            "u": "היא סטודנטית בָּאוניברסיטה"
+            "u": "היא סטודנטית בָּאוניברסיטה",
+            "n": "הִיא סְטוּדֶנְטִית בָּאוּנִיבֶרְסִיטָה",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "És estudiant a la universitat",
+          "audio": {
+            "normal": "e5e2d2122b39.m4a",
+            "lent": "0a31739dee24.m4a"
+          }
         },
         {
           "id": "pag-15-b0-l8",
           "text": {
-            "u": "בְּחיפה."
+            "u": "בְּחיפה.",
+            "n": "בְּחֵיפָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "de Haifa.",
+          "audio": {
+            "normal": "6f9f72c3180d.m4a",
+            "lent": "f0e82bd6ddc4.m4a"
+          }
         }
       ]
     },
@@ -486,9 +1244,16 @@
         {
           "id": "pag-15-b1-l0",
           "text": {
-            "u": "עכשיו משפחת לוי בארץ."
+            "u": "עכשיו משפחת לוי בארץ.",
+            "n": "עַכְשָׁיו מִשְׁפַּחַת לֵוִי בָּאָרֶץ.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Ara la família Leví és a Israel.",
+          "audio": {
+            "normal": "ae1204ad4dfa.m4a",
+            "lent": "c1979f0dffed.m4a"
+          }
         }
       ]
     },
@@ -505,9 +1270,16 @@
         {
           "id": "pag-16-b0-l0",
           "text": {
-            "u": "כתוב: מי, מה, מאין, איפה"
+            "u": "כתוב: מי, מה, מאין, איפה",
+            "n": "כְּתוֹב: מִי, מַה, מֵאַיִן, אֵיפֹה",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Escriu: qui, què, d'on, on",
+          "audio": {
+            "normal": "9d35ef9c1892.m4a",
+            "lent": "d3d94cd2f14e.m4a"
+          }
         }
       ]
     },
@@ -524,86 +1296,120 @@
         {
           "id": "pag-16-b1-l0",
           "text": {
-            "u": "1. ____ אתה? — אני סטיב."
+            "u": "1. ____ אתה? — אני סטיב.",
+            "n": "1. ____ אַתָּה? — אֲנִי סְטִיב.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "1. ____ ets? — Sóc l'Steve."
         },
         {
           "id": "pag-16-b1-l1",
           "text": {
-            "u": "2. ____ אתה? — אני מאנגליה."
+            "u": "2. ____ אתה? — אני מאנגליה.",
+            "n": "2. ____ אַתָּה? — אֲנִי מֵאַנְגְלִיָּה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "2. ____ ets? — Sóc d'Anglaterra."
         },
         {
           "id": "pag-16-b1-l2",
           "text": {
-            "u": "3. ____ אתה עכשיו? — בישראל."
+            "u": "3. ____ אתה עכשיו? — בישראל.",
+            "n": "3. ____ אַתָּה עַכְשָׁיו? — בְּיִשְׂרָאֵל.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "3. ____ ets ara? — A Israel."
         },
         {
           "id": "pag-16-b1-l3",
           "text": {
-            "u": "4. ____ אילת? — בישראל."
+            "u": "4. ____ אילת? — בישראל.",
+            "n": "4. ____ אֵילַת? — בְּיִשְׂרָאֵל.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "4. ____ és Eilat? — A Israel."
         },
         {
           "id": "pag-16-b1-l4",
           "text": {
             "u": "5. ____ יוהנסבורג? — בְּדרום-אפריקה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "5. ____ és Johannesburg? — A Sud-àfrica."
         },
         {
           "id": "pag-16-b1-l5",
           "text": {
-            "u": "6. ____ סם? — מִדרום-אפריקה."
+            "u": "6. ____ סם? — מִדרום-אפריקה.",
+            "n": "6. ____ סָם? — מִדְּרוֹם-אַפְרִיקָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "6. ____ és en Sam? — De Sud-àfrica."
         },
         {
           "id": "pag-16-b1-l6",
           "text": {
-            "u": "7. ____ מברזיל? — רוברטו מִברזיל."
+            "u": "7. ____ מברזיל? — רוברטו מִברזיל.",
+            "n": "7. ____ מִבְּרָזִיל? — רוֹבֶּרְטוֹ מִבְּרָזִיל.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "7. ____ és del Brasil? — El Roberto és del Brasil."
         },
         {
           "id": "pag-16-b1-l7",
           "text": {
-            "u": "8. ____ עמנואל? — עמנואל מִברזיל."
+            "u": "8. ____ עמנואל? — עמנואל מִברזיל.",
+            "n": "8. ____ עִמָּנוּאֵל? — עִמָּנוּאֵל מִבְּרָזִיל.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "8. ____ és l'Emanuel? — L'Emanuel és del Brasil."
         },
         {
           "id": "pag-16-b1-l8",
           "text": {
-            "u": "9. ____ זה? — זה ספר."
+            "u": "9. ____ זה? — זה ספר.",
+            "n": "9. ____ זֶה? — זֶה סֵפֶר.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "9. ____ és això? — És un llibre."
         },
         {
           "id": "pag-16-b1-l9",
           "text": {
-            "u": "10. ____ המוֹרָה של יצחק? — צפורה."
+            "u": "10. ____ המוֹרָה של יצחק? — צפורה.",
+            "n": "10. ____ הַמּוֹרָה שֶׁל יִצְחָק? — צִפּוֹרָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "10. ____ és la mestra de l'Itshak? — La Tsiporà."
         },
         {
           "id": "pag-16-b1-l10",
           "text": {
-            "u": "11. ____ המורה של יצחק? — מישראל."
+            "u": "11. ____ המורה של יצחק? — מישראל.",
+            "n": "11. ____ הַמּוֹרָה שֶׁל יִצְחָק? — מִיִּשְׂרָאֵל.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "11. ____ és la mestra de l'Itshak? — D'Israel."
         },
         {
           "id": "pag-16-b1-l11",
           "text": {
-            "u": "12. ____ המורה? — באולפן."
+            "u": "12. ____ המורה? — באולפן.",
+            "n": "12. ____ הַמּוֹרָה? — בָּאוּלְפָּן.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "12. ____ és la mestra? — A l'ulpan."
         }
       ]
     },
@@ -620,9 +1426,16 @@
         {
           "id": "pag-16-b2-l0",
           "text": {
-            "u": "כתוב ו... בּ... מ... ה..."
+            "u": "כתוב ו... בּ... מ... ה...",
+            "n": "כְּתוֹב וְ... בְּ... מִ... הַ...",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Escriu: i, a o en, de, el o la",
+          "audio": {
+            "normal": "d0a7eea4c4c4.m4a",
+            "lent": "821a3cbf87a8.m4a"
+          }
         }
       ]
     },
@@ -639,44 +1452,62 @@
         {
           "id": "pag-16-b3-l0",
           "text": {
-            "u": "1. רוברטו ____אסתר אח ____אחות. הם עולים חדשים ____ברזיל."
+            "u": "1. רוברטו ____אסתר אח ____אחות. הם עולים חדשים ____ברזיל.",
+            "n": "1. רוֹבֶּרְטוֹ ____אֶסְתֵּר אָח ____אָחוֹת. הֵם עוֹלִים חֲדָשִׁים ____בְּרָזִיל.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "1. El Roberto ____ l'Ester són germà ____ germana. Són immigrants nous ____ Brasil."
         },
         {
           "id": "pag-16-b3-l1",
           "text": {
-            "u": "2. ירושלים לא ____אנגליה. ירושלים ____ישראל."
+            "u": "2. ירושלים לא ____אנגליה. ירושלים ____ישראל.",
+            "n": "2. יְרוּשָׁלַיִם לֹא ____אַנְגְלִיָּה. יְרוּשָׁלַיִם ____יִשְׂרָאֵל.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "2. Jerusalem no és ____ Anglaterra. Jerusalem és ____ Israel."
         },
         {
           "id": "pag-16-b3-l2",
           "text": {
-            "u": "3. זה לא ____ארגנטינה, זה מרוסיה."
+            "u": "3. זה לא ____ארגנטינה, זה מרוסיה.",
+            "n": "3. זֶה לֹא ____אַרְגֶּנְטִינָה, זֶה מֵרוּסְיָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "3. Això no és ____ l'Argentina, és de Rússia."
         },
         {
           "id": "pag-16-b3-l3",
           "text": {
-            "u": "4. ____הורים של רוברטו תלמידים ____אולפן ____קרית-שמונה."
+            "u": "4. ____הורים של רוברטו תלמידים ____אולפן ____קרית-שמונה.",
+            "n": "4. ____הוֹרִים שֶׁל רוֹבֶּרְטוֹ תַּלְמִידִים ____אוּלְפָּן ____קִרְיַת-שְׁמוֹנָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "4. ____ pares del Roberto són alumnes ____ ulpan ____ Kiryat Shmona."
         },
         {
           "id": "pag-16-b3-l4",
           "text": {
-            "u": "5. סטיב ____דוריס תיירים ____אנגליה. עכשיו הם ____ישראל."
+            "u": "5. סטיב ____דוריס תיירים ____אנגליה. עכשיו הם ____ישראל.",
+            "n": "5. סְטִיב ____דּוֹרִיס תַּייָּרִים ____אַנְגְלִיָּה. עַכְשָׁיו הֵם ____יִשְׂרָאֵל.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "5. L'Steve ____ la Doris són turistes ____ Anglaterra. Ara són ____ Israel."
         },
         {
           "id": "pag-16-b3-l5",
           "text": {
-            "u": "6. ____ילדים של צפורה גדולים ____יפים."
+            "u": "6. ____ילדים של צפורה גדולים ____יפים.",
+            "n": "6. ____יְלָדִים שֶׁל צִפּוֹרָה גְּדוֹלִים ____יָפִים.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "6. ____ fills de la Tsiporà són grans ____ macos."
         }
       ]
     },
@@ -693,149 +1524,294 @@
         {
           "id": "pag-17-b0-l0",
           "text": {
-            "u": "יצחק, איפה אתה גר? — אני גר בקרית-שמונה,"
+            "u": "יצחק, איפה אתה גר? — אני גר בקרית-שמונה,",
+            "n": "יִצְחָק, אֵיפֹה אַתָּה גָּר? — אֲנִי גָּר בְּקִרְיַת-שְׁמוֹנָה,",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Itshak, on vius? — Visc a Kiryat Shmona,",
+          "audio": {
+            "normal": "064b52d8a7bf.m4a",
+            "lent": "5bcc87efada9.m4a"
+          }
         },
         {
           "id": "pag-17-b0-l1",
           "text": {
-            "u": "במרכז-קליטה בְּרחוב תֵּל-חַי."
+            "u": "במרכז-קליטה בְּרחוב תֵּל-חַי.",
+            "n": "בְּמֶרְכַּז-קְלִיטָה בִּרְחוֹב תֵּל-חַי.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "en un centre d'acollida, al carrer Tel Hai.",
+          "audio": {
+            "normal": "4d161d607706.m4a",
+            "lent": "2369a576b74e.m4a"
+          }
         },
         {
           "id": "pag-17-b0-l2",
           "text": {
-            "u": "ואיפה אתה לומד? — אני לומד באולפן במרכז-קליטה."
+            "u": "ואיפה אתה לומד? — אני לומד באולפן במרכז-קליטה.",
+            "n": "וְאֵיפֹה אַתָּה לוֹמֵד? — אֲנִי לוֹמֵד בָּאוּלְפָּן בְּמֶרְכַּז-קְלִיטָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "I on estudies? — Estudio a l'ulpan del centre d'acollida.",
+          "audio": {
+            "normal": "d84dcd653059.m4a",
+            "lent": "4089e289be0c.m4a"
+          }
         },
         {
           "id": "pag-17-b0-l3",
           "text": {
-            "u": "גם שרה לומדת שם? — כן גם היא לומדת שם."
+            "u": "גם שרה לומדת שם? — כן גם היא לומדת שם.",
+            "n": "גַּם שָׂרָה לוֹמֶדֶת שָׁם? — כֵּן גַּם הִיא לוֹמֶדֶת שָׁם.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "La Sara també hi estudia? — Sí, ella també hi estudia.",
+          "audio": {
+            "normal": "906a5c464d42.m4a",
+            "lent": "0af45e72d231.m4a"
+          }
         },
         {
           "id": "pag-17-b0-l4",
           "text": {
-            "u": "מה אתם לומדים? — אנחנו לומדים עברית."
+            "u": "מה אתם לומדים? — אנחנו לומדים עברית.",
+            "n": "מָה אַתֶּם לוֹמְדִים? — אֲנַחְנוּ לוֹמְדִים עִבְרִית.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Què estudieu? — Estudiem hebreu.",
+          "audio": {
+            "normal": "ec139c796ee5.m4a",
+            "lent": "c3a5bee49652.m4a"
+          }
         },
         {
           "id": "pag-17-b0-l5",
           "text": {
-            "u": "ואיפה לומד רוברטו? — הוא לומד באולפן-עבודה"
+            "u": "ואיפה לומד רוברטו? — הוא לומד באולפן-עבודה",
+            "n": "וְאֵיפֹה לוֹמֵד רוֹבֶּרְטוֹ? — הוּא לוֹמֵד בְּאוּלְפַּן-עֲבוֹדָה",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "I on estudia el Roberto? — Estudia en un ulpan de treball",
+          "audio": {
+            "normal": "6c1c0961d53d.m4a",
+            "lent": "b70a060bb887.m4a"
+          }
         },
         {
           "id": "pag-17-b0-l6",
           "text": {
-            "u": "בקיבוץ דן. הוא עובד ולומד."
+            "u": "בקיבוץ דן. הוא עובד ולומד.",
+            "n": "בְּקִיבּוּץ דָּן. הוּא עוֹבֵד וְלוֹמֵד.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "al quibuts Dan. Treballa i estudia.",
+          "audio": {
+            "normal": "829ec32d7d8a.m4a",
+            "lent": "c80a05cb65bc.m4a"
+          }
         },
         {
           "id": "pag-17-b0-l7",
           "text": {
-            "u": "התלמידים באולפן-עבודה"
+            "u": "התלמידים באולפן-עבודה",
+            "n": "הַתַּלְמִידִים בְּאוּלְפַּן-עֲבוֹדָה",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Els alumnes d'un ulpan de treball",
+          "audio": {
+            "normal": "9b7e8ffe302a.m4a",
+            "lent": "c1674cfca0ce.m4a"
+          }
         },
         {
           "id": "pag-17-b0-l8",
           "text": {
-            "u": "עובדים ולומדים."
+            "u": "עובדים ולומדים.",
+            "n": "עוֹבְדִים וְלוֹמְדִים.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "treballen i estudien.",
+          "audio": {
+            "normal": "a835b6280cf7.m4a",
+            "lent": "43c5d0ebfb5f.m4a"
+          }
         },
         {
           "id": "pag-17-b0-l9",
           "text": {
-            "u": "גם אסתר גרה בקיבוץ? — לא, היא גרה בחיפה"
+            "u": "גם אסתר גרה בקיבוץ? — לא, היא גרה בחיפה",
+            "n": "גַּם אֶסְתֵּר גָּרָה בְּקִיבּוּץ? — לֹא, הִיא גָּרָה בְּחֵיפָה",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "L'Ester també viu en un quibuts? — No, viu a Haifa",
+          "audio": {
+            "normal": "dd7a0ee0ee4f.m4a",
+            "lent": "498d1d82e270.m4a"
+          }
         },
         {
           "id": "pag-17-b0-l10",
           "text": {
-            "u": "עם חברה."
+            "u": "עם חברה.",
+            "n": "עִם חֲבֵרָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "amb una amiga.",
+          "audio": {
+            "normal": "d2f306ae4c19.m4a",
+            "lent": "b939b5e1c745.m4a"
+          }
         },
         {
           "id": "pag-17-b0-l11",
           "text": {
-            "u": "אסתר עובדת? — לא, היא לא עובדת, היא לומדת."
+            "u": "אסתר עובדת? — לא, היא לא עובדת, היא לומדת.",
+            "n": "אֶסְתֵּר עוֹבֶדֶת? — לֹא, הִיא לֹא עוֹבֶדֶת, הִיא לוֹמֶדֶת.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "L'Ester treballa? — No, no treballa, estudia.",
+          "audio": {
+            "normal": "4f0d2d88e7f9.m4a",
+            "lent": "4c33ad0032da.m4a"
+          }
         },
         {
           "id": "pag-17-b0-l12",
           "text": {
-            "u": "היא סטודנטית."
+            "u": "היא סטודנטית.",
+            "n": "הִיא סְטוּדֶנְטִית.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "És estudiant.",
+          "audio": {
+            "normal": "34d9bb0bee79.m4a",
+            "lent": "567153419301.m4a"
+          }
         },
         {
           "id": "pag-17-b0-l13",
           "text": {
-            "u": "מי החברה של אסתר? — תמר כֹּהֵן. גם היא"
+            "u": "מי החברה של אסתר? — תמר כֹּהֵן. גם היא",
+            "n": "מִי הַחֲבֵרָה שֶׁל אֶסְתֵּר? — תָּמָר כֹּהֵן. גַּם הִיא",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Qui és l'amiga de l'Ester? — La Tamar Cohen. Ella també",
+          "audio": {
+            "normal": "d6595598ce85.m4a",
+            "lent": "8de75a4c1801.m4a"
+          }
         },
         {
           "id": "pag-17-b0-l14",
           "text": {
-            "u": "עולה חדשה מברזיל."
+            "u": "עולה חדשה מברזיל.",
+            "n": "עוֹלָה חֲדָשָׁה מִבְּרָזִיל.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "és una immigrant nova del Brasil.",
+          "audio": {
+            "normal": "c9362b200ac4.m4a",
+            "lent": "3d753f81acfb.m4a"
+          }
         },
         {
           "id": "pag-17-b0-l15",
           "text": {
-            "u": "גם היא סטודנטית."
+            "u": "גם היא סטודנטית.",
+            "n": "גַּם הִיא סְטוּדֶנְטִית.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Ella també és estudiant.",
+          "audio": {
+            "normal": "5b9085c1f677.m4a",
+            "lent": "23d2c58e53ed.m4a"
+          }
         },
         {
           "id": "pag-17-b0-l16",
           "text": {
-            "u": "איפה הן גרות? — הן גרות ברחוב הָאוֹרֶן מספר 7 (שֶׁבַע)."
+            "u": "איפה הן גרות? — הן גרות ברחוב הָאוֹרֶן מספר 7 (שֶׁבַע).",
+            "n": "אֵיפֹה הֵן גָּרוֹת? — הֵן גָּרוֹת בִּרְחוֹב הָאוֹרֶן מִסְפָּר 7 (שֶׁבַע).",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "On viuen? — Viuen al carrer Haoren, número 7 (set).",
+          "audio": {
+            "normal": "780edd418af7.m4a",
+            "lent": "ed264e8881e2.m4a"
+          }
         },
         {
           "id": "pag-17-b0-l17",
           "text": {
-            "u": "תמר ואסתר לומדות באוניברסיטה"
+            "u": "תמר ואסתר לומדות באוניברסיטה",
+            "n": "תָּמָר וְאֶסְתֵּר לוֹמְדוֹת בָּאוּנִיבֶרְסִיטָה",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "La Tamar i l'Ester estudien a la universitat",
+          "audio": {
+            "normal": "cacd648d04cc.m4a",
+            "lent": "e05a8affcb28.m4a"
+          }
         },
         {
           "id": "pag-17-b0-l18",
           "text": {
-            "u": "בחיפה. הן לא עובדות."
+            "u": "בחיפה. הן לא עובדות.",
+            "n": "בְּחֵיפָה. הֵן לֹא עוֹבְדוֹת.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "de Haifa. No treballen.",
+          "audio": {
+            "normal": "381f552c2405.m4a",
+            "lent": "bbe2f56dacb6.m4a"
+          }
         },
         {
           "id": "pag-17-b0-l19",
           "text": {
-            "u": "אסתר לומדת פסיכולוגיה"
+            "u": "אסתר לומדת פסיכולוגיה",
+            "n": "אֶסְתֵּר לוֹמֶדֶת פְּסִיכוֹלוֹגְיָה",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "L'Ester estudia psicologia",
+          "audio": {
+            "normal": "645ed6eb77ad.m4a",
+            "lent": "2090a08db30b.m4a"
+          }
         },
         {
           "id": "pag-17-b0-l20",
           "text": {
             "u": "ותמר לומדת סוציולוגיה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "i la Tamar estudia sociologia.",
+          "audio": {
+            "normal": "5e92f93b743d.m4a",
+            "lent": "3049ee986e6d.m4a"
+          }
         }
       ]
     },
@@ -852,51 +1828,100 @@
         {
           "id": "pag-18-b0-l0",
           "text": {
-            "u": "מה עושֶׂה רוברטו? — רוברטו עובד ולומד בקיבוץ."
+            "u": "מה עושֶׂה רוברטו? — רוברטו עובד ולומד בקיבוץ.",
+            "n": "מָה עוֹשֶׂה רוֹבֶּרְטוֹ? — רוֹבֶּרְטוֹ עוֹבֵד וְלוֹמֵד בַּקִּיבּוּץ.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Què fa el Roberto? — El Roberto treballa i estudia al quibuts.",
+          "audio": {
+            "normal": "62ef705e0888.m4a",
+            "lent": "d790afdf0481.m4a"
+          }
         },
         {
           "id": "pag-18-b0-l1",
           "text": {
-            "u": "מה עושָׂה אסתר? — אסתר לומדת פסיכולוגיה"
+            "u": "מה עושָׂה אסתר? — אסתר לומדת פסיכולוגיה",
+            "n": "מָה עוֹשָׂה אֶסְתֵּר? — אֶסְתֵּר לוֹמֶדֶת פְּסִיכוֹלוֹגְיָה",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Què fa l'Ester? — L'Ester estudia psicologia",
+          "audio": {
+            "normal": "8b1ffc648cbd.m4a",
+            "lent": "5509cab0849f.m4a"
+          }
         },
         {
           "id": "pag-18-b0-l2",
           "text": {
-            "u": "באוניברסיטה בחיפה."
+            "u": "באוניברסיטה בחיפה.",
+            "n": "בָּאוּנִיבֶרְסִיטָה בְּחֵיפָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "a la universitat de Haifa.",
+          "audio": {
+            "normal": "4bf3611179f4.m4a",
+            "lent": "4da5b1dcc884.m4a"
+          }
         },
         {
           "id": "pag-18-b0-l3",
           "text": {
-            "u": "מה עושִׂים שרה ויצחק? — הם לומדים עברית"
+            "u": "מה עושִׂים שרה ויצחק? — הם לומדים עברית",
+            "n": "מָה עוֹשִׂים שָׂרָה וְיִצְחָק? — הֵם לוֹמְדִים עִבְרִית",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Què fan la Sara i l'Itshak? — Estudien hebreu",
+          "audio": {
+            "normal": "5c9a71684bb1.m4a",
+            "lent": "7b7d5f973a25.m4a"
+          }
         },
         {
           "id": "pag-18-b0-l4",
           "text": {
-            "u": "באולפן בקרית-שמונה."
+            "u": "באולפן בקרית-שמונה.",
+            "n": "בָּאוּלְפָּן בְּקִרְיַת-שְׁמוֹנָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "a l'ulpan de Kiryat Shmona.",
+          "audio": {
+            "normal": "814225df570d.m4a",
+            "lent": "b24d286bc343.m4a"
+          }
         },
         {
           "id": "pag-18-b0-l5",
           "text": {
-            "u": "מה עושות אסתר ותמר? — הן לומדות"
+            "u": "מה עושות אסתר ותמר? — הן לומדות",
+            "n": "מָה עוֹשׂוֹת אֶסְתֵּר וְתָמָר? — הֵן לוֹמְדוֹת",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Què fan l'Ester i la Tamar? — Estudien",
+          "audio": {
+            "normal": "d21f3e7d4bfc.m4a",
+            "lent": "0bb248c4a8b4.m4a"
+          }
         },
         {
           "id": "pag-18-b0-l6",
           "text": {
-            "u": "באוניברסיטה בחיפה."
+            "u": "באוניברסיטה בחיפה.",
+            "n": "בָּאוּנִיבֶרְסִיטָה בְּחֵיפָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "a la universitat de Haifa.",
+          "audio": {
+            "normal": "4bf3611179f4.m4a",
+            "lent": "4da5b1dcc884.m4a"
+          }
         }
       ]
     },
@@ -913,30 +1938,58 @@
         {
           "id": "pag-18-b1-l0",
           "text": {
-            "u": "גָּר · גָּרָה · גָּרִים · גָּרות"
+            "u": "גָּר · גָּרָה · גָּרִים · גָּרות",
+            "n": "גָּר · גָּרָה · גָּרִים · גָּרוֹת",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "viu (m.) · viu (f.) · viuen (m.) · viuen (f.)",
+          "audio": {
+            "normal": "f667421c7a2e.m4a",
+            "lent": "52cb5735964a.m4a"
+          }
         },
         {
           "id": "pag-18-b1-l1",
           "text": {
-            "u": "לומֵד · לומֶדֶת · לומְדִים · לומדות"
+            "u": "לומֵד · לומֶדֶת · לומְדִים · לומדות",
+            "n": "לוֹמֵד · לוֹמֶדֶת · לוֹמְדִים · לוֹמְדוֹת",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "estudia (m.) · estudia (f.) · estudien (m.) · estudien (f.)",
+          "audio": {
+            "normal": "f98580ac1f51.m4a",
+            "lent": "cbb4914ffa56.m4a"
+          }
         },
         {
           "id": "pag-18-b1-l2",
           "text": {
-            "u": "עובֵד · עובֶדֶת · עובְדִים · עובְדות"
+            "u": "עובֵד · עובֶדֶת · עובְדִים · עובְדות",
+            "n": "עוֹבֵד · עוֹבֶדֶת · עוֹבְדִים · עוֹבְדוֹת",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "treballa (m.) · treballa (f.) · treballen (m.) · treballen (f.)",
+          "audio": {
+            "normal": "c276677c21fc.m4a",
+            "lent": "c00415f5c13a.m4a"
+          }
         },
         {
           "id": "pag-18-b1-l3",
           "text": {
-            "u": "עושֶׂה · עושָׂה · עושִׂים · עושות"
+            "u": "עושֶׂה · עושָׂה · עושִׂים · עושות",
+            "n": "עוֹשֶׂה · עוֹשָׂה · עוֹשִׂים · עוֹשׂוֹת",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "fa (m.) · fa (f.) · fan (m.) · fan (f.)",
+          "audio": {
+            "normal": "2a5847ed1231.m4a",
+            "lent": "f5ff843999e5.m4a"
+          }
         }
       ]
     },
@@ -956,6 +2009,7 @@
             "u": "תרגיל המרה"
           },
           "perComprovar": false,
+          "ca": "Exercici de transformació",
           "audio": {
             "normal": "2707cf4fdfe6.m4a",
             "lent": "72c37150c99b.m4a"
@@ -976,29 +2030,50 @@
         {
           "id": "pag-18-b3-l0",
           "text": {
-            "u": "1. הוא גר בירושלים. הוא לומד. הוא לא עובד."
+            "u": "1. הוא גר בירושלים. הוא לומד. הוא לא עובד.",
+            "n": "1. הוּא גָּר בִּירוּשָׁלַיִם. הוּא לוֹמֵד. הוּא לֹא עוֹבֵד.",
+            "extraVocals": true
           },
           "perComprovar": false,
           "subratllat": [
             "הוא"
-          ]
+          ],
+          "ca": "1. Viu a Jerusalem. Estudia. No treballa.",
+          "audio": {
+            "normal": "ffccde2fd8d5.m4a",
+            "lent": "5c247f06a5e1.m4a"
+          }
         },
         {
           "id": "pag-18-b3-l1",
           "text": {
-            "u": "(רחל, הם, חנה ורחל, הסטודנט)"
+            "u": "(רחל, הם, חנה ורחל, הסטודנט)",
+            "n": "(רָחֵל, הֵם, חַנָּה וְרָחֵל, הַסְּטוּדֶנְט)",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "(la Rakhel, ells, la Hanà i la Rakhel, l'estudiant)",
+          "audio": {
+            "normal": "de61a702d67e.m4a",
+            "lent": "8200dccabda9.m4a"
+          }
         },
         {
           "id": "pag-18-b3-l2",
           "text": {
-            "u": "2. מה אתה עושה? (אתן, את, אתם, היא, הם)"
+            "u": "2. מה אתה עושה? (אתן, את, אתם, היא, הם)",
+            "n": "2. מָה אַתָּה עוֹשֶׂה? (אַתֶּן, אַתְּ, אַתֶּם, הִיא, הֵם)",
+            "extraVocals": true
           },
           "perComprovar": false,
           "subratllat": [
             "אתה"
-          ]
+          ],
+          "ca": "2. Què fas? (vosaltres f., tu f., vosaltres m., ella, ells)",
+          "audio": {
+            "normal": "60c313f6617a.m4a",
+            "lent": "71e2d3988f9c.m4a"
+          }
         }
       ]
     },
@@ -1015,79 +2090,156 @@
         {
           "id": "pag-19-b0-l0",
           "text": {
-            "u": "0 אֶפֶס"
+            "u": "0 אֶפֶס",
+            "n": "0 אֶפֶס",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "0 zero",
+          "audio": {
+            "normal": "a5e42e3913b5.m4a",
+            "lent": "6ff4beca0ce6.m4a"
+          }
         },
         {
           "id": "pag-19-b0-l1",
           "text": {
-            "u": "1 אַחַת"
+            "u": "1 אַחַת",
+            "n": "1 אַחַת",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "1 u, una",
+          "audio": {
+            "normal": "767516e04035.m4a",
+            "lent": "7aca93a4138b.m4a"
+          }
         },
         {
           "id": "pag-19-b0-l2",
           "text": {
-            "u": "2 שְׁתַּיִם"
+            "u": "2 שְׁתַּיִם",
+            "n": "2 שְׁתַּיִם",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "2 dos",
+          "audio": {
+            "normal": "2c5d6dfca407.m4a",
+            "lent": "cc051252f037.m4a"
+          }
         },
         {
           "id": "pag-19-b0-l3",
           "text": {
-            "u": "3 שָׁלוש"
+            "u": "3 שָׁלוש",
+            "n": "3 שָׁלוֹשׁ",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "3 tres",
+          "audio": {
+            "normal": "6d8e400531ec.m4a",
+            "lent": "c154c8bd844f.m4a"
+          }
         },
         {
           "id": "pag-19-b0-l4",
           "text": {
-            "u": "4 אַרְבַּע"
+            "u": "4 אַרְבַּע",
+            "n": "4 אַרְבַּע",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "4 quatre",
+          "audio": {
+            "normal": "3504ad839145.m4a",
+            "lent": "1f1bd2354ec7.m4a"
+          }
         },
         {
           "id": "pag-19-b0-l5",
           "text": {
-            "u": "5 חָמֵש"
+            "u": "5 חָמֵש",
+            "n": "5 חָמֵשׁ",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "5 cinc",
+          "audio": {
+            "normal": "02d611a06a08.m4a",
+            "lent": "a79fd21f0c4a.m4a"
+          }
         },
         {
           "id": "pag-19-b0-l6",
           "text": {
-            "u": "6 שֵׁש"
+            "u": "6 שֵׁש",
+            "n": "6 שֵׁשׁ",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "6 sis",
+          "audio": {
+            "normal": "47f449779200.m4a",
+            "lent": "4b28e7531613.m4a"
+          }
         },
         {
           "id": "pag-19-b0-l7",
           "text": {
-            "u": "7 שֶׁבַע"
+            "u": "7 שֶׁבַע",
+            "n": "7 שֶׁבַע",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "7 set",
+          "audio": {
+            "normal": "e8891157d03a.m4a",
+            "lent": "12127493ffa8.m4a"
+          }
         },
         {
           "id": "pag-19-b0-l8",
           "text": {
-            "u": "8 שְׁמוֹנֶה"
+            "u": "8 שְׁמוֹנֶה",
+            "n": "8 שְׁמוֹנֶה",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "8 vuit",
+          "audio": {
+            "normal": "8b1add418235.m4a",
+            "lent": "d8b341007676.m4a"
+          }
         },
         {
           "id": "pag-19-b0-l9",
           "text": {
-            "u": "9 תֵּשַׁע"
+            "u": "9 תֵּשַׁע",
+            "n": "9 תֵּשַׁע",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "9 nou",
+          "audio": {
+            "normal": "a6e19ae762c9.m4a",
+            "lent": "e93c0fef93e1.m4a"
+          }
         },
         {
           "id": "pag-19-b0-l10",
           "text": {
-            "u": "10 עֶשֶׂר"
+            "u": "10 עֶשֶׂר",
+            "n": "10 עֶשֶׂר",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "10 deu",
+          "audio": {
+            "normal": "7b17d948c11b.m4a",
+            "lent": "4579cebfb95b.m4a"
+          }
         }
       ]
     },
@@ -1104,9 +2256,16 @@
         {
           "id": "pag-19-b1-l0",
           "text": {
-            "u": "קרא את המשפטים:"
+            "u": "קרא את המשפטים:",
+            "n": "קְרָא אֶת הַמִּשְׁפָּטִים:",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Llegeix les frases:",
+          "audio": {
+            "normal": "c0943796c933.m4a",
+            "lent": "5de9ccb7dd33.m4a"
+          }
         }
       ]
     },
@@ -1123,40 +2282,786 @@
         {
           "id": "pag-19-b2-l0",
           "text": {
-            "u": "1. מִספר הטלפון של משה הוא: 228071."
+            "u": "1. מִספר הטלפון של משה הוא: 228071.",
+            "n": "1. מִסְפַּר הַטֶּלֶפוֹן שֶׁל מֹשֶׁה הוּא: 228071.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "1. El número de telèfon del Moixè és: 228071.",
+          "audio": {
+            "normal": "cf7d5c2235eb.m4a",
+            "lent": "4fa6ba6c8e52.m4a"
+          }
         },
         {
           "id": "pag-19-b2-l1",
           "text": {
-            "u": "2. מספר הטלפון של המורה הוא: 544963."
+            "u": "2. מספר הטלפון של המורה הוא: 544963.",
+            "n": "2. מִסְפַּר הַטֶּלֶפוֹן שֶׁל הַמּוֹרָה הוּא: 544963.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "2. El número de telèfon de la mestra és: 544963.",
+          "audio": {
+            "normal": "2f0eb92cc188.m4a",
+            "lent": "d976b3cd52ba.m4a"
+          }
         },
         {
           "id": "pag-19-b2-l2",
           "text": {
-            "u": "3. שמואל גר ברחוב הֶרצל מספר 10."
+            "u": "3. שמואל גר ברחוב הֶרצל מספר 10.",
+            "n": "3. שְׁמוּאֵל גָּר בִּרְחוֹב הֶרְצְל מִסְפָּר 10.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "3. El Xmuel viu al carrer Herzl, número 10.",
+          "audio": {
+            "normal": "2cca36a3005a.m4a",
+            "lent": "d85b8f8cb1d9.m4a"
+          }
         },
         {
           "id": "pag-19-b2-l3",
           "text": {
-            "u": "4. צפורה גרה ברחוב שָׁפִּירָא מספר 6."
+            "u": "4. צפורה גרה ברחוב שָׁפִּירָא מספר 6.",
+            "n": "4. צִפּוֹרָה גָּרָה בִּרְחוֹב שָׁפִּירָא מִסְפָּר 6.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "4. La Tsiporà viu al carrer Xapira, número 6.",
+          "audio": {
+            "normal": "fd98c1453623.m4a",
+            "lent": "c11a9f87547a.m4a"
+          }
         },
         {
           "id": "pag-19-b2-l4",
           "text": {
-            "u": "5. זה אוטובוס מספר 9."
+            "u": "5. זה אוטובוס מספר 9.",
+            "n": "5. זֶה אוֹטוֹבּוּס מִסְפָּר 9.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "5. És l'autobús número 9.",
+          "audio": {
+            "normal": "93cbb9f6f84a.m4a",
+            "lent": "78838179cf78.m4a"
+          }
         }
       ]
     }
   ],
-  "exercicis": []
+  "exercicis": [
+    {
+      "tipus": "forat",
+      "origen": "pag-16 ex. 5.1",
+      "extra": false,
+      "linies": [
+        "pag-16-b1-l0"
+      ],
+      "frase": {
+        "u": "____ אתה? — אני סטיב.",
+        "n": "____ אַתָּה? — אֲנִי סְטִיב."
+      },
+      "opcions": [
+        "מִי",
+        "מַה",
+        "מֵאַיִן",
+        "אֵיפֹה"
+      ],
+      "correcta": 0,
+      "retro": "Respon amb el nom: es pregunta qui és, מִי.",
+      "id": "u03-ex-0"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-16 ex. 5.2",
+      "extra": false,
+      "linies": [
+        "pag-16-b1-l1"
+      ],
+      "frase": {
+        "u": "____ אתה? — אני מאנגליה.",
+        "n": "____ אַתָּה? — אֲנִי מֵאַנְגְלִיָּה."
+      },
+      "opcions": [
+        "מִי",
+        "מַה",
+        "מֵאַיִן",
+        "אֵיפֹה"
+      ],
+      "correcta": 2,
+      "retro": "La resposta porta מִ־ (d'Anglaterra): מֵאַיִן.",
+      "id": "u03-ex-1"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-16 ex. 5.3",
+      "extra": false,
+      "linies": [
+        "pag-16-b1-l2"
+      ],
+      "frase": {
+        "u": "____ אתה עכשיו? — בישראל.",
+        "n": "____ אַתָּה עַכְשָׁיו? — בְּיִשְׂרָאֵל."
+      },
+      "opcions": [
+        "מִי",
+        "מַה",
+        "מֵאַיִן",
+        "אֵיפֹה"
+      ],
+      "correcta": 3,
+      "retro": "La resposta porta בְּ־ (a Israel): אֵיפֹה.",
+      "id": "u03-ex-2"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-16 ex. 5.4",
+      "extra": false,
+      "linies": [
+        "pag-16-b1-l3"
+      ],
+      "frase": {
+        "u": "____ אילת? — בישראל.",
+        "n": "____ אֵילַת? — בְּיִשְׂרָאֵל."
+      },
+      "opcions": [
+        "מִי",
+        "מַה",
+        "מֵאַיִן",
+        "אֵיפֹה"
+      ],
+      "correcta": 3,
+      "retro": "Es pregunta on és una ciutat; la resposta porta בְּ־: אֵיפֹה.",
+      "id": "u03-ex-3"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-16 ex. 5.5",
+      "extra": false,
+      "linies": [
+        "pag-16-b1-l4"
+      ],
+      "frase": {
+        "u": "____ יוהנסבורג? — בדרום-אפריקה."
+      },
+      "opcions": [
+        "מִי",
+        "מַה",
+        "מֵאַיִן",
+        "אֵיפֹה"
+      ],
+      "correcta": 3,
+      "retro": "La resposta porta בְּ־ (a Sud-àfrica): אֵיפֹה.",
+      "id": "u03-ex-4"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-16 ex. 5.6",
+      "extra": false,
+      "linies": [
+        "pag-16-b1-l5"
+      ],
+      "frase": {
+        "u": "____ סם? — מדרום-אפריקה.",
+        "n": "____ סָם? — מִדְּרוֹם-אַפְרִיקָה."
+      },
+      "opcions": [
+        "מִי",
+        "מַה",
+        "מֵאַיִן",
+        "אֵיפֹה"
+      ],
+      "correcta": 2,
+      "retro": "La resposta porta מִ־ (de Sud-àfrica): מֵאַיִן.",
+      "id": "u03-ex-5"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-16 ex. 5.7",
+      "extra": false,
+      "linies": [
+        "pag-16-b1-l6"
+      ],
+      "frase": {
+        "u": "____ מברזיל? — רוברטו מברזיל.",
+        "n": "____ מִבְּרָזִיל? — רוֹבֶּרְטוֹ מִבְּרָזִיל."
+      },
+      "opcions": [
+        "מִי",
+        "מַה",
+        "מֵאַיִן",
+        "אֵיפֹה"
+      ],
+      "correcta": 0,
+      "retro": "Es pregunta quina persona és del Brasil: מִי.",
+      "id": "u03-ex-6"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-16 ex. 5.8",
+      "extra": false,
+      "linies": [
+        "pag-16-b1-l7"
+      ],
+      "frase": {
+        "u": "____ עמנואל? — עמנואל מברזיל.",
+        "n": "____ עִמָּנוּאֵל? — עִמָּנוּאֵל מִבְּרָזִיל."
+      },
+      "opcions": [
+        "מִי",
+        "מַה",
+        "מֵאַיִן",
+        "אֵיפֹה"
+      ],
+      "correcta": 2,
+      "retro": "La resposta diu d'on és, amb מִ־: מֵאַיִן.",
+      "id": "u03-ex-7"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-16 ex. 5.9",
+      "extra": false,
+      "linies": [
+        "pag-16-b1-l8"
+      ],
+      "frase": {
+        "u": "____ זה? — זה ספר.",
+        "n": "____ זֶה? — זֶה סֵפֶר."
+      },
+      "opcions": [
+        "מִי",
+        "מַה",
+        "מֵאַיִן",
+        "אֵיפֹה"
+      ],
+      "correcta": 1,
+      "retro": "Un llibre és una cosa: מַה.",
+      "id": "u03-ex-8"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-16 ex. 5.10",
+      "extra": false,
+      "linies": [
+        "pag-16-b1-l9"
+      ],
+      "frase": {
+        "u": "____ המורה של יצחק? — צפורה.",
+        "n": "____ הַמּוֹרָה שֶׁל יִצְחָק? — צִפּוֹרָה."
+      },
+      "opcions": [
+        "מִי",
+        "מַה",
+        "מֵאַיִן",
+        "אֵיפֹה"
+      ],
+      "correcta": 0,
+      "retro": "La resposta és una persona: מִי.",
+      "id": "u03-ex-9"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-16 ex. 5.11",
+      "extra": false,
+      "linies": [
+        "pag-16-b1-l10"
+      ],
+      "frase": {
+        "u": "____ המורה של יצחק? — מישראל.",
+        "n": "____ הַמּוֹרָה שֶׁל יִצְחָק? — מִיִּשְׂרָאֵל."
+      },
+      "opcions": [
+        "מִי",
+        "מַה",
+        "מֵאַיִן",
+        "אֵיפֹה"
+      ],
+      "correcta": 2,
+      "retro": "La resposta porta מִ־ (d'Israel): מֵאַיִן.",
+      "id": "u03-ex-10"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-16 ex. 5.12",
+      "extra": false,
+      "linies": [
+        "pag-16-b1-l11"
+      ],
+      "frase": {
+        "u": "____ המורה? — באולפן.",
+        "n": "____ הַמּוֹרָה? — בָּאוּלְפָּן."
+      },
+      "opcions": [
+        "מִי",
+        "מַה",
+        "מֵאַיִן",
+        "אֵיפֹה"
+      ],
+      "correcta": 3,
+      "retro": "La resposta porta בְּ־ (a l'ulpan): אֵיפֹה.",
+      "id": "u03-ex-11"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-16 ex. 6.1",
+      "extra": false,
+      "linies": [
+        "pag-16-b3-l0"
+      ],
+      "enunciat": {
+        "n": "רוֹבֶּרְטוֹ ____אֶסְתֵּר אָח ____אָחוֹת. הֵם עוֹלִים חֲדָשִׁים ____בְּרָזִיל.",
+        "u": "רוברטו ____אסתר אח ____אחות. הם עולים חדשים ____ברזיל."
+      },
+      "model": {
+        "n": "רוֹבֶּרְטוֹ וְאֶסְתֵּר אָח וְאָחוֹת. הֵם עוֹלִים חֲדָשִׁים מִבְּרָזִיל.",
+        "u": "רוברטו ואסתר אח ואחות. הם עולים חדשים מברזיל."
+      },
+      "id": "u03-ex-12"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-16 ex. 6.2",
+      "extra": false,
+      "linies": [
+        "pag-16-b3-l1"
+      ],
+      "frase": {
+        "u": "ירושלים לא באנגליה. ירושלים ____ישראל.",
+        "n": "יְרוּשָׁלַיִם לֹא בְּאַנְגְלִיָּה. יְרוּשָׁלַיִם ____יִשְׂרָאֵל."
+      },
+      "opcions": [
+        "וְ־",
+        "בְּ־",
+        "מִ־",
+        "הַ־"
+      ],
+      "correcta": 1,
+      "retro": "Es diu on és Jerusalem: בְּ־.",
+      "id": "u03-ex-13"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-16 ex. 6.3",
+      "extra": false,
+      "linies": [
+        "pag-16-b3-l2"
+      ],
+      "frase": {
+        "u": "זה לא ____ארגנטינה, זה מרוסיה.",
+        "n": "זֶה לֹא ____אַרְגֶּנְטִינָה, זֶה מֵרוּסְיָה."
+      },
+      "opcions": [
+        "וְ־",
+        "בְּ־",
+        "מִ־",
+        "הַ־"
+      ],
+      "correcta": 2,
+      "retro": "Fa parella amb מֵרוּסְיָה: és procedència, מִ־ (aquí מֵאַרְגֶּנְטִינָה).",
+      "id": "u03-ex-14"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-16 ex. 6.4",
+      "extra": false,
+      "linies": [
+        "pag-16-b3-l3"
+      ],
+      "enunciat": {
+        "n": "____הוֹרִים שֶׁל רוֹבֶּרְטוֹ תַּלְמִידִים ____אוּלְפָּן ____קִרְיַת-שְׁמוֹנָה.",
+        "u": "____הורים של רוברטו תלמידים ____אולפן ____קרית-שמונה."
+      },
+      "model": {
+        "n": "הַהוֹרִים שֶׁל רוֹבֶּרְטוֹ תַּלְמִידִים בָּאוּלְפָּן בְּקִרְיַת-שְׁמוֹנָה.",
+        "u": "ההורים של רוברטו תלמידים באולפן בקרית-שמונה."
+      },
+      "id": "u03-ex-15"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-16 ex. 6.5",
+      "extra": false,
+      "linies": [
+        "pag-16-b3-l4"
+      ],
+      "frase": {
+        "u": "סטיב ודוריס תיירים מאנגליה. עכשיו הם ____ישראל.",
+        "n": "סְטִיב וְדוֹרִיס תַּייָּרִים מֵאַנְגְלִיָּה. עַכְשָׁיו הֵם ____יִשְׂרָאֵל."
+      },
+      "opcions": [
+        "וְ־",
+        "בְּ־",
+        "מִ־",
+        "הַ־"
+      ],
+      "correcta": 1,
+      "retro": "Ara són en un lloc: בְּ־.",
+      "id": "u03-ex-16"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-16 ex. 6.6",
+      "extra": false,
+      "linies": [
+        "pag-16-b3-l5"
+      ],
+      "frase": {
+        "u": "____ילדים של צפורה גדולים ויפים.",
+        "n": "____יְלָדִים שֶׁל צִפּוֹרָה גְּדוֹלִים וְיָפִים."
+      },
+      "opcions": [
+        "וְ־",
+        "בְּ־",
+        "מִ־",
+        "הַ־"
+      ],
+      "correcta": 3,
+      "retro": "El nom que va davant de שֶׁל porta article: הַ־.",
+      "id": "u03-ex-17"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-18 ex. 7.1",
+      "extra": false,
+      "linies": [
+        "pag-18-b3-l0",
+        "pag-18-b3-l1"
+      ],
+      "base": {
+        "n": "הוּא גָּר בִּירוּשָׁלַיִם. הוּא לוֹמֵד. הוּא לֹא עוֹבֵד.",
+        "u": "הוא גר בירושלים. הוא לומד. הוא לא עובד."
+      },
+      "demana": "amb רָחֵל",
+      "opcions": [
+        "רָחֵל גָּרָה בִּירוּשָׁלַיִם. הִיא לוֹמֶדֶת. הִיא לֹא עוֹבֶדֶת.",
+        "רָחֵל גָּר בִּירוּשָׁלַיִם. הִיא לוֹמֵד. הִיא לֹא עוֹבֵד.",
+        "רָחֵל גָּרוֹת בִּירוּשָׁלַיִם. הִיא לוֹמְדוֹת. הִיא לֹא עוֹבְדוֹת."
+      ],
+      "correcta": 0,
+      "id": "u03-ex-18"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-18 ex. 7.1",
+      "extra": false,
+      "linies": [
+        "pag-18-b3-l0",
+        "pag-18-b3-l1"
+      ],
+      "base": {
+        "n": "הוּא גָּר בִּירוּשָׁלַיִם. הוּא לוֹמֵד. הוּא לֹא עוֹבֵד.",
+        "u": "הוא גר בירושלים. הוא לומד. הוא לא עובד."
+      },
+      "demana": "amb הֵם",
+      "opcions": [
+        "הֵם גָּרוֹת בִּירוּשָׁלַיִם. הֵם לוֹמְדוֹת. הֵם לֹא עוֹבְדוֹת.",
+        "הֵם גָּר בִּירוּשָׁלַיִם. הֵם לוֹמֵד. הֵם לֹא עוֹבֵד.",
+        "הֵם גָּרִים בִּירוּשָׁלַיִם. הֵם לוֹמְדִים. הֵם לֹא עוֹבְדִים."
+      ],
+      "correcta": 2,
+      "id": "u03-ex-19"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-18 ex. 7.1",
+      "extra": false,
+      "linies": [
+        "pag-18-b3-l0",
+        "pag-18-b3-l1"
+      ],
+      "enunciat": {
+        "n": "הוּא גָּר בִּירוּשָׁלַיִם. הוּא לוֹמֵד. הוּא לֹא עוֹבֵד. ← חַנָּה וְרָחֵל",
+        "u": "הוא גר בירושלים. הוא לומד. הוא לא עובד. ← חנה ורחל"
+      },
+      "model": {
+        "n": "חַנָּה וְרָחֵל גָּרוֹת בִּירוּשָׁלַיִם. הֵן לוֹמְדוֹת. הֵן לֹא עוֹבְדוֹת.",
+        "u": "חנה ורחל גרות בירושלים. הן לומדות. הן לא עובדות."
+      },
+      "id": "u03-ex-20"
+    },
+    {
+      "tipus": "construir",
+      "origen": "pag-18 ex. 7.1",
+      "extra": false,
+      "linies": [
+        "pag-18-b3-l0",
+        "pag-18-b3-l1"
+      ],
+      "ca": "L'estudiant viu a Jerusalem.",
+      "fitxes": [
+        "גָּרָה",
+        "הַסְּטוּדֶנְט",
+        "בִּירוּשָׁלַיִם",
+        "גָּר",
+        "גָּרִים"
+      ],
+      "ordre": [
+        1,
+        3,
+        2
+      ],
+      "id": "u03-ex-21"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-18 ex. 7.2",
+      "extra": false,
+      "linies": [
+        "pag-18-b3-l2"
+      ],
+      "base": {
+        "n": "מָה אַתָּה עוֹשֶׂה?",
+        "u": "מה אתה עושה?"
+      },
+      "demana": "amb אַתֶּן",
+      "opcions": [
+        "מָה אַתֶּן עוֹשִׂים?",
+        "מָה אַתֶּן עוֹשׂוֹת?",
+        "מָה אַתֶּן עוֹשֶׂה?"
+      ],
+      "correcta": 1,
+      "id": "u03-ex-22"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-18 ex. 7.2",
+      "extra": false,
+      "linies": [
+        "pag-18-b3-l2"
+      ],
+      "frase": {
+        "u": "מה את ____?",
+        "n": "מָה אַתְּ ____?"
+      },
+      "opcions": [
+        "עוֹשִׂים",
+        "עוֹשָׂה",
+        "עוֹשׂוֹת"
+      ],
+      "correcta": 1,
+      "retro": "אַתְּ és femení singular: עוֹשָׂה (sense vocals, עושה, com el masculí).",
+      "id": "u03-ex-23"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-18 ex. 7.2",
+      "extra": false,
+      "linies": [
+        "pag-18-b3-l2"
+      ],
+      "enunciat": {
+        "n": "מָה אַתָּה עוֹשֶׂה? ← אַתֶּם",
+        "u": "מה אתה עושה? ← אתם"
+      },
+      "model": {
+        "n": "מָה אַתֶּם עוֹשִׂים?",
+        "u": "מה אתם עושים?"
+      },
+      "id": "u03-ex-24"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-19 ex. 8.1",
+      "extra": false,
+      "linies": [
+        "pag-19-b2-l0"
+      ],
+      "frase": {
+        "u": "228071: שתים, שתים, ____, אפס, שבע, אחת",
+        "n": "228071: שְׁתַּיִם, שְׁתַּיִם, ____, אֶפֶס, שֶׁבַע, אַחַת"
+      },
+      "opcions": [
+        "שֶׁבַע",
+        "שְׁמוֹנֶה",
+        "שָׁלוֹשׁ"
+      ],
+      "correcta": 1,
+      "retro": "La tercera xifra és un 8: שְׁמוֹנֶה.",
+      "id": "u03-ex-25"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-19 ex. 8.2",
+      "extra": false,
+      "linies": [
+        "pag-19-b2-l1"
+      ],
+      "frase": {
+        "u": "544963: חמש, ארבע, ארבע, ____, שש, שלוש",
+        "n": "544963: חָמֵשׁ, אַרְבַּע, אַרְבַּע, ____, שֵׁשׁ, שָׁלוֹשׁ"
+      },
+      "opcions": [
+        "שֶׁבַע",
+        "אַחַת",
+        "תֵּשַׁע"
+      ],
+      "correcta": 2,
+      "retro": "La quarta xifra és un 9: תֵּשַׁע.",
+      "id": "u03-ex-26"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-19 ex. 8.3",
+      "extra": false,
+      "linies": [
+        "pag-19-b2-l2"
+      ],
+      "frase": {
+        "u": "שמואל גר ברחוב הרצל מספר 10 (____).",
+        "n": "שְׁמוּאֵל גָּר בִּרְחוֹב הֶרְצְל מִסְפָּר 10 (____)."
+      },
+      "opcions": [
+        "עֶשֶׂר",
+        "שֶׁבַע",
+        "שְׁתַּיִם"
+      ],
+      "correcta": 0,
+      "retro": "10 és עֶשֶׂר.",
+      "id": "u03-ex-27"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-19 ex. 8.4",
+      "extra": false,
+      "linies": [
+        "pag-19-b2-l3"
+      ],
+      "frase": {
+        "u": "צפורה גרה ברחוב שפירא מספר 6 (____).",
+        "n": "צִפּוֹרָה גָּרָה בִּרְחוֹב שָׁפִּירָא מִסְפָּר 6 (____)."
+      },
+      "opcions": [
+        "שֶׁבַע",
+        "שֵׁשׁ",
+        "חָמֵשׁ"
+      ],
+      "correcta": 1,
+      "retro": "6 és שֵׁשׁ; שֶׁבַע és 7.",
+      "id": "u03-ex-28"
+    },
+    {
+      "tipus": "comprensio",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-17-b0-l5",
+        "pag-17-b0-l6",
+        "pag-17-b0-l7",
+        "pag-17-b0-l8"
+      ],
+      "text": "וְאֵיפֹה לוֹמֵד רוֹבֶּרְטוֹ? — הוּא לוֹמֵד בְּאוּלְפַּן-עֲבוֹדָה בְּקִיבּוּץ דָּן. הוּא עוֹבֵד וְלוֹמֵד. הַתַּלְמִידִים בְּאוּלְפַּן-עֲבוֹדָה עוֹבְדִים וְלוֹמְדִים.",
+      "pregunta": "On estudia el Roberto?",
+      "opcions": [
+        "A l'ulpan del centre d'acollida",
+        "En un ulpan de treball del quibuts Dan",
+        "A la universitat de Haifa"
+      ],
+      "correcta": 1,
+      "id": "u03-ex-29"
+    },
+    {
+      "tipus": "comprensio",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-17-b0-l9",
+        "pag-17-b0-l10",
+        "pag-17-b0-l11",
+        "pag-17-b0-l12"
+      ],
+      "text": "גַּם אֶסְתֵּר גָּרָה בְּקִיבּוּץ? — לֹא, הִיא גָּרָה בְּחֵיפָה עִם חֲבֵרָה. אֶסְתֵּר עוֹבֶדֶת? — לֹא, הִיא לֹא עוֹבֶדֶת, הִיא לוֹמֶדֶת. הִיא סְטוּדֶנְטִית.",
+      "pregunta": "Què fa l'Ester a Haifa?",
+      "opcions": [
+        "Treballa",
+        "Estudia",
+        "Treballa i estudia"
+      ],
+      "correcta": 1,
+      "id": "u03-ex-30"
+    },
+    {
+      "tipus": "construir",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-17-b0-l3",
+        "u03-10"
+      ],
+      "ca": "Ella també estudia allà.",
+      "fitxes": [
+        "לוֹמֵד",
+        "שָׁם",
+        "הִיא",
+        "לוֹמֶדֶת",
+        "גַּם"
+      ],
+      "ordre": [
+        4,
+        2,
+        3,
+        1
+      ],
+      "id": "u03-ex-31"
+    },
+    {
+      "tipus": "forat",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "u03-21"
+      ],
+      "frase": {
+        "u": "ילד ____",
+        "n": "יֶלֶד ____"
+      },
+      "opcions": [
+        "אַחַת",
+        "אֶחָד"
+      ],
+      "correcta": 1,
+      "retro": "יֶלֶד és masculí: אֶחָד, darrere del nom.",
+      "id": "u03-ex-32"
+    },
+    {
+      "tipus": "forat",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "u03-23"
+      ],
+      "frase": {
+        "u": "____ תמונות",
+        "n": "____ תְּמוּנוֹת"
+      },
+      "opcions": [
+        "שָׁלוֹשׁ",
+        "שְׁלוֹשָׁה"
+      ],
+      "correcta": 0,
+      "retro": "תְּמוּנוֹת és femení: la forma del dossier, שָׁלוֹשׁ.",
+      "id": "u03-ex-33"
+    },
+    {
+      "tipus": "construir",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "u03-24"
+      ],
+      "ca": "quatre llibres",
+      "fitxes": [
+        "סְפָרִים",
+        "אַרְבַּע",
+        "אַרְבָּעָה"
+      ],
+      "ordre": [
+        2,
+        0
+      ],
+      "id": "u03-ex-34"
+    }
+  ]
 }
