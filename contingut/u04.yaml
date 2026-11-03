@@ -7,7 +7,7 @@
 # Les línies «per comprovar» (⁇) no porten vocals ni traducció.
 # Sense vocals (no confirmades o ambigües): pag-21-b1-l9 (מריו, אורוגוואי), pag-25-b1-l7 (שלומך sense
 # destinatari: ךָ o ךְ), pag-26-b3-l2 (יפה en una llista: masculí o femení). Les notes del transcriptor
-# en català (pag-20-b6-l0, pag-20-b8-l0) no porten vocals ni traducció.
+# en català (pag-20-b6-l0, pag-20-b8-l0) no porten vocals ni traducció; el generador les marca com a nota (R25).
 
 textos:
   pag-20-b0:
@@ -146,7 +146,7 @@ textos:
       2: "זֶה יֶלֶד. שֵׁם הַיֶּלֶד דָּנִי."
       3: "מַה שֵּׁם הַיֶּלֶד? – דָּנִי."
     ca:
-      0: "Es diu: és un nen. Es diu Dani."
+      0: "Diem: és un nen. Es diu Dani."
       1: "És un nen. El nom del nen és Dani."
       2: "És un nen. El nom del nen és Dani."
       3: "Com es diu el nen? — Dani."
@@ -195,7 +195,7 @@ textos:
       2: "Jo també estic bé, gràcies a Déu!"
       3: "Com està la Tsiporà?"
       4: "Està perfectament. Com està l'Itshak?"
-      5: "Ell tampoc no està malament."
+      5: "Ell també: no està malament."
       6: "Com estan els nens?"
       7: "Estan perfectament."
   pag-24-b1:
@@ -401,7 +401,7 @@ gramatica:
     explicacio: "שֵׁם és masculí encara que el plural acabi en ‑וֹת, i per això l'adjectiu va en ‑ִים. עִבְרִי fa עִבְרִית, עִבְרִיִּים, עִבְרִיּוֹת."
     exemples:
       - { n: 'שָׂרָה וְיוֹסֵף שֵׁמוֹת עִבְרִיִּים מֵהַתַּנַ"ךְ.', ca: "Sara i Iossef són noms hebreus de la Bíblia." }
-      - { n: "עִבְרִי, עִבְרִית, עִבְרִיִּים, עִבְרִיּוֹת", ca: "hebreu, hebrea, hebreus, hebrees" }
+      - { n: "עִבְרִי, עִבְרִית, עִבְרִיִּים, עִבְרִיּוֹת", ca: "hebreu, hebrea, hebreus, hebrees", extra: true }
   - id: salutacions
     titol: Salutacions i respostes
     explicacio: "Les fórmules dels dos diàlegs. Les respostes a מַה שְּׁלוֹמְךָ? van de מְצוּיָּן a רַע מְאוֹד; לֹא רַע vol dir «no gaire malament»."
@@ -410,14 +410,14 @@ gramatica:
       - { n: "שָׁלוֹם יוֹסֵף, לְהִתְרָאוֹת בָּאוּלְפָּן.", ca: "Adéu, Iossef, ens veiem a l'ulpan." }
       - { n: "שָׁלוֹם וּלְהִתְרָאוֹת.", ca: "Adéu i a reveure." }
       - { n: "גַּם שְׁלוֹמִי טוֹב. בָּרוּךְ הַשֵּׁם!", ca: "Jo també estic bé, gràcies a Déu! (literalment, beneït el Nom)" }
-      - { u: "מצוין · טוב מאוד · טוב · ככה-ככה · לא רע · רע · רע מאוד", n: "מְצוּיָּן · טוֹב מְאוֹד · טוֹב · כָּכָה-כָּכָה · לֹא רַע · רַע · רַע מְאוֹד", ca: "perfectament · molt bé · bé · així així · no gaire malament · malament · molt malament" }
+      - { u: "מצוין · טוב מאוד · טוב · ככה-ככה · לא רע · רע · רע מאוד", n: "מְצוּיָּן · טוֹב מְאוֹד · טוֹב · כָּכָה-כָּכָה · לֹא רַע · רַע · רַע מְאוֹד", ca: "perfectament · molt bé · bé · així així · no gaire malament · malament · molt malament", extra: true }
   - id: metsuyan-ra
     titol: מְצוּיָּן i רַע en quatre formes
     explicacio: "Concorden com els adjectius de la unitat 2. A les altres formes, רַע passa a רָ־ (רָעָה, רָעִים, רָעוֹת), però sona igual."
     exemples:
-      - { u: "מצוין, מצוינת, מצוינים, מצוינות", n: "מְצוּיָּן, מְצוּיֶּנֶת, מְצוּיָּנִים, מְצוּיָּנוֹת", ca: "excel·lent (m. sg., f. sg., m. pl., f. pl.)" }
-      - { n: "רַע, רָעָה, רָעִים, רָעוֹת", ca: "dolent, dolenta, dolents, dolentes" }
-      - { n: "גַּם שְׁלוֹמוֹ לֹא רַע.", ca: "Ell tampoc no està malament." }
+      - { u: "מצוין, מצוינת, מצוינים, מצוינות", n: "מְצוּיָּן, מְצוּיֶּנֶת, מְצוּיָּנִים, מְצוּיָּנוֹת", ca: "excel·lent (m. sg., f. sg., m. pl., f. pl.)", extra: true }
+      - { n: "רַע, רָעָה, רָעִים, רָעוֹת", ca: "dolent, dolenta, dolents, dolentes", extra: true }
+      - { n: "גַּם שְׁלוֹמוֹ לֹא רַע.", ca: "Ell també: no està malament." }
 
 exercicis:
   # pag-21, תרגיל 9: הַ־, מִ־, בְּ־ o שֶׁל (9.2 i 9.3 són per comprovar)
@@ -445,6 +445,7 @@ exercicis:
   - { tipus: autocorreccio, origen: "pag-21 ex. 9.9", extra: false, linies: [pag-21-b1-l8],
       enunciat: { n: "____הוֹרִים ____רוֹבֶּרְטוֹ ____בַּיִת? – לֹא, הֵם לֹא ____בַּיִת.", u: "____הורים ____רוברטו ____בית? – לא, הם לא ____בית." },
       model: { n: "הַהוֹרִים שֶׁל רוֹבֶּרְטוֹ בַּבַּיִת? – לֹא, הֵם לֹא בַּבַּיִת.", u: "ההורים של רוברטו בבית? – לא, הם לא בבית." } }
+  # 9.10 adaptat: la línia no porta vocals (vegeu Dubtes) i el segon buit ja es dona omplert (מאורוגוואי).
   - { tipus: forat, origen: "pag-21 ex. 9.10", extra: false, linies: [pag-21-b1-l9],
       frase: { u: "מריו עולה חדש ____ברזיל? – לא, הוא מאורוגוואי." },
       opcions: ["הַ־", "מִ־", "בְּ־", "שֶׁל"], correcta: 1, retro: "Es diu d'on ve: מִבְּרָזִיל, com מאורוגוואי." }
@@ -553,7 +554,7 @@ exercicis:
   - { tipus: forat, origen: "pag-25 ex. 12ב.3", extra: false, linies: [pag-25-b3-l2],
       frase: { u: "מה ____ שרה ויצחק? – שלומם טוב.", n: "מַה ____ שָׂרָה וְיִצְחָק? – שְׁלוֹמָם טוֹב." },
       opcions: ["שְׁלוֹם", "שְׁלוֹמֵנוּ", "שְׁלוֹמָם", "שְׁלוֹמָן"], correcta: 0, retro: "Amb els noms al darrere, שְׁלוֹם va sense sufix." }
-  - { tipus: forat, origen: "pag-25 ex. 12ב.4", extra: false, linies: [pag-25-b3-l3, pag-24-b0-l7],
+  - { tipus: forat, origen: "pag-25 ex. 12ב.4", extra: false, linies: [pag-25-b3-l3],
       frase: { u: "מה שלום הילדים? – ____ לא רע.", n: "מַה שְּׁלוֹם הַיְּלָדִים? – ____ לֹא רַע." },
       opcions: ["שְׁלוֹם", "שְׁלוֹמֵנוּ", "שְׁלוֹמָם", "שְׁלוֹמָן"], correcta: 2, retro: "הַיְּלָדִים és masculí plural: שְׁלוֹמָם." }
   - { tipus: forat, origen: "pag-25 ex. 12ב.6", extra: false, linies: [pag-25-b3-l5],
@@ -604,7 +605,7 @@ exercicis:
 
   # Extra: comprensió dels diàlegs i formes noves
   - { tipus: comprensio, origen: extra, extra: true, linies: [pag-22-b0-l6, pag-22-b0-l7, pag-22-b0-l8],
-      text: "נָעִים מְאוֹד, שָׂרָה, אַתְּ תַּלְמִידָה בָּאוּלְפָּן? — כֵּן. גַּם אַתָּה תַּלְמִיד בָּאוּלְפָּן? — לֹא, אֲנִי מוֹרֶה בָּאוּלְפָּן.",
+      text: "יוֹסֵף: נָעִים מְאוֹד, שָׂרָה, אַתְּ תַּלְמִידָה בָּאוּלְפָּן? — שָׂרָה: כֵּן. גַּם אַתָּה תַּלְמִיד בָּאוּלְפָּן? — יוֹסֵף: לֹא, אֲנִי מוֹרֶה בָּאוּלְפָּן.",
       pregunta: "Què fa el Iossef a l'ulpan?", opcions: ["Hi és alumne", "Hi és mestre", "No hi va"], correcta: 1 }
   - { tipus: comprensio, origen: extra, extra: true, linies: [pag-24-b0-l3, pag-24-b0-l4, pag-24-b0-l5],
       text: "מַה שְּׁלוֹם צִפּוֹרָה? — שְׁלוֹמָהּ מְצוּיָּן. מַה שְּׁלוֹם יִצְחָק? — גַּם שְׁלוֹמוֹ לֹא רַע.",
@@ -616,5 +617,5 @@ exercicis:
       frase: { u: 'שרה ויוסף שמות ____ מהתנ"ך.', n: 'שָׂרָה וְיוֹסֵף שֵׁמוֹת ____ מֵהַתַּנַ"ךְ.' },
       opcions: ["עִבְרִיִּים", "עִבְרִיּוֹת", "עִבְרִית"], correcta: 0, retro: "שֵׁם és masculí encara que el plural acabi en ‑וֹת: עִבְרִיִּים." }
   - { tipus: construir, origen: extra, extra: true, linies: [pag-20-b5-l0],
-      ca: "De qui és el gos?",
-      fitxes: ["שֶׁל", "מִי", "הַכֶּלֶב", "כֶּלֶב", "מַה"], ordre: [0, 1, 2] }
+      ca: "El gos és dels nens.",
+      fitxes: ["הַכֶּלֶב", "שֶׁל", "הַיְּלָדִים", "יְלָדִים", "מִי"], ordre: [0, 1, 2] }

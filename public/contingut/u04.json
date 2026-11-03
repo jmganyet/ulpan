@@ -1004,6 +1004,7 @@
           },
           "ca": "hebreu, hebrea, hebreus, hebrees",
           "perComprovar": false,
+          "extra": true,
           "audio": {
             "normal": "dba3fcf56014.m4a",
             "lent": "b5899dfc4c10.m4a"
@@ -1082,6 +1083,7 @@
           },
           "ca": "perfectament · molt bé · bé · així així · no gaire malament · malament · molt malament",
           "perComprovar": false,
+          "extra": true,
           "audio": {
             "normal": "77986b67e84d.m4a",
             "lent": "428d2b6205fb.m4a"
@@ -1104,6 +1106,7 @@
           },
           "ca": "excel·lent (m. sg., f. sg., m. pl., f. pl.)",
           "perComprovar": false,
+          "extra": true,
           "audio": {
             "normal": "0d3b22902ed0.m4a",
             "lent": "ce16431f82c9.m4a"
@@ -1118,6 +1121,7 @@
           },
           "ca": "dolent, dolenta, dolents, dolentes",
           "perComprovar": false,
+          "extra": true,
           "audio": {
             "normal": "234ede89b6c2.m4a",
             "lent": "ee70d886994b.m4a"
@@ -1130,7 +1134,7 @@
             "n": "גַּם שְׁלוֹמוֹ לֹא רַע.",
             "extraVocals": true
           },
-          "ca": "Ell tampoc no està malament.",
+          "ca": "Ell també: no està malament.",
           "perComprovar": false,
           "audio": {
             "normal": "7b5f56e1abdb.m4a",
@@ -1348,10 +1352,7 @@
             "u": "Esquema de la dreta (pregunta): של מי ← הַ ← [nom] ← ?, amb זה a sota que remet al nom."
           },
           "perComprovar": false,
-          "audio": {
-            "normal": "eb722ed921d6.m4a",
-            "lent": "52d0f57238ed.m4a"
-          }
+          "nota": true
         }
       ]
     },
@@ -1411,10 +1412,7 @@
             "u": "Esquema de l'esquerra (resposta): הַ ← [nom] ← של ← [nom propi] o הַ + [nom], amb זה a sota."
           },
           "perComprovar": false,
-          "audio": {
-            "normal": "6b3040c06515.m4a",
-            "lent": "c59a6471e998.m4a"
-          }
+          "nota": true
         }
       ]
     },
@@ -1996,7 +1994,7 @@
             "extraVocals": true
           },
           "perComprovar": false,
-          "ca": "Es diu: és un nen. Es diu Dani.",
+          "ca": "Diem: és un nen. Es diu Dani.",
           "audio": {
             "normal": "01794263908f.m4a",
             "lent": "d00b6b377a13.m4a"
@@ -2319,7 +2317,7 @@
           },
           "perComprovar": false,
           "qui": "שרה",
-          "ca": "Ell tampoc no està malament.",
+          "ca": "Ell també: no està malament.",
           "audio": {
             "normal": "7b5f56e1abdb.m4a",
             "lent": "abcff81094d3.m4a"
@@ -3997,8 +3995,7 @@
       "origen": "pag-25 ex. 12ב.4",
       "extra": false,
       "linies": [
-        "pag-25-b3-l3",
-        "pag-24-b0-l7"
+        "pag-25-b3-l3"
       ],
       "frase": {
         "u": "מה שלום הילדים? – ____ לא רע.",
@@ -4278,7 +4275,7 @@
         "pag-22-b0-l7",
         "pag-22-b0-l8"
       ],
-      "text": "נָעִים מְאוֹד, שָׂרָה, אַתְּ תַּלְמִידָה בָּאוּלְפָּן? — כֵּן. גַּם אַתָּה תַּלְמִיד בָּאוּלְפָּן? — לֹא, אֲנִי מוֹרֶה בָּאוּלְפָּן.",
+      "text": "יוֹסֵף: נָעִים מְאוֹד, שָׂרָה, אַתְּ תַּלְמִידָה בָּאוּלְפָּן? — שָׂרָה: כֵּן. גַּם אַתָּה תַּלְמִיד בָּאוּלְפָּן? — יוֹסֵף: לֹא, אֲנִי מוֹרֶה בָּאוּלְפָּן.",
       "pregunta": "Què fa el Iossef a l'ulpan?",
       "opcions": [
         "Hi és alumne",
@@ -4355,13 +4352,13 @@
       "linies": [
         "pag-20-b5-l0"
       ],
-      "ca": "De qui és el gos?",
+      "ca": "El gos és dels nens.",
       "fitxes": [
-        "שֶׁל",
-        "מִי",
         "הַכֶּלֶב",
-        "כֶּלֶב",
-        "מַה"
+        "שֶׁל",
+        "הַיְּלָדִים",
+        "יְלָדִים",
+        "מִי"
       ],
       "ordre": [
         0,
