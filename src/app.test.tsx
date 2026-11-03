@@ -1,10 +1,45 @@
-import { describe, it, expect } from 'vitest'
-import { render, screen } from '@testing-library/preact'
+import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest'
+import { render, screen, waitFor, cleanup } from '@testing-library/preact'
 import { App } from './app'
+import { progresBuit } from './progres/srs'
+import type { Magatzem } from './progres/magatzem'
+
+const index = [{ id: 'u01', num: 1, titol: 'Presentacions', color: '#E35D8F', pagines: ['pag-02'], textos: 1, paraules: 1, exercicis: 0 }]
+const unitat = { ...index[0], vocabulari: [], gramatica: [], textos: [], exercicis: [] }
+
+function magatzem(extra: Partial<Magatzem> = {}): Magatzem & { llegeix: ReturnType<typeof vi.fn> } {
+  return { llegeix: vi.fn(() => progresBuit()), desa: vi.fn(), disponible: true, recuperat: false, ...extra } as never
+}
+
+beforeEach(() => {
+  vi.stubGlobal('fetch', vi.fn(async (u: string) => {
+    if (u.endsWith('index.json')) return { ok: true, json: async () => index }
+    if (u.endsWith('u01.json')) return { ok: true, json: async () => unitat }
+    return { ok: false, status: 404 }
+  }))
+})
+afterEach(() => { cleanup(); vi.unstubAllGlobals(); window.location.hash = '' })
 
 describe('App', () => {
-  it('mostra el títol', () => {
-    render(<App />)
-    expect(screen.getByText('Hebreu del màster')).toBeTruthy()
+  it('l\'inici carrega l\'índex i llegeix el progrés un sol cop', async () => {
+    const m = magatzem()
+    render(<App magatzem={m} />)
+    await waitFor(() => expect(screen.getByText(/1 · Presentacions/)).toBeTruthy())
+    expect(m.llegeix).toHaveBeenCalledTimes(1)
+  })
+  it('mostra els avisos de magatzem no disponible i de dades recuperades', async () => {
+    render(<App magatzem={magatzem({ disponible: false, recuperat: true })} />)
+    expect(screen.getByText('El progrés no es pot desar en aquest navegador')).toBeTruthy()
+    expect(screen.getByText(/S'han trobat dades de progrés malmeses/)).toBeTruthy()
+  })
+  it('una ruta de tasques posteriors mostra «Aviat»', async () => {
+    window.location.hash = '#/u/u01/exercicis'
+    render(<App magatzem={magatzem()} />)
+    await waitFor(() => expect(screen.getByText('Aviat')).toBeTruthy())
+  })
+  it('un error de càrrega mostra un missatge en català', async () => {
+    window.location.hash = '#/u/u99'
+    render(<App magatzem={magatzem()} />)
+    await waitFor(() => expect(screen.getByRole('alert').textContent).toContain('No s\'ha pogut carregar'))
   })
 })

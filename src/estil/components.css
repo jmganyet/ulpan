@@ -1,0 +1,43 @@
+/* Inici */
+.inici { display: flex; flex-direction: column; gap: 10px; padding-top: 22px; }
+.gran-bloc { background: var(--tinta); color: var(--blanc); border-radius: 22px; padding: 16px; }
+.gran-bloc .petit { color: rgb(255 255 255 / .75); }
+.gran-bloc .x { font-size: 22px; font-weight: 700; }
+.continua { display: flex; gap: 10px; align-items: center; background: var(--blanc); border-radius: 18px; padding: 12px; text-decoration: none; }
+.continua-text { display: flex; flex-direction: column; }
+.pastilla { width: 44px; height: 44px; border-radius: 12px; flex: none; }
+.unitat { display: flex; gap: 10px; align-items: center; font-size: 14px; padding: 8px 0; text-decoration: none; }
+.unitat .pt { width: 12px; height: 12px; border-radius: 4px; flex: none; }
+.unitat .nom { flex: 1; }
+.barra { display: block; height: 6px; width: 70px; background: var(--filet); border-radius: 9px; overflow: hidden; }
+.barra b { display: block; height: 100%; border-radius: 9px; }
+@media (min-width: 900px) {
+  .inici { max-width: 960px; display: grid; grid-template-columns: 1fr 1fr; column-gap: 32px; align-items: start; }
+  .app:has(.inici) { max-width: 960px; }
+  .inici .temari { grid-column: 2; grid-row: 1 / span 3; }
+}
+
+/* Unitat */
+.capcalera-unitat { color: var(--blanc); border-radius: 18px; padding: 14px 16px; margin-bottom: 12px; }
+.capcalera-unitat .enrere { color: rgb(255 255 255 / .85); }
+.llista-enllacos { display: flex; flex-direction: column; gap: 8px; }
+.llista-enllacos a { display: flex; justify-content: space-between; align-items: center; gap: 8px; background: var(--blanc); border-radius: 16px; padding: 14px; text-decoration: none; font-weight: 600; border-left: 6px solid var(--color); }
+.llista-enllacos a .petit { font-weight: 400; }
+
+/* Targeta de paraula */
+.targetes { display: flex; flex-direction: column; gap: 12px; }
+.targeta { background: var(--blanc); border-radius: 20px; overflow: hidden; }
+.plafo { height: 110px; display: flex; align-items: center; justify-content: center; color: var(--blanc); font-size: 64px; }
+.plafo img { height: 64px; width: 64px; }
+.targeta-cos { padding: 12px 14px 14px; text-align: center; }
+.targeta .quadrada.gran { font-size: 36px; }
+.targeta .cursiva { font-size: 24px; color: var(--gris); }
+.translit { font-style: italic; color: var(--gris); font-size: 13px; }
+.ca { font-size: 15px; margin-top: 2px; }
+.targeta-peu { margin-top: 8px; display: flex; justify-content: center; align-items: center; gap: 6px; }
+
+/* Botó de so */
+.so-grup { display: inline-flex; gap: 6px; align-items: center; }
+.so { border: 0; background: var(--gris-clar); border-radius: 99px; min-width: 34px; height: 34px; font-size: 18px; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; color: var(--tinta); }
+.so.lent { font-size: 12px; padding: 0 10px; }
+.so:disabled { opacity: .4; cursor: default; }
