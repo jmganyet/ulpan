@@ -1,4 +1,13 @@
+import { Marques } from '../peces/Marques'
 import type { Unitat as UnitatT } from '../contingut/tipus'
+
+const esHebreu = (s: string) => /[֐-׿]/.test(s)
+
+/** Un text per pàgina: el primer de cada pàgina (els enllaços van a la pàgina). */
+export function textosPerPagina(u: UnitatT): UnitatT['textos'] {
+  const vistes = new Set<string>()
+  return u.textos.filter((t) => (vistes.has(t.pagina) ? false : (vistes.add(t.pagina), true)))
+}
 
 export function Unitat({ unitat: u }: { unitat: UnitatT }) {
   const base = `#/u/${u.id}`
@@ -16,8 +25,15 @@ export function Unitat({ unitat: u }: { unitat: UnitatT }) {
         {u.textos.length > 0 && (
           <>
             <h2 class="petit">Diàlegs i textos</h2>
-            {u.pagines.map((pag) => (
-              <a href={`${base}/text/${pag}`} key={pag}>Pàgina {Number(pag.replace(/\D/g, ''))}</a>
+            {textosPerPagina(u).map((t) => (
+              <a href={`${base}/text/${t.pagina}`} key={t.pagina} class="text-enllac">
+                <span class="titol-text">
+                  <span dir={esHebreu(t.titol.u) ? 'rtl' : undefined} lang={esHebreu(t.titol.u) ? 'he' : undefined}>{t.titol.u}</span>
+                  <Marques perComprovar={t.titol.perComprovar} />
+                  <span class="petit">{t.titol.ca}</span>
+                </span>
+                <span class="petit">pàg. {Number(t.pagina.replace(/\D/g, ''))}</span>
+              </a>
             ))}
           </>
         )}

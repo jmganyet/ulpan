@@ -22,6 +22,11 @@ describe('Inici', () => {
     expect(links[0].getAttribute('href')).toBe('#/u/u01')
     expect((links[3].querySelector('.pt') as HTMLElement).style.background).not.toBe('')
   })
+  it('mostra «On ho vas deixar» amb enllaç al pas', () => {
+    const p = { ...progresBuit(), darrera: { unitat: 'u05', pas: 'text/pag-28' } }
+    const { container } = render(<Inici index={index} progres={p} ara={1000} />)
+    expect(container.querySelector('a.continua')!.getAttribute('href')).toBe('#/u/u05/text/pag-28')
+  })
   it('sense fitxes vençudes ho diu', () => {
     render(<Inici index={index} progres={progresBuit()} ara={1000} />)
     expect(screen.getByText(/Res per repassar/)).toBeTruthy()

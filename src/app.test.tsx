@@ -7,7 +7,7 @@ import type { Magatzem } from './progres/magatzem'
 const index = [{ id: 'u01', num: 1, titol: 'Presentacions', color: '#E35D8F', pagines: ['pag-02'], textos: 1, paraules: 1, exercicis: 0 }]
 const unitat = { ...index[0], vocabulari: [], gramatica: [], textos: [], exercicis: [] }
 
-function magatzem(extra: Partial<Magatzem> = {}): Magatzem & { llegeix: ReturnType<typeof vi.fn> } {
+function magatzem(extra: Partial<Magatzem> = {}): Magatzem & { llegeix: ReturnType<typeof vi.fn>; desa: ReturnType<typeof vi.fn> } {
   return { llegeix: vi.fn(() => progresBuit()), desa: vi.fn(), disponible: true, recuperat: false, ...extra } as never
 }
 
@@ -31,6 +31,14 @@ describe('App', () => {
     render(<App magatzem={magatzem({ disponible: false, recuperat: true })} />)
     expect(screen.getByText('El progrés no es pot desar en aquest navegador')).toBeTruthy()
     expect(screen.getByText(/S'han trobat dades de progrés malmeses/)).toBeTruthy()
+  })
+  it('en entrar a una subpantalla desa «darrera» i sap el camí', async () => {
+    window.location.hash = '#/u/u01/vocabulari'
+    const m = magatzem()
+    render(<App magatzem={m} />)
+    await waitFor(() => expect(m.desa).toHaveBeenCalled())
+    const desat = m.desa.mock.calls.at(-1)![0]
+    expect(desat.darrera).toEqual({ unitat: 'u01', pas: 'vocabulari' })
   })
   it('una ruta de tasques posteriors mostra «Aviat»', async () => {
     window.location.hash = '#/u/u01/exercicis'

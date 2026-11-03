@@ -3,13 +3,23 @@ import { carregaIndex, carregaUnitat, type EntradaIndex } from './contingut/inde
 import type { Unitat as UnitatT } from './contingut/tipus'
 import { magatzemLocal, marcaVist, type Magatzem } from './progres/magatzem'
 import type { Progres } from './progres/srs'
-import { useRuta } from './rutes'
+import { useRuta, type Ruta } from './rutes'
 import { Inici } from './pantalles/Inici'
 import { Unitat } from './pantalles/Unitat'
 import { Vocabulari } from './pantalles/Vocabulari'
 import { Aviat } from './pantalles/Aviat'
 import { Alefat } from './pantalles/Alefat'
 import { Ajustos } from './pantalles/Ajustos'
+
+/** Camí d'una subpantalla d'unitat (p. ex. «text/pag-28»), o null si no n'és cap. */
+export function pasDe(r: Ruta): string | null {
+  switch (r.pantalla) {
+    case 'vocabulari': case 'exercicis': return r.pantalla
+    case 'gramatica': return `gramatica/${r.n}`
+    case 'text': return `text/${r.pag}`
+    default: return null
+  }
+}
 
 const MAGATZEM_PER_DEFECTE = magatzemLocal()
 
@@ -29,13 +39,18 @@ function useCarrega<T>(clau: string | null, carrega: () => Promise<T>) {
 
 export function App({ magatzem = MAGATZEM_PER_DEFECTE }: { magatzem?: Magatzem }) {
   const [progres, setProgres] = useState<Progres>(() => magatzem.llegeix())
-  const [recuperat] = useState(() => magatzem.recuperat)
+  const [recuperat, setRecuperat] = useState(() => magatzem.recuperat)
   const ruta = useRuta()
   const index = useCarrega('index', carregaIndex)
   const idUnitat = 'id' in ruta ? ruta.id : null
   const unitat = useCarrega(idUnitat, () => carregaUnitat(idUnitat!))
 
   const canvia = (p: Progres) => { setProgres(p); magatzem.desa(p) }
+  const pas = pasDe(ruta)
+  useEffect(() => {
+    if (!idUnitat || pas === null || (progres.darrera?.unitat === idUnitat && progres.darrera.pas === pas)) return
+    canvia({ ...progres, darrera: { unitat: idUnitat, pas } })
+  }, [idUnitat, pas])
   const veure = (ids: string[]) => {
     const ara = Date.now()
     const p = ids.reduce((acc, id) => marcaVist(acc, id, ara), progres)
@@ -53,7 +68,7 @@ export function App({ magatzem = MAGATZEM_PER_DEFECTE }: { magatzem?: Magatzem }
   const error = (m: string) => <p class="avis error" role="alert">{m}</p>
 
   const pantalla = () => {
-    if (ruta.pantalla === 'ajustos') return <Ajustos progres={progres} alImportar={canvia} />
+    if (ruta.pantalla === 'ajustos') return <Ajustos progres={progres} alImportar={(p) => { canvia(p); setRecuperat(false) }} />
     if (ruta.pantalla === 'alefat') return <Alefat />
     if (ruta.pantalla === 'desconeguda') return <Aviat />
     if (ruta.pantalla === 'repas') return <Aviat />
@@ -71,7 +86,7 @@ export function App({ magatzem = MAGATZEM_PER_DEFECTE }: { magatzem?: Magatzem }
 
   return (
     <main class="app">
-      {ruta.pantalla === 'inici' && <a class="engranatge" href="#/ajustos" aria-label="Ajustos"><i class="ph ph-gear-six" aria-hidden="true" /></a>}
+      {ruta.pantalla === 'inici' && <a class="engranatge" href="#/ajustos" aria-label="Ajustos"><i class="ph-duotone ph-gear-six" aria-hidden="true" /></a>}
       {avisos}
       {pantalla()}
     </main>

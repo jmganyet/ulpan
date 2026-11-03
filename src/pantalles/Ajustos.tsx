@@ -1,4 +1,4 @@
-import { useState } from 'preact/hooks'
+import { useRef, useState } from 'preact/hooks'
 import { exporta, importa, ErrorImportacio } from '../progres/magatzem'
 import type { Progres } from '../progres/srs'
 import { usePreferencies } from '../preferencies'
@@ -7,6 +7,7 @@ type Props = { progres: Progres; alImportar: (p: Progres) => void }
 
 export function Ajustos({ progres, alImportar }: Props) {
   const pref = usePreferencies()
+  const entrada = useRef<HTMLInputElement>(null)
   const [missatge, setMissatge] = useState('')
 
   const baixa = () => {
@@ -15,11 +16,12 @@ export function Ajustos({ progres, alImportar }: Props) {
     a.href = url
     a.download = 'ulpan-progres.json'
     a.click()
-    URL.revokeObjectURL(url)
+    setTimeout(() => URL.revokeObjectURL(url), 1000)
   }
 
   const carrega = async (e: Event) => {
-    const fitxer = (e.currentTarget as HTMLInputElement).files?.[0]
+    const camp = e.currentTarget as HTMLInputElement
+    const fitxer = camp.files?.[0]
     if (!fitxer) return
     try {
       alImportar(importa(await fitxer.text()))
@@ -27,6 +29,7 @@ export function Ajustos({ progres, alImportar }: Props) {
     } catch (err) {
       setMissatge(err instanceof ErrorImportacio ? err.message : 'No s\'ha pogut llegir el fitxer.')
     }
+    camp.value = ''
   }
 
   return (
@@ -37,7 +40,8 @@ export function Ajustos({ progres, alImportar }: Props) {
       <label class="fila"><input type="checkbox" checked={pref.lletra === 'cursiva'} onChange={(e) => pref.setLletra((e.currentTarget as HTMLInputElement).checked ? 'cursiva' : 'quadrada')} /> Lletra cursiva en lloc de quadrada</label>
       <h2>Progrés</h2>
       <button type="button" class="btn" onClick={baixa}>Exporta el progrés</button>
-      <label class="btn fitxer">Importa el progrés<input type="file" accept="application/json,.json" onChange={carrega} hidden /></label>
+      <button type="button" class="btn" onClick={() => entrada.current?.click()}>Importa el progrés</button>
+      <input ref={entrada} type="file" accept="application/json,.json" aria-label="Fitxer de progrés" onChange={carrega} hidden />
       {missatge && <p role="status" class="missatge">{missatge}</p>}
     </div>
   )

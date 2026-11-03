@@ -35,6 +35,6 @@ describe('TargetaParaula', () => {
   it('perComprovar mostra la marca i no té botó de so', () => {
     render(<TargetaParaula paraula={{ ...p, perComprovar: true, audio: undefined }} color="#E35D8F" />)
     expect(screen.getByText('⁇ per comprovar')).toBeTruthy()
-    expect(screen.queryByLabelText('Escolta')).toBeNull()
+    expect(screen.queryByLabelText(/^Escolta/)).toBeNull()
   })
 })

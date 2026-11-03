@@ -21,7 +21,7 @@ export function TargetaParaula({ paraula: p, color }: { paraula: Paraula; color:
         <div class="ca">{p.ca}</div>
         <div class="targeta-peu">
           <Marques extra={p.extra} perComprovar={p.perComprovar} />
-          {!p.perComprovar && <BotoSo audio={p.audio} />}
+          {!p.perComprovar && <BotoSo audio={p.audio} etiqueta={p.hebreu} />}
         </div>
       </div>
     </article>

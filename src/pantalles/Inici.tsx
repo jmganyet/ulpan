@@ -22,7 +22,7 @@ export function Inici({ index, progres, ara = Date.now() }: Props) {
         <a class="btn clar" href="#/repas">Comença</a>
       </section>
       {darrera && (
-        <a class="continua" href={`#/u/${darrera.id}`}>
+        <a class="continua" href={`#/u/${darrera.id}/${progres.darrera!.pas}`}>
           <span class="pastilla" style={{ background: darrera.color }} />
           <span class="continua-text">
             <span class="petit">On ho vas deixar</span>
