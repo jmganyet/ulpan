@@ -1,6 +1,7 @@
 import type { Linia } from '../contingut/tipus'
 import { BASE } from '../contingut/index'
 import { reprodueix, aturaSo } from '../peces/so'
+import { urlAudio } from '../peces/audioBlob'
 import type { Deps } from './reproductor'
 
 const DURADA_PER_DEFECTE = 2
@@ -21,8 +22,7 @@ export function dependenciesAudio(tempsMaxim = TEMPS_MAXIM_METADADES): Deps {
       }
       for (const e of ['ended', 'pause', 'error']) el.addEventListener(e, fi)
       try {
-        const r = reprodueix(el, url(l))
-        r?.catch?.(fi)
+        reprodueix(el, url(l)).catch(fi)
       } catch { fi() }
     }),
     durada: (l) => {
@@ -36,7 +36,7 @@ export function dependenciesAudio(tempsMaxim = TEMPS_MAXIM_METADADES): Deps {
         a.addEventListener('loadedmetadata', fi)
         a.addEventListener('error', fi)
         a.preload = 'metadata'
-        a.src = url(l)
+        urlAudio(url(l)).then((b) => { a.src = b }, fi)
       })
     },
     espera: (ms) => new Promise((r) => setTimeout(r, ms)),

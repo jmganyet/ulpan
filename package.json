@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
+    "local": "BASE=/ npm run build && vite preview --port 4173 --strictPort",
     "test": "vitest run",
     "contingut": "tsx scripts/contingut-cli.ts",
     "audio": "tsx scripts/audio-cli.ts"

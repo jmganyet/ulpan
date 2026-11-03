@@ -1,13 +1,17 @@
+import { urlAudio } from './audioBlob'
+
 let actual: HTMLAudioElement | null = null
 
 /** Reprodueix un fitxer; atura el que sonava abans (un sol so alhora a tota l'app). */
-export function reprodueix(el: HTMLAudioElement, url: string): Promise<void> | undefined {
+export async function reprodueix(el: HTMLAudioElement, url: string): Promise<void> {
   if (actual && actual !== el) {
     try { actual.pause() } catch { /* res a aturar */ }
   }
   actual = el
-  el.src = url
-  return el.play() as Promise<void> | undefined
+  const blob = await urlAudio(url)
+  if (actual !== el) return // un altre so ha pres el torn mentre es baixava
+  el.src = blob
+  await el.play()
 }
 
 /** Atura el so que soni (si n'hi ha). */

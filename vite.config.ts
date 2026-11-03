@@ -22,7 +22,6 @@ export default defineConfig({
               cacheName: 'ulpan-audio',
               expiration: { maxEntries: 3000 },
               cacheableResponse: { statuses: [200] },
-              rangeRequests: true,
             },
           },
         ],

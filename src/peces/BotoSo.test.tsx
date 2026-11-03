@@ -6,22 +6,37 @@ const audio = { normal: 'a.m4a', lent: 'b.m4a' }
 let play: ReturnType<typeof vi.fn>
 beforeEach(() => {
   play = vi.fn().mockResolvedValue(undefined)
+  vi.stubGlobal('fetch', vi.fn(async (u: string) => new Response(new Blob([u]), { status: 200 })))
+  let n = 0
+  URL.createObjectURL = vi.fn(() => `blob:t${n++}`)
   vi.spyOn(window.HTMLMediaElement.prototype, 'play').mockImplementation(play as never)
 })
-afterEach(() => { cleanup(); vi.restoreAllMocks() })
+afterEach(() => { cleanup(); vi.restoreAllMocks(); vi.unstubAllGlobals() })
 
 describe('BotoSo', () => {
   it('sense audio queda desactivat', () => {
     render(<BotoSo audio={undefined} />)
     for (const b of screen.getAllByRole('button')) expect((b as HTMLButtonElement).disabled).toBe(true)
   })
-  it('el toc reprodueix la velocitat normal i el botó lent la lenta', () => {
+  it('el toc reprodueix la velocitat normal i el botó lent la lenta, via blob', async () => {
     const { container } = render(<BotoSo audio={audio} />)
     fireEvent.click(screen.getByLabelText('Escolta'))
-    expect(container.querySelector('audio')!.getAttribute('src')).toContain('audio/a.m4a')
+    await new Promise((r) => setTimeout(r, 0))
+    expect(container.querySelector('audio')!.getAttribute('src')).toMatch(/^blob:/)
     fireEvent.click(screen.getByLabelText('Escolta lent'))
-    expect(container.querySelector('audio')!.getAttribute('src')).toContain('audio/b.m4a')
+    await new Promise((r) => setTimeout(r, 0))
+    expect(container.querySelector('audio')!.getAttribute('src')).toMatch(/^blob:/)
+    const urls = (fetch as ReturnType<typeof vi.fn>).mock.calls.map((c) => String(c[0]))
+    expect(urls.some((u) => u.endsWith('audio/a.m4a'))).toBe(true)
+    expect(urls.some((u) => u.endsWith('audio/b.m4a'))).toBe(true)
     expect(play).toHaveBeenCalledTimes(2)
+  })
+  it('si el fitxer no es pot baixar, desactiva els botons, sense llançar', async () => {
+    vi.stubGlobal('fetch', vi.fn(async () => new Response('', { status: 404 })))
+    render(<BotoSo audio={{ normal: 'z.m4a', lent: 'zl.m4a' }} />)
+    fireEvent.click(screen.getByLabelText('Escolta'))
+    await new Promise((r) => setTimeout(r, 0))
+    expect((screen.getByLabelText('Escolta') as HTMLButtonElement).disabled).toBe(true)
   })
   it('un error de l\'element audio desactiva els botons, sense llançar', () => {
     const { container } = render(<BotoSo audio={audio} />)
@@ -45,10 +60,11 @@ describe('BotoSo', () => {
       expect((screen.getByLabelText('Escolta') as HTMLButtonElement).disabled).toBe(false)
     }
   })
-  it('un so nou atura l\'anterior', () => {
+  it('un so nou atura l\'anterior', async () => {
     const pause = vi.spyOn(window.HTMLMediaElement.prototype, 'pause').mockImplementation(() => {})
     render(<><BotoSo audio={audio} etiqueta="A" /><BotoSo audio={audio} etiqueta="B" /></>)
     fireEvent.click(screen.getByLabelText('Escolta A'))
+    await new Promise((r) => setTimeout(r, 0))
     pause.mockClear()
     fireEvent.click(screen.getByLabelText('Escolta B'))
     expect(pause).toHaveBeenCalledTimes(1)
