@@ -39,7 +39,7 @@ export function combina(base: UnitatBase, pagines: Pagina[], vocab: Paraula[], c
     pag.blocs.forEach((bloc, k) => {
       const id = `${pag.nom}-b${k}`
       const c: CuratText = curat.textos?.[id] ?? (k === 0 ? curat.textos?.[pag.nom] : undefined) ?? {}
-      const titol = bloc.titol
+      const titol = bloc.titol && /[א-ת]/.test(bloc.titol.text)
         ? { u: bloc.titol.text, perComprovar: bloc.titol.perComprovar }
         : { u: pag.titol.he, perComprovar: false }
       const pers = c.personatges

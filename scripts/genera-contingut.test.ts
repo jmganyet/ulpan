@@ -27,6 +27,15 @@ describe('combina', () => {
     expect(t.linies.map((l) => l.qui).slice(0, 3)).toEqual(['A', 'B', 'A'])
     expect(t.linies[1].ca).toBe('Visc al quibuts Dan')
   })
+  it('un encapçalament de bloc sense hebreu no és títol: es fa servir el de la pàgina', () => {
+    const pag = { ...p28, blocs: [{ titol: { text: 'Continuació del diàleg', perComprovar: false }, linies: p28.blocs[0].linies }] }
+    const u = combina(base, [pag], vocab, {})
+    expect(u.textos[0].titol).toMatchObject({ u: p28.titol.he, perComprovar: false })
+  })
+  it('un encapçalament de bloc amb hebreu es manté', () => {
+    const pag = { ...p28, blocs: [{ titol: { text: 'תרגיל 16', perComprovar: false }, linies: p28.blocs[0].linies }] }
+    expect(combina(base, [pag], vocab, {}).textos[0].titol.u).toBe('תרגיל 16')
+  })
   it('sense curat: tipus text, un Text per bloc, perComprovar propagat', () => {
     const u = combina({ ...base, pagines: ['pag-08'] }, [p8], [], {})
     expect(u.textos.map((t) => t.id)).toEqual(p8.blocs.map((_, k) => `pag-08-b${k}`))

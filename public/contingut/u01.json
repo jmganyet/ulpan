@@ -601,7 +601,7 @@
       "id": "pag-02-b0",
       "pagina": "pag-02",
       "titol": {
-        "u": "Diàleg",
+        "u": "הֶכֵּרוּת",
         "perComprovar": false,
         "ca": "Coneixença"
       },
@@ -748,7 +748,7 @@
       "id": "pag-02-b1",
       "pagina": "pag-02",
       "titol": {
-        "u": "Taula",
+        "u": "הֶכֵּרוּת",
         "perComprovar": false,
         "ca": "Coneixença"
       },
@@ -1103,7 +1103,7 @@
       "id": "pag-04-b2",
       "pagina": "pag-04",
       "titol": {
-        "u": "Taula",
+        "u": "מִי הוּא? מִי הִיא?",
         "perComprovar": false,
         "ca": "Qui és ell? Qui és ella?"
       },
@@ -1374,7 +1374,7 @@
       "id": "pag-06-b0",
       "pagina": "pag-06",
       "titol": {
-        "u": "Frases",
+        "u": "זָכָר וּנְקֵבָה, יָחִיד וְרַבִּים",
         "perComprovar": false,
         "ca": "Masculí i femení, singular i plural"
       },
@@ -1736,7 +1736,7 @@
       "id": "pag-07-b2",
       "pagina": "pag-07",
       "titol": {
-        "u": "Diàleg",
+        "u": "מֵאַיִן?",
         "perComprovar": false,
         "ca": "D'on?"
       },
