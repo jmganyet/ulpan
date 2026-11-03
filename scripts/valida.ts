@@ -1,7 +1,7 @@
 import { existsSync, readFileSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
 import type { Unitat } from '../src/contingut/tipus'
-import { iguals } from '../src/hebreu'
+import { iguals, normalitza } from '../src/hebreu'
 import type { Curat } from './genera-contingut'
 
 export type ContextValida = { icones: Set<string>; imatges: Set<string> }
@@ -71,6 +71,14 @@ export function valida(u: Unitat, curat: Curat, context: ContextValida = ctx()):
     if (e.tipus === 'forat' || e.tipus === 'conjugar' || e.tipus === 'comprensio') {
       if (!Number.isInteger(e.correcta) || e.correcta < 0 || e.correcta >= e.opcions.length)
         err.push(`exercici ${e.id}: correcta (${e.correcta}) fora de rang (${e.opcions.length} opcions)`)
+      // R23: sense vocals (com es veuen per defecte) les opcions han de ser distintes.
+      const vistes = new Map<string, string>()
+      for (const o of e.opcions) {
+        const k = normalitza(o)
+        const abans = vistes.get(k)
+        if (abans !== undefined) err.push(`exercici ${e.id}: les opcions «${abans}» i «${o}» són iguals sense vocals`)
+        else vistes.set(k, o)
+      }
     }
     if (e.tipus === 'construir' && e.ordre.some((i) => !Number.isInteger(i) || i < 0 || i >= e.fitxes.length))
       err.push(`exercici ${e.id}: ordre fora de rang`)

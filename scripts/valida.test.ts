@@ -48,6 +48,11 @@ describe('valida', () => {
     const e = errors({ exercicis: [{ tipus: 'forat', origen: 'extra', extra: true, frase: { u: 'x' }, opcions: ['a', 'b'], correcta: 2, retro: '' }] })
     expect(e.some((m) => m.includes('correcta'))).toBe(true)
   })
+  it('R23: opcions iguals sense vocals', () => {
+    const e = errors({ exercicis: [{ tipus: 'forat', origen: 'extra', extra: true, frase: { u: 'x ____' }, opcions: ['יָפָה', 'יָפוֹת', 'יָפֶה'], correcta: 0, retro: '' }] })
+    expect(e.some((m) => m.includes('iguals sense vocals') && m.includes('-ex-0'))).toBe(true)
+    expect(errors({ exercicis: [{ tipus: 'forat', origen: 'extra', extra: true, frase: { u: 'x ____' }, opcions: ['יָפָה', 'יָפוֹת'], correcta: 0, retro: '' }] })).toEqual([])
+  })
   it('extres sense extra: true', () => {
     const e = errors({ extres: { vocabulari: [{ id: 'u05-x0', hebreu: 'א', translit: 'a', ca: 'a', pagina: 'extra', funcio: false, extra: false, perComprovar: false }] } })
     expect(e.some((m) => m.includes('extra'))).toBe(true)
