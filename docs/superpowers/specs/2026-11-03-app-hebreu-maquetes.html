@@ -1,0 +1,215 @@
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/duotone/style.css">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+<style>
+@font-face { font-family: "FrankRuehl"; src: url("/files/FrankRuehlCLM-Medium.otf"); }
+@font-face { font-family: "Gveret"; src: url("/files/GveretLevin-Regular.ttf"); }
+:root { --u5: #3DB8A5; --u6: #FF7A59; --u4: #7B6CF6; --u3: #F2A93B; --u2: #4A90E2; --u1: #E35D8F; --tinta: #1f2430; --gris: #7a7f8c; --fons: #f6f4ef; }
+.mur { display: flex; flex-wrap: wrap; gap: 28px; align-items: flex-start; }
+.peu { width: 300px; }
+.peu h3 { margin: 0 0 4px; }
+.peu p.nota { font-size: 13px; color: #888; margin: 8px 0 0; }
+.tel { width: 300px; height: 600px; border-radius: 36px; border: 9px solid #15171c; background: var(--fons); overflow: hidden; position: relative; color: var(--tinta); font-family: -apple-system, system-ui, sans-serif; box-shadow: 0 8px 30px rgba(0,0,0,.18); }
+.tel .dins { padding: 22px 16px 16px; height: 100%; box-sizing: border-box; display: flex; flex-direction: column; gap: 10px; overflow: hidden; }
+.q { font-family: "FrankRuehl", serif; direction: rtl; }
+.c { font-family: "Gveret", cursive; direction: rtl; }
+.t { font-style: italic; color: var(--gris); font-size: 12px; }
+.top { display: flex; justify-content: space-between; align-items: center; font-size: 13px; color: var(--gris); }
+.top i { font-size: 20px; }
+.barra { height: 6px; background: #e4e1d9; border-radius: 9px; overflow: hidden; }
+.barra b { display: block; height: 100%; border-radius: 9px; }
+.btn { border: 0; border-radius: 16px; padding: 12px; font-size: 15px; font-weight: 600; cursor: pointer; }
+.so { border: 0; background: #ece9e1; border-radius: 99px; width: 34px; height: 34px; font-size: 18px; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; }
+.extra { font-size: 10px; text-transform: uppercase; letter-spacing: .06em; color: #b08a2e; background: #fbf0d4; border-radius: 6px; padding: 1px 5px; }
+.comprova { font-size: 10px; color: #a33; background: #fbe3e3; border-radius: 6px; padding: 1px 5px; }
+/* inici */
+.gran { background: var(--tinta); color: #fff; border-radius: 22px; padding: 16px; }
+.gran .x { font-size: 22px; font-weight: 700; }
+.cont { background: #fff; border-radius: 18px; padding: 12px; display: flex; gap: 10px; align-items: center; }
+.pastilla { width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 26px; flex: none; }
+.u { display: flex; gap: 10px; align-items: center; font-size: 13px; padding: 4px 0; }
+.u .pt { width: 12px; height: 12px; border-radius: 4px; flex: none; }
+.u .nom { flex: 1; }
+.u .barra { width: 70px; }
+/* drops */
+.preg { text-align: center; margin-top: 18px; }
+.preg .q { font-size: 44px; }
+.preg .c { font-size: 26px; color: var(--gris); }
+.graella { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 12px; }
+.cel { height: 118px; border-radius: 20px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 62px; cursor: pointer; transition: transform .1s; }
+.cel:active { transform: scale(.96); }
+.cel.ok { outline: 4px solid #1f2430; outline-offset: 3px; }
+/* gramàtica */
+.regla { background: #fff; border-radius: 18px; padding: 12px; display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.regla .q { font-size: 26px; }
+.regla .ca { font-size: 13px; }
+.ex { font-size: 13px; color: var(--gris); padding: 0 4px; }
+/* exercici */
+.frase { background: #fff; border-radius: 18px; padding: 18px 12px; text-align: center; font-size: 28px; line-height: 1.5; }
+.forat { display: inline-block; min-width: 70px; border-bottom: 3px solid var(--u5); }
+.opc { display: flex; flex-direction: column; gap: 8px; }
+.opc button { background: #fff; border: 2px solid #e4e1d9; border-radius: 16px; padding: 10px; font-family: "FrankRuehl", serif; font-size: 26px; cursor: pointer; }
+.opc button.be { border-color: var(--u5); background: #e3f6f2; }
+.retro { background: #e3f6f2; border-radius: 16px; padding: 10px 12px; font-size: 13px; }
+/* construir */
+.linia { min-height: 56px; border-bottom: 2px dashed #cfcac0; display: flex; flex-direction: row-reverse; gap: 6px; padding: 6px 0; flex-wrap: wrap; }
+.fitxes { display: flex; flex-direction: row-reverse; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 12px; }
+.fitxa { background: #fff; border: 2px solid #e4e1d9; border-bottom-width: 4px; border-radius: 14px; padding: 6px 12px; font-family: "FrankRuehl", serif; font-size: 26px; cursor: pointer; }
+.fitxa.posada { background: var(--u5); color: #fff; border-color: #2e9a89; }
+/* conversa */
+.xat { display: flex; flex-direction: column; gap: 8px; overflow: hidden; flex: 1; }
+.bomb { max-width: 84%; border-radius: 18px; padding: 8px 12px; font-size: 20px; line-height: 1.35; }
+.bomb.ell { align-self: flex-end; background: #fff; border-bottom-right-radius: 6px; }
+.bomb.jo { align-self: flex-start; background: var(--u5); color: #fff; border-bottom-left-radius: 6px; }
+.bomb.jo.amagat { background: repeating-linear-gradient(45deg, #bfe8e1, #bfe8e1 6px, #cdeee8 6px, #cdeee8 12px); color: #2e6f66; font-family: system-ui; font-size: 13px; direction: ltr; }
+.bomb.jo.amagat .h { display: none; }
+.bomb.jo.amagat::after { content: "el teu torn: digues-ho en veu alta"; }
+.bomb .qui { font-size: 10px; color: var(--gris); display: block; direction: ltr; font-family: system-ui; }
+.bomb.jo .qui { color: #dff5f1; }
+.eines { display: flex; gap: 6px; flex-wrap: wrap; }
+.eines button { border: 0; background: #ece9e1; border-radius: 99px; padding: 5px 10px; font-size: 12px; cursor: pointer; }
+.eines button.on { background: var(--tinta); color: #fff; }
+.titol-u { display: flex; align-items: center; gap: 8px; }
+</style>
+<script>
+function diu(t){ try{ const u=new SpeechSynthesisUtterance(t); u.lang='he-IL'; const v=speechSynthesis.getVoices().find(v=>v.lang.startsWith('he')); if(v) u.voice=v; speechSynthesis.cancel(); speechSynthesis.speak(u);}catch(e){} }
+function vocals(b){ const on=b.classList.toggle('on'); b.closest('.tel').querySelectorAll('[data-n]').forEach(e=>{ e.textContent = on ? e.dataset.n : e.dataset.u; }); }
+function lletra(b){ const on=b.classList.toggle('on'); b.closest('.tel').querySelectorAll('.xat .bomb .h').forEach(e=>{ e.classList.toggle('c', on); e.classList.toggle('q', !on); }); }
+function mostra(b){ const on=b.classList.toggle('on'); b.closest('.tel').querySelectorAll('.bomb.jo').forEach(e=>e.classList.toggle('amagat', !on)); }
+function posa(f){ const t=f.closest('.tel'); const l=t.querySelector('.linia'); if(f.classList.contains('posada')){ t.querySelector('.fitxes').appendChild(f); f.classList.remove('posada'); } else { l.appendChild(f); f.classList.add('posada'); } }
+function tria(b){ b.parentElement.querySelectorAll('button').forEach(x=>x.classList.remove('be')); b.classList.add('be'); b.closest('.tel').querySelector('.retro').style.visibility='visible'; b.closest('.tel').querySelector('.forat').textContent=b.textContent; }
+</script>
+
+<h2>Sis pantalles de l'app</h2>
+<p class="subtitle">Amb contingut real de les unitats 5 i 6. Pots tocar-les: el 🔊 sona (aquí amb la veu del navegador), i funcionen els botons de vocals, de cursiva, de mostrar el teu torn i les fitxes de construir la frase.</p>
+
+<div class="mur">
+
+<!-- 1. INICI -->
+<div class="peu">
+<div class="tel"><div class="dins">
+  <div class="top"><span>dimarts 3 de novembre</span><i class="ph ph-gear-six"></i></div>
+  <div class="gran">
+    <div style="font-size:13px;opacity:.7">Repàs ràpid</div>
+    <div class="x">5 minuts</div>
+    <div style="font-size:13px;opacity:.8;margin:4px 0 10px">23 paraules i 6 formes verbals a punt de repassar</div>
+    <button class="btn" style="width:100%;background:#fff;color:var(--tinta)">Comença</button>
+  </div>
+  <div class="cont">
+    <div class="pastilla" style="background:var(--u5)"><i class="ph-duotone ph-person-simple-walk"></i></div>
+    <div style="flex:1"><div style="font-size:12px;color:var(--gris)">On ho vas deixar</div><div style="font-weight:600">5 · Anar i venir</div><div class="barra" style="margin-top:6px"><b style="width:40%;background:var(--u5)"></b></div></div>
+    <i class="ph ph-caret-right"></i>
+  </div>
+  <div style="font-size:12px;color:var(--gris);margin-top:4px">Temari</div>
+  <div class="u"><span class="pt" style="background:var(--u1)"></span><span class="nom">1 · Presentacions</span><div class="barra"><b style="width:100%;background:var(--u1)"></b></div></div>
+  <div class="u"><span class="pt" style="background:var(--u2)"></span><span class="nom">2 · Demostratius i família</span><div class="barra"><b style="width:90%;background:var(--u2)"></b></div></div>
+  <div class="u"><span class="pt" style="background:var(--u3)"></span><span class="nom">3 · On vius i què fas</span><div class="barra"><b style="width:75%;background:var(--u3)"></b></div></div>
+  <div class="u"><span class="pt" style="background:var(--u4)"></span><span class="nom">4 · Possessió i salutacions</span><div class="barra"><b style="width:60%;background:var(--u4)"></b></div></div>
+  <div class="u"><span class="pt" style="background:var(--u5)"></span><span class="nom">5 · Anar i venir</span><div class="barra"><b style="width:40%;background:var(--u5)"></b></div></div>
+  <div class="u"><span class="pt" style="background:var(--u6)"></span><span class="nom">6 · A la classe</span><div class="barra"><b style="width:0%"></b></div></div>
+  <div class="u" style="color:var(--gris)"><span class="pt" style="background:#cfcac0"></span><span class="nom">7 a 10…</span></div>
+</div></div>
+<h3>1. Inici</h3>
+<p class="nota">Un toc per a l'estona curta; un altre per continuar on ho vas deixar. Totes les unitats obertes, amb el seu color.</p>
+</div>
+
+<!-- 2. DROPS -->
+<div class="peu">
+<div class="tel"><div class="dins">
+  <div class="top"><i class="ph ph-x"></i><div class="barra" style="flex:1;margin:0 12px"><b style="width:55%;background:var(--tinta)"></b></div><span>3:12</span></div>
+  <div class="preg">
+    <div class="q">כִּיתָּה</div>
+    <div class="c">כיתה</div>
+    <div class="t">kita</div>
+    <button class="so" onclick="diu('כִּיתָּה')" style="margin-top:6px">🔊</button>
+  </div>
+  <div class="graella">
+    <div class="cel" style="background:var(--u5)" onclick="this.classList.toggle('ok')"><i class="ph-duotone ph-house"></i></div>
+    <div class="cel" style="background:var(--u5)" onclick="this.classList.toggle('ok')"><i class="ph-duotone ph-chalkboard-teacher"></i></div>
+    <div class="cel" style="background:var(--u6)" onclick="this.classList.toggle('ok')"><i class="ph-duotone ph-chair"></i></div>
+    <div class="cel" style="background:var(--u3)" onclick="this.classList.toggle('ok')"><i class="ph-duotone ph-tree"></i></div>
+  </div>
+</div></div>
+<h3>2. Repàs ràpid (Drops)</h3>
+<p class="nota">Sents i llegeixes la paraula i toques la imatge. El color diu de quina unitat ve. Altres jocs del repàs: imatge → paraula, so → paraula, aparellar.</p>
+</div>
+
+<!-- 3. GRAMÀTICA -->
+<div class="peu">
+<div class="tel"><div class="dins">
+  <div class="top"><i class="ph ph-caret-left"></i><span>5 · Gramàtica 4/5</span><span></span></div>
+  <div style="font-weight:700;font-size:18px">A casa, a la casa, cap a casa</div>
+  <div style="font-size:13px;color:var(--gris)">Si estàs quiet, בְּ. Si vas cap a un lloc, לְ. I «cap a casa» té forma pròpia, amb הָ- al final.</div>
+  <div class="regla"><div><div class="ca"><b>hi soc</b> · a casa</div><div class="t">ba-BA-yit</div></div><div class="q">בַּבַּיִת</div><button class="so" onclick="diu('בַּבַּיִת')">🔊</button></div>
+  <div class="ex q" style="font-size:18px">אֲנִי בַּבַּיִת. <span class="t" style="direction:ltr;display:inline-block">soc a casa</span></div>
+  <div class="regla"><div><div class="ca"><b>hi vaig</b> · a la casa (de…)</div><div class="t">la-BA-yit</div></div><div class="q">לַבַּיִת</div><button class="so" onclick="diu('לַבַּיִת')">🔊</button></div>
+  <div class="ex q" style="font-size:18px">הִיא הוֹלֶכֶת לַבַּיִת שֶׁל דָּנִי. <span class="extra">extra</span></div>
+  <div class="regla"><div><div class="ca"><b>hi vaig</b> · cap a casa</div><div class="t">ha-BAY-ta</div></div><div class="q">הַבַּיְתָה</div><button class="so" onclick="diu('הַבַּיְתָה')">🔊</button></div>
+  <div class="ex q" style="font-size:18px">אֲנִי הוֹלֵךְ הַבַּיְתָה.</div>
+  <button class="btn" style="margin-top:auto;background:var(--u5);color:#fff">Practica-ho</button>
+</div></div>
+<h3>3. Explicació curta</h3>
+<p class="nota">La regla en dues línies i els exemples amb so. Els exemples que no són del dossier porten «extra».</p>
+</div>
+
+<!-- 4. TRIAR LA FORMA -->
+<div class="peu">
+<div class="tel"><div class="dins">
+  <div class="top"><i class="ph ph-x"></i><div class="barra" style="flex:1;margin:0 12px"><b style="width:30%;background:var(--u5)"></b></div><span>4/12</span></div>
+  <div class="eines"><button onclick="vocals(this)">אָ vocals</button></div>
+  <div style="font-size:13px;color:var(--gris)">Tria la forma que hi va</div>
+  <div class="frase q"><span data-u="עכשיו אני" data-n="עַכְשָׁיו אֲנִי">עכשיו אני</span> <span class="forat">&nbsp;</span>.</div>
+  <div class="opc">
+    <button onclick="tria(this)">בבית</button>
+    <button onclick="tria(this)">לבית</button>
+    <button onclick="tria(this)">הביתה</button>
+  </div>
+  <div class="retro" style="visibility:hidden"><b>בַּבַּיִת</b>: «ara» vol dir que hi ets, quiet. Si hi anessis: הַבַּיְתָה.</div>
+</div></div>
+<h3>4. Triar la forma</h3>
+<p class="nota">Sense vocals, com al dossier; el botó les mostra. En triar, l'explicació d'una línia. Els altres exercicis (conjugar, preguntes del diàleg) segueixen aquest mateix patró.</p>
+</div>
+
+<!-- 5. CONSTRUIR -->
+<div class="peu">
+<div class="tel"><div class="dins">
+  <div class="top"><i class="ph ph-x"></i><div class="barra" style="flex:1;margin:0 12px"><b style="width:50%;background:var(--u5)"></b></div><span>6/12</span></div>
+  <div style="font-size:13px;color:var(--gris)">Posa-ho en ordre</div>
+  <div style="font-weight:600;font-size:18px">Me'n vaig cap a casa.</div>
+  <div class="linia"></div>
+  <div class="fitxes">
+    <span class="fitxa" onclick="posa(this)">הביתה</span>
+    <span class="fitxa" onclick="posa(this)">אני</span>
+    <span class="fitxa" onclick="posa(this)">לבית</span>
+    <span class="fitxa" onclick="posa(this)">הולך</span>
+  </div>
+  <button class="btn" style="margin-top:auto;background:var(--tinta);color:#fff">Comprova</button>
+</div></div>
+<h3>5. Construir frases</h3>
+<p class="nota">Toca les fitxes per posar-les a la línia (de dreta a esquerra); torna-les a tocar per treure-les. Sempre n'hi ha una que sobra.</p>
+</div>
+
+<!-- 6. CONVERSA -->
+<div class="peu">
+<div class="tel"><div class="dins">
+  <div class="top"><i class="ph ph-caret-left"></i><span>5 · Conversa</span><i class="ph ph-gauge"></i></div>
+  <div class="titol-u"><span class="q" style="font-size:20px">בָּאוּלְפָּן בְּקִיבּוּץ דָּן</span><span class="comprova">⁇ per comprovar</span></div>
+  <div class="eines">
+    <button class="on">Fas de Roberto</button>
+    <button onclick="vocals(this)">אָ vocals</button>
+    <button onclick="lletra(this)">cursiva</button>
+    <button onclick="mostra(this)">mostra el meu torn</button>
+  </div>
+  <div class="xat">
+    <div class="bomb ell" onclick="diu(this.querySelector('.h').dataset.n)"><span class="qui">🔊 l'altre</span><span class="h q" data-u="איפה אתה גר, רוברטו?" data-n="אֵיפֹה אַתָּה גָּר, רוֹבֶּרְטוֹ?">איפה אתה גר, רוברטו?</span></div>
+    <div class="bomb jo amagat"><span class="qui">tu · Roberto</span><span class="h q" data-u="אני גר בקיבוץ דן בגליל." data-n="אֲנִי גָּר בְּקִיבּוּץ דָּן בַּגָּלִיל.">אני גר בקיבוץ דן בגליל.</span></div>
+    <div class="bomb ell" onclick="diu(this.querySelector('.h').dataset.n)"><span class="qui">🔊 l'altre</span><span class="h q" data-u="בגליל יש הרבה קיבוצים?" data-n="בַּגָּלִיל יֵשׁ הַרְבֵּה קִיבּוּצִים?">בגליל יש הרבה קיבוצים?</span></div>
+    <div class="bomb jo amagat"><span class="qui">tu · Roberto</span><span class="h q" data-u="כן, בגליל יש הרבה קיבוצים." data-n="כֵּן, בַּגָּלִיל יֵשׁ הַרְבֵּה קִיבּוּצִים.">כן, בגליל יש הרבה קיבוצים.</span></div>
+    <div class="bomb ell" onclick="diu(this.querySelector('.h').dataset.n)"><span class="qui">🔊 l'altre</span><span class="h q" data-u="גם בדרום-אמריקה יש קיבוצים?" data-n="גַּם בִּדְרוֹם־אֲמֶרִיקָה יֵשׁ קִיבּוּצִים?">גם בדרום-אמריקה יש קיבוצים?</span></div>
+  </div>
+  <div style="display:flex;justify-content:center;gap:18px;align-items:center;font-size:26px"><i class="ph ph-skip-back"></i><span style="background:var(--u5);color:#fff;border-radius:99px;width:52px;height:52px;display:flex;align-items:center;justify-content:center"><i class="ph ph-pause"></i></span><i class="ph ph-skip-forward"></i></div>
+</div></div>
+<h3>6. Conversa: fer de personatge</h3>
+<p class="nota">L'app diu les frases de l'altre i et deixa el silenci per a les teves, que són ratllades fins que les mostres. Toca una bombolla blanca per sentir-la. Hi ha botons per mostrar les vocals i per passar a la cursiva. El títol porta un ⁇ real del dossier: per això surt la marca vermella.</p>
+</div>
+
+</div>
