@@ -19,7 +19,12 @@
       "pagina": "pag-28",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "check-square",
+      "audio": {
+        "normal": "97fdd3cd65f1.m4a",
+        "lent": "94fbad072f75.m4a"
+      }
     },
     {
       "id": "u05-1",
@@ -29,7 +34,12 @@
       "pagina": "pag-28",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "stack",
+      "audio": {
+        "normal": "f0d8de541dcd.m4a",
+        "lent": "75e7f90f31d0.m4a"
+      }
     },
     {
       "id": "u05-2",
@@ -39,7 +49,12 @@
       "pagina": "pag-28",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "prohibit",
+      "audio": {
+        "normal": "f997143c5915.m4a",
+        "lent": "639c80610509.m4a"
+      }
     },
     {
       "id": "u05-3",
@@ -52,7 +67,12 @@
       "perComprovar": false,
       "formes": [
         "כִּיתּוֹת"
-      ]
+      ],
+      "icona": "desk",
+      "audio": {
+        "normal": "0502b16a8e5d.m4a",
+        "lent": "1058a63fffa6.m4a"
+      }
     },
     {
       "id": "u05-4",
@@ -62,7 +82,11 @@
       "pagina": "pag-28",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "fbfbb532ed20.m4a",
+        "lent": "f776df8728c8.m4a"
+      }
     },
     {
       "id": "u05-5",
@@ -72,7 +96,12 @@
       "pagina": "pag-28",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "flag",
+      "audio": {
+        "normal": "9afbcf67957f.m4a",
+        "lent": "4b3588b9f3f8.m4a"
+      }
     },
     {
       "id": "u05-6",
@@ -82,7 +111,12 @@
       "pagina": "pag-28",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "drop",
+      "audio": {
+        "normal": "be521e6e6ef9.m4a",
+        "lent": "569c0fd6d400.m4a"
+      }
     },
     {
       "id": "u05-7",
@@ -92,7 +126,11 @@
       "pagina": "pag-28",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "a22c590ce5ac.m4a",
+        "lent": "2b24d0d14ba9.m4a"
+      }
     },
     {
       "id": "u05-8",
@@ -105,7 +143,12 @@
       "perComprovar": false,
       "formes": [
         "שִׁיעוּרִים"
-      ]
+      ],
+      "icona": "presentation",
+      "audio": {
+        "normal": "2fd6ad3a8fb3.m4a",
+        "lent": "0262896cdf45.m4a"
+      }
     },
     {
       "id": "u05-9",
@@ -115,7 +158,12 @@
       "pagina": "pag-29",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "person-simple-walk",
+      "audio": {
+        "normal": "986848ffa565.m4a",
+        "lent": "17f5c1f422d9.m4a"
+      }
     },
     {
       "id": "u05-10",
@@ -128,7 +176,11 @@
       "perComprovar": false,
       "formes": [
         "לַ־"
-      ]
+      ],
+      "audio": {
+        "normal": "3d60524db66f.m4a",
+        "lent": "a540a7364239.m4a"
+      }
     },
     {
       "id": "u05-11",
@@ -138,7 +190,12 @@
       "pagina": "pag-29",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "sign-in",
+      "audio": {
+        "normal": "a49be685c9c2.m4a",
+        "lent": "9f80ceaabb33.m4a"
+      }
     },
     {
       "id": "u05-12",
@@ -148,7 +205,11 @@
       "pagina": "pag-29",
       "funcio": true,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "50c3146a462e.m4a",
+        "lent": "b4f487a3e4bb.m4a"
+      }
     },
     {
       "id": "u05-13",
@@ -158,7 +219,12 @@
       "pagina": "pag-29",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "house-line",
+      "audio": {
+        "normal": "93bf53f309da.m4a",
+        "lent": "d8df26f6ae91.m4a"
+      }
     },
     {
       "id": "u05-14",
@@ -168,7 +234,11 @@
       "pagina": "pag-29",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "b8ae56b6f210.m4a",
+        "lent": "04d3a57b454d.m4a"
+      }
     },
     {
       "id": "u05-15",
@@ -181,7 +251,12 @@
       "perComprovar": false,
       "formes": [
         "פְּעָלִים"
-      ]
+      ],
+      "icona": "lightning",
+      "audio": {
+        "normal": "e84ce851acb0.m4a",
+        "lent": "9b1c64eb6803.m4a"
+      }
     },
     {
       "id": "u05-16",
@@ -194,7 +269,12 @@
       "perComprovar": false,
       "formes": [
         "שְׁאֵלוֹת"
-      ]
+      ],
+      "icona": "seal-question",
+      "audio": {
+        "normal": "7f89dbc7f6dd.m4a",
+        "lent": "8e7c45e52af4.m4a"
+      }
     },
     {
       "id": "u05-17",
@@ -207,10 +287,529 @@
       "perComprovar": false,
       "formes": [
         "תְּשׁוּבוֹת"
+      ],
+      "icona": "arrow-bend-up-left",
+      "audio": {
+        "normal": "74c9a4384905.m4a",
+        "lent": "acc2860ddb03.m4a"
+      }
+    }
+  ],
+  "gramatica": [
+    {
+      "id": "yesh-en",
+      "titol": "Hi ha, no hi ha: יֵשׁ i אֵין",
+      "explicacio": "יֵשׁ i אֵין no canvien amb el gènere ni amb el nombre, i el lloc pot anar davant o darrere. La negació de יֵשׁ és אֵין, mai «לֹא יֵשׁ»; לֹא queda per al «no» sol de la resposta.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u05-g-yesh-en-0",
+          "text": {
+            "u": "כן, בגליל יש הרבה קיבוצים.",
+            "n": "כֵּן, בַּגָּלִיל יֵשׁ הַרְבֵּה קִיבּוּצִים.",
+            "extraVocals": true
+          },
+          "ca": "Sí, a Galilea hi ha molts quibutsos.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "a8f247a86d8f.m4a",
+            "lent": "c8c10a572467.m4a"
+          }
+        },
+        {
+          "id": "u05-g-yesh-en-1",
+          "text": {
+            "u": "לא, בדרום-אמריקה אין קיבוצים.",
+            "n": "לֹא, בִּדְרוֹם-אֲמֶרִיקָה אֵין קִיבּוּצִים.",
+            "extraVocals": true
+          },
+          "ca": "No, a Sud-amèrica no hi ha quibutsos.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "07b5576642cd.m4a",
+            "lent": "d5c22d8861e2.m4a"
+          }
+        },
+        {
+          "id": "u05-g-yesh-en-2",
+          "text": {
+            "u": "בקיבוץ דן יש אולפן?",
+            "n": "בְּקִיבּוּץ דָּן יֵשׁ אוּלְפָּן?",
+            "extraVocals": true
+          },
+          "ca": "Al quibuts Dan hi ha ulpan?",
+          "perComprovar": false,
+          "audio": {
+            "normal": "a410551767e1.m4a",
+            "lent": "b591f9aa7c5c.m4a"
+          }
+        },
+        {
+          "id": "u05-g-yesh-en-3",
+          "text": {
+            "u": "יש באולפן הרבה תלמידים מארצות-הברית?",
+            "n": "יֵשׁ בָּאוּלְפָּן הַרְבֵּה תַּלְמִידִים מֵאַרְצוֹת-הַבְּרִית?",
+            "extraVocals": true
+          },
+          "ca": "Hi ha molts alumnes dels Estats Units a l'ulpan?",
+          "perComprovar": false,
+          "audio": {
+            "normal": "b28ef0317e01.m4a",
+            "lent": "fc3db1f36d25.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "harbe-meat",
+      "titol": "Molts, pocs, només, o",
+      "explicacio": "הַרְבֵּה i מְעַט van davant del nom i no concorden (הַרְבֵּה קִיבּוּצִים, הַרְבֵּה כִּיתּוֹת); הַרְבֵּה pot anar sol si el nom ja s'ha dit. רַק va just davant del que restringeix, i אוֹ uneix dues alternatives.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u05-g-harbe-meat-0",
+          "text": {
+            "u": "באולפן יש הרבה כיתות?",
+            "n": "בָּאוּלְפָּן יֵשׁ הַרְבֵּה כִּיתּוֹת?",
+            "extraVocals": true
+          },
+          "ca": "A l'ulpan hi ha moltes classes?",
+          "perComprovar": false,
+          "audio": {
+            "normal": "a26123b5dad1.m4a",
+            "lent": "4926576e7856.m4a"
+          }
+        },
+        {
+          "id": "u05-g-harbe-meat-1",
+          "text": {
+            "u": "לא, מארצות-הברית אין הרבה.",
+            "n": "לֹא, מֵאַרְצוֹת-הַבְּרִית אֵין הַרְבֵּה.",
+            "extraVocals": true
+          },
+          "ca": "No, dels Estats Units no n'hi ha gaires.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "4b54b9dfd69e.m4a",
+            "lent": "4824998524e5.m4a"
+          }
+        },
+        {
+          "id": "u05-g-harbe-meat-2",
+          "text": {
+            "u": "גם מברזיל יש רק מעט תלמידים.",
+            "n": "גַּם מִבְּרָזִיל יֵשׁ רַק מְעַט תַּלְמִידִים.",
+            "extraVocals": true
+          },
+          "ca": "Del Brasil també només hi ha pocs alumnes.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "de55af92a2be.m4a",
+            "lent": "bd98a70d964a.m4a"
+          }
+        },
+        {
+          "id": "u05-g-harbe-meat-3",
+          "text": {
+            "u": "לא, באולפן, בקיבוץ דן יש רק שלוש כיתות.",
+            "n": "לֹא, בָּאוּלְפָּן, בְּקִיבּוּץ דָּן יֵשׁ רַק שָׁלוֹשׁ כִּיתּוֹת.",
+            "extraVocals": true
+          },
+          "ca": "No, a l'ulpan del quibuts Dan només hi ha tres classes.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "0a6f01b11ac8.m4a",
+            "lent": "068dcd83baf8.m4a"
+          }
+        },
+        {
+          "id": "u05-g-harbe-meat-4",
+          "text": {
+            "u": "באולפן יש מורים, או מורות?",
+            "n": "בָּאוּלְפָּן יֵשׁ מוֹרִים, אוֹ מוֹרוֹת?",
+            "extraVocals": true
+          },
+          "ca": "A l'ulpan hi ha mestres homes o mestres dones?",
+          "perComprovar": false,
+          "audio": {
+            "normal": "8e49fcb4e3a9.m4a",
+            "lent": "c0863fa08c38.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "holekh-ba",
+      "titol": "Anar i venir: הוֹלֵךְ i בָּא",
+      "explicacio": "El present té quatre formes, com לוֹמֵד: הוֹלֶכֶת fa el femení en ‑ֶת i בָּאָה en ‑ָה. Els infinitius són לָלֶכֶת (sense ה) i לָבוֹא; de בָּא, el present i el passat (ell) s'escriuen igual.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u05-g-holekh-ba-0",
+          "text": {
+            "u": "הולך · הולכת · הולכים · הולכות",
+            "n": "הוֹלֵךְ · הוֹלֶכֶת · הוֹלְכִים · הוֹלְכוֹת",
+            "extraVocals": true
+          },
+          "ca": "va (m. sg. · f. sg. · m. pl. · f. pl.)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "c3b71cc65e55.m4a",
+            "lent": "f9bdd253bfaa.m4a"
+          }
+        },
+        {
+          "id": "u05-g-holekh-ba-1",
+          "text": {
+            "u": "בא · באה · באים · באות",
+            "n": "בָּא · בָּאָה · בָּאִים · בָּאוֹת",
+            "extraVocals": true
+          },
+          "ca": "ve (m. sg. · f. sg. · m. pl. · f. pl.)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "ff5b1b0ff9b5.m4a",
+            "lent": "094cacd07f0e.m4a"
+          }
+        },
+        {
+          "id": "u05-g-holekh-ba-2",
+          "text": {
+            "u": "לא, אני הולכת לקונצרט.",
+            "n": "לֹא, אֲנִי הוֹלֶכֶת לַקּוֹנְצֶרְט.",
+            "extraVocals": true
+          },
+          "ca": "No, vaig al concert. (parla una dona)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "df9d01d24224.m4a",
+            "lent": "7e63c1ad3b29.m4a"
+          }
+        },
+        {
+          "id": "u05-g-holekh-ba-3",
+          "text": {
+            "u": "גם את באה לתיאטרון?",
+            "n": "גַּם אַתְּ בָּאָה לַתֵּיאַטְרוֹן?",
+            "extraVocals": true
+          },
+          "ca": "Tu també vens al teatre? (a una dona)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "0efdad9334ce.m4a",
+            "lent": "70151618210f.m4a"
+          }
+        },
+        {
+          "id": "u05-g-holekh-ba-4",
+          "text": {
+            "u": "הולך - ללכת (הלך) · בא - לבוא (בא)",
+            "n": "הוֹלֵךְ - לָלֶכֶת (הָלַךְ) · בָּא - לָבוֹא (בָּא)",
+            "extraVocals": true
+          },
+          "ca": "va – anar (va anar) · ve – venir (va venir)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "b64fb6b9ecea.m4a",
+            "lent": "d2b0a5a3bda9.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "preguntes-lloc",
+      "titol": "D'on, on, cap a on: מֵאַיִן, אֵיפֹה, לְאָן",
+      "explicacio": "Cada pregunta té la seva preposició: מֵאַיִן amb מִ־ (de), אֵיפֹה amb בְּ־ (quiet: גָּר, לוֹמֵד, עוֹבֵד) i לְאָן amb לְ־ (en moviment: הוֹלֵךְ, בָּא). En català diem «on» per a tot.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u05-g-preguntes-lloc-0",
+          "text": {
+            "u": "מאין...? · איפה...? · לאן...?",
+            "n": "מֵאַיִן...? · אֵיפֹה...? · לְאָן...?",
+            "extraVocals": true
+          },
+          "ca": "D'on...? · On...? · Cap a on...?",
+          "perComprovar": false,
+          "audio": {
+            "normal": "9ae3b9cdd270.m4a",
+            "lent": "74264c93df62.m4a"
+          }
+        },
+        {
+          "id": "u05-g-preguntes-lloc-1",
+          "text": {
+            "u": "איפה רחל? — רחל בבית.",
+            "n": "אֵיפֹה רָחֵל? — רָחֵל בַּבַּיִת.",
+            "extraVocals": true
+          },
+          "ca": "On és la Rakhel? — La Rakhel és a casa.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "e927834eb269.m4a",
+            "lent": "daad9849aa90.m4a"
+          }
+        },
+        {
+          "id": "u05-g-preguntes-lloc-2",
+          "text": {
+            "u": "יוסי, לאן אתה הולך?",
+            "n": "יוֹסִי, לְאָן אַתָּה הוֹלֵךְ?",
+            "extraVocals": true
+          },
+          "ca": "Iossi, on vas?",
+          "perComprovar": false,
+          "audio": {
+            "normal": "3343362fb7a4.m4a",
+            "lent": "2ed1efc771de.m4a"
+          }
+        },
+        {
+          "id": "u05-g-preguntes-lloc-3",
+          "text": {
+            "u": "מאין אתה בא ולאן אתה הולך?",
+            "n": "מֵאַיִן אַתָּה בָּא וּלְאָן אַתָּה הוֹלֵךְ?",
+            "extraVocals": true
+          },
+          "ca": "D'on vens i on vas?",
+          "perComprovar": false,
+          "audio": {
+            "normal": "56c7af801285.m4a",
+            "lent": "fa670457d1dd.m4a"
+          }
+        },
+        {
+          "id": "u05-g-preguntes-lloc-4",
+          "text": {
+            "u": "לאן הולכים רוברטו ויעקב?",
+            "n": "לְאָן הוֹלְכִים רוֹבֶּרְטוֹ וְיַעֲקֹב?",
+            "extraVocals": true
+          },
+          "ca": "On van el Roberto i el Iaakov? (el verb davant del subjecte)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "b5ed459b1fec.m4a",
+            "lent": "7e125da38598.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "le-la-be-ba",
+      "titol": "L'article dins de בְּ i לְ",
+      "explicacio": "בְּ + הַ fa בַּ i לְ + הַ fa לַ: la ה cau i la preposició en pren la vocal (בָּ, לָ davant de הָ: בָּאוּלְפָּן, לָעֲבוֹדָה). Els noms propis no porten article (לְקִיבּוּץ דָּן). Sense vocals no es veu: לקיבוץ pot ser לְ o לַ.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u05-g-le-la-be-ba-0",
+          "text": {
+            "u": "רוברטו בא מברזיל לקיבוץ דן.",
+            "n": "רוֹבֶּרְטוֹ בָּא מִבְּרָזִיל לְקִיבּוּץ דָּן.",
+            "extraVocals": true
+          },
+          "ca": "El Roberto va venir del Brasil al quibuts Dan.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "02eb47f6c6f1.m4a",
+            "lent": "0fc94e01de4f.m4a"
+          }
+        },
+        {
+          "id": "u05-g-le-la-be-ba-1",
+          "text": {
+            "u": "הוא בא לקיבוץ בפברואר.",
+            "n": "הוּא בָּא לַקִּיבּוּץ בְּפֶבְּרוּאָר.",
+            "extraVocals": true
+          },
+          "ca": "Va arribar al quibuts al febrer.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "438ebbffd14a.m4a",
+            "lent": "b29974069a41.m4a"
+          }
+        },
+        {
+          "id": "u05-g-le-la-be-ba-2",
+          "text": {
+            "u": "רוברטו גר עכשיו בקיבוץ דן.",
+            "n": "רוֹבֶּרְטוֹ גָּר עַכְשָׁיו בְּקִיבּוּץ דָּן.",
+            "extraVocals": true
+          },
+          "ca": "Ara el Roberto viu al quibuts Dan.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "bae563441079.m4a",
+            "lent": "67119caaf88a.m4a"
+          }
+        },
+        {
+          "id": "u05-g-le-la-be-ba-3",
+          "text": {
+            "u": "בקיבוץ הוא עובד ולומד.",
+            "n": "בַּקִּיבּוּץ הוּא עוֹבֵד וְלוֹמֵד.",
+            "extraVocals": true
+          },
+          "ca": "Al quibuts treballa i estudia.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "afefea18ff67.m4a",
+            "lent": "524fb28f5b6a.m4a"
+          }
+        },
+        {
+          "id": "u05-g-le-la-be-ba-4",
+          "text": {
+            "u": "ל + הקיבוץ = לקיבוץ · ב + הקיבוץ = בקיבוץ",
+            "n": "לְ + הַקִּיבּוּץ = לַקִּיבּוּץ · בְּ + הַקִּיבּוּץ = בַּקִּיבּוּץ",
+            "extraVocals": true
+          },
+          "ca": "a + el quibuts = al quibuts (cap a i dins)",
+          "perComprovar": false,
+          "extra": true,
+          "audio": {
+            "normal": "3f3e6e19c7b7.m4a",
+            "lent": "d4909296ba72.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bi-li",
+      "titol": "בִּ־ i לִ־ davant de xevà",
+      "explicacio": "Si el mot comença amb xevà, la preposició no pot portar-ne un altre i passa a בִּ־ o לִ־. Ho fa el dossier a בִּדְרוֹם-אֲמֶרִיקָה i a לִתְשׁוּבוֹת.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u05-g-bi-li-0",
+          "text": {
+            "u": "גם בדרום-אמריקה יש קיבוצים?",
+            "n": "גַּם בִּדְרוֹם-אֲמֶרִיקָה יֵשׁ קִיבּוּצִים?",
+            "extraVocals": true
+          },
+          "ca": "També hi ha quibutsos a Sud-amèrica?",
+          "perComprovar": false,
+          "audio": {
+            "normal": "1e4172899ed2.m4a",
+            "lent": "a9ba33894f85.m4a"
+          }
+        },
+        {
+          "id": "u05-g-bi-li-1",
+          "text": {
+            "u": "כתוב שאלות לתשובות.",
+            "n": "כְּתוֹב שְׁאֵלוֹת לִתְשׁוּבוֹת.",
+            "extraVocals": true
+          },
+          "ca": "Escriu preguntes per a les respostes.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "b4484d0dd97a.m4a",
+            "lent": "a2224a004483.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "babayit-habayta",
+      "titol": "בַּבַּיִת, לַבַּיִת, הַבַּיְתָה",
+      "explicacio": "בַּבַּיִת és a casa, sense moviment; לַבַּיִת שֶׁל… és cap a la casa d'algú; הַבַּיְתָה és cap a casa (la pròpia). הַבַּיְתָה va sola, mai «לְהַבַּיְתָה», i només amb verbs de moviment.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u05-g-babayit-habayta-0",
+          "text": {
+            "u": "רחל בבית.",
+            "n": "רָחֵל בַּבַּיִת.",
+            "extraVocals": true
+          },
+          "ca": "La Rakhel és a casa.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "1bbedb610bca.m4a",
+            "lent": "b3f70aed9d0c.m4a"
+          }
+        },
+        {
+          "id": "u05-g-babayit-habayta-1",
+          "text": {
+            "u": "רוברטו הולך לבית של רחל ויעקב.",
+            "n": "רוֹבֶּרְטוֹ הוֹלֵךְ לַבַּיִת שֶׁל רָחֵל וְיַעֲקֹב.",
+            "extraVocals": true
+          },
+          "ca": "El Roberto va a casa de la Rakhel i el Iaakov.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "ce10d7fcbb80.m4a",
+            "lent": "6f7880b61a04.m4a"
+          }
+        },
+        {
+          "id": "u05-g-babayit-habayta-2",
+          "text": {
+            "u": "יעקב הולך הביתה.",
+            "n": "יַעֲקֹב הוֹלֵךְ הַבַּיְתָה.",
+            "extraVocals": true
+          },
+          "ca": "El Iaakov va cap a casa.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "a9cf31f74c0f.m4a",
+            "lent": "5ca75bc462ab.m4a"
+          }
+        },
+        {
+          "id": "u05-g-babayit-habayta-3",
+          "text": {
+            "u": "אני הולך הביתה. להתראות!",
+            "n": "אֲנִי הוֹלֵךְ הַבַּיְתָה. לְהִתְרָאוֹת!",
+            "extraVocals": true
+          },
+          "ca": "Vaig cap a casa. A reveure!",
+          "perComprovar": false,
+          "audio": {
+            "normal": "418679f9b64f.m4a",
+            "lent": "64372e3a81c0.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shiur-kita",
+      "titol": "שִׁיעוּר i כִּיתָּה",
+      "explicacio": "שִׁיעוּר és la lliçó, la sessió; כִּיתָּה és el grup i l'aula. Totes dues es diuen «classe» en català.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u05-g-shiur-kita-0",
+          "text": {
+            "u": "סליחה, עכשיו יש שיעור. שלום! אני הולך לכיתה.",
+            "n": "סְלִיחָה, עַכְשָׁיו יֵשׁ שִׁיעוּר. שָׁלוֹם! אֲנִי הוֹלֵךְ לַכִּיתָּה.",
+            "extraVocals": true
+          },
+          "ca": "Perdó, ara hi ha classe. Adéu! Vaig a classe.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "6cf70b7ccd06.m4a",
+            "lent": "8491b3605b22.m4a"
+          }
+        },
+        {
+          "id": "u05-g-shiur-kita-1",
+          "text": {
+            "u": "הכיתה גדולה? היא יפה?",
+            "n": "הַכִּיתָּה גְּדוֹלָה? הִיא יָפָה?",
+            "extraVocals": true
+          },
+          "ca": "La classe és gran? És bonica?",
+          "perComprovar": false,
+          "audio": {
+            "normal": "1992028d7c83.m4a",
+            "lent": "fc2e5dda3171.m4a"
+          }
+        }
       ]
     }
   ],
-  "gramatica": [],
   "textos": [
     {
       "id": "pag-28-b0",
@@ -225,142 +824,282 @@
         {
           "id": "pag-28-b0-l0",
           "text": {
-            "u": "איפה אתה גר, רוברטו?"
+            "u": "איפה אתה גר, רוברטו?",
+            "n": "אֵיפֹה אַתָּה גָּר, רוֹבֶּרְטוֹ?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "On vius, Roberto?",
+          "audio": {
+            "normal": "6b3f2966e127.m4a",
+            "lent": "2e0700c32ab3.m4a"
+          }
         },
         {
           "id": "pag-28-b0-l1",
           "text": {
-            "u": "אני גר בקיבוץ דן בגליל."
+            "u": "אני גר בקיבוץ דן בגליל.",
+            "n": "אֲנִי גָּר בְּקִיבּוּץ דָּן בַּגָּלִיל.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Visc al quibuts Dan, a Galilea.",
+          "audio": {
+            "normal": "0b90ac1b61bc.m4a",
+            "lent": "6b243a459dc1.m4a"
+          }
         },
         {
           "id": "pag-28-b0-l2",
           "text": {
-            "u": "בגליל יש הרבה קיבוצים?"
+            "u": "בגליל יש הרבה קיבוצים?",
+            "n": "בַּגָּלִיל יֵשׁ הַרְבֵּה קִיבּוּצִים?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "A Galilea hi ha molts quibutsos?",
+          "audio": {
+            "normal": "c3a838ed0d0c.m4a",
+            "lent": "b9c65606d78f.m4a"
+          }
         },
         {
           "id": "pag-28-b0-l3",
           "text": {
-            "u": "כן, בגליל יש הרבה קיבוצים."
+            "u": "כן, בגליל יש הרבה קיבוצים.",
+            "n": "כֵּן, בַּגָּלִיל יֵשׁ הַרְבֵּה קִיבּוּצִים.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Sí, a Galilea hi ha molts quibutsos.",
+          "audio": {
+            "normal": "a8f247a86d8f.m4a",
+            "lent": "c8c10a572467.m4a"
+          }
         },
         {
           "id": "pag-28-b0-l4",
           "text": {
-            "u": "גם בדרום-אמריקה יש קיבוצים?"
+            "u": "גם בדרום-אמריקה יש קיבוצים?",
+            "n": "גַּם בִּדְרוֹם-אֲמֶרִיקָה יֵשׁ קִיבּוּצִים?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "També hi ha quibutsos a Sud-amèrica?",
+          "audio": {
+            "normal": "1e4172899ed2.m4a",
+            "lent": "a9ba33894f85.m4a"
+          }
         },
         {
           "id": "pag-28-b0-l5",
           "text": {
-            "u": "לא, בדרום-אמריקה אין קיבוצים."
+            "u": "לא, בדרום-אמריקה אין קיבוצים.",
+            "n": "לֹא, בִּדְרוֹם-אֲמֶרִיקָה אֵין קִיבּוּצִים.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "No, a Sud-amèrica no hi ha quibutsos.",
+          "audio": {
+            "normal": "07b5576642cd.m4a",
+            "lent": "d5c22d8861e2.m4a"
+          }
         },
         {
           "id": "pag-28-b0-l6",
           "text": {
-            "u": "בקיבוץ דן יש אולפן?"
+            "u": "בקיבוץ דן יש אולפן?",
+            "n": "בְּקִיבּוּץ דָּן יֵשׁ אוּלְפָּן?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Al quibuts Dan hi ha ulpan?",
+          "audio": {
+            "normal": "a410551767e1.m4a",
+            "lent": "b591f9aa7c5c.m4a"
+          }
         },
         {
           "id": "pag-28-b0-l7",
           "text": {
-            "u": "כן, בקיבוץ דן יש אולפן-עבודה."
+            "u": "כן, בקיבוץ דן יש אולפן-עבודה.",
+            "n": "כֵּן, בְּקִיבּוּץ דָּן יֵשׁ אוּלְפַּן-עֲבוֹדָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Sí, al quibuts Dan hi ha un ulpan de treball.",
+          "audio": {
+            "normal": "bc94e76a62f9.m4a",
+            "lent": "cf903f0502a6.m4a"
+          }
         },
         {
           "id": "pag-28-b0-l8",
           "text": {
-            "u": "אתה לומד באולפן בקיבוץ דן?"
+            "u": "אתה לומד באולפן בקיבוץ דן?",
+            "n": "אַתָּה לוֹמֵד בָּאוּלְפָּן בְּקִיבּוּץ דָּן?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Estudies a l'ulpan del quibuts Dan?",
+          "audio": {
+            "normal": "c93e058bbaa9.m4a",
+            "lent": "e6d9e12e85ab.m4a"
+          }
         },
         {
           "id": "pag-28-b0-l9",
           "text": {
-            "u": "כן, אני לומד שם."
+            "u": "כן, אני לומד שם.",
+            "n": "כֵּן, אֲנִי לוֹמֵד שָׁם.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Sí, hi estudio.",
+          "audio": {
+            "normal": "2566cc6c40dc.m4a",
+            "lent": "2466a5e72c08.m4a"
+          }
         },
         {
           "id": "pag-28-b0-l10",
           "text": {
-            "u": "באולפן יש הרבה כיתות?"
+            "u": "באולפן יש הרבה כיתות?",
+            "n": "בָּאוּלְפָּן יֵשׁ הַרְבֵּה כִּיתּוֹת?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "A l'ulpan hi ha moltes classes?",
+          "audio": {
+            "normal": "a26123b5dad1.m4a",
+            "lent": "4926576e7856.m4a"
+          }
         },
         {
           "id": "pag-28-b0-l11",
           "text": {
-            "u": "לא, באולפן, בקיבוץ דן יש רק שלוש כיתות."
+            "u": "לא, באולפן, בקיבוץ דן יש רק שלוש כיתות.",
+            "n": "לֹא, בָּאוּלְפָּן, בְּקִיבּוּץ דָּן יֵשׁ רַק שָׁלוֹשׁ כִּיתּוֹת.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "No, a l'ulpan del quibuts Dan només hi ha tres classes.",
+          "audio": {
+            "normal": "0a6f01b11ac8.m4a",
+            "lent": "068dcd83baf8.m4a"
+          }
         },
         {
           "id": "pag-28-b0-l12",
           "text": {
-            "u": "יש באולפן הרבה תלמידים מארצות-הברית?"
+            "u": "יש באולפן הרבה תלמידים מארצות-הברית?",
+            "n": "יֵשׁ בָּאוּלְפָּן הַרְבֵּה תַּלְמִידִים מֵאַרְצוֹת-הַבְּרִית?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Hi ha molts alumnes dels Estats Units a l'ulpan?",
+          "audio": {
+            "normal": "b28ef0317e01.m4a",
+            "lent": "fc3db1f36d25.m4a"
+          }
         },
         {
           "id": "pag-28-b0-l13",
           "text": {
-            "u": "לא, מארצות-הברית אין הרבה."
+            "u": "לא, מארצות-הברית אין הרבה.",
+            "n": "לֹא, מֵאַרְצוֹת-הַבְּרִית אֵין הַרְבֵּה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "No, dels Estats Units no n'hi ha gaires.",
+          "audio": {
+            "normal": "4b54b9dfd69e.m4a",
+            "lent": "4824998524e5.m4a"
+          }
         },
         {
           "id": "pag-28-b0-l14",
           "text": {
-            "u": "ומברזיל?"
+            "u": "ומברזיל?",
+            "n": "וּמִבְּרָזִיל?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "I del Brasil?",
+          "audio": {
+            "normal": "6e72d384404a.m4a",
+            "lent": "0f5e3f585fed.m4a"
+          }
         },
         {
           "id": "pag-28-b0-l15",
           "text": {
-            "u": "גם מברזיל יש רק מעט תלמידים."
+            "u": "גם מברזיל יש רק מעט תלמידים.",
+            "n": "גַּם מִבְּרָזִיל יֵשׁ רַק מְעַט תַּלְמִידִים.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Del Brasil també només hi ha pocs alumnes.",
+          "audio": {
+            "normal": "de55af92a2be.m4a",
+            "lent": "bd98a70d964a.m4a"
+          }
         },
         {
           "id": "pag-28-b0-l16",
           "text": {
-            "u": "באולפן יש מורים, או מורות?"
+            "u": "באולפן יש מורים, או מורות?",
+            "n": "בָּאוּלְפָּן יֵשׁ מוֹרִים, אוֹ מוֹרוֹת?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "A l'ulpan hi ha mestres homes o mestres dones?",
+          "audio": {
+            "normal": "8e49fcb4e3a9.m4a",
+            "lent": "c0863fa08c38.m4a"
+          }
         },
         {
           "id": "pag-28-b0-l17",
           "text": {
-            "u": "באולפן בקיבוץ דן יש רק מורות."
+            "u": "באולפן בקיבוץ דן יש רק מורות.",
+            "n": "בָּאוּלְפָּן בְּקִיבּוּץ דָּן יֵשׁ רַק מוֹרוֹת.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "A l'ulpan del quibuts Dan només hi ha mestres dones.",
+          "audio": {
+            "normal": "4ba5886e3c64.m4a",
+            "lent": "15a718e31e1a.m4a"
+          }
         },
         {
           "id": "pag-28-b0-l18",
           "text": {
-            "u": "הכיתה גדולה? היא יפה?"
+            "u": "הכיתה גדולה? היא יפה?",
+            "n": "הַכִּיתָּה גְּדוֹלָה? הִיא יָפָה?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "La classe és gran? És bonica?",
+          "audio": {
+            "normal": "1992028d7c83.m4a",
+            "lent": "fc2e5dda3171.m4a"
+          }
         },
         {
           "id": "pag-28-b0-l19",
           "text": {
-            "u": "ככה-ככה."
+            "u": "ככה-ככה.",
+            "n": "כָּכָה-כָּכָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Així així.",
+          "audio": {
+            "normal": "0bc34dd8de05.m4a",
+            "lent": "b6c9e068219d.m4a"
+          }
         }
       ]
     },
@@ -377,51 +1116,100 @@
         {
           "id": "pag-29-b0-l0",
           "text": {
-            "u": "מה יש בכיתה?"
+            "u": "מה יש בכיתה?",
+            "n": "מַה יֵּשׁ בַּכִּיתָּה?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Què hi ha a la classe?",
+          "audio": {
+            "normal": "defa0d614ffd.m4a",
+            "lent": "2dc205ce68d9.m4a"
+          }
         },
         {
           "id": "pag-29-b0-l1",
           "text": {
-            "u": "סליחה, עכשיו יש שיעור. שלום! אני הולך לכיתה."
+            "u": "סליחה, עכשיו יש שיעור. שלום! אני הולך לכיתה.",
+            "n": "סְלִיחָה, עַכְשָׁיו יֵשׁ שִׁיעוּר. שָׁלוֹם! אֲנִי הוֹלֵךְ לַכִּיתָּה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Perdó, ara hi ha classe. Adéu! Vaig a classe.",
+          "audio": {
+            "normal": "6cf70b7ccd06.m4a",
+            "lent": "8491b3605b22.m4a"
+          }
         },
         {
           "id": "pag-29-b0-l2",
           "text": {
-            "u": "גם אתה בא לכיתה?"
+            "u": "גם אתה בא לכיתה?",
+            "n": "גַּם אַתָּה בָּא לַכִּיתָּה?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Tu també vens a classe?",
+          "audio": {
+            "normal": "acc2e25871f7.m4a",
+            "lent": "fb30330ae8e0.m4a"
+          }
         },
         {
           "id": "pag-29-b0-l3",
           "text": {
-            "u": "לא."
+            "u": "לא.",
+            "n": "לֹא.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "No.",
+          "audio": {
+            "normal": "e97431ea5167.m4a",
+            "lent": "6c6ee31323d6.m4a"
+          }
         },
         {
           "id": "pag-29-b0-l4",
           "text": {
-            "u": "לאן אתה הולך?"
+            "u": "לאן אתה הולך?",
+            "n": "לְאָן אַתָּה הוֹלֵךְ?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "On vas?",
+          "audio": {
+            "normal": "c461eb508a4f.m4a",
+            "lent": "daf4e930b76e.m4a"
+          }
         },
         {
           "id": "pag-29-b0-l5",
           "text": {
-            "u": "אני הולך הביתה. להתראות!"
+            "u": "אני הולך הביתה. להתראות!",
+            "n": "אֲנִי הוֹלֵךְ הַבַּיְתָה. לְהִתְרָאוֹת!",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Vaig cap a casa. A reveure!",
+          "audio": {
+            "normal": "418679f9b64f.m4a",
+            "lent": "64372e3a81c0.m4a"
+          }
         },
         {
           "id": "pag-29-b0-l6",
           "text": {
-            "u": "להתראות!"
+            "u": "להתראות!",
+            "n": "לְהִתְרָאוֹת!",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "A reveure!",
+          "audio": {
+            "normal": "491dac615436.m4a",
+            "lent": "62a4d1b5f484.m4a"
+          }
         }
       ]
     },
@@ -440,14 +1228,24 @@
           "text": {
             "u": "הוֹלֵךְ · הוֹלֶכֶת · הוֹלְכִים · הוֹלְכוֹת"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "anar, en present: m. sg. · f. sg. · m. pl. · f. pl.",
+          "audio": {
+            "normal": "c3b71cc65e55.m4a",
+            "lent": "f9bdd253bfaa.m4a"
+          }
         },
         {
           "id": "pag-29-b1-l1",
           "text": {
             "u": "בָּא · בָּאָה · בָּאִים · בָּאוֹת"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "venir, en present: m. sg. · f. sg. · m. pl. · f. pl.",
+          "audio": {
+            "normal": "ff5b1b0ff9b5.m4a",
+            "lent": "094cacd07f0e.m4a"
+          }
         }
       ]
     },
@@ -466,7 +1264,12 @@
           "text": {
             "u": "תרגיל [המרה]"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Exercici de substitució",
+          "audio": {
+            "normal": "59e1f582ec5e.m4a",
+            "lent": "5b16a9c65ffd.m4a"
+          }
         }
       ]
     },
@@ -483,30 +1286,58 @@
         {
           "id": "pag-29-b3-l0",
           "text": {
-            "u": "1. [חנה] באה לשיעור. (יצחק, שרה ושושנה, התלמידים)"
+            "u": "1. [חנה] באה לשיעור. (יצחק, שרה ושושנה, התלמידים)",
+            "n": "1. [חַנָּה] בָּאָה לַשִּׁיעוּר. (יִצְחָק, שָׂרָה וְשׁוֹשַׁנָּה, הַתַּלְמִידִים)",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "1. [La Hanà] ve a classe. (l'Itshak, la Sara i la Xoixanà, els alumnes)",
+          "audio": {
+            "normal": "f5e816e42154.m4a",
+            "lent": "b71e2b0783f2.m4a"
+          }
         },
         {
           "id": "pag-29-b3-l1",
           "text": {
-            "u": "2. הוא בא [לכיתה]. (מתל-אביב, לחדר, לישראל, הביתה)"
+            "u": "2. הוא בא [לכיתה]. (מתל-אביב, לחדר, לישראל, הביתה)",
+            "n": "2. הוּא בָּא [לַכִּיתָּה]. (מִתֵּל-אָבִיב, לַחֶדֶר, לְיִשְׂרָאֵל, הַבַּיְתָה)",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "2. Ell ve [a classe]. (de Tel Aviv, a l'habitació, a Israel, cap a casa)",
+          "audio": {
+            "normal": "9a57ba75ebc9.m4a",
+            "lent": "96bc2947275c.m4a"
+          }
         },
         {
           "id": "pag-29-b3-l2",
           "text": {
-            "u": "3. [סטיב] הולך לעבודה. (יצחק ואני, המורות, חנה)"
+            "u": "3. [סטיב] הולך לעבודה. (יצחק ואני, המורות, חנה)",
+            "n": "3. [סְטִיב] הוֹלֵךְ לָעֲבוֹדָה. (יִצְחָק וַאֲנִי, הַמּוֹרוֹת, חַנָּה)",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "3. [L'Steve] va a la feina. (l'Itshak i jo, les mestres, la Hanà)",
+          "audio": {
+            "normal": "4bfed32f925b.m4a",
+            "lent": "0739e0adecf9.m4a"
+          }
         },
         {
           "id": "pag-29-b3-l3",
           "text": {
-            "u": "4. מאין [אתה] בא ולאן אתה הולך? (אתם, את, אתן, חנה)"
+            "u": "4. מאין [אתה] בא ולאן אתה הולך? (אתם, את, אתן, חנה)",
+            "n": "4. מֵאַיִן [אַתָּה] בָּא וּלְאָן אַתָּה הוֹלֵךְ? (אַתֶּם, אַתְּ, אַתֶּן, חַנָּה)",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "4. D'on vens [tu] i on vas? (vosaltres, tu a una dona, vosaltres a dones, la Hanà)",
+          "audio": {
+            "normal": "ed0d801056ed.m4a",
+            "lent": "6d41c18252dc.m4a"
+          }
         }
       ]
     },
@@ -525,14 +1356,24 @@
           "text": {
             "u": "לְאָן?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Cap a on?",
+          "audio": {
+            "normal": "50c3146a462e.m4a",
+            "lent": "b4f487a3e4bb.m4a"
+          }
         },
         {
           "id": "pag-30-b0-l1",
           "text": {
             "u": "לְ... לַ..."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "le- · la- (amb l'article)",
+          "audio": {
+            "normal": "ee2fdb533f91.m4a",
+            "lent": "a720dd25ad3e.m4a"
+          }
         }
       ]
     },
@@ -553,50 +1394,92 @@
         {
           "id": "pag-30-b1-l0",
           "text": {
-            "u": "יוסי, לאן אתה הולך?"
+            "u": "יוסי, לאן אתה הולך?",
+            "n": "יוֹסִי, לְאָן אַתָּה הוֹלֵךְ?",
+            "extraVocals": true
           },
           "perComprovar": false,
-          "qui": "אסתר"
+          "qui": "אסתר",
+          "ca": "Iossi, on vas?",
+          "audio": {
+            "normal": "3343362fb7a4.m4a",
+            "lent": "2ed1efc771de.m4a"
+          }
         },
         {
           "id": "pag-30-b1-l1",
           "text": {
-            "u": "אני הולך לתיאטרון, גם את באה לתיאטרון?"
+            "u": "אני הולך לתיאטרון, גם את באה לתיאטרון?",
+            "n": "אֲנִי הוֹלֵךְ לַתֵּיאַטְרוֹן, גַּם אַתְּ בָּאָה לַתֵּיאַטְרוֹן?",
+            "extraVocals": true
           },
           "perComprovar": false,
-          "qui": "יוסי"
+          "qui": "יוסי",
+          "ca": "Vaig al teatre. Tu també vens al teatre?",
+          "audio": {
+            "normal": "a098ba04d0fa.m4a",
+            "lent": "efe48c437e44.m4a"
+          }
         },
         {
           "id": "pag-30-b1-l2",
           "text": {
-            "u": "לא, אני הולכת לקונצרט."
+            "u": "לא, אני הולכת לקונצרט.",
+            "n": "לֹא, אֲנִי הוֹלֶכֶת לַקּוֹנְצֶרְט.",
+            "extraVocals": true
           },
           "perComprovar": false,
-          "qui": "אסתר"
+          "qui": "אסתר",
+          "ca": "No, vaig al concert.",
+          "audio": {
+            "normal": "df9d01d24224.m4a",
+            "lent": "7e63c1ad3b29.m4a"
+          }
         },
         {
           "id": "pag-30-b1-l3",
           "text": {
-            "u": "גם דינה הולכת לקונצרט?"
+            "u": "גם דינה הולכת לקונצרט?",
+            "n": "גַּם דִּינָה הוֹלֶכֶת לַקּוֹנְצֶרְט?",
+            "extraVocals": true
           },
           "perComprovar": false,
-          "qui": "יוסי"
+          "qui": "יוסי",
+          "ca": "La Dina també va al concert?",
+          "audio": {
+            "normal": "31d93d388dab.m4a",
+            "lent": "8e0c3b6dd3d9.m4a"
+          }
         },
         {
           "id": "pag-30-b1-l4",
           "text": {
-            "u": "לא."
+            "u": "לא.",
+            "n": "לֹא.",
+            "extraVocals": true
           },
           "perComprovar": false,
-          "qui": "אסתר"
+          "qui": "אסתר",
+          "ca": "No.",
+          "audio": {
+            "normal": "e97431ea5167.m4a",
+            "lent": "6c6ee31323d6.m4a"
+          }
         },
         {
           "id": "pag-30-b1-l5",
           "text": {
-            "u": "לאן היא הולכת?"
+            "u": "לאן היא הולכת?",
+            "n": "לְאָן הִיא הוֹלֶכֶת?",
+            "extraVocals": true
           },
           "perComprovar": false,
-          "qui": "יוסי"
+          "qui": "יוסי",
+          "ca": "On va?",
+          "audio": {
+            "normal": "78a09a587b13.m4a",
+            "lent": "c437c1f992c1.m4a"
+          }
         },
         {
           "id": "pag-30-b1-l6",
@@ -621,16 +1504,30 @@
         {
           "id": "pag-30-b2-l0",
           "text": {
-            "u": "רוברטו בא מברזיל לְקיבוץ דן."
+            "u": "רוברטו בא מברזיל לְקיבוץ דן.",
+            "n": "רוֹבֶּרְטוֹ בָּא מִבְּרָזִיל לְקִיבּוּץ דָּן.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "El Roberto va venir del Brasil al quibuts Dan.",
+          "audio": {
+            "normal": "02eb47f6c6f1.m4a",
+            "lent": "0fc94e01de4f.m4a"
+          }
         },
         {
           "id": "pag-30-b2-l1",
           "text": {
-            "u": "הוא בא לַקיבוץ בפברואר."
+            "u": "הוא בא לַקיבוץ בפברואר.",
+            "n": "הוּא בָּא לַקִּיבּוּץ בְּפֶבְּרוּאָר.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Va arribar al quibuts al febrer.",
+          "audio": {
+            "normal": "438ebbffd14a.m4a",
+            "lent": "b29974069a41.m4a"
+          }
         }
       ]
     },
@@ -647,16 +1544,30 @@
         {
           "id": "pag-30-b3-l0",
           "text": {
-            "u": "רוברטו גר עכשיו בְּקיבוץ דן."
+            "u": "רוברטו גר עכשיו בְּקיבוץ דן.",
+            "n": "רוֹבֶּרְטוֹ גָּר עַכְשָׁיו בְּקִיבּוּץ דָּן.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Ara el Roberto viu al quibuts Dan.",
+          "audio": {
+            "normal": "bae563441079.m4a",
+            "lent": "67119caaf88a.m4a"
+          }
         },
         {
           "id": "pag-30-b3-l1",
           "text": {
-            "u": "בַּקיבוץ הוא עובד ולומד."
+            "u": "בַּקיבוץ הוא עובד ולומד.",
+            "n": "בַּקִּיבּוּץ הוּא עוֹבֵד וְלוֹמֵד.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Al quibuts treballa i estudia.",
+          "audio": {
+            "normal": "afefea18ff67.m4a",
+            "lent": "524fb28f5b6a.m4a"
+          }
         }
       ]
     },
@@ -673,16 +1584,28 @@
         {
           "id": "pag-31-b0-l0",
           "text": {
-            "u": "מאין...? · איפה...? · לאן...?"
+            "u": "מאין...? · איפה...? · לאן...?",
+            "n": "מֵאַיִן...? · אֵיפֹה...? · לְאָן...?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "D'on...? · On...? · Cap a on...?",
+          "audio": {
+            "normal": "9ae3b9cdd270.m4a",
+            "lent": "74264c93df62.m4a"
+          }
         },
         {
           "id": "pag-31-b0-l1",
           "text": {
             "u": "מְ... מֵ... · בְּ... בַּ... (בָּ...) · לְ... לַ... (לָ...)"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "mi-, me- (de) · be-, ba- (a, en) · le-, la- (a, cap a)",
+          "audio": {
+            "normal": "81258fb3873f.m4a",
+            "lent": "37052e2f6112.m4a"
+          }
         }
       ]
     },
@@ -699,44 +1622,86 @@
         {
           "id": "pag-31-b1-l0",
           "text": {
-            "u": "זה הבית של רחל ויעקב."
+            "u": "זה הבית של רחל ויעקב.",
+            "n": "זֶה הַבַּיִת שֶׁל רָחֵל וְיַעֲקֹב.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Aquesta és la casa de la Rakhel i el Iaakov.",
+          "audio": {
+            "normal": "1cca44720273.m4a",
+            "lent": "7358ba6d806b.m4a"
+          }
         },
         {
           "id": "pag-31-b1-l1",
           "text": {
-            "u": "איפה רחל?"
+            "u": "איפה רחל?",
+            "n": "אֵיפֹה רָחֵל?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "On és la Rakhel?",
+          "audio": {
+            "normal": "ba532cf8798a.m4a",
+            "lent": "435f36c60707.m4a"
+          }
         },
         {
           "id": "pag-31-b1-l2",
           "text": {
-            "u": "רחל בבית."
+            "u": "רחל בבית.",
+            "n": "רָחֵל בַּבַּיִת.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "La Rakhel és a casa.",
+          "audio": {
+            "normal": "1bbedb610bca.m4a",
+            "lent": "b3f70aed9d0c.m4a"
+          }
         },
         {
           "id": "pag-31-b1-l3",
           "text": {
-            "u": "לאן הולכים רוברטו ויעקב?"
+            "u": "לאן הולכים רוברטו ויעקב?",
+            "n": "לְאָן הוֹלְכִים רוֹבֶּרְטוֹ וְיַעֲקֹב?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "On van el Roberto i el Iaakov?",
+          "audio": {
+            "normal": "b5ed459b1fec.m4a",
+            "lent": "7e125da38598.m4a"
+          }
         },
         {
           "id": "pag-31-b1-l4",
           "text": {
-            "u": "רוברטו הולך לבית של רחל ויעקב."
+            "u": "רוברטו הולך לבית של רחל ויעקב.",
+            "n": "רוֹבֶּרְטוֹ הוֹלֵךְ לַבַּיִת שֶׁל רָחֵל וְיַעֲקֹב.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "El Roberto va a casa de la Rakhel i el Iaakov.",
+          "audio": {
+            "normal": "ce10d7fcbb80.m4a",
+            "lent": "6f7880b61a04.m4a"
+          }
         },
         {
           "id": "pag-31-b1-l5",
           "text": {
-            "u": "יעקב הולך הביתה."
+            "u": "יעקב הולך הביתה.",
+            "n": "יַעֲקֹב הוֹלֵךְ הַבַּיְתָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "El Iaakov va cap a casa.",
+          "audio": {
+            "normal": "a9cf31f74c0f.m4a",
+            "lent": "5ca75bc462ab.m4a"
+          }
         }
       ]
     },
@@ -753,51 +1718,100 @@
         {
           "id": "pag-31-b2-l0",
           "text": {
-            "u": "הוא ← לומד / עובד / גר"
+            "u": "הוא ← לומד / עובד / גר",
+            "n": "הוּא ← לוֹמֵד / עוֹבֵד / גָּר",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "ell ← estudia / treballa / viu",
+          "audio": {
+            "normal": "546fbcd25c49.m4a",
+            "lent": "cc25b85f2a88.m4a"
+          }
         },
         {
           "id": "pag-31-b2-l1",
           "text": {
-            "u": "בְּ / בַּ ← אולפן, קיבוץ"
+            "u": "בְּ / בַּ ← אולפן, קיבוץ",
+            "n": "בְּ / בַּ ← אוּלְפָּן, קִיבּוּץ",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "be- / ba- ← ulpan, quibuts",
+          "audio": {
+            "normal": "43be83775778.m4a",
+            "lent": "44b14943c2a7.m4a"
+          }
         },
         {
           "id": "pag-31-b2-l2",
           "text": {
-            "u": "בְּ ← ישראל, חיפה"
+            "u": "בְּ ← ישראל, חיפה",
+            "n": "בְּ ← יִשְׂרָאֵל, חֵיפָה",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "be- ← Israel, Haifa",
+          "audio": {
+            "normal": "710fed23aa2b.m4a",
+            "lent": "42c2df1a51a2.m4a"
+          }
         },
         {
           "id": "pag-31-b2-l3",
           "text": {
-            "u": "הוא ← הולך / בא"
+            "u": "הוא ← הולך / בא",
+            "n": "הוּא ← הוֹלֵךְ / בָּא",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "ell ← va / ve",
+          "audio": {
+            "normal": "dde8fb6435b0.m4a",
+            "lent": "73a1191765b0.m4a"
+          }
         },
         {
           "id": "pag-31-b2-l4",
           "text": {
-            "u": "לְ / לַ ← קונצרט, כיתה, מוזיאון"
+            "u": "לְ / לַ ← קונצרט, כיתה, מוזיאון",
+            "n": "לְ / לַ ← קוֹנְצֶרְט, כִּיתָּה, מוּזֵיאוֹן",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "le- / la- ← concert, classe, museu",
+          "audio": {
+            "normal": "7fc3434dd7af.m4a",
+            "lent": "9057085b6b98.m4a"
+          }
         },
         {
           "id": "pag-31-b2-l5",
           "text": {
-            "u": "לְ ← קיבוץ דן, חנה"
+            "u": "לְ ← קיבוץ דן, חנה",
+            "n": "לְ ← קִיבּוּץ דָּן, חַנָּה",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "le- ← quibuts Dan, Hanà",
+          "audio": {
+            "normal": "ec996d4818b9.m4a",
+            "lent": "41a6a80d3a2b.m4a"
+          }
         },
         {
           "id": "pag-31-b2-l6",
           "text": {
-            "u": "← הביתה"
+            "u": "← הביתה",
+            "n": "← הַבַּיְתָה",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "← cap a casa",
+          "audio": {
+            "normal": "2f3bdc596f22.m4a",
+            "lent": "bc0125d36ccf.m4a"
+          }
         }
       ]
     },
@@ -814,9 +1828,16 @@
         {
           "id": "pag-32-b0-l0",
           "text": {
-            "u": "כתוב שאלות לתשובות. השתמש במילים: איפה מאין לאן"
+            "u": "כתוב שאלות לתשובות. השתמש במילים: איפה מאין לאן",
+            "n": "כְּתוֹב שְׁאֵלוֹת לִתְשׁוּבוֹת. הִשְׁתַּמֵּשׁ בַּמִּילִּים: אֵיפֹה מֵאַיִן לְאָן",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Escriu preguntes per a les respostes. Fes servir les paraules: on, d'on, cap a on.",
+          "audio": {
+            "normal": "8f9af14f5fa3.m4a",
+            "lent": "017fa9451a1b.m4a"
+          }
         }
       ]
     },
@@ -833,65 +1854,92 @@
         {
           "id": "pag-32-b1-l0",
           "text": {
-            "u": "1. ____ — היא הולכת לאופרה."
+            "u": "1. ____ — היא הולכת לאופרה.",
+            "n": "1. ____ — הִיא הוֹלֶכֶת לָאוֹפֵּרָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "1. ____ — Va a l'òpera."
         },
         {
           "id": "pag-32-b1-l1",
           "text": {
-            "u": "2. ____ — היא עובדת בבנק."
+            "u": "2. ____ — היא עובדת בבנק.",
+            "n": "2. ____ — הִיא עוֹבֶדֶת בַּבַּנְק.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "2. ____ — Treballa al banc."
         },
         {
           "id": "pag-32-b1-l2",
           "text": {
-            "u": "3. ____ — היא באה מהבית."
+            "u": "3. ____ — היא באה מהבית.",
+            "n": "3. ____ — הִיא בָּאָה מֵהַבַּיִת.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "3. ____ — Ve de casa."
         },
         {
           "id": "pag-32-b1-l3",
           "text": {
-            "u": "4. ____ — היא הולכת הביתה."
+            "u": "4. ____ — היא הולכת הביתה.",
+            "n": "4. ____ — הִיא הוֹלֶכֶת הַבַּיְתָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "4. ____ — Va cap a casa."
         },
         {
           "id": "pag-32-b1-l4",
           "text": {
-            "u": "5. ____ — זה מרוסיה."
+            "u": "5. ____ — זה מרוסיה.",
+            "n": "5. ____ — זֶה מֵרוּסְיָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "5. ____ — Això és de Rússia."
         },
         {
           "id": "pag-32-b1-l5",
           "text": {
-            "u": "6. ____ — זה בבית."
+            "u": "6. ____ — זה בבית.",
+            "n": "6. ____ — זֶה בַּבַּיִת.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "6. ____ — Això és a casa."
         },
         {
           "id": "pag-32-b1-l6",
           "text": {
-            "u": "7. ____ — הם באים לכיתה."
+            "u": "7. ____ — הם באים לכיתה.",
+            "n": "7. ____ — הֵם בָּאִים לַכִּיתָּה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "7. ____ — Venen a classe."
         },
         {
           "id": "pag-32-b1-l7",
           "text": {
-            "u": "8. ____ — הם באים מהכיתה."
+            "u": "8. ____ — הם באים מהכיתה.",
+            "n": "8. ____ — הֵם בָּאִים מֵהַכִּיתָּה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "8. ____ — Venen de classe."
         },
         {
           "id": "pag-32-b1-l8",
           "text": {
-            "u": "9. ____ — הן לומדות בחיפה."
+            "u": "9. ____ — הן לומדות בחיפה.",
+            "n": "9. ____ — הֵן לוֹמְדוֹת בְּחֵיפָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "9. ____ — Estudien a Haifa."
         }
       ]
     },
@@ -908,9 +1956,16 @@
         {
           "id": "pag-32-b2-l0",
           "text": {
-            "u": "כתוב: בְּ... בַּ... לְ... לַ..."
+            "u": "כתוב: בְּ... בַּ... לְ... לַ...",
+            "n": "כְּתוֹב: בְּ... בַּ... לְ... לַ...",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Escriu: be-, ba-, le-, la-",
+          "audio": {
+            "normal": "eae201bd2049.m4a",
+            "lent": "e7a16b53a82c.m4a"
+          }
         }
       ]
     },
@@ -927,61 +1982,925 @@
         {
           "id": "pag-32-b3-l0",
           "text": {
-            "u": "1. רוברטו גר ____קיבוץ דן. ____קיבוץ יש אולפן."
+            "u": "1. רוברטו גר ____קיבוץ דן. ____קיבוץ יש אולפן.",
+            "n": "1. רוֹבֶּרְטוֹ גָּר ____קִיבּוּץ דָּן. ____קִיבּוּץ יֵשׁ אוּלְפָּן.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "1. El Roberto viu ____ quibuts Dan. ____ quibuts hi ha un ulpan."
         },
         {
           "id": "pag-32-b3-l1",
           "text": {
-            "u": "2. רוברטו בא ____קיבוץ דן בפברואר."
+            "u": "2. רוברטו בא ____קיבוץ דן בפברואר.",
+            "n": "2. רוֹבֶּרְטוֹ בָּא ____קִיבּוּץ דָּן בְּפֶבְּרוּאָר.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "2. El Roberto va venir ____ quibuts Dan al febrer."
         },
         {
           "id": "pag-32-b3-l2",
           "text": {
-            "u": "3. הם לומדים עברית ____אולפן-עבודה ____קיבוץ."
+            "u": "3. הם לומדים עברית ____אולפן-עבודה ____קיבוץ.",
+            "n": "3. הֵם לוֹמְדִים עִבְרִית ____אוּלְפַּן-עֲבוֹדָה ____קִיבּוּץ.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "3. Estudien hebreu ____ ulpan de treball ____ quibuts."
         },
         {
           "id": "pag-32-b3-l3",
           "text": {
-            "u": "4. הרבה תיירים באים ____ישראל ____אפריל."
+            "u": "4. הרבה תיירים באים ____ישראל ____אפריל.",
+            "n": "4. הַרְבֵּה תַּייָּרִים בָּאִים ____יִשְׂרָאֵל ____אַפְּרִיל.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "4. Molts turistes venen ____ Israel ____ abril."
         },
         {
           "id": "pag-32-b3-l4",
           "text": {
-            "u": "5. אנחנו הולכים עכשיו ____כיתה והם הולכים ____עבודה."
+            "u": "5. אנחנו הולכים עכשיו ____כיתה והם הולכים ____עבודה.",
+            "n": "5. אֲנַחְנוּ הוֹלְכִים עַכְשָׁיו ____כִּיתָּה וְהֵם הוֹלְכִים ____עֲבוֹדָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "5. Ara nosaltres anem ____ classe i ells van ____ feina."
         },
         {
           "id": "pag-32-b3-l5",
           "text": {
-            "u": "6. יצחק לא ____בית, אבל שרה ____בית."
+            "u": "6. יצחק לא ____בית, אבל שרה ____בית.",
+            "n": "6. יִצְחָק לֹא ____בַּיִת, אֲבָל שָׂרָה ____בַּיִת.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "6. L'Itshak no és ____ casa, però la Sara és ____ casa."
         },
         {
           "id": "pag-32-b3-l6",
           "text": {
-            "u": "7. סטיב הולך ____חדר של רוברטו."
+            "u": "7. סטיב הולך ____חדר של רוברטו.",
+            "n": "7. סְטִיב הוֹלֵךְ ____חֶדֶר שֶׁל רוֹבֶּרְטוֹ.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "7. L'Steve va ____ habitació del Roberto."
         },
         {
           "id": "pag-32-b3-l7",
           "text": {
-            "u": "8. יש הרבה אולפנים ____קיבוצים."
+            "u": "8. יש הרבה אולפנים ____קיבוצים.",
+            "n": "8. יֵשׁ הַרְבֵּה אוּלְפָּנִים ____קִיבּוּצִים.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "8. Hi ha molts ulpans ____ quibutsos."
         }
       ]
     }
   ],
-  "exercicis": []
+  "exercicis": [
+    {
+      "tipus": "conjugar",
+      "origen": "pag-29 ex. 16.1",
+      "extra": false,
+      "linies": [
+        "pag-29-b3-l0"
+      ],
+      "base": {
+        "n": "חַנָּה בָּאָה לַשִּׁיעוּר.",
+        "u": "חנה באה לשיעור."
+      },
+      "demana": "amb יִצְחָק",
+      "opcions": [
+        "יִצְחָק בָּא לַשִּׁיעוּר.",
+        "יִצְחָק בָּאָה לַשִּׁיעוּר.",
+        "יִצְחָק בָּאִים לַשִּׁיעוּר."
+      ],
+      "correcta": 0,
+      "id": "u05-ex-0"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-29 ex. 16.1",
+      "extra": false,
+      "linies": [
+        "pag-29-b3-l0"
+      ],
+      "base": {
+        "n": "חַנָּה בָּאָה לַשִּׁיעוּר.",
+        "u": "חנה באה לשיעור."
+      },
+      "demana": "amb שָׂרָה וְשׁוֹשַׁנָּה",
+      "opcions": [
+        "שָׂרָה וְשׁוֹשַׁנָּה בָּאִים לַשִּׁיעוּר.",
+        "שָׂרָה וְשׁוֹשַׁנָּה בָּאוֹת לַשִּׁיעוּר.",
+        "שָׂרָה וְשׁוֹשַׁנָּה בָּאָה לַשִּׁיעוּר."
+      ],
+      "correcta": 1,
+      "id": "u05-ex-1"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-29 ex. 16.1",
+      "extra": false,
+      "linies": [
+        "pag-29-b3-l0"
+      ],
+      "base": {
+        "n": "חַנָּה בָּאָה לַשִּׁיעוּר.",
+        "u": "חנה באה לשיעור."
+      },
+      "demana": "amb הַתַּלְמִידִים",
+      "opcions": [
+        "הַתַּלְמִידִים בָּא לַשִּׁיעוּר.",
+        "הַתַּלְמִידִים בָּאוֹת לַשִּׁיעוּר.",
+        "הַתַּלְמִידִים בָּאִים לַשִּׁיעוּר."
+      ],
+      "correcta": 2,
+      "id": "u05-ex-2"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-29 ex. 16.2",
+      "extra": false,
+      "linies": [
+        "pag-29-b3-l1"
+      ],
+      "base": {
+        "n": "הוּא בָּא לַכִּיתָּה.",
+        "u": "הוא בא לכיתה."
+      },
+      "demana": "que vingui de Tel Aviv",
+      "opcions": [
+        "הוּא בָּא לְתֵל-אָבִיב.",
+        "הוּא בָּא מִתֵּל-אָבִיב.",
+        "הוּא בָּא בְּתֵל-אָבִיב."
+      ],
+      "correcta": 1,
+      "id": "u05-ex-3"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-29 ex. 16.2",
+      "extra": false,
+      "linies": [
+        "pag-29-b3-l1"
+      ],
+      "base": {
+        "n": "הוּא בָּא לַכִּיתָּה.",
+        "u": "הוא בא לכיתה."
+      },
+      "demana": "que vingui a l'habitació",
+      "opcions": [
+        "הוּא בָּא לַחֶדֶר.",
+        "הוּא בָּא בַּחֶדֶר.",
+        "הוּא בָּא מֵהַחֶדֶר."
+      ],
+      "correcta": 0,
+      "id": "u05-ex-4"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-29 ex. 16.2",
+      "extra": false,
+      "linies": [
+        "pag-29-b3-l1"
+      ],
+      "base": {
+        "n": "הוּא בָּא לַכִּיתָּה.",
+        "u": "הוא בא לכיתה."
+      },
+      "demana": "que vingui a Israel",
+      "opcions": [
+        "הוּא בָּא בְּיִשְׂרָאֵל.",
+        "הוּא בָּא מִיִּשְׂרָאֵל.",
+        "הוּא בָּא לְיִשְׂרָאֵל."
+      ],
+      "correcta": 2,
+      "id": "u05-ex-5"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-29 ex. 16.2",
+      "extra": false,
+      "linies": [
+        "pag-29-b3-l1"
+      ],
+      "base": {
+        "n": "הוּא בָּא לַכִּיתָּה.",
+        "u": "הוא בא לכיתה."
+      },
+      "demana": "que vingui cap a casa",
+      "opcions": [
+        "הוּא בָּא הַבַּיְתָה.",
+        "הוּא בָּא לְהַבַּיְתָה.",
+        "הוּא בָּא בַּבַּיִת."
+      ],
+      "correcta": 0,
+      "id": "u05-ex-6"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-29 ex. 16.3",
+      "extra": false,
+      "linies": [
+        "pag-29-b3-l2"
+      ],
+      "base": {
+        "n": "סְטִיב הוֹלֵךְ לָעֲבוֹדָה.",
+        "u": "סטיב הולך לעבודה."
+      },
+      "demana": "amb יִצְחָק וַאֲנִי",
+      "opcions": [
+        "יִצְחָק וַאֲנִי הוֹלֵךְ לָעֲבוֹדָה.",
+        "יִצְחָק וַאֲנִי הוֹלְכִים לָעֲבוֹדָה.",
+        "יִצְחָק וַאֲנִי הוֹלְכוֹת לָעֲבוֹדָה."
+      ],
+      "correcta": 1,
+      "id": "u05-ex-7"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-29 ex. 16.3",
+      "extra": false,
+      "linies": [
+        "pag-29-b3-l2"
+      ],
+      "base": {
+        "n": "סְטִיב הוֹלֵךְ לָעֲבוֹדָה.",
+        "u": "סטיב הולך לעבודה."
+      },
+      "demana": "amb הַמּוֹרוֹת",
+      "opcions": [
+        "הַמּוֹרוֹת הוֹלְכוֹת לָעֲבוֹדָה.",
+        "הַמּוֹרוֹת הוֹלְכִים לָעֲבוֹדָה.",
+        "הַמּוֹרוֹת הוֹלֶכֶת לָעֲבוֹדָה."
+      ],
+      "correcta": 0,
+      "id": "u05-ex-8"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-29 ex. 16.3",
+      "extra": false,
+      "linies": [
+        "pag-29-b3-l2"
+      ],
+      "base": {
+        "n": "סְטִיב הוֹלֵךְ לָעֲבוֹדָה.",
+        "u": "סטיב הולך לעבודה."
+      },
+      "demana": "amb חַנָּה",
+      "opcions": [
+        "חַנָּה הוֹלֵךְ לָעֲבוֹדָה.",
+        "חַנָּה הוֹלְכוֹת לָעֲבוֹדָה.",
+        "חַנָּה הוֹלֶכֶת לָעֲבוֹדָה."
+      ],
+      "correcta": 2,
+      "id": "u05-ex-9"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-29 ex. 16.4",
+      "extra": false,
+      "linies": [
+        "pag-29-b3-l3"
+      ],
+      "base": {
+        "n": "מֵאַיִן אַתָּה בָּא וּלְאָן אַתָּה הוֹלֵךְ?",
+        "u": "מאין אתה בא ולאן אתה הולך?"
+      },
+      "demana": "amb אַתֶּם",
+      "opcions": [
+        "מֵאַיִן אַתֶּם בָּאִים וּלְאָן אַתֶּם הוֹלְכִים?",
+        "מֵאַיִן אַתֶּם בָּאוֹת וּלְאָן אַתֶּם הוֹלְכוֹת?",
+        "מֵאַיִן אַתֶּם בָּא וּלְאָן אַתֶּם הוֹלֵךְ?"
+      ],
+      "correcta": 0,
+      "id": "u05-ex-10"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-29 ex. 16.4",
+      "extra": false,
+      "linies": [
+        "pag-29-b3-l3"
+      ],
+      "base": {
+        "n": "מֵאַיִן אַתָּה בָּא וּלְאָן אַתָּה הוֹלֵךְ?",
+        "u": "מאין אתה בא ולאן אתה הולך?"
+      },
+      "demana": "amb אַתְּ",
+      "opcions": [
+        "מֵאַיִן אַתְּ בָּא וּלְאָן אַתְּ הוֹלֵךְ?",
+        "מֵאַיִן אַתְּ בָּאָה וּלְאָן אַתְּ הוֹלֶכֶת?",
+        "מֵאַיִן אַתְּ בָּאוֹת וּלְאָן אַתְּ הוֹלְכוֹת?"
+      ],
+      "correcta": 1,
+      "id": "u05-ex-11"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-29 ex. 16.4",
+      "extra": false,
+      "linies": [
+        "pag-29-b3-l3"
+      ],
+      "base": {
+        "n": "מֵאַיִן אַתָּה בָּא וּלְאָן אַתָּה הוֹלֵךְ?",
+        "u": "מאין אתה בא ולאן אתה הולך?"
+      },
+      "demana": "amb אַתֶּן",
+      "opcions": [
+        "מֵאַיִן אַתֶּן בָּאִים וּלְאָן אַתֶּן הוֹלְכִים?",
+        "מֵאַיִן אַתֶּן בָּאָה וּלְאָן אַתֶּן הוֹלֶכֶת?",
+        "מֵאַיִן אַתֶּן בָּאוֹת וּלְאָן אַתֶּן הוֹלְכוֹת?"
+      ],
+      "correcta": 2,
+      "id": "u05-ex-12"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-29 ex. 16.4",
+      "extra": false,
+      "linies": [
+        "pag-29-b3-l3"
+      ],
+      "base": {
+        "n": "מֵאַיִן אַתָּה בָּא וּלְאָן אַתָּה הוֹלֵךְ?",
+        "u": "מאין אתה בא ולאן אתה הולך?"
+      },
+      "demana": "amb חַנָּה (i הִיא a la segona part)",
+      "opcions": [
+        "מֵאַיִן חַנָּה בָּא וּלְאָן הִיא הוֹלֵךְ?",
+        "מֵאַיִן חַנָּה בָּאָה וּלְאָן הִיא הוֹלֶכֶת?",
+        "מֵאַיִן חַנָּה בָּאִים וּלְאָן הִיא הוֹלְכִים?"
+      ],
+      "correcta": 1,
+      "id": "u05-ex-13"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-32 ex. 17.1",
+      "extra": false,
+      "linies": [
+        "pag-32-b1-l0"
+      ],
+      "frase": {
+        "u": "____ היא הולכת? – היא הולכת לאופרה.",
+        "n": "____ הִיא הוֹלֶכֶת? – הִיא הוֹלֶכֶת לָאוֹפֵּרָה."
+      },
+      "opcions": [
+        "אֵיפֹה",
+        "מֵאַיִן",
+        "לְאָן"
+      ],
+      "correcta": 2,
+      "retro": "Va cap a un lloc (לְ־): לְאָן.",
+      "id": "u05-ex-14"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-32 ex. 17.2",
+      "extra": false,
+      "linies": [
+        "pag-32-b1-l1"
+      ],
+      "frase": {
+        "u": "____ היא עובדת? – היא עובדת בבנק.",
+        "n": "____ הִיא עוֹבֶדֶת? – הִיא עוֹבֶדֶת בַּבַּנְק."
+      },
+      "opcions": [
+        "אֵיפֹה",
+        "מֵאַיִן",
+        "לְאָן"
+      ],
+      "correcta": 0,
+      "retro": "Treballar és estar en un lloc (בְּ־): אֵיפֹה.",
+      "id": "u05-ex-15"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-32 ex. 17.3",
+      "extra": false,
+      "linies": [
+        "pag-32-b1-l2"
+      ],
+      "frase": {
+        "u": "____ היא באה? – היא באה מהבית.",
+        "n": "____ הִיא בָּאָה? – הִיא בָּאָה מֵהַבַּיִת."
+      },
+      "opcions": [
+        "אֵיפֹה",
+        "מֵאַיִן",
+        "לְאָן"
+      ],
+      "correcta": 1,
+      "retro": "Ve d'un lloc (מִ־): מֵאַיִן.",
+      "id": "u05-ex-16"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-32 ex. 17.4",
+      "extra": false,
+      "linies": [
+        "pag-32-b1-l3"
+      ],
+      "frase": {
+        "u": "____ היא הולכת? – היא הולכת הביתה.",
+        "n": "____ הִיא הוֹלֶכֶת? – הִיא הוֹלֶכֶת הַבַּיְתָה."
+      },
+      "opcions": [
+        "אֵיפֹה",
+        "מֵאַיִן",
+        "לְאָן"
+      ],
+      "correcta": 2,
+      "retro": "הַבַּיְתָה respon a לְאָן: cap a casa.",
+      "id": "u05-ex-17"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-32 ex. 17.5",
+      "extra": false,
+      "linies": [
+        "pag-32-b1-l4"
+      ],
+      "frase": {
+        "u": "____ זה? – זה מרוסיה.",
+        "n": "____ זֶה? – זֶה מֵרוּסְיָה."
+      },
+      "opcions": [
+        "אֵיפֹה",
+        "מֵאַיִן",
+        "לְאָן"
+      ],
+      "correcta": 1,
+      "retro": "La procedència (מֵרוּסְיָה) es pregunta amb מֵאַיִן.",
+      "id": "u05-ex-18"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-32 ex. 17.6",
+      "extra": false,
+      "linies": [
+        "pag-32-b1-l5"
+      ],
+      "frase": {
+        "u": "____ זה? – זה בבית.",
+        "n": "____ זֶה? – זֶה בַּבַּיִת."
+      },
+      "opcions": [
+        "אֵיפֹה",
+        "מֵאַיִן",
+        "לְאָן"
+      ],
+      "correcta": 0,
+      "retro": "Sense moviment (בַּבַּיִת): אֵיפֹה.",
+      "id": "u05-ex-19"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-32 ex. 17.7",
+      "extra": false,
+      "linies": [
+        "pag-32-b1-l6"
+      ],
+      "frase": {
+        "u": "____ הם באים? – הם באים לכיתה.",
+        "n": "____ הֵם בָּאִים? – הֵם בָּאִים לַכִּיתָּה."
+      },
+      "opcions": [
+        "אֵיפֹה",
+        "מֵאַיִן",
+        "לְאָן"
+      ],
+      "correcta": 2,
+      "retro": "Venen cap a la classe (לַ־): לְאָן.",
+      "id": "u05-ex-20"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-32 ex. 17.8",
+      "extra": false,
+      "linies": [
+        "pag-32-b1-l7"
+      ],
+      "frase": {
+        "u": "____ הם באים? – הם באים מהכיתה.",
+        "n": "____ הֵם בָּאִים? – הֵם בָּאִים מֵהַכִּיתָּה."
+      },
+      "opcions": [
+        "אֵיפֹה",
+        "מֵאַיִן",
+        "לְאָן"
+      ],
+      "correcta": 1,
+      "retro": "Venen de la classe (מֵ־): מֵאַיִן.",
+      "id": "u05-ex-21"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-32 ex. 17.9",
+      "extra": false,
+      "linies": [
+        "pag-32-b1-l8"
+      ],
+      "frase": {
+        "u": "____ הן לומדות? – הן לומדות בחיפה.",
+        "n": "____ הֵן לוֹמְדוֹת? – הֵן לוֹמְדוֹת בְּחֵיפָה."
+      },
+      "opcions": [
+        "אֵיפֹה",
+        "מֵאַיִן",
+        "לְאָן"
+      ],
+      "correcta": 0,
+      "retro": "Estudiar en un lloc (בְּחֵיפָה): אֵיפֹה.",
+      "id": "u05-ex-22"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-32 ex. 18.1",
+      "extra": false,
+      "linies": [
+        "pag-32-b3-l0"
+      ],
+      "enunciat": {
+        "n": "רוֹבֶּרְטוֹ גָּר ____קִיבּוּץ דָּן. ____קִיבּוּץ יֵשׁ אוּלְפָּן.",
+        "u": "רוברטו גר ____קיבוץ דן. ____קיבוץ יש אולפן."
+      },
+      "model": {
+        "n": "רוֹבֶּרְטוֹ גָּר בְּקִיבּוּץ דָּן. בַּקִּיבּוּץ יֵשׁ אוּלְפָּן.",
+        "u": "רוברטו גר בקיבוץ דן. בקיבוץ יש אולפן."
+      },
+      "id": "u05-ex-23"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-32 ex. 18.2",
+      "extra": false,
+      "linies": [
+        "pag-32-b3-l1"
+      ],
+      "enunciat": {
+        "n": "רוֹבֶּרְטוֹ בָּא ____קִיבּוּץ דָּן בְּפֶבְּרוּאָר.",
+        "u": "רוברטו בא ____קיבוץ דן בפברואר."
+      },
+      "model": {
+        "n": "רוֹבֶּרְטוֹ בָּא לְקִיבּוּץ דָּן בְּפֶבְּרוּאָר.",
+        "u": "רוברטו בא לקיבוץ דן בפברואר."
+      },
+      "id": "u05-ex-24"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-32 ex. 18.3",
+      "extra": false,
+      "linies": [
+        "pag-32-b3-l2"
+      ],
+      "enunciat": {
+        "n": "הֵם לוֹמְדִים עִבְרִית ____אוּלְפַּן-עֲבוֹדָה ____קִיבּוּץ.",
+        "u": "הם לומדים עברית ____אולפן-עבודה ____קיבוץ."
+      },
+      "model": {
+        "n": "הֵם לוֹמְדִים עִבְרִית בְּאוּלְפַּן-עֲבוֹדָה בַּקִּיבּוּץ.",
+        "u": "הם לומדים עברית באולפן-עבודה בקיבוץ."
+      },
+      "id": "u05-ex-25"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-32 ex. 18.4",
+      "extra": false,
+      "linies": [
+        "pag-32-b3-l3"
+      ],
+      "enunciat": {
+        "n": "הַרְבֵּה תַּייָּרִים בָּאִים ____יִשְׂרָאֵל ____אַפְּרִיל.",
+        "u": "הרבה תיירים באים ____ישראל ____אפריל."
+      },
+      "model": {
+        "n": "הַרְבֵּה תַּייָּרִים בָּאִים לְיִשְׂרָאֵל בְּאַפְּרִיל.",
+        "u": "הרבה תיירים באים לישראל באפריל."
+      },
+      "id": "u05-ex-26"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-32 ex. 18.5",
+      "extra": false,
+      "linies": [
+        "pag-32-b3-l4"
+      ],
+      "enunciat": {
+        "n": "אֲנַחְנוּ הוֹלְכִים עַכְשָׁיו ____כִּיתָּה וְהֵם הוֹלְכִים ____עֲבוֹדָה.",
+        "u": "אנחנו הולכים עכשיו ____כיתה והם הולכים ____עבודה."
+      },
+      "model": {
+        "n": "אֲנַחְנוּ הוֹלְכִים עַכְשָׁיו לַכִּיתָּה וְהֵם הוֹלְכִים לָעֲבוֹדָה.",
+        "u": "אנחנו הולכים עכשיו לכיתה והם הולכים לעבודה."
+      },
+      "id": "u05-ex-27"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-32 ex. 18.6",
+      "extra": false,
+      "linies": [
+        "pag-32-b3-l5"
+      ],
+      "enunciat": {
+        "n": "יִצְחָק לֹא ____בַּיִת, אֲבָל שָׂרָה ____בַּיִת.",
+        "u": "יצחק לא ____בית, אבל שרה ____בית."
+      },
+      "model": {
+        "n": "יִצְחָק לֹא בַּבַּיִת, אֲבָל שָׂרָה בַּבַּיִת.",
+        "u": "יצחק לא בבית, אבל שרה בבית."
+      },
+      "id": "u05-ex-28"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-32 ex. 18.7",
+      "extra": false,
+      "linies": [
+        "pag-32-b3-l6"
+      ],
+      "enunciat": {
+        "n": "סְטִיב הוֹלֵךְ ____חֶדֶר שֶׁל רוֹבֶּרְטוֹ.",
+        "u": "סטיב הולך ____חדר של רוברטו."
+      },
+      "model": {
+        "n": "סְטִיב הוֹלֵךְ לַחֶדֶר שֶׁל רוֹבֶּרְטוֹ.",
+        "u": "סטיב הולך לחדר של רוברטו."
+      },
+      "id": "u05-ex-29"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-32 ex. 18.8",
+      "extra": false,
+      "linies": [
+        "pag-32-b3-l7"
+      ],
+      "enunciat": {
+        "n": "יֵשׁ הַרְבֵּה אוּלְפָּנִים ____קִיבּוּצִים.",
+        "u": "יש הרבה אולפנים ____קיבוצים."
+      },
+      "model": {
+        "n": "יֵשׁ הַרְבֵּה אוּלְפָּנִים בַּקִּיבּוּצִים.",
+        "u": "יש הרבה אולפנים בקיבוצים."
+      },
+      "id": "u05-ex-30"
+    },
+    {
+      "tipus": "forat",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-28-b0-l5"
+      ],
+      "frase": {
+        "u": "לא, בדרום-אמריקה ____ קיבוצים.",
+        "n": "לֹא, בִּדְרוֹם-אֲמֶרִיקָה ____ קִיבּוּצִים."
+      },
+      "opcions": [
+        "יֵשׁ",
+        "אֵין",
+        "לֹא"
+      ],
+      "correcta": 1,
+      "retro": "No hi ha: אֵין, mai לֹא davant del nom.",
+      "id": "u05-ex-31"
+    },
+    {
+      "tipus": "forat",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-28-b0-l11"
+      ],
+      "frase": {
+        "u": "באולפן, בקיבוץ דן יש ____ שלוש כיתות.",
+        "n": "בָּאוּלְפָּן, בְּקִיבּוּץ דָּן יֵשׁ ____ שָׁלוֹשׁ כִּיתּוֹת."
+      },
+      "opcions": [
+        "רַק",
+        "מְעַט",
+        "הַרְבֵּה"
+      ],
+      "correcta": 0,
+      "retro": "Davant d'un nombre: רַק (només) שָׁלוֹשׁ כִּיתּוֹת.",
+      "id": "u05-ex-32"
+    },
+    {
+      "tipus": "forat",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-28-b0-l15"
+      ],
+      "frase": {
+        "u": "גם מברזיל יש רק ____ תלמידים.",
+        "n": "גַּם מִבְּרָזִיל יֵשׁ רַק ____ תַּלְמִידִים."
+      },
+      "opcions": [
+        "מְעַט",
+        "הַרְבֵּה",
+        "אֵין"
+      ],
+      "correcta": 0,
+      "retro": "Només pocs: רַק מְעַט.",
+      "id": "u05-ex-33"
+    },
+    {
+      "tipus": "forat",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-30-b1-l3"
+      ],
+      "frase": {
+        "u": "גם דינה ____ לקונצרט?",
+        "n": "גַּם דִּינָה ____ לַקּוֹנְצֶרְט?"
+      },
+      "opcions": [
+        "הוֹלֵךְ",
+        "הוֹלֶכֶת",
+        "הוֹלְכִים",
+        "הוֹלְכוֹת"
+      ],
+      "correcta": 1,
+      "retro": "La Dina és una dona: הוֹלֶכֶת.",
+      "id": "u05-ex-34"
+    },
+    {
+      "tipus": "forat",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-30-b1-l1"
+      ],
+      "frase": {
+        "u": "אני הולך לתיאטרון, גם את ____ לתיאטרון?",
+        "n": "אֲנִי הוֹלֵךְ לַתֵּיאַטְרוֹן, גַּם אַתְּ ____ לַתֵּיאַטְרוֹן?"
+      },
+      "opcions": [
+        "בָּא",
+        "בָּאָה",
+        "בָּאִים",
+        "בָּאוֹת"
+      ],
+      "correcta": 1,
+      "retro": "Es parla a una dona (אַתְּ): בָּאָה.",
+      "id": "u05-ex-35"
+    },
+    {
+      "tipus": "forat",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-31-b1-l1",
+        "pag-31-b1-l2"
+      ],
+      "frase": {
+        "u": "איפה רחל? – רחל ____.",
+        "n": "אֵיפֹה רָחֵל? – רָחֵל ____."
+      },
+      "opcions": [
+        "בַּבַּיִת",
+        "הַבַּיְתָה",
+        "לַבַּיִת"
+      ],
+      "correcta": 0,
+      "retro": "אֵיפֹה, sense moviment: בַּבַּיִת.",
+      "id": "u05-ex-36"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-31-b1-l2",
+        "pag-31-b1-l5"
+      ],
+      "base": {
+        "n": "רָחֵל בַּבַּיִת.",
+        "u": "רחל בבית."
+      },
+      "demana": "la Rakhel va cap a casa",
+      "opcions": [
+        "רָחֵל הוֹלֶכֶת הַבַּיְתָה.",
+        "רָחֵל הוֹלֶכֶת בַּבַּיִת.",
+        "רָחֵל הוֹלֶכֶת לְהַבַּיְתָה."
+      ],
+      "correcta": 0,
+      "id": "u05-ex-37"
+    },
+    {
+      "tipus": "comprensio",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-28-b0-l10",
+        "pag-28-b0-l11"
+      ],
+      "text": "בָּאוּלְפָּן יֵשׁ הַרְבֵּה כִּיתּוֹת? — לֹא, בָּאוּלְפָּן, בְּקִיבּוּץ דָּן יֵשׁ רַק שָׁלוֹשׁ כִּיתּוֹת.",
+      "pregunta": "Quantes classes té l'ulpan del quibuts Dan?",
+      "opcions": [
+        "Moltes",
+        "Només tres",
+        "Cap"
+      ],
+      "correcta": 1,
+      "id": "u05-ex-38"
+    },
+    {
+      "tipus": "comprensio",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-28-b0-l16",
+        "pag-28-b0-l17"
+      ],
+      "text": "בָּאוּלְפָּן יֵשׁ מוֹרִים, אוֹ מוֹרוֹת? — בָּאוּלְפָּן בְּקִיבּוּץ דָּן יֵשׁ רַק מוֹרוֹת.",
+      "pregunta": "Qui fa classe a l'ulpan del quibuts Dan?",
+      "opcions": [
+        "Només mestres homes",
+        "Només mestres dones",
+        "Mestres homes i dones"
+      ],
+      "correcta": 1,
+      "id": "u05-ex-39"
+    },
+    {
+      "tipus": "comprensio",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-30-b1-l0",
+        "pag-30-b1-l1",
+        "pag-30-b1-l2"
+      ],
+      "text": "אֶסְתֵּר: יוֹסִי, לְאָן אַתָּה הוֹלֵךְ? — יוֹסִי: אֲנִי הוֹלֵךְ לַתֵּיאַטְרוֹן, גַּם אַתְּ בָּאָה לַתֵּיאַטְרוֹן? — אֶסְתֵּר: לֹא, אֲנִי הוֹלֶכֶת לַקּוֹנְצֶרְט.",
+      "pregunta": "On va l'Ester?",
+      "opcions": [
+        "Al teatre",
+        "Al concert",
+        "A l'ulpan"
+      ],
+      "correcta": 1,
+      "id": "u05-ex-40"
+    },
+    {
+      "tipus": "construir",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-28-b0-l11"
+      ],
+      "ca": "només tres classes",
+      "fitxes": [
+        "רַק",
+        "שָׁלוֹשׁ",
+        "כִּיתּוֹת",
+        "הַרְבֵּה",
+        "כִּיתָּה"
+      ],
+      "ordre": [
+        0,
+        1,
+        2
+      ],
+      "id": "u05-ex-41"
+    },
+    {
+      "tipus": "construir",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-28-b0-l12"
+      ],
+      "ca": "molts alumnes dels Estats Units",
+      "fitxes": [
+        "הַרְבֵּה",
+        "תַּלְמִידִים",
+        "מֵאַרְצוֹת-הַבְּרִית",
+        "מְעַט",
+        "בְּאַרְצוֹת-הַבְּרִית"
+      ],
+      "ordre": [
+        0,
+        1,
+        2
+      ],
+      "id": "u05-ex-42"
+    }
+  ]
 }

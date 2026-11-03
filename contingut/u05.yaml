@@ -1,2 +1,436 @@
-# Capa curada de la unitat 5: icones, textos, gramatica, exercicis, extres.
+# Capa curada de la unitat 5: icones, textos, gramàtica, exercicis.
 # Format: vegeu scripts/genera-contingut.ts (tipus Curat).
+# Vocals verificades amb els TSV (u01-u05) i la fitxa u05-anar-i-venir del dossier, i amb Pealim
+# (הוֹלֵךְ i בָּא: present, infinitiu i passat; תֵּיאַטְרוֹן, מוּזֵיאוֹן, בַּנְק) i Wiktionary (אוֹפֵּרָה,
+# פֶבְּרוּאָר, אַפְּרִיל). קוֹנְצֶרְט amb segol, com la fitxa del dossier (Wiktionary: קוֹנְצֵרְט; sona igual).
+# Grafia plena amb vocals (R19): כִּיתָּה, כִּיתּוֹת, שִׁיעוּר, קִיבּוּץ, בַּמִּילִּים.
+# Article contret amb la preposició segons el sentit: לַכִּיתָּה, לַשִּׁיעוּר, לַתֵּיאַטְרוֹן, לַקּוֹנְצֶרְט, לָעֲבוֹדָה,
+# לָאוֹפֵּרָה, בַּבַּנְק (amb article); לְקִיבּוּץ דָּן, בְּחֵיפָה, לְיִשְׂרָאֵל (noms propis, sense).
+# Dagesh darrere de מַה (מַה יֵּשׁ), com a la u04.
+# Als buits de l'ex. 18 el mot es puntua en forma de citació (____קִיבּוּץ), sense prejutjar la preposició.
+# Les línies «per comprovar» (⁇) no porten vocals ni traducció (pag-30-b1-l6). El títol de la pag-28 (⁇) no es toca.
+# Sense vocals: pag-29-b2-l0 (תרגיל המרה, com a la u03).
+# Línies que el dossier ja dona amb vocals (pag-29-b1, pag-30-b0, pag-31-b0-l1): només traducció.
+
+textos:
+  pag-28-b0:
+    vocals:
+      0: "אֵיפֹה אַתָּה גָּר, רוֹבֶּרְטוֹ?"
+      1: "אֲנִי גָּר בְּקִיבּוּץ דָּן בַּגָּלִיל."
+      2: "בַּגָּלִיל יֵשׁ הַרְבֵּה קִיבּוּצִים?"
+      3: "כֵּן, בַּגָּלִיל יֵשׁ הַרְבֵּה קִיבּוּצִים."
+      4: "גַּם בִּדְרוֹם-אֲמֶרִיקָה יֵשׁ קִיבּוּצִים?"
+      5: "לֹא, בִּדְרוֹם-אֲמֶרִיקָה אֵין קִיבּוּצִים."
+      6: "בְּקִיבּוּץ דָּן יֵשׁ אוּלְפָּן?"
+      7: "כֵּן, בְּקִיבּוּץ דָּן יֵשׁ אוּלְפַּן-עֲבוֹדָה."
+      8: "אַתָּה לוֹמֵד בָּאוּלְפָּן בְּקִיבּוּץ דָּן?"
+      9: "כֵּן, אֲנִי לוֹמֵד שָׁם."
+      10: "בָּאוּלְפָּן יֵשׁ הַרְבֵּה כִּיתּוֹת?"
+      11: "לֹא, בָּאוּלְפָּן, בְּקִיבּוּץ דָּן יֵשׁ רַק שָׁלוֹשׁ כִּיתּוֹת."
+      12: "יֵשׁ בָּאוּלְפָּן הַרְבֵּה תַּלְמִידִים מֵאַרְצוֹת-הַבְּרִית?"
+      13: "לֹא, מֵאַרְצוֹת-הַבְּרִית אֵין הַרְבֵּה."
+      14: "וּמִבְּרָזִיל?"
+      15: "גַּם מִבְּרָזִיל יֵשׁ רַק מְעַט תַּלְמִידִים."
+      16: "בָּאוּלְפָּן יֵשׁ מוֹרִים, אוֹ מוֹרוֹת?"
+      17: "בָּאוּלְפָּן בְּקִיבּוּץ דָּן יֵשׁ רַק מוֹרוֹת."
+      18: "הַכִּיתָּה גְּדוֹלָה? הִיא יָפָה?"
+      19: "כָּכָה-כָּכָה."
+    ca:
+      0: "On vius, Roberto?"
+      1: "Visc al quibuts Dan, a Galilea."
+      2: "A Galilea hi ha molts quibutsos?"
+      3: "Sí, a Galilea hi ha molts quibutsos."
+      4: "També hi ha quibutsos a Sud-amèrica?"
+      5: "No, a Sud-amèrica no hi ha quibutsos."
+      6: "Al quibuts Dan hi ha ulpan?"
+      7: "Sí, al quibuts Dan hi ha un ulpan de treball."
+      8: "Estudies a l'ulpan del quibuts Dan?"
+      9: "Sí, hi estudio."
+      10: "A l'ulpan hi ha moltes classes?"
+      11: "No, a l'ulpan del quibuts Dan només hi ha tres classes."
+      12: "Hi ha molts alumnes dels Estats Units a l'ulpan?"
+      13: "No, dels Estats Units no n'hi ha gaires."
+      14: "I del Brasil?"
+      15: "Del Brasil també només hi ha pocs alumnes."
+      16: "A l'ulpan hi ha mestres homes o mestres dones?"
+      17: "A l'ulpan del quibuts Dan només hi ha mestres dones."
+      18: "La classe és gran? És bonica?"
+      19: "Així així."
+  pag-29-b0:
+    vocals:
+      0: "מַה יֵּשׁ בַּכִּיתָּה?"
+      1: "סְלִיחָה, עַכְשָׁיו יֵשׁ שִׁיעוּר. שָׁלוֹם! אֲנִי הוֹלֵךְ לַכִּיתָּה."
+      2: "גַּם אַתָּה בָּא לַכִּיתָּה?"
+      3: "לֹא."
+      4: "לְאָן אַתָּה הוֹלֵךְ?"
+      5: "אֲנִי הוֹלֵךְ הַבַּיְתָה. לְהִתְרָאוֹת!"
+      6: "לְהִתְרָאוֹת!"
+    ca:
+      0: "Què hi ha a la classe?"
+      1: "Perdó, ara hi ha classe. Adéu! Vaig a classe."
+      2: "Tu també vens a classe?"
+      3: "No."
+      4: "On vas?"
+      5: "Vaig cap a casa. A reveure!"
+      6: "A reveure!"
+  pag-29-b1:
+    ca:
+      0: "anar, en present: m. sg. · f. sg. · m. pl. · f. pl."
+      1: "venir, en present: m. sg. · f. sg. · m. pl. · f. pl."
+  pag-29-b2:
+    ca:
+      0: "Exercici de substitució"
+  pag-29-b3:
+    vocals:
+      0: "1. [חַנָּה] בָּאָה לַשִּׁיעוּר. (יִצְחָק, שָׂרָה וְשׁוֹשַׁנָּה, הַתַּלְמִידִים)"
+      1: "2. הוּא בָּא [לַכִּיתָּה]. (מִתֵּל-אָבִיב, לַחֶדֶר, לְיִשְׂרָאֵל, הַבַּיְתָה)"
+      2: "3. [סְטִיב] הוֹלֵךְ לָעֲבוֹדָה. (יִצְחָק וַאֲנִי, הַמּוֹרוֹת, חַנָּה)"
+      3: "4. מֵאַיִן [אַתָּה] בָּא וּלְאָן אַתָּה הוֹלֵךְ? (אַתֶּם, אַתְּ, אַתֶּן, חַנָּה)"
+    ca:
+      0: "1. [La Hanà] ve a classe. (l'Itshak, la Sara i la Xoixanà, els alumnes)"
+      1: "2. Ell ve [a classe]. (de Tel Aviv, a l'habitació, a Israel, cap a casa)"
+      2: "3. [L'Steve] va a la feina. (l'Itshak i jo, les mestres, la Hanà)"
+      3: "4. D'on vens [tu] i on vas? (vosaltres, tu a una dona, vosaltres a dones, la Hanà)"
+  pag-30-b0:
+    ca:
+      0: "Cap a on?"
+      1: "le- · la- (amb l'article)"
+  pag-30-b1:
+    vocals:
+      0: "יוֹסִי, לְאָן אַתָּה הוֹלֵךְ?"
+      1: "אֲנִי הוֹלֵךְ לַתֵּיאַטְרוֹן, גַּם אַתְּ בָּאָה לַתֵּיאַטְרוֹן?"
+      2: "לֹא, אֲנִי הוֹלֶכֶת לַקּוֹנְצֶרְט."
+      3: "גַּם דִּינָה הוֹלֶכֶת לַקּוֹנְצֶרְט?"
+      4: "לֹא."
+      5: "לְאָן הִיא הוֹלֶכֶת?"
+    ca:
+      0: "Iossi, on vas?"
+      1: "Vaig al teatre. Tu també vens al teatre?"
+      2: "No, vaig al concert."
+      3: "La Dina també va al concert?"
+      4: "No."
+      5: "On va?"
+  pag-30-b2:
+    vocals:
+      0: "רוֹבֶּרְטוֹ בָּא מִבְּרָזִיל לְקִיבּוּץ דָּן."
+      1: "הוּא בָּא לַקִּיבּוּץ בְּפֶבְּרוּאָר."
+    ca:
+      0: "El Roberto va venir del Brasil al quibuts Dan."
+      1: "Va arribar al quibuts al febrer."
+  pag-30-b3:
+    vocals:
+      0: "רוֹבֶּרְטוֹ גָּר עַכְשָׁיו בְּקִיבּוּץ דָּן."
+      1: "בַּקִּיבּוּץ הוּא עוֹבֵד וְלוֹמֵד."
+    ca:
+      0: "Ara el Roberto viu al quibuts Dan."
+      1: "Al quibuts treballa i estudia."
+  pag-31-b0:
+    vocals:
+      0: "מֵאַיִן...? · אֵיפֹה...? · לְאָן...?"
+    ca:
+      0: "D'on...? · On...? · Cap a on...?"
+      1: "mi-, me- (de) · be-, ba- (a, en) · le-, la- (a, cap a)"
+  pag-31-b1:
+    vocals:
+      0: "זֶה הַבַּיִת שֶׁל רָחֵל וְיַעֲקֹב."
+      1: "אֵיפֹה רָחֵל?"
+      2: "רָחֵל בַּבַּיִת."
+      3: "לְאָן הוֹלְכִים רוֹבֶּרְטוֹ וְיַעֲקֹב?"
+      4: "רוֹבֶּרְטוֹ הוֹלֵךְ לַבַּיִת שֶׁל רָחֵל וְיַעֲקֹב."
+      5: "יַעֲקֹב הוֹלֵךְ הַבַּיְתָה."
+    ca:
+      0: "Aquesta és la casa de la Rakhel i el Iaakov."
+      1: "On és la Rakhel?"
+      2: "La Rakhel és a casa."
+      3: "On van el Roberto i el Iaakov?"
+      4: "El Roberto va a casa de la Rakhel i el Iaakov."
+      5: "El Iaakov va cap a casa."
+  pag-31-b2:
+    vocals:
+      0: "הוּא ← לוֹמֵד / עוֹבֵד / גָּר"
+      1: "בְּ / בַּ ← אוּלְפָּן, קִיבּוּץ"
+      2: "בְּ ← יִשְׂרָאֵל, חֵיפָה"
+      3: "הוּא ← הוֹלֵךְ / בָּא"
+      4: "לְ / לַ ← קוֹנְצֶרְט, כִּיתָּה, מוּזֵיאוֹן"
+      5: "לְ ← קִיבּוּץ דָּן, חַנָּה"
+      6: "← הַבַּיְתָה"
+    ca:
+      0: "ell ← estudia / treballa / viu"
+      1: "be- / ba- ← ulpan, quibuts"
+      2: "be- ← Israel, Haifa"
+      3: "ell ← va / ve"
+      4: "le- / la- ← concert, classe, museu"
+      5: "le- ← quibuts Dan, Hanà"
+      6: "← cap a casa"
+  pag-32-b0:
+    vocals:
+      0: "כְּתוֹב שְׁאֵלוֹת לִתְשׁוּבוֹת. הִשְׁתַּמֵּשׁ בַּמִּילִּים: אֵיפֹה מֵאַיִן לְאָן"
+    ca:
+      0: "Escriu preguntes per a les respostes. Fes servir les paraules: on, d'on, cap a on."
+  pag-32-b1:
+    vocals:
+      0: "1. ____ — הִיא הוֹלֶכֶת לָאוֹפֵּרָה."
+      1: "2. ____ — הִיא עוֹבֶדֶת בַּבַּנְק."
+      2: "3. ____ — הִיא בָּאָה מֵהַבַּיִת."
+      3: "4. ____ — הִיא הוֹלֶכֶת הַבַּיְתָה."
+      4: "5. ____ — זֶה מֵרוּסְיָה."
+      5: "6. ____ — זֶה בַּבַּיִת."
+      6: "7. ____ — הֵם בָּאִים לַכִּיתָּה."
+      7: "8. ____ — הֵם בָּאִים מֵהַכִּיתָּה."
+      8: "9. ____ — הֵן לוֹמְדוֹת בְּחֵיפָה."
+    ca:
+      0: "1. ____ — Va a l'òpera."
+      1: "2. ____ — Treballa al banc."
+      2: "3. ____ — Ve de casa."
+      3: "4. ____ — Va cap a casa."
+      4: "5. ____ — Això és de Rússia."
+      5: "6. ____ — Això és a casa."
+      6: "7. ____ — Venen a classe."
+      7: "8. ____ — Venen de classe."
+      8: "9. ____ — Estudien a Haifa."
+  pag-32-b2:
+    vocals:
+      0: "כְּתוֹב: בְּ... בַּ... לְ... לַ..."
+    ca:
+      0: "Escriu: be-, ba-, le-, la-"
+  pag-32-b3:
+    vocals:
+      0: "1. רוֹבֶּרְטוֹ גָּר ____קִיבּוּץ דָּן. ____קִיבּוּץ יֵשׁ אוּלְפָּן."
+      1: "2. רוֹבֶּרְטוֹ בָּא ____קִיבּוּץ דָּן בְּפֶבְּרוּאָר."
+      2: "3. הֵם לוֹמְדִים עִבְרִית ____אוּלְפַּן-עֲבוֹדָה ____קִיבּוּץ."
+      3: "4. הַרְבֵּה תַּייָּרִים בָּאִים ____יִשְׂרָאֵל ____אַפְּרִיל."
+      4: "5. אֲנַחְנוּ הוֹלְכִים עַכְשָׁיו ____כִּיתָּה וְהֵם הוֹלְכִים ____עֲבוֹדָה."
+      5: "6. יִצְחָק לֹא ____בַּיִת, אֲבָל שָׂרָה ____בַּיִת."
+      6: "7. סְטִיב הוֹלֵךְ ____חֶדֶר שֶׁל רוֹבֶּרְטוֹ."
+      7: "8. יֵשׁ הַרְבֵּה אוּלְפָּנִים ____קִיבּוּצִים."
+    ca:
+      0: "1. El Roberto viu ____ quibuts Dan. ____ quibuts hi ha un ulpan."
+      1: "2. El Roberto va venir ____ quibuts Dan al febrer."
+      2: "3. Estudien hebreu ____ ulpan de treball ____ quibuts."
+      3: "4. Molts turistes venen ____ Israel ____ abril."
+      4: "5. Ara nosaltres anem ____ classe i ells van ____ feina."
+      5: "6. L'Itshak no és ____ casa, però la Sara és ____ casa."
+      6: "7. L'Steve va ____ habitació del Roberto."
+      7: "8. Hi ha molts ulpans ____ quibutsos."
+
+icones:
+  u05-0: check-square            # יֵשׁ
+  u05-1: stack                   # הַרְבֵּה
+  u05-2: prohibit                # אֵין
+  u05-3: desk                    # כִּיתָּה
+  u05-5: flag                    # אַרְצוֹת־הַבְּרִית
+  u05-6: drop                    # מְעַט
+  u05-8: presentation            # שִׁיעוּר
+  u05-9: person-simple-walk      # הוֹלֵךְ
+  u05-11: sign-in                # בָּא
+  u05-13: house-line             # הַבַּיְתָה
+  u05-15: lightning              # פּוֹעַל
+  u05-16: seal-question          # שְׁאֵלָה
+  u05-17: arrow-bend-up-left     # תְּשׁוּבָה
+
+gramatica:
+  - id: yesh-en
+    titol: "Hi ha, no hi ha: יֵשׁ i אֵין"
+    explicacio: "יֵשׁ i אֵין no canvien amb el gènere ni amb el nombre, i el lloc pot anar davant o darrere. La negació de יֵשׁ és אֵין, mai «לֹא יֵשׁ»; לֹא queda per al «no» sol de la resposta."
+    exemples:
+      - { n: "כֵּן, בַּגָּלִיל יֵשׁ הַרְבֵּה קִיבּוּצִים.", ca: "Sí, a Galilea hi ha molts quibutsos." }
+      - { n: "לֹא, בִּדְרוֹם-אֲמֶרִיקָה אֵין קִיבּוּצִים.", ca: "No, a Sud-amèrica no hi ha quibutsos." }
+      - { n: "בְּקִיבּוּץ דָּן יֵשׁ אוּלְפָּן?", ca: "Al quibuts Dan hi ha ulpan?" }
+      - { n: "יֵשׁ בָּאוּלְפָּן הַרְבֵּה תַּלְמִידִים מֵאַרְצוֹת-הַבְּרִית?", ca: "Hi ha molts alumnes dels Estats Units a l'ulpan?" }
+  - id: harbe-meat
+    titol: "Molts, pocs, només, o"
+    explicacio: "הַרְבֵּה i מְעַט van davant del nom i no concorden (הַרְבֵּה קִיבּוּצִים, הַרְבֵּה כִּיתּוֹת); הַרְבֵּה pot anar sol si el nom ja s'ha dit. רַק va just davant del que restringeix, i אוֹ uneix dues alternatives."
+    exemples:
+      - { n: "בָּאוּלְפָּן יֵשׁ הַרְבֵּה כִּיתּוֹת?", ca: "A l'ulpan hi ha moltes classes?" }
+      - { n: "לֹא, מֵאַרְצוֹת-הַבְּרִית אֵין הַרְבֵּה.", ca: "No, dels Estats Units no n'hi ha gaires." }
+      - { n: "גַּם מִבְּרָזִיל יֵשׁ רַק מְעַט תַּלְמִידִים.", ca: "Del Brasil també només hi ha pocs alumnes." }
+      - { n: "לֹא, בָּאוּלְפָּן, בְּקִיבּוּץ דָּן יֵשׁ רַק שָׁלוֹשׁ כִּיתּוֹת.", ca: "No, a l'ulpan del quibuts Dan només hi ha tres classes." }
+      - { n: "בָּאוּלְפָּן יֵשׁ מוֹרִים, אוֹ מוֹרוֹת?", ca: "A l'ulpan hi ha mestres homes o mestres dones?" }
+  - id: holekh-ba
+    titol: "Anar i venir: הוֹלֵךְ i בָּא"
+    explicacio: "El present té quatre formes, com לוֹמֵד: הוֹלֶכֶת fa el femení en ‑ֶת i בָּאָה en ‑ָה. Els infinitius són לָלֶכֶת (sense ה) i לָבוֹא; de בָּא, el present i el passat (ell) s'escriuen igual."
+    exemples:
+      - { u: "הולך · הולכת · הולכים · הולכות", n: "הוֹלֵךְ · הוֹלֶכֶת · הוֹלְכִים · הוֹלְכוֹת", ca: "va (m. sg. · f. sg. · m. pl. · f. pl.)" }
+      - { u: "בא · באה · באים · באות", n: "בָּא · בָּאָה · בָּאִים · בָּאוֹת", ca: "ve (m. sg. · f. sg. · m. pl. · f. pl.)" }
+      - { n: "לֹא, אֲנִי הוֹלֶכֶת לַקּוֹנְצֶרְט.", ca: "No, vaig al concert. (parla una dona)" }
+      - { n: "גַּם אַתְּ בָּאָה לַתֵּיאַטְרוֹן?", ca: "Tu també vens al teatre? (a una dona)" }
+      - { n: "הוֹלֵךְ - לָלֶכֶת (הָלַךְ) · בָּא - לָבוֹא (בָּא)", ca: "va – anar (va anar) · ve – venir (va venir)" }
+  - id: preguntes-lloc
+    titol: "D'on, on, cap a on: מֵאַיִן, אֵיפֹה, לְאָן"
+    explicacio: "Cada pregunta té la seva preposició: מֵאַיִן amb מִ־ (de), אֵיפֹה amb בְּ־ (quiet: גָּר, לוֹמֵד, עוֹבֵד) i לְאָן amb לְ־ (en moviment: הוֹלֵךְ, בָּא). En català diem «on» per a tot."
+    exemples:
+      - { n: "מֵאַיִן...? · אֵיפֹה...? · לְאָן...?", ca: "D'on...? · On...? · Cap a on...?" }
+      - { n: "אֵיפֹה רָחֵל? — רָחֵל בַּבַּיִת.", ca: "On és la Rakhel? — La Rakhel és a casa." }
+      - { n: "יוֹסִי, לְאָן אַתָּה הוֹלֵךְ?", ca: "Iossi, on vas?" }
+      - { n: "מֵאַיִן אַתָּה בָּא וּלְאָן אַתָּה הוֹלֵךְ?", ca: "D'on vens i on vas?" }
+      - { n: "לְאָן הוֹלְכִים רוֹבֶּרְטוֹ וְיַעֲקֹב?", ca: "On van el Roberto i el Iaakov? (el verb davant del subjecte)" }
+  - id: le-la-be-ba
+    titol: "L'article dins de בְּ i לְ"
+    explicacio: "בְּ + הַ fa בַּ i לְ + הַ fa לַ: la ה cau i la preposició en pren la vocal (בָּ, לָ davant de הָ: בָּאוּלְפָּן, לָעֲבוֹדָה). Els noms propis no porten article (לְקִיבּוּץ דָּן). Sense vocals no es veu: לקיבוץ pot ser לְ o לַ."
+    exemples:
+      - { n: "רוֹבֶּרְטוֹ בָּא מִבְּרָזִיל לְקִיבּוּץ דָּן.", ca: "El Roberto va venir del Brasil al quibuts Dan." }
+      - { n: "הוּא בָּא לַקִּיבּוּץ בְּפֶבְּרוּאָר.", ca: "Va arribar al quibuts al febrer." }
+      - { n: "רוֹבֶּרְטוֹ גָּר עַכְשָׁיו בְּקִיבּוּץ דָּן.", ca: "Ara el Roberto viu al quibuts Dan." }
+      - { n: "בַּקִּיבּוּץ הוּא עוֹבֵד וְלוֹמֵד.", ca: "Al quibuts treballa i estudia." }
+      - { n: "לְ + הַקִּיבּוּץ = לַקִּיבּוּץ · בְּ + הַקִּיבּוּץ = בַּקִּיבּוּץ", ca: "a + el quibuts = al quibuts (cap a i dins)", extra: true }
+  - id: bi-li
+    titol: "בִּ־ i לִ־ davant de xevà"
+    explicacio: "Si el mot comença amb xevà, la preposició no pot portar-ne un altre i passa a בִּ־ o לִ־. Ho fa el dossier a בִּדְרוֹם-אֲמֶרִיקָה i a לִתְשׁוּבוֹת."
+    exemples:
+      - { n: "גַּם בִּדְרוֹם-אֲמֶרִיקָה יֵשׁ קִיבּוּצִים?", ca: "També hi ha quibutsos a Sud-amèrica?" }
+      - { n: "כְּתוֹב שְׁאֵלוֹת לִתְשׁוּבוֹת.", ca: "Escriu preguntes per a les respostes." }
+  - id: babayit-habayta
+    titol: "בַּבַּיִת, לַבַּיִת, הַבַּיְתָה"
+    explicacio: "בַּבַּיִת és a casa, sense moviment; לַבַּיִת שֶׁל… és cap a la casa d'algú; הַבַּיְתָה és cap a casa (la pròpia). הַבַּיְתָה va sola, mai «לְהַבַּיְתָה», i només amb verbs de moviment."
+    exemples:
+      - { n: "רָחֵל בַּבַּיִת.", ca: "La Rakhel és a casa." }
+      - { n: "רוֹבֶּרְטוֹ הוֹלֵךְ לַבַּיִת שֶׁל רָחֵל וְיַעֲקֹב.", ca: "El Roberto va a casa de la Rakhel i el Iaakov." }
+      - { n: "יַעֲקֹב הוֹלֵךְ הַבַּיְתָה.", ca: "El Iaakov va cap a casa." }
+      - { n: "אֲנִי הוֹלֵךְ הַבַּיְתָה. לְהִתְרָאוֹת!", ca: "Vaig cap a casa. A reveure!" }
+  - id: shiur-kita
+    titol: "שִׁיעוּר i כִּיתָּה"
+    explicacio: "שִׁיעוּר és la lliçó, la sessió; כִּיתָּה és el grup i l'aula. Totes dues es diuen «classe» en català."
+    exemples:
+      - { n: "סְלִיחָה, עַכְשָׁיו יֵשׁ שִׁיעוּר. שָׁלוֹם! אֲנִי הוֹלֵךְ לַכִּיתָּה.", ca: "Perdó, ara hi ha classe. Adéu! Vaig a classe." }
+      - { n: "הַכִּיתָּה גְּדוֹלָה? הִיא יָפָה?", ca: "La classe és gran? És bonica?" }
+
+exercicis:
+  # pag-29, תרגיל 16: substitució (el subjecte o el lloc canvia; el verb concorda)
+  - { tipus: conjugar, origen: "pag-29 ex. 16.1", extra: false, linies: [pag-29-b3-l0],
+      base: { n: "חַנָּה בָּאָה לַשִּׁיעוּר.", u: "חנה באה לשיעור." }, demana: "amb יִצְחָק",
+      opcions: ["יִצְחָק בָּא לַשִּׁיעוּר.", "יִצְחָק בָּאָה לַשִּׁיעוּר.", "יִצְחָק בָּאִים לַשִּׁיעוּר."], correcta: 0 }
+  - { tipus: conjugar, origen: "pag-29 ex. 16.1", extra: false, linies: [pag-29-b3-l0],
+      base: { n: "חַנָּה בָּאָה לַשִּׁיעוּר.", u: "חנה באה לשיעור." }, demana: "amb שָׂרָה וְשׁוֹשַׁנָּה",
+      opcions: ["שָׂרָה וְשׁוֹשַׁנָּה בָּאִים לַשִּׁיעוּר.", "שָׂרָה וְשׁוֹשַׁנָּה בָּאוֹת לַשִּׁיעוּר.", "שָׂרָה וְשׁוֹשַׁנָּה בָּאָה לַשִּׁיעוּר."], correcta: 1 }
+  - { tipus: conjugar, origen: "pag-29 ex. 16.1", extra: false, linies: [pag-29-b3-l0],
+      base: { n: "חַנָּה בָּאָה לַשִּׁיעוּר.", u: "חנה באה לשיעור." }, demana: "amb הַתַּלְמִידִים",
+      opcions: ["הַתַּלְמִידִים בָּא לַשִּׁיעוּר.", "הַתַּלְמִידִים בָּאוֹת לַשִּׁיעוּר.", "הַתַּלְמִידִים בָּאִים לַשִּׁיעוּר."], correcta: 2 }
+  - { tipus: conjugar, origen: "pag-29 ex. 16.2", extra: false, linies: [pag-29-b3-l1],
+      base: { n: "הוּא בָּא לַכִּיתָּה.", u: "הוא בא לכיתה." }, demana: "que vingui de Tel Aviv",
+      opcions: ["הוּא בָּא לְתֵל-אָבִיב.", "הוּא בָּא מִתֵּל-אָבִיב.", "הוּא בָּא בְּתֵל-אָבִיב."], correcta: 1 }
+  - { tipus: conjugar, origen: "pag-29 ex. 16.2", extra: false, linies: [pag-29-b3-l1],
+      base: { n: "הוּא בָּא לַכִּיתָּה.", u: "הוא בא לכיתה." }, demana: "que vingui a l'habitació",
+      opcions: ["הוּא בָּא לַחֶדֶר.", "הוּא בָּא בַּחֶדֶר.", "הוּא בָּא מֵהַחֶדֶר."], correcta: 0 }
+  - { tipus: conjugar, origen: "pag-29 ex. 16.2", extra: false, linies: [pag-29-b3-l1],
+      base: { n: "הוּא בָּא לַכִּיתָּה.", u: "הוא בא לכיתה." }, demana: "que vingui a Israel",
+      opcions: ["הוּא בָּא בְּיִשְׂרָאֵל.", "הוּא בָּא מִיִּשְׂרָאֵל.", "הוּא בָּא לְיִשְׂרָאֵל."], correcta: 2 }
+  - { tipus: conjugar, origen: "pag-29 ex. 16.2", extra: false, linies: [pag-29-b3-l1],
+      base: { n: "הוּא בָּא לַכִּיתָּה.", u: "הוא בא לכיתה." }, demana: "que vingui cap a casa",
+      opcions: ["הוּא בָּא הַבַּיְתָה.", "הוּא בָּא לְהַבַּיְתָה.", "הוּא בָּא בַּבַּיִת."], correcta: 0 }
+  - { tipus: conjugar, origen: "pag-29 ex. 16.3", extra: false, linies: [pag-29-b3-l2],
+      base: { n: "סְטִיב הוֹלֵךְ לָעֲבוֹדָה.", u: "סטיב הולך לעבודה." }, demana: "amb יִצְחָק וַאֲנִי",
+      opcions: ["יִצְחָק וַאֲנִי הוֹלֵךְ לָעֲבוֹדָה.", "יִצְחָק וַאֲנִי הוֹלְכִים לָעֲבוֹדָה.", "יִצְחָק וַאֲנִי הוֹלְכוֹת לָעֲבוֹדָה."], correcta: 1 }
+  - { tipus: conjugar, origen: "pag-29 ex. 16.3", extra: false, linies: [pag-29-b3-l2],
+      base: { n: "סְטִיב הוֹלֵךְ לָעֲבוֹדָה.", u: "סטיב הולך לעבודה." }, demana: "amb הַמּוֹרוֹת",
+      opcions: ["הַמּוֹרוֹת הוֹלְכוֹת לָעֲבוֹדָה.", "הַמּוֹרוֹת הוֹלְכִים לָעֲבוֹדָה.", "הַמּוֹרוֹת הוֹלֶכֶת לָעֲבוֹדָה."], correcta: 0 }
+  - { tipus: conjugar, origen: "pag-29 ex. 16.3", extra: false, linies: [pag-29-b3-l2],
+      base: { n: "סְטִיב הוֹלֵךְ לָעֲבוֹדָה.", u: "סטיב הולך לעבודה." }, demana: "amb חַנָּה",
+      opcions: ["חַנָּה הוֹלֵךְ לָעֲבוֹדָה.", "חַנָּה הוֹלְכוֹת לָעֲבוֹדָה.", "חַנָּה הוֹלֶכֶת לָעֲבוֹדָה."], correcta: 2 }
+  - { tipus: conjugar, origen: "pag-29 ex. 16.4", extra: false, linies: [pag-29-b3-l3],
+      base: { n: "מֵאַיִן אַתָּה בָּא וּלְאָן אַתָּה הוֹלֵךְ?", u: "מאין אתה בא ולאן אתה הולך?" }, demana: "amb אַתֶּם",
+      opcions: ["מֵאַיִן אַתֶּם בָּאִים וּלְאָן אַתֶּם הוֹלְכִים?", "מֵאַיִן אַתֶּם בָּאוֹת וּלְאָן אַתֶּם הוֹלְכוֹת?", "מֵאַיִן אַתֶּם בָּא וּלְאָן אַתֶּם הוֹלֵךְ?"], correcta: 0 }
+  - { tipus: conjugar, origen: "pag-29 ex. 16.4", extra: false, linies: [pag-29-b3-l3],
+      base: { n: "מֵאַיִן אַתָּה בָּא וּלְאָן אַתָּה הוֹלֵךְ?", u: "מאין אתה בא ולאן אתה הולך?" }, demana: "amb אַתְּ",
+      opcions: ["מֵאַיִן אַתְּ בָּא וּלְאָן אַתְּ הוֹלֵךְ?", "מֵאַיִן אַתְּ בָּאָה וּלְאָן אַתְּ הוֹלֶכֶת?", "מֵאַיִן אַתְּ בָּאוֹת וּלְאָן אַתְּ הוֹלְכוֹת?"], correcta: 1 }
+  - { tipus: conjugar, origen: "pag-29 ex. 16.4", extra: false, linies: [pag-29-b3-l3],
+      base: { n: "מֵאַיִן אַתָּה בָּא וּלְאָן אַתָּה הוֹלֵךְ?", u: "מאין אתה בא ולאן אתה הולך?" }, demana: "amb אַתֶּן",
+      opcions: ["מֵאַיִן אַתֶּן בָּאִים וּלְאָן אַתֶּן הוֹלְכִים?", "מֵאַיִן אַתֶּן בָּאָה וּלְאָן אַתֶּן הוֹלֶכֶת?", "מֵאַיִן אַתֶּן בָּאוֹת וּלְאָן אַתֶּן הוֹלְכוֹת?"], correcta: 2 }
+  - { tipus: conjugar, origen: "pag-29 ex. 16.4", extra: false, linies: [pag-29-b3-l3],
+      base: { n: "מֵאַיִן אַתָּה בָּא וּלְאָן אַתָּה הוֹלֵךְ?", u: "מאין אתה בא ולאן אתה הולך?" }, demana: "amb חַנָּה (i הִיא a la segona part)",
+      opcions: ["מֵאַיִן חַנָּה בָּא וּלְאָן הִיא הוֹלֵךְ?", "מֵאַיִן חַנָּה בָּאָה וּלְאָן הִיא הוֹלֶכֶת?", "מֵאַיִן חַנָּה בָּאִים וּלְאָן הִיא הוֹלְכִים?"], correcta: 1 }
+
+  # pag-32, תרגיל 17: la pregunta per a cada resposta. Adaptat: es dona la resta de la pregunta
+  # (el verb de la resposta) i es tria la paraula interrogativa.
+  - { tipus: forat, origen: "pag-32 ex. 17.1", extra: false, linies: [pag-32-b1-l0],
+      frase: { u: "____ היא הולכת? – היא הולכת לאופרה.", n: "____ הִיא הוֹלֶכֶת? – הִיא הוֹלֶכֶת לָאוֹפֵּרָה." },
+      opcions: ["אֵיפֹה", "מֵאַיִן", "לְאָן"], correcta: 2, retro: "Va cap a un lloc (לְ־): לְאָן." }
+  - { tipus: forat, origen: "pag-32 ex. 17.2", extra: false, linies: [pag-32-b1-l1],
+      frase: { u: "____ היא עובדת? – היא עובדת בבנק.", n: "____ הִיא עוֹבֶדֶת? – הִיא עוֹבֶדֶת בַּבַּנְק." },
+      opcions: ["אֵיפֹה", "מֵאַיִן", "לְאָן"], correcta: 0, retro: "Treballar és estar en un lloc (בְּ־): אֵיפֹה." }
+  - { tipus: forat, origen: "pag-32 ex. 17.3", extra: false, linies: [pag-32-b1-l2],
+      frase: { u: "____ היא באה? – היא באה מהבית.", n: "____ הִיא בָּאָה? – הִיא בָּאָה מֵהַבַּיִת." },
+      opcions: ["אֵיפֹה", "מֵאַיִן", "לְאָן"], correcta: 1, retro: "Ve d'un lloc (מִ־): מֵאַיִן." }
+  - { tipus: forat, origen: "pag-32 ex. 17.4", extra: false, linies: [pag-32-b1-l3],
+      frase: { u: "____ היא הולכת? – היא הולכת הביתה.", n: "____ הִיא הוֹלֶכֶת? – הִיא הוֹלֶכֶת הַבַּיְתָה." },
+      opcions: ["אֵיפֹה", "מֵאַיִן", "לְאָן"], correcta: 2, retro: "הַבַּיְתָה respon a לְאָן: cap a casa." }
+  - { tipus: forat, origen: "pag-32 ex. 17.5", extra: false, linies: [pag-32-b1-l4],
+      frase: { u: "____ זה? – זה מרוסיה.", n: "____ זֶה? – זֶה מֵרוּסְיָה." },
+      opcions: ["אֵיפֹה", "מֵאַיִן", "לְאָן"], correcta: 1, retro: "La procedència (מֵרוּסְיָה) es pregunta amb מֵאַיִן." }
+  - { tipus: forat, origen: "pag-32 ex. 17.6", extra: false, linies: [pag-32-b1-l5],
+      frase: { u: "____ זה? – זה בבית.", n: "____ זֶה? – זֶה בַּבַּיִת." },
+      opcions: ["אֵיפֹה", "מֵאַיִן", "לְאָן"], correcta: 0, retro: "Sense moviment (בַּבַּיִת): אֵיפֹה." }
+  - { tipus: forat, origen: "pag-32 ex. 17.7", extra: false, linies: [pag-32-b1-l6],
+      frase: { u: "____ הם באים? – הם באים לכיתה.", n: "____ הֵם בָּאִים? – הֵם בָּאִים לַכִּיתָּה." },
+      opcions: ["אֵיפֹה", "מֵאַיִן", "לְאָן"], correcta: 2, retro: "Venen cap a la classe (לַ־): לְאָן." }
+  - { tipus: forat, origen: "pag-32 ex. 17.8", extra: false, linies: [pag-32-b1-l7],
+      frase: { u: "____ הם באים? – הם באים מהכיתה.", n: "____ הֵם בָּאִים? – הֵם בָּאִים מֵהַכִּיתָּה." },
+      opcions: ["אֵיפֹה", "מֵאַיִן", "לְאָן"], correcta: 1, retro: "Venen de la classe (מֵ־): מֵאַיִן." }
+  - { tipus: forat, origen: "pag-32 ex. 17.9", extra: false, linies: [pag-32-b1-l8],
+      frase: { u: "____ הן לומדות? – הן לומדות בחיפה.", n: "____ הֵן לוֹמְדוֹת? – הֵן לוֹמְדוֹת בְּחֵיפָה." },
+      opcions: ["אֵיפֹה", "מֵאַיִן", "לְאָן"], correcta: 0, retro: "Estudiar en un lloc (בְּחֵיפָה): אֵיפֹה." }
+
+  # pag-32, תרגיל 18: בְּ, בַּ, לְ o לַ. Sense vocals, בְּ i בַּ (i לְ i לַ) s'escriuen igual,
+  # i per això l'exercici és d'autocorrecció: el model amb vocals mostra la tria.
+  - { tipus: autocorreccio, origen: "pag-32 ex. 18.1", extra: false, linies: [pag-32-b3-l0],
+      enunciat: { n: "רוֹבֶּרְטוֹ גָּר ____קִיבּוּץ דָּן. ____קִיבּוּץ יֵשׁ אוּלְפָּן.", u: "רוברטו גר ____קיבוץ דן. ____קיבוץ יש אולפן." },
+      model: { n: "רוֹבֶּרְטוֹ גָּר בְּקִיבּוּץ דָּן. בַּקִּיבּוּץ יֵשׁ אוּלְפָּן.", u: "רוברטו גר בקיבוץ דן. בקיבוץ יש אולפן." } }
+  - { tipus: autocorreccio, origen: "pag-32 ex. 18.2", extra: false, linies: [pag-32-b3-l1],
+      enunciat: { n: "רוֹבֶּרְטוֹ בָּא ____קִיבּוּץ דָּן בְּפֶבְּרוּאָר.", u: "רוברטו בא ____קיבוץ דן בפברואר." },
+      model: { n: "רוֹבֶּרְטוֹ בָּא לְקִיבּוּץ דָּן בְּפֶבְּרוּאָר.", u: "רוברטו בא לקיבוץ דן בפברואר." } }
+  - { tipus: autocorreccio, origen: "pag-32 ex. 18.3", extra: false, linies: [pag-32-b3-l2],
+      enunciat: { n: "הֵם לוֹמְדִים עִבְרִית ____אוּלְפַּן-עֲבוֹדָה ____קִיבּוּץ.", u: "הם לומדים עברית ____אולפן-עבודה ____קיבוץ." },
+      model: { n: "הֵם לוֹמְדִים עִבְרִית בְּאוּלְפַּן-עֲבוֹדָה בַּקִּיבּוּץ.", u: "הם לומדים עברית באולפן-עבודה בקיבוץ." } }
+  - { tipus: autocorreccio, origen: "pag-32 ex. 18.4", extra: false, linies: [pag-32-b3-l3],
+      enunciat: { n: "הַרְבֵּה תַּייָּרִים בָּאִים ____יִשְׂרָאֵל ____אַפְּרִיל.", u: "הרבה תיירים באים ____ישראל ____אפריל." },
+      model: { n: "הַרְבֵּה תַּייָּרִים בָּאִים לְיִשְׂרָאֵל בְּאַפְּרִיל.", u: "הרבה תיירים באים לישראל באפריל." } }
+  - { tipus: autocorreccio, origen: "pag-32 ex. 18.5", extra: false, linies: [pag-32-b3-l4],
+      enunciat: { n: "אֲנַחְנוּ הוֹלְכִים עַכְשָׁיו ____כִּיתָּה וְהֵם הוֹלְכִים ____עֲבוֹדָה.", u: "אנחנו הולכים עכשיו ____כיתה והם הולכים ____עבודה." },
+      model: { n: "אֲנַחְנוּ הוֹלְכִים עַכְשָׁיו לַכִּיתָּה וְהֵם הוֹלְכִים לָעֲבוֹדָה.", u: "אנחנו הולכים עכשיו לכיתה והם הולכים לעבודה." } }
+  - { tipus: autocorreccio, origen: "pag-32 ex. 18.6", extra: false, linies: [pag-32-b3-l5],
+      enunciat: { n: "יִצְחָק לֹא ____בַּיִת, אֲבָל שָׂרָה ____בַּיִת.", u: "יצחק לא ____בית, אבל שרה ____בית." },
+      model: { n: "יִצְחָק לֹא בַּבַּיִת, אֲבָל שָׂרָה בַּבַּיִת.", u: "יצחק לא בבית, אבל שרה בבית." } }
+  - { tipus: autocorreccio, origen: "pag-32 ex. 18.7", extra: false, linies: [pag-32-b3-l6],
+      enunciat: { n: "סְטִיב הוֹלֵךְ ____חֶדֶר שֶׁל רוֹבֶּרְטוֹ.", u: "סטיב הולך ____חדר של רוברטו." },
+      model: { n: "סְטִיב הוֹלֵךְ לַחֶדֶר שֶׁל רוֹבֶּרְטוֹ.", u: "סטיב הולך לחדר של רוברטו." } }
+  # 18.8: el model dona בַּקִּיבּוּצִים (als quibutsos); בְּקִיבּוּצִים (en quibutsos) també és possible.
+  - { tipus: autocorreccio, origen: "pag-32 ex. 18.8", extra: false, linies: [pag-32-b3-l7],
+      enunciat: { n: "יֵשׁ הַרְבֵּה אוּלְפָּנִים ____קִיבּוּצִים.", u: "יש הרבה אולפנים ____קיבוצים." },
+      model: { n: "יֵשׁ הַרְבֵּה אוּלְפָּנִים בַּקִּיבּוּצִים.", u: "יש הרבה אולפנים בקיבוצים." } }
+
+  # Extra: יֵשׁ / אֵין, quantitat, concordança dels verbs, הַבַּיְתָה, comprensió i construir
+  - { tipus: forat, origen: extra, extra: true, linies: [pag-28-b0-l5],
+      frase: { u: "לא, בדרום-אמריקה ____ קיבוצים.", n: "לֹא, בִּדְרוֹם-אֲמֶרִיקָה ____ קִיבּוּצִים." },
+      opcions: ["יֵשׁ", "אֵין", "לֹא"], correcta: 1, retro: "No hi ha: אֵין, mai לֹא davant del nom." }
+  - { tipus: forat, origen: extra, extra: true, linies: [pag-28-b0-l11],
+      frase: { u: "באולפן, בקיבוץ דן יש ____ שלוש כיתות.", n: "בָּאוּלְפָּן, בְּקִיבּוּץ דָּן יֵשׁ ____ שָׁלוֹשׁ כִּיתּוֹת." },
+      opcions: ["רַק", "מְעַט", "הַרְבֵּה"], correcta: 0, retro: "Davant d'un nombre: רַק (només) שָׁלוֹשׁ כִּיתּוֹת." }
+  - { tipus: forat, origen: extra, extra: true, linies: [pag-28-b0-l15],
+      frase: { u: "גם מברזיל יש רק ____ תלמידים.", n: "גַּם מִבְּרָזִיל יֵשׁ רַק ____ תַּלְמִידִים." },
+      opcions: ["מְעַט", "הַרְבֵּה", "אֵין"], correcta: 0, retro: "Només pocs: רַק מְעַט." }
+  - { tipus: forat, origen: extra, extra: true, linies: [pag-30-b1-l3],
+      frase: { u: "גם דינה ____ לקונצרט?", n: "גַּם דִּינָה ____ לַקּוֹנְצֶרְט?" },
+      opcions: ["הוֹלֵךְ", "הוֹלֶכֶת", "הוֹלְכִים", "הוֹלְכוֹת"], correcta: 1, retro: "La Dina és una dona: הוֹלֶכֶת." }
+  - { tipus: forat, origen: extra, extra: true, linies: [pag-30-b1-l1],
+      frase: { u: "אני הולך לתיאטרון, גם את ____ לתיאטרון?", n: "אֲנִי הוֹלֵךְ לַתֵּיאַטְרוֹן, גַּם אַתְּ ____ לַתֵּיאַטְרוֹן?" },
+      opcions: ["בָּא", "בָּאָה", "בָּאִים", "בָּאוֹת"], correcta: 1, retro: "Es parla a una dona (אַתְּ): בָּאָה." }
+  - { tipus: forat, origen: extra, extra: true, linies: [pag-31-b1-l1, pag-31-b1-l2],
+      frase: { u: "איפה רחל? – רחל ____.", n: "אֵיפֹה רָחֵל? – רָחֵל ____." },
+      opcions: ["בַּבַּיִת", "הַבַּיְתָה", "לַבַּיִת"], correcta: 0, retro: "אֵיפֹה, sense moviment: בַּבַּיִת." }
+  - { tipus: conjugar, origen: extra, extra: true, linies: [pag-31-b1-l2, pag-31-b1-l5],
+      base: { n: "רָחֵל בַּבַּיִת.", u: "רחל בבית." }, demana: "la Rakhel va cap a casa",
+      opcions: ["רָחֵל הוֹלֶכֶת הַבַּיְתָה.", "רָחֵל הוֹלֶכֶת בַּבַּיִת.", "רָחֵל הוֹלֶכֶת לְהַבַּיְתָה."], correcta: 0 }
+  - { tipus: comprensio, origen: extra, extra: true, linies: [pag-28-b0-l10, pag-28-b0-l11],
+      text: "בָּאוּלְפָּן יֵשׁ הַרְבֵּה כִּיתּוֹת? — לֹא, בָּאוּלְפָּן, בְּקִיבּוּץ דָּן יֵשׁ רַק שָׁלוֹשׁ כִּיתּוֹת.",
+      pregunta: "Quantes classes té l'ulpan del quibuts Dan?", opcions: ["Moltes", "Només tres", "Cap"], correcta: 1 }
+  - { tipus: comprensio, origen: extra, extra: true, linies: [pag-28-b0-l16, pag-28-b0-l17],
+      text: "בָּאוּלְפָּן יֵשׁ מוֹרִים, אוֹ מוֹרוֹת? — בָּאוּלְפָּן בְּקִיבּוּץ דָּן יֵשׁ רַק מוֹרוֹת.",
+      pregunta: "Qui fa classe a l'ulpan del quibuts Dan?", opcions: ["Només mestres homes", "Només mestres dones", "Mestres homes i dones"], correcta: 1 }
+  - { tipus: comprensio, origen: extra, extra: true, linies: [pag-30-b1-l0, pag-30-b1-l1, pag-30-b1-l2],
+      text: "אֶסְתֵּר: יוֹסִי, לְאָן אַתָּה הוֹלֵךְ? — יוֹסִי: אֲנִי הוֹלֵךְ לַתֵּיאַטְרוֹן, גַּם אַתְּ בָּאָה לַתֵּיאַטְרוֹן? — אֶסְתֵּר: לֹא, אֲנִי הוֹלֶכֶת לַקּוֹנְצֶרְט.",
+      pregunta: "On va l'Ester?", opcions: ["Al teatre", "Al concert", "A l'ulpan"], correcta: 1 }
+  - { tipus: construir, origen: extra, extra: true, linies: [pag-28-b0-l11],
+      ca: "només tres classes",
+      fitxes: ["רַק", "שָׁלוֹשׁ", "כִּיתּוֹת", "הַרְבֵּה", "כִּיתָּה"], ordre: [0, 1, 2] }
+  - { tipus: construir, origen: extra, extra: true, linies: [pag-28-b0-l12],
+      ca: "molts alumnes dels Estats Units",
+      fitxes: ["הַרְבֵּה", "תַּלְמִידִים", "מֵאַרְצוֹת-הַבְּרִית", "מְעַט", "בְּאַרְצוֹת-הַבְּרִית"], ordre: [0, 1, 2] }
