@@ -30,6 +30,14 @@ describe('respon', () => {
   })
 })
 
+describe('respon amb id «constructor»', () => {
+  it('el tracta com una fitxa nova', () => {
+    const p = respon(buit(), 'constructor', true, T)
+    expect(Object.hasOwn(p.fitxes, 'constructor')).toBe(true)
+    expect(p.fitxes.constructor).toMatchObject({ caixa: 1, encerts: 1 })
+  })
+})
+
 describe('pendents', () => {
   it('només les vençudes, primer les més antigues', () => {
     const p: Progres = {

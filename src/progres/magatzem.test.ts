@@ -34,7 +34,22 @@ describe('magatzemLocal', () => {
     localStorage.setItem('ulpan:progres', '{no json')
     const m = magatzemLocal()
     expect(m.llegeix()).toEqual({ versio: 1, fitxes: {}, vist: {} })
-    expect(localStorage.getItem('ulpan:progres:corrupte')).toBe('{no json')
+    expect(m.recuperat).toBe(true)
+    const copies = Object.keys(localStorage).filter((k) => k.startsWith('ulpan:progres:corrupte:'))
+    expect(copies).toHaveLength(1)
+    expect(localStorage.getItem(copies[0])).toBe('{no json')
+  })
+  it('dues corrupcions deixen dues còpies; recuperat és false amb dades netes', () => {
+    const m = magatzemLocal()
+    localStorage.setItem('ulpan:progres', '{a')
+    m.llegeix()
+    localStorage.setItem('ulpan:progres', '{b')
+    m.llegeix()
+    const copies = Object.keys(localStorage).filter((k) => k.startsWith('ulpan:progres:corrupte:'))
+    expect(copies.map((k) => localStorage.getItem(k)).sort()).toEqual(['{a', '{b'])
+    m.desa(exemple)
+    m.llegeix()
+    expect(m.recuperat).toBe(false)
   })
 })
 
@@ -47,6 +62,8 @@ describe('importa / exporta', () => {
     expect(() => importa('no és json')).toThrow(ErrorImportacio)
     expect(() => importa('{"versio":1,"fitxes":{"a":{"caixa":"x"}},"vist":{}}')).toThrow(ErrorImportacio)
     expect(() => importa('{"versio":1,"fitxes":{},"vist":{"a":"x"}}')).toThrow(ErrorImportacio)
+    expect(() => importa('{"versio":1,"fitxes":{"a":{"caixa":99,"venc":1,"encerts":0,"errors":0}},"vist":{}}')).toThrow(ErrorImportacio)
+    expect(() => importa('{"versio":1,"fitxes":{"a":{"caixa":1,"venc":-1,"encerts":0,"errors":0}},"vist":{}}')).toThrow(ErrorImportacio)
   })
 })
 
@@ -55,5 +72,13 @@ describe('marcaVist', () => {
     const p = marcaVist({ versio: 1, fitxes: {}, vist: {} }, 'a', 10)
     expect(p.vist.a).toBe(10)
     expect(marcaVist(p, 'a', 99).vist.a).toBe(10)
+  })
+})
+
+describe('ids com «constructor»', () => {
+  it('marcaVist funciona', () => {
+    const p = marcaVist({ versio: 1, fitxes: {}, vist: {} }, 'constructor', 5)
+    expect(Object.hasOwn(p.vist, 'constructor')).toBe(true)
+    expect(p.vist.constructor).toBe(5)
   })
 })

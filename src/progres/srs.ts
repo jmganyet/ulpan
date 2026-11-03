@@ -14,7 +14,7 @@ const CAIXA_MAX = INTERVALS.length - 1
 export const progresBuit = (): Progres => ({ versio: 1, fitxes: {}, vist: {} })
 
 export function respon(p: Progres, id: string, encert: boolean, ara: number): Progres {
-  const f = p.fitxes[id] ?? { caixa: 0, venc: ara, encerts: 0, errors: 0 }
+  const f = Object.hasOwn(p.fitxes, id) ? p.fitxes[id] : { caixa: 0, venc: ara, encerts: 0, errors: 0 }
   const caixa = encert ? Math.min(f.caixa + 1, CAIXA_MAX) : 1
   const nova: Fitxa = {
     caixa,
@@ -22,12 +22,14 @@ export function respon(p: Progres, id: string, encert: boolean, ara: number): Pr
     encerts: f.encerts + (encert ? 1 : 0),
     errors: f.errors + (encert ? 0 : 1),
   }
-  return { ...p, fitxes: { ...p.fitxes, [id]: nova } }
+  const fitxes = { ...p.fitxes }
+  Object.defineProperty(fitxes, id, { value: nova, enumerable: true, writable: true, configurable: true })
+  return { ...p, fitxes }
 }
 
 export function pendents(p: Progres, ara: number): string[] {
   return Object.entries(p.fitxes)
     .filter(([, f]) => f.venc <= ara)
-    .sort((a, b) => a[1].venc - b[1].venc || a[0].localeCompare(b[0]))
+    .sort((a, b) => a[1].venc - b[1].venc || (a[0] < b[0] ? -1 : a[0] > b[0] ? 1 : 0))
     .map(([id]) => id)
 }

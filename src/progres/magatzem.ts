@@ -4,6 +4,8 @@ export interface Magatzem {
   llegeix(): Progres
   desa(p: Progres): void
   disponible: boolean
+  /** true si l'última llegeix() ha trobat dades corruptes i les ha apartat. */
+  recuperat: boolean
 }
 
 export class ErrorImportacio extends Error {
@@ -18,7 +20,13 @@ const esObjecte = (x: unknown): x is Record<string, unknown> =>
 const esNombre = (x: unknown): x is number => typeof x === 'number' && Number.isFinite(x)
 
 function esFitxa(x: unknown): x is Fitxa {
-  return esObjecte(x) && esNombre(x.caixa) && esNombre(x.venc) && esNombre(x.encerts) && esNombre(x.errors)
+  return (
+    esObjecte(x) &&
+    Number.isInteger(x.caixa) && (x.caixa as number) >= 0 && (x.caixa as number) <= 6 &&
+    esNombre(x.venc) && x.venc >= 0 &&
+    Number.isInteger(x.encerts) && (x.encerts as number) >= 0 &&
+    Number.isInteger(x.errors) && (x.errors as number) >= 0
+  )
 }
 
 /** Valida la forma d'un valor ja parsejat; retorna el progrés o null. */
@@ -56,8 +64,10 @@ export function importa(json: string): Progres {
 
 /** Registra el primer cop que s'ha vist un element (pur; no sobreescriu). */
 export function marcaVist(p: Progres, id: string, ara: number): Progres {
-  if (id in p.vist) return p
-  return { ...p, vist: { ...p.vist, [id]: ara } }
+  if (Object.hasOwn(p.vist, id)) return p
+  const vist = { ...p.vist }
+  Object.defineProperty(vist, id, { value: ara, enumerable: true, writable: true, configurable: true })
+  return { ...p, vist }
 }
 
 export function magatzemLocal(clau = 'ulpan:progres'): Magatzem {
@@ -70,9 +80,11 @@ export function magatzemLocal(clau = 'ulpan:progres'): Magatzem {
   } catch {
     disponible = false
   }
-  return {
+  const magatzem: Magatzem = {
     disponible,
+    recuperat: false,
     llegeix() {
+      magatzem.recuperat = false
       if (!disponible) return progresBuit()
       let brut: string | null = null
       try {
@@ -84,7 +96,12 @@ export function magatzemLocal(clau = 'ulpan:progres'): Magatzem {
         // cau a la còpia de seguretat
       }
       try {
-        if (brut !== null) localStorage.setItem(`${clau}:corrupte`, brut)
+        if (brut !== null) {
+          let k = `${clau}:corrupte:${Date.now()}`
+          for (let n = 1; localStorage.getItem(k) !== null; n++) k = `${clau}:corrupte:${Date.now()}-${n}`
+          localStorage.setItem(k, brut)
+          magatzem.recuperat = true
+        }
       } catch {
         // sense espai: no es pot copiar
       }
@@ -99,4 +116,5 @@ export function magatzemLocal(clau = 'ulpan:progres'): Magatzem {
       }
     },
   }
+  return magatzem
 }
