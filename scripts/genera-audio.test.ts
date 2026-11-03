@@ -16,7 +16,7 @@ const u: Unitat = {
   gramatica: [{ id: 'g', titol: '', explicacio: '', extra: false, exemples: [lin('g0', 'אני', { text: { u: 'אני', n: 'אֲנִי' } })] }],
   textos: [{
     id: 't', pagina: 'p', titol: { u: 'כותרת', ca: '', perComprovar: false }, tipus: 'text',
-    linies: [lin('l0', 'שלום'), lin('l1', 'מה', { perComprovar: true }), lin('l2', 'שלום ____ טוב'), lin('l3', 'x', { text: { u: 'x', n: 'אֶקְס' } })],
+    linies: [lin('l0', 'שלום'), lin('l1', 'מה', { perComprovar: true }), lin('l2', 'שלום ____ טוב'), lin('l3', 'x', { text: { u: 'x', n: 'אֶקְס' } }), lin('l4', 'Esquema: של מי', { nota: true })],
   }],
   exercicis: [],
 }
@@ -31,7 +31,7 @@ describe('clauAudio', () => {
 
 describe('itemsAudibles', () => {
   const textos = itemsAudibles(u).map((i) => i.text)
-  it('exclou perComprovar, buits ____ i títols', () => {
+  it('exclou perComprovar, notes del transcriptor (R25), buits ____ i títols', () => {
     expect(textos).toEqual(['שָׁלוֹם', 'שלום', 'אֶקְס', 'אֲנִי'])
   })
   it('fa servir n si n\'hi ha', () => {

@@ -1,5 +1,5 @@
 import type { Exercici, Hebreu, Linia, Paraula, PuntGramatica, Text, Unitat } from '../src/contingut/tipus'
-import { treuVocals } from '../src/hebreu'
+import { esNota, treuVocals } from '../src/hebreu'
 import type { Pagina } from './dossier/pagina'
 
 export type UnitatBase = { id: string; num: number; titol: string; color: string; pagines: string[]; vocabulari: string }
@@ -49,6 +49,7 @@ export function combina(base: UnitatBase, pagines: Pagina[], vocab: Paraula[], c
         if (c.personatges?.length) linia.qui = pers![(c.qui ? c.qui[j] : undefined) ?? j % pers!.length]
         else if (pers?.length && l.qui) linia.qui = l.qui
         if (l.subratllat?.length) linia.subratllat = l.subratllat
+        if (esNota(l.text)) linia.nota = true
         const ca = c.ca?.[j]
         if (ca !== undefined) linia.ca = ca
         return linia

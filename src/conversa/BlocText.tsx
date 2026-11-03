@@ -48,6 +48,7 @@ export function BlocText({ text, deps }: { text: Text; deps: Deps }) {
           const p = quiDe(text, i)
           const jo = meva(i)
           const sona = r.sonant && r.linia === i
+          if (l.nota) return <p class="nota-linia petit" dir="ltr" key={l.id}>{l.text.u}</p>
           const classe = `bomb p${p}${jo ? ' jo' : ''}${amagada(i) ? ' amagat' : ''}${sona ? ' actual' : ''}`
           return (
             <div class={classe} key={l.id}>

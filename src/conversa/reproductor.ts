@@ -16,7 +16,7 @@ export function quiDe(t: Text, i: number): number {
 }
 
 /** Una línia només és reproduïble si té àudio i no és «per comprovar». */
-export const reproduible = (l: Linia): boolean => !!l.audio && !l.perComprovar
+export const reproduible = (l: Linia): boolean => !!l.audio && !l.perComprovar && !l.nota
 
 export function passos(t: Text, m: Mode): Pas[] {
   const r: Pas[] = []

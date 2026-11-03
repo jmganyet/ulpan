@@ -94,3 +94,13 @@ describe('combina: subratllat', () => {
     expect(u.textos[0].linies.every((x) => !x.text.u.includes('<'))).toBe(true)
   })
 })
+
+describe('combina: notes del transcriptor (R25)', () => {
+  it('marca nota les línies que comencen en català, encara que citin hebreu', () => {
+    const md = '---\ntitol: "שֶׁל מִי — De qui"\n---\n> [!hebreu]\n> | | |\n> |---|---|\n> | Esquema: של מי ← הַ ← [nom] | Esquema: של מי ← הַ ← [nom] |\n> | של מי הכסף? | של מי הכסף? |\n'
+    const p20 = llegeixPagina(md, 'pag-20')
+    const [nota, linia] = combina({ ...base, id: 'u04', pagines: ['pag-20'] }, [p20], [], {}).textos[0].linies
+    expect(nota.nota).toBe(true)
+    expect(linia.nota).toBeUndefined()
+  })
+})

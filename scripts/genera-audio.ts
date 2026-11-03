@@ -16,14 +16,14 @@ export type Runner = (text: string, velocitat: Velocitat, desti: string) => Prom
 /** El text que es diu: `n` si n'hi ha, si no `u`. */
 export const textAudible = (h: Hebreu): string => h.n ?? h.u
 
-/** Paraules (hebreu amb vocals), línies i exemples de gramàtica; sense perComprovar ni buits `____`. */
+/** Paraules (hebreu amb vocals), línies i exemples de gramàtica; sense perComprovar, notes (R25) ni buits `____`. */
 export function itemsAudibles(u: Unitat): { text: string; desti: Paraula | Linia }[] {
   const out: { text: string; desti: Paraula | Linia }[] = []
   for (const p of u.vocabulari) if (!p.perComprovar && p.hebreu) out.push({ text: p.hebreu, desti: p })
   const linies = [...u.textos.flatMap((t) => t.linies), ...u.gramatica.flatMap((g) => g.exemples)]
   for (const l of linies) {
     const text = textAudible(l.text)
-    if (!l.perComprovar && text && !text.includes('____')) out.push({ text, desti: l })
+    if (!l.perComprovar && !l.nota && text && !text.includes('____')) out.push({ text, desti: l })
   }
   return out
 }

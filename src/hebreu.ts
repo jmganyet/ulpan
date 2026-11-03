@@ -22,3 +22,11 @@ export function teComprovar(s: string): boolean {
 export function senseComprovar(s: string): string {
   return s.replace(new RegExp(`\\s*${MARCA}`, 'g'), '').replace(/ {2,}/g, ' ').trim()
 }
+
+/** R25: nota del transcriptor en català, no text hebreu: la primera lletra (hebrea o llatina) és llatina.
+ * Cobreix les línies sense cap lletra hebrea i les notes que citen hebreu («Esquema…: של מי ←…»).
+ * Un buit sol («____») no és nota. */
+export function esNota(s: string): boolean {
+  const m = s.match(/[\u05D0-\u05EAA-Za-zÀ-ÿ]/)
+  return !!m && !/[\u05D0-\u05EA]/.test(m[0])
+}

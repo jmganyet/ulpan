@@ -92,6 +92,7 @@
 .bomb-text:disabled { cursor: default; }
 .bomb .tradueix { border: 0; background: var(--gris-clar); border-radius: 99px; font-size: 11px; margin-inline-start: 6px; min-width: 28px; height: 28px; cursor: pointer; }
 .bomb .ca-linia { display: block; color: inherit; opacity: .8; }
+.nota-linia { margin: 4px 0; text-align: left; font-style: italic; }
 .bomb.amagat { background: repeating-linear-gradient(45deg, var(--gris-clar), var(--gris-clar) 6px, var(--filet) 6px, var(--filet) 12px); color: var(--gris); font-size: 13px; }
 .controls-conversa { display: flex; justify-content: center; align-items: center; gap: 18px; }
 .controls-conversa button { border: 0; background: var(--gris-clar); color: var(--tinta); border-radius: 99px; min-width: 44px; height: 44px; font-size: 22px; cursor: pointer; }

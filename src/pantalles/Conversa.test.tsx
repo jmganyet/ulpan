@@ -74,4 +74,16 @@ describe('Conversa', () => {
     expect(container.querySelector('h1')!.textContent).toBe('באולפן')
     expect(container.textContent).not.toContain('NaN')
   })
+  it('una nota del transcriptor (R25) es mostra com a nota, d\'esquerra a dreta i sense so', async () => {
+    const amb: Text = { ...narracio, linies: [l(0, 'Esquema: של מי ← הַ', { nota: true }), l(1, 'טקסט')] }
+    const { reg, deps } = fals()
+    render(<Conversa unitat={{ ...unitat, textos: [amb] }} pag="pag-28" deps={deps} />)
+    const nota = screen.getByText('Esquema: של מי ← הַ')
+    expect(nota.tagName).toBe('P')
+    expect(nota.getAttribute('dir')).toBe('ltr')
+    expect(nota.closest('button')).toBeNull()
+    expect(screen.queryByLabelText('Escolta la línia 1')).toBeNull()
+    fireEvent.click(screen.getByLabelText('Reprodueix'))
+    await waitFor(() => expect(reg).toEqual(['pag-28-b0-l1']))
+  })
 })

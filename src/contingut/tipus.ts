@@ -15,9 +15,10 @@ export type Paraula = {
 }
 
 // subratllat: mots de la línia que el dossier subratlla (sense etiquetes; el text ja no en porta).
+// nota: nota del transcriptor en català (R25): sense àudio, es mostra com a nota, no com a hebreu.
 export type Linia = {
   id: string; qui?: string; text: Hebreu; ca?: string; perComprovar: boolean; extra?: boolean; audio?: Audio
-  subratllat?: string[]
+  subratllat?: string[]; nota?: boolean
 }
 
 export type Text = {
