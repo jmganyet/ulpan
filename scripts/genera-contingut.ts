@@ -42,17 +42,19 @@ export function combina(base: UnitatBase, pagines: Pagina[], vocab: Paraula[], c
       const titol = bloc.titol && /[א-ת]/.test(bloc.titol.text)
         ? { u: bloc.titol.text, perComprovar: bloc.titol.perComprovar }
         : { u: pag.titol.he, perComprovar: false }
-      const pers = c.personatges
+      const parlants = [...new Set(bloc.linies.map((l) => l.qui).filter((q): q is string => !!q))]
+      const pers = c.personatges ?? (parlants.length ? parlants : undefined)
       const linies: Linia[] = bloc.linies.map((l, j) => {
         const linia: Linia = { id: `${id}-l${j}`, text: hebreu(l.text, c.vocals?.[j]), perComprovar: l.perComprovar }
-        if (pers?.length) linia.qui = pers[(c.qui ? c.qui[j] : undefined) ?? j % pers.length]
+        if (c.personatges?.length) linia.qui = pers![(c.qui ? c.qui[j] : undefined) ?? j % pers!.length]
+        else if (pers?.length && l.qui) linia.qui = l.qui
         const ca = c.ca?.[j]
         if (ca !== undefined) linia.ca = ca
         return linia
       })
       textos.push({
         id, pagina: pag.nom, titol: { ...titol, ca: pag.titol.ca },
-        tipus: c.tipus ?? 'text', ...(pers ? { personatges: pers } : {}), linies,
+        tipus: c.tipus ?? (!c.personatges && parlants.length >= 2 ? 'dialeg' : 'text'), ...(pers ? { personatges: pers } : {}), linies,
       })
     })
   }

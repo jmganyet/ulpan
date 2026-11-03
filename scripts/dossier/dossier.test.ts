@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
-import { llegeixPagina } from './pagina'
+import { llegeixPagina, netejaCella } from './pagina'
 import { llegeixVocabulari } from './vocabulari'
 
 const f = (n: string) => readFileSync(`${process.cwd()}/scripts/dossier/fixtures/${n}`, 'utf8')
@@ -62,5 +62,20 @@ describe('llegeixPagina', () => {
     const p = llegeixPagina(md, 'x')
     expect(p.blocs[0].linies).toEqual([{ text: 'שלום', perComprovar: false }, { text: 'a', perComprovar: true }])
     expect(p.paginaOriginal).toBe(3)
+  })
+})
+
+describe('parlants i anotacions', () => {
+  it('pag-02: extreu el parlant i el treu del text', () => {
+    const p = llegeixPagina(f('pag-02.md'), 'pag-02')
+    const l = p.blocs.flatMap((b) => b.linies)
+    expect(l[0]).toMatchObject({ text: 'שלום, אני רוברטו.', qui: 'רוברטו' })
+    expect(l[1].qui).toBe('דוריס')
+    expect(l.some((x) => x.text.includes('*'))).toBe(false)
+    expect(l.find((x) => x.text.startsWith('אני תיירת'))!.qui).toBeUndefined()
+  })
+  it('treu anotacions *(…)* i marcatge', () => {
+    expect(netejaCella("*(dins d'un requadre)* מִי אַתָּה?")).toEqual({ text: 'מִי אַתָּה?' })
+    expect(netejaCella("**מורה:** *כן* ... *(a la pissarra)*")).toEqual({ text: 'כן ...', qui: 'מורה' })
   })
 })

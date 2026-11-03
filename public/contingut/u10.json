@@ -314,63 +314,75 @@
         "perComprovar": false,
         "ca": "Ser a... / estar a casa de..."
       },
-      "tipus": "text",
+      "tipus": "dialeg",
+      "personatges": [
+        "מורה",
+        "יצחק"
+      ],
       "linies": [
         {
           "id": "pag-56-b0-l0",
           "text": {
-            "u": "**מורה:** יצחק איפה הָיִיתָ אתמול?"
+            "u": "יצחק איפה הָיִיתָ אתמול?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "מורה"
         },
         {
           "id": "pag-56-b0-l1",
           "text": {
-            "u": "**יצחק:** הָיִיתִי בקופת-חולים."
+            "u": "הָיִיתִי בקופת-חולים."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יצחק"
         },
         {
           "id": "pag-56-b0-l2",
           "text": {
-            "u": "**מורה:** ואיפה הָיְתָה שׂרה?"
+            "u": "ואיפה הָיְתָה שׂרה?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "מורה"
         },
         {
           "id": "pag-56-b0-l3",
           "text": {
-            "u": "**יצחק:** היא הָיְתָה בתל-אביב."
+            "u": "היא הָיְתָה בתל-אביב."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יצחק"
         },
         {
           "id": "pag-56-b0-l4",
           "text": {
-            "u": "**מורה:** ואיפה היא היום?"
+            "u": "ואיפה היא היום?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "מורה"
         },
         {
           "id": "pag-56-b0-l5",
           "text": {
-            "u": "**יצחק:** היום היא צריכה לִהיות בחיפה."
+            "u": "היום היא צריכה לִהיות בחיפה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יצחק"
         },
         {
           "id": "pag-56-b0-l6",
           "text": {
-            "u": "**מורה:** יום לומדים ויומיים לא. כך זה לא יכול לִהיות!"
+            "u": "יום לומדים ויומיים לא. כך זה לא יכול לִהיות!"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "מורה"
         },
         {
           "id": "pag-56-b0-l7",
           "text": {
-            "u": "**יצחק:** כן כבר המלט אמר: \"להיות או לא להיות"
+            "u": "כן כבר המלט אמר: \"להיות או לא להיות"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יצחק"
         },
         {
           "id": "pag-56-b0-l8",

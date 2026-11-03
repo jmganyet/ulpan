@@ -544,56 +544,67 @@
         "perComprovar": false,
         "ca": "Cap a on?"
       },
-      "tipus": "text",
+      "tipus": "dialeg",
+      "personatges": [
+        "אסתר",
+        "יוסי"
+      ],
       "linies": [
         {
           "id": "pag-30-b1-l0",
           "text": {
-            "u": "**אסתר:** יוסי, לאן אתה הולך?"
+            "u": "יוסי, לאן אתה הולך?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "אסתר"
         },
         {
           "id": "pag-30-b1-l1",
           "text": {
-            "u": "**יוסי:** אני הולך לתיאטרון, גם את באה לתיאטרון?"
+            "u": "אני הולך לתיאטרון, גם את באה לתיאטרון?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יוסי"
         },
         {
           "id": "pag-30-b1-l2",
           "text": {
-            "u": "**אסתר:** לא, אני הולכת לקונצרט."
+            "u": "לא, אני הולכת לקונצרט."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "אסתר"
         },
         {
           "id": "pag-30-b1-l3",
           "text": {
-            "u": "**יוסי:** גם דינה הולכת לקונצרט?"
+            "u": "גם דינה הולכת לקונצרט?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יוסי"
         },
         {
           "id": "pag-30-b1-l4",
           "text": {
-            "u": "**אסתר:** לא."
+            "u": "לא."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "אסתר"
         },
         {
           "id": "pag-30-b1-l5",
           "text": {
-            "u": "**יוסי:** לאן היא הולכת?"
+            "u": "לאן היא הולכת?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יוסי"
         },
         {
           "id": "pag-30-b1-l6",
           "text": {
-            "u": "**אסתר:** היא הולכת לאולפָן. היא לומדת עברית."
+            "u": "היא הולכת לאולפָן. היא לומדת עברית."
           },
-          "perComprovar": true
+          "perComprovar": true,
+          "qui": "אסתר"
         }
       ]
     },

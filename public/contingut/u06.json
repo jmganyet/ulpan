@@ -1480,21 +1480,27 @@
         "perComprovar": false,
         "ca": "Dir: estil directe i indirecte"
       },
-      "tipus": "text",
+      "tipus": "dialeg",
+      "personatges": [
+        "איש",
+        "ילד"
+      ],
       "linies": [
         {
           "id": "pag-38-b3-l0",
           "text": {
-            "u": "**איש:** ילד, מה שמך?"
+            "u": "ילד, מה שמך?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "איש"
         },
         {
           "id": "pag-38-b3-l1",
           "text": {
-            "u": "**ילד:** שמי דני."
+            "u": "שמי דני."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "ילד"
         }
       ]
     },
@@ -1525,21 +1531,27 @@
         "perComprovar": false,
         "ca": "Dir: estil directe i indirecte"
       },
-      "tipus": "text",
+      "tipus": "dialeg",
+      "personatges": [
+        "יוסף",
+        "תמר"
+      ],
       "linies": [
         {
           "id": "pag-38-b5-l0",
           "text": {
-            "u": "**יוסף:** איפה את גרה?"
+            "u": "איפה את גרה?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יוסף"
         },
         {
           "id": "pag-38-b5-l1",
           "text": {
-            "u": "**תמר:** אני גרה בְּחיפה."
+            "u": "אני גרה בְּחיפה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "תמר"
         }
       ]
     },
@@ -1577,21 +1589,27 @@
         "perComprovar": false,
         "ca": "Dir: estil directe i indirecte"
       },
-      "tipus": "text",
+      "tipus": "dialeg",
+      "personatges": [
+        "בוריס",
+        "רוברטו"
+      ],
       "linies": [
         {
           "id": "pag-38-b7-l0",
           "text": {
-            "u": "**בוריס:** איפה סטיב?"
+            "u": "איפה סטיב?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "בוריס"
         },
         {
           "id": "pag-38-b7-l1",
           "text": {
-            "u": "**רוברטו:** רחל אומרת שהוא במשרד."
+            "u": "רחל אומרת שהוא במשרד."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "רוברטו"
         }
       ]
     },

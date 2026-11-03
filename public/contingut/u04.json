@@ -901,84 +901,103 @@
         "perComprovar": false,
         "ca": "Com et dius?"
       },
-      "tipus": "text",
+      "tipus": "dialeg",
+      "personatges": [
+        "יוסף",
+        "שרה"
+      ],
       "linies": [
         {
           "id": "pag-22-b0-l0",
           "text": {
-            "u": "**יוסף:** בוקר טוב רחל."
+            "u": "בוקר טוב רחל."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יוסף"
         },
         {
           "id": "pag-22-b0-l1",
           "text": {
-            "u": "**שרה:** אני לא רחל."
+            "u": "אני לא רחל."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "שרה"
         },
         {
           "id": "pag-22-b0-l2",
           "text": {
-            "u": "**יוסף:** סליחה, מי את? מה שמֵךְ?"
+            "u": "סליחה, מי את? מה שמֵךְ?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יוסף"
         },
         {
           "id": "pag-22-b0-l3",
           "text": {
-            "u": "**שרה:** שמי שרה. ומה שמְךָ?"
+            "u": "שמי שרה. ומה שמְךָ?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "שרה"
         },
         {
           "id": "pag-22-b0-l4",
           "text": {
-            "u": "**יוסף:** שמי יוסף."
+            "u": "שמי יוסף."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יוסף"
         },
         {
           "id": "pag-22-b0-l5",
           "text": {
-            "u": "**שרה:** נעים מאוד."
+            "u": "נעים מאוד."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "שרה",
+          "audio": {
+            "normal": "96edde9176aa.m4a",
+            "lent": "57081a44b56a.m4a"
+          }
         },
         {
           "id": "pag-22-b0-l6",
           "text": {
-            "u": "**יוסף:** נעים מאוד, שרה, את תלמידה באולפן?"
+            "u": "נעים מאוד, שרה, את תלמידה באולפן?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יוסף"
         },
         {
           "id": "pag-22-b0-l7",
           "text": {
-            "u": "**שרה:** כן. גם אתה תלמיד באולפן?"
+            "u": "כן. גם אתה תלמיד באולפן?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "שרה"
         },
         {
           "id": "pag-22-b0-l8",
           "text": {
-            "u": "**יוסף:** לא, אני מורה באולפן."
+            "u": "לא, אני מורה באולפן."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יוסף"
         },
         {
           "id": "pag-22-b0-l9",
           "text": {
-            "u": "**שרה:** שלום יוסף, להתראות באולפן."
+            "u": "שלום יוסף, להתראות באולפן."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "שרה"
         },
         {
           "id": "pag-22-b0-l10",
           "text": {
-            "u": "**יוסף:** שלום ולהתראות."
+            "u": "שלום ולהתראות."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יוסף"
         }
       ]
     },
@@ -1225,63 +1244,75 @@
         "perComprovar": false,
         "ca": "Com estàs?"
       },
-      "tipus": "text",
+      "tipus": "dialeg",
+      "personatges": [
+        "יוסף",
+        "שרה"
+      ],
       "linies": [
         {
           "id": "pag-24-b0-l0",
           "text": {
-            "u": "**יוסף:** בוקר טוב שרה. מה שלומֵךְ?"
+            "u": "בוקר טוב שרה. מה שלומֵךְ?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יוסף"
         },
         {
           "id": "pag-24-b0-l1",
           "text": {
-            "u": "**שרה:** טוב, תודה. מה שלומְךָ?"
+            "u": "טוב, תודה. מה שלומְךָ?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "שרה"
         },
         {
           "id": "pag-24-b0-l2",
           "text": {
-            "u": "**יוסף:** גם שלומי טוב. ברוך השם!"
+            "u": "גם שלומי טוב. ברוך השם!"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יוסף"
         },
         {
           "id": "pag-24-b0-l3",
           "text": {
-            "u": "**שרה:** מה שלום צפורה?"
+            "u": "מה שלום צפורה?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "שרה"
         },
         {
           "id": "pag-24-b0-l4",
           "text": {
-            "u": "**יוסף:** שלומה מצוין. מה שלום יצחק?"
+            "u": "שלומה מצוין. מה שלום יצחק?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יוסף"
         },
         {
           "id": "pag-24-b0-l5",
           "text": {
-            "u": "**שרה:** גם שלומו לא רע."
+            "u": "גם שלומו לא רע."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "שרה"
         },
         {
           "id": "pag-24-b0-l6",
           "text": {
-            "u": "**יוסף:** מה שלום הילדים?"
+            "u": "מה שלום הילדים?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יוסף"
         },
         {
           "id": "pag-24-b0-l7",
           "text": {
-            "u": "**שרה:** שלומם מצוין."
+            "u": "שלומם מצוין."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "שרה"
         }
       ]
     },

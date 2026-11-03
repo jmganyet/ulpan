@@ -605,94 +605,106 @@
         "perComprovar": false,
         "ca": "Coneixença"
       },
-      "tipus": "text",
+      "tipus": "dialeg",
+      "personatges": [
+        "רוברטו",
+        "דוריס"
+      ],
       "linies": [
         {
           "id": "pag-02-b0-l0",
           "text": {
-            "u": "**רוברטו:** שלום, אני רוברטו."
+            "u": "שלום, אני רוברטו."
           },
           "perComprovar": false,
+          "qui": "רוברטו",
           "audio": {
-            "normal": "a068ea42e558.m4a",
-            "lent": "0a20bee33fdb.m4a"
+            "normal": "a6e67ece011e.m4a",
+            "lent": "deb339eeb2a1.m4a"
           }
         },
         {
           "id": "pag-02-b0-l1",
           "text": {
-            "u": "**דוריס:** אני דוריס."
+            "u": "אני דוריס."
           },
           "perComprovar": false,
+          "qui": "דוריס",
           "audio": {
-            "normal": "37be93c5ddeb.m4a",
-            "lent": "3bbcbd22a3aa.m4a"
+            "normal": "50cd1a91653c.m4a",
+            "lent": "8c85c11c1fdf.m4a"
           }
         },
         {
           "id": "pag-02-b0-l2",
           "text": {
-            "u": "**רוברטו:** נעים מאוד."
+            "u": "נעים מאוד."
           },
           "perComprovar": false,
+          "qui": "רוברטו",
           "audio": {
-            "normal": "a999af57102d.m4a",
-            "lent": "8b5ebbb5b314.m4a"
+            "normal": "96edde9176aa.m4a",
+            "lent": "57081a44b56a.m4a"
           }
         },
         {
           "id": "pag-02-b0-l3",
           "text": {
-            "u": "**דוריס:** נעים מאוד. אתה תלמיד?"
+            "u": "נעים מאוד. אתה תלמיד?"
           },
           "perComprovar": false,
+          "qui": "דוריס",
           "audio": {
-            "normal": "19282e0177f1.m4a",
-            "lent": "97726befa609.m4a"
+            "normal": "3647bd395f53.m4a",
+            "lent": "223b364d27a4.m4a"
           }
         },
         {
           "id": "pag-02-b0-l4",
           "text": {
-            "u": "**רוברטו:** כן, אני תלמיד. את תלמידה?"
+            "u": "כן, אני תלמיד. את תלמידה?"
           },
           "perComprovar": false,
+          "qui": "רוברטו",
           "audio": {
-            "normal": "3a22df72d2ae.m4a",
-            "lent": "21003cb1ea6a.m4a"
+            "normal": "b3abcf39f394.m4a",
+            "lent": "a93c01ac100d.m4a"
           }
         },
         {
           "id": "pag-02-b0-l5",
           "text": {
-            "u": "**דוריס:** כן, אני תלמידה."
+            "u": "כן, אני תלמידה."
           },
           "perComprovar": false,
+          "qui": "דוריס",
           "audio": {
-            "normal": "ba238d757a59.m4a",
-            "lent": "b5e1b855e269.m4a"
+            "normal": "dcc3d6632a15.m4a",
+            "lent": "a933ba47d5d3.m4a"
           }
         },
         {
           "id": "pag-02-b0-l6",
           "text": {
-            "u": "**רוברטו:** את עולה חדשה?"
+            "u": "את עולה חדשה?"
           },
           "perComprovar": false,
+          "qui": "רוברטו",
           "audio": {
-            "normal": "ca4c9d1f62e4.m4a",
-            "lent": "d6c885323868.m4a"
+            "normal": "0366a0d53da5.m4a",
+            "lent": "e09c245eba07.m4a"
           }
         },
         {
           "id": "pag-02-b0-l7",
           "text": {
-            "u": "**דוריס:** לא, אני לא עולה חדשה."
+            "u": "לא, אני לא עולה חדשה."
           },
           "perComprovar": false,
+          "qui": "דוריס",
           "audio": {
-            "normal": "14160aa5e042.m4a",
-            "lent": "06ea5b2c9585.m4a"
+            "normal": "031d4452f997.m4a",
+            "lent": "675ee0f959b2.m4a"
           }
         },
         {
@@ -716,31 +728,34 @@
         {
           "id": "pag-02-b0-l10",
           "text": {
-            "u": "**רוברטו:** לא, אני לא תייר. סטיב תייר."
+            "u": "לא, אני לא תייר. סטיב תייר."
           },
           "perComprovar": false,
+          "qui": "רוברטו",
           "audio": {
-            "normal": "2f61774da211.m4a",
-            "lent": "8c457d69f940.m4a"
+            "normal": "91ced3696cdf.m4a",
+            "lent": "1f08f7039945.m4a"
           }
         },
         {
           "id": "pag-02-b0-l11",
           "text": {
-            "u": "**דוריס:** ואתה?"
+            "u": "ואתה?"
           },
           "perComprovar": false,
+          "qui": "דוריס",
           "audio": {
-            "normal": "ada1625779ec.m4a",
-            "lent": "ef0fe9c1d659.m4a"
+            "normal": "ce357634dc77.m4a",
+            "lent": "2154ef7562b1.m4a"
           }
         },
         {
           "id": "pag-02-b0-l12",
           "text": {
-            "u": "**רוברטו:** אני עולה חדש מִבְּרָזִיל."
+            "u": "אני עולה חדש מִבְּרָזִיל."
           },
-          "perComprovar": true
+          "perComprovar": true,
+          "qui": "רוברטו"
         }
       ]
     },

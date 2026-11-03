@@ -63,3 +63,22 @@ describe('combina: gramàtica', () => {
     expect(b.extra).toBeUndefined()
   })
 })
+
+describe('combina: parlants del dossier', () => {
+  const p2 = llegeixPagina(f('pag-02.md'), 'pag-02')
+  const b2: UnitatBase = { ...base, id: 'u01', pagines: ['pag-02'] }
+  it('deriva personatges, qui i tipus diàleg', () => {
+    const t = combina(b2, [p2], [], {}).textos[0]
+    expect(t.tipus).toBe('dialeg')
+    expect(t.personatges).toEqual(['רוברטו', 'דוריס'])
+    expect(t.linies[0]).toMatchObject({ qui: 'רוברטו' })
+    expect(t.linies[0].text.u).toBe('שלום, אני רוברטו.')
+  })
+  it('el YAML mana sobre els parlants del dossier', () => {
+    const t = combina(b2, [p2], [], { textos: { 'pag-02': { tipus: 'text' } } } as never).textos[0]
+    expect(t.tipus).toBe('text')
+    const u = combina(b2, [p2], [], { textos: { 'pag-02': { personatges: ['A', 'B'] } } } as never).textos[0]
+    expect(u.personatges).toEqual(['A', 'B'])
+    expect(u.linies[0].qui).toBe('A')
+  })
+})

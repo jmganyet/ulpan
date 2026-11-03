@@ -287,70 +287,86 @@
         "perComprovar": true,
         "ca": "Classe a l'aula d'en Roberto"
       },
-      "tipus": "text",
+      "tipus": "dialeg",
+      "personatges": [
+        "מורה",
+        "תלמידים",
+        "יוסף",
+        "עמנואל",
+        "סטיב"
+      ],
       "linies": [
         {
           "id": "pag-50-b0-l0",
           "text": {
-            "u": "**מורה:** בוקר טוב, תלמידים!"
+            "u": "בוקר טוב, תלמידים!"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "מורה"
         },
         {
           "id": "pag-50-b0-l1",
           "text": {
-            "u": "**תלמידים:** בוקר טוב!"
+            "u": "בוקר טוב!"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "תלמידים"
         },
         {
           "id": "pag-50-b0-l2",
           "text": {
-            "u": "**מורה:** מדוע שושנה לא באה היום?"
+            "u": "מדוע שושנה לא באה היום?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "מורה"
         },
         {
           "id": "pag-50-b0-l3",
           "text": {
-            "u": "**תלמידים:** כי היא חולה."
+            "u": "כי היא חולה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "תלמידים"
         },
         {
           "id": "pag-50-b0-l4",
           "text": {
-            "u": "**מורה:** ואיפה דוריס?"
+            "u": "ואיפה דוריס?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "מורה"
         },
         {
           "id": "pag-50-b0-l5",
           "text": {
-            "u": "**תלמידים:** אנחנו לא יודעים."
+            "u": "אנחנו לא יודעים."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "תלמידים"
         },
         {
           "id": "pag-50-b0-l6",
           "text": {
-            "u": "**מורה:** גם יוסף חסר."
+            "u": "גם יוסף חסר."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "מורה"
         },
         {
           "id": "pag-50-b0-l7",
           "text": {
-            "u": "**יוסף:** לא, אני פה!"
+            "u": "לא, אני פה!"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יוסף"
         },
         {
           "id": "pag-50-b0-l8",
           "text": {
-            "u": "**מורה:** יפה מאוד! מה זה שם?"
+            "u": "יפה מאוד! מה זה שם?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "מורה"
         },
         {
           "id": "pag-50-b0-l9",
@@ -362,16 +378,18 @@
         {
           "id": "pag-50-b0-l10",
           "text": {
-            "u": "**עמנואל:** אנחנו לא מדברים."
+            "u": "אנחנו לא מדברים."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "עמנואל"
         },
         {
           "id": "pag-50-b0-l11",
           "text": {
-            "u": "**מורה:** מצוין. אנחנו מתחילים. אני כותבת שאלות על הלוח"
+            "u": "מצוין. אנחנו מתחילים. אני כותבת שאלות על הלוח"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "מורה"
         },
         {
           "id": "pag-50-b0-l12",
@@ -383,9 +401,10 @@
         {
           "id": "pag-50-b0-l13",
           "text": {
-            "u": "**עמנואל:** סליחה, המורה, אני לא מבין."
+            "u": "סליחה, המורה, אני לא מבין."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "עמנואל"
         },
         {
           "id": "pag-50-b0-l14",
@@ -397,23 +416,26 @@
         {
           "id": "pag-50-b0-l15",
           "text": {
-            "u": "**מורה:** סטיב, אתה מבין מה שאני אומרת?"
+            "u": "סטיב, אתה מבין מה שאני אומרת?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "מורה"
         },
         {
           "id": "pag-50-b0-l16",
           "text": {
-            "u": "**סטיב:** כן, אני מבין הכול."
+            "u": "כן, אני מבין הכול."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "סטיב"
         },
         {
           "id": "pag-50-b0-l17",
           "text": {
-            "u": "**מורה:** עמנואל, סטיב מבין הכול. הוא לא מדבר עם חבר..."
+            "u": "עמנואל, סטיב מבין הכול. הוא לא מדבר עם חבר..."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "מורה"
         },
         {
           "id": "pag-50-b0-l18",
@@ -425,9 +447,10 @@
         {
           "id": "pag-50-b0-l19",
           "text": {
-            "u": "**סטיב:** הנה דוריס."
+            "u": "הנה דוריס."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "סטיב"
         }
       ]
     },
@@ -439,28 +462,36 @@
         "perComprovar": false,
         "ca": "Classe a l'aula d'en Roberto (continuació)"
       },
-      "tipus": "text",
+      "tipus": "dialeg",
+      "personatges": [
+        "מורה",
+        "דוריס",
+        "עמנואל"
+      ],
       "linies": [
         {
           "id": "pag-51-b0-l0",
           "text": {
-            "u": "**מורה:** בוקר טוב, דוריס. עכשיו את באה?"
+            "u": "בוקר טוב, דוריס. עכשיו את באה?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "מורה"
         },
         {
           "id": "pag-51-b0-l1",
           "text": {
-            "u": "**דוריס:** סליחה.... האוטובוס...."
+            "u": "סליחה.... האוטובוס...."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "דוריס"
         },
         {
           "id": "pag-51-b0-l2",
           "text": {
-            "u": "**מורה:** בבקשה להיכנס. יש מקום על-יד רוברטו."
+            "u": "בבקשה להיכנס. יש מקום על-יד רוברטו."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "מורה"
         },
         {
           "id": "pag-51-b0-l3",
@@ -493,23 +524,26 @@
         {
           "id": "pag-51-b0-l7",
           "text": {
-            "u": "**עמנואל:** כן, אני רוצה לשאול שאלה."
+            "u": "כן, אני רוצה לשאול שאלה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "עמנואל"
         },
         {
           "id": "pag-51-b0-l8",
           "text": {
-            "u": "**מורה:** יפה מאוד. בבקשה לשאול."
+            "u": "יפה מאוד. בבקשה לשאול."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "מורה"
         },
         {
           "id": "pag-51-b0-l9",
           "text": {
-            "u": "**עמנואל:** אני רוצה לשאול מתי יש הפסקה?"
+            "u": "אני רוצה לשאול מתי יש הפסקה?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "עמנואל"
         }
       ]
     },

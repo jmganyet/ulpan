@@ -1,6 +1,6 @@
 import { senseComprovar, teComprovar } from '../../src/hebreu'
 
-export type Item = { text: string; perComprovar: boolean }
+export type Item = { text: string; perComprovar: boolean; qui?: string }
 export type Bloc = { titol?: Item; linies: Item[] }
 export type Pagina = {
   nom: string; paginaOriginal: number; titol: { he: string; ca: string }
@@ -8,6 +8,16 @@ export type Pagina = {
 }
 
 const item = (s: string): Item => ({ text: senseComprovar(s), perComprovar: teComprovar(s) })
+
+/** Treu del text d'una cel·la el parlant inicial («**X:**»), les anotacions «*(…)*» i el marcatge. */
+export function netejaCella(s: string): { text: string; qui?: string } {
+  let t = s
+  let qui: string | undefined
+  const m = /^\s*\*\*([^*]+?):\*\*\s*/.exec(t)
+  if (m) { qui = m[1].trim(); t = t.slice(m[0].length) }
+  t = t.replace(/\*\([^)]*\)\*/g, '').replace(/\*+/g, '').replace(/\s{2,}/g, ' ').trim()
+  return { text: t, ...(qui ? { qui } : {}) }
+}
 
 function frontmatter(md: string): { fm: Record<string, string>; cos: string[] } {
   const l = md.split(/\r?\n/)
@@ -41,7 +51,8 @@ export function llegeixPagina(md: string, nom: string): Pagina {
       if (!f.startsWith('|') || /^\|[\s|]*$/.test(f) || /^\|[\s:|-]*$/.test(f)) continue
       const cel = f.replace(/^\|\s?/, '').replace(/\s?\|\s*$/, '').split(' | ')
       const perComprovar = cel.some(teComprovar)
-      linies.push({ text: senseComprovar(cel[0]), perComprovar })
+      const n = netejaCella(senseComprovar(cel[0]))
+      linies.push({ text: n.text, perComprovar, ...(n.qui ? { qui: n.qui } : {}) })
     }
     i--
     if (titolActual !== undefined && /^Vocabulari \(marge\)/.test(titolActual)) {

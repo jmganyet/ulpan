@@ -1146,63 +1146,75 @@
         "perComprovar": false,
         "ca": "No pot treballar"
       },
-      "tipus": "text",
+      "tipus": "dialeg",
+      "personatges": [
+        "יוסף",
+        "רחל"
+      ],
       "linies": [
         {
           "id": "pag-48-b0-l0",
           "text": {
-            "u": "**יוסף:** רחל, את הולכת לעבודה?"
+            "u": "רחל, את הולכת לעבודה?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יוסף"
         },
         {
           "id": "pag-48-b0-l1",
           "text": {
-            "u": "**רחל:** עכשיו אני לא יכולה ללכת לעבודה. אני חולה. היום אני לא עובדת. ואתה?"
+            "u": "עכשיו אני לא יכולה ללכת לעבודה. אני חולה. היום אני לא עובדת. ואתה?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "רחל"
         },
         {
           "id": "pag-48-b0-l2",
           "text": {
-            "u": "**יוסף:** אני הולך לעבודה."
+            "u": "אני הולך לעבודה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יוסף"
         },
         {
           "id": "pag-48-b0-l3",
           "text": {
-            "u": "**רחל:** אתה אוהב לעבוד?"
+            "u": "אתה אוהב לעבוד?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "רחל"
         },
         {
           "id": "pag-48-b0-l4",
           "text": {
-            "u": "**יוסף:** אני לא אוהב לעבוד, אבל אין ברירה. אני צריך לעבוד."
+            "u": "אני לא אוהב לעבוד, אבל אין ברירה. אני צריך לעבוד."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יוסף"
         },
         {
           "id": "pag-48-b0-l5",
           "text": {
-            "u": "**רחל:** גם אני צריכה לעבוד."
+            "u": "גם אני צריכה לעבוד."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "רחל"
         },
         {
           "id": "pag-48-b0-l6",
           "text": {
-            "u": "**יוסף:** ואת רוצה לעבוד?"
+            "u": "ואת רוצה לעבוד?"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "יוסף"
         },
         {
           "id": "pag-48-b0-l7",
           "text": {
-            "u": "**רחל:** אני רוצה לעבוד, אני אוהבת לעבוד, אבל אני לא יכולה...."
+            "u": "אני רוצה לעבוד, אני אוהבת לעבוד, אבל אני לא יכולה...."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "רחל"
         }
       ]
     },
