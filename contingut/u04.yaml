@@ -1,2 +1,620 @@
-# Capa curada de la unitat 4: icones, textos, gramatica, exercicis, extres.
+# Capa curada de la unitat 4: icones, textos, gramàtica, exercicis.
 # Format: vegeu scripts/genera-contingut.ts (tipus Curat).
+# Vocals verificades amb els TSV (u01-u04) i la fitxa u04-possessio-i-salutacions del dossier i amb Pealim.
+# Grafia plena amb vocals (R19): אִישָּׁה, מְעַנְייֵן, תַּייָּר, תַּייֶּרֶת (com a la u01-u02);
+# מְצוּיָּן, מְצוּיֶּנֶת amb el dagesh de la י que dona Pealim (el TSV escriu מְצוּיָן sense dagesh).
+# Dagesh darrere de מַה (מַה שְּׁמֵךְ, מַה שְּׁלוֹם…), com fa el vocabulari del dossier.
+# Les línies «per comprovar» (⁇) no porten vocals ni traducció.
+# Sense vocals (no confirmades o ambigües): pag-21-b1-l9 (מריו, אורוגוואי), pag-25-b1-l7 (שלומך sense
+# destinatari: ךָ o ךְ), pag-26-b3-l2 (יפה en una llista: masculí o femení). Les notes del transcriptor
+# en català (pag-20-b6-l0, pag-20-b8-l0) no porten vocals ni traducció.
+
+textos:
+  pag-20-b0:
+    vocals:
+      0: "שֶׁל מִי הַ...?"
+      1: "שֶׁל...שֶׁל הַ..."
+    ca:
+      0: "De qui és el/la...?"
+      1: "de... · del/de la..."
+  pag-20-b1:
+    vocals:
+      0: "זֶה הַחֶדֶר שֶׁל הַמּוֹרָה?"
+      1: "– לֹא, זֶה לֹא הַחֶדֶר שֶׁל הַמּוֹרָה."
+      2: "שֶׁל מִי הַחֶדֶר? - הַחֶדֶר שֶׁל רוֹבֶּרְטוֹ וְשֶׁל עִמָּנוּאֵל."
+    ca:
+      0: "És aquesta l'habitació de la mestra?"
+      1: "— No, no és l'habitació de la mestra."
+      2: "De qui és l'habitació? — L'habitació és del Roberto i de l'Emanuel."
+  pag-20-b2:
+    vocals:
+      0: "שֶׁל מִי הַכֶּסֶף? - הַכֶּסֶף שֶׁל שָׂרָה."
+    ca:
+      0: "De qui són els diners? — Els diners són de la Sara."
+  pag-20-b4:
+    vocals:
+      0: "שֶׁל מִי הַמְּכוֹנִית? - הַמְּכוֹנִית שֶׁל מֹשֶׁה."
+    ca:
+      0: "De qui és el cotxe? — El cotxe és del Moixè."
+  pag-20-b5:
+    vocals:
+      0: "שֶׁל מִי הַכֶּלֶב? - הַכֶּלֶב שֶׁל הַיְּלָדִים."
+    ca:
+      0: "De qui és el gos? — El gos és dels nens."
+  pag-20-b7:
+    vocals:
+      0: "שֶׁל מִי · הַ + תְּמוּנוֹת / סֵפֶר / מְכוֹנִית / סִיגַרְיּוֹת ?"
+      1: "זֶה"
+    ca:
+      0: "De qui són · els quadres / el llibre / el cotxe / els cigarrets?"
+      1: "això"
+  pag-20-b9:
+    vocals:
+      0: "הַ + תְּמוּנוֹת / סֵפֶר / מְכוֹנִית / סִיגַרְיּוֹת · שֶׁל · אָדוֹן לֵוִי / חַנָּה"
+      1: "הַ + מוֹרֶה / תַּלְמִיד"
+      2: "זֶה"
+    ca:
+      0: "els quadres / el llibre / el cotxe / els cigarrets · de · el senyor Leví / la Hanà"
+      1: "el mestre / l'alumne"
+      2: "això"
+  pag-21-b0:
+    vocals:
+      0: "כְּתוֹב הַ... מִ... בְּ... שֶׁל"
+    ca:
+      0: "Escriu: el/la, de (procedència), a o en, de (possessió)"
+  pag-21-b1:
+    vocals:
+      0: "1. מֵאַיִן הַמְּכוֹנִית שֶׁל סְטִיב? – ____אַנְגְלִיָּה."
+      3: "4. זֹאת ____אִישָּׁה ____יִצְחָק? – לֹא, זֹאת ____אִישָּׁה ____מֹשֶׁה."
+      4: "5. מִי גָּר ____חֵיפָה? – תָּמָר וְאֶסְתֵּר."
+      5: "6. ____מִי הַכֶּלֶב? – שֶׁל ____בֵּן שֶׁל חַנָּה."
+      6: "7. שֶׁל מִי הַסִּיגַרְיּוֹת? – ____סְטִיב."
+      7: "8. צִפּוֹרָה ____מוֹרָה ____שָׂרָה? – כֵּן."
+      8: "9. ____הוֹרִים ____רוֹבֶּרְטוֹ ____בַּיִת? – לֹא, הֵם לֹא ____בַּיִת."
+    ca:
+      0: "1. D'on és el cotxe de l'Steve? — ____ Anglaterra."
+      3: "4. És ____ dona ____ Itshak? — No, és ____ dona ____ Moixè."
+      4: "5. Qui viu ____ Haifa? — La Tamar i l'Ester."
+      5: "6. ____ qui és el gos? — Del ____ fill de la Hanà."
+      6: "7. De qui són els cigarrets? — ____ Steve."
+      7: "8. La Tsiporà és ____ mestra ____ Sara? — Sí."
+      8: "9. ____ pares ____ Roberto són ____ casa? — No, no són ____ casa."
+      9: "10. El Mario és un immigrant nou ____ Brasil? — No, és ____ l'Uruguai."
+  pag-21-b2:
+    vocals:
+      0: "כְּתוֹב הוּא הִיא הֵם הֵן"
+    ca:
+      0: "Escriu: ell, ella, ells, elles"
+  pag-21-b3:
+    vocals:
+      1: "2. הַמְּכוֹנִית שֶׁל מֹשֶׁה טוֹבָה? – כֵּן, ____טוֹבָה מְאוֹד."
+      2: "3. הַתְּמוּנוֹת חֲדָשׁוֹת? – לֹא, ____לֹא חֲדָשׁוֹת."
+      3: "4. הַתְּמוּנָה יָפָה? – כֵּן, ____יָפָה."
+      4: "5. הַסֵּפֶר מְעַנְייֵן? – כֵּן, ____מְעַנְייֵן מְאוֹד."
+      5: "6. הַחֶדֶר שֶׁל רוֹבֶּרְטוֹ יָפֶה? – לֹא, ____לֹא יָפֶה."
+      6: "7. הַסִּיגַרְיּוֹת טוֹבוֹת? – לֹא, ____לֹא טוֹבוֹת."
+      7: "8. הַסְּפָרִים מְעַנְייְנִים? – לֹא, ____לֹא מְעַנְייְנִים."
+    ca:
+      1: "2. El cotxe del Moixè és bo? — Sí, ____ és molt bo."
+      2: "3. Els quadres són nous? — No, ____ no són nous."
+      3: "4. El quadre és bonic? — Sí, ____ és bonic."
+      4: "5. El llibre és interessant? — Sí, ____ és molt interessant."
+      5: "6. L'habitació del Roberto és bonica? — No, ____ no és bonica."
+      6: "7. Els cigarrets són bons? — No, ____ no són bons."
+      7: "8. Els llibres són interessants? — No, ____ no són interessants."
+  pag-22-b0:
+    vocals:
+      0: "בּוֹקֶר טוֹב רָחֵל."
+      1: "אֲנִי לֹא רָחֵל."
+      2: "סְלִיחָה, מִי אַתְּ? מַה שְּׁמֵךְ?"
+      3: "שְׁמִי שָׂרָה. וּמַה שִּׁמְךָ?"
+      4: "שְׁמִי יוֹסֵף."
+      5: "נָעִים מְאוֹד."
+      6: "נָעִים מְאוֹד, שָׂרָה, אַתְּ תַּלְמִידָה בָּאוּלְפָּן?"
+      7: "כֵּן. גַּם אַתָּה תַּלְמִיד בָּאוּלְפָּן?"
+      8: "לֹא, אֲנִי מוֹרֶה בָּאוּלְפָּן."
+      9: "שָׁלוֹם יוֹסֵף, לְהִתְרָאוֹת בָּאוּלְפָּן."
+      10: "שָׁלוֹם וּלְהִתְרָאוֹת."
+    ca:
+      0: "Bon dia, Rakhel."
+      1: "No sóc la Rakhel."
+      2: "Perdó, qui ets? Com et dius?"
+      3: "Em dic Sara. I tu, com et dius?"
+      4: "Em dic Iossef."
+      5: "Encantada."
+      6: "Encantat, Sara. Ets alumna de l'ulpan?"
+      7: "Sí. Tu també ets alumne de l'ulpan?"
+      8: "No, sóc mestre a l'ulpan."
+      9: "Adéu, Iossef, ens veiem a l'ulpan."
+      10: "Adéu i a reveure."
+  pag-22-b1:
+    vocals:
+      0: "שְׁמוֹ יוֹסֵף. שְׁמָהּ שָׂרָה."
+      2: 'שָׂרָה וְיוֹסֵף שֵׁמוֹת עִבְרִיִּים מֵהַתַּנַ"ךְ.'
+    ca:
+      0: "Ell es diu Iossef. Ella es diu Sara."
+      2: "Sara i Iossef són noms hebreus de la Bíblia."
+  pag-22-b2:
+    vocals:
+      0: "אֲנִי · אַתָּה · אַתְּ · הוּא · הִיא"
+    ca:
+      0: "jo · tu (m.) · tu (f.) · ell · ella"
+  pag-23-b0:
+    vocals:
+      0: "אוֹמְרִים: זֶה יֶלֶד. שְׁמוֹ דָּנִי."
+      1: "זֶה יֶלֶד. הַשֵּׁם שֶׁל הַיֶּלֶד דָּנִי."
+      2: "זֶה יֶלֶד. שֵׁם הַיֶּלֶד דָּנִי."
+      3: "מַה שֵּׁם הַיֶּלֶד? – דָּנִי."
+    ca:
+      0: "Es diu: és un nen. Es diu Dani."
+      1: "És un nen. El nom del nen és Dani."
+      2: "És un nen. El nom del nen és Dani."
+      3: "Com es diu el nen? — Dani."
+  pag-23-b2:
+    vocals:
+      1: "2. אַתְּ תַּלְמִידָה חֲדָשָׁה? מַה ____?"
+      2: "3. אַתָּה תַּלְמִיד חָדָשׁ? מַה ____?"
+      3: "4. מַה ____ הַיֶּלֶד? מַה ____ הַיַּלְדָּה?"
+      4: "5. מִי הוּא? מַה ____? מִי הִיא? מַה ____?"
+      5: "6. הוּא תַּייָּר מֵאַנְגְלִיָּה. ____ סְטִיב."
+      6: "7. הוּא תַּלְמִיד שֶׁל הַמּוֹרָה צִפּוֹרָה. ____ דָּוִד."
+      8: "9. יֶלֶד, מַה ____? יַלְדָּה, מַה ____?"
+      9: "10. הִיא עוֹלָה חֲדָשָׁה. ____ שׁוֹשַׁנָּה."
+      10: "11. מַה ____ הָרְחוֹב? מַה ____ הָאוּלְפָּן?"
+      11: '12. זֶה אוּלְפָּן טוֹב. ____ אוּלְפָּן "תָּבוֹר".'
+      12: "13. זֹאת יַלְדָּה יָפָה. מַה ____? – ____ רוּתִי."
+      13: "14. זֶה יֶלֶד יָפֶה. מַה ____? – ____ דָּנִי."
+      14: "15. רוֹבֶּרְטוֹ - לֹא ____ עִבְרִי. דָּנִיֵּאל - ____ עִבְרִי."
+    ca:
+      1: "2. Ets una alumna nova? Quin és ____ nom?"
+      2: "3. Ets un alumne nou? Quin és ____ nom?"
+      3: "4. Quin és ____ del nen? Quin és ____ de la nena?"
+      4: "5. Qui és ell? Quin és ____ nom? Qui és ella? Quin és ____ nom?"
+      5: "6. És un turista d'Anglaterra. ____ Steve."
+      6: "7. És alumne de la mestra Tsiporà. ____ David."
+      8: "9. Nen, quin és ____ nom? Nena, quin és ____ nom?"
+      9: "10. És una immigrant nova. ____ Xoixanà."
+      10: "11. Quin és ____ del carrer? Quin és ____ de l'ulpan?"
+      11: "12. És un bon ulpan. ____ ulpan «Tabor»."
+      12: "13. És una nena bonica. Quin és ____ nom? — ____ Ruti."
+      13: "14. És un nen bonic. Quin és ____ nom? — ____ Dani."
+      14: "15. Roberto no és ____ hebreu. Daniel és ____ hebreu."
+  pag-24-b0:
+    vocals:
+      0: "בּוֹקֶר טוֹב שָׂרָה. מַה שְּׁלוֹמֵךְ?"
+      1: "טוֹב, תּוֹדָה. מַה שְּׁלוֹמְךָ?"
+      2: "גַּם שְׁלוֹמִי טוֹב. בָּרוּךְ הַשֵּׁם!"
+      3: "מַה שְּׁלוֹם צִפּוֹרָה?"
+      4: "שְׁלוֹמָהּ מְצוּיָּן. מַה שְּׁלוֹם יִצְחָק?"
+      5: "גַּם שְׁלוֹמוֹ לֹא רַע."
+      6: "מַה שְּׁלוֹם הַיְּלָדִים?"
+      7: "שְׁלוֹמָם מְצוּיָּן."
+    ca:
+      0: "Bon dia, Sara. Com estàs?"
+      1: "Bé, gràcies. Com estàs?"
+      2: "Jo també estic bé, gràcies a Déu!"
+      3: "Com està la Tsiporà?"
+      4: "Està perfectament. Com està l'Itshak?"
+      5: "Ell tampoc no està malament."
+      6: "Com estan els nens?"
+      7: "Estan perfectament."
+  pag-24-b1:
+    vocals:
+      0: "אֲנִי · אַתָּה · אַתְּ · הוּא · הִיא"
+    ca:
+      0: "jo · tu (m.) · tu (f.) · ell · ella"
+  pag-24-b2:
+    vocals:
+      0: "אֲנַחְנוּ · אַתֶּם · אַתֶּן · הֵם · הֵן"
+      1: "שְׁלוֹמֵנוּ · שְׁלוֹמְכֶם · שְׁלוֹמְכֶן · שְׁלוֹמָם · שְׁלוֹמָן"
+    ca:
+      0: "nosaltres · vosaltres (m.) · vosaltres (f.) · ells · elles"
+      1: "estem · esteu (m.) · esteu (f.) · estan (m.) · estan (f.)"
+  pag-25-b1:
+    vocals:
+      0: "1. מַה שְּׁלוֹם יוֹסֵף? – ____ טוֹב."
+      1: "2. חַנָּה, מַה ____? – שְׁלוֹמִי לֹא רַע."
+      2: "3. מַה ____ שָׂרָה? – שְׁלוֹמָהּ טוֹב."
+      3: "4. מַה ____, שָׂרָה? – שְׁלוֹמִי טוֹב."
+      4: "5. מַה ____ יִצְחָק? – שְׁלוֹמוֹ מְצוּיָּן."
+      5: "6. מַה ____ רָחֵל? – ____ טוֹב מְאוֹד."
+      6: "7. יִצְחָק, מַה ____? – כָּכָה-כָּכָה."
+      8: "9. מַה שְּׁלוֹם אַבָּא? – ____ רַע מְאוֹד."
+      9: "10. מַה שְּׁלוֹם אִמָּא? – ____ טוֹב."
+    ca:
+      0: "1. Com està el Iossef? — ____ bé."
+      1: "2. Hanà, com ____? — No estic malament."
+      2: "3. Com ____ la Sara? — Està bé."
+      3: "4. Com ____, Sara? — Estic bé."
+      4: "5. Com ____ l'Itshak? — Està perfectament."
+      5: "6. Com ____ la Rakhel? — ____ molt bé."
+      6: "7. Itshak, com ____? — Així així."
+      7: "8. Com estàs? — Estic bé."
+      8: "9. Com està el pare? — ____ molt malament."
+      9: "10. Com està la mare? — ____ bé."
+  pag-25-b2:
+    vocals:
+      0: "ב. כְּתוֹב שָׁלוֹם שְׁלוֹמֵנוּ שְׁלוֹמְכֶם שְׁלוֹמְכֶן שְׁלוֹמָם שְׁלוֹמָן"
+    ca:
+      0: "B. Escriu: shalom, shlomenu, shlomkhem, shlomkhen, shlomam, shloman"
+  pag-25-b3:
+    vocals:
+      0: "1. מַה שְּׁלוֹמְכֶם? – ____ מְצוּיָּן."
+      1: "2. מַה שְּׁלוֹמְכֶן? – ____ טוֹב."
+      2: "3. מַה ____ שָׂרָה וְיִצְחָק? – ____ טוֹב."
+      3: "4. מַה ____ הַיְּלָדִים? – ____ לֹא רַע."
+      5: "6. מַה ____, שָׂרָה וְצִפּוֹרָה? – ____ טוֹב תּוֹדָה."
+    ca:
+      0: "1. Com esteu? — ____ perfectament."
+      1: "2. Com esteu (vosaltres, noies)? — ____ bé."
+      2: "3. Com ____ la Sara i l'Itshak? — ____ bé."
+      3: "4. Com ____ els nens? — ____ no gaire malament."
+      5: "6. Com ____, Sara i Tsiporà? — ____ bé, gràcies."
+  pag-26-b0:
+    vocals:
+      0: "הַשְׁלֵם כִּרְצוֹנְךָ"
+    ca:
+      0: "Completa-ho com vulguis."
+  pag-26-b1:
+    vocals:
+      1: "אֲנִי עוֹלֶה ____ מִבְּרָזִיל. אֲנִי הַבֵּן"
+      3: "עַכְשָׁיו אֲנִי ____ יִשְׂרָאֵל. אֲנִי גָּר בְּקִיבּוּץ"
+      4: "דָּן בַּגָּלִיל."
+      5: "בַּקִּיבּוּץ אֲנִי לוֹמֵד וְ____, אֲנִי"
+      6: "לוֹמֵד בְּאוּלְפַּן-עֲבוֹדָה."
+      7: "אֲנִי לוֹמֵד ____. אֲנִי תַּלְמִיד ____."
+      8: "אֲנִי חָבֵר ____ רוֹבֶּרְטוֹ לֵוִי. אֲנַחְנוּ ____ טוֹבִים."
+      9: "אֲנִי גָּר בַּחֶדֶר ____ רוֹבֶּרְטוֹ."
+      10: "אֲנַחְנוּ תַּלְמִידִים שֶׁל ____ מוֹרָה רָחֵל."
+      11: "רָחֵל אִישָּׁה ____ וּמְעַנְייֶנֶת. הִיא ____ טוֹבָה מְאוֹד."
+    ca:
+      1: "Sóc un immigrant ____ del Brasil. Sóc el fill"
+      3: "Ara sóc ____ Israel. Visc al quibuts"
+      4: "Dan, a Galilea."
+      5: "Al quibuts estudio i ____; estudio"
+      6: "en un ulpan de treball."
+      7: "Estudio ____. Sóc un alumne ____."
+      8: "Sóc amic ____ Roberto Leví. Som ____ bons."
+      9: "Visc a l'habitació ____ Roberto."
+      10: "Som alumnes de ____ mestra Rakhel."
+      11: "La Rakhel és una dona ____ i interessant. És una ____ molt bona."
+  pag-26-b2:
+    vocals:
+      0: "כְּתוֹב מִשְׁפָּטִים מֵהַמִּילִּים בַּשּׁוּרוֹת א' ב' ג'"
+      1: "הִשְׁתַּמֵּשׁ בְּמִילָּה אַחַת מִכָּל שׁוּרָה."
+    ca:
+      0: "Escriu frases amb les paraules de les files A, B i C."
+      1: "Fes servir una paraula de cada fila."
+  pag-26-b3:
+    vocals:
+      0: "א' זֶה, זֹאת, אֵלֶּה, הֵם, הֵן"
+      1: "ב' חֲבֵרוֹת, מִשְׁפָּחָה, אֲנָשִׁים, מְכוֹנִית, חֶדֶר, רְחוֹב"
+    ca:
+      0: "A: aquest, aquesta, aquests o aquestes, ells, elles"
+      1: "B: amigues, família, persones, cotxe, habitació, carrer"
+      2: "C: petita, bones, interessants, nova, bonic o bonica, gran, excel·lent, dolents"
+  pag-27-b0:
+    vocals:
+      0: "הַנְחָיוֹת בַּהַקְדָּמָה"
+    ca:
+      0: "Instruccions a la introducció"
+  pag-27-b1:
+    vocals:
+      0: "1. מַה שִּׁמְךָ?  מַה שְּׁמֵךְ?"
+      1: "2. מֵאַיִן אַתָּה?  מֵאַיִן אַתְּ?"
+      2: "3. אֵיפֹה אַתָּה עַכְשָׁיו?  אֵיפֹה אַתְּ עַכְשָׁיו?"
+      3: "4. אֵיפֹה אַתָּה גָּר?  אֵיפֹה אַתְּ גָּרָה?"
+      4: "5. אַתָּה תַּייָּר?  אַתְּ תַּייֶּרֶת?"
+      5: "6. אַתָּה עוֹלֶה חָדָשׁ?  אַתְּ עוֹלָה חֲדָשָׁה?"
+      6: "7. אַתָּה עוֹלֶה מֵרוּסְיָה?  אַתְּ עוֹלָה מֵרוּסְיָה?"
+      7: "8. אַתָּה מוֹרֶה?  אַתְּ מוֹרָה?"
+      8: "9. אַתָּה תַּלְמִיד?  אַתְּ תַּלְמִידָה?"
+      9: "10. אַתָּה תַּלְמִיד שֶׁל הַמּוֹרָה צִפּוֹרָה?  אַתְּ תַּלְמִידָה שֶׁל הַמּוֹרָה צִפּוֹרָה?"
+      10: "11. אַתָּה תַּלְמִיד טוֹב?  אַתְּ תַּלְמִידָה טוֹבָה?"
+      11: "12. אֵיפֹה אַתָּה לוֹמֵד?  אֵיפֹה אַתְּ לוֹמֶדֶת?"
+      12: "13. אֵיפֹה הָאוּלְפָּן?"
+      13: "14. אַתָּה עוֹבֵד?  אַתְּ עוֹבֶדֶת?"
+    ca:
+      0: "1. Com et dius? (a un home · a una dona)"
+      1: "2. D'on ets? (a un home · a una dona)"
+      2: "3. On ets ara? (a un home · a una dona)"
+      3: "4. On vius? (a un home · a una dona)"
+      4: "5. Ets turista? (a un home · a una dona)"
+      5: "6. Ets un immigrant nou? · Ets una immigrant nova?"
+      6: "7. Ets un immigrant de Rússia? · Ets una immigrant de Rússia?"
+      7: "8. Ets mestre? · Ets mestra?"
+      8: "9. Ets alumne? · Ets alumna?"
+      9: "10. Ets alumne de la mestra Tsiporà? · Ets alumna de la mestra Tsiporà?"
+      10: "11. Ets un bon alumne? · Ets una bona alumna?"
+      11: "12. On estudies? (a un home · a una dona)"
+      12: "13. On és l'ulpan?"
+      13: "14. Treballes? (a un home · a una dona)"
+
+icones:
+  u04-0: bed                        # חֶדֶר
+  u04-2: money                      # כֶּסֶף
+  u04-3: house-simple               # בַּיִת
+  u04-4: car                        # מְכוֹנִית
+  u04-5: dog                        # כֶּלֶב
+  u04-6: cigarette                  # סִיגַרְיָה
+  u04-7: sun-horizon                # בּוֹקֶר
+  u04-8: coffee                     # בּוֹקֶר טוֹב
+  u04-9: hand-palm                  # סְלִיחָה
+  u04-14: door-open                 # לְהִתְרָאוֹת
+  u04-15: identification-card       # שֵׁם
+  u04-16: star-of-david             # עִבְרִי
+  u04-18: scroll                    # תַּנַ"ךְ
+  u04-19: chat-circle-dots          # אוֹמְרִים
+  u04-26: heart                     # תּוֹדָה
+  u04-28: medal                     # מְצוּיָן
+  u04-30: thumbs-down               # רַע
+  u04-32: arrows-counter-clockwise  # חֲזָרָה
+  u04-33: puzzle-piece              # הַשְׁלֵם!
+  u04-35: rows                      # שׁוּרָה
+  u04-36: hand-tap                  # הִשְׁתַּמֵּשׁ בְּ...!
+  u04-38: barbell                   # תִּרְגּוּל
+  u04-39: circles-three             # קְבוּצָה
+
+gramatica:
+  - id: shel-mi
+    titol: De qui és? שֶׁל מִי?
+    explicacio: "שֶׁל מִי va davant de la cosa, que porta article: «de qui l'habitació?». A la resposta, darrere de שֶׁל hi va un nom propi sense article o un nom comú amb article; amb dos posseïdors, שֶׁל es pot repetir."
+    exemples:
+      - { n: "שֶׁל מִי הַכֶּסֶף? - הַכֶּסֶף שֶׁל שָׂרָה.", ca: "De qui són els diners? — Els diners són de la Sara." }
+      - { n: "שֶׁל מִי הַכֶּלֶב? - הַכֶּלֶב שֶׁל הַיְּלָדִים.", ca: "De qui és el gos? — El gos és dels nens." }
+      - { n: "שֶׁל מִי הַחֶדֶר? - הַחֶדֶר שֶׁל רוֹבֶּרְטוֹ וְשֶׁל עִמָּנוּאֵל.", ca: "De qui és l'habitació? — L'habitació és del Roberto i de l'Emanuel." }
+      - { n: "זֶה הַחֶדֶר שֶׁל הַמּוֹרָה?", ca: "És aquesta l'habitació de la mestra?" }
+  - id: pronom-resposta
+    titol: El pronom que respon
+    explicacio: "Per dir com és una cosa, la resposta porta הוּא, הִיא, הֵם o הֵן segons el gènere i el nombre del nom; en català no hi posem pronom. מְכוֹנִית és femení (הִיא) i סֵפֶר, masculí (הוּא)."
+    exemples:
+      - { n: "הַמְּכוֹנִית שֶׁל מֹשֶׁה טוֹבָה? – כֵּן, הִיא טוֹבָה מְאוֹד.", ca: "El cotxe del Moixè és bo? — Sí, és molt bo." }
+      - { u: "הספר מעניין? – כן, הוא מעניין מאוד.", n: "הַסֵּפֶר מְעַנְייֵן? – כֵּן, הוּא מְעַנְייֵן מְאוֹד.", ca: "El llibre és interessant? — Sí, és molt interessant." }
+      - { n: "הַסִּיגַרְיּוֹת טוֹבוֹת? – לֹא, הֵן לֹא טוֹבוֹת.", ca: "Els cigarrets són bons? — No, no són bons." }
+  - id: shem-sufixos
+    titol: Com et dius? Els sufixos de שֵׁם
+    explicacio: "El posseïdor s'enganxa al nom com a sufix: שְׁמִי (el meu nom), שְׁמוֹ (d'ell), שְׁמָהּ (d'ella). A un home es diu שִׁמְךָ i a una dona שְׁמֵךְ, que sense vocals s'escriuen igual: שמך."
+    exemples:
+      - { n: "סְלִיחָה, מִי אַתְּ? מַה שְּׁמֵךְ?", ca: "Perdó, qui ets? Com et dius? (a una dona)" }
+      - { n: "שְׁמִי שָׂרָה. וּמַה שִּׁמְךָ?", ca: "Em dic Sara. I tu, com et dius? (a un home)" }
+      - { n: "שְׁמוֹ יוֹסֵף. שְׁמָהּ שָׂרָה.", ca: "Ell es diu Iossef. Ella es diu Sara." }
+      - { n: "מַה שִּׁמְךָ? · מַה שְּׁמֵךְ?", ca: "Com et dius? (a un home · a una dona)" }
+  - id: shalom-sufixos
+    titol: Com estàs? Els sufixos de שָׁלוֹם
+    explicacio: "שָׁלוֹם pren els mateixos sufixos. Per una tercera persona es pregunta מַה שְּׁלוֹם + nom, i la resposta va en masculí singular perquè concorda amb שָׁלוֹם: שְׁלוֹמָהּ טוֹב."
+    exemples:
+      - { n: "בּוֹקֶר טוֹב שָׂרָה. מַה שְּׁלוֹמֵךְ?", ca: "Bon dia, Sara. Com estàs? (a una dona)" }
+      - { n: "טוֹב, תּוֹדָה. מַה שְּׁלוֹמְךָ?", ca: "Bé, gràcies. Com estàs? (a un home)" }
+      - { n: "שְׁלוֹמָהּ מְצוּיָּן. מַה שְּׁלוֹם יִצְחָק?", ca: "Està perfectament. Com està l'Itshak?" }
+      - { n: "שְׁלוֹמֵנוּ · שְׁלוֹמְכֶם · שְׁלוֹמְכֶן · שְׁלוֹמָם · שְׁלוֹמָן", ca: "estem · esteu (m.) · esteu (f.) · estan (m.) · estan (f.)" }
+      - { n: "מַה שְּׁלוֹם הַיְּלָדִים? — שְׁלוֹמָם מְצוּיָּן.", ca: "Com estan els nens? — Estan perfectament." }
+  - id: shem-ha
+    titol: Tres maneres de dir el nom
+    explicacio: "El nom d'algú es diu amb el sufix, amb שֶׁל o enganxant שֵׁם al nom següent. En aquesta última, שֵׁם no porta article i el segon nom sí: שֵׁם הַיֶּלֶד."
+    exemples:
+      - { n: "זֶה יֶלֶד. שְׁמוֹ דָּנִי.", ca: "És un nen. Es diu Dani." }
+      - { n: "זֶה יֶלֶד. הַשֵּׁם שֶׁל הַיֶּלֶד דָּנִי.", ca: "És un nen. El nom del nen és Dani." }
+      - { n: "זֶה יֶלֶד. שֵׁם הַיֶּלֶד דָּנִי.", ca: "És un nen. El nom del nen és Dani." }
+      - { n: "מַה שֵּׁם הַיֶּלֶד? – דָּנִי.", ca: "Com es diu el nen? — Dani." }
+  - id: shemot-ivriyim
+    titol: שֵׁמוֹת עִבְרִיִּים
+    explicacio: "שֵׁם és masculí encara que el plural acabi en ‑וֹת, i per això l'adjectiu va en ‑ִים. עִבְרִי fa עִבְרִית, עִבְרִיִּים, עִבְרִיּוֹת."
+    exemples:
+      - { n: 'שָׂרָה וְיוֹסֵף שֵׁמוֹת עִבְרִיִּים מֵהַתַּנַ"ךְ.', ca: "Sara i Iossef són noms hebreus de la Bíblia." }
+      - { n: "עִבְרִי, עִבְרִית, עִבְרִיִּים, עִבְרִיּוֹת", ca: "hebreu, hebrea, hebreus, hebrees" }
+  - id: salutacions
+    titol: Salutacions i respostes
+    explicacio: "Les fórmules dels dos diàlegs. Les respostes a מַה שְּׁלוֹמְךָ? van de מְצוּיָּן a רַע מְאוֹד; לֹא רַע vol dir «no gaire malament»."
+    exemples:
+      - { n: "בּוֹקֶר טוֹב רָחֵל.", ca: "Bon dia, Rakhel." }
+      - { n: "שָׁלוֹם יוֹסֵף, לְהִתְרָאוֹת בָּאוּלְפָּן.", ca: "Adéu, Iossef, ens veiem a l'ulpan." }
+      - { n: "שָׁלוֹם וּלְהִתְרָאוֹת.", ca: "Adéu i a reveure." }
+      - { n: "גַּם שְׁלוֹמִי טוֹב. בָּרוּךְ הַשֵּׁם!", ca: "Jo també estic bé, gràcies a Déu! (literalment, beneït el Nom)" }
+      - { u: "מצוין · טוב מאוד · טוב · ככה-ככה · לא רע · רע · רע מאוד", n: "מְצוּיָּן · טוֹב מְאוֹד · טוֹב · כָּכָה-כָּכָה · לֹא רַע · רַע · רַע מְאוֹד", ca: "perfectament · molt bé · bé · així així · no gaire malament · malament · molt malament" }
+  - id: metsuyan-ra
+    titol: מְצוּיָּן i רַע en quatre formes
+    explicacio: "Concorden com els adjectius de la unitat 2. A les altres formes, רַע passa a רָ־ (רָעָה, רָעִים, רָעוֹת), però sona igual."
+    exemples:
+      - { u: "מצוין, מצוינת, מצוינים, מצוינות", n: "מְצוּיָּן, מְצוּיֶּנֶת, מְצוּיָּנִים, מְצוּיָּנוֹת", ca: "excel·lent (m. sg., f. sg., m. pl., f. pl.)" }
+      - { n: "רַע, רָעָה, רָעִים, רָעוֹת", ca: "dolent, dolenta, dolents, dolentes" }
+      - { n: "גַּם שְׁלוֹמוֹ לֹא רַע.", ca: "Ell tampoc no està malament." }
+
+exercicis:
+  # pag-21, תרגיל 9: הַ־, מִ־, בְּ־ o שֶׁל (9.2 i 9.3 són per comprovar)
+  - { tipus: forat, origen: "pag-21 ex. 9.1", extra: false, linies: [pag-21-b1-l0],
+      frase: { u: "מאין המכונית של סטיב? – ____אנגליה.", n: "מֵאַיִן הַמְּכוֹנִית שֶׁל סְטִיב? – ____אַנְגְלִיָּה." },
+      opcions: ["הַ־", "מִ־", "בְּ־", "שֶׁל"], correcta: 1, retro: "מֵאַיִן pregunta per la procedència: מֵאַנְגְלִיָּה." }
+  - { tipus: autocorreccio, origen: "pag-21 ex. 9.4", extra: false, linies: [pag-21-b1-l3],
+      enunciat: { n: "זֹאת ____אִישָּׁה ____יִצְחָק? – לֹא, זֹאת ____אִישָּׁה ____מֹשֶׁה.", u: "זאת ____אישה ____יצחק? – לא, זאת ____אישה ____משה." },
+      model: { n: "זֹאת הָאִישָּׁה שֶׁל יִצְחָק? – לֹא, זֹאת הָאִישָּׁה שֶׁל מֹשֶׁה.", u: "זאת האישה של יצחק? – לא, זאת האישה של משה." } }
+  - { tipus: forat, origen: "pag-21 ex. 9.5", extra: false, linies: [pag-21-b1-l4],
+      frase: { u: "מי גר ____חיפה? – תמר ואסתר.", n: "מִי גָּר ____חֵיפָה? – תָּמָר וְאֶסְתֵּר." },
+      opcions: ["הַ־", "מִ־", "בְּ־", "שֶׁל"], correcta: 2, retro: "On viu algú: בְּחֵיפָה." }
+  - { tipus: forat, origen: "pag-21 ex. 9.6", extra: false, linies: [pag-21-b1-l5],
+      frase: { u: "____מי הכלב? – של הבן של חנה.", n: "____מִי הַכֶּלֶב? – שֶׁל הַבֵּן שֶׁל חַנָּה." },
+      opcions: ["הַ־", "מִ־", "בְּ־", "שֶׁל"], correcta: 3, retro: "La pregunta de possessió és שֶׁל מִי." }
+  - { tipus: forat, origen: "pag-21 ex. 9.6", extra: false, linies: [pag-21-b1-l5],
+      frase: { u: "של מי הכלב? – של ____בן של חנה.", n: "שֶׁל מִי הַכֶּלֶב? – שֶׁל ____בֵּן שֶׁל חַנָּה." },
+      opcions: ["הַ־", "מִ־", "בְּ־", "שֶׁל"], correcta: 0, retro: "Darrere de שֶׁל, un nom comú porta article: הַבֵּן." }
+  - { tipus: forat, origen: "pag-21 ex. 9.7", extra: false, linies: [pag-21-b1-l6],
+      frase: { u: "של מי הסיגריות? – ____סטיב.", n: "שֶׁל מִי הַסִּיגַרְיּוֹת? – ____סְטִיב." },
+      opcions: ["הַ־", "מִ־", "בְּ־", "שֶׁל"], correcta: 3, retro: "Es respon de qui són: שֶׁל סְטִיב." }
+  - { tipus: autocorreccio, origen: "pag-21 ex. 9.8", extra: false, linies: [pag-21-b1-l7],
+      enunciat: { n: "צִפּוֹרָה ____מוֹרָה ____שָׂרָה? – כֵּן.", u: "צפורה ____מורה ____שרה? – כן." },
+      model: { n: "צִפּוֹרָה הַמּוֹרָה שֶׁל שָׂרָה? – כֵּן.", u: "צפורה המורה של שרה? – כן." } }
+  - { tipus: autocorreccio, origen: "pag-21 ex. 9.9", extra: false, linies: [pag-21-b1-l8],
+      enunciat: { n: "____הוֹרִים ____רוֹבֶּרְטוֹ ____בַּיִת? – לֹא, הֵם לֹא ____בַּיִת.", u: "____הורים ____רוברטו ____בית? – לא, הם לא ____בית." },
+      model: { n: "הַהוֹרִים שֶׁל רוֹבֶּרְטוֹ בַּבַּיִת? – לֹא, הֵם לֹא בַּבַּיִת.", u: "ההורים של רוברטו בבית? – לא, הם לא בבית." } }
+  - { tipus: forat, origen: "pag-21 ex. 9.10", extra: false, linies: [pag-21-b1-l9],
+      frase: { u: "מריו עולה חדש ____ברזיל? – לא, הוא מאורוגוואי." },
+      opcions: ["הַ־", "מִ־", "בְּ־", "שֶׁל"], correcta: 1, retro: "Es diu d'on ve: מִבְּרָזִיל, com מאורוגוואי." }
+
+  # pag-21, תרגיל 10: הוּא, הִיא, הֵם o הֵן (10.1 és per comprovar)
+  - { tipus: forat, origen: "pag-21 ex. 10.2", extra: false, linies: [pag-21-b3-l1],
+      frase: { u: "המכונית של משה טובה? – כן, ____ טובה מאוד.", n: "הַמְּכוֹנִית שֶׁל מֹשֶׁה טוֹבָה? – כֵּן, ____ טוֹבָה מְאוֹד." },
+      opcions: ["הוּא", "הִיא", "הֵם", "הֵן"], correcta: 1, retro: "מְכוֹנִית és femení singular: הִיא." }
+  - { tipus: forat, origen: "pag-21 ex. 10.3", extra: false, linies: [pag-21-b3-l2],
+      frase: { u: "התמונות חדשות? – לא, ____ לא חדשות.", n: "הַתְּמוּנוֹת חֲדָשׁוֹת? – לֹא, ____ לֹא חֲדָשׁוֹת." },
+      opcions: ["הוּא", "הִיא", "הֵם", "הֵן"], correcta: 3, retro: "תְּמוּנוֹת és femení plural: הֵן." }
+  - { tipus: forat, origen: "pag-21 ex. 10.4", extra: false, linies: [pag-21-b3-l3],
+      frase: { u: "התמונה יפה? – כן, ____ יפה.", n: "הַתְּמוּנָה יָפָה? – כֵּן, ____ יָפָה." },
+      opcions: ["הוּא", "הִיא", "הֵם", "הֵן"], correcta: 1, retro: "תְּמוּנָה és femení singular: הִיא." }
+  - { tipus: forat, origen: "pag-21 ex. 10.5", extra: false, linies: [pag-21-b3-l4],
+      frase: { u: "הספר מעניין? – כן, ____ מעניין מאוד.", n: "הַסֵּפֶר מְעַנְייֵן? – כֵּן, ____ מְעַנְייֵן מְאוֹד." },
+      opcions: ["הוּא", "הִיא", "הֵם", "הֵן"], correcta: 0, retro: "סֵפֶר és masculí singular: הוּא." }
+  - { tipus: forat, origen: "pag-21 ex. 10.6", extra: false, linies: [pag-21-b3-l5],
+      frase: { u: "החדר של רוברטו יפה? – לא, ____ לא יפה.", n: "הַחֶדֶר שֶׁל רוֹבֶּרְטוֹ יָפֶה? – לֹא, ____ לֹא יָפֶה." },
+      opcions: ["הוּא", "הִיא", "הֵם", "הֵן"], correcta: 0, retro: "חֶדֶר és masculí singular: הוּא." }
+  - { tipus: forat, origen: "pag-21 ex. 10.7", extra: false, linies: [pag-21-b3-l6],
+      frase: { u: "הסיגריות טובות? – לא, ____ לא טובות.", n: "הַסִּיגַרְיּוֹת טוֹבוֹת? – לֹא, ____ לֹא טוֹבוֹת." },
+      opcions: ["הוּא", "הִיא", "הֵם", "הֵן"], correcta: 3, retro: "סִיגַרְיּוֹת és femení plural: הֵן." }
+  - { tipus: forat, origen: "pag-21 ex. 10.8", extra: false, linies: [pag-21-b3-l7],
+      frase: { u: "הספרים מעניינים? – לא, ____ לא מעניינים.", n: "הַסְּפָרִים מְעַנְייְנִים? – לֹא, ____ לֹא מְעַנְייְנִים." },
+      opcions: ["הוּא", "הִיא", "הֵם", "הֵן"], correcta: 2, retro: "סְפָרִים és masculí plural: הֵם." }
+
+  # pag-23, תרגיל 11: שֵׁם i les formes amb sufix (11.1 i 11.8 són per comprovar).
+  # Sense vocals שִׁמְךָ i שְׁמֵךְ són iguals (שמך): cada exercici en porta només una.
+  - { tipus: forat, origen: "pag-23 ex. 11.2", extra: false, linies: [pag-23-b2-l1],
+      frase: { u: "את תלמידה חדשה? מה ____?", n: "אַתְּ תַּלְמִידָה חֲדָשָׁה? מַה ____?" },
+      opcions: ["שֵׁם", "שְׁמִי", "שְׁמֵךְ", "שְׁמוֹ", "שְׁמָהּ"], correcta: 2, retro: "Es parla a una dona (אַתְּ): שְׁמֵךְ." }
+  - { tipus: forat, origen: "pag-23 ex. 11.3", extra: false, linies: [pag-23-b2-l2],
+      frase: { u: "אתה תלמיד חדש? מה ____?", n: "אַתָּה תַּלְמִיד חָדָשׁ? מַה ____?" },
+      opcions: ["שֵׁם", "שְׁמִי", "שִׁמְךָ", "שְׁמוֹ", "שְׁמָהּ"], correcta: 2, retro: "Es parla a un home (אַתָּה): שִׁמְךָ; a una dona seria שְׁמֵךְ." }
+  - { tipus: forat, origen: "pag-23 ex. 11.4", extra: false, linies: [pag-23-b2-l3],
+      frase: { u: "מה ____ הילד? מה שם הילדה?", n: "מַה ____ הַיֶּלֶד? מַה שֵּׁם הַיַּלְדָּה?" },
+      opcions: ["שֵׁם", "שְׁמִי", "שְׁמוֹ", "שְׁמָהּ"], correcta: 0, retro: "Davant d'un altre nom va שֵׁם sense sufix: שֵׁם הַיֶּלֶד." }
+  - { tipus: forat, origen: "pag-23 ex. 11.5", extra: false, linies: [pag-23-b2-l4],
+      frase: { u: "מי הוא? מה ____? מי היא? מה שמה?", n: "מִי הוּא? מַה ____? מִי הִיא? מַה שְּׁמָהּ?" },
+      opcions: ["שֵׁם", "שְׁמִי", "שְׁמוֹ", "שְׁמָהּ"], correcta: 2, retro: "Es parla d'ell (הוּא): שְׁמוֹ." }
+  - { tipus: forat, origen: "pag-23 ex. 11.6", extra: false, linies: [pag-23-b2-l5],
+      frase: { u: "הוא תייר מאנגליה. ____ סטיב.", n: "הוּא תַּייָּר מֵאַנְגְלִיָּה. ____ סְטִיב." },
+      opcions: ["שֵׁם", "שְׁמִי", "שְׁמוֹ", "שְׁמָהּ"], correcta: 2, retro: "El nom d'ell: שְׁמוֹ סְטִיב." }
+  - { tipus: forat, origen: "pag-23 ex. 11.7", extra: false, linies: [pag-23-b2-l6],
+      frase: { u: "הוא תלמיד של המורה צפורה. ____ דוד.", n: "הוּא תַּלְמִיד שֶׁל הַמּוֹרָה צִפּוֹרָה. ____ דָּוִד." },
+      opcions: ["שֵׁם", "שְׁמִי", "שְׁמוֹ", "שְׁמָהּ"], correcta: 2, retro: "Es parla d'un alumne (הוּא): שְׁמוֹ." }
+  - { tipus: autocorreccio, origen: "pag-23 ex. 11.9", extra: false, linies: [pag-23-b2-l8],
+      enunciat: { n: "יֶלֶד, מַה ____? יַלְדָּה, מַה ____?", u: "ילד, מה ____? ילדה, מה ____?" },
+      model: { n: "יֶלֶד, מַה שִּׁמְךָ? יַלְדָּה, מַה שְּׁמֵךְ?", u: "ילד, מה שמך? ילדה, מה שמך?" } }
+  - { tipus: forat, origen: "pag-23 ex. 11.10", extra: false, linies: [pag-23-b2-l9],
+      frase: { u: "היא עולה חדשה. ____ שושנה.", n: "הִיא עוֹלָה חֲדָשָׁה. ____ שׁוֹשַׁנָּה." },
+      opcions: ["שֵׁם", "שְׁמִי", "שְׁמוֹ", "שְׁמָהּ"], correcta: 3, retro: "El nom d'ella: שְׁמָהּ, amb ה final." }
+  - { tipus: forat, origen: "pag-23 ex. 11.11", extra: false, linies: [pag-23-b2-l10],
+      frase: { u: "מה ____ הרחוב? מה שם האולפן?", n: "מַה ____ הָרְחוֹב? מַה שֵּׁם הָאוּלְפָּן?" },
+      opcions: ["שֵׁם", "שְׁמִי", "שְׁמוֹ", "שְׁמָהּ"], correcta: 0, retro: "Davant de הָרְחוֹב va שֵׁם, sense article i sense sufix." }
+  - { tipus: forat, origen: "pag-23 ex. 11.12", extra: false, linies: [pag-23-b2-l11],
+      frase: { u: 'זה אולפן טוב. ____ אולפן "תבור".', n: 'זֶה אוּלְפָּן טוֹב. ____ אוּלְפָּן "תָּבוֹר".' },
+      opcions: ["שֵׁם", "שְׁמִי", "שְׁמוֹ", "שְׁמָהּ"], correcta: 2, retro: "אוּלְפָּן és masculí: שְׁמוֹ." }
+  - { tipus: forat, origen: "pag-23 ex. 11.13", extra: false, linies: [pag-23-b2-l12],
+      frase: { u: "זאת ילדה יפה. מה ____? – שמה רותי.", n: "זֹאת יַלְדָּה יָפָה. מַה ____? – שְׁמָהּ רוּתִי." },
+      opcions: ["שֵׁם", "שְׁמִי", "שְׁמוֹ", "שְׁמָהּ"], correcta: 3, retro: "Es pregunta pel nom d'una nena: שְׁמָהּ." }
+  - { tipus: forat, origen: "pag-23 ex. 11.14", extra: false, linies: [pag-23-b2-l13],
+      frase: { u: "זה ילד יפה. מה שמו? – ____ דני.", n: "זֶה יֶלֶד יָפֶה. מַה שְּׁמוֹ? – ____ דָּנִי." },
+      opcions: ["שֵׁם", "שְׁמִי", "שְׁמוֹ", "שְׁמָהּ"], correcta: 2, retro: "El nom d'un nen: שְׁמוֹ דָּנִי." }
+  - { tipus: forat, origen: "pag-23 ex. 11.15", extra: false, linies: [pag-23-b2-l14],
+      frase: { u: "רוברטו - לא ____ עברי. דניאל - שם עברי.", n: "רוֹבֶּרְטוֹ - לֹא ____ עִבְרִי. דָּנִיֵּאל - שֵׁם עִבְרִי." },
+      opcions: ["שֵׁם", "שְׁמִי", "שְׁמוֹ", "שְׁמָהּ"], correcta: 0, retro: "Un nom hebreu: שֵׁם עִבְרִי, sense sufix." }
+
+  # pag-25, תרגיל 12 א: שָׁלוֹם i el singular (12א.8 no té buit)
+  - { tipus: forat, origen: "pag-25 ex. 12א.1", extra: false, linies: [pag-25-b1-l0],
+      frase: { u: "מה שלום יוסף? – ____ טוב.", n: "מַה שְּׁלוֹם יוֹסֵף? – ____ טוֹב." },
+      opcions: ["שְׁלוֹם", "שְׁלוֹמִי", "שְׁלוֹמוֹ", "שְׁלוֹמָהּ"], correcta: 2, retro: "Es parla d'ell: שְׁלוֹמוֹ טוֹב." }
+  - { tipus: forat, origen: "pag-25 ex. 12א.2", extra: false, linies: [pag-25-b1-l1],
+      frase: { u: "חנה, מה ____? – שלומי לא רע.", n: "חַנָּה, מַה ____? – שְׁלוֹמִי לֹא רַע." },
+      opcions: ["שְׁלוֹם", "שְׁלוֹמִי", "שְׁלוֹמֵךְ", "שְׁלוֹמָהּ"], correcta: 2, retro: "Es parla a la Hanà, una dona: שְׁלוֹמֵךְ." }
+  - { tipus: forat, origen: "pag-25 ex. 12א.3", extra: false, linies: [pag-25-b1-l2],
+      frase: { u: "מה ____ שרה? – שלומה טוב.", n: "מַה ____ שָׂרָה? – שְׁלוֹמָהּ טוֹב." },
+      opcions: ["שְׁלוֹם", "שְׁלוֹמִי", "שְׁלוֹמוֹ", "שְׁלוֹמָהּ"], correcta: 0, retro: "Amb el nom al darrere, שְׁלוֹם va sense sufix." }
+  - { tipus: forat, origen: "pag-25 ex. 12א.4", extra: false, linies: [pag-25-b1-l3],
+      frase: { u: "מה ____, שרה? – שלומי טוב.", n: "מַה ____, שָׂרָה? – שְׁלוֹמִי טוֹב." },
+      opcions: ["שְׁלוֹם", "שְׁלוֹמִי", "שְׁלוֹמֵךְ", "שְׁלוֹמָהּ"], correcta: 2, retro: "Es parla a la Sara (la coma ho indica): שְׁלוֹמֵךְ." }
+  - { tipus: forat, origen: "pag-25 ex. 12א.5", extra: false, linies: [pag-25-b1-l4],
+      frase: { u: "מה ____ יצחק? – שלומו מצוין.", n: "מַה ____ יִצְחָק? – שְׁלוֹמוֹ מְצוּיָּן." },
+      opcions: ["שְׁלוֹם", "שְׁלוֹמִי", "שְׁלוֹמוֹ", "שְׁלוֹמָהּ"], correcta: 0, retro: "Es pregunta per l'Itshak: מַה שְּׁלוֹם יִצְחָק." }
+  - { tipus: forat, origen: "pag-25 ex. 12א.6", extra: false, linies: [pag-25-b1-l5],
+      frase: { u: "מה שלום רחל? – ____ טוב מאוד.", n: "מַה שְּׁלוֹם רָחֵל? – ____ טוֹב מְאוֹד." },
+      opcions: ["שְׁלוֹם", "שְׁלוֹמִי", "שְׁלוֹמוֹ", "שְׁלוֹמָהּ"], correcta: 3, retro: "Es parla d'ella: שְׁלוֹמָהּ, amb ה final." }
+  - { tipus: forat, origen: "pag-25 ex. 12א.7", extra: false, linies: [pag-25-b1-l6],
+      frase: { u: "יצחק, מה ____? – ככה-ככה.", n: "יִצְחָק, מַה ____? – כָּכָה-כָּכָה." },
+      opcions: ["שְׁלוֹם", "שְׁלוֹמִי", "שְׁלוֹמְךָ", "שְׁלוֹמוֹ"], correcta: 2, retro: "Es parla a l'Itshak, un home: שְׁלוֹמְךָ." }
+  - { tipus: forat, origen: "pag-25 ex. 12א.9", extra: false, linies: [pag-25-b1-l8],
+      frase: { u: "מה שלום אבא? – ____ רע מאוד.", n: "מַה שְּׁלוֹם אַבָּא? – ____ רַע מְאוֹד." },
+      opcions: ["שְׁלוֹם", "שְׁלוֹמִי", "שְׁלוֹמוֹ", "שְׁלוֹמָהּ"], correcta: 2, retro: "Es parla del pare: שְׁלוֹמוֹ." }
+  - { tipus: forat, origen: "pag-25 ex. 12א.10", extra: false, linies: [pag-25-b1-l9],
+      frase: { u: "מה שלום אמא? – ____ טוב.", n: "מַה שְּׁלוֹם אִמָּא? – ____ טוֹב." },
+      opcions: ["שְׁלוֹם", "שְׁלוֹמִי", "שְׁלוֹמוֹ", "שְׁלוֹמָהּ"], correcta: 3, retro: "Es parla de la mare: שְׁלוֹמָהּ, i טוֹב en masculí (concorda amb שָׁלוֹם)." }
+
+  # pag-25, תרגיל 12 ב: el plural (12ב.5 és per comprovar)
+  - { tipus: forat, origen: "pag-25 ex. 12ב.1", extra: false, linies: [pag-25-b3-l0],
+      frase: { u: "מה שלומכם? – ____ מצוין.", n: "מַה שְּׁלוֹמְכֶם? – ____ מְצוּיָּן." },
+      opcions: ["שְׁלוֹמֵנוּ", "שְׁלוֹמְכֶם", "שְׁלוֹמָם", "שְׁלוֹמָן"], correcta: 0, retro: "Responen per ells mateixos: שְׁלוֹמֵנוּ." }
+  - { tipus: forat, origen: "pag-25 ex. 12ב.2", extra: false, linies: [pag-25-b3-l1],
+      frase: { u: "מה שלומכן? – ____ טוב.", n: "מַה שְּׁלוֹמְכֶן? – ____ טוֹב." },
+      opcions: ["שְׁלוֹמֵנוּ", "שְׁלוֹמְכֶן", "שְׁלוֹמָם", "שְׁלוֹמָן"], correcta: 0, retro: "שְׁלוֹמֵנוּ serveix per a homes i per a dones." }
+  - { tipus: forat, origen: "pag-25 ex. 12ב.3", extra: false, linies: [pag-25-b3-l2],
+      frase: { u: "מה ____ שרה ויצחק? – שלומם טוב.", n: "מַה ____ שָׂרָה וְיִצְחָק? – שְׁלוֹמָם טוֹב." },
+      opcions: ["שְׁלוֹם", "שְׁלוֹמֵנוּ", "שְׁלוֹמָם", "שְׁלוֹמָן"], correcta: 0, retro: "Amb els noms al darrere, שְׁלוֹם va sense sufix." }
+  - { tipus: forat, origen: "pag-25 ex. 12ב.4", extra: false, linies: [pag-25-b3-l3, pag-24-b0-l7],
+      frase: { u: "מה שלום הילדים? – ____ לא רע.", n: "מַה שְּׁלוֹם הַיְּלָדִים? – ____ לֹא רַע." },
+      opcions: ["שְׁלוֹם", "שְׁלוֹמֵנוּ", "שְׁלוֹמָם", "שְׁלוֹמָן"], correcta: 2, retro: "הַיְּלָדִים és masculí plural: שְׁלוֹמָם." }
+  - { tipus: forat, origen: "pag-25 ex. 12ב.6", extra: false, linies: [pag-25-b3-l5],
+      frase: { u: "מה ____, שרה וצפורה? – שלומנו טוב תודה.", n: "מַה ____, שָׂרָה וְצִפּוֹרָה? – שְׁלוֹמֵנוּ טוֹב תּוֹדָה." },
+      opcions: ["שְׁלוֹם", "שְׁלוֹמְכֶם", "שְׁלוֹמְכֶן", "שְׁלוֹמָן"], correcta: 2, retro: "Es parla a dues dones: שְׁלוֹמְכֶן." }
+
+  # pag-26, תרגיל 13: completa com vulguis (el model és una de les respostes possibles)
+  - { tipus: autocorreccio, origen: "pag-26 ex. 13", extra: false, linies: [pag-26-b1-l1],
+      enunciat: { n: "אֲנִי עוֹלֶה ____ מִבְּרָזִיל.", u: "אני עולה ____ מברזיל." },
+      model: { n: "אֲנִי עוֹלֶה חָדָשׁ מִבְּרָזִיל.", u: "אני עולה חדש מברזיל." } }
+  - { tipus: forat, origen: "pag-26 ex. 13", extra: false, linies: [pag-26-b1-l3],
+      frase: { u: "עכשיו אני ____ישראל.", n: "עַכְשָׁיו אֲנִי ____יִשְׂרָאֵל." },
+      opcions: ["הַ־", "מִ־", "בְּ־"], correcta: 2, retro: "Ara és a Israel: בְּיִשְׂרָאֵל (del Brasil, amb מִ־)." }
+  - { tipus: forat, origen: "pag-26 ex. 13", extra: false, linies: [pag-26-b1-l5],
+      frase: { u: "בקיבוץ אני לומד ו____.", n: "בַּקִּיבּוּץ אֲנִי לוֹמֵד וְ____." },
+      opcions: ["עוֹבֵד", "עוֹבֶדֶת", "עוֹבְדִים"], correcta: 0, retro: "Parla un home (אֲנִי לוֹמֵד): עוֹבֵד." }
+  - { tipus: autocorreccio, origen: "pag-26 ex. 13", extra: false, linies: [pag-26-b1-l8],
+      enunciat: { n: "אֲנִי חָבֵר ____ רוֹבֶּרְטוֹ לֵוִי. אֲנַחְנוּ ____ טוֹבִים.", u: "אני חבר ____ רוברטו לוי. אנחנו ____ טובים." },
+      model: { n: "אֲנִי חָבֵר שֶׁל רוֹבֶּרְטוֹ לֵוִי. אֲנַחְנוּ חֲבֵרִים טוֹבִים.", u: "אני חבר של רוברטו לוי. אנחנו חברים טובים." } }
+  - { tipus: forat, origen: "pag-26 ex. 13", extra: false, linies: [pag-26-b1-l9],
+      frase: { u: "אני גר בחדר ____ רוברטו.", n: "אֲנִי גָּר בַּחֶדֶר ____ רוֹבֶּרְטוֹ." },
+      opcions: ["שֶׁל", "מִ־", "בְּ־"], correcta: 0, retro: "L'habitació és del Roberto: בַּחֶדֶר שֶׁל רוֹבֶּרְטוֹ." }
+  - { tipus: autocorreccio, origen: "pag-26 ex. 13", extra: false, linies: [pag-26-b1-l11],
+      enunciat: { n: "רָחֵל אִישָּׁה ____ וּמְעַנְייֶנֶת. הִיא ____ טוֹבָה מְאוֹד.", u: "רחל אישה ____ ומעניינת. היא ____ טובה מאוד." },
+      model: { n: "רָחֵל אִישָּׁה יָפָה וּמְעַנְייֶנֶת. הִיא מוֹרָה טוֹבָה מְאוֹד.", u: "רחל אישה יפה ומעניינת. היא מורה טובה מאוד." } }
+
+  # pag-26, תרגיל 14: una paraula de cada fila
+  - { tipus: construir, origen: "pag-26 ex. 14", extra: false, linies: [pag-26-b3-l0, pag-26-b3-l1, pag-26-b3-l2],
+      ca: "Aquest és un cotxe nou (מְכוֹנִית és femení).",
+      fitxes: ["זֹאת", "מְכוֹנִית", "חֲדָשָׁה", "זֶה", "גָּדוֹל"], ordre: [0, 1, 2] }
+  - { tipus: construir, origen: "pag-26 ex. 14", extra: false, linies: [pag-26-b3-l0, pag-26-b3-l1, pag-26-b3-l2],
+      ca: "Elles són bones amigues.",
+      fitxes: ["הֵן", "חֲבֵרוֹת", "טוֹבוֹת", "הֵם", "רָעִים"], ordre: [0, 1, 2] }
+  - { tipus: construir, origen: "pag-26 ex. 14", extra: false, linies: [pag-26-b3-l0, pag-26-b3-l1, pag-26-b3-l2],
+      ca: "Aquestes són persones interessants.",
+      fitxes: ["אֵלֶּה", "אֲנָשִׁים", "מְעַנְייְנִים", "זֹאת", "טוֹבוֹת"], ordre: [0, 1, 2] }
+
+  # pag-27, תרגיל 15: conversa en grup (el model és una resposta possible)
+  - { tipus: autocorreccio, origen: "pag-27 ex. 15.1", extra: false, linies: [pag-27-b1-l0],
+      enunciat: { n: "מַה שְּׁמֵךְ?", u: "מה שמך?" },
+      model: { n: "שְׁמִי שָׂרָה.", u: "שמי שרה." } }
+  - { tipus: autocorreccio, origen: "pag-27 ex. 15.4", extra: false, linies: [pag-27-b1-l3],
+      enunciat: { n: "אֵיפֹה אַתָּה גָּר?", u: "איפה אתה גר?" },
+      model: { n: "אֲנִי גָּר בְּקִיבּוּץ דָּן בַּגָּלִיל.", u: "אני גר בקיבוץ דן בגליל." } }
+  - { tipus: autocorreccio, origen: "pag-27 ex. 15.14", extra: false, linies: [pag-27-b1-l13],
+      enunciat: { n: "אַתְּ עוֹבֶדֶת?", u: "את עובדת?" },
+      model: { n: "לֹא, אֲנִי לֹא עוֹבֶדֶת, אֲנִי לוֹמֶדֶת.", u: "לא, אני לא עובדת, אני לומדת." } }
+
+  # Extra: comprensió dels diàlegs i formes noves
+  - { tipus: comprensio, origen: extra, extra: true, linies: [pag-22-b0-l6, pag-22-b0-l7, pag-22-b0-l8],
+      text: "נָעִים מְאוֹד, שָׂרָה, אַתְּ תַּלְמִידָה בָּאוּלְפָּן? — כֵּן. גַּם אַתָּה תַּלְמִיד בָּאוּלְפָּן? — לֹא, אֲנִי מוֹרֶה בָּאוּלְפָּן.",
+      pregunta: "Què fa el Iossef a l'ulpan?", opcions: ["Hi és alumne", "Hi és mestre", "No hi va"], correcta: 1 }
+  - { tipus: comprensio, origen: extra, extra: true, linies: [pag-24-b0-l3, pag-24-b0-l4, pag-24-b0-l5],
+      text: "מַה שְּׁלוֹם צִפּוֹרָה? — שְׁלוֹמָהּ מְצוּיָּן. מַה שְּׁלוֹם יִצְחָק? — גַּם שְׁלוֹמוֹ לֹא רַע.",
+      pregunta: "Com està la Tsiporà?", opcions: ["Perfectament", "Així així", "Malament"], correcta: 0 }
+  - { tipus: conjugar, origen: extra, extra: true, linies: [pag-24-b0-l1, pag-24-b2-l1],
+      base: { n: "מַה שְּׁלוֹמְךָ?", u: "מה שלומך?" }, demana: "a dos homes",
+      opcions: ["מַה שְּׁלוֹמְכֶם?", "מַה שְּׁלוֹמָם?", "מַה שְּׁלוֹמֵנוּ?"], correcta: 0 }
+  - { tipus: forat, origen: extra, extra: true, linies: [pag-22-b1-l2],
+      frase: { u: 'שרה ויוסף שמות ____ מהתנ"ך.', n: 'שָׂרָה וְיוֹסֵף שֵׁמוֹת ____ מֵהַתַּנַ"ךְ.' },
+      opcions: ["עִבְרִיִּים", "עִבְרִיּוֹת", "עִבְרִית"], correcta: 0, retro: "שֵׁם és masculí encara que el plural acabi en ‑וֹת: עִבְרִיִּים." }
+  - { tipus: construir, origen: extra, extra: true, linies: [pag-20-b5-l0],
+      ca: "De qui és el gos?",
+      fitxes: ["שֶׁל", "מִי", "הַכֶּלֶב", "כֶּלֶב", "מַה"], ordre: [0, 1, 2] }
