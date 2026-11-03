@@ -5,7 +5,6 @@ import { llegeixPagina } from './pagina'
 import { llegeixVocabulari } from './vocabulari'
 import { DOSSIER } from './ruta'
 
-
 // Les línies [il·lustració] amb ⁇ (pag-15) s'exclouen del recompte font.
 // ⁇ fora de l'abast de les regles (fitxer -> nombre esperat de línies)
 const FORA_D_ABAST: Record<string, number> = {

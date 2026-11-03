@@ -45,3 +45,12 @@ describe('combina', () => {
     expect(u.exercicis[0].id).toBe('u05-ex-0')
   })
 })
+
+describe('combina: gramàtica', () => {
+  it('porta extra de l\'exemple a la Linia', () => {
+    const u = combina(base, [], [], { gramatica: [{ id: 'g1', titol: 't', explicacio: 'e', exemples: [{ n: 'אֲנִי', ca: 'jo', extra: true }, { n: 'אַתָּה' }] }] })
+    const [a, b] = u.gramatica[0].exemples
+    expect(a.extra).toBe(true)
+    expect(b.extra).toBeUndefined()
+  })
+})

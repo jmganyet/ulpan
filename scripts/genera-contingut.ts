@@ -63,6 +63,7 @@ export function combina(base: UnitatBase, pagines: Pagina[], vocab: Paraula[], c
       id: `${base.id}-g-${g.id}-${i}`,
       text: hebreu(e.u ?? treuVocals(e.n ?? ''), e.n),
       ...(e.ca !== undefined ? { ca: e.ca } : {}), perComprovar: false,
+      ...(e.extra ? { extra: true } : {}),
     })),
   }))
 

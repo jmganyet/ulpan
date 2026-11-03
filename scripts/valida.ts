@@ -23,6 +23,17 @@ const ctx = (): ContextValida => (ctxDefecte ??= { icones: iconesPhosphor(), ima
 export function valida(u: Unitat, curat: Curat, context: ContextValida = ctx()): Error[] {
   const err: string[] = []
 
+  // Claus de curat.textos: han de ser un id de Text o l'àlies «pag-NN» del bloc 0.
+  const idsText = new Set(u.textos.map((t) => t.id))
+  const alies = new Set(u.textos.filter((t) => t.id.endsWith('-b0')).map((t) => t.pagina))
+  for (const clau of Object.keys(curat.textos ?? {})) {
+    if (!idsText.has(clau) && !alies.has(clau)) err.push(`textos: la clau «${clau}» no correspon a cap text`)
+    if (alies.has(clau) && idsText.has(`${clau}-b0`) && curat.textos?.[`${clau}-b0`])
+      err.push(`textos: «${clau}» i «${clau}-b0» són el mateix text`)
+  }
+
+  const index = (j: string, n: number) => /^\d+$/.test(j) && Number(j) < n
+
   // Vocals: han de coincidir amb el text del dossier.
   for (const t of u.textos) {
     const nLinies = t.linies.length
@@ -33,7 +44,14 @@ export function valida(u: Unitat, curat: Curat, context: ContextValida = ctx()):
     const c = curat.textos?.[t.id] ?? (t.id.endsWith('-b0') ? curat.textos?.[t.pagina] : undefined)
     for (const camp of ['vocals', 'ca'] as const)
       for (const j of Object.keys(c?.[camp] ?? {}))
-        if (!(Number(j) >= 0 && Number(j) < nLinies)) err.push(`${t.pagina}, línia ${Number(j) + 1}: ${camp} apunta a una línia que no existeix`)
+        if (!index(j, nLinies)) err.push(`${t.pagina}, ${camp}: la clau «${j}» no és una línia vàlida (0-${nLinies - 1})`)
+    if (c?.qui) {
+      const np = c.personatges?.length ?? 0
+      if (!np) err.push(`${t.id}: qui sense personatges`)
+      if (c.qui.length !== nLinies) err.push(`${t.id}: qui té ${c.qui.length} entrades i el text ${nLinies} línies`)
+      for (const [j, q] of c.qui.entries())
+        if (!Number.isInteger(q) || q < 0 || q >= np) err.push(`${t.pagina}, línia ${j + 1}: qui (${q}) fora dels personatges`)
+    }
   }
   for (const g of u.gramatica)
     for (const [i, e] of g.exemples.entries())

@@ -14,7 +14,7 @@ export type Paraula = {
   icona?: string; funcio: boolean; extra: boolean; perComprovar: boolean; audio?: Audio
 }
 
-export type Linia = { id: string; qui?: string; text: Hebreu; ca?: string; perComprovar: boolean; audio?: Audio }
+export type Linia = { id: string; qui?: string; text: Hebreu; ca?: string; perComprovar: boolean; extra?: boolean; audio?: Audio }
 
 export type Text = {
   id: string; pagina: string; titol: Hebreu & { ca: string; perComprovar: boolean }

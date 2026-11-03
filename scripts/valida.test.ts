@@ -53,3 +53,24 @@ describe('valida', () => {
     expect(e.some((m) => m.includes('extra'))).toBe(true)
   })
 })
+
+describe('valida: claus i índexs', () => {
+  it('clau de textos desconeguda', () => {
+    for (const k of ['pag-99', 'pag-28-b7']) {
+      const e = errors({ textos: { [k]: { vocals: { 0: 'x' } } } })
+      expect(e.some((m) => m.includes(k) && m.includes('cap text'))).toBe(true)
+    }
+    expect(errors({ textos: { 'pag-28-b0': { ca: { 0: 'x' } } } })).toEqual([])
+  })
+  it('claus de vocals/ca no enteres o fora de rang', () => {
+    expect(errors({ textos: { 'pag-28': { ca: { 99: 'x' } } } }).length).toBe(1)
+    expect(errors({ textos: { 'pag-28': { ca: { '1.5': 'x' } } } }).length).toBe(1)
+    expect(errors({ textos: { 'pag-28': { vocals: { '-1': 'x' } } } }).length).toBe(1)
+  })
+  it('qui: longitud i índexs', () => {
+    const q = (qui: number[]) => errors({ textos: { 'pag-28': { personatges: ['A', 'B'], qui } } })
+    expect(q([0, 1]).some((m) => m.includes('entrades'))).toBe(true)
+    expect(q([...Array(19).fill(0), 5]).some((m) => m.includes('qui (5)'))).toBe(true)
+    expect(q(Array(20).fill(1))).toEqual([])
+  })
+})
