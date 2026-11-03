@@ -1,4 +1,4 @@
-import { mkdtempSync, existsSync, writeFileSync } from 'node:fs'
+import { mkdtempSync, existsSync, readdirSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { describe, expect, it } from 'vitest'
@@ -50,6 +50,15 @@ describe('generaAudio', () => {
     expect(trucades.sort()).toEqual(['lent:אני', 'lent:שלום', 'normal:אני'])
     expect(r).toEqual({ generats: 3, existents: 1 })
     expect(existsSync(join(dir, clauAudio('אני', 'lent')))).toBe(true)
+  })
+})
+
+describe('generaAudio errors', () => {
+  it('si el runner falla, propaga l\'error i no deixa cap fitxer (ni .part)', async () => {
+    const dir = mkdtempSync(join(tmpdir(), 'aud-'))
+    const runner = async (_t: string, _v: 'normal' | 'lent', dest: string) => { writeFileSync(dest, 'a mitges'); throw new Error('afconvert ha fallat') }
+    await expect(generaAudio([{ text: 'שלום' }, { text: 'אני' }], dir, runner, 1)).rejects.toThrow('afconvert ha fallat')
+    expect(readdirSync(dir)).toEqual([])
   })
 })
 

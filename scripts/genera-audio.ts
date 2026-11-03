@@ -1,6 +1,6 @@
 // Àudio amb la veu Carmit (macOS `say`) → public/audio/<clau>.m4a
 import { execFile } from 'node:child_process'
-import { existsSync, mkdirSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, mkdtempSync, renameSync, rmSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { promisify } from 'node:util'
@@ -41,7 +41,8 @@ export const runnerMac: Runner = async (text, velocitat, desti) => {
   }
 }
 
-/** Genera els fitxers que falten (concurrència limitada). Textos repetits es generen un sol cop. */
+/** El runner escriu a `<fitxer>.part`; només es reanomena al nom final si acaba bé.
+ * Genera els fitxers que falten (concurrència limitada). Textos repetits es generen un sol cop. */
 export async function generaAudio(
   items: { text: string }[], dir: string, runner: Runner = runnerMac, concurrencia = 4,
 ): Promise<{ generats: number; existents: number }> {
@@ -52,10 +53,19 @@ export async function generaAudio(
   let existents = 0
   for (const e of feines) (existsSync(join(dir, e[0])) ? existents++ : pendents.push(e))
   let i = 0
+  let fallat = false
   const obrer = async () => {
-    while (i < pendents.length) {
+    while (!fallat && i < pendents.length) {
       const [nom, { text, vel }] = pendents[i++]
-      await runner(text, vel, join(dir, nom))
+      const final = join(dir, nom), part = final + '.part'
+      try {
+        await runner(text, vel, part)
+        renameSync(part, final) // atòmic: mai un .m4a a mitges
+      } catch (e) {
+        fallat = true
+        rmSync(part, { force: true })
+        throw e
+      }
     }
   }
   await Promise.all(Array.from({ length: Math.min(concurrencia, pendents.length) }, obrer))
