@@ -113,6 +113,12 @@ export class Reproductor {
     if (actiu && actiu !== this) actiu.stop()
     actiu = this
     this.pause()
+    const pas = this.passos.findIndex((p) => p.linia === i)
+    if (pas >= 0) this.pos = pas
+    this.sonant = true
+    this.alCanviar()
+    const fil = ++this.fil
     try { await this.deps.toca(l) } catch { /* res */ }
+    if (this.fil === fil) { this.sonant = false; this.alCanviar() }
   }
 }

@@ -69,4 +69,9 @@ describe('Conversa', () => {
     render(<Conversa unitat={unitat} pag="pag-99" deps={fals().deps} />)
     expect(screen.getByText(/No hi ha cap text/)).toBeTruthy()
   })
+  it('la capçalera mostra el títol del text, no «Pàg. NaN»', () => {
+    const { container } = render(<Conversa unitat={unitat} pag="pag-28" deps={fals().deps} />)
+    expect(container.querySelector('h1')!.textContent).toBe('באולפן')
+    expect(container.textContent).not.toContain('NaN')
+  })
 })

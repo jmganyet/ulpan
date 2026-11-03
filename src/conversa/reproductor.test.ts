@@ -68,3 +68,17 @@ describe('Reproductor', () => {
     r.stop(); expect(reg).toContain('atura')
   })
 })
+
+it('playLinia marca la línia i un play posterior continua d\'allà', async () => {
+  const reg: string[] = []
+  const deps: Deps = { toca: async (x) => { reg.push(x.id) }, durada: async () => 1, espera: async () => {}, atura: () => {} }
+  const r = new Reproductor(text([l(0), l(1), l(2)]), { tipus: 'escoltar' }, deps, () => {})
+  const p = r.playLinia(1)
+  expect(r.linia).toBe(1)
+  expect(r.sonant).toBe(true)
+  await p
+  expect(r.sonant).toBe(false)
+  reg.length = 0
+  await r.play()
+  expect(reg).toEqual(['pag-28-b0-l1', 'pag-28-b0-l2'])
+})

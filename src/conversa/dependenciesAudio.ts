@@ -6,7 +6,9 @@ import type { Deps } from './reproductor'
 const DURADA_PER_DEFECTE = 2
 
 /** Dependències reals: un element d'àudio compartit amb la resta de l'app (peces/so). */
-export function dependenciesAudio(): Deps {
+export const TEMPS_MAXIM_METADADES = 3000
+
+export function dependenciesAudio(tempsMaxim = TEMPS_MAXIM_METADADES): Deps {
   const el = new Audio()
   const durades = new Map<string, number>()
   const url = (l: Linia) => `${BASE}audio/${l.audio!.normal}`
@@ -28,7 +30,9 @@ export function dependenciesAudio(): Deps {
       if (coneguda !== undefined) return Promise.resolve(coneguda)
       return new Promise<number>((resolt) => {
         const a = new Audio()
-        const fi = () => { const d = Number.isFinite(a.duration) ? a.duration : DURADA_PER_DEFECTE; durades.set(l.id, d); resolt(d) }
+        const fi = () => { clearTimeout(t); const d = Number.isFinite(a.duration) ? a.duration : DURADA_PER_DEFECTE; durades.set(l.id, d); resolt(d) }
+        // Un fitxer encallat (sense xarxa) no ha de penjar el bucle: durada per defecte, sense desar-la.
+        const t = setTimeout(() => resolt(DURADA_PER_DEFECTE), tempsMaxim)
         a.addEventListener('loadedmetadata', fi)
         a.addEventListener('error', fi)
         a.preload = 'metadata'
