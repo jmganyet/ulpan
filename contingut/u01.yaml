@@ -61,10 +61,10 @@ textos:
       5: "לֹא, אֲנִי תַּלְמִידָה לֹא טוֹבָה."
     ca:
       0: "Sóc la Sara Leví."
-      1: "Senyora Leví, és mestra?"
+      1: "Senyora Leví, ets mestra?"
       2: "No, no sóc mestra. Sóc alumna."
-      4: "És una bona alumna?"
-      5: "No, no sóc una bona alumna."
+      4: "Ets una bona alumna?"
+      5: "No, sóc una alumna no gaire bona."
   pag-04-b0:
     vocals:
       0: "הוּא סְטִיב."
@@ -95,7 +95,7 @@ textos:
       1: "יוֹסֵף מוֹרֶה טוֹב. · דְּבוֹרָה מוֹרָה טוֹבָה."
       2: "סְטִיב חָבֵר טוֹב. · דּוֹרִיס חֲבֵרָה טוֹבָה."
     ca:
-      0: "L'Itshak és un bon alumne. · La Sara no és una bona alumna."
+      0: "L'Itshak és un bon alumne. · La Sara és una alumna no gaire bona."
       1: "El Iossef és un bon mestre. · La Dvorà és una bona mestra."
       2: "L'Steve és un bon amic. · La Doris és una bona amiga."
   pag-05-b0:
@@ -257,13 +257,13 @@ textos:
       1: "Canvia les frases com calgui."
   pag-09-b1:
     vocals:
-      0: "1. <u>צִפּוֹרָה</u> מוֹרָה. הִיא לֹא תַּלְמִידָה."
+      0: "1. צִפּוֹרָה מוֹרָה. הִיא לֹא תַּלְמִידָה."
       1: "(יוֹסֵף, צִפּוֹרָה וְיוֹסֵף, צִפּוֹרָה וְדִינָה)"
-      5: "2. צִפּוֹרָה <u>מוֹרָה</u> טוֹבָה מְאוֹד. (תַּלְמִידָה, חֲבֵרָה)"
-      8: "3. מֵאַיִן <u>אַתָּה</u>? אֲנִי מֵרוּסְיָה. (אַתֶּם, הֵם, חַנָּה, אַתְּ)"
-      13: "4. <u>אַתָּה</u> לֹא תַּייָּר. (אַתְּ, הוּא, אַתֶּם, אַתֶּן)"
-      14: "5. <u>אֲנַחְנוּ</u> חֲבֵרִים שֶׁל סְטִיב. (הֵן, דּוֹרִיס, רוֹבֶּרְטוֹ)"
-      15: "6. <u>יִצְחָק</u> עוֹלֶה חָדָשׁ. הוּא לֹא מוֹרֶה. הוּא תַּלְמִיד."
+      5: "2. צִפּוֹרָה מוֹרָה טוֹבָה מְאוֹד. (תַּלְמִידָה, חֲבֵרָה)"
+      8: "3. מֵאַיִן אַתָּה? אֲנִי מֵרוּסְיָה. (אַתֶּם, הֵם, חַנָּה, אַתְּ)"
+      13: "4. אַתָּה לֹא תַּייָּר. (אַתְּ, הוּא, אַתֶּם, אַתֶּן)"
+      14: "5. אֲנַחְנוּ חֲבֵרִים שֶׁל סְטִיב. (הֵן, דּוֹרִיס, רוֹבֶּרְטוֹ)"
+      15: "6. יִצְחָק עוֹלֶה חָדָשׁ. הוּא לֹא מוֹרֶה. הוּא תַּלְמִיד."
     ca:
       0: "1. La Tsiporà és mestra. No és alumna."
       1: "(el Iossef, la Tsiporà i el Iossef, la Tsiporà i la Dina)"
@@ -295,6 +295,10 @@ icones:
   u01-35: pencil-simple     # כְּתֹב!
   u01-36: text-aa           # מִלָּה
   u01-37: text-align-left   # מִשְׁפָּט
+  u01-6: check-circle       # כֵּן
+  u01-9: x-circle           # לֹא
+  u01-14: question          # מִי?
+  u01-31: map-pin           # מֵאַיִן?
 
 gramatica:
   - id: pronoms
@@ -387,7 +391,7 @@ exercicis:
       opcions: ["אַתָּה", "הִיא", "אַתְּ", "אַתֶּן"], correcta: 2, retro: "Respon una dona en primera persona; la pregunta és a ella: אַתְּ." }
   - { tipus: forat, origen: "pag-08 ex. 1.10", extra: false, linies: [pag-08-b1-l9],
       frase: { u: "____ תיירים? — לא, אנחנו לא תיירים.", n: "____ תַּייָּרִים? — לֹא, אֲנַחְנוּ לֹא תַּייָּרִים." },
-      opcions: ["אַתֶּם", "אַתֶּן", "הֵן", "אֲנַחְנוּ"], correcta: 0, retro: "Responen «nosaltres» en masculí; la pregunta és a ells: אַתֶּם." }
+      opcions: ["אַתֶּם", "אַתֶּן", "הֵן", "אֲנַחְנוּ"], correcta: 0, retro: "Responen «nosaltres» en masculí; la pregunta és a vosaltres: אַתֶּם." }
 
   # pag-09, תרגיל 2: canvia el mot destacat i fes concordar la frase
   - { tipus: autocorreccio, origen: "pag-09 ex. 2.1", extra: false, linies: [pag-09-b1-l0, pag-09-b1-l1],
@@ -426,7 +430,7 @@ exercicis:
   - { tipus: autocorreccio, origen: "pag-09 ex. 2.6", extra: false, linies: [pag-09-b1-l15],
       enunciat: { n: "יִצְחָק עוֹלֶה חָדָשׁ. הוּא לֹא מוֹרֶה. הוּא תַּלְמִיד. ← שָׂרָה", u: "יצחק עולה חדש. הוא לא מורה. הוא תלמיד. ← שרה" },
       model: { n: "שָׂרָה עוֹלָה חֲדָשָׁה. הִיא לֹא מוֹרָה. הִיא תַּלְמִידָה.", u: "שרה עולה חדשה. היא לא מורה. היא תלמידה." } }
-  - { tipus: autocorreccio, origen: "pag-09 ex. 2.6", extra: false, linies: [pag-09-b1-l15],
+  - { tipus: autocorreccio, origen: "pag-09 ex. 2.6", extra: false, linies: [pag-09-b1-l15, pag-09-b1-l16],
       enunciat: { n: "יִצְחָק עוֹלֶה חָדָשׁ. הוּא לֹא מוֹרֶה. הוּא תַּלְמִיד. ← תָּמָר וְאֶסְתֵּר", u: "יצחק עולה חדש. הוא לא מורה. הוא תלמיד. ← תמר ואסתר" },
       model: { n: "תָּמָר וְאֶסְתֵּר עוֹלוֹת חֲדָשׁוֹת. הֵן לֹא מוֹרוֹת. הֵן תַּלְמִידוֹת.", u: "תמר ואסתר עולות חדשות. הן לא מורות. הן תלמידות." } }
 

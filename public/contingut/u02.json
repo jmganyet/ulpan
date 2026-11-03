@@ -996,72 +996,102 @@
         {
           "id": "pag-14-b2-l0",
           "text": {
-            "u": "1. זה ספר <u>חדש</u>. (גדול, קטן, יָפֶה, מעניין)"
+            "u": "1. זה ספר חדש. (גדול, קטן, יָפֶה, מעניין)"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "subratllat": [
+            "חדש"
+          ]
         },
         {
           "id": "pag-14-b2-l1",
           "text": {
-            "u": "2. <u>הוא</u> ילד יפה. (היא, זאת, הם, הן)"
+            "u": "2. הוא ילד יפה. (היא, זאת, הם, הן)"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "subratllat": [
+            "הוא"
+          ]
         },
         {
           "id": "pag-14-b2-l2",
           "text": {
-            "u": "3. התמונה לא <u>יפה</u>. (גדולה, קטנה, חדשה, מעניינת)"
+            "u": "3. התמונה לא יפה. (גדולה, קטנה, חדשה, מעניינת)"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "subratllat": [
+            "יפה"
+          ]
         },
         {
           "id": "pag-14-b2-l3",
           "text": {
-            "u": "4. הספרים של יצחק <u>מעניינים</u>. (יפים, קטנים, חדשים)"
+            "u": "4. הספרים של יצחק מעניינים. (יפים, קטנים, חדשים)"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "subratllat": [
+            "מעניינים"
+          ]
         },
         {
           "id": "pag-14-b2-l4",
           "text": {
-            "u": "5. <u>היא</u> לא יפה, אבל היא מעניינת. (הוא, הם, הן)"
+            "u": "5. היא לא יפה, אבל היא מעניינת. (הוא, הם, הן)"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "subratllat": [
+            "היא"
+          ]
         },
         {
           "id": "pag-14-b2-l5",
           "text": {
-            "u": "6. <u>היא</u> אישה מעניינת. (הוא, צפורה ושרה, הם, זאת)"
+            "u": "6. היא אישה מעניינת. (הוא, צפורה ושרה, הם, זאת)"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "subratllat": [
+            "היא"
+          ]
         },
         {
           "id": "pag-14-b2-l6",
           "text": {
-            "u": "7. הוא <u>הבעל</u> של שרה (האח, הבן, החבר, המוֹרֶה)"
+            "u": "7. הוא הבעל של שרה (האח, הבן, החבר, המוֹרֶה)"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "subratllat": [
+            "הבעל"
+          ]
         },
         {
           "id": "pag-14-b2-l7",
           "text": {
-            "u": "8. <u>האישה</u> של יצחק יפה. (הבת, האחות, המוֹרָה)"
+            "u": "8. האישה של יצחק יפה. (הבת, האחות, המוֹרָה)"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "subratllat": [
+            "האישה"
+          ]
         },
         {
           "id": "pag-14-b2-l8",
           "text": {
-            "u": "9. <u>הבעל</u> של שרה יפה (הבן, הבת, האח, הילדים)"
+            "u": "9. הבעל של שרה יפה (הבן, הבת, האח, הילדים)"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "subratllat": [
+            "הבעל"
+          ]
         },
         {
           "id": "pag-14-b2-l9",
           "text": {
-            "u": "10. הן <u>נשים</u> טובות. (יפות, מעניינות, קטנות)"
+            "u": "10. הן נשים טובות. (יפות, מעניינות, קטנות)"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "subratllat": [
+            "נשים"
+          ]
         }
       ]
     },
