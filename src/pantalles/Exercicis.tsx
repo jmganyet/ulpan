@@ -13,7 +13,7 @@ export function Exercicis({ unitat: u, progres, canvia }: Props) {
       <div class="sessio">
         <a class="enrere" href={`#/u/${u.id}`}>‹ {u.titol}</a>
         <h1>Exercicis</h1>
-        <p class="avis">Aquesta unitat encara no té exercicis.</p>
+        <p class="avis">No hi ha res per practicar en aquesta unitat ara mateix.</p>
       </div>
     )
   }

@@ -10,7 +10,7 @@ import { Conjugar } from './Conjugar'
 import { Construir } from './Construir'
 import { Forat } from './Forat'
 import { TriaImatge } from './TriaImatge'
-import type { Pas } from './sessio'
+import { esPregunta, type Pas } from './sessio'
 
 type Props = {
   titol: string; color: string; enrere: string; passos: Pas[]; unitats: Unitat[]
@@ -30,7 +30,11 @@ export function SessioPantalla({ titol, color, enrere, passos, unitats, progres,
 
   const pas = e.cua[e.i] as Pas | undefined
   const final = !pas
-  const pct = e.cua.length === 0 ? 100 : Math.round((e.i / e.cua.length) * 100)
+  // Els errors que tornen al final són una fase a part: la barra no recula mai.
+  const nPrincipal = passos.length
+  const pct = e.enReintents
+    ? Math.round(((e.i - nPrincipal) / Math.max(1, e.cua.length - nPrincipal)) * 100)
+    : e.cua.length === 0 ? 100 : Math.round((e.i / e.cua.length) * 100)
 
   const onRespon = (encert: boolean) => {
     if (!pas) return
@@ -57,7 +61,7 @@ export function SessioPantalla({ titol, color, enrere, passos, unitats, progres,
     if (!pas) return null
     const par = mapaParaules.get(pas.ref)
     if (pas.tipus === 'paraula-nova') return par && <TargetaParaula paraula={par} color={colorDe(par.id)} />
-    if (par) return <TriaImatge key={e.i} paraula={par} totes={paraules} color={colorDe(par.id)} tipus={pas.tipus as never} onRespon={onRespon} />
+    if (par && esPregunta(pas.tipus)) return <TriaImatge key={e.i} paraula={par} totes={paraules} color={colorDe(par.id)} tipus={pas.tipus} onRespon={onRespon} />
     const ex = exercicis.get(pas.ref)
     if (!ex) return <p class="avis">Aquest exercici ja no existeix.</p>
     switch (ex.tipus) {
@@ -85,6 +89,7 @@ export function SessioPantalla({ titol, color, enrere, passos, unitats, progres,
       ) : (
         <>
           <div class="barra-sessio" role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={pct}><b style={{ width: `${pct}%`, background: color }} /></div>
+          {e.enReintents && <p class="petit">Repàs dels errors</p>}
           <button type="button" class="btn clar vocals" onClick={() => pref.setVocals(!pref.vocals)}>
             {pref.vocals ? 'Amaga les vocals' : 'Mostra les vocals'}
           </button>

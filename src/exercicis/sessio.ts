@@ -2,6 +2,9 @@ import type { Exercici, Paraula, Unitat } from '../contingut/tipus'
 import { pendents, type Progres } from '../progres/srs'
 
 export type TipusParaula = 'paraula-nova' | 'tria-imatge' | 'imatge-paraula' | 'so-paraula' | 'traduccio'
+export type TipusPregunta = Exclude<TipusParaula, 'paraula-nova'>
+const PREGUNTES: string[] = ['tria-imatge', 'imatge-paraula', 'so-paraula', 'traduccio']
+export const esPregunta = (t: string): t is TipusPregunta => PREGUNTES.includes(t)
 export type Pas = { tipus: TipusParaula | Exercici['tipus']; ref: string }
 export type Rng = () => number
 
@@ -75,6 +78,8 @@ export function sessioUnitat(u: Unitat, p: Progres, rng: Rng = Math.random): Pas
     passos.push(...tanda.map((w): Pas => ({ tipus: 'paraula-nova', ref: w.id })))
     passos.push(...barreja(tanda, rng).map((w) => pasParaula(w, totes, rng)))
   }
+  const sensePregunta = u.vocabulari.filter((w) => !w.perComprovar && Object.hasOwn(p.vist, w.id) && !Object.hasOwn(p.fitxes, w.id))
+  passos.push(...barreja(sensePregunta, rng).map((w) => pasParaula(w, totes, rng)))
   const comprovar = idsPerComprovar([u])
   const ex = u.exercicis.filter((e) => exerciciValid(e, comprovar))
   passos.push(...barreja(ex, rng).map((e): Pas => ({ tipus: e.tipus, ref: e.id })))
@@ -98,9 +103,20 @@ export function sessioRepas(unitats: Unitat[], p: Progres, ara: number, minuts: 
     else if (e) passos.push({ tipus: e.tipus, ref: e.id })
   }
 
+  // Vistes però mai contestades: entren a l'SRS amb una pregunta (sense «paraula nova»).
+  for (const w of totes) {
+    if (passos.length >= max) break
+    if (!w.perComprovar && Object.hasOwn(p.vist, w.id) && !Object.hasOwn(p.fitxes, w.id)) passos.push(pasParaula(w, totes, rng))
+  }
+
   const tocada = (u: Unitat) =>
     u.vocabulari.some((w) => Object.hasOwn(p.fitxes, w.id) || Object.hasOwn(p.vist, w.id))
-  const noves = unitats.filter(tocada).flatMap((u) => u.vocabulari)
+  // Unitats d'on treure paraules noves: les tocades, la de «darrera» i, si no n'hi ha cap, la u01.
+  const pool = unitats.filter(tocada)
+  const afegeix = (u?: Unitat) => { if (u && !pool.includes(u)) pool.push(u) }
+  afegeix(unitats.find((u) => u.id === p.darrera?.unitat))
+  if (pool.length === 0) afegeix(unitats.find((u) => u.id === 'u01') ?? unitats[0])
+  const noves = unitats.filter((u) => pool.includes(u)).flatMap((u) => u.vocabulari)
     .filter((w) => !w.perComprovar && !Object.hasOwn(p.vist, w.id) && !Object.hasOwn(p.fitxes, w.id))
     .slice(0, MAX_NOVES_REPAS)
   for (const w of noves) {

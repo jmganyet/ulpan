@@ -109,3 +109,34 @@ describe('sessioRepas', () => {
     expect(par('x', 'y').id).toBe('x')
   })
 })
+
+describe('paraules vistes però no contestades (R16)', () => {
+  it('sessioUnitat les pregunta (sense paraula-nova) després de les noves', () => {
+    const u = dues()[0]
+    const p = { ...progresBuit(), vist: { 'u01-0': 1, 'u01-6': 1 } }
+    const s = sessioUnitat(u, p, llavor())
+    const i = s.findIndex((x) => x.ref === 'u01-0')
+    expect(s[i].tipus).not.toBe('paraula-nova')
+    expect(s.some((x) => x.ref === 'u01-0' && x.tipus === 'paraula-nova')).toBe(false)
+    expect(s.some((x) => x.ref === 'u01-6')).toBe(false)
+    expect(i).toBeGreaterThan(s.findIndex((x) => x.tipus === 'paraula-nova'))
+    expect(i).toBeLessThan(s.findIndex((x) => x.tipus === 'forat'))
+  })
+  it('sessioRepas les inclou just després dels vençuts', () => {
+    const u = dues()
+    let p = respon(progresBuit(), 'u02-0', false, ara - 3 * DIA)
+    p = { ...p, vist: { 'u01-1': 1, 'u01-2': 1 } }
+    const s = sessioRepas(u, p, ara, 5, llavor())
+    expect(s[0].ref).toBe('u02-0')
+    expect(s.slice(1, 3).map((x) => x.ref).sort()).toEqual(['u01-1', 'u01-2'])
+    expect(s.slice(1, 3).every((x) => x.tipus !== 'paraula-nova')).toBe(true)
+  })
+  it('instal·lació nova: 5 paraules noves de la u01; amb darrera, d\'aquella unitat', () => {
+    const u = dues()
+    const s = sessioRepas(u, progresBuit(), ara, 5, llavor())
+    const noves = s.filter((x) => x.tipus === 'paraula-nova').map((x) => x.ref)
+    expect(noves).toEqual(['u01-0', 'u01-1', 'u01-2', 'u01-3', 'u01-4'])
+    const d = sessioRepas(u, { ...progresBuit(), darrera: { unitat: 'u02', pas: 'vocabulari' } }, ara, 5, llavor())
+    expect(d.filter((x) => x.tipus === 'paraula-nova').map((x) => x.ref)).toEqual(['u02-0', 'u02-1', 'u02-2', 'u02-3'])
+  })
+})

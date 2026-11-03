@@ -5,7 +5,7 @@ import { Opcions } from './Opcions'
 
 type Props = { ex: Extract<Exercici, { tipus: 'forat' }>; onRespon: (encert: boolean) => void }
 
-const FORAT = /_{2,}/
+const FORAT = /_{3,}/
 
 /** Triar la forma: frase amb un forat i opcions. */
 export function Forat({ ex, onRespon }: Props) {

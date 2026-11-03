@@ -17,7 +17,7 @@ const entrada = (u: { id: string; num: number; titol: string; color: string }): 
 describe('Exercicis', () => {
   it('sense contingut, avisa en català', () => {
     render(<Exercicis unitat={unitat('u01', 1, [])} progres={progresBuit()} canvia={() => {}} />)
-    expect(screen.getByText('Aquesta unitat encara no té exercicis.')).toBeTruthy()
+    expect(screen.getByText('No hi ha res per practicar en aquesta unitat ara mateix.')).toBeTruthy()
   })
   it('un forat: respon via canvia, mostra «Continua» i el resum final', () => {
     const canvia = vi.fn()
@@ -35,6 +35,10 @@ describe('Exercicis', () => {
     expect(screen.getByText('Sessió acabada')).toBeTruthy()
     expect(screen.getByText('0 / 1')).toBeTruthy()
   })
+  it('amb exercicis buits però paraules, fa la sessió de paraules', () => {
+    render(<Exercicis unitat={unitat('u01', 1, [par('u01-0', 'casa')])} progres={progresBuit()} canvia={() => {}} />)
+    expect(screen.queryByText(/res per practicar/)).toBeNull()
+  })
   it('paraula nova: marca vista, no compta com a resposta', () => {
     const canvia = vi.fn()
     render(<Exercicis unitat={unitat('u01', 1, [par('u01-0', 'casa')])} progres={progresBuit()} canvia={canvia} />)
@@ -49,8 +53,13 @@ describe('Repas', () => {
   const unitats = dues()
   const index = unitats.map(entrada)
   const carrega = async (id: string) => unitats.find((u) => u.id === id)!
-  it('sense res vençut ni unitats tocades, ho diu', async () => {
+  it('amb res vençut i res tocat, comença per les primeres paraules de la u01', async () => {
     render(<Repas index={index} progres={progresBuit()} canvia={() => {}} carrega={carrega} ara={ara} />)
+    await waitFor(() => expect(document.querySelector('.targeta')).toBeTruthy())
+  })
+  it('sense paraules per fer, ho diu', async () => {
+    const buides = [unitat('u01', 1, [])]
+    render(<Repas index={buides.map(entrada)} progres={progresBuit()} canvia={() => {}} carrega={async () => buides[0]} ara={ara} />)
     await waitFor(() => expect(screen.getByText(/Res per repassar/)).toBeTruthy())
   })
   it('una sessió amb un vençut: pregunta, retro, continua i resum', async () => {
