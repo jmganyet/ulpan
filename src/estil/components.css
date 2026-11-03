@@ -45,3 +45,32 @@
 .llista-enllacos a.text-enllac { font-weight: 400; }
 .titol-text { display: flex; flex-direction: column; gap: 2px; font-size: 16px; }
 .titol-text [lang='he'] { font-family: 'FrankRuehl', serif; font-size: 20px; }
+
+/* Sessions d'exercicis */
+.sessio { padding-top: 8px; }
+.barra-sessio { height: 8px; background: var(--filet); border-radius: 9px; overflow: hidden; margin-bottom: 8px; }
+.barra-sessio b { display: block; height: 100%; border-radius: 9px; }
+.btn.vocals { font-size: 12px; padding: 6px; margin: 0 0 8px; }
+.exercici { display: flex; flex-direction: column; gap: 8px; }
+.enunciat { text-align: center; margin: 8px 0; }
+.opcions { display: grid; grid-template-columns: 1fr; gap: 8px; }
+.opcions.imatges { grid-template-columns: 1fr 1fr; }
+.opcio { border: 2px solid var(--filet); background: var(--blanc); border-radius: 16px; padding: 12px; font-size: 16px; font-family: inherit; cursor: pointer; color: var(--tinta); min-height: 48px; }
+.opcio .plafo { height: 80px; border-radius: 12px; font-size: 44px; }
+.opcio.bona { border-color: #2e9f5b; background: #e6f6ec; }
+.opcio.dolenta { border-color: #c94a4a; background: var(--error-fons); }
+.opcio:disabled:not(.bona):not(.dolenta) { opacity: .5; }
+.retro { background: var(--blanc); border-radius: 14px; padding: 10px 12px; font-size: 14px; margin: 4px 0; }
+.gran-plafo { height: 130px; border-radius: 18px; }
+.text-comprensio { background: var(--blanc); border-radius: 14px; padding: 10px 12px; margin: 0; }
+.linia-construir { min-height: 56px; border-bottom: 2px solid var(--filet); display: flex; flex-wrap: wrap; gap: 6px; padding: 6px 0; }
+.fitxes { display: flex; flex-wrap: wrap; gap: 6px; padding: 8px 0; }
+.fitxa { border: 0; background: var(--blanc); border-radius: 12px; padding: 8px 12px; font-size: 20px; cursor: pointer; box-shadow: 0 1px 0 var(--filet); color: var(--tinta); font-family: inherit; }
+.fitxa.col { background: var(--gris-clar); }
+.duo { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.resum { text-align: center; padding: 24px 0; }
+.resum-x { font-size: 36px; font-weight: 700; margin: 4px 0; }
+.petit.blanc { color: rgb(255 255 255 / .8); }
+.explicacio { background: var(--blanc); border-radius: 16px; padding: 12px 14px; white-space: pre-line; }
+.exemples { list-style: none; padding: 0; margin: 0 0 8px; display: flex; flex-direction: column; gap: 8px; }
+.exemples li { background: var(--blanc); border-radius: 16px; padding: 10px 14px; display: flex; flex-direction: column; gap: 2px; }

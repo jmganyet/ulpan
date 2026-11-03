@@ -41,9 +41,14 @@ describe('App', () => {
     expect(desat.darrera).toEqual({ unitat: 'u01', pas: 'vocabulari' })
   })
   it('una ruta de tasques posteriors mostra «Aviat»', async () => {
-    window.location.hash = '#/u/u01/exercicis'
+    window.location.hash = '#/u/u01/text/pag-08'
     render(<App magatzem={magatzem()} />)
     await waitFor(() => expect(screen.getByText('Aviat')).toBeTruthy())
+  })
+  it('#/u/<id>/exercicis mostra la pantalla d\'exercicis', async () => {
+    window.location.hash = '#/u/u01/exercicis'
+    render(<App magatzem={magatzem()} />)
+    await waitFor(() => expect(document.querySelector('.sessio')).toBeTruthy())
   })
   it('un error de càrrega mostra un missatge en català', async () => {
     window.location.hash = '#/u/u99'

@@ -19,9 +19,14 @@ export function Unitat({ unitat: u }: { unitat: UnitatT }) {
       </header>
       <nav class="llista-enllacos" style={{ '--color': u.color } as never}>
         <a href={`${base}/vocabulari`}>Vocabulari <span class="petit">{u.vocabulari.length} paraules</span></a>
-        {u.gramatica.map((g, i) => (
-          <a href={`${base}/gramatica/${i + 1}`} key={g.id}>{g.titol} <span class="petit">Gramàtica {i + 1}/{u.gramatica.length}</span></a>
-        ))}
+        {u.gramatica.length > 0 && (
+          <>
+            <h2 class="petit">Gramàtica</h2>
+            {u.gramatica.map((g, i) => (
+              <a href={`${base}/gramatica/${i + 1}`} key={g.id}>{g.titol} <span class="petit">{i + 1}/{u.gramatica.length}</span></a>
+            ))}
+          </>
+        )}
         {u.textos.length > 0 && (
           <>
             <h2 class="petit">Diàlegs i textos</h2>

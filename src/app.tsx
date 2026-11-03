@@ -7,6 +7,9 @@ import { useRuta, type Ruta } from './rutes'
 import { Inici } from './pantalles/Inici'
 import { Unitat } from './pantalles/Unitat'
 import { Vocabulari } from './pantalles/Vocabulari'
+import { Exercicis } from './pantalles/Exercicis'
+import { Gramatica } from './pantalles/Gramatica'
+import { Repas } from './pantalles/Repas'
 import { Aviat } from './pantalles/Aviat'
 import { Alefat } from './pantalles/Alefat'
 import { Ajustos } from './pantalles/Ajustos'
@@ -71,7 +74,10 @@ export function App({ magatzem = MAGATZEM_PER_DEFECTE }: { magatzem?: Magatzem }
     if (ruta.pantalla === 'ajustos') return <Ajustos progres={progres} alImportar={(p) => { canvia(p); setRecuperat(false) }} />
     if (ruta.pantalla === 'alefat') return <Alefat />
     if (ruta.pantalla === 'desconeguda') return <Aviat />
-    if (ruta.pantalla === 'repas') return <Aviat />
+    if (ruta.pantalla === 'repas') {
+      if (!index) return espera
+      return index.error ? error(index.error) : <Repas index={index.valor as EntradaIndex[]} progres={progres} canvia={canvia} />
+    }
     if (ruta.pantalla === 'inici') {
       if (!index) return espera
       return index.error ? error(index.error) : <Inici index={index.valor as EntradaIndex[]} progres={progres} />
@@ -81,6 +87,8 @@ export function App({ magatzem = MAGATZEM_PER_DEFECTE }: { magatzem?: Magatzem }
     const u = unitat.valor as UnitatT
     if (ruta.pantalla === 'unitat') return <Unitat unitat={u} />
     if (ruta.pantalla === 'vocabulari') return <Vocabulari unitat={u} alVeure={veure} />
+    if (ruta.pantalla === 'gramatica') return <Gramatica unitat={u} n={ruta.n} />
+    if (ruta.pantalla === 'exercicis') return <Exercicis unitat={u} progres={progres} canvia={canvia} />
     return <Aviat enrere={`#/u/${ruta.id}`} />
   }
 
