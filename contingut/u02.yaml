@@ -1,2 +1,401 @@
-# Capa curada de la unitat 2: icones, textos, gramatica, exercicis, extres.
+# Capa curada de la unitat 2: icones, textos, gramàtica, exercicis.
 # Format: vegeu scripts/genera-contingut.ts (tipus Curat).
+# Vocals verificades amb els TSV i la fitxa u02-demostratius-i-familia del dossier i amb Pealim;
+# grafia plena amb vocals (R19): אִישָּׁה, מְעַנְייֵן, מְעַנְייֶנֶת, מְעַנְייְנִים, מְעַנְייְנוֹת (Pealim).
+# Les línies «per comprovar» (⁇) no porten vocals ni traducció.
+
+textos:
+  pag-10-b0:
+    ca:
+      0: "aquest"
+      1: "aquesta, aquests"
+  pag-10-b1:
+    vocals:
+      0: "זֶה יֶלֶד"
+      1: "זֹאת יַלְדָּה"
+      2: "אֵלֶּה יְלָדִים"
+      3: "אֵלֶּה יְלָדוֹת"
+    ca:
+      0: "Aquest és un nen."
+      1: "Aquesta és una nena."
+      2: "Aquests són nens."
+      3: "Aquestes són nenes."
+  pag-10-b2:
+    vocals:
+      0: "זֶה אִישׁ"
+      1: "זֹאת אִישָּׁה"
+      2: "אֵלֶּה אֲנָשִׁים"
+      3: "אֵלֶּה נָשִׁים"
+    ca:
+      0: "Aquest és un home."
+      1: "Aquesta és una dona."
+      2: "Aquests són homes."
+      3: "Aquestes són dones."
+  pag-10-b3:
+    vocals:
+      0: "זֶה יֶלֶד גָּדוֹל."
+      1: "זֶה יֶלֶד קָטָן."
+      2: "זֹאת יַלְדָּה גְּדוֹלָה"
+      3: "זֹאת יַלְדָּה קְטַנָּה"
+    ca:
+      0: "Aquest és un nen gran."
+      1: "Aquest és un nen petit."
+      2: "Aquesta és una nena gran."
+      3: "Aquesta és una nena petita."
+  pag-10-b4:
+    vocals:
+      0: "אֵלֶּה יְלָדִים גְּדוֹלִים?"
+      1: "— לֹא, אֵלֶּה יְלָדִים קְטַנִּים."
+      2: "אֵלֶּה יְלָדוֹת גְּדוֹלוֹת?"
+      3: "— לֹא, אֵלֶּה יְלָדוֹת קְטַנּוֹת."
+    ca:
+      0: "Aquests són nens grans?"
+      1: "— No, aquests són nens petits."
+      2: "Aquestes són nenes grans?"
+      3: "— No, aquestes són nenes petites."
+  pag-11-b0:
+    tipus: dialeg
+    personatges: ["Persona A", "Persona B"]
+    qui: [0, 1, 0, 1, 0, 1]
+    vocals:
+      0: "מַה זֶּה?"
+      1: "— זֶה סֵפֶר."
+      2: "— זֶה סֵפֶר קָטָן?"
+      3: "— לֹא, זֶה סֵפֶר גָּדוֹל."
+      4: "— הַסֵּפֶר מְעַנְייֵן?"
+      5: "— כֵּן, הַסֵּפֶר מְעַנְייֵן מְאוֹד."
+    ca:
+      0: "Què és això?"
+      1: "— És un llibre."
+      2: "— És un llibre petit?"
+      3: "— No, és un llibre gran."
+      4: "— El llibre és interessant?"
+      5: "— Sí, el llibre és molt interessant."
+  pag-11-b1:
+    tipus: dialeg
+    personatges: ["Persona A", "Persona B"]
+    qui: [0, 1, 0, 1, 1, 0, 1]
+    vocals:
+      0: "מַה זֶּה?"
+      1: "— זֹאת תְּמוּנָה."
+      2: "— זֹאת תְּמוּנָה קְטַנָּה?"
+      3: "— לֹא, זֹאת לֹא תְּמוּנָה קְטַנָּה."
+      4: "זֹאת תְּמוּנָה גְּדוֹלָה."
+      5: "— הַתְּמוּנָה יָפָה?"
+      6: "— כָּכָה - כָּכָה."
+    ca:
+      0: "Què és això?"
+      1: "— És un quadre."
+      2: "— És un quadre petit?"
+      3: "— No, no és un quadre petit."
+      4: "És un quadre gran."
+      5: "— El quadre és bonic?"
+      6: "— Així així."
+  pag-11-b2:
+    vocals:
+      0: "טוֹב · טוֹבָה · טוֹבִים · טוֹבוֹת"
+    ca:
+      0: "bo · bona · bons · bones"
+      1: "nou · nova · nous · noves"
+      2: "gran · gran · grans · grans"
+      3: "petit · petita · petits · petites"
+      4: "bonic · bonica · bonics · boniques"
+      5: "interessant · interessant · interessants · interessants"
+  pag-12-b0:
+    ca:
+      0: "La família Leví"
+  pag-12-b1:
+    vocals:
+      0: "זֶה אָדוֹן יִצְחָק לֵוִי."
+      1: "יִצְחָק לֵוִי - בַּעַל."
+      2: "הוּא הַבַּעַל שֶׁל שָׂרָה."
+      3: "יִצְחָק לֵוִי - אַבָּא."
+      4: "הוּא אַבָּא שֶׁל רוֹבֶּרְטוֹ."
+      5: "הוּא אַבָּא שֶׁל אֶסְתֵּר."
+    ca:
+      0: "Aquest és el senyor Itshak Leví."
+      1: "L'Itshak Leví és marit."
+      2: "És el marit de la Sara."
+      3: "L'Itshak Leví és pare."
+      4: "És el pare del Roberto."
+      5: "És el pare de l'Ester."
+  pag-12-b2:
+    vocals:
+      0: "זֹאת גְּבֶרֶת שָׂרָה לֵוִי."
+      1: "שָׂרָה לֵוִי - אִישָּׁה."
+      2: "הִיא הָאִישָּׁה שֶׁל יִצְחָק."
+      3: "שָׂרָה לֵוִי - אִמָּא."
+      4: "הִיא אִמָּא שֶׁל רוֹבֶּרְטוֹ."
+      5: "הִיא אִמָּא שֶׁל אֶסְתֵּר."
+    ca:
+      0: "Aquesta és la senyora Sara Leví."
+      1: "La Sara Leví és esposa."
+      2: "És la dona de l'Itshak."
+      3: "La Sara Leví és mare."
+      4: "És la mare del Roberto."
+      5: "És la mare de l'Ester."
+  pag-12-b3:
+    vocals:
+      0: "אֵלֶּה שָׂרָה וְיִצְחָק. אֵלֶּה גְּבֶרֶת וְאָדוֹן לֵוִי."
+      1: "יִצְחָק וְשָׂרָה בַּעַל וְאִישָּׁה."
+      2: "הֵם אִמָּא וְאַבָּא שֶׁל רוֹבֶּרְטוֹ וְשֶׁל אֶסְתֵּר."
+      3: "הֵם הַהוֹרִים שֶׁל רוֹבֶּרְטוֹ וְשֶׁל אֶסְתֵּר."
+    ca:
+      0: "Aquests són la Sara i l'Itshak. Són la senyora i el senyor Leví."
+      1: "L'Itshak i la Sara són marit i muller."
+      2: "Són la mare i el pare del Roberto i de l'Ester."
+      3: "Són els pares del Roberto i de l'Ester."
+  pag-13-b0:
+    vocals:
+      0: "הֵם רוֹבֶּרְטוֹ וְאֶסְתֵּר. אֵלֶּה הַיְּלָדִים שֶׁל שָׂרָה וְיִצְחָק."
+      1: "אֶסְתֵּר - בַּת. הִיא הַבַּת שֶׁל שָׂרָה וְיִצְחָק."
+      2: "רוֹבֶּרְטוֹ - בֵּן. הוּא הַבֵּן שֶׁל שָׂרָה וְיִצְחָק."
+      4: "רוֹבֶּרְטוֹ - אָח. הוּא הָאָח שֶׁל אֶסְתֵּר."
+    ca:
+      0: "Són el Roberto i l'Ester. Són els fills de la Sara i l'Itshak."
+      1: "L'Ester és filla. És la filla de la Sara i l'Itshak."
+      2: "El Roberto és fill. És el fill de la Sara i l'Itshak."
+      4: "El Roberto és germà. És el germà de l'Ester."
+  pag-13-b1:
+    vocals:
+      0: "שָׂרָה, יִצְחָק, אֶסְתֵּר וְרוֹבֶּרְטוֹ - מִשְׁפָּחָה."
+      1: "זֹאת מִשְׁפַּחַת לֵוִי. זֹאת מִשְׁפָּחָה שֶׁל עוֹלִים."
+      2: "זֹאת מִשְׁפָּחָה שֶׁל עוֹלִים חֲדָשִׁים מִבְּרָזִיל."
+      3: "בְּבַקָּשָׁה לְהַכִּיר: מִשְׁפַּחַת לֵוִי."
+    ca:
+      0: "La Sara, l'Itshak, l'Ester i el Roberto són una família."
+      1: "Aquesta és la família Leví. És una família d'immigrants."
+      2: "És una família d'immigrants nous del Brasil."
+      3: "Us presento la família Leví."
+  pag-14-b0:
+    vocals:
+      1: "הַנְחָיוֹת בַּהַקְדָּמָה"
+    ca:
+      0: "Exercici de transformació"
+      1: "Instruccions a la introducció"
+  pag-14-b1:
+    vocals:
+      1: "שַׁנֵּה אֶת הַמִּשְׁפָּטִים בְּהֶתְאֵם. (רְאֵה עַמּוּד 17)"
+    ca:
+      0: "Escriu en lloc de les paraules destacades les paraules entre parèntesis."
+      1: "Canvia les frases com calgui. (Mira la pàgina 17.)"
+  pag-14-b2:
+    vocals:
+      0: "1. זֶה סֵפֶר חָדָשׁ. (גָּדוֹל, קָטָן, יָפֶה, מְעַנְייֵן)"
+      1: "2. הוּא יֶלֶד יָפֶה. (הִיא, זֹאת, הֵם, הֵן)"
+      2: "3. הַתְּמוּנָה לֹא יָפָה. (גְּדוֹלָה, קְטַנָּה, חֲדָשָׁה, מְעַנְייֶנֶת)"
+      3: "4. הַסְּפָרִים שֶׁל יִצְחָק מְעַנְייְנִים. (יָפִים, קְטַנִּים, חֲדָשִׁים)"
+      4: "5. הִיא לֹא יָפָה, אֲבָל הִיא מְעַנְייֶנֶת. (הוּא, הֵם, הֵן)"
+      5: "6. הִיא אִישָּׁה מְעַנְייֶנֶת. (הוּא, צִפּוֹרָה וְשָׂרָה, הֵם, זֹאת)"
+      6: "7. הוּא הַבַּעַל שֶׁל שָׂרָה (הָאָח, הַבֵּן, הֶחָבֵר, הַמּוֹרֶה)"
+      7: "8. הָאִישָּׁה שֶׁל יִצְחָק יָפָה. (הַבַּת, הָאָחוֹת, הַמּוֹרָה)"
+      8: "9. הַבַּעַל שֶׁל שָׂרָה יָפֶה (הַבֵּן, הַבַּת, הָאָח, הַיְּלָדִים)"
+      9: "10. הֵן נָשִׁים טוֹבוֹת. (יָפוֹת, מְעַנְייְנוֹת, קְטַנּוֹת)"
+    ca:
+      0: "1. És un llibre nou. (gran, petit, bonic, interessant)"
+      1: "2. És un nen maco. (ella, aquesta, ells, elles)"
+      2: "3. El quadre no és bonic. (gran, petit, nou, interessant)"
+      3: "4. Els llibres de l'Itshak són interessants. (bonics, petits, nous)"
+      4: "5. No és bonica, però és interessant. (ell, ells, elles)"
+      5: "6. És una dona interessant. (ell, la Tsiporà i la Sara, ells, aquesta)"
+      6: "7. És el marit de la Sara. (el germà, el fill, l'amic, el mestre)"
+      7: "8. La dona de l'Itshak és bonica. (la filla, la germana, la mestra)"
+      8: "9. El marit de la Sara és maco. (el fill, la filla, el germà, els fills)"
+      9: "10. Són bones dones. (boniques, interessants, petites)"
+  pag-14-b3:
+    ca:
+      0: "Escriu: qui, què"
+  pag-14-b4:
+    vocals:
+      0: "1. ____ זֶה? — יִצְחָק."
+      1: "2. ____ הוּא? — תַּלְמִיד."
+      2: "3. ____ הִיא? — שָׂרָה."
+      3: "4. ____ זֶה? — זֹאת תְּמוּנָה."
+      4: "5. ____ תַּלְמִיד? — רוֹבֶּרְטוֹ."
+      5: "6. ____ מוֹרֶה? — יוֹסֵף."
+      6: "7. ____ זֶה? — הַסֵּפֶר שֶׁל רוֹבֶּרְטוֹ."
+      7: "8. ____ זֶה? — אַבָּא שֶׁל רוֹבֶּרְטוֹ."
+      8: "9. ____ זֹאת? — הָאָחוֹת שֶׁל רוֹבֶּרְטוֹ."
+    ca:
+      0: "1. ____ és? — L'Itshak."
+      1: "2. ____ és? — Alumne."
+      2: "3. ____ és? — La Sara."
+      3: "4. ____ és això? — És un quadre."
+      4: "5. ____ és alumne? — El Roberto."
+      5: "6. ____ és mestre? — El Iossef."
+      6: "7. ____ és això? — El llibre del Roberto."
+      7: "8. ____ és? — El pare del Roberto."
+      8: "9. ____ és? — La germana del Roberto."
+
+icones:
+  u02-2: "propia:nen.svg"       # יֶלֶד
+  u02-3: "propia:nena.svg"      # יַלְדָּה
+  u02-4: "propia:senyor.svg"    # אִישׁ
+  u02-5: "propia:senyora.svg"   # אִשָּׁה
+  u02-6: arrows-out-simple      # גָּדוֹל
+  u02-7: arrows-in-simple       # קָטָן
+  u02-9: book-open              # סֵפֶר
+  u02-10: lightbulb             # מְעַנְיֵן
+  u02-11: image                 # תְּמוּנָה
+  u02-12: flower                # יָפֶה
+  u02-13: smiley-meh            # כָּכָה-כָּכָה
+  u02-17: users                 # הוֹרִים
+  u02-22: users-four            # מִשְׁפָּחָה
+  u02-23: users-four            # מִשְׁפַּחַת ...
+  u02-24: hands-praying         # בְּבַקָּשָׁה
+  u02-25: user-plus             # בְּבַקָּשָׁה לְהַכִּיר
+
+gramatica:
+  - id: demostratius
+    titol: Els demostratius
+    explicacio: זֶה (masculí) i זֹאת (femení) són del singular; אֵלֶּה serveix per als dos gèneres en plural. Sense verb «ser», זֶה יֶלֶד ja és una frase sencera.
+    exemples:
+      - { n: "זֶה יֶלֶד", ca: "Aquest és un nen." }
+      - { n: "זֹאת יַלְדָּה", ca: "Aquesta és una nena." }
+      - { n: "אֵלֶּה יְלָדִים", ca: "Aquests són nens." }
+      - { n: "אֵלֶּה נָשִׁים", ca: "Aquestes són dones." }
+  - id: ma-mi
+    titol: Què és? Qui és?
+    explicacio: מַה? pregunta per coses i מִי? per persones. Per a coses es diu sempre מַה זֶּה?, encara que la resposta sigui femenina.
+    exemples:
+      - { n: "מַה זֶּה? — זֶה סֵפֶר.", ca: "Què és això? — És un llibre." }
+      - { n: "מַה זֶּה? — זֹאת תְּמוּנָה.", ca: "Què és això? — És un quadre." }
+      - { n: "מִי זֶה? — זֶה אָדוֹן יִצְחָק לֵוִי.", ca: "Qui és? — És el senyor Itshak Leví." }
+      - { n: "מִי זֹאת? — הָאָחוֹת שֶׁל רוֹבֶּרְטוֹ.", ca: "Qui és? — La germana del Roberto." }
+      - { n: "הַתְּמוּנָה יָפָה? — כָּכָה-כָּכָה.", ca: "El quadre és bonic? — Així així." }
+  - id: adjectiu-quatre-formes
+    titol: L'adjectiu en quatre formes
+    explicacio: Les terminacions són les de la unitat 1, i sovint s'escurça la primera vocal (גָּדוֹל → גְּדוֹלָה). Sense vocals, יפה és igual en masculí i femení, i מעניין s'escriu amb dues י.
+    exemples:
+      - { n: "גָּדוֹל, גְּדוֹלָה, גְּדוֹלִים, גְּדוֹלוֹת", ca: "gran (m. sg., f. sg., m. pl., f. pl.)" }
+      - { n: "קָטָן, קְטַנָּה, קְטַנִּים, קְטַנּוֹת", ca: "petit, petita, petits, petites" }
+      - { n: "יָפֶה, יָפָה, יָפִים, יָפוֹת", ca: "bonic, bonica, bonics, boniques" }
+      - { n: "מְעַנְייֵן, מְעַנְייֶנֶת, מְעַנְייְנִים, מְעַנְייְנוֹת", ca: "interessant (m. sg., f. sg., m. pl., f. pl.)" }
+      - { n: "אֵלֶּה יְלָדוֹת קְטַנּוֹת.", ca: "Aquestes són nenes petites." }
+  - id: nom-amb-article
+    titol: Nom amb article i adjectiu sense
+    explicacio: Si el nom porta הַ־ i l'adjectiu no, és una frase amb «ser» sobreentès. לֹא va davant del que es nega.
+    exemples:
+      - { n: "הַסֵּפֶר מְעַנְייֵן מְאוֹד.", ca: "El llibre és molt interessant." }
+      - { n: "הַתְּמוּנָה לֹא יָפָה.", ca: "El quadre no és bonic." }
+      - { n: "זֹאת לֹא תְּמוּנָה קְטַנָּה.", ca: "No és un quadre petit." }
+      - { n: "הַסְּפָרִים שֶׁל יִצְחָק לֹא חֲדָשִׁים.", ca: "Els llibres de l'Itshak no són nous.", extra: true }
+  - id: plurals
+    titol: Plurals que s'han d'aprendre
+    explicacio: Molts noms canvien les vocals en plural, i alguns canvien sencers. נָשִׁים és femení encara que acabi en ‑ִים.
+    exemples:
+      - { n: "יֶלֶד, יְלָדִים · סֵפֶר, סְפָרִים", ca: "nen, nens · llibre, llibres" }
+      - { n: "אִישׁ, אֲנָשִׁים · אִישָּׁה, נָשִׁים", ca: "home, homes · dona, dones" }
+      - { n: "בֵּן, בָּנִים · בַּת, בָּנוֹת", ca: "fill, fills · filla, filles" }
+      - { n: "אָח, אַחִים · אָחוֹת, אֲחָיוֹת", ca: "germà, germans · germana, germanes" }
+      - { n: "הֵן נָשִׁים טוֹבוֹת.", ca: "Són bones dones." }
+  - id: familia-shel
+    titol: La família amb שֶׁל
+    explicacio: El nom de parentiu que va davant de שֶׁל porta article (הַבַּעַל, הָאָח), però אַבָּא i אִמָּא van sense. Davant de cada nom es repeteix שֶׁל.
+    exemples:
+      - { n: "הוּא הַבַּעַל שֶׁל שָׂרָה.", ca: "És el marit de la Sara." }
+      - { n: "הִיא הַבַּת שֶׁל שָׂרָה וְיִצְחָק.", ca: "És la filla de la Sara i l'Itshak." }
+      - { n: "הוּא אַבָּא שֶׁל רוֹבֶּרְטוֹ.", ca: "És el pare del Roberto." }
+      - { n: "הֵם הַהוֹרִים שֶׁל רוֹבֶּרְטוֹ וְשֶׁל אֶסְתֵּר.", ca: "Són els pares del Roberto i de l'Ester." }
+      - { n: "יִצְחָק לֵוִי - בַּעַל.", ca: "L'Itshak Leví és marit (el guió fa de «ser»)." }
+  - id: mishpakhat
+    titol: מִשְׁפַּחַת i la presentació
+    explicacio: מִשְׁפָּחָה pren la forma מִשְׁפַּחַת quan va enganxada a un altre nom. בְּבַקָּשָׁה לְהַכִּיר és la fórmula per presentar algú.
+    exemples:
+      - { n: "זֹאת מִשְׁפַּחַת לֵוִי.", ca: "Aquesta és la família Leví." }
+      - { n: "זֹאת מִשְׁפָּחָה שֶׁל עוֹלִים חֲדָשִׁים מִבְּרָזִיל.", ca: "És una família d'immigrants nous del Brasil." }
+      - { n: "בְּבַקָּשָׁה לְהַכִּיר: מִשְׁפַּחַת לֵוִי.", ca: "Us presento la família Leví." }
+
+exercicis:
+  # pag-14, תרגיל 4: מִי o מַה
+  - { tipus: forat, origen: "pag-14 ex. 4.1", extra: false, linies: [pag-14-b4-l0],
+      frase: { u: "____ זה? — יצחק.", n: "____ זֶה? — יִצְחָק." },
+      opcions: ["מִי", "מַה"], correcta: 0, retro: "La resposta és una persona: מִי." }
+  - { tipus: forat, origen: "pag-14 ex. 4.2", extra: false, linies: [pag-14-b4-l1],
+      frase: { u: "____ הוא? — תלמיד.", n: "____ הוּא? — תַּלְמִיד." },
+      opcions: ["מִי", "מַה"], correcta: 1, retro: "No es pregunta qui és, sinó què és: מַה." }
+  - { tipus: forat, origen: "pag-14 ex. 4.3", extra: false, linies: [pag-14-b4-l2],
+      frase: { u: "____ היא? — שרה.", n: "____ הִיא? — שָׂרָה." },
+      opcions: ["מִי", "מַה"], correcta: 0, retro: "La resposta és una persona: מִי." }
+  - { tipus: forat, origen: "pag-14 ex. 4.4", extra: false, linies: [pag-14-b4-l3],
+      frase: { u: "____ זה? — זאת תמונה.", n: "____ זֶה? — זֹאת תְּמוּנָה." },
+      opcions: ["מִי", "מַה"], correcta: 1, retro: "Un quadre és una cosa: מַה." }
+  - { tipus: forat, origen: "pag-14 ex. 4.5", extra: false, linies: [pag-14-b4-l4],
+      frase: { u: "____ תלמיד? — רוברטו.", n: "____ תַּלְמִיד? — רוֹבֶּרְטוֹ." },
+      opcions: ["מִי", "מַה"], correcta: 0, retro: "Es pregunta quina persona és alumne: מִי." }
+  - { tipus: forat, origen: "pag-14 ex. 4.6", extra: false, linies: [pag-14-b4-l5],
+      frase: { u: "____ מורה? — יוסף.", n: "____ מוֹרֶה? — יוֹסֵף." },
+      opcions: ["מִי", "מַה"], correcta: 0, retro: "Es pregunta quina persona és mestre: מִי." }
+  - { tipus: forat, origen: "pag-14 ex. 4.7", extra: false, linies: [pag-14-b4-l6],
+      frase: { u: "____ זה? — הספר של רוברטו.", n: "____ זֶה? — הַסֵּפֶר שֶׁל רוֹבֶּרְטוֹ." },
+      opcions: ["מִי", "מַה"], correcta: 1, retro: "Un llibre és una cosa: מַה." }
+  - { tipus: forat, origen: "pag-14 ex. 4.8", extra: false, linies: [pag-14-b4-l7],
+      frase: { u: "____ זה? — אבא של רוברטו.", n: "____ זֶה? — אַבָּא שֶׁל רוֹבֶּרְטוֹ." },
+      opcions: ["מִי", "מַה"], correcta: 0, retro: "El pare és una persona: מִי." }
+  - { tipus: forat, origen: "pag-14 ex. 4.9", extra: false, linies: [pag-14-b4-l8],
+      frase: { u: "____ זאת? — האחות של רוברטו.", n: "____ זֹאת? — הָאָחוֹת שֶׁל רוֹבֶּרְטוֹ." },
+      opcions: ["מִי", "מַה"], correcta: 0, retro: "La germana és una persona: מִי." }
+
+  # pag-14, תרגיל 3: canvia el mot destacat i fes concordar la frase
+  - { tipus: construir, origen: "pag-14 ex. 3.1", extra: false, linies: [pag-14-b2-l0],
+      ca: "És un llibre interessant.",
+      fitxes: ["סֵפֶר", "מְעַנְייֶנֶת", "זֶה", "מְעַנְייֵן", "זֹאת"], ordre: [2, 0, 3] }
+  - { tipus: conjugar, origen: "pag-14 ex. 3.2", extra: false, linies: [pag-14-b2-l1],
+      base: { n: "הוּא יֶלֶד יָפֶה.", u: "הוא ילד יפה." }, demana: "amb הִיא",
+      opcions: ["הִיא יֶלֶד יָפָה.", "הִיא יַלְדָּה יָפָה.", "הִיא יְלָדוֹת יָפוֹת."], correcta: 1 }
+  - { tipus: conjugar, origen: "pag-14 ex. 3.2", extra: false, linies: [pag-14-b2-l1],
+      base: { n: "הוּא יֶלֶד יָפֶה.", u: "הוא ילד יפה." }, demana: "amb הֵם",
+      opcions: ["הֵם יְלָדִים יָפוֹת.", "הֵם יְלָדוֹת יָפוֹת.", "הֵם יְלָדִים יָפִים."], correcta: 2 }
+  - { tipus: autocorreccio, origen: "pag-14 ex. 3.2", extra: false, linies: [pag-14-b2-l1],
+      enunciat: { n: "הוּא יֶלֶד יָפֶה. ← הֵן", u: "הוא ילד יפה. ← הן" },
+      model: { n: "הֵן יְלָדוֹת יָפוֹת.", u: "הן ילדות יפות." } }
+  - { tipus: forat, origen: "pag-14 ex. 3.3", extra: false, linies: [pag-14-b2-l2],
+      frase: { u: "התמונה לא ____.", n: "הַתְּמוּנָה לֹא ____." },
+      opcions: ["מְעַנְייֵן", "מְעַנְייֶנֶת", "מְעַנְייְנִים", "מְעַנְייְנוֹת"], correcta: 1, retro: "תְּמוּנָה és femení singular: מְעַנְייֶנֶת." }
+  - { tipus: forat, origen: "pag-14 ex. 3.4", extra: false, linies: [pag-14-b2-l3],
+      frase: { u: "הספרים של יצחק ____.", n: "הַסְּפָרִים שֶׁל יִצְחָק ____." },
+      opcions: ["קְטַנָּה", "קְטַנִּים", "קְטַנּוֹת", "קָטָן"], correcta: 1, retro: "סְפָרִים és masculí plural: קְטַנִּים." }
+  - { tipus: conjugar, origen: "pag-14 ex. 3.5", extra: false, linies: [pag-14-b2-l4],
+      base: { n: "הִיא לֹא יָפָה, אֲבָל הִיא מְעַנְייֶנֶת.", u: "היא לא יפה, אבל היא מעניינת." }, demana: "amb הֵן",
+      opcions: ["הֵן לֹא יָפִים, אֲבָל הֵן מְעַנְייְנִים.", "הֵן לֹא יָפָה, אֲבָל הֵן מְעַנְייֶנֶת.", "הֵן לֹא יָפוֹת, אֲבָל הֵן מְעַנְייְנוֹת."], correcta: 2 }
+  - { tipus: autocorreccio, origen: "pag-14 ex. 3.5", extra: false, linies: [pag-14-b2-l4],
+      enunciat: { n: "הִיא לֹא יָפָה, אֲבָל הִיא מְעַנְייֶנֶת. ← הוּא", u: "היא לא יפה, אבל היא מעניינת. ← הוא" },
+      model: { n: "הוּא לֹא יָפֶה, אֲבָל הוּא מְעַנְייֵן.", u: "הוא לא יפה, אבל הוא מעניין." } }
+  - { tipus: conjugar, origen: "pag-14 ex. 3.6", extra: false, linies: [pag-14-b2-l5],
+      base: { n: "הִיא אִישָּׁה מְעַנְייֶנֶת.", u: "היא אישה מעניינת." }, demana: "amb צִפּוֹרָה וְשָׂרָה",
+      opcions: ["צִפּוֹרָה וְשָׂרָה נָשִׁים מְעַנְייְנִים.", "צִפּוֹרָה וְשָׂרָה נָשִׁים מְעַנְייְנוֹת.", "צִפּוֹרָה וְשָׂרָה אֲנָשִׁים מְעַנְייְנִים."], correcta: 1 }
+  - { tipus: conjugar, origen: "pag-14 ex. 3.6", extra: false, linies: [pag-14-b2-l5],
+      base: { n: "הִיא אִישָּׁה מְעַנְייֶנֶת.", u: "היא אישה מעניינת." }, demana: "amb הֵם",
+      opcions: ["הֵם אֲנָשִׁים מְעַנְייְנִים.", "הֵם אֲנָשִׁים מְעַנְייְנוֹת.", "הֵם נָשִׁים מְעַנְייְנוֹת."], correcta: 0 }
+  - { tipus: autocorreccio, origen: "pag-14 ex. 3.6", extra: false, linies: [pag-14-b2-l5],
+      enunciat: { n: "הִיא אִישָּׁה מְעַנְייֶנֶת. ← הוּא", u: "היא אישה מעניינת. ← הוא" },
+      model: { n: "הוּא אִישׁ מְעַנְייֵן.", u: "הוא איש מעניין." } }
+  - { tipus: construir, origen: "pag-14 ex. 3.7", extra: false, linies: [pag-14-b2-l6],
+      ca: "És el germà de la Sara.",
+      fitxes: ["שֶׁל", "הָאָח", "שָׂרָה", "הוּא", "הָאָחוֹת"], ordre: [3, 1, 0, 2] }
+  - { tipus: forat, origen: "pag-14 ex. 3.8", extra: false, linies: [pag-14-b2-l7],
+      frase: { u: "____ של יצחק יפה.", n: "____ שֶׁל יִצְחָק יָפָה." },
+      opcions: ["הַבֵּן", "הָאָח", "הַבַּת", "הַבַּעַל"], correcta: 2, retro: "יָפָה és femení: només hi va הַבַּת." }
+  - { tipus: conjugar, origen: "pag-14 ex. 3.9", extra: false, linies: [pag-14-b2-l8],
+      base: { n: "הַבַּעַל שֶׁל שָׂרָה יָפֶה.", u: "הבעל של שרה יפה." }, demana: "amb הַיְּלָדִים",
+      opcions: ["הַיְּלָדִים שֶׁל שָׂרָה יָפֶה.", "הַיְּלָדִים שֶׁל שָׂרָה יָפִים.", "הַיְּלָדִים שֶׁל שָׂרָה יָפוֹת."], correcta: 1 }
+  - { tipus: forat, origen: "pag-14 ex. 3.10", extra: false, linies: [pag-14-b2-l9],
+      frase: { u: "הן נשים ____.", n: "הֵן נָשִׁים ____." },
+      opcions: ["יָפִים", "יָפוֹת", "יָפָה", "יָפֶה"], correcta: 1, retro: "נָשִׁים és femení encara que acabi en ‑ִים: יָפוֹת." }
+
+  # Extra: comprensió i producció a partir dels textos
+  - { tipus: comprensio, origen: extra, extra: true, linies: [pag-11-b0-l0, pag-11-b0-l1, pag-11-b0-l2, pag-11-b0-l3, pag-11-b0-l4, pag-11-b0-l5],
+      text: "מַה זֶּה? — זֶה סֵפֶר. — זֶה סֵפֶר קָטָן? — לֹא, זֶה סֵפֶר גָּדוֹל. — הַסֵּפֶר מְעַנְייֵן? — כֵּן, הַסֵּפֶר מְעַנְייֵן מְאוֹד.",
+      pregunta: "Com és el llibre?", opcions: ["Petit i interessant", "Gran i molt interessant", "Gran i no gaire interessant"], correcta: 1 }
+  - { tipus: comprensio, origen: extra, extra: true, linies: [pag-11-b1-l3, pag-11-b1-l4, pag-11-b1-l5, pag-11-b1-l6],
+      text: "לֹא, זֹאת לֹא תְּמוּנָה קְטַנָּה. זֹאת תְּמוּנָה גְּדוֹלָה. — הַתְּמוּנָה יָפָה? — כָּכָה - כָּכָה.",
+      pregunta: "El quadre és bonic?", opcions: ["Sí, molt", "Així així", "No, gens"], correcta: 1 }
+  - { tipus: comprensio, origen: extra, extra: true, linies: [pag-13-b0-l0, pag-13-b0-l1, pag-13-b0-l2],
+      text: "הֵם רוֹבֶּרְטוֹ וְאֶסְתֵּר. אֵלֶּה הַיְּלָדִים שֶׁל שָׂרָה וְיִצְחָק. אֶסְתֵּר - בַּת. הִיא הַבַּת שֶׁל שָׂרָה וְיִצְחָק. רוֹבֶּרְטוֹ - בֵּן. הוּא הַבֵּן שֶׁל שָׂרָה וְיִצְחָק.",
+      pregunta: "Qui és l'Ester?", opcions: ["La mare del Roberto", "La filla de la Sara i l'Itshak", "La dona de l'Itshak"], correcta: 1 }
+  - { tipus: comprensio, origen: extra, extra: true, linies: [pag-13-b1-l0, pag-13-b1-l1, pag-13-b1-l2],
+      text: "שָׂרָה, יִצְחָק, אֶסְתֵּר וְרוֹבֶּרְטוֹ - מִשְׁפָּחָה. זֹאת מִשְׁפַּחַת לֵוִי. זֹאת מִשְׁפָּחָה שֶׁל עוֹלִים. זֹאת מִשְׁפָּחָה שֶׁל עוֹלִים חֲדָשִׁים מִבְּרָזִיל.",
+      pregunta: "D'on és la família Leví?", opcions: ["De Rússia", "D'Anglaterra", "Del Brasil"], correcta: 2 }
+  - { tipus: construir, origen: extra, extra: true, linies: [pag-10-b4-l3, u02-3, u02-7],
+      ca: "Aquestes són nenes petites.",
+      fitxes: ["קְטַנּוֹת", "אֵלֶּה", "זֹאת", "יְלָדוֹת", "קְטַנִּים"], ordre: [1, 3, 0] }

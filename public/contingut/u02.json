@@ -22,7 +22,11 @@
       "perComprovar": false,
       "formes": [
         "זֹאת"
-      ]
+      ],
+      "audio": {
+        "normal": "79a80760b91a.m4a",
+        "lent": "a6ae5c464b54.m4a"
+      }
     },
     {
       "id": "u02-1",
@@ -32,7 +36,11 @@
       "pagina": "pag-10",
       "funcio": true,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "ca6e0c8a219a.m4a",
+        "lent": "158118be1501.m4a"
+      }
     },
     {
       "id": "u02-2",
@@ -45,7 +53,12 @@
       "perComprovar": false,
       "formes": [
         "יְלָדִים"
-      ]
+      ],
+      "icona": "propia:nen.svg",
+      "audio": {
+        "normal": "8a052b5a354c.m4a",
+        "lent": "b27030cffc01.m4a"
+      }
     },
     {
       "id": "u02-3",
@@ -58,7 +71,12 @@
       "perComprovar": false,
       "formes": [
         "יְלָדוֹת"
-      ]
+      ],
+      "icona": "propia:nena.svg",
+      "audio": {
+        "normal": "b1f547b2e992.m4a",
+        "lent": "5d2b5e0a8827.m4a"
+      }
     },
     {
       "id": "u02-4",
@@ -71,7 +89,12 @@
       "perComprovar": false,
       "formes": [
         "אֲנָשִׁים"
-      ]
+      ],
+      "icona": "propia:senyor.svg",
+      "audio": {
+        "normal": "93175b3bf67b.m4a",
+        "lent": "201a5a3ba9f8.m4a"
+      }
     },
     {
       "id": "u02-5",
@@ -84,7 +107,12 @@
       "perComprovar": false,
       "formes": [
         "נָשִׁים"
-      ]
+      ],
+      "icona": "propia:senyora.svg",
+      "audio": {
+        "normal": "3d4fdfdca8ba.m4a",
+        "lent": "8aca75e20e03.m4a"
+      }
     },
     {
       "id": "u02-6",
@@ -97,7 +125,12 @@
       "perComprovar": false,
       "formes": [
         "גְּדוֹלָה"
-      ]
+      ],
+      "icona": "arrows-out-simple",
+      "audio": {
+        "normal": "e19c43837945.m4a",
+        "lent": "44285af0cace.m4a"
+      }
     },
     {
       "id": "u02-7",
@@ -110,7 +143,12 @@
       "perComprovar": false,
       "formes": [
         "קְטַנָּה"
-      ]
+      ],
+      "icona": "arrows-in-simple",
+      "audio": {
+        "normal": "e66a1440a31e.m4a",
+        "lent": "3ae211033bce.m4a"
+      }
     },
     {
       "id": "u02-8",
@@ -120,7 +158,11 @@
       "pagina": "pag-11",
       "funcio": true,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "ae094a28f9b7.m4a",
+        "lent": "39c9f3a6e7e7.m4a"
+      }
     },
     {
       "id": "u02-9",
@@ -133,7 +175,12 @@
       "perComprovar": false,
       "formes": [
         "סְפָרִים"
-      ]
+      ],
+      "icona": "book-open",
+      "audio": {
+        "normal": "355ac5713341.m4a",
+        "lent": "d2fb6beb662e.m4a"
+      }
     },
     {
       "id": "u02-10",
@@ -146,7 +193,12 @@
       "perComprovar": false,
       "formes": [
         "מְעַנְיֶנֶת"
-      ]
+      ],
+      "icona": "lightbulb",
+      "audio": {
+        "normal": "e4057f193852.m4a",
+        "lent": "21e355749146.m4a"
+      }
     },
     {
       "id": "u02-11",
@@ -159,7 +211,12 @@
       "perComprovar": false,
       "formes": [
         "תְּמוּנוֹת"
-      ]
+      ],
+      "icona": "image",
+      "audio": {
+        "normal": "a38a1744dc31.m4a",
+        "lent": "ae05b2a7e9a6.m4a"
+      }
     },
     {
       "id": "u02-12",
@@ -172,7 +229,12 @@
       "perComprovar": false,
       "formes": [
         "יָפָה"
-      ]
+      ],
+      "icona": "flower",
+      "audio": {
+        "normal": "454b8255ccf7.m4a",
+        "lent": "1e51f38506fb.m4a"
+      }
     },
     {
       "id": "u02-13",
@@ -182,7 +244,12 @@
       "pagina": "pag-11",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "smiley-meh",
+      "audio": {
+        "normal": "880c3c7b2fbb.m4a",
+        "lent": "fe08a38a2758.m4a"
+      }
     },
     {
       "id": "u02-14",
@@ -192,7 +259,11 @@
       "pagina": "pag-12",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "8587a30415c2.m4a",
+        "lent": "41aff4252731.m4a"
+      }
     },
     {
       "id": "u02-15",
@@ -202,7 +273,11 @@
       "pagina": "pag-12",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "07bd9a8594e9.m4a",
+        "lent": "d31dda88455c.m4a"
+      }
     },
     {
       "id": "u02-16",
@@ -212,7 +287,11 @@
       "pagina": "pag-12",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "b1b95c3c0164.m4a",
+        "lent": "951b43540a2a.m4a"
+      }
     },
     {
       "id": "u02-17",
@@ -222,7 +301,12 @@
       "pagina": "pag-12",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "users",
+      "audio": {
+        "normal": "57156dbe983c.m4a",
+        "lent": "c7d6fb61a8f0.m4a"
+      }
     },
     {
       "id": "u02-18",
@@ -235,7 +319,11 @@
       "perComprovar": false,
       "formes": [
         "בָּנוֹת"
-      ]
+      ],
+      "audio": {
+        "normal": "f934e42c9f0b.m4a",
+        "lent": "bf78bfff18a6.m4a"
+      }
     },
     {
       "id": "u02-19",
@@ -248,7 +336,11 @@
       "perComprovar": false,
       "formes": [
         "בָּנִים"
-      ]
+      ],
+      "audio": {
+        "normal": "33f37b51d685.m4a",
+        "lent": "7daff686801b.m4a"
+      }
     },
     {
       "id": "u02-20",
@@ -261,7 +353,11 @@
       "perComprovar": false,
       "formes": [
         "אֲחָיוֹת"
-      ]
+      ],
+      "audio": {
+        "normal": "e9e12924b1aa.m4a",
+        "lent": "7aaec8b8e5a0.m4a"
+      }
     },
     {
       "id": "u02-21",
@@ -274,7 +370,11 @@
       "perComprovar": false,
       "formes": [
         "אַחִים"
-      ]
+      ],
+      "audio": {
+        "normal": "a4482322d3ea.m4a",
+        "lent": "58055cab8ee3.m4a"
+      }
     },
     {
       "id": "u02-22",
@@ -287,7 +387,12 @@
       "perComprovar": false,
       "formes": [
         "מִשְׁפָּחוֹת"
-      ]
+      ],
+      "icona": "users-four",
+      "audio": {
+        "normal": "f20d05e1e0bd.m4a",
+        "lent": "f59f69f94c5e.m4a"
+      }
     },
     {
       "id": "u02-23",
@@ -297,7 +402,12 @@
       "pagina": "pag-13",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "users-four",
+      "audio": {
+        "normal": "9878c1dbed1e.m4a",
+        "lent": "e882c779936e.m4a"
+      }
     },
     {
       "id": "u02-24",
@@ -307,7 +417,12 @@
       "pagina": "pag-13",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "hands-praying",
+      "audio": {
+        "normal": "3d26b22343b4.m4a",
+        "lent": "f9e137de8576.m4a"
+      }
     },
     {
       "id": "u02-25",
@@ -317,10 +432,507 @@
       "pagina": "pag-13",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "icona": "user-plus",
+      "audio": {
+        "normal": "d714c3dd7a40.m4a",
+        "lent": "bc85d169f167.m4a"
+      }
     }
   ],
-  "gramatica": [],
+  "gramatica": [
+    {
+      "id": "demostratius",
+      "titol": "Els demostratius",
+      "explicacio": "זֶה (masculí) i זֹאת (femení) són del singular; אֵלֶּה serveix per als dos gèneres en plural. Sense verb «ser», זֶה יֶלֶד ja és una frase sencera.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u02-g-demostratius-0",
+          "text": {
+            "u": "זה ילד",
+            "n": "זֶה יֶלֶד",
+            "extraVocals": true
+          },
+          "ca": "Aquest és un nen.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "e55bb399d5a4.m4a",
+            "lent": "692627d93560.m4a"
+          }
+        },
+        {
+          "id": "u02-g-demostratius-1",
+          "text": {
+            "u": "זאת ילדה",
+            "n": "זֹאת יַלְדָּה",
+            "extraVocals": true
+          },
+          "ca": "Aquesta és una nena.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "c900e17ca79c.m4a",
+            "lent": "a1f1dc790d3e.m4a"
+          }
+        },
+        {
+          "id": "u02-g-demostratius-2",
+          "text": {
+            "u": "אלה ילדים",
+            "n": "אֵלֶּה יְלָדִים",
+            "extraVocals": true
+          },
+          "ca": "Aquests són nens.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "928b0f6fea56.m4a",
+            "lent": "d4cb5593aac5.m4a"
+          }
+        },
+        {
+          "id": "u02-g-demostratius-3",
+          "text": {
+            "u": "אלה נשים",
+            "n": "אֵלֶּה נָשִׁים",
+            "extraVocals": true
+          },
+          "ca": "Aquestes són dones.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "6a2450244f99.m4a",
+            "lent": "355ea1113746.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ma-mi",
+      "titol": "Què és? Qui és?",
+      "explicacio": "מַה? pregunta per coses i מִי? per persones. Per a coses es diu sempre מַה זֶּה?, encara que la resposta sigui femenina.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u02-g-ma-mi-0",
+          "text": {
+            "u": "מה זה? — זה ספר.",
+            "n": "מַה זֶּה? — זֶה סֵפֶר.",
+            "extraVocals": true
+          },
+          "ca": "Què és això? — És un llibre.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "afb7304c99b7.m4a",
+            "lent": "c81c8bfe5261.m4a"
+          }
+        },
+        {
+          "id": "u02-g-ma-mi-1",
+          "text": {
+            "u": "מה זה? — זאת תמונה.",
+            "n": "מַה זֶּה? — זֹאת תְּמוּנָה.",
+            "extraVocals": true
+          },
+          "ca": "Què és això? — És un quadre.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "2a8a315fd997.m4a",
+            "lent": "04c1d1d4ab4f.m4a"
+          }
+        },
+        {
+          "id": "u02-g-ma-mi-2",
+          "text": {
+            "u": "מי זה? — זה אדון יצחק לוי.",
+            "n": "מִי זֶה? — זֶה אָדוֹן יִצְחָק לֵוִי.",
+            "extraVocals": true
+          },
+          "ca": "Qui és? — És el senyor Itshak Leví.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "4e44aeda4716.m4a",
+            "lent": "d210f2dd7df3.m4a"
+          }
+        },
+        {
+          "id": "u02-g-ma-mi-3",
+          "text": {
+            "u": "מי זאת? — האחות של רוברטו.",
+            "n": "מִי זֹאת? — הָאָחוֹת שֶׁל רוֹבֶּרְטוֹ.",
+            "extraVocals": true
+          },
+          "ca": "Qui és? — La germana del Roberto.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "c5f66eaba902.m4a",
+            "lent": "e6904f0b3407.m4a"
+          }
+        },
+        {
+          "id": "u02-g-ma-mi-4",
+          "text": {
+            "u": "התמונה יפה? — ככה-ככה.",
+            "n": "הַתְּמוּנָה יָפָה? — כָּכָה-כָּכָה.",
+            "extraVocals": true
+          },
+          "ca": "El quadre és bonic? — Així així.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "3eb1de3d07df.m4a",
+            "lent": "659fae594878.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "adjectiu-quatre-formes",
+      "titol": "L'adjectiu en quatre formes",
+      "explicacio": "Les terminacions són les de la unitat 1, i sovint s'escurça la primera vocal (גָּדוֹל → גְּדוֹלָה). Sense vocals, יפה és igual en masculí i femení, i מעניין s'escriu amb dues י.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u02-g-adjectiu-quatre-formes-0",
+          "text": {
+            "u": "גדול, גדולה, גדולים, גדולות",
+            "n": "גָּדוֹל, גְּדוֹלָה, גְּדוֹלִים, גְּדוֹלוֹת",
+            "extraVocals": true
+          },
+          "ca": "gran (m. sg., f. sg., m. pl., f. pl.)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "f1d7865a4d23.m4a",
+            "lent": "48437ce0bbd4.m4a"
+          }
+        },
+        {
+          "id": "u02-g-adjectiu-quatre-formes-1",
+          "text": {
+            "u": "קטן, קטנה, קטנים, קטנות",
+            "n": "קָטָן, קְטַנָּה, קְטַנִּים, קְטַנּוֹת",
+            "extraVocals": true
+          },
+          "ca": "petit, petita, petits, petites",
+          "perComprovar": false,
+          "audio": {
+            "normal": "7e1ee5c559db.m4a",
+            "lent": "f05cd5504f85.m4a"
+          }
+        },
+        {
+          "id": "u02-g-adjectiu-quatre-formes-2",
+          "text": {
+            "u": "יפה, יפה, יפים, יפות",
+            "n": "יָפֶה, יָפָה, יָפִים, יָפוֹת",
+            "extraVocals": true
+          },
+          "ca": "bonic, bonica, bonics, boniques",
+          "perComprovar": false,
+          "audio": {
+            "normal": "630041055b11.m4a",
+            "lent": "49cf511f94c5.m4a"
+          }
+        },
+        {
+          "id": "u02-g-adjectiu-quatre-formes-3",
+          "text": {
+            "u": "מעניין, מעניינת, מעניינים, מעניינות",
+            "n": "מְעַנְייֵן, מְעַנְייֶנֶת, מְעַנְייְנִים, מְעַנְייְנוֹת",
+            "extraVocals": true
+          },
+          "ca": "interessant (m. sg., f. sg., m. pl., f. pl.)",
+          "perComprovar": false,
+          "audio": {
+            "normal": "0844928eac75.m4a",
+            "lent": "67fdd515fa9b.m4a"
+          }
+        },
+        {
+          "id": "u02-g-adjectiu-quatre-formes-4",
+          "text": {
+            "u": "אלה ילדות קטנות.",
+            "n": "אֵלֶּה יְלָדוֹת קְטַנּוֹת.",
+            "extraVocals": true
+          },
+          "ca": "Aquestes són nenes petites.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "5e939eaadca1.m4a",
+            "lent": "c675e8eccdd3.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nom-amb-article",
+      "titol": "Nom amb article i adjectiu sense",
+      "explicacio": "Si el nom porta הַ־ i l'adjectiu no, és una frase amb «ser» sobreentès. לֹא va davant del que es nega.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u02-g-nom-amb-article-0",
+          "text": {
+            "u": "הספר מעניין מאוד.",
+            "n": "הַסֵּפֶר מְעַנְייֵן מְאוֹד.",
+            "extraVocals": true
+          },
+          "ca": "El llibre és molt interessant.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "d5b26040b8db.m4a",
+            "lent": "6fb5344b6276.m4a"
+          }
+        },
+        {
+          "id": "u02-g-nom-amb-article-1",
+          "text": {
+            "u": "התמונה לא יפה.",
+            "n": "הַתְּמוּנָה לֹא יָפָה.",
+            "extraVocals": true
+          },
+          "ca": "El quadre no és bonic.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "790ef71970ad.m4a",
+            "lent": "0a465c64d818.m4a"
+          }
+        },
+        {
+          "id": "u02-g-nom-amb-article-2",
+          "text": {
+            "u": "זאת לא תמונה קטנה.",
+            "n": "זֹאת לֹא תְּמוּנָה קְטַנָּה.",
+            "extraVocals": true
+          },
+          "ca": "No és un quadre petit.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "655ccd741053.m4a",
+            "lent": "88f67beaaef6.m4a"
+          }
+        },
+        {
+          "id": "u02-g-nom-amb-article-3",
+          "text": {
+            "u": "הספרים של יצחק לא חדשים.",
+            "n": "הַסְּפָרִים שֶׁל יִצְחָק לֹא חֲדָשִׁים.",
+            "extraVocals": true
+          },
+          "ca": "Els llibres de l'Itshak no són nous.",
+          "perComprovar": false,
+          "extra": true,
+          "audio": {
+            "normal": "da40ba942e9f.m4a",
+            "lent": "987ff5c5d16f.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plurals",
+      "titol": "Plurals que s'han d'aprendre",
+      "explicacio": "Molts noms canvien les vocals en plural, i alguns canvien sencers. נָשִׁים és femení encara que acabi en ‑ִים.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u02-g-plurals-0",
+          "text": {
+            "u": "ילד, ילדים · ספר, ספרים",
+            "n": "יֶלֶד, יְלָדִים · סֵפֶר, סְפָרִים",
+            "extraVocals": true
+          },
+          "ca": "nen, nens · llibre, llibres",
+          "perComprovar": false,
+          "audio": {
+            "normal": "e585d86c4266.m4a",
+            "lent": "0a0eae53491b.m4a"
+          }
+        },
+        {
+          "id": "u02-g-plurals-1",
+          "text": {
+            "u": "איש, אנשים · אישה, נשים",
+            "n": "אִישׁ, אֲנָשִׁים · אִישָּׁה, נָשִׁים",
+            "extraVocals": true
+          },
+          "ca": "home, homes · dona, dones",
+          "perComprovar": false,
+          "audio": {
+            "normal": "5faa032e245e.m4a",
+            "lent": "7e8e739f48d8.m4a"
+          }
+        },
+        {
+          "id": "u02-g-plurals-2",
+          "text": {
+            "u": "בן, בנים · בת, בנות",
+            "n": "בֵּן, בָּנִים · בַּת, בָּנוֹת",
+            "extraVocals": true
+          },
+          "ca": "fill, fills · filla, filles",
+          "perComprovar": false,
+          "audio": {
+            "normal": "9ba5ccbfa533.m4a",
+            "lent": "99adea20ba81.m4a"
+          }
+        },
+        {
+          "id": "u02-g-plurals-3",
+          "text": {
+            "u": "אח, אחים · אחות, אחיות",
+            "n": "אָח, אַחִים · אָחוֹת, אֲחָיוֹת",
+            "extraVocals": true
+          },
+          "ca": "germà, germans · germana, germanes",
+          "perComprovar": false,
+          "audio": {
+            "normal": "ec6919b97d19.m4a",
+            "lent": "603ade6e700d.m4a"
+          }
+        },
+        {
+          "id": "u02-g-plurals-4",
+          "text": {
+            "u": "הן נשים טובות.",
+            "n": "הֵן נָשִׁים טוֹבוֹת.",
+            "extraVocals": true
+          },
+          "ca": "Són bones dones.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "15f3ef5f7510.m4a",
+            "lent": "1914da904fbc.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "familia-shel",
+      "titol": "La família amb שֶׁל",
+      "explicacio": "El nom de parentiu que va davant de שֶׁל porta article (הַבַּעַל, הָאָח), però אַבָּא i אִמָּא van sense. Davant de cada nom es repeteix שֶׁל.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u02-g-familia-shel-0",
+          "text": {
+            "u": "הוא הבעל של שרה.",
+            "n": "הוּא הַבַּעַל שֶׁל שָׂרָה.",
+            "extraVocals": true
+          },
+          "ca": "És el marit de la Sara.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "3580bb258ce0.m4a",
+            "lent": "4d6c82074ac9.m4a"
+          }
+        },
+        {
+          "id": "u02-g-familia-shel-1",
+          "text": {
+            "u": "היא הבת של שרה ויצחק.",
+            "n": "הִיא הַבַּת שֶׁל שָׂרָה וְיִצְחָק.",
+            "extraVocals": true
+          },
+          "ca": "És la filla de la Sara i l'Itshak.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "a0d102e283f3.m4a",
+            "lent": "74a78e82e51d.m4a"
+          }
+        },
+        {
+          "id": "u02-g-familia-shel-2",
+          "text": {
+            "u": "הוא אבא של רוברטו.",
+            "n": "הוּא אַבָּא שֶׁל רוֹבֶּרְטוֹ.",
+            "extraVocals": true
+          },
+          "ca": "És el pare del Roberto.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "25f31afe27dd.m4a",
+            "lent": "d5ee363356bf.m4a"
+          }
+        },
+        {
+          "id": "u02-g-familia-shel-3",
+          "text": {
+            "u": "הם ההורים של רוברטו ושל אסתר.",
+            "n": "הֵם הַהוֹרִים שֶׁל רוֹבֶּרְטוֹ וְשֶׁל אֶסְתֵּר.",
+            "extraVocals": true
+          },
+          "ca": "Són els pares del Roberto i de l'Ester.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "eee3af112d10.m4a",
+            "lent": "842e87f07bc3.m4a"
+          }
+        },
+        {
+          "id": "u02-g-familia-shel-4",
+          "text": {
+            "u": "יצחק לוי - בעל.",
+            "n": "יִצְחָק לֵוִי - בַּעַל.",
+            "extraVocals": true
+          },
+          "ca": "L'Itshak Leví és marit (el guió fa de «ser»).",
+          "perComprovar": false,
+          "audio": {
+            "normal": "9aaedcf4b9f2.m4a",
+            "lent": "5badb6d6b47b.m4a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mishpakhat",
+      "titol": "מִשְׁפַּחַת i la presentació",
+      "explicacio": "מִשְׁפָּחָה pren la forma מִשְׁפַּחַת quan va enganxada a un altre nom. בְּבַקָּשָׁה לְהַכִּיר és la fórmula per presentar algú.",
+      "extra": false,
+      "exemples": [
+        {
+          "id": "u02-g-mishpakhat-0",
+          "text": {
+            "u": "זאת משפחת לוי.",
+            "n": "זֹאת מִשְׁפַּחַת לֵוִי.",
+            "extraVocals": true
+          },
+          "ca": "Aquesta és la família Leví.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "8038708acfc0.m4a",
+            "lent": "276c18c8ce15.m4a"
+          }
+        },
+        {
+          "id": "u02-g-mishpakhat-1",
+          "text": {
+            "u": "זאת משפחה של עולים חדשים מברזיל.",
+            "n": "זֹאת מִשְׁפָּחָה שֶׁל עוֹלִים חֲדָשִׁים מִבְּרָזִיל.",
+            "extraVocals": true
+          },
+          "ca": "És una família d'immigrants nous del Brasil.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "bcbf952913db.m4a",
+            "lent": "0ca5772fb341.m4a"
+          }
+        },
+        {
+          "id": "u02-g-mishpakhat-2",
+          "text": {
+            "u": "בבקשה להכיר: משפחת לוי.",
+            "n": "בְּבַקָּשָׁה לְהַכִּיר: מִשְׁפַּחַת לֵוִי.",
+            "extraVocals": true
+          },
+          "ca": "Us presento la família Leví.",
+          "perComprovar": false,
+          "audio": {
+            "normal": "09db30d4a5b0.m4a",
+            "lent": "ee59c734fea3.m4a"
+          }
+        }
+      ]
+    }
+  ],
   "textos": [
     {
       "id": "pag-10-b0",
@@ -337,14 +949,24 @@
           "text": {
             "u": "זֶה"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "aquest",
+          "audio": {
+            "normal": "79a80760b91a.m4a",
+            "lent": "a6ae5c464b54.m4a"
+          }
         },
         {
           "id": "pag-10-b0-l1",
           "text": {
             "u": "זֹאת אֵלֶּה"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "aquesta, aquests",
+          "audio": {
+            "normal": "85dc517c6b4a.m4a",
+            "lent": "c18e36a9ae80.m4a"
+          }
         }
       ]
     },
@@ -361,30 +983,58 @@
         {
           "id": "pag-10-b1-l0",
           "text": {
-            "u": "זה ילד"
+            "u": "זה ילד",
+            "n": "זֶה יֶלֶד",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Aquest és un nen.",
+          "audio": {
+            "normal": "e55bb399d5a4.m4a",
+            "lent": "692627d93560.m4a"
+          }
         },
         {
           "id": "pag-10-b1-l1",
           "text": {
-            "u": "זאת ילדה"
+            "u": "זאת ילדה",
+            "n": "זֹאת יַלְדָּה",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Aquesta és una nena.",
+          "audio": {
+            "normal": "c900e17ca79c.m4a",
+            "lent": "a1f1dc790d3e.m4a"
+          }
         },
         {
           "id": "pag-10-b1-l2",
           "text": {
-            "u": "אלה ילדים"
+            "u": "אלה ילדים",
+            "n": "אֵלֶּה יְלָדִים",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Aquests són nens.",
+          "audio": {
+            "normal": "928b0f6fea56.m4a",
+            "lent": "d4cb5593aac5.m4a"
+          }
         },
         {
           "id": "pag-10-b1-l3",
           "text": {
-            "u": "אלה ילדות"
+            "u": "אלה ילדות",
+            "n": "אֵלֶּה יְלָדוֹת",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Aquestes són nenes.",
+          "audio": {
+            "normal": "9aea67601282.m4a",
+            "lent": "3be052720e8c.m4a"
+          }
         }
       ]
     },
@@ -401,30 +1051,58 @@
         {
           "id": "pag-10-b2-l0",
           "text": {
-            "u": "זה איש"
+            "u": "זה איש",
+            "n": "זֶה אִישׁ",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Aquest és un home.",
+          "audio": {
+            "normal": "3173983e47f3.m4a",
+            "lent": "e0386e53d42b.m4a"
+          }
         },
         {
           "id": "pag-10-b2-l1",
           "text": {
-            "u": "זאת אישה"
+            "u": "זאת אישה",
+            "n": "זֹאת אִישָּׁה",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Aquesta és una dona.",
+          "audio": {
+            "normal": "64f45e5b3379.m4a",
+            "lent": "0ad085719232.m4a"
+          }
         },
         {
           "id": "pag-10-b2-l2",
           "text": {
-            "u": "אלה אנשים"
+            "u": "אלה אנשים",
+            "n": "אֵלֶּה אֲנָשִׁים",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Aquests són homes.",
+          "audio": {
+            "normal": "71700e8a99e0.m4a",
+            "lent": "60d870206ed1.m4a"
+          }
         },
         {
           "id": "pag-10-b2-l3",
           "text": {
-            "u": "אלה נשים"
+            "u": "אלה נשים",
+            "n": "אֵלֶּה נָשִׁים",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Aquestes són dones.",
+          "audio": {
+            "normal": "6a2450244f99.m4a",
+            "lent": "355ea1113746.m4a"
+          }
         }
       ]
     },
@@ -441,30 +1119,58 @@
         {
           "id": "pag-10-b3-l0",
           "text": {
-            "u": "זה ילד גדול."
+            "u": "זה ילד גדול.",
+            "n": "זֶה יֶלֶד גָּדוֹל.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Aquest és un nen gran.",
+          "audio": {
+            "normal": "8d5d5683a6ac.m4a",
+            "lent": "90dd09eef0f7.m4a"
+          }
         },
         {
           "id": "pag-10-b3-l1",
           "text": {
-            "u": "זה ילד קטן."
+            "u": "זה ילד קטן.",
+            "n": "זֶה יֶלֶד קָטָן.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Aquest és un nen petit.",
+          "audio": {
+            "normal": "eae4fe19fa62.m4a",
+            "lent": "325d6502f73e.m4a"
+          }
         },
         {
           "id": "pag-10-b3-l2",
           "text": {
-            "u": "זאת ילדה גדולה"
+            "u": "זאת ילדה גדולה",
+            "n": "זֹאת יַלְדָּה גְּדוֹלָה",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Aquesta és una nena gran.",
+          "audio": {
+            "normal": "2de8d0d7843e.m4a",
+            "lent": "26585a2bb573.m4a"
+          }
         },
         {
           "id": "pag-10-b3-l3",
           "text": {
-            "u": "זאת ילדה קטנה"
+            "u": "זאת ילדה קטנה",
+            "n": "זֹאת יַלְדָּה קְטַנָּה",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Aquesta és una nena petita.",
+          "audio": {
+            "normal": "9d03d3c787ff.m4a",
+            "lent": "f3942fed2330.m4a"
+          }
         }
       ]
     },
@@ -481,30 +1187,58 @@
         {
           "id": "pag-10-b4-l0",
           "text": {
-            "u": "אלה ילדים גדולים?"
+            "u": "אלה ילדים גדולים?",
+            "n": "אֵלֶּה יְלָדִים גְּדוֹלִים?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Aquests són nens grans?",
+          "audio": {
+            "normal": "34731d3b7433.m4a",
+            "lent": "8b6e9e531f84.m4a"
+          }
         },
         {
           "id": "pag-10-b4-l1",
           "text": {
-            "u": "— לא, אלה ילדים קטנים."
+            "u": "— לא, אלה ילדים קטנים.",
+            "n": "— לֹא, אֵלֶּה יְלָדִים קְטַנִּים.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "— No, aquests són nens petits.",
+          "audio": {
+            "normal": "0a99ce3fde79.m4a",
+            "lent": "f07cb0a3b6a5.m4a"
+          }
         },
         {
           "id": "pag-10-b4-l2",
           "text": {
-            "u": "אלה ילדות גדולות?"
+            "u": "אלה ילדות גדולות?",
+            "n": "אֵלֶּה יְלָדוֹת גְּדוֹלוֹת?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Aquestes són nenes grans?",
+          "audio": {
+            "normal": "04e0faf2b519.m4a",
+            "lent": "9e3df97ee332.m4a"
+          }
         },
         {
           "id": "pag-10-b4-l3",
           "text": {
-            "u": "— לא, אלה ילדות קטנות."
+            "u": "— לא, אלה ילדות קטנות.",
+            "n": "— לֹא, אֵלֶּה יְלָדוֹת קְטַנּוֹת.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "— No, aquestes són nenes petites.",
+          "audio": {
+            "normal": "a45b2f22f115.m4a",
+            "lent": "855f7e2d40ef.m4a"
+          }
         }
       ]
     },
@@ -516,49 +1250,101 @@
         "perComprovar": false,
         "ca": "Què és això?"
       },
-      "tipus": "text",
+      "tipus": "dialeg",
+      "personatges": [
+        "Persona A",
+        "Persona B"
+      ],
       "linies": [
         {
           "id": "pag-11-b0-l0",
           "text": {
-            "u": "מה זה?"
+            "u": "מה זה?",
+            "n": "מַה זֶּה?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "Persona A",
+          "ca": "Què és això?",
+          "audio": {
+            "normal": "5d10bfa8cd13.m4a",
+            "lent": "01e2d27d5598.m4a"
+          }
         },
         {
           "id": "pag-11-b0-l1",
           "text": {
-            "u": "— זה ספר."
+            "u": "— זה ספר.",
+            "n": "— זֶה סֵפֶר.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "Persona B",
+          "ca": "— És un llibre.",
+          "audio": {
+            "normal": "58a117f3b0f5.m4a",
+            "lent": "7fbda9dec505.m4a"
+          }
         },
         {
           "id": "pag-11-b0-l2",
           "text": {
-            "u": "— זה ספר קטן?"
+            "u": "— זה ספר קטן?",
+            "n": "— זֶה סֵפֶר קָטָן?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "Persona A",
+          "ca": "— És un llibre petit?",
+          "audio": {
+            "normal": "1a0cb0ac7642.m4a",
+            "lent": "fd13d2033b5e.m4a"
+          }
         },
         {
           "id": "pag-11-b0-l3",
           "text": {
-            "u": "— לא, זה ספר גדול."
+            "u": "— לא, זה ספר גדול.",
+            "n": "— לֹא, זֶה סֵפֶר גָּדוֹל.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "Persona B",
+          "ca": "— No, és un llibre gran.",
+          "audio": {
+            "normal": "a17a75ef675f.m4a",
+            "lent": "76e6b79d333a.m4a"
+          }
         },
         {
           "id": "pag-11-b0-l4",
           "text": {
-            "u": "— הַספר מעניין?"
+            "u": "— הַספר מעניין?",
+            "n": "— הַסֵּפֶר מְעַנְייֵן?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "Persona A",
+          "ca": "— El llibre és interessant?",
+          "audio": {
+            "normal": "110628005eff.m4a",
+            "lent": "9d2847f41a31.m4a"
+          }
         },
         {
           "id": "pag-11-b0-l5",
           "text": {
-            "u": "— כן, הַספר מעניין מאוד."
+            "u": "— כן, הַספר מעניין מאוד.",
+            "n": "— כֵּן, הַסֵּפֶר מְעַנְייֵן מְאוֹד.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "Persona B",
+          "ca": "— Sí, el llibre és molt interessant.",
+          "audio": {
+            "normal": "17f0cf97c3d6.m4a",
+            "lent": "05b5c68c578e.m4a"
+          }
         }
       ]
     },
@@ -570,56 +1356,116 @@
         "perComprovar": false,
         "ca": "Què és això?"
       },
-      "tipus": "text",
+      "tipus": "dialeg",
+      "personatges": [
+        "Persona A",
+        "Persona B"
+      ],
       "linies": [
         {
           "id": "pag-11-b1-l0",
           "text": {
-            "u": "מה זה?"
+            "u": "מה זה?",
+            "n": "מַה זֶּה?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "Persona A",
+          "ca": "Què és això?",
+          "audio": {
+            "normal": "5d10bfa8cd13.m4a",
+            "lent": "01e2d27d5598.m4a"
+          }
         },
         {
           "id": "pag-11-b1-l1",
           "text": {
-            "u": "— זאת תמונה."
+            "u": "— זאת תמונה.",
+            "n": "— זֹאת תְּמוּנָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "Persona B",
+          "ca": "— És un quadre.",
+          "audio": {
+            "normal": "bdf970d3a2a7.m4a",
+            "lent": "883e76c5fcad.m4a"
+          }
         },
         {
           "id": "pag-11-b1-l2",
           "text": {
-            "u": "— זאת תמונה קטנה?"
+            "u": "— זאת תמונה קטנה?",
+            "n": "— זֹאת תְּמוּנָה קְטַנָּה?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "Persona A",
+          "ca": "— És un quadre petit?",
+          "audio": {
+            "normal": "5a0a72c2e971.m4a",
+            "lent": "2c40bf14288b.m4a"
+          }
         },
         {
           "id": "pag-11-b1-l3",
           "text": {
-            "u": "— לא, זאת לא תמונה קטנה."
+            "u": "— לא, זאת לא תמונה קטנה.",
+            "n": "— לֹא, זֹאת לֹא תְּמוּנָה קְטַנָּה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "Persona B",
+          "ca": "— No, no és un quadre petit.",
+          "audio": {
+            "normal": "56c90fb7a0e1.m4a",
+            "lent": "94047fcd2ee6.m4a"
+          }
         },
         {
           "id": "pag-11-b1-l4",
           "text": {
-            "u": "זאת תמונה גדולה."
+            "u": "זאת תמונה גדולה.",
+            "n": "זֹאת תְּמוּנָה גְּדוֹלָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "Persona B",
+          "ca": "És un quadre gran.",
+          "audio": {
+            "normal": "08330da32ea7.m4a",
+            "lent": "8ab74e3eb262.m4a"
+          }
         },
         {
           "id": "pag-11-b1-l5",
           "text": {
-            "u": "— הַתמונה יפה?"
+            "u": "— הַתמונה יפה?",
+            "n": "— הַתְּמוּנָה יָפָה?",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "Persona A",
+          "ca": "— El quadre és bonic?",
+          "audio": {
+            "normal": "744a3dd4f219.m4a",
+            "lent": "7dda0cfb69ef.m4a"
+          }
         },
         {
           "id": "pag-11-b1-l6",
           "text": {
-            "u": "— ככה - ככה."
+            "u": "— ככה - ככה.",
+            "n": "— כָּכָה - כָּכָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "qui": "Persona B",
+          "ca": "— Així així.",
+          "audio": {
+            "normal": "3f9cfa4025cd.m4a",
+            "lent": "f7a4ca12525a.m4a"
+          }
         }
       ]
     },
@@ -636,44 +1482,76 @@
         {
           "id": "pag-11-b2-l0",
           "text": {
-            "u": "טוב · טובָה · טובִים · טובות"
+            "u": "טוב · טובָה · טובִים · טובות",
+            "n": "טוֹב · טוֹבָה · טוֹבִים · טוֹבוֹת",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "bo · bona · bons · bones",
+          "audio": {
+            "normal": "3a18e68231cd.m4a",
+            "lent": "f50876e627a6.m4a"
+          }
         },
         {
           "id": "pag-11-b2-l1",
           "text": {
             "u": "חָדָשׁ · חֲדָשָׁה · חֲדָשִׁים · חֲדָשׁוֹת"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "nou · nova · nous · noves",
+          "audio": {
+            "normal": "999f67510486.m4a",
+            "lent": "1dfbf468c427.m4a"
+          }
         },
         {
           "id": "pag-11-b2-l2",
           "text": {
             "u": "גָּדוֹל · גְּדוֹלָה · גְּדוֹלִים · גְּדוֹלוֹת"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "gran · gran · grans · grans",
+          "audio": {
+            "normal": "dea78188aff0.m4a",
+            "lent": "49bb7ff6cb66.m4a"
+          }
         },
         {
           "id": "pag-11-b2-l3",
           "text": {
             "u": "קָטָן · קְטַנָּה · קְטַנִּים · קְטַנּוֹת"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "petit · petita · petits · petites",
+          "audio": {
+            "normal": "c972dc33d80c.m4a",
+            "lent": "a693c95c4153.m4a"
+          }
         },
         {
           "id": "pag-11-b2-l4",
           "text": {
             "u": "יָפֶה · יָפָה · יָפִים · יָפוֹת"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "bonic · bonica · bonics · boniques",
+          "audio": {
+            "normal": "19934bf22ab0.m4a",
+            "lent": "2cceb0dbbdb8.m4a"
+          }
         },
         {
           "id": "pag-11-b2-l5",
           "text": {
             "u": "מְעַנְיֵן · מְעַנְיֶנֶת · מְעַנְיְנִים · מְעַנְיְנוֹת"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "interessant · interessant · interessants · interessants",
+          "audio": {
+            "normal": "7fd3229e8d41.m4a",
+            "lent": "0b17d907694c.m4a"
+          }
         }
       ]
     },
@@ -692,7 +1570,12 @@
           "text": {
             "u": "מִשְׁפַּחַת לֵוִי"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "La família Leví",
+          "audio": {
+            "normal": "346113b0914d.m4a",
+            "lent": "0beff6985783.m4a"
+          }
         }
       ]
     },
@@ -709,44 +1592,86 @@
         {
           "id": "pag-12-b1-l0",
           "text": {
-            "u": "זה אדון יצחק לוי."
+            "u": "זה אדון יצחק לוי.",
+            "n": "זֶה אָדוֹן יִצְחָק לֵוִי.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Aquest és el senyor Itshak Leví.",
+          "audio": {
+            "normal": "c58a7f2592c2.m4a",
+            "lent": "2bf286f3d2ed.m4a"
+          }
         },
         {
           "id": "pag-12-b1-l1",
           "text": {
-            "u": "יצחק לוי - בעל."
+            "u": "יצחק לוי - בעל.",
+            "n": "יִצְחָק לֵוִי - בַּעַל.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "L'Itshak Leví és marit.",
+          "audio": {
+            "normal": "9aaedcf4b9f2.m4a",
+            "lent": "5badb6d6b47b.m4a"
+          }
         },
         {
           "id": "pag-12-b1-l2",
           "text": {
-            "u": "הוא הבעל של שרה."
+            "u": "הוא הבעל של שרה.",
+            "n": "הוּא הַבַּעַל שֶׁל שָׂרָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "És el marit de la Sara.",
+          "audio": {
+            "normal": "3580bb258ce0.m4a",
+            "lent": "4d6c82074ac9.m4a"
+          }
         },
         {
           "id": "pag-12-b1-l3",
           "text": {
-            "u": "יצחק לוי - אבא."
+            "u": "יצחק לוי - אבא.",
+            "n": "יִצְחָק לֵוִי - אַבָּא.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "L'Itshak Leví és pare.",
+          "audio": {
+            "normal": "432545c165a1.m4a",
+            "lent": "6116106fb29a.m4a"
+          }
         },
         {
           "id": "pag-12-b1-l4",
           "text": {
-            "u": "הוא אבא של רוברטו."
+            "u": "הוא אבא של רוברטו.",
+            "n": "הוּא אַבָּא שֶׁל רוֹבֶּרְטוֹ.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "És el pare del Roberto.",
+          "audio": {
+            "normal": "25f31afe27dd.m4a",
+            "lent": "d5ee363356bf.m4a"
+          }
         },
         {
           "id": "pag-12-b1-l5",
           "text": {
-            "u": "הוא אבא של אסתר."
+            "u": "הוא אבא של אסתר.",
+            "n": "הוּא אַבָּא שֶׁל אֶסְתֵּר.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "És el pare de l'Ester.",
+          "audio": {
+            "normal": "cfc9e949b5cd.m4a",
+            "lent": "9f9d19606043.m4a"
+          }
         }
       ]
     },
@@ -763,44 +1688,86 @@
         {
           "id": "pag-12-b2-l0",
           "text": {
-            "u": "זאת גברת שרה לוי."
+            "u": "זאת גברת שרה לוי.",
+            "n": "זֹאת גְּבֶרֶת שָׂרָה לֵוִי.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Aquesta és la senyora Sara Leví.",
+          "audio": {
+            "normal": "73939e26e59f.m4a",
+            "lent": "fd3a7f34c437.m4a"
+          }
         },
         {
           "id": "pag-12-b2-l1",
           "text": {
-            "u": "שרה לוי - אישה."
+            "u": "שרה לוי - אישה.",
+            "n": "שָׂרָה לֵוִי - אִישָּׁה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "La Sara Leví és esposa.",
+          "audio": {
+            "normal": "30b62b8566cc.m4a",
+            "lent": "940efeb4b334.m4a"
+          }
         },
         {
           "id": "pag-12-b2-l2",
           "text": {
-            "u": "היא האישה של יצחק."
+            "u": "היא האישה של יצחק.",
+            "n": "הִיא הָאִישָּׁה שֶׁל יִצְחָק.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "És la dona de l'Itshak.",
+          "audio": {
+            "normal": "80a988b77106.m4a",
+            "lent": "0d6638e43ef0.m4a"
+          }
         },
         {
           "id": "pag-12-b2-l3",
           "text": {
-            "u": "שרה לוי - אמא."
+            "u": "שרה לוי - אמא.",
+            "n": "שָׂרָה לֵוִי - אִמָּא.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "La Sara Leví és mare.",
+          "audio": {
+            "normal": "267b780a171f.m4a",
+            "lent": "8f69064c1ea6.m4a"
+          }
         },
         {
           "id": "pag-12-b2-l4",
           "text": {
-            "u": "היא אמא של רוברטו."
+            "u": "היא אמא של רוברטו.",
+            "n": "הִיא אִמָּא שֶׁל רוֹבֶּרְטוֹ.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "És la mare del Roberto.",
+          "audio": {
+            "normal": "42e8f13297fc.m4a",
+            "lent": "b2cc34fec576.m4a"
+          }
         },
         {
           "id": "pag-12-b2-l5",
           "text": {
-            "u": "היא אמא של אסתר."
+            "u": "היא אמא של אסתר.",
+            "n": "הִיא אִמָּא שֶׁל אֶסְתֵּר.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "És la mare de l'Ester.",
+          "audio": {
+            "normal": "49337508fdb0.m4a",
+            "lent": "f1848adaead9.m4a"
+          }
         }
       ]
     },
@@ -817,30 +1784,58 @@
         {
           "id": "pag-12-b3-l0",
           "text": {
-            "u": "אלה שרה ויצחק. אלה גברת ואדון לוי."
+            "u": "אלה שרה ויצחק. אלה גברת ואדון לוי.",
+            "n": "אֵלֶּה שָׂרָה וְיִצְחָק. אֵלֶּה גְּבֶרֶת וְאָדוֹן לֵוִי.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Aquests són la Sara i l'Itshak. Són la senyora i el senyor Leví.",
+          "audio": {
+            "normal": "1d0d19728fb2.m4a",
+            "lent": "6d39822510c4.m4a"
+          }
         },
         {
           "id": "pag-12-b3-l1",
           "text": {
-            "u": "יצחק ושרה בעל ואישה."
+            "u": "יצחק ושרה בעל ואישה.",
+            "n": "יִצְחָק וְשָׂרָה בַּעַל וְאִישָּׁה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "L'Itshak i la Sara són marit i muller.",
+          "audio": {
+            "normal": "9b275bce2b23.m4a",
+            "lent": "c8098cdbfb7c.m4a"
+          }
         },
         {
           "id": "pag-12-b3-l2",
           "text": {
-            "u": "הם אמא ואבא של רוברטו ושל אסתר."
+            "u": "הם אמא ואבא של רוברטו ושל אסתר.",
+            "n": "הֵם אִמָּא וְאַבָּא שֶׁל רוֹבֶּרְטוֹ וְשֶׁל אֶסְתֵּר.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Són la mare i el pare del Roberto i de l'Ester.",
+          "audio": {
+            "normal": "7204c12b9158.m4a",
+            "lent": "772226c3bd6d.m4a"
+          }
         },
         {
           "id": "pag-12-b3-l3",
           "text": {
-            "u": "הם ההורים של רוברטו ושל אסתר."
+            "u": "הם ההורים של רוברטו ושל אסתר.",
+            "n": "הֵם הַהוֹרִים שֶׁל רוֹבֶּרְטוֹ וְשֶׁל אֶסְתֵּר.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Són els pares del Roberto i de l'Ester.",
+          "audio": {
+            "normal": "eee3af112d10.m4a",
+            "lent": "842e87f07bc3.m4a"
+          }
         }
       ]
     },
@@ -857,23 +1852,44 @@
         {
           "id": "pag-13-b0-l0",
           "text": {
-            "u": "הם רוברטו ואסתר. אלה הילדים של שרה ויצחק."
+            "u": "הם רוברטו ואסתר. אלה הילדים של שרה ויצחק.",
+            "n": "הֵם רוֹבֶּרְטוֹ וְאֶסְתֵּר. אֵלֶּה הַיְּלָדִים שֶׁל שָׂרָה וְיִצְחָק.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Són el Roberto i l'Ester. Són els fills de la Sara i l'Itshak.",
+          "audio": {
+            "normal": "d2fe51e63f3d.m4a",
+            "lent": "1adb8ac05ea9.m4a"
+          }
         },
         {
           "id": "pag-13-b0-l1",
           "text": {
-            "u": "אסתר - בת. היא הבת של שרה ויצחק."
+            "u": "אסתר - בת. היא הבת של שרה ויצחק.",
+            "n": "אֶסְתֵּר - בַּת. הִיא הַבַּת שֶׁל שָׂרָה וְיִצְחָק.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "L'Ester és filla. És la filla de la Sara i l'Itshak.",
+          "audio": {
+            "normal": "ad8ecbb0f46a.m4a",
+            "lent": "8f8292a02e80.m4a"
+          }
         },
         {
           "id": "pag-13-b0-l2",
           "text": {
-            "u": "רוברטו - בן. הוא הבן של שרה ויצחק."
+            "u": "רוברטו - בן. הוא הבן של שרה ויצחק.",
+            "n": "רוֹבֶּרְטוֹ - בֵּן. הוּא הַבֵּן שֶׁל שָׂרָה וְיִצְחָק.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "El Roberto és fill. És el fill de la Sara i l'Itshak.",
+          "audio": {
+            "normal": "3b3d0e6cee22.m4a",
+            "lent": "c54e22bbc498.m4a"
+          }
         },
         {
           "id": "pag-13-b0-l3",
@@ -885,9 +1901,16 @@
         {
           "id": "pag-13-b0-l4",
           "text": {
-            "u": "רוברטו - אח. הוא האח של אסתר."
+            "u": "רוברטו - אח. הוא האח של אסתר.",
+            "n": "רוֹבֶּרְטוֹ - אָח. הוּא הָאָח שֶׁל אֶסְתֵּר.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "El Roberto és germà. És el germà de l'Ester.",
+          "audio": {
+            "normal": "a4898beb6461.m4a",
+            "lent": "c220f9ccabf2.m4a"
+          }
         }
       ]
     },
@@ -904,30 +1927,58 @@
         {
           "id": "pag-13-b1-l0",
           "text": {
-            "u": "שרה, יצחק, אסתר ורוברטו - משפחה."
+            "u": "שרה, יצחק, אסתר ורוברטו - משפחה.",
+            "n": "שָׂרָה, יִצְחָק, אֶסְתֵּר וְרוֹבֶּרְטוֹ - מִשְׁפָּחָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "La Sara, l'Itshak, l'Ester i el Roberto són una família.",
+          "audio": {
+            "normal": "6cf2b997c5a3.m4a",
+            "lent": "b60f941ef30a.m4a"
+          }
         },
         {
           "id": "pag-13-b1-l1",
           "text": {
-            "u": "זאת משפחת לוי. זאת משפחה של עולים."
+            "u": "זאת משפחת לוי. זאת משפחה של עולים.",
+            "n": "זֹאת מִשְׁפַּחַת לֵוִי. זֹאת מִשְׁפָּחָה שֶׁל עוֹלִים.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Aquesta és la família Leví. És una família d'immigrants.",
+          "audio": {
+            "normal": "c1f6c74237f6.m4a",
+            "lent": "21fa32cb7ebc.m4a"
+          }
         },
         {
           "id": "pag-13-b1-l2",
           "text": {
-            "u": "זאת משפחה של עולים חדשים מברזיל."
+            "u": "זאת משפחה של עולים חדשים מברזיל.",
+            "n": "זֹאת מִשְׁפָּחָה שֶׁל עוֹלִים חֲדָשִׁים מִבְּרָזִיל.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "És una família d'immigrants nous del Brasil.",
+          "audio": {
+            "normal": "bcbf952913db.m4a",
+            "lent": "0ca5772fb341.m4a"
+          }
         },
         {
           "id": "pag-13-b1-l3",
           "text": {
-            "u": "בבקשה להכיר: משפחת לוי."
+            "u": "בבקשה להכיר: משפחת לוי.",
+            "n": "בְּבַקָּשָׁה לְהַכִּיר: מִשְׁפַּחַת לֵוִי.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Us presento la família Leví.",
+          "audio": {
+            "normal": "09db30d4a5b0.m4a",
+            "lent": "ee59c734fea3.m4a"
+          }
         }
       ]
     },
@@ -946,14 +1997,26 @@
           "text": {
             "u": "תרגיל המרה"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Exercici de transformació",
+          "audio": {
+            "normal": "2707cf4fdfe6.m4a",
+            "lent": "72c37150c99b.m4a"
+          }
         },
         {
           "id": "pag-14-b0-l1",
           "text": {
-            "u": "הנחיות בהקדמה"
+            "u": "הנחיות בהקדמה",
+            "n": "הַנְחָיוֹת בַּהַקְדָּמָה",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Instruccions a la introducció",
+          "audio": {
+            "normal": "aafac7975a42.m4a",
+            "lent": "236dd3d08f8c.m4a"
+          }
         }
       ]
     },
@@ -972,14 +2035,26 @@
           "text": {
             "u": "כתוב במקום המילים המודגשות את המילים שבסוגריים"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Escriu en lloc de les paraules destacades les paraules entre parèntesis.",
+          "audio": {
+            "normal": "e0c14ad740ba.m4a",
+            "lent": "d298936c402b.m4a"
+          }
         },
         {
           "id": "pag-14-b1-l1",
           "text": {
-            "u": "שנה את המשפטים בהתאם. (ראה עמוד 17)"
+            "u": "שנה את המשפטים בהתאם. (ראה עמוד 17)",
+            "n": "שַׁנֵּה אֶת הַמִּשְׁפָּטִים בְּהֶתְאֵם. (רְאֵה עַמּוּד 17)",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Canvia les frases com calgui. (Mira la pàgina 17.)",
+          "audio": {
+            "normal": "e5024b615671.m4a",
+            "lent": "df6048f6488a.m4a"
+          }
         }
       ]
     },
@@ -996,102 +2071,172 @@
         {
           "id": "pag-14-b2-l0",
           "text": {
-            "u": "1. זה ספר חדש. (גדול, קטן, יָפֶה, מעניין)"
+            "u": "1. זה ספר חדש. (גדול, קטן, יָפֶה, מעניין)",
+            "n": "1. זֶה סֵפֶר חָדָשׁ. (גָּדוֹל, קָטָן, יָפֶה, מְעַנְייֵן)",
+            "extraVocals": true
           },
           "perComprovar": false,
           "subratllat": [
             "חדש"
-          ]
+          ],
+          "ca": "1. És un llibre nou. (gran, petit, bonic, interessant)",
+          "audio": {
+            "normal": "7ae3d03f5cae.m4a",
+            "lent": "2058c5fd058c.m4a"
+          }
         },
         {
           "id": "pag-14-b2-l1",
           "text": {
-            "u": "2. הוא ילד יפה. (היא, זאת, הם, הן)"
+            "u": "2. הוא ילד יפה. (היא, זאת, הם, הן)",
+            "n": "2. הוּא יֶלֶד יָפֶה. (הִיא, זֹאת, הֵם, הֵן)",
+            "extraVocals": true
           },
           "perComprovar": false,
           "subratllat": [
             "הוא"
-          ]
+          ],
+          "ca": "2. És un nen maco. (ella, aquesta, ells, elles)",
+          "audio": {
+            "normal": "66cbf54a4b5d.m4a",
+            "lent": "c781151fc356.m4a"
+          }
         },
         {
           "id": "pag-14-b2-l2",
           "text": {
-            "u": "3. התמונה לא יפה. (גדולה, קטנה, חדשה, מעניינת)"
+            "u": "3. התמונה לא יפה. (גדולה, קטנה, חדשה, מעניינת)",
+            "n": "3. הַתְּמוּנָה לֹא יָפָה. (גְּדוֹלָה, קְטַנָּה, חֲדָשָׁה, מְעַנְייֶנֶת)",
+            "extraVocals": true
           },
           "perComprovar": false,
           "subratllat": [
             "יפה"
-          ]
+          ],
+          "ca": "3. El quadre no és bonic. (gran, petit, nou, interessant)",
+          "audio": {
+            "normal": "f094b42f71ec.m4a",
+            "lent": "55b99dc15390.m4a"
+          }
         },
         {
           "id": "pag-14-b2-l3",
           "text": {
-            "u": "4. הספרים של יצחק מעניינים. (יפים, קטנים, חדשים)"
+            "u": "4. הספרים של יצחק מעניינים. (יפים, קטנים, חדשים)",
+            "n": "4. הַסְּפָרִים שֶׁל יִצְחָק מְעַנְייְנִים. (יָפִים, קְטַנִּים, חֲדָשִׁים)",
+            "extraVocals": true
           },
           "perComprovar": false,
           "subratllat": [
             "מעניינים"
-          ]
+          ],
+          "ca": "4. Els llibres de l'Itshak són interessants. (bonics, petits, nous)",
+          "audio": {
+            "normal": "aeeb7745870f.m4a",
+            "lent": "26995cf01ff4.m4a"
+          }
         },
         {
           "id": "pag-14-b2-l4",
           "text": {
-            "u": "5. היא לא יפה, אבל היא מעניינת. (הוא, הם, הן)"
+            "u": "5. היא לא יפה, אבל היא מעניינת. (הוא, הם, הן)",
+            "n": "5. הִיא לֹא יָפָה, אֲבָל הִיא מְעַנְייֶנֶת. (הוּא, הֵם, הֵן)",
+            "extraVocals": true
           },
           "perComprovar": false,
           "subratllat": [
             "היא"
-          ]
+          ],
+          "ca": "5. No és bonica, però és interessant. (ell, ells, elles)",
+          "audio": {
+            "normal": "89712fa97c11.m4a",
+            "lent": "7da6f2165286.m4a"
+          }
         },
         {
           "id": "pag-14-b2-l5",
           "text": {
-            "u": "6. היא אישה מעניינת. (הוא, צפורה ושרה, הם, זאת)"
+            "u": "6. היא אישה מעניינת. (הוא, צפורה ושרה, הם, זאת)",
+            "n": "6. הִיא אִישָּׁה מְעַנְייֶנֶת. (הוּא, צִפּוֹרָה וְשָׂרָה, הֵם, זֹאת)",
+            "extraVocals": true
           },
           "perComprovar": false,
           "subratllat": [
             "היא"
-          ]
+          ],
+          "ca": "6. És una dona interessant. (ell, la Tsiporà i la Sara, ells, aquesta)",
+          "audio": {
+            "normal": "7bb61f7997b3.m4a",
+            "lent": "b1b0fcc1853c.m4a"
+          }
         },
         {
           "id": "pag-14-b2-l6",
           "text": {
-            "u": "7. הוא הבעל של שרה (האח, הבן, החבר, המוֹרֶה)"
+            "u": "7. הוא הבעל של שרה (האח, הבן, החבר, המוֹרֶה)",
+            "n": "7. הוּא הַבַּעַל שֶׁל שָׂרָה (הָאָח, הַבֵּן, הֶחָבֵר, הַמּוֹרֶה)",
+            "extraVocals": true
           },
           "perComprovar": false,
           "subratllat": [
             "הבעל"
-          ]
+          ],
+          "ca": "7. És el marit de la Sara. (el germà, el fill, l'amic, el mestre)",
+          "audio": {
+            "normal": "8ba7bfa47573.m4a",
+            "lent": "ab41281d5ab8.m4a"
+          }
         },
         {
           "id": "pag-14-b2-l7",
           "text": {
-            "u": "8. האישה של יצחק יפה. (הבת, האחות, המוֹרָה)"
+            "u": "8. האישה של יצחק יפה. (הבת, האחות, המוֹרָה)",
+            "n": "8. הָאִישָּׁה שֶׁל יִצְחָק יָפָה. (הַבַּת, הָאָחוֹת, הַמּוֹרָה)",
+            "extraVocals": true
           },
           "perComprovar": false,
           "subratllat": [
             "האישה"
-          ]
+          ],
+          "ca": "8. La dona de l'Itshak és bonica. (la filla, la germana, la mestra)",
+          "audio": {
+            "normal": "223d75a8851a.m4a",
+            "lent": "8988c6f6b9c3.m4a"
+          }
         },
         {
           "id": "pag-14-b2-l8",
           "text": {
-            "u": "9. הבעל של שרה יפה (הבן, הבת, האח, הילדים)"
+            "u": "9. הבעל של שרה יפה (הבן, הבת, האח, הילדים)",
+            "n": "9. הַבַּעַל שֶׁל שָׂרָה יָפֶה (הַבֵּן, הַבַּת, הָאָח, הַיְּלָדִים)",
+            "extraVocals": true
           },
           "perComprovar": false,
           "subratllat": [
             "הבעל"
-          ]
+          ],
+          "ca": "9. El marit de la Sara és maco. (el fill, la filla, el germà, els fills)",
+          "audio": {
+            "normal": "e806854f2986.m4a",
+            "lent": "0cc6f33f4eaf.m4a"
+          }
         },
         {
           "id": "pag-14-b2-l9",
           "text": {
-            "u": "10. הן נשים טובות. (יפות, מעניינות, קטנות)"
+            "u": "10. הן נשים טובות. (יפות, מעניינות, קטנות)",
+            "n": "10. הֵן נָשִׁים טוֹבוֹת. (יָפוֹת, מְעַנְייְנוֹת, קְטַנּוֹת)",
+            "extraVocals": true
           },
           "perComprovar": false,
           "subratllat": [
             "נשים"
-          ]
+          ],
+          "ca": "10. Són bones dones. (boniques, interessants, petites)",
+          "audio": {
+            "normal": "de3ddaad9d42.m4a",
+            "lent": "f858de56ba14.m4a"
+          }
         }
       ]
     },
@@ -1110,7 +2255,12 @@
           "text": {
             "u": "כתוב: מי, מה"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "Escriu: qui, què",
+          "audio": {
+            "normal": "e3235085e3e4.m4a",
+            "lent": "fd4a49071470.m4a"
+          }
         }
       ]
     },
@@ -1127,68 +2277,671 @@
         {
           "id": "pag-14-b4-l0",
           "text": {
-            "u": "1. ____ זה? — יצחק."
+            "u": "1. ____ זה? — יצחק.",
+            "n": "1. ____ זֶה? — יִצְחָק.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "1. ____ és? — L'Itshak."
         },
         {
           "id": "pag-14-b4-l1",
           "text": {
-            "u": "2. ____ הוא? — תלמיד."
+            "u": "2. ____ הוא? — תלמיד.",
+            "n": "2. ____ הוּא? — תַּלְמִיד.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "2. ____ és? — Alumne."
         },
         {
           "id": "pag-14-b4-l2",
           "text": {
-            "u": "3. ____ היא? — שרה."
+            "u": "3. ____ היא? — שרה.",
+            "n": "3. ____ הִיא? — שָׂרָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "3. ____ és? — La Sara."
         },
         {
           "id": "pag-14-b4-l3",
           "text": {
-            "u": "4. ____ זה? — זאת תמונה."
+            "u": "4. ____ זה? — זאת תמונה.",
+            "n": "4. ____ זֶה? — זֹאת תְּמוּנָה.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "4. ____ és això? — És un quadre."
         },
         {
           "id": "pag-14-b4-l4",
           "text": {
-            "u": "5. ____ תלמיד? — רוברטו."
+            "u": "5. ____ תלמיד? — רוברטו.",
+            "n": "5. ____ תַּלְמִיד? — רוֹבֶּרְטוֹ.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "5. ____ és alumne? — El Roberto."
         },
         {
           "id": "pag-14-b4-l5",
           "text": {
-            "u": "6. ____ מורה? — יוסף."
+            "u": "6. ____ מורה? — יוסף.",
+            "n": "6. ____ מוֹרֶה? — יוֹסֵף.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "6. ____ és mestre? — El Iossef."
         },
         {
           "id": "pag-14-b4-l6",
           "text": {
-            "u": "7. ____ זה? — הספר של רוברטו."
+            "u": "7. ____ זה? — הספר של רוברטו.",
+            "n": "7. ____ זֶה? — הַסֵּפֶר שֶׁל רוֹבֶּרְטוֹ.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "7. ____ és això? — El llibre del Roberto."
         },
         {
           "id": "pag-14-b4-l7",
           "text": {
-            "u": "8. ____ זה? — אבא של רוברטו."
+            "u": "8. ____ זה? — אבא של רוברטו.",
+            "n": "8. ____ זֶה? — אַבָּא שֶׁל רוֹבֶּרְטוֹ.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "8. ____ és? — El pare del Roberto."
         },
         {
           "id": "pag-14-b4-l8",
           "text": {
-            "u": "9. ____ זאת? — האחות של רוברטו."
+            "u": "9. ____ זאת? — האחות של רוברטו.",
+            "n": "9. ____ זֹאת? — הָאָחוֹת שֶׁל רוֹבֶּרְטוֹ.",
+            "extraVocals": true
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "ca": "9. ____ és? — La germana del Roberto."
         }
       ]
     }
   ],
-  "exercicis": []
+  "exercicis": [
+    {
+      "tipus": "forat",
+      "origen": "pag-14 ex. 4.1",
+      "extra": false,
+      "linies": [
+        "pag-14-b4-l0"
+      ],
+      "frase": {
+        "u": "____ זה? — יצחק.",
+        "n": "____ זֶה? — יִצְחָק."
+      },
+      "opcions": [
+        "מִי",
+        "מַה"
+      ],
+      "correcta": 0,
+      "retro": "La resposta és una persona: מִי.",
+      "id": "u02-ex-0"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-14 ex. 4.2",
+      "extra": false,
+      "linies": [
+        "pag-14-b4-l1"
+      ],
+      "frase": {
+        "u": "____ הוא? — תלמיד.",
+        "n": "____ הוּא? — תַּלְמִיד."
+      },
+      "opcions": [
+        "מִי",
+        "מַה"
+      ],
+      "correcta": 1,
+      "retro": "No es pregunta qui és, sinó què és: מַה.",
+      "id": "u02-ex-1"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-14 ex. 4.3",
+      "extra": false,
+      "linies": [
+        "pag-14-b4-l2"
+      ],
+      "frase": {
+        "u": "____ היא? — שרה.",
+        "n": "____ הִיא? — שָׂרָה."
+      },
+      "opcions": [
+        "מִי",
+        "מַה"
+      ],
+      "correcta": 0,
+      "retro": "La resposta és una persona: מִי.",
+      "id": "u02-ex-2"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-14 ex. 4.4",
+      "extra": false,
+      "linies": [
+        "pag-14-b4-l3"
+      ],
+      "frase": {
+        "u": "____ זה? — זאת תמונה.",
+        "n": "____ זֶה? — זֹאת תְּמוּנָה."
+      },
+      "opcions": [
+        "מִי",
+        "מַה"
+      ],
+      "correcta": 1,
+      "retro": "Un quadre és una cosa: מַה.",
+      "id": "u02-ex-3"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-14 ex. 4.5",
+      "extra": false,
+      "linies": [
+        "pag-14-b4-l4"
+      ],
+      "frase": {
+        "u": "____ תלמיד? — רוברטו.",
+        "n": "____ תַּלְמִיד? — רוֹבֶּרְטוֹ."
+      },
+      "opcions": [
+        "מִי",
+        "מַה"
+      ],
+      "correcta": 0,
+      "retro": "Es pregunta quina persona és alumne: מִי.",
+      "id": "u02-ex-4"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-14 ex. 4.6",
+      "extra": false,
+      "linies": [
+        "pag-14-b4-l5"
+      ],
+      "frase": {
+        "u": "____ מורה? — יוסף.",
+        "n": "____ מוֹרֶה? — יוֹסֵף."
+      },
+      "opcions": [
+        "מִי",
+        "מַה"
+      ],
+      "correcta": 0,
+      "retro": "Es pregunta quina persona és mestre: מִי.",
+      "id": "u02-ex-5"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-14 ex. 4.7",
+      "extra": false,
+      "linies": [
+        "pag-14-b4-l6"
+      ],
+      "frase": {
+        "u": "____ זה? — הספר של רוברטו.",
+        "n": "____ זֶה? — הַסֵּפֶר שֶׁל רוֹבֶּרְטוֹ."
+      },
+      "opcions": [
+        "מִי",
+        "מַה"
+      ],
+      "correcta": 1,
+      "retro": "Un llibre és una cosa: מַה.",
+      "id": "u02-ex-6"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-14 ex. 4.8",
+      "extra": false,
+      "linies": [
+        "pag-14-b4-l7"
+      ],
+      "frase": {
+        "u": "____ זה? — אבא של רוברטו.",
+        "n": "____ זֶה? — אַבָּא שֶׁל רוֹבֶּרְטוֹ."
+      },
+      "opcions": [
+        "מִי",
+        "מַה"
+      ],
+      "correcta": 0,
+      "retro": "El pare és una persona: מִי.",
+      "id": "u02-ex-7"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-14 ex. 4.9",
+      "extra": false,
+      "linies": [
+        "pag-14-b4-l8"
+      ],
+      "frase": {
+        "u": "____ זאת? — האחות של רוברטו.",
+        "n": "____ זֹאת? — הָאָחוֹת שֶׁל רוֹבֶּרְטוֹ."
+      },
+      "opcions": [
+        "מִי",
+        "מַה"
+      ],
+      "correcta": 0,
+      "retro": "La germana és una persona: מִי.",
+      "id": "u02-ex-8"
+    },
+    {
+      "tipus": "construir",
+      "origen": "pag-14 ex. 3.1",
+      "extra": false,
+      "linies": [
+        "pag-14-b2-l0"
+      ],
+      "ca": "És un llibre interessant.",
+      "fitxes": [
+        "סֵפֶר",
+        "מְעַנְייֶנֶת",
+        "זֶה",
+        "מְעַנְייֵן",
+        "זֹאת"
+      ],
+      "ordre": [
+        2,
+        0,
+        3
+      ],
+      "id": "u02-ex-9"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-14 ex. 3.2",
+      "extra": false,
+      "linies": [
+        "pag-14-b2-l1"
+      ],
+      "base": {
+        "n": "הוּא יֶלֶד יָפֶה.",
+        "u": "הוא ילד יפה."
+      },
+      "demana": "amb הִיא",
+      "opcions": [
+        "הִיא יֶלֶד יָפָה.",
+        "הִיא יַלְדָּה יָפָה.",
+        "הִיא יְלָדוֹת יָפוֹת."
+      ],
+      "correcta": 1,
+      "id": "u02-ex-10"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-14 ex. 3.2",
+      "extra": false,
+      "linies": [
+        "pag-14-b2-l1"
+      ],
+      "base": {
+        "n": "הוּא יֶלֶד יָפֶה.",
+        "u": "הוא ילד יפה."
+      },
+      "demana": "amb הֵם",
+      "opcions": [
+        "הֵם יְלָדִים יָפוֹת.",
+        "הֵם יְלָדוֹת יָפוֹת.",
+        "הֵם יְלָדִים יָפִים."
+      ],
+      "correcta": 2,
+      "id": "u02-ex-11"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-14 ex. 3.2",
+      "extra": false,
+      "linies": [
+        "pag-14-b2-l1"
+      ],
+      "enunciat": {
+        "n": "הוּא יֶלֶד יָפֶה. ← הֵן",
+        "u": "הוא ילד יפה. ← הן"
+      },
+      "model": {
+        "n": "הֵן יְלָדוֹת יָפוֹת.",
+        "u": "הן ילדות יפות."
+      },
+      "id": "u02-ex-12"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-14 ex. 3.3",
+      "extra": false,
+      "linies": [
+        "pag-14-b2-l2"
+      ],
+      "frase": {
+        "u": "התמונה לא ____.",
+        "n": "הַתְּמוּנָה לֹא ____."
+      },
+      "opcions": [
+        "מְעַנְייֵן",
+        "מְעַנְייֶנֶת",
+        "מְעַנְייְנִים",
+        "מְעַנְייְנוֹת"
+      ],
+      "correcta": 1,
+      "retro": "תְּמוּנָה és femení singular: מְעַנְייֶנֶת.",
+      "id": "u02-ex-13"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-14 ex. 3.4",
+      "extra": false,
+      "linies": [
+        "pag-14-b2-l3"
+      ],
+      "frase": {
+        "u": "הספרים של יצחק ____.",
+        "n": "הַסְּפָרִים שֶׁל יִצְחָק ____."
+      },
+      "opcions": [
+        "קְטַנָּה",
+        "קְטַנִּים",
+        "קְטַנּוֹת",
+        "קָטָן"
+      ],
+      "correcta": 1,
+      "retro": "סְפָרִים és masculí plural: קְטַנִּים.",
+      "id": "u02-ex-14"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-14 ex. 3.5",
+      "extra": false,
+      "linies": [
+        "pag-14-b2-l4"
+      ],
+      "base": {
+        "n": "הִיא לֹא יָפָה, אֲבָל הִיא מְעַנְייֶנֶת.",
+        "u": "היא לא יפה, אבל היא מעניינת."
+      },
+      "demana": "amb הֵן",
+      "opcions": [
+        "הֵן לֹא יָפִים, אֲבָל הֵן מְעַנְייְנִים.",
+        "הֵן לֹא יָפָה, אֲבָל הֵן מְעַנְייֶנֶת.",
+        "הֵן לֹא יָפוֹת, אֲבָל הֵן מְעַנְייְנוֹת."
+      ],
+      "correcta": 2,
+      "id": "u02-ex-15"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-14 ex. 3.5",
+      "extra": false,
+      "linies": [
+        "pag-14-b2-l4"
+      ],
+      "enunciat": {
+        "n": "הִיא לֹא יָפָה, אֲבָל הִיא מְעַנְייֶנֶת. ← הוּא",
+        "u": "היא לא יפה, אבל היא מעניינת. ← הוא"
+      },
+      "model": {
+        "n": "הוּא לֹא יָפֶה, אֲבָל הוּא מְעַנְייֵן.",
+        "u": "הוא לא יפה, אבל הוא מעניין."
+      },
+      "id": "u02-ex-16"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-14 ex. 3.6",
+      "extra": false,
+      "linies": [
+        "pag-14-b2-l5"
+      ],
+      "base": {
+        "n": "הִיא אִישָּׁה מְעַנְייֶנֶת.",
+        "u": "היא אישה מעניינת."
+      },
+      "demana": "amb צִפּוֹרָה וְשָׂרָה",
+      "opcions": [
+        "צִפּוֹרָה וְשָׂרָה נָשִׁים מְעַנְייְנִים.",
+        "צִפּוֹרָה וְשָׂרָה נָשִׁים מְעַנְייְנוֹת.",
+        "צִפּוֹרָה וְשָׂרָה אֲנָשִׁים מְעַנְייְנִים."
+      ],
+      "correcta": 1,
+      "id": "u02-ex-17"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-14 ex. 3.6",
+      "extra": false,
+      "linies": [
+        "pag-14-b2-l5"
+      ],
+      "base": {
+        "n": "הִיא אִישָּׁה מְעַנְייֶנֶת.",
+        "u": "היא אישה מעניינת."
+      },
+      "demana": "amb הֵם",
+      "opcions": [
+        "הֵם אֲנָשִׁים מְעַנְייְנִים.",
+        "הֵם אֲנָשִׁים מְעַנְייְנוֹת.",
+        "הֵם נָשִׁים מְעַנְייְנוֹת."
+      ],
+      "correcta": 0,
+      "id": "u02-ex-18"
+    },
+    {
+      "tipus": "autocorreccio",
+      "origen": "pag-14 ex. 3.6",
+      "extra": false,
+      "linies": [
+        "pag-14-b2-l5"
+      ],
+      "enunciat": {
+        "n": "הִיא אִישָּׁה מְעַנְייֶנֶת. ← הוּא",
+        "u": "היא אישה מעניינת. ← הוא"
+      },
+      "model": {
+        "n": "הוּא אִישׁ מְעַנְייֵן.",
+        "u": "הוא איש מעניין."
+      },
+      "id": "u02-ex-19"
+    },
+    {
+      "tipus": "construir",
+      "origen": "pag-14 ex. 3.7",
+      "extra": false,
+      "linies": [
+        "pag-14-b2-l6"
+      ],
+      "ca": "És el germà de la Sara.",
+      "fitxes": [
+        "שֶׁל",
+        "הָאָח",
+        "שָׂרָה",
+        "הוּא",
+        "הָאָחוֹת"
+      ],
+      "ordre": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "id": "u02-ex-20"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-14 ex. 3.8",
+      "extra": false,
+      "linies": [
+        "pag-14-b2-l7"
+      ],
+      "frase": {
+        "u": "____ של יצחק יפה.",
+        "n": "____ שֶׁל יִצְחָק יָפָה."
+      },
+      "opcions": [
+        "הַבֵּן",
+        "הָאָח",
+        "הַבַּת",
+        "הַבַּעַל"
+      ],
+      "correcta": 2,
+      "retro": "יָפָה és femení: només hi va הַבַּת.",
+      "id": "u02-ex-21"
+    },
+    {
+      "tipus": "conjugar",
+      "origen": "pag-14 ex. 3.9",
+      "extra": false,
+      "linies": [
+        "pag-14-b2-l8"
+      ],
+      "base": {
+        "n": "הַבַּעַל שֶׁל שָׂרָה יָפֶה.",
+        "u": "הבעל של שרה יפה."
+      },
+      "demana": "amb הַיְּלָדִים",
+      "opcions": [
+        "הַיְּלָדִים שֶׁל שָׂרָה יָפֶה.",
+        "הַיְּלָדִים שֶׁל שָׂרָה יָפִים.",
+        "הַיְּלָדִים שֶׁל שָׂרָה יָפוֹת."
+      ],
+      "correcta": 1,
+      "id": "u02-ex-22"
+    },
+    {
+      "tipus": "forat",
+      "origen": "pag-14 ex. 3.10",
+      "extra": false,
+      "linies": [
+        "pag-14-b2-l9"
+      ],
+      "frase": {
+        "u": "הן נשים ____.",
+        "n": "הֵן נָשִׁים ____."
+      },
+      "opcions": [
+        "יָפִים",
+        "יָפוֹת",
+        "יָפָה",
+        "יָפֶה"
+      ],
+      "correcta": 1,
+      "retro": "נָשִׁים és femení encara que acabi en ‑ִים: יָפוֹת.",
+      "id": "u02-ex-23"
+    },
+    {
+      "tipus": "comprensio",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-11-b0-l0",
+        "pag-11-b0-l1",
+        "pag-11-b0-l2",
+        "pag-11-b0-l3",
+        "pag-11-b0-l4",
+        "pag-11-b0-l5"
+      ],
+      "text": "מַה זֶּה? — זֶה סֵפֶר. — זֶה סֵפֶר קָטָן? — לֹא, זֶה סֵפֶר גָּדוֹל. — הַסֵּפֶר מְעַנְייֵן? — כֵּן, הַסֵּפֶר מְעַנְייֵן מְאוֹד.",
+      "pregunta": "Com és el llibre?",
+      "opcions": [
+        "Petit i interessant",
+        "Gran i molt interessant",
+        "Gran i no gaire interessant"
+      ],
+      "correcta": 1,
+      "id": "u02-ex-24"
+    },
+    {
+      "tipus": "comprensio",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-11-b1-l3",
+        "pag-11-b1-l4",
+        "pag-11-b1-l5",
+        "pag-11-b1-l6"
+      ],
+      "text": "לֹא, זֹאת לֹא תְּמוּנָה קְטַנָּה. זֹאת תְּמוּנָה גְּדוֹלָה. — הַתְּמוּנָה יָפָה? — כָּכָה - כָּכָה.",
+      "pregunta": "El quadre és bonic?",
+      "opcions": [
+        "Sí, molt",
+        "Així així",
+        "No, gens"
+      ],
+      "correcta": 1,
+      "id": "u02-ex-25"
+    },
+    {
+      "tipus": "comprensio",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-13-b0-l0",
+        "pag-13-b0-l1",
+        "pag-13-b0-l2"
+      ],
+      "text": "הֵם רוֹבֶּרְטוֹ וְאֶסְתֵּר. אֵלֶּה הַיְּלָדִים שֶׁל שָׂרָה וְיִצְחָק. אֶסְתֵּר - בַּת. הִיא הַבַּת שֶׁל שָׂרָה וְיִצְחָק. רוֹבֶּרְטוֹ - בֵּן. הוּא הַבֵּן שֶׁל שָׂרָה וְיִצְחָק.",
+      "pregunta": "Qui és l'Ester?",
+      "opcions": [
+        "La mare del Roberto",
+        "La filla de la Sara i l'Itshak",
+        "La dona de l'Itshak"
+      ],
+      "correcta": 1,
+      "id": "u02-ex-26"
+    },
+    {
+      "tipus": "comprensio",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-13-b1-l0",
+        "pag-13-b1-l1",
+        "pag-13-b1-l2"
+      ],
+      "text": "שָׂרָה, יִצְחָק, אֶסְתֵּר וְרוֹבֶּרְטוֹ - מִשְׁפָּחָה. זֹאת מִשְׁפַּחַת לֵוִי. זֹאת מִשְׁפָּחָה שֶׁל עוֹלִים. זֹאת מִשְׁפָּחָה שֶׁל עוֹלִים חֲדָשִׁים מִבְּרָזִיל.",
+      "pregunta": "D'on és la família Leví?",
+      "opcions": [
+        "De Rússia",
+        "D'Anglaterra",
+        "Del Brasil"
+      ],
+      "correcta": 2,
+      "id": "u02-ex-27"
+    },
+    {
+      "tipus": "construir",
+      "origen": "extra",
+      "extra": true,
+      "linies": [
+        "pag-10-b4-l3",
+        "u02-3",
+        "u02-7"
+      ],
+      "ca": "Aquestes són nenes petites.",
+      "fitxes": [
+        "קְטַנּוֹת",
+        "אֵלֶּה",
+        "זֹאת",
+        "יְלָדוֹת",
+        "קְטַנִּים"
+      ],
+      "ordre": [
+        1,
+        3,
+        0
+      ],
+      "id": "u02-ex-28"
+    }
+  ]
 }

@@ -762,7 +762,11 @@
           "text": {
             "u": "תרגיל המרה"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "2707cf4fdfe6.m4a",
+            "lent": "72c37150c99b.m4a"
+          }
         }
       ]
     },
