@@ -27,6 +27,12 @@ describe('combina', () => {
     expect(t.linies.map((l) => l.qui).slice(0, 3)).toEqual(['A', 'B', 'A'])
     expect(t.linies[1].ca).toBe('Visc al quibuts Dan')
   })
+  it('formes: la separació explícita mana i no deixa inventar formes', () => {
+    const u = combina(base, [p28], vocab, { formes: { 'u05-3': [
+      { hebreu: 'כִּיתָּה', translit: 'kita', ca: 'classe' }, { hebreu: 'כִּיתּוֹת', translit: 'kitot', ca: 'classes' }] } })
+    expect(u.vocabulari.filter((p) => p.id.startsWith('u05-3')).map((p) => [p.id, p.ca])).toEqual([['u05-3', 'classe'], ['u05-3-2', 'classes']])
+    expect(() => combina(base, [p28], vocab, { formes: { 'u05-3': [{ hebreu: 'סֵפֶר', translit: 'sefer', ca: 'llibre' }] } })).toThrow(/u05-3/)
+  })
   it('un encapçalament de bloc sense hebreu no és títol: es fa servir el de la pàgina', () => {
     const pag = { ...p28, blocs: [{ titol: { text: 'Continuació del diàleg', perComprovar: false }, linies: p28.blocs[0].linies }] }
     const u = combina(base, [pag], vocab, {})

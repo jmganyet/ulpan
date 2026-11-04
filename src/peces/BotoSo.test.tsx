@@ -79,3 +79,16 @@ describe('BotoSo', () => {
     expect(screen.getByLabelText('Escolta lent שָׁלוֹם')).toBeTruthy()
   })
 })
+
+describe('BotoSo autoplay', () => {
+  it('amb autoplay sona tot sol en aparèixer', async () => {
+    render(<BotoSo audio={audio} autoplay />)
+    await new Promise((r) => setTimeout(r, 0))
+    expect(play).toHaveBeenCalledTimes(1)
+  })
+  it('sense autoplay no sona fins que es toca', async () => {
+    render(<BotoSo audio={audio} />)
+    await new Promise((r) => setTimeout(r, 0))
+    expect(play).not.toHaveBeenCalled()
+  })
+})

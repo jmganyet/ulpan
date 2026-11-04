@@ -19,7 +19,11 @@ export type Curat = {
   gramatica?: CuratGramatica[]
   exercicis?: SenseId<Exercici>[]
   extres?: { vocabulari?: (Partial<Paraula> & { hebreu: string })[] }
+  /** Separació explícita d'una entrada del dossier en una paraula per forma (id de l'entrada → formes, en ordre).
+   *  Mana sobre la separació automàtica; les lletres de cada forma han de ser les del dossier. */
+  formes?: Record<string, CuratForma[]>
 }
+export type CuratForma = { hebreu: string; translit: string; ca: string }
 
 const hebreu = (u: string, n: string | undefined): Hebreu =>
   n === undefined ? { u } : { u, n, extraVocals: true }
@@ -28,7 +32,23 @@ const hebreu = (u: string, n: string | undefined): Hebreu =>
 export function combina(base: UnitatBase, pagines: Pagina[], vocab: Paraula[], curat: Curat): Unitat {
   const icones = curat.icones ?? {}
   // Cada forma amb significat propi és una paraula a part (הוּא «ell», הִיא «ella»); la icona val per a totes.
-  const vocabulari: Paraula[] = vocab.flatMap(separaFormes).map((p) => {
+  const separa = (p: Paraula): Paraula[] => {
+    const f = curat.formes?.[p.id]
+    if (!f) return separaFormes(p)
+    // Cap forma inventada: les lletres de cada una han de ser les d'alguna forma del dossier.
+    // (també els trossos d'una entrada de verb: «הוֹלֵךְ – לָלֶכֶת (הָלַךְ)» → הולך, ללכת, הלך)
+    const deDossier = new Set([p.hebreu, ...(p.formes ?? [])]
+      .flatMap((h) => [h, ...h.split(/\s*[–()]\s*/)])
+      .map((h) => treuVocals(h).trim()).filter(Boolean))
+    for (const x of f) {
+      if (!deDossier.has(treuVocals(x.hebreu))) throw new Error(`formes.${p.id}: «${x.hebreu}» no és cap forma de l'entrada del dossier`)
+    }
+    return f.map((x, i) => {
+      const { formes: _f, ...sense } = p
+      return { ...sense, id: i === 0 ? p.id : `${p.id}-${i + 1}`, hebreu: x.hebreu, translit: x.translit, ca: x.ca }
+    })
+  }
+  const vocabulari: Paraula[] = vocab.flatMap(separa).map((p) => {
     const icona = icones[p.id] ?? icones[p.id.replace(/-\d+$/, '')]
     return icona ? { ...p, icona } : { ...p }
   })

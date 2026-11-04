@@ -62,7 +62,7 @@ export function SessioPantalla({ titol, color, enrere, passos, unitats, progres,
   const cos = () => {
     if (!pas) return null
     const par = mapaParaules.get(pas.ref)
-    if (pas.tipus === 'paraula-nova') return par && <TargetaParaula paraula={par} color={colorDe(par.id)} vocals={pref.vocals} />
+    if (pas.tipus === 'paraula-nova') return par && <TargetaParaula paraula={par} color={colorDe(par.id)} vocals={pref.vocals} translit={pref.translit} />
     if (par && esPregunta(pas.tipus)) return <TriaImatge key={e.i} paraula={par} totes={paraules} color={colorDe(par.id)} tipus={pas.tipus} onRespon={onRespon} />
     const ex = exercicis.get(pas.ref)
     if (!ex) return <p class="avis">Aquest exercici ja no existeix.</p>
@@ -94,6 +94,9 @@ export function SessioPantalla({ titol, color, enrere, passos, unitats, progres,
           {e.enReintents && <p class="petit">Repàs dels errors</p>}
           <button type="button" class="btn clar vocals" onClick={() => pref.setVocals(!pref.vocals)}>
             {pref.vocals ? 'Amaga les vocals' : 'Mostra les vocals'}
+          </button>
+          <button type="button" class="btn clar vocals" onClick={() => pref.setTranslit(!pref.translit)}>
+            {pref.translit ? 'Amaga la transcripció' : 'Mostra la transcripció'}
           </button>
           {cos()}
           {(e.respost || pas.tipus === 'paraula-nova') && (

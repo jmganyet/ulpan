@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'preact/hooks'
 
 export type Lletra = 'quadrada' | 'cursiva'
-export type Preferencies = { vocals: boolean; lletra: Lletra; sons: boolean }
+export type Preferencies = { vocals: boolean; lletra: Lletra; sons: boolean; translit: boolean }
 
 const CLAU = 'ulpan:preferencies'
-const PER_DEFECTE: Preferencies = { vocals: false, lletra: 'quadrada', sons: true }
+const PER_DEFECTE: Preferencies = { vocals: false, lletra: 'quadrada', sons: true, translit: false }
 
 function llegeix(): Preferencies {
   try {
@@ -14,6 +14,7 @@ function llegeix(): Preferencies {
         vocals: typeof x.vocals === 'boolean' ? x.vocals : PER_DEFECTE.vocals,
         lletra: x.lletra === 'cursiva' ? 'cursiva' : 'quadrada',
         sons: typeof x.sons === 'boolean' ? x.sons : PER_DEFECTE.sons,
+        translit: typeof x.translit === 'boolean' ? x.translit : PER_DEFECTE.translit,
       }
     }
   } catch {
@@ -49,5 +50,6 @@ export function usePreferencies() {
     setVocals: (vocals: boolean) => desaPreferencies({ ...actual, vocals }),
     setLletra: (lletra: Lletra) => desaPreferencies({ ...actual, lletra }),
     setSons: (sons: boolean) => desaPreferencies({ ...actual, sons }),
+    setTranslit: (translit: boolean) => desaPreferencies({ ...actual, translit }),
   }
 }

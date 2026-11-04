@@ -1,11 +1,14 @@
-import { useRef, useState } from 'preact/hooks'
+import { useEffect, useRef, useState } from 'preact/hooks'
 import type { Audio } from '../contingut/tipus'
 import { BASE } from '../contingut/index'
 import { reprodueix, VELOCITAT_LENTA } from './so'
 
-type Props = { audio: Audio | undefined; /** Paraula o frase, per a l'etiqueta accessible. */ etiqueta?: string }
+type Props = {
+  audio: Audio | undefined; /** Paraula o frase, per a l'etiqueta accessible. */ etiqueta?: string
+  /** Sona tot sol en aparèixer (p. ex. a «Escolta i tria la paraula»). */ autoplay?: boolean
+}
 
-export function BotoSo({ audio, etiqueta }: Props) {
+export function BotoSo({ audio, etiqueta, autoplay = false }: Props) {
   const el = useRef<HTMLAudioElement>(null)
   const [fallat, setFallat] = useState(false)
   const inactiu = !audio || fallat
@@ -26,6 +29,11 @@ export function BotoSo({ audio, etiqueta }: Props) {
       setFallat(true)
     }
   }
+
+  // Sona en aparèixer; si el navegador no ho deixa (NotAllowedError), el botó continua disponible.
+  useEffect(() => {
+    if (autoplay && audio) toca(audio.normal)
+  }, [autoplay, audio?.normal])
 
   return (
     <span class="so-grup">

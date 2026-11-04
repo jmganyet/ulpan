@@ -5,8 +5,8 @@ import { BotoSo } from './BotoSo'
 import { Icona } from './Icona'
 import { Marques } from './Marques'
 
-/** `vocals` (per defecte, sí) decideix si la quadrada porta vocals: a les sessions segueix el botó «Mostra les vocals». */
-export function TargetaParaula({ paraula: p, color, vocals = true }: { paraula: Paraula; color: string; vocals?: boolean }) {
+/** `vocals` i `translit` (per defecte, sí): a les sessions segueixen els botons «Mostra les vocals» i «Mostra la transcripció». */
+export function TargetaParaula({ paraula: p, color, vocals = true, translit = true }: { paraula: Paraula; color: string; vocals?: boolean; translit?: boolean }) {
   return (
     <article class="targeta" style={{ '--color': color } as never}>
       {!p.funcio && (
@@ -19,7 +19,7 @@ export function TargetaParaula({ paraula: p, color, vocals = true }: { paraula: 
           <span dir="rtl" lang="he" class="quadrada gran">{vocals ? textParaula(p) : treuVocals(textParaula(p))}</span>
         </div>
         <div><span dir="rtl" lang="he" class="cursiva">{treuVocals(textParaula(p))}</span></div>
-        <div class="translit">{p.translit}</div>
+        {translit && <div class="translit">{p.translit}</div>}
         <div class="ca">{p.ca}</div>
         <div class="targeta-peu">
           <Marques extra={p.extra} perComprovar={p.perComprovar} />
