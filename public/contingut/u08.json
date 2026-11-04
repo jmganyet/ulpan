@@ -20,7 +20,11 @@
       "pagina": "pag-44",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "63b5d40d0f55.m4a",
+        "lent": "ab849a89a8ee.m4a"
+      }
     },
     {
       "id": "u08-1",
@@ -30,7 +34,11 @@
       "pagina": "pag-44",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "8da63cc6a8fe.m4a",
+        "lent": "ae15ea858cd9.m4a"
+      }
     },
     {
       "id": "u08-2",
@@ -40,7 +48,11 @@
       "pagina": "pag-44",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "86733e1f150f.m4a",
+        "lent": "264bfa14f9da.m4a"
+      }
     },
     {
       "id": "u08-3",
@@ -50,7 +62,11 @@
       "pagina": "pag-44",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "0fdc04e2dcfd.m4a",
+        "lent": "6673568577d0.m4a"
+      }
     },
     {
       "id": "u08-4",
@@ -60,7 +76,11 @@
       "pagina": "pag-44",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "57415910af55.m4a",
+        "lent": "f4424ed38d76.m4a"
+      }
     },
     {
       "id": "u08-5",
@@ -70,7 +90,11 @@
       "pagina": "pag-44",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "cad145f4a7a4.m4a",
+        "lent": "4368d86405dd.m4a"
+      }
     },
     {
       "id": "u08-6",
@@ -83,7 +107,11 @@
       "perComprovar": false,
       "formes": [
         "לֶאֱמוֹר"
-      ]
+      ],
+      "audio": {
+        "normal": "2cc1d75420ea.m4a",
+        "lent": "364bc6309d81.m4a"
+      }
     },
     {
       "id": "u08-7",
@@ -93,7 +121,11 @@
       "pagina": "pag-44",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "6a0d4a13fed9.m4a",
+        "lent": "5f3f8f406404.m4a"
+      }
     },
     {
       "id": "u08-8",
@@ -103,7 +135,11 @@
       "pagina": "pag-45",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "1966f3f7991d.m4a",
+        "lent": "03548eea17aa.m4a"
+      }
     },
     {
       "id": "u08-9",
@@ -113,7 +149,11 @@
       "pagina": "pag-46",
       "funcio": true,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "4b1db06a6032.m4a",
+        "lent": "45c2780ff8fe.m4a"
+      }
     },
     {
       "id": "u08-10",
@@ -123,7 +163,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "39cc720dd561.m4a",
+        "lent": "4f1ef959e581.m4a"
+      }
     },
     {
       "id": "u08-11",
@@ -133,7 +177,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "add00d810176.m4a",
+        "lent": "4524f71f1fa8.m4a"
+      }
     },
     {
       "id": "u08-12",
@@ -143,7 +191,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "210c37a6f2ca.m4a",
+        "lent": "8f2216104955.m4a"
+      }
     },
     {
       "id": "u08-13",
@@ -153,7 +205,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "44ac8025eadd.m4a",
+        "lent": "df28f1b9cd71.m4a"
+      }
     },
     {
       "id": "u08-13-2",
@@ -163,7 +219,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "0dc5bd96f398.m4a",
+        "lent": "b2c4e0ca074e.m4a"
+      }
     },
     {
       "id": "u08-14",
@@ -173,7 +233,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "62574ace2dfa.m4a",
+        "lent": "cacb6e23e1e4.m4a"
+      }
     },
     {
       "id": "u08-14-2",
@@ -183,7 +247,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "24269ccae01f.m4a",
+        "lent": "bc97dd96d96d.m4a"
+      }
     },
     {
       "id": "u08-15",
@@ -193,7 +261,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "7132c13b9db9.m4a",
+        "lent": "6618e4368503.m4a"
+      }
     },
     {
       "id": "u08-15-2",
@@ -203,7 +275,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "1e6743e5e0de.m4a",
+        "lent": "188e972c3970.m4a"
+      }
     },
     {
       "id": "u08-16",
@@ -213,7 +289,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "eaa1097ca7e4.m4a",
+        "lent": "c70aa456ccae.m4a"
+      }
     },
     {
       "id": "u08-17",
@@ -223,7 +303,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "ac1fab09fd46.m4a",
+        "lent": "b1d0047d163c.m4a"
+      }
     },
     {
       "id": "u08-17-2",
@@ -233,7 +317,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "4c182bee50d7.m4a",
+        "lent": "acfe2a999c91.m4a"
+      }
     },
     {
       "id": "u08-18",
@@ -243,7 +331,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "d6c6bbddf5f3.m4a",
+        "lent": "557bf5d70e72.m4a"
+      }
     },
     {
       "id": "u08-18-2",
@@ -253,7 +345,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "6c8d8548ca3b.m4a",
+        "lent": "407a923eed4f.m4a"
+      }
     },
     {
       "id": "u08-19",
@@ -263,7 +359,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "c4ca2085b267.m4a",
+        "lent": "7f8b691ae974.m4a"
+      }
     },
     {
       "id": "u08-19-2",
@@ -273,7 +373,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "d13d13d82a89.m4a",
+        "lent": "2c21856c3d0f.m4a"
+      }
     },
     {
       "id": "u08-20",
@@ -283,7 +387,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "09356b441523.m4a",
+        "lent": "632b25b27b3a.m4a"
+      }
     },
     {
       "id": "u08-20-2",
@@ -293,7 +401,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "22f3a6e3cc8a.m4a",
+        "lent": "240f7bee0894.m4a"
+      }
     },
     {
       "id": "u08-21",
@@ -303,7 +415,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "ed1a5b43d46a.m4a",
+        "lent": "3c8592c4ff37.m4a"
+      }
     },
     {
       "id": "u08-21-2",
@@ -313,7 +429,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "37ea08a18613.m4a",
+        "lent": "e76cf1d1861c.m4a"
+      }
     },
     {
       "id": "u08-22",
@@ -323,7 +443,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "e4550028ab63.m4a",
+        "lent": "dc765909bfbb.m4a"
+      }
     },
     {
       "id": "u08-22-2",
@@ -333,7 +457,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "cb39d1f39b78.m4a",
+        "lent": "7d499edc5903.m4a"
+      }
     },
     {
       "id": "u08-23",
@@ -343,7 +471,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "bb11c35f2ea5.m4a",
+        "lent": "4b16e804a8f0.m4a"
+      }
     },
     {
       "id": "u08-23-2",
@@ -353,7 +485,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "363820f1c09c.m4a",
+        "lent": "c2292c0428c8.m4a"
+      }
     },
     {
       "id": "u08-24",
@@ -363,7 +499,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "ed3b9d5434aa.m4a",
+        "lent": "3c3f9cd45cfd.m4a"
+      }
     },
     {
       "id": "u08-24-2",
@@ -373,7 +513,11 @@
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "c983071f9048.m4a",
+        "lent": "b7b8c85820d0.m4a"
+      }
     },
     {
       "id": "u08-25",
@@ -383,7 +527,11 @@
       "pagina": "pag-47",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "108985121118.m4a",
+        "lent": "5823286b3d00.m4a"
+      }
     },
     {
       "id": "u08-26",
@@ -396,7 +544,11 @@
       "perComprovar": false,
       "formes": [
         "צְרִיכָה"
-      ]
+      ],
+      "audio": {
+        "normal": "da7a97ac86aa.m4a",
+        "lent": "5eaddc17d0eb.m4a"
+      }
     },
     {
       "id": "u08-27",
@@ -409,7 +561,11 @@
       "perComprovar": false,
       "formes": [
         "בְּרֵירוֹת"
-      ]
+      ],
+      "audio": {
+        "normal": "356b40d4104f.m4a",
+        "lent": "6787cd4ac479.m4a"
+      }
     },
     {
       "id": "u08-28",
@@ -419,7 +575,11 @@
       "pagina": "pag-47",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "de97cd0a5b45.m4a",
+        "lent": "c4dcc0b14993.m4a"
+      }
     },
     {
       "id": "u08-29",
@@ -432,7 +592,11 @@
       "perComprovar": false,
       "formes": [
         "יְכוֹלָה"
-      ]
+      ],
+      "audio": {
+        "normal": "3eaa2990587c.m4a",
+        "lent": "0b8c126d961a.m4a"
+      }
     },
     {
       "id": "u08-30",
@@ -442,7 +606,11 @@
       "pagina": "pag-48",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "68611ac961a5.m4a",
+        "lent": "c0ae66bdd73e.m4a"
+      }
     },
     {
       "id": "u08-30-2",
@@ -452,7 +620,11 @@
       "pagina": "pag-48",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "0f112615a88d.m4a",
+        "lent": "c3606aa73829.m4a"
+      }
     },
     {
       "id": "u08-31",
@@ -462,7 +634,11 @@
       "pagina": "pag-48",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "3d578f77f7c3.m4a",
+        "lent": "fdde09192c81.m4a"
+      }
     },
     {
       "id": "u08-32",
@@ -472,7 +648,11 @@
       "pagina": "pag-49",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "d1496a4e935a.m4a",
+        "lent": "bde09fb7358b.m4a"
+      }
     },
     {
       "id": "u08-32-2",
@@ -482,7 +662,11 @@
       "pagina": "pag-49",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "3eed8de6e9b3.m4a",
+        "lent": "3ebec67121df.m4a"
+      }
     },
     {
       "id": "u08-33",
@@ -492,7 +676,11 @@
       "pagina": "pag-49",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "5ec94f60336a.m4a",
+        "lent": "97f445354529.m4a"
+      }
     },
     {
       "id": "u08-34",
@@ -502,7 +690,11 @@
       "pagina": "pag-49",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "334cd97eb6d6.m4a",
+        "lent": "b8dc50f55ce5.m4a"
+      }
     }
   ],
   "gramatica": [],
@@ -522,21 +714,33 @@
           "text": {
             "u": "יצחק לא יודע עברית, הוא רוצה לָדַעַת עברית."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "253c6a80d50f.m4a",
+            "lent": "13df6be2f823.m4a"
+          }
         },
         {
           "id": "pag-44-b0-l1",
           "text": {
             "u": "יצחק לא מבין עברית, הוא רוצה לְהָבִין עברית."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "a9cd939f50ff.m4a",
+            "lent": "c7139fc77362.m4a"
+          }
         },
         {
           "id": "pag-44-b0-l2",
           "text": {
             "u": "יצחק רוצה ללמוד לְדַבֵּר, לִקרוא וְלִכתוב עברית."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "9dbe597b590e.m4a",
+            "lent": "aaf7733b9133.m4a"
+          }
         }
       ]
     },
@@ -555,28 +759,44 @@
           "text": {
             "u": "יצחק רוֹצֶה"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "abe0e67c479e.m4a",
+            "lent": "84e6fd7a380a.m4a"
+          }
         },
         {
           "id": "pag-44-b1-l1",
           "text": {
             "u": "שרה רוֹצָה"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "35d2dddedc74.m4a",
+            "lent": "829564b87004.m4a"
+          }
         },
         {
           "id": "pag-44-b1-l2",
           "text": {
             "u": "הילדים רוֹצִים"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "ea023030fc97.m4a",
+            "lent": "bc7b440083bb.m4a"
+          }
         },
         {
           "id": "pag-44-b1-l3",
           "text": {
             "u": "הילדות רוצות"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "5de5306c844e.m4a",
+            "lent": "05c77f322379.m4a"
+          }
         }
       ]
     },
@@ -595,42 +815,66 @@
           "text": {
             "u": "לָדַעַת"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "dc6f2008b10d.m4a",
+            "lent": "31781f09bce1.m4a"
+          }
         },
         {
           "id": "pag-44-b2-l1",
           "text": {
             "u": "ללמוד"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "4836c855c471.m4a",
+            "lent": "9e85793455a4.m4a"
+          }
         },
         {
           "id": "pag-44-b2-l2",
           "text": {
             "u": "לְדַבֵּר"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "2031d1d7abe2.m4a",
+            "lent": "e63fda01bef1.m4a"
+          }
         },
         {
           "id": "pag-44-b2-l3",
           "text": {
             "u": "לִקרוא"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "940538e8d9e9.m4a",
+            "lent": "3ca716bcffa8.m4a"
+          }
         },
         {
           "id": "pag-44-b2-l4",
           "text": {
             "u": "לִכתוב"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "04cee6f2f389.m4a",
+            "lent": "38df90b987dc.m4a"
+          }
         },
         {
           "id": "pag-44-b2-l5",
           "text": {
             "u": "לְהָבִין"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "1f8976b465c7.m4a",
+            "lent": "87a84ba5d9ce.m4a"
+          }
         }
       ]
     },
@@ -649,7 +893,11 @@
           "text": {
             "u": "→ עברית"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "f05b1cc251fc.m4a",
+            "lent": "2efe4b7024a9.m4a"
+          }
         }
       ]
     },
@@ -668,14 +916,22 @@
           "text": {
             "u": "דוריס יודעת לְדַבֵּר, לִקרוא וְלִכתוב אנגלית."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "fb67084f50b1.m4a",
+            "lent": "2df969a89b04.m4a"
+          }
         },
         {
           "id": "pag-44-b4-l1",
           "text": {
             "u": "דוריס לומדת לְדַבֵּר, לִקרוא וְלִכתוב עברית."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "121c2421ab9a.m4a",
+            "lent": "1bf3b6e775ba.m4a"
+          }
         }
       ]
     },
@@ -694,35 +950,55 @@
           "text": {
             "u": "בָּא - לָבוא · לומֵד - ללמוד · מְדַבֵּר - לְדַבֵּר"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "d79f8cbb09db.m4a",
+            "lent": "8edbc1edc0e5.m4a"
+          }
         },
         {
           "id": "pag-44-b5-l1",
           "text": {
             "u": "גָּר - לָגור · כותֵב - לִכתוב · יודֵעַ - לָדַעַת"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "e964b7fc389e.m4a",
+            "lent": "9b9f86b18b91.m4a"
+          }
         },
         {
           "id": "pag-44-b5-l2",
           "text": {
             "u": "מֵבִין - לְהָבִין · קורֵא - לִקרוא · רוצֶה - לִרצות"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "e0791fbeb187.m4a",
+            "lent": "9ed7c48dc0ba.m4a"
+          }
         },
         {
           "id": "pag-44-b5-l3",
           "text": {
             "u": "הולֵך - לָלֶכֶת · עובֵד - לַעֲבוד · עושֶׂה - לַעֲשׂות"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "e22c594ba6cc.m4a",
+            "lent": "d2df899db95c.m4a"
+          }
         },
         {
           "id": "pag-44-b5-l4",
           "text": {
             "u": "יושֵב - לָשֶׁבֶת · עומֵד - לַעֲמוד · אומֵר - לומַר/לֶאֱמור"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "9831f5a4821f.m4a",
+            "lent": "8e138c7bd921.m4a"
+          }
         }
       ]
     },
@@ -741,14 +1017,22 @@
           "text": {
             "u": "דוריס אומרת: \"קשה ללמוד עברית\"."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "34679c0455f3.m4a",
+            "lent": "e7b8698de7e4.m4a"
+          }
         },
         {
           "id": "pag-45-b0-l1",
           "text": {
             "u": "אומרים: קשה ללכת, קשה לומר, קשה לקרוא,"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "f8c00c3360b2.m4a",
+            "lent": "52c7599731e6.m4a"
+          }
         },
         {
           "id": "pag-45-b0-l2",
@@ -774,7 +1058,11 @@
           "text": {
             "u": "כתוב את שם הפועל"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "5ac9a1d6f6bb.m4a",
+            "lent": "49695effec81.m4a"
+          }
         }
       ]
     },
@@ -896,21 +1184,33 @@
           "text": {
             "u": "איזה קפה אתה רוצה? אני רוצה קפה שחור."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "f419e2e40446.m4a",
+            "lent": "326a7f1951e5.m4a"
+          }
         },
         {
           "id": "pag-46-b0-l1",
           "text": {
             "u": "איזו שפה אתה לומד? אני לומד עברית."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "441423708e6c.m4a",
+            "lent": "684ae7df7ac8.m4a"
+          }
         },
         {
           "id": "pag-46-b0-l2",
           "text": {
             "u": "איזה (אֵילוּ) שפות יודע סטיב? סטיב יודע אַנגלִית, גֶרמַנִית וְצָרפַתִית."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "316dce3e49e1.m4a",
+            "lent": "c98856ebbb18.m4a"
+          }
         }
       ]
     },
@@ -929,35 +1229,55 @@
           "text": {
             "u": "בוריס מרוסיָה, הוא מדבר רוסִית. ברוסיה מדברים רוסית."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "9dfde05323af.m4a",
+            "lent": "6890d537d5fe.m4a"
+          }
         },
         {
           "id": "pag-46-b1-l1",
           "text": {
             "u": "נטלי מצָרפַת, היא מדברת צָרפַתִית."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "a6d7d16afbd2.m4a",
+            "lent": "6dd8e92a302e.m4a"
+          }
         },
         {
           "id": "pag-46-b1-l2",
           "text": {
             "u": "בצרפת מדברים צרפתית."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "29239e0cc5bd.m4a",
+            "lent": "667720041b29.m4a"
+          }
         },
         {
           "id": "pag-46-b1-l3",
           "text": {
             "u": "אַחמד ממִצְרַיִם, הוא מדבר עֲרָבִית."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "f619425796d4.m4a",
+            "lent": "27f43ce56222.m4a"
+          }
         },
         {
           "id": "pag-46-b1-l4",
           "text": {
             "u": "במצרים מדברים ערבית."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "dbe31f179635.m4a",
+            "lent": "5151e4053ae1.m4a"
+          }
         }
       ]
     },
@@ -976,49 +1296,77 @@
           "text": {
             "u": "אוסטרַלְיָה - אַנגלִית · יָוָן - יְוָנִית"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "6f348102d526.m4a",
+            "lent": "5017b19826e1.m4a"
+          }
         },
         {
           "id": "pag-46-b2-l1",
           "text": {
             "u": "אִיטַלְיָה - אִיטַלְקִית · יַפָּן - יַפָּנִית"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "a355d53979c9.m4a",
+            "lent": "89dee8f7a62b.m4a"
+          }
         },
         {
           "id": "pag-46-b2-l2",
           "text": {
             "u": "גֶרמַנְיָה - גֶרמָנִית · סְפָרַד - סְפָרַדִּית"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "bcf583118dd9.m4a",
+            "lent": "998e7903cc76.m4a"
+          }
         },
         {
           "id": "pag-46-b2-l3",
           "text": {
             "u": "הולַנד - הולַנדִית · סִין - סִינִית"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "96252304e7dd.m4a",
+            "lent": "7293b834b756.m4a"
+          }
         },
         {
           "id": "pag-46-b2-l4",
           "text": {
             "u": "הונגַרְיָה - הונגָרִית · פּולִין - פּולָנִית"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "2736cb125d47.m4a",
+            "lent": "531e7e784c4a.m4a"
+          }
         },
         {
           "id": "pag-46-b2-l5",
           "text": {
             "u": "בְּרָזִיל - פורטוגֶזִית · רומַנְיָה - רומָנִית"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "c99ed365ff4f.m4a",
+            "lent": "34ea2822b6ff.m4a"
+          }
         },
         {
           "id": "pag-46-b2-l6",
           "text": {
             "u": "שְׁוֶודְיָה - שְׁוֶודִית · טורְקִיָה - טורְקִית"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "5adf5baa9f2d.m4a",
+            "lent": "4bae721fda6c.m4a"
+          }
         }
       ]
     },
@@ -1037,7 +1385,11 @@
           "text": {
             "u": "כתוב איזה איזו"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "d5f72c635fde.m4a",
+            "lent": "71d1687f7881.m4a"
+          }
         }
       ]
     },
@@ -1138,21 +1490,33 @@
           "text": {
             "u": "יצחק אוהב ללמוד."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "376a15cc7203.m4a",
+            "lent": "3c44da44d1f3.m4a"
+          }
         },
         {
           "id": "pag-47-b2-l1",
           "text": {
             "u": "יצחק רוצה ללמוד."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "b5ebfc1b0872.m4a",
+            "lent": "8f3e5aa65a85.m4a"
+          }
         },
         {
           "id": "pag-47-b2-l2",
           "text": {
             "u": "יצחק לומד."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "83fcfae02e44.m4a",
+            "lent": "b3b8fb1f73bd.m4a"
+          }
         }
       ]
     },
@@ -1171,21 +1535,33 @@
           "text": {
             "u": "יוסף לא אוהב ללמוד,"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "5ce8a03c93d7.m4a",
+            "lent": "6f2c9a991194.m4a"
+          }
         },
         {
           "id": "pag-47-b3-l1",
           "text": {
             "u": "אבל הוא צריך ללמוד."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "5520526542c1.m4a",
+            "lent": "005e4f11c6fa.m4a"
+          }
         },
         {
           "id": "pag-47-b3-l2",
           "text": {
             "u": "אין ברירה הוא לומד."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "233f4286fdb8.m4a",
+            "lent": "5f8837ae566e.m4a"
+          }
         }
       ]
     },
@@ -1204,28 +1580,44 @@
           "text": {
             "u": "דוד רוצה וצריך ללמוד."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "2df14efd7ffa.m4a",
+            "lent": "6c7aaa251e1e.m4a"
+          }
         },
         {
           "id": "pag-47-b4-l1",
           "text": {
             "u": "דוד אוהב ללמוד, אבל"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "23ae67dea8e5.m4a",
+            "lent": "55031a68a833.m4a"
+          }
         },
         {
           "id": "pag-47-b4-l2",
           "text": {
             "u": "הוא לא יכול ללמוד."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "5b12a77d4760.m4a",
+            "lent": "d794cf2ef3f6.m4a"
+          }
         },
         {
           "id": "pag-47-b4-l3",
           "text": {
             "u": "הוא לא לומד."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "a6fe7380232c.m4a",
+            "lent": "9d308b6e5ed9.m4a"
+          }
         }
       ]
     },
@@ -1249,7 +1641,11 @@
             "u": "רחל, את הולכת לעבודה?"
           },
           "perComprovar": false,
-          "qui": "יוסף"
+          "qui": "יוסף",
+          "audio": {
+            "normal": "f5ce01589d30.m4a",
+            "lent": "114a1576d170.m4a"
+          }
         },
         {
           "id": "pag-48-b0-l1",
@@ -1257,7 +1653,11 @@
             "u": "עכשיו אני לא יכולה ללכת לעבודה. אני חולה. היום אני לא עובדת. ואתה?"
           },
           "perComprovar": false,
-          "qui": "רחל"
+          "qui": "רחל",
+          "audio": {
+            "normal": "78a2fb7cfcef.m4a",
+            "lent": "99c9051a295b.m4a"
+          }
         },
         {
           "id": "pag-48-b0-l2",
@@ -1265,7 +1665,11 @@
             "u": "אני הולך לעבודה."
           },
           "perComprovar": false,
-          "qui": "יוסף"
+          "qui": "יוסף",
+          "audio": {
+            "normal": "d956b3c11653.m4a",
+            "lent": "74a2f51d6263.m4a"
+          }
         },
         {
           "id": "pag-48-b0-l3",
@@ -1273,7 +1677,11 @@
             "u": "אתה אוהב לעבוד?"
           },
           "perComprovar": false,
-          "qui": "רחל"
+          "qui": "רחל",
+          "audio": {
+            "normal": "2b87c9a31bf1.m4a",
+            "lent": "b325b5a6d00f.m4a"
+          }
         },
         {
           "id": "pag-48-b0-l4",
@@ -1281,7 +1689,11 @@
             "u": "אני לא אוהב לעבוד, אבל אין ברירה. אני צריך לעבוד."
           },
           "perComprovar": false,
-          "qui": "יוסף"
+          "qui": "יוסף",
+          "audio": {
+            "normal": "ec159adcdab9.m4a",
+            "lent": "7a236b933b43.m4a"
+          }
         },
         {
           "id": "pag-48-b0-l5",
@@ -1289,7 +1701,11 @@
             "u": "גם אני צריכה לעבוד."
           },
           "perComprovar": false,
-          "qui": "רחל"
+          "qui": "רחל",
+          "audio": {
+            "normal": "160293bf64a5.m4a",
+            "lent": "696e02928749.m4a"
+          }
         },
         {
           "id": "pag-48-b0-l6",
@@ -1297,7 +1713,11 @@
             "u": "ואת רוצה לעבוד?"
           },
           "perComprovar": false,
-          "qui": "יוסף"
+          "qui": "יוסף",
+          "audio": {
+            "normal": "a972fa9afe4d.m4a",
+            "lent": "df9b7ddf66f5.m4a"
+          }
         },
         {
           "id": "pag-48-b0-l7",
@@ -1305,7 +1725,11 @@
             "u": "אני רוצה לעבוד, אני אוהבת לעבוד, אבל אני לא יכולה...."
           },
           "perComprovar": false,
-          "qui": "רחל"
+          "qui": "רחל",
+          "audio": {
+            "normal": "5d9b79c7e2e6.m4a",
+            "lent": "3b08e4bda709.m4a"
+          }
         }
       ]
     },
@@ -1324,21 +1748,33 @@
           "text": {
             "u": "אוֹהֵב · אוֹהֶבֶת · אוֹהֲבִים · אוֹהֲבוֹת · לֶאֱהוֹב"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "5de778568369.m4a",
+            "lent": "874ed3ded9b5.m4a"
+          }
         },
         {
           "id": "pag-48-b1-l1",
           "text": {
             "u": "יָכוֹל · יְכוֹלָה · יְכוֹלִים · יְכוֹלוֹת · —"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "de0101176039.m4a",
+            "lent": "c9b1c156f6e0.m4a"
+          }
         },
         {
           "id": "pag-48-b1-l2",
           "text": {
             "u": "צָרִיךְ · צְרִיכָה · צְרִיכִים · צְרִיכוֹת · —"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "4eb960098831.m4a",
+            "lent": "2a448e3a0731.m4a"
+          }
         }
       ]
     },
@@ -1357,28 +1793,44 @@
           "text": {
             "u": "אומרים: הוא אוהב ללמוד. הוא לא אוהב לעבוד."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "9aabda75f266.m4a",
+            "lent": "47ad16a515b0.m4a"
+          }
         },
         {
           "id": "pag-48-b2-l1",
           "text": {
             "u": "הוא אוהב שוקולד. הוא לא אוהב קוניאק."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "8b6e5d21dbc8.m4a",
+            "lent": "6f7a968f0081.m4a"
+          }
         },
         {
           "id": "pag-48-b2-l2",
           "text": {
             "u": "אבל: הוא אוהב אֶת חנה. הוא אוהב אֶת הַמורה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "6545b06ff897.m4a",
+            "lent": "2a670d01c717.m4a"
+          }
         },
         {
           "id": "pag-48-b2-l3",
           "text": {
             "u": "הוא לא אוהב אֶת הַבַּעַל של רחל."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "7107ef16b4f5.m4a",
+            "lent": "b07deeb60d03.m4a"
+          }
         }
       ]
     },
@@ -1420,35 +1872,55 @@
           "text": {
             "u": "1. רוברטו אוהב אֶת ירושלים. (תמר, אסתר ותמר, שׂרה ויצחק)"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "c9372455a544.m4a",
+            "lent": "115d219fcd1a.m4a"
+          }
         },
         {
           "id": "pag-49-b1-l1",
           "text": {
             "u": "2. תמר אוהבת אֶת יוסי. (אֶת האחות של רוברטו, ילדים, אֶת חיפה, ויסקי)"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "a27f406c0a22.m4a",
+            "lent": "145999eef803.m4a"
+          }
         },
         {
           "id": "pag-49-b1-l2",
           "text": {
             "u": "3. הן לא יכולות לבוא היום. (הם, אני, רוברטו, אסתר)"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "4b4e994eed8b.m4a",
+            "lent": "c88d950cf82e.m4a"
+          }
         },
         {
           "id": "pag-49-b1-l3",
           "text": {
             "u": "4. אנחנו צריכים ללכת למשרד. (שׂרה, יצחק, הן, הם)"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "75e1dab834ff.m4a",
+            "lent": "97d43ecf5583.m4a"
+          }
         },
         {
           "id": "pag-49-b1-l4",
           "text": {
             "u": "5. הוא לא רוצה ללכת למשרד. (צריך, יכול, אוהב)"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "f6821d535e51.m4a",
+            "lent": "2a6561303a7e.m4a"
+          }
         }
       ]
     },
@@ -1467,14 +1939,22 @@
           "text": {
             "u": "כתוב משפטים מהמילים בטורים א'ב'ג' השתמש במלה"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "f5160b1aa161.m4a",
+            "lent": "0338d5389e01.m4a"
+          }
         },
         {
           "id": "pag-49-b2-l1",
           "text": {
             "u": "מכל טור, הוסף לכל משפט מלה, או כמה מילים."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "dc35c24796d8.m4a",
+            "lent": "c906acf10a7e.m4a"
+          }
         }
       ]
     },
@@ -1493,7 +1973,11 @@
           "text": {
             "u": "דוגמה:"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "4b106d5c8013.m4a",
+            "lent": "aac2bc590013.m4a"
+          }
         }
       ]
     },
@@ -1512,14 +1996,22 @@
           "text": {
             "u": "1. הם לא רוצים לדבר עם חנה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "de6d1a9db3a3.m4a",
+            "lent": "58efc166dc06.m4a"
+          }
         },
         {
           "id": "pag-49-b4-l1",
           "text": {
             "u": "2. הם יכולים לשבת על-יד החלון."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "c0043659f1af.m4a",
+            "lent": "1dc1d2a8662c.m4a"
+          }
         }
       ]
     },
@@ -1538,28 +2030,44 @@
           "text": {
             "u": "א' · ב' · ג'"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "f5223097c3a3.m4a",
+            "lent": "1fc782abebe7.m4a"
+          }
         },
         {
           "id": "pag-49-b5-l1",
           "text": {
             "u": "הם (לא) · רוצים · להבין"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "41ec54cf79d1.m4a",
+            "lent": "3e07b4ad1977.m4a"
+          }
         },
         {
           "id": "pag-49-b5-l2",
           "text": {
             "u": "יכולים · לשבת"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "fb08338134cc.m4a",
+            "lent": "5ec2c0595dda.m4a"
+          }
         },
         {
           "id": "pag-49-b5-l3",
           "text": {
             "u": "צריכים · ללכת"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "522466fe2ccf.m4a",
+            "lent": "dc53998667fb.m4a"
+          }
         },
         {
           "id": "pag-49-b5-l4",
@@ -1573,7 +2081,11 @@
           "text": {
             "u": "לומדים · לדבר"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "e596534fc9ab.m4a",
+            "lent": "69ada1e5e00a.m4a"
+          }
         },
         {
           "id": "pag-49-b5-l6",
@@ -1587,14 +2099,22 @@
           "text": {
             "u": "לבוא"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "68b0d7f5fbf3.m4a",
+            "lent": "3f09d467cb3c.m4a"
+          }
         },
         {
           "id": "pag-49-b5-l8",
           "text": {
             "u": "לומר"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "086df0d9d834.m4a",
+            "lent": "6948ed506cd0.m4a"
+          }
         }
       ]
     }

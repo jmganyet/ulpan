@@ -18,7 +18,11 @@
       "pagina": "pag-55",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "02e127e6295b.m4a",
+        "lent": "3530139b0ff1.m4a"
+      }
     },
     {
       "id": "u10-1",
@@ -28,7 +32,11 @@
       "pagina": "pag-55",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "958da236c112.m4a",
+        "lent": "7e66bf0b3e48.m4a"
+      }
     },
     {
       "id": "u10-2",
@@ -38,7 +46,11 @@
       "pagina": "pag-55",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "5fed34375ffa.m4a",
+        "lent": "e5a3baaaf18d.m4a"
+      }
     },
     {
       "id": "u10-3",
@@ -48,7 +60,11 @@
       "pagina": "pag-55",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "3c55726ec925.m4a",
+        "lent": "b6c54e920976.m4a"
+      }
     },
     {
       "id": "u10-4",
@@ -58,7 +74,11 @@
       "pagina": "pag-55",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "d99a968b31dd.m4a",
+        "lent": "cdb07e455e48.m4a"
+      }
     },
     {
       "id": "u10-5",
@@ -71,7 +91,11 @@
       "perComprovar": false,
       "formes": [
         "זְמַנִּים"
-      ]
+      ],
+      "audio": {
+        "normal": "cd49eb23d63a.m4a",
+        "lent": "0e22632a54c0.m4a"
+      }
     },
     {
       "id": "u10-6",
@@ -81,7 +105,11 @@
       "pagina": "pag-56",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "445853a8a296.m4a",
+        "lent": "319ae48602c3.m4a"
+      }
     },
     {
       "id": "u10-7",
@@ -91,7 +119,11 @@
       "pagina": "pag-56",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "e4f69df88e0d.m4a",
+        "lent": "39fb601e8bf3.m4a"
+      }
     },
     {
       "id": "u10-8",
@@ -104,7 +136,11 @@
       "perComprovar": false,
       "formes": [
         "יָמִים"
-      ]
+      ],
+      "audio": {
+        "normal": "e820297cf953.m4a",
+        "lent": "03caa2d16084.m4a"
+      }
     },
     {
       "id": "u10-9",
@@ -114,7 +150,11 @@
       "pagina": "pag-56",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "5b893b403804.m4a",
+        "lent": "5a9c6caf08a3.m4a"
+      }
     },
     {
       "id": "u10-10",
@@ -124,7 +164,11 @@
       "pagina": "pag-56",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "abaf480ec45e.m4a",
+        "lent": "cce2bbae254f.m4a"
+      }
     },
     {
       "id": "u10-11",
@@ -134,7 +178,11 @@
       "pagina": "pag-56",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "56993b9f81d9.m4a",
+        "lent": "8458055255d9.m4a"
+      }
     },
     {
       "id": "u10-12",
@@ -144,7 +192,11 @@
       "pagina": "pag-56",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "2a1940d6802f.m4a",
+        "lent": "5b86253caf09.m4a"
+      }
     },
     {
       "id": "u10-13",
@@ -154,7 +206,11 @@
       "pagina": "pag-56",
       "funcio": true,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "fdae5c706a2f.m4a",
+        "lent": "c328a0c8fad0.m4a"
+      }
     },
     {
       "id": "u10-14",
@@ -164,7 +220,11 @@
       "pagina": "pag-58",
       "funcio": false,
       "extra": false,
-      "perComprovar": false
+      "perComprovar": false,
+      "audio": {
+        "normal": "457718d73deb.m4a",
+        "lent": "54e5689422bc.m4a"
+      }
     }
   ],
   "gramatica": [],
@@ -184,21 +244,33 @@
           "text": {
             "u": "הַמלט אומר: \"להיות, או לא להיות - זאת השאלה!\""
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "43785a984194.m4a",
+            "lent": "16edac175bfb.m4a"
+          }
         },
         {
           "id": "pag-55-b0-l1",
           "text": {
             "u": "יוסף רוצה להיות בכיתה, אבל הוא צריך להיות במשׂרד."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "8571b8e629c9.m4a",
+            "lent": "2065eb922fe3.m4a"
+          }
         },
         {
           "id": "pag-55-b0-l2",
           "text": {
             "u": "התלמידים צריכים להיות בכיתה ב-8."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "cecd99b94a00.m4a",
+            "lent": "16ec02c50457.m4a"
+          }
         }
       ]
     },
@@ -217,14 +289,22 @@
           "text": {
             "u": "היום משה [requadre ratllat amb una creu] בבית."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "f8897ce5beb3.m4a",
+            "lent": "8d817456f738.m4a"
+          }
         },
         {
           "id": "pag-55-b1-l1",
           "text": {
             "u": "אתמול משה הָיָה בבית."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "cedb7677e704.m4a",
+            "lent": "1111f2f11ed4.m4a"
+          }
         }
       ]
     },
@@ -243,14 +323,22 @@
           "text": {
             "u": "לפועל \"להיות\" בעברית אין הווה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "baa5e0d699a4.m4a",
+            "lent": "5b7586caa0f3.m4a"
+          }
         },
         {
           "id": "pag-55-b2-l1",
           "text": {
             "u": "לפועל \"להיות\" בעברית יש רק עבר ועתיד."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "5fa38dc42b15.m4a",
+            "lent": "754b505a1fba.m4a"
+          }
         }
       ]
     },
@@ -269,14 +357,22 @@
           "text": {
             "u": "אני · אתה · את · אנחנו · אתם · אתן"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "ef284b424ed2.m4a",
+            "lent": "fb16f98ebdb3.m4a"
+          }
         },
         {
           "id": "pag-55-b3-l1",
           "text": {
             "u": "הָיִיתִי · הָיִיתָ · הָיִית · הָיִינוּ · הֱיִיתֶם · הֱיִיתֶן"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "bf554c0341f8.m4a",
+            "lent": "2e7de323cb47.m4a"
+          }
         }
       ]
     },
@@ -295,14 +391,22 @@
           "text": {
             "u": "הוא · היא · הם/הן"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "2dd454ae9d6e.m4a",
+            "lent": "789e1aa29ee7.m4a"
+          }
         },
         {
           "id": "pag-55-b4-l1",
           "text": {
             "u": "הָיָה · הָיְתָה · הָיוּ"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "931b2a7932fe.m4a",
+            "lent": "d32ebfc77942.m4a"
+          }
         }
       ]
     },
@@ -326,7 +430,11 @@
             "u": "יצחק איפה הָיִיתָ אתמול?"
           },
           "perComprovar": false,
-          "qui": "מורה"
+          "qui": "מורה",
+          "audio": {
+            "normal": "14d545e17a6b.m4a",
+            "lent": "1280f6ec51ec.m4a"
+          }
         },
         {
           "id": "pag-56-b0-l1",
@@ -334,7 +442,11 @@
             "u": "הָיִיתִי בקופת-חולים."
           },
           "perComprovar": false,
-          "qui": "יצחק"
+          "qui": "יצחק",
+          "audio": {
+            "normal": "ccb7d7f3f714.m4a",
+            "lent": "934a08ac7fc7.m4a"
+          }
         },
         {
           "id": "pag-56-b0-l2",
@@ -342,7 +454,11 @@
             "u": "ואיפה הָיְתָה שׂרה?"
           },
           "perComprovar": false,
-          "qui": "מורה"
+          "qui": "מורה",
+          "audio": {
+            "normal": "cfded2ffc96e.m4a",
+            "lent": "8240081eb82f.m4a"
+          }
         },
         {
           "id": "pag-56-b0-l3",
@@ -350,7 +466,11 @@
             "u": "היא הָיְתָה בתל-אביב."
           },
           "perComprovar": false,
-          "qui": "יצחק"
+          "qui": "יצחק",
+          "audio": {
+            "normal": "ecb0ba7fadf6.m4a",
+            "lent": "4a173d343c25.m4a"
+          }
         },
         {
           "id": "pag-56-b0-l4",
@@ -358,7 +478,11 @@
             "u": "ואיפה היא היום?"
           },
           "perComprovar": false,
-          "qui": "מורה"
+          "qui": "מורה",
+          "audio": {
+            "normal": "82bb8c032e43.m4a",
+            "lent": "404c0cb2cb59.m4a"
+          }
         },
         {
           "id": "pag-56-b0-l5",
@@ -366,7 +490,11 @@
             "u": "היום היא צריכה לִהיות בחיפה."
           },
           "perComprovar": false,
-          "qui": "יצחק"
+          "qui": "יצחק",
+          "audio": {
+            "normal": "4ed31d4a8506.m4a",
+            "lent": "9f3d01742317.m4a"
+          }
         },
         {
           "id": "pag-56-b0-l6",
@@ -374,7 +502,11 @@
             "u": "יום לומדים ויומיים לא. כך זה לא יכול לִהיות!"
           },
           "perComprovar": false,
-          "qui": "מורה"
+          "qui": "מורה",
+          "audio": {
+            "normal": "dfa29c1588a0.m4a",
+            "lent": "89d48f6e0aea.m4a"
+          }
         },
         {
           "id": "pag-56-b0-l7",
@@ -382,14 +514,22 @@
             "u": "כן כבר המלט אמר: \"להיות או לא להיות"
           },
           "perComprovar": false,
-          "qui": "יצחק"
+          "qui": "יצחק",
+          "audio": {
+            "normal": "4049ba9b278d.m4a",
+            "lent": "ea1146979a94.m4a"
+          }
         },
         {
           "id": "pag-56-b0-l8",
           "text": {
             "u": "זאת השאלה!\""
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "3323a0caca29.m4a",
+            "lent": "199902e5cbcd.m4a"
+          }
         }
       ]
     },
@@ -408,56 +548,88 @@
           "text": {
             "u": "רחל בִּירושלים אצל חברים."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "ad0faa42fb29.m4a",
+            "lent": "d263213526ef.m4a"
+          }
         },
         {
           "id": "pag-56-b1-l1",
           "text": {
             "u": "יוסף גר בחיפה אצל חבר."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "c07182437155.m4a",
+            "lent": "ce0ecf89f96e.m4a"
+          }
         },
         {
           "id": "pag-56-b1-l2",
           "text": {
             "u": "שׂרה לומדת באולפן אצל המורה רחל."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "e0150f404863.m4a",
+            "lent": "fc1c201dd6d3.m4a"
+          }
         },
         {
           "id": "pag-56-b1-l3",
           "text": {
             "u": "משה היה במשׂרד אצל גברת כֹּהן."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "7e9ec8103845.m4a",
+            "lent": "bc239a0a7d3f.m4a"
+          }
         },
         {
           "id": "pag-56-b1-l4",
           "text": {
             "u": "היא היתה בקופת-חולים אצל דוקטור יעקובי."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "320bce050a90.m4a",
+            "lent": "a3323bf2a4e2.m4a"
+          }
         },
         {
           "id": "pag-56-b1-l5",
           "text": {
             "u": "הספר של יצחק אצל רוברטו."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "c04c5d2ad76d.m4a",
+            "lent": "630b9cf95456.m4a"
+          }
         },
         {
           "id": "pag-56-b1-l6",
           "text": {
             "u": "אתמול הן היו אצל חנה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "8ebdcef2817c.m4a",
+            "lent": "d72e68e8cfbd.m4a"
+          }
         },
         {
           "id": "pag-56-b1-l7",
           "text": {
             "u": "אנחנו רוצים להיות אצל משפחת לוי."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "d6d1a2ecd9cf.m4a",
+            "lent": "fed504ace265.m4a"
+          }
         }
       ]
     },
@@ -476,7 +648,11 @@
           "text": {
             "u": "א. כתוב בזמן עבר."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "7f7346d36780.m4a",
+            "lent": "86c4a4ce3a02.m4a"
+          }
         }
       ]
     },
@@ -495,7 +671,11 @@
           "text": {
             "u": "היום — זמן הווה → אתמול — זמן עבר"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "c9ebff38358c.m4a",
+            "lent": "ea85b9d3f7fc.m4a"
+          }
         }
       ]
     },
@@ -666,7 +846,11 @@
           "text": {
             "u": "ב. כתוב בזמן הווה."
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "755638ec545d.m4a",
+            "lent": "58cf0d829e1e.m4a"
+          }
         }
       ]
     },
@@ -685,7 +869,11 @@
           "text": {
             "u": "אתמול — זמן עבר → היום — זמן הווה"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "686d396606c6.m4a",
+            "lent": "6a5d91323ef4.m4a"
+          }
         }
       ]
     },
@@ -786,7 +974,11 @@
           "text": {
             "u": "כתוב: בְּ... אצל"
           },
-          "perComprovar": false
+          "perComprovar": false,
+          "audio": {
+            "normal": "4f8f9c2168b2.m4a",
+            "lent": "dfec61d95508.m4a"
+          }
         }
       ]
     },
