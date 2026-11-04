@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'preact/hooks'
 import type { Paraula } from '../contingut/tipus'
+import { treuVocals } from '../hebreu'
 import { BotoSo } from '../peces/BotoSo'
 import { Icona } from '../peces/Icona'
 import { barreja, opcionsDistractores, teIcona, type Rng, type TipusParaula } from './sessio'
@@ -14,7 +15,13 @@ const filtre = (tipus: Props['tipus']) =>
   : tipus === 'traduccio' ? () => true
   : teIcona
 
-const Hebr = ({ p }: { p: Paraula }) => <span dir="rtl" lang="he" class="quadrada gran">{p.hebreu}</span>
+// La paraula en quadrada amb vocals i, a sota, en cursiva sense vocals, com a la targeta.
+const Hebr = ({ p }: { p: Paraula }) => (
+  <span class="dues-lletres">
+    <span dir="rtl" lang="he" class="quadrada gran">{p.hebreu}</span>
+    <span dir="rtl" lang="he" class="cursiva">{treuVocals(p.hebreu)}</span>
+  </span>
+)
 
 /** Pregunta sobre una paraula: tria la imatge, tria la paraula (per imatge o per so) o tria la traducció. */
 export function TriaImatge({ paraula: p, totes, color, tipus, onRespon, rng }: Props) {

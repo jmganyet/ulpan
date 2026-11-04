@@ -98,3 +98,9 @@
 .controls-conversa button { border: 0; background: var(--gris-clar); color: var(--tinta); border-radius: 99px; min-width: 44px; height: 44px; font-size: 22px; cursor: pointer; }
 .controls-conversa .gran-play { width: 56px; height: 56px; background: var(--tinta); color: var(--blanc); }
 .controls-conversa button:disabled { opacity: .4; }
+
+/* Paraula en quadrada amb vocals i cursiva sense vocals (reconeixement de paraules) */
+.dues-lletres { display: inline-flex; flex-direction: column; align-items: center; gap: 2px; line-height: 1.2; }
+.dues-lletres .quadrada { font-size: 30px; }
+.dues-lletres .cursiva { font-size: 22px; color: var(--gris); }
+.retro .dues-lletres { display: inline-flex; vertical-align: middle; }
