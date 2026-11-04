@@ -23,7 +23,7 @@ export function Construir({ ex, onRespon }: Props) {
   return (
     <div class="exercici">
       <p class="enunciat">{ex.ca}</p>
-      <div class="linia-construir" data-testid="linia" dir="rtl">
+      <div class={`linia-construir${resultat === null ? '' : resultat ? ' bona' : ' dolenta'}`} data-testid="linia" dir="rtl">
         {col.map((i) => (
           <button type="button" key={i} class="fitxa col" onClick={() => treu(i)}><TextMixt s={ex.fitxes[i]} /></button>
         ))}
@@ -34,8 +34,12 @@ export function Construir({ ex, onRespon }: Props) {
         ))}
       </div>
       {!bloquejat && <button type="button" class="btn" disabled={col.length === 0} onClick={comprova}>Comprova</button>}
-      {resultat === false && <p class="retro">La frase correcta: <span class="model"><TextMixt s={frase(ex.ordre)} /></span></p>}
-      {resultat !== null && <p class="retro"><BotoSo audio={ex.audio} etiqueta={frase(ex.ordre)} autoplay={resultat} retard={RETARD_ENCERT} lent /></p>}
+      {resultat !== null && (
+        <div class={`retro ${resultat ? 'bona' : 'dolenta'}`} role="status">
+          <span class="retro-cap">{resultat ? <><i class="ph-duotone ph-check-circle" aria-hidden="true" /> Correcte</> : <><i class="ph-duotone ph-x-circle" aria-hidden="true" /> Incorrecte<span class="retro-sub"> · la frase correcta és:</span></>}</span>
+          <span class="model"><TextMixt s={frase(ex.ordre)} /> <BotoSo audio={ex.audio} etiqueta={frase(ex.ordre)} autoplay={resultat} retard={RETARD_ENCERT} lent /></span>
+        </div>
+      )}
     </div>
   )
 }

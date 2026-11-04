@@ -52,7 +52,13 @@ export function TriaImatge({ paraula: p, totes, color, tipus, onRespon, rng }: P
         ))}
       </div>
       {/* En encertar, la paraula sona sola, just després del so d'encert. */}
-      {triada !== null && <p class="retro"><Hebr p={p} />{translit && <> · {p.translit}</>} · {p.ca} <BotoSo audio={p.audio} etiqueta={p.hebreu} autoplay={triada === p.id} retard={RETARD_ENCERT} /></p>}
+      {triada !== null && (
+        <div class={`retro ${triada === p.id ? 'bona' : 'dolenta'}`} role="status">
+          <span class="retro-cap">{triada === p.id ? <><i class="ph-duotone ph-check-circle" aria-hidden="true" /> Correcte</> : <><i class="ph-duotone ph-x-circle" aria-hidden="true" /> Incorrecte<span class="retro-sub"> · era aquesta:</span></>}</span>
+          <span class="model"><Hebr p={p} /> <BotoSo audio={p.audio} etiqueta={p.hebreu} autoplay={triada === p.id} retard={RETARD_ENCERT} /></span>
+          <span class="retro-nota">{translit && <>{p.translit} · </>}{p.ca}</span>
+        </div>
+      )}
     </div>
   )
 }

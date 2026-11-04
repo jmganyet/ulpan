@@ -21,7 +21,13 @@ export function Forat({ ex, onRespon }: Props) {
       <p class="enunciat"><Hebreu valor={frase} classe="gran" /></p>
       <Opcions opcions={ex.opcions} correcta={ex.correcta} onRespon={(e) => { setRespost(true); setEncert(e); onRespon(e) }} />
       {/* La frase sencera, quan ja s'ha respost (abans regalaria la resposta); si l'encertes, sona sola. */}
-      {respost && <p class="retro">{ex.retro} <BotoSo audio={ex.audio} etiqueta={ex.frase.u} autoplay={encert} retard={RETARD_ENCERT} lent /></p>}
+      {respost && (
+        <div class={`retro ${encert ? 'bona' : 'dolenta'}`} role="status">
+          <span class="retro-cap">{encert ? <><i class="ph-duotone ph-check-circle" aria-hidden="true" /> Correcte</> : <><i class="ph-duotone ph-x-circle" aria-hidden="true" /> Incorrecte<span class="retro-sub"> · la resposta correcta és:</span></>}</span>
+          <span class="model"><Hebreu valor={frase} /> <BotoSo audio={ex.audio} etiqueta={ex.frase.u} autoplay={encert} retard={RETARD_ENCERT} lent /></span>
+          {ex.retro && <span class="retro-nota">{ex.retro}</span>}
+        </div>
+      )}
     </div>
   )
 }
