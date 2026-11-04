@@ -1,3 +1,4 @@
+import { teClau } from '../teClau'
 import type { Exercici, Paraula, Unitat } from '../contingut/tipus'
 import { pendents, type Progres } from '../progres/srs'
 import { textParaula } from '../contingut/formes'
@@ -81,14 +82,14 @@ const idsPerComprovar = (unitats: Unitat[]) =>
 /** Paraules no vistes en tandes de 5 (cada tanda amb una pregunta per paraula), i després els exercicis barrejats. */
 export function sessioUnitat(u: Unitat, p: Progres, rng: Rng = Math.random): Pas[] {
   const totes = paraulesDe([u])
-  const noves = u.vocabulari.filter((w) => !w.perComprovar && !Object.hasOwn(p.vist, w.id))
+  const noves = u.vocabulari.filter((w) => !w.perComprovar && !teClau(p.vist, w.id))
   const passos: Pas[] = []
   for (let i = 0; i < noves.length; i += TANDA) {
     const tanda = noves.slice(i, i + TANDA)
     passos.push(...tanda.map((w): Pas => ({ tipus: 'paraula-nova', ref: w.id })))
     passos.push(...barreja(tanda, rng).map((w) => pasParaula(w, totes, rng)))
   }
-  const sensePregunta = u.vocabulari.filter((w) => !w.perComprovar && Object.hasOwn(p.vist, w.id) && !Object.hasOwn(p.fitxes, w.id))
+  const sensePregunta = u.vocabulari.filter((w) => !w.perComprovar && teClau(p.vist, w.id) && !teClau(p.fitxes, w.id))
   passos.push(...barreja(sensePregunta, rng).map((w) => pasParaula(w, totes, rng)))
   const comprovar = idsPerComprovar([u])
   const ex = u.exercicis.filter((e) => exerciciValid(e, comprovar))
@@ -116,18 +117,18 @@ export function sessioRepas(unitats: Unitat[], p: Progres, ara: number, minuts: 
   // Vistes però mai contestades: entren a l'SRS amb una pregunta (sense «paraula nova»).
   for (const w of totes) {
     if (passos.length >= max) break
-    if (!w.perComprovar && Object.hasOwn(p.vist, w.id) && !Object.hasOwn(p.fitxes, w.id)) passos.push(pasParaula(w, totes, rng))
+    if (!w.perComprovar && teClau(p.vist, w.id) && !teClau(p.fitxes, w.id)) passos.push(pasParaula(w, totes, rng))
   }
 
   const tocada = (u: Unitat) =>
-    u.vocabulari.some((w) => Object.hasOwn(p.fitxes, w.id) || Object.hasOwn(p.vist, w.id))
+    u.vocabulari.some((w) => teClau(p.fitxes, w.id) || teClau(p.vist, w.id))
   // Unitats d'on treure paraules noves: les tocades, la de «darrera» i, si no n'hi ha cap, la u01.
   const pool = unitats.filter(tocada)
   const afegeix = (u?: Unitat) => { if (u && !pool.includes(u)) pool.push(u) }
   afegeix(unitats.find((u) => u.id === p.darrera?.unitat))
   if (pool.length === 0) afegeix(unitats.find((u) => u.id === 'u01') ?? unitats[0])
   const noves = unitats.filter((u) => pool.includes(u)).flatMap((u) => u.vocabulari)
-    .filter((w) => !w.perComprovar && !Object.hasOwn(p.vist, w.id) && !Object.hasOwn(p.fitxes, w.id))
+    .filter((w) => !w.perComprovar && !teClau(p.vist, w.id) && !teClau(p.fitxes, w.id))
     .slice(0, MAX_NOVES_REPAS)
   for (const w of noves) {
     if (passos.length + 2 > max) break

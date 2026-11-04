@@ -1,3 +1,4 @@
+import { teClau } from '../teClau'
 export type Fitxa = { caixa: number; venc: number; encerts: number; errors: number }
 export type Progres = {
   versio: 1
@@ -14,7 +15,7 @@ const CAIXA_MAX = INTERVALS.length - 1
 export const progresBuit = (): Progres => ({ versio: 1, fitxes: {}, vist: {} })
 
 export function respon(p: Progres, id: string, encert: boolean, ara: number): Progres {
-  const f = Object.hasOwn(p.fitxes, id) ? p.fitxes[id] : { caixa: 0, venc: ara, encerts: 0, errors: 0 }
+  const f = teClau(p.fitxes, id) ? p.fitxes[id] : { caixa: 0, venc: ara, encerts: 0, errors: 0 }
   const caixa = encert ? Math.min(f.caixa + 1, CAIXA_MAX) : 1
   const nova: Fitxa = {
     caixa,

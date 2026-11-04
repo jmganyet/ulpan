@@ -1,3 +1,4 @@
+import { teClau } from '../teClau'
 import { progresBuit, type Fitxa, type Progres } from './srs'
 
 export interface Magatzem {
@@ -64,7 +65,7 @@ export function importa(json: string): Progres {
 
 /** Registra el primer cop que s'ha vist un element (pur; no sobreescriu). */
 export function marcaVist(p: Progres, id: string, ara: number): Progres {
-  if (Object.hasOwn(p.vist, id)) return p
+  if (teClau(p.vist, id)) return p
   const vist = { ...p.vist }
   Object.defineProperty(vist, id, { value: ara, enumerable: true, writable: true, configurable: true })
   return { ...p, vist }

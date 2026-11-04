@@ -5,6 +5,8 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
   base: process.env.BASE ?? '/',
+  // Que funcioni també en mòbils amb un navegador de fa uns anys (iPhone amb iOS 14).
+  build: { target: ['es2019', 'safari14', 'chrome87'] },
   plugins: [
     preact(),
     VitePWA({
