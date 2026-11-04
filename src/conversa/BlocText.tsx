@@ -9,7 +9,7 @@ const esHebreu = (s: string) => /[֐-׿]/.test(s)
 type Clau = 'escoltar' | 'repetir' | number
 
 export function BlocText({ text, deps }: { text: Text; deps: Deps }) {
-  const { vocals, lletra, setVocals, setLletra } = usePreferencies()
+  const { vocals, lletra, setVocals, setLletra, dialegLent, setDialegLent } = usePreferencies()
   const [clau, setClau] = useState<Clau>('escoltar')
   const [tornVisible, setTornVisible] = useState(false)
   const [ca, setCa] = useState<Set<number>>(new Set())
@@ -41,6 +41,7 @@ export function BlocText({ text, deps }: { text: Text; deps: Deps }) {
       <div class="eines" role="group" aria-label="Aspecte">
         <button type="button" aria-pressed={vocals} class={vocals ? 'on' : ''} onClick={() => setVocals(!vocals)}>Vocals</button>
         <button type="button" aria-pressed={lletra === 'cursiva'} class={lletra === 'cursiva' ? 'on' : ''} onClick={() => setLletra(lletra === 'cursiva' ? 'quadrada' : 'cursiva')}>Cursiva</button>
+        <button type="button" aria-pressed={dialegLent} class={dialegLent ? 'on' : ''} onClick={() => setDialegLent(!dialegLent)}>Lent</button>
         {typeof clau === 'number' && !tornVisible && <button type="button" onClick={() => setTornVisible(true)}>Mostra el meu torn</button>}
       </div>
       <div class="xat">

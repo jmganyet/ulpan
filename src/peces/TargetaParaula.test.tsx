@@ -8,7 +8,7 @@ const p: Paraula = {
   id: 'u01-0', hebreu: 'שָׁלוֹם', translit: 'shalom', ca: 'hola, adéu', pagina: 'pag-02',
   icona: 'hand-waving', funcio: false, extra: false, perComprovar: false, audio: { normal: 'a.m4a', lent: 'b.m4a' },
 }
-beforeEach(() => desaPreferencies({ vocals: false, lletra: 'quadrada', sons: true, translit: true }))
+beforeEach(() => desaPreferencies({ vocals: false, lletra: 'quadrada', sons: true, translit: true, dialegLent: false }))
 afterEach(cleanup)
 
 describe('TargetaParaula', () => {

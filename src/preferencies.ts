@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'preact/hooks'
 
 export type Lletra = 'quadrada' | 'cursiva'
-export type Preferencies = { vocals: boolean; lletra: Lletra; sons: boolean; translit: boolean }
+export type Preferencies = { vocals: boolean; lletra: Lletra; sons: boolean; translit: boolean; dialegLent: boolean }
 
 const CLAU = 'ulpan:preferencies'
-const PER_DEFECTE: Preferencies = { vocals: false, lletra: 'quadrada', sons: true, translit: false }
+const PER_DEFECTE: Preferencies = { vocals: false, lletra: 'quadrada', sons: true, translit: false, dialegLent: false }
 
 function llegeix(): Preferencies {
   try {
@@ -15,6 +15,7 @@ function llegeix(): Preferencies {
         lletra: x.lletra === 'cursiva' ? 'cursiva' : 'quadrada',
         sons: typeof x.sons === 'boolean' ? x.sons : PER_DEFECTE.sons,
         translit: typeof x.translit === 'boolean' ? x.translit : PER_DEFECTE.translit,
+        dialegLent: typeof x.dialegLent === 'boolean' ? x.dialegLent : PER_DEFECTE.dialegLent,
       }
     }
   } catch {
@@ -24,6 +25,9 @@ function llegeix(): Preferencies {
 }
 
 let actual = llegeix()
+
+/** Les preferències d'ara, fora d'un component (p. ex. el reproductor dels diàlegs). */
+export const preferenciesActuals = (): Preferencies => actual
 const oients = new Set<() => void>()
 
 /** Fixa les preferències (i les desa, si es pot). */
@@ -51,5 +55,6 @@ export function usePreferencies() {
     setLletra: (lletra: Lletra) => desaPreferencies({ ...actual, lletra }),
     setSons: (sons: boolean) => desaPreferencies({ ...actual, sons }),
     setTranslit: (translit: boolean) => desaPreferencies({ ...actual, translit }),
+    setDialegLent: (dialegLent: boolean) => desaPreferencies({ ...actual, dialegLent }),
   }
 }

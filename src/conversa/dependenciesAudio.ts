@@ -1,6 +1,7 @@
 import type { Linia } from '../contingut/tipus'
 import { BASE } from '../contingut/index'
-import { reprodueix, aturaSo } from '../peces/so'
+import { reprodueix, aturaSo, VELOCITAT_LENTA } from '../peces/so'
+import { preferenciesActuals } from '../preferencies'
 import { urlAudio } from '../peces/audioBlob'
 import type { Deps } from './reproductor'
 
@@ -13,6 +14,8 @@ export function dependenciesAudio(tempsMaxim = TEMPS_MAXIM_METADADES): Deps {
   const el = new Audio()
   const durades = new Map<string, number>()
   const url = (l: Linia) => `${BASE}audio/${l.audio!.normal}`
+  // El botó «Lent» dels diàlegs alenteix la reproducció (i, per tant, els silencis per repetir).
+  const velocitat = () => (preferenciesActuals().dialegLent ? VELOCITAT_LENTA : 1)
   return {
     toca: (l) => new Promise<void>((resolt) => {
       const fi = () => {
@@ -22,17 +25,17 @@ export function dependenciesAudio(tempsMaxim = TEMPS_MAXIM_METADADES): Deps {
       }
       for (const e of ['ended', 'pause', 'error']) el.addEventListener(e, fi)
       try {
-        reprodueix(el, url(l)).catch(fi)
+        reprodueix(el, url(l), velocitat()).catch(fi)
       } catch { fi() }
     }),
     durada: (l) => {
       const coneguda = durades.get(l.id)
-      if (coneguda !== undefined) return Promise.resolve(coneguda)
+      if (coneguda !== undefined) return Promise.resolve(coneguda / velocitat())
       return new Promise<number>((resolt) => {
         const a = new Audio()
-        const fi = () => { clearTimeout(t); const d = Number.isFinite(a.duration) ? a.duration : DURADA_PER_DEFECTE; durades.set(l.id, d); resolt(d) }
+        const fi = () => { clearTimeout(t); const d = Number.isFinite(a.duration) ? a.duration : DURADA_PER_DEFECTE; durades.set(l.id, d); resolt(d / velocitat()) }
         // Un fitxer encallat (sense xarxa) no ha de penjar el bucle: durada per defecte, sense desar-la.
-        const t = setTimeout(() => resolt(DURADA_PER_DEFECTE), tempsMaxim)
+        const t = setTimeout(() => resolt(DURADA_PER_DEFECTE / velocitat()), tempsMaxim)
         a.addEventListener('loadedmetadata', fi)
         a.addEventListener('error', fi)
         a.preload = 'metadata'
