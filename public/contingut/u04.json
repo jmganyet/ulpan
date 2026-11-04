@@ -17,19 +17,31 @@
     {
       "id": "u04-0",
       "hebreu": "חֶדֶר",
-      "translit": "ḥeder, accent a la penúltima / ḥadarim",
-      "ca": "habitació / habitacions",
+      "translit": "ḥeder, accent a la penúltima",
+      "ca": "habitació",
       "pagina": "pag-20",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "חֲדָרִים"
-      ],
       "icona": "bed",
       "audio": {
         "normal": "e3ba6db50894.m4a",
         "lent": "f635495ca690.m4a"
+      }
+    },
+    {
+      "id": "u04-0-2",
+      "hebreu": "חֲדָרִים",
+      "translit": "ḥadarim",
+      "ca": "habitacions",
+      "pagina": "pag-20",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "bed",
+      "audio": {
+        "normal": "8bf4a2c84118.m4a",
+        "lent": "791f9e0c2488.m4a"
       }
     },
     {
@@ -64,15 +76,12 @@
     {
       "id": "u04-3",
       "hebreu": "בַּיִת",
-      "translit": "bayit, accent a la penúltima / batim",
-      "ca": "casa / cases",
+      "translit": "bayit, accent a la penúltima",
+      "ca": "casa",
       "pagina": "pag-20",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "בָּתִּים"
-      ],
       "icona": "house-simple",
       "audio": {
         "normal": "7dd4d9466727.m4a",
@@ -80,17 +89,29 @@
       }
     },
     {
-      "id": "u04-4",
-      "hebreu": "מְכוֹנִית",
-      "translit": "mekhonit / mekhoniyot",
-      "ca": "cotxe / cotxes",
+      "id": "u04-3-2",
+      "hebreu": "בָּתִּים",
+      "translit": "batim",
+      "ca": "cases",
       "pagina": "pag-20",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "מְכוֹנִיּוֹת"
-      ],
+      "icona": "house-simple",
+      "audio": {
+        "normal": "71f7dce6aebe.m4a",
+        "lent": "70b4081d86e7.m4a"
+      }
+    },
+    {
+      "id": "u04-4",
+      "hebreu": "מְכוֹנִית",
+      "translit": "mekhonit",
+      "ca": "cotxe",
+      "pagina": "pag-20",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
       "icona": "car",
       "audio": {
         "normal": "e679b0348a54.m4a",
@@ -98,17 +119,29 @@
       }
     },
     {
-      "id": "u04-5",
-      "hebreu": "כֶּלֶב",
-      "translit": "kelev, accent a la penúltima / klavim",
-      "ca": "gos / gossos",
+      "id": "u04-4-2",
+      "hebreu": "מְכוֹנִיּוֹת",
+      "translit": "mekhoniyot",
+      "ca": "cotxes",
       "pagina": "pag-20",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "כְּלָבִים"
-      ],
+      "icona": "car",
+      "audio": {
+        "normal": "3b04863b941f.m4a",
+        "lent": "96b20d6fedbe.m4a"
+      }
+    },
+    {
+      "id": "u04-5",
+      "hebreu": "כֶּלֶב",
+      "translit": "kelev, accent a la penúltima",
+      "ca": "gos",
+      "pagina": "pag-20",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
       "icona": "dog",
       "audio": {
         "normal": "417543a4949b.m4a",
@@ -116,21 +149,48 @@
       }
     },
     {
-      "id": "u04-6",
-      "hebreu": "סִיגַרְיָה",
-      "translit": "sigarya / sigariyot",
-      "ca": "cigarret / cigarrets",
+      "id": "u04-5-2",
+      "hebreu": "כְּלָבִים",
+      "translit": "klavim",
+      "ca": "gossos",
       "pagina": "pag-20",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "סִיגַרְיּוֹת"
-      ],
+      "icona": "dog",
+      "audio": {
+        "normal": "a0a90fb8fce7.m4a",
+        "lent": "cf0f897fd07a.m4a"
+      }
+    },
+    {
+      "id": "u04-6",
+      "hebreu": "סִיגַרְיָה",
+      "translit": "sigarya",
+      "ca": "cigarret",
+      "pagina": "pag-20",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
       "icona": "cigarette",
       "audio": {
         "normal": "35a00fc19218.m4a",
         "lent": "95ff382382dc.m4a"
+      }
+    },
+    {
+      "id": "u04-6-2",
+      "hebreu": "סִיגַרְיּוֹת",
+      "translit": "sigariyot",
+      "ca": "cigarrets",
+      "pagina": "pag-20",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "cigarette",
+      "audio": {
+        "normal": "3736f3b00390.m4a",
+        "lent": "5830c25e4dd1.m4a"
       }
     },
     {
@@ -223,18 +283,29 @@
     {
       "id": "u04-13",
       "hebreu": "שְׁמוֹ",
-      "translit": "shmo / shma",
-      "ca": "el seu nom, d'ell / d'ella",
+      "translit": "shmo",
+      "ca": "el seu nom, d'ell",
       "pagina": "pag-22",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "שְׁמָהּ"
-      ],
       "audio": {
         "normal": "fe2659a92d95.m4a",
         "lent": "8873a43fcb92.m4a"
+      }
+    },
+    {
+      "id": "u04-13-2",
+      "hebreu": "שְׁמָהּ",
+      "translit": "shma",
+      "ca": "el seu nom, d'ella",
+      "pagina": "pag-22",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "audio": {
+        "normal": "2f8e16260933.m4a",
+        "lent": "bf42675ca229.m4a"
       }
     },
     {
@@ -255,15 +326,12 @@
     {
       "id": "u04-15",
       "hebreu": "שֵׁם",
-      "translit": "shem / shemot",
-      "ca": "nom / noms, masc.",
+      "translit": "shem",
+      "ca": "nom (masc.)",
       "pagina": "pag-22",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "שֵׁמוֹת"
-      ],
       "icona": "identification-card",
       "audio": {
         "normal": "b3188ff1a223.m4a",
@@ -271,17 +339,29 @@
       }
     },
     {
-      "id": "u04-16",
-      "hebreu": "עִבְרִי",
-      "translit": "ivri / ivrit",
-      "ca": "hebreu / hebrea, adjectiu",
+      "id": "u04-15-2",
+      "hebreu": "שֵׁמוֹת",
+      "translit": "shemot",
+      "ca": "noms",
       "pagina": "pag-22",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "עִבְרִית"
-      ],
+      "icona": "identification-card",
+      "audio": {
+        "normal": "f687e01f19c2.m4a",
+        "lent": "7150cd593c16.m4a"
+      }
+    },
+    {
+      "id": "u04-16",
+      "hebreu": "עִבְרִי",
+      "translit": "ivri",
+      "ca": "hebreu",
+      "pagina": "pag-22",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
       "icona": "star-of-david",
       "audio": {
         "normal": "f417892b0710.m4a",
@@ -289,20 +369,46 @@
       }
     },
     {
-      "id": "u04-17",
-      "hebreu": "עִבְרִיִּים",
-      "translit": "ivriyim / ivriyot",
-      "ca": "hebreus / hebrees",
+      "id": "u04-16-2",
+      "hebreu": "עִבְרִית",
+      "translit": "ivrit",
+      "ca": "hebrea, adjectiu",
       "pagina": "pag-22",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "עִבְרִיּוֹת"
-      ],
+      "icona": "star-of-david",
+      "audio": {
+        "normal": "e163e734ab39.m4a",
+        "lent": "f106b9b0f630.m4a"
+      }
+    },
+    {
+      "id": "u04-17",
+      "hebreu": "עִבְרִיִּים",
+      "translit": "ivriyim",
+      "ca": "hebreus",
+      "pagina": "pag-22",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
       "audio": {
         "normal": "2b428b0d17a3.m4a",
         "lent": "d1ac941ee720.m4a"
+      }
+    },
+    {
+      "id": "u04-17-2",
+      "hebreu": "עִבְרִיּוֹת",
+      "translit": "ivriyot",
+      "ca": "hebrees",
+      "pagina": "pag-22",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "audio": {
+        "normal": "917493452644.m4a",
+        "lent": "0a2363184fcf.m4a"
       }
     },
     {
@@ -380,54 +486,113 @@
     {
       "id": "u04-23",
       "hebreu": "שְׁלוֹמִי",
-      "translit": "shlomi / shlomo / shloma",
-      "ca": "estic / està ell / està ella",
+      "translit": "shlomi",
+      "ca": "estic",
       "pagina": "pag-24",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "שְׁלוֹמוֹ",
-        "שְׁלוֹמָהּ"
-      ],
       "audio": {
         "normal": "6c785b9554ab.m4a",
         "lent": "4887a4baf81e.m4a"
       }
     },
     {
-      "id": "u04-24",
-      "hebreu": "שְׁלוֹמֵנוּ",
-      "translit": "shlomenu / shlomkhem / shlomkhen",
-      "ca": "estem / esteu, masc. / esteu, fem.",
+      "id": "u04-23-2",
+      "hebreu": "שְׁלוֹמוֹ",
+      "translit": "shlomo",
+      "ca": "està ell",
       "pagina": "pag-24",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "שְׁלוֹמְכֶם",
-        "שְׁלוֹמְכֶן"
-      ],
+      "audio": {
+        "normal": "d7b3ee941ab0.m4a",
+        "lent": "ff579ca30bb9.m4a"
+      }
+    },
+    {
+      "id": "u04-23-3",
+      "hebreu": "שְׁלוֹמָהּ",
+      "translit": "shloma",
+      "ca": "està ella",
+      "pagina": "pag-24",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "audio": {
+        "normal": "63611879af86.m4a",
+        "lent": "334e042264e8.m4a"
+      }
+    },
+    {
+      "id": "u04-24",
+      "hebreu": "שְׁלוֹמֵנוּ",
+      "translit": "shlomenu",
+      "ca": "estem",
+      "pagina": "pag-24",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
       "audio": {
         "normal": "5ce3625fa921.m4a",
         "lent": "ae71a7dd221d.m4a"
       }
     },
     {
-      "id": "u04-25",
-      "hebreu": "שְׁלוֹמָם",
-      "translit": "shlomam / shloman",
-      "ca": "estan, masc. / estan, fem.",
+      "id": "u04-24-2",
+      "hebreu": "שְׁלוֹמְכֶם",
+      "translit": "shlomkhem",
+      "ca": "esteu (masc.)",
       "pagina": "pag-24",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "שְׁלוֹמָן"
-      ],
+      "audio": {
+        "normal": "3e06d8058bfa.m4a",
+        "lent": "89df1e48ea35.m4a"
+      }
+    },
+    {
+      "id": "u04-24-3",
+      "hebreu": "שְׁלוֹמְכֶן",
+      "translit": "shlomkhen",
+      "ca": "esteu (fem.)",
+      "pagina": "pag-24",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "audio": {
+        "normal": "cdee55199beb.m4a",
+        "lent": "cb4db76749cd.m4a"
+      }
+    },
+    {
+      "id": "u04-25",
+      "hebreu": "שְׁלוֹמָם",
+      "translit": "shlomam",
+      "ca": "estan (masc.)",
+      "pagina": "pag-24",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
       "audio": {
         "normal": "64724314afcf.m4a",
         "lent": "a96e016868ef.m4a"
+      }
+    },
+    {
+      "id": "u04-25-2",
+      "hebreu": "שְׁלוֹמָן",
+      "translit": "shloman",
+      "ca": "estan (fem.)",
+      "pagina": "pag-24",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "audio": {
+        "normal": "44cd79559553.m4a",
+        "lent": "eb9bf8abc844.m4a"
       }
     },
     {
@@ -473,8 +638,8 @@
       ],
       "icona": "medal",
       "audio": {
-        "normal": "774c7f81cca6.m4a",
-        "lent": "bf9773a23212.m4a"
+        "normal": "2e78d4da8f9c.m4a",
+        "lent": "9dde467a3eef.m4a"
       }
     },
     {
@@ -490,22 +655,19 @@
         "מְצוּיָנוֹת"
       ],
       "audio": {
-        "normal": "b0a199010966.m4a",
-        "lent": "6da7f923dc7a.m4a"
+        "normal": "842693a585f5.m4a",
+        "lent": "1b02f0e37ca9.m4a"
       }
     },
     {
       "id": "u04-30",
       "hebreu": "רַע",
-      "translit": "ra / ra'a",
-      "ca": "dolent / dolenta; malament",
+      "translit": "ra",
+      "ca": "dolent; malament",
       "pagina": "pag-24",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "רָעָה"
-      ],
       "icona": "thumbs-down",
       "audio": {
         "normal": "0fccad694195.m4a",
@@ -513,20 +675,46 @@
       }
     },
     {
-      "id": "u04-31",
-      "hebreu": "רָעִים",
-      "translit": "raim / raot",
-      "ca": "dolents / dolentes",
+      "id": "u04-30-2",
+      "hebreu": "רָעָה",
+      "translit": "ra'a",
+      "ca": "dolenta",
       "pagina": "pag-24",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "רָעוֹת"
-      ],
+      "icona": "thumbs-down",
+      "audio": {
+        "normal": "739430f6b7ab.m4a",
+        "lent": "21b371b7d260.m4a"
+      }
+    },
+    {
+      "id": "u04-31",
+      "hebreu": "רָעִים",
+      "translit": "raim",
+      "ca": "dolents",
+      "pagina": "pag-24",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
       "audio": {
         "normal": "8b61a4460dc0.m4a",
         "lent": "f919fe21b435.m4a"
+      }
+    },
+    {
+      "id": "u04-31-2",
+      "hebreu": "רָעוֹת",
+      "translit": "raot",
+      "ca": "dolentes",
+      "pagina": "pag-24",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "audio": {
+        "normal": "277f1875503d.m4a",
+        "lent": "a0aa0caa4e60.m4a"
       }
     },
     {
@@ -576,19 +764,31 @@
     {
       "id": "u04-35",
       "hebreu": "שׁוּרָה",
-      "translit": "shura / shurot",
-      "ca": "fila, línia / files",
+      "translit": "shura",
+      "ca": "fila, línia",
       "pagina": "pag-26",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "שׁוּרוֹת"
-      ],
       "icona": "rows",
       "audio": {
         "normal": "7ba97c9d55f9.m4a",
         "lent": "b209103ea099.m4a"
+      }
+    },
+    {
+      "id": "u04-35-2",
+      "hebreu": "שׁוּרוֹת",
+      "translit": "shurot",
+      "ca": "files",
+      "pagina": "pag-26",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "rows",
+      "audio": {
+        "normal": "15fd231bd9d4.m4a",
+        "lent": "23e7407c7bce.m4a"
       }
     },
     {
@@ -638,19 +838,31 @@
     {
       "id": "u04-39",
       "hebreu": "קְבוּצָה",
-      "translit": "kvutsa / kvutsot",
-      "ca": "grup / grups",
+      "translit": "kvutsa",
+      "ca": "grup",
       "pagina": "pag-27",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "קְבוּצוֹת"
-      ],
       "icona": "circles-three",
       "audio": {
         "normal": "1eb26fbdb0f3.m4a",
         "lent": "dacd1fdb5651.m4a"
+      }
+    },
+    {
+      "id": "u04-39-2",
+      "hebreu": "קְבוּצוֹת",
+      "translit": "kvutsot",
+      "ca": "grups",
+      "pagina": "pag-27",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "circles-three",
+      "audio": {
+        "normal": "b54bf8aa443d.m4a",
+        "lent": "9e9019e7b37e.m4a"
       }
     }
   ],

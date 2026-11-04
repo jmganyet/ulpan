@@ -99,15 +99,22 @@
     {
       "id": "u07-8",
       "hebreu": "אֵיזֶה",
-      "translit": "eize / eizo",
-      "ca": "quin? / quina?",
+      "translit": "eize",
+      "ca": "quin?",
       "pagina": "pag-41",
       "funcio": true,
       "extra": false,
-      "perComprovar": false,
-      "formes": [
-        "אֵיזוֹ"
-      ]
+      "perComprovar": false
+    },
+    {
+      "id": "u07-8-2",
+      "hebreu": "אֵיזוֹ",
+      "translit": "eizo",
+      "ca": "quina?",
+      "pagina": "pag-41",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false
     },
     {
       "id": "u07-9",

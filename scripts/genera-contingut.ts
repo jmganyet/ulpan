@@ -1,6 +1,7 @@
 import type { Exercici, Hebreu, Linia, Paraula, PuntGramatica, Text, Unitat } from '../src/contingut/tipus'
 import { esNota, treuVocals } from '../src/hebreu'
 import type { Pagina } from './dossier/pagina'
+import { separaFormes } from './dossier/separa'
 
 export type UnitatBase = { id: string; num: number; titol: string; color: string; pagines: string[]; vocabulari: string }
 
@@ -26,7 +27,11 @@ const hebreu = (u: string, n: string | undefined): Hebreu =>
 /** Combina el dossier (pàgines, vocabulari) amb la capa curada. Pura: sense IO. */
 export function combina(base: UnitatBase, pagines: Pagina[], vocab: Paraula[], curat: Curat): Unitat {
   const icones = curat.icones ?? {}
-  const vocabulari: Paraula[] = vocab.map((p) => (icones[p.id] ? { ...p, icona: icones[p.id] } : { ...p }))
+  // Cada forma amb significat propi és una paraula a part (הוּא «ell», הִיא «ella»); la icona val per a totes.
+  const vocabulari: Paraula[] = vocab.flatMap(separaFormes).map((p) => {
+    const icona = icones[p.id] ?? icones[p.id.replace(/-\d+$/, '')]
+    return icona ? { ...p, icona } : { ...p }
+  })
   ;(curat.extres?.vocabulari ?? []).forEach((e, i) => {
     vocabulari.push({
       id: `${base.id}-x${i}`, translit: '', ca: '', pagina: 'extra', funcio: false, perComprovar: false,

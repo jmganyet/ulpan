@@ -148,41 +148,62 @@
     {
       "id": "u08-13",
       "hebreu": "יָוָן",
-      "translit": "yavan / yevanit",
-      "ca": "Grècia / grec",
+      "translit": "yavan",
+      "ca": "Grècia",
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false,
-      "formes": [
-        "יְוָנִית"
-      ]
+      "perComprovar": false
+    },
+    {
+      "id": "u08-13-2",
+      "hebreu": "יְוָנִית",
+      "translit": "yevanit",
+      "ca": "grec",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
     },
     {
       "id": "u08-14",
       "hebreu": "אִיטַלְיָה",
-      "translit": "italya / italkit",
-      "ca": "Itàlia / italià",
+      "translit": "italya",
+      "ca": "Itàlia",
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false,
-      "formes": [
-        "אִיטַלְקִית"
-      ]
+      "perComprovar": false
+    },
+    {
+      "id": "u08-14-2",
+      "hebreu": "אִיטַלְקִית",
+      "translit": "italkit",
+      "ca": "italià",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
     },
     {
       "id": "u08-15",
       "hebreu": "יַפָּן",
-      "translit": "yapan / yapanit",
-      "ca": "Japó / japonès",
+      "translit": "yapan",
+      "ca": "Japó",
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false,
-      "formes": [
-        "יַפָּנִית"
-      ]
+      "perComprovar": false
+    },
+    {
+      "id": "u08-15-2",
+      "hebreu": "יַפָּנִית",
+      "translit": "yapanit",
+      "ca": "japonès",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
     },
     {
       "id": "u08-16",
@@ -197,106 +218,162 @@
     {
       "id": "u08-17",
       "hebreu": "סְפָרַד",
-      "translit": "sfarad / sfaradit",
-      "ca": "Espanya / castellà",
+      "translit": "sfarad",
+      "ca": "Espanya",
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false,
-      "formes": [
-        "סְפָרַדִּית"
-      ]
+      "perComprovar": false
+    },
+    {
+      "id": "u08-17-2",
+      "hebreu": "סְפָרַדִּית",
+      "translit": "sfaradit",
+      "ca": "castellà",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
     },
     {
       "id": "u08-18",
       "hebreu": "הוֹלַנְד",
-      "translit": "holand / holandit",
-      "ca": "Holanda / neerlandès",
+      "translit": "holand",
+      "ca": "Holanda",
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false,
-      "formes": [
-        "הוֹלַנְדִּית"
-      ]
+      "perComprovar": false
+    },
+    {
+      "id": "u08-18-2",
+      "hebreu": "הוֹלַנְדִּית",
+      "translit": "holandit",
+      "ca": "neerlandès",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
     },
     {
       "id": "u08-19",
       "hebreu": "סִין",
-      "translit": "sin / sinit",
-      "ca": "Xina / xinès",
+      "translit": "sin",
+      "ca": "Xina",
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false,
-      "formes": [
-        "סִינִית"
-      ]
+      "perComprovar": false
+    },
+    {
+      "id": "u08-19-2",
+      "hebreu": "סִינִית",
+      "translit": "sinit",
+      "ca": "xinès",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
     },
     {
       "id": "u08-20",
       "hebreu": "הוּנְגַרְיָה",
-      "translit": "hungarya / hungarit",
-      "ca": "Hongria / hongarès",
+      "translit": "hungarya",
+      "ca": "Hongria",
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false,
-      "formes": [
-        "הוּנְגָרִית"
-      ]
+      "perComprovar": false
+    },
+    {
+      "id": "u08-20-2",
+      "hebreu": "הוּנְגָרִית",
+      "translit": "hungarit",
+      "ca": "hongarès",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
     },
     {
       "id": "u08-21",
       "hebreu": "פּוֹלִין",
-      "translit": "polin / polanit",
-      "ca": "Polònia / polonès",
+      "translit": "polin",
+      "ca": "Polònia",
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false,
-      "formes": [
-        "פּוֹלָנִית"
-      ]
+      "perComprovar": false
+    },
+    {
+      "id": "u08-21-2",
+      "hebreu": "פּוֹלָנִית",
+      "translit": "polanit",
+      "ca": "polonès",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
     },
     {
       "id": "u08-22",
       "hebreu": "רוֹמַנְיָה",
-      "translit": "romanya / romanit",
-      "ca": "Romania / romanès",
+      "translit": "romanya",
+      "ca": "Romania",
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false,
-      "formes": [
-        "רוֹמָנִית"
-      ]
+      "perComprovar": false
+    },
+    {
+      "id": "u08-22-2",
+      "hebreu": "רוֹמָנִית",
+      "translit": "romanit",
+      "ca": "romanès",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
     },
     {
       "id": "u08-23",
       "hebreu": "שְׁוֶודְיָה",
-      "translit": "shvedya / shvedit",
-      "ca": "Suècia / suec",
+      "translit": "shvedya",
+      "ca": "Suècia",
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false,
-      "formes": [
-        "שְׁוֶודִית"
-      ]
+      "perComprovar": false
+    },
+    {
+      "id": "u08-23-2",
+      "hebreu": "שְׁוֶודִית",
+      "translit": "shvedit",
+      "ca": "suec",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
     },
     {
       "id": "u08-24",
       "hebreu": "טוּרְקִיָּה",
-      "translit": "turkiya / turkit",
-      "ca": "Turquia / turc",
+      "translit": "turkiya",
+      "ca": "Turquia",
       "pagina": "pag-46",
       "funcio": false,
       "extra": false,
-      "perComprovar": false,
-      "formes": [
-        "טוּרְקִית"
-      ]
+      "perComprovar": false
+    },
+    {
+      "id": "u08-24-2",
+      "hebreu": "טוּרְקִית",
+      "translit": "turkit",
+      "ca": "turc",
+      "pagina": "pag-46",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
     },
     {
       "id": "u08-25",
@@ -360,15 +437,22 @@
     {
       "id": "u08-30",
       "hebreu": "חוֹלֶה",
-      "translit": "ḥole / ḥola",
-      "ca": "malalt / malalta",
+      "translit": "ḥole",
+      "ca": "malalt",
       "pagina": "pag-48",
       "funcio": false,
       "extra": false,
-      "perComprovar": false,
-      "formes": [
-        "חוֹלָה"
-      ]
+      "perComprovar": false
+    },
+    {
+      "id": "u08-30-2",
+      "hebreu": "חוֹלָה",
+      "translit": "ḥola",
+      "ca": "malalta",
+      "pagina": "pag-48",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
     },
     {
       "id": "u08-31",
@@ -383,15 +467,22 @@
     {
       "id": "u08-32",
       "hebreu": "טוּר",
-      "translit": "tur / turim",
-      "ca": "columna / columnes",
+      "translit": "tur",
+      "ca": "columna",
       "pagina": "pag-49",
       "funcio": false,
       "extra": false,
-      "perComprovar": false,
-      "formes": [
-        "טוּרִים"
-      ]
+      "perComprovar": false
+    },
+    {
+      "id": "u08-32-2",
+      "hebreu": "טוּרִים",
+      "translit": "turim",
+      "ca": "columnes",
+      "pagina": "pag-49",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
     },
     {
       "id": "u08-33",

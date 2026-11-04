@@ -183,15 +183,22 @@
     {
       "id": "u09-16",
       "hebreu": "חָכָם",
-      "translit": "ḥakham / ḥakhama",
-      "ca": "savi / sàvia",
+      "translit": "ḥakham",
+      "ca": "savi",
       "pagina": "pag-51",
       "funcio": false,
       "extra": false,
-      "perComprovar": false,
-      "formes": [
-        "חֲכָמָה"
-      ]
+      "perComprovar": false
+    },
+    {
+      "id": "u09-16-2",
+      "hebreu": "חֲכָמָה",
+      "translit": "ḥakhama",
+      "ca": "sàvia",
+      "pagina": "pag-51",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false
     },
     {
       "id": "u09-17",

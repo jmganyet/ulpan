@@ -1,4 +1,5 @@
 import type { Paraula } from '../contingut/tipus'
+import { textParaula } from '../contingut/formes'
 import { treuVocals } from '../hebreu'
 import { BotoSo } from './BotoSo'
 import { Icona } from './Icona'
@@ -15,9 +16,9 @@ export function TargetaParaula({ paraula: p, color, vocals = true }: { paraula: 
       )}
       <div class="targeta-cos">
         <div class="hebreu-vocals">
-          <span dir="rtl" lang="he" class="quadrada gran">{vocals ? p.hebreu : treuVocals(p.hebreu)}</span>
+          <span dir="rtl" lang="he" class="quadrada gran">{vocals ? textParaula(p) : treuVocals(textParaula(p))}</span>
         </div>
-        <div><span dir="rtl" lang="he" class="cursiva">{treuVocals(p.hebreu)}</span></div>
+        <div><span dir="rtl" lang="he" class="cursiva">{treuVocals(textParaula(p))}</span></div>
         <div class="translit">{p.translit}</div>
         <div class="ca">{p.ca}</div>
         <div class="targeta-peu">

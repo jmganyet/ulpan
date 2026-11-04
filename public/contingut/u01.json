@@ -89,19 +89,31 @@
     {
       "id": "u01-5",
       "hebreu": "תַּלְמִיד",
-      "translit": "talmid / talmida",
-      "ca": "alumne / alumna",
+      "translit": "talmid",
+      "ca": "alumne",
       "pagina": "pag-02",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "תַּלְמִידָה"
-      ],
       "icona": "student",
       "audio": {
         "normal": "e8319f4cd5fc.m4a",
         "lent": "21585b2e1585.m4a"
+      }
+    },
+    {
+      "id": "u01-5-2",
+      "hebreu": "תַּלְמִידָה",
+      "translit": "talmida",
+      "ca": "alumna",
+      "pagina": "pag-02",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "student",
+      "audio": {
+        "normal": "9df63c4cabd8.m4a",
+        "lent": "9a9816eea972.m4a"
       }
     },
     {
@@ -133,26 +145,38 @@
       ],
       "icona": "airplane-landing",
       "audio": {
-        "normal": "abd53ac5eae0.m4a",
-        "lent": "0f1031c5c45e.m4a"
+        "normal": "38cbc966d34d.m4a",
+        "lent": "1df6bdc43760.m4a"
       }
     },
     {
       "id": "u01-8",
       "hebreu": "חָדָשׁ",
-      "translit": "ḥadash / ḥadasha",
-      "ca": "nou / nova",
+      "translit": "ḥadash",
+      "ca": "nou",
       "pagina": "pag-02",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "חֲדָשָׁה"
-      ],
       "icona": "sparkle",
       "audio": {
         "normal": "7568996bfe14.m4a",
         "lent": "39b3ab6df71d.m4a"
+      }
+    },
+    {
+      "id": "u01-8-2",
+      "hebreu": "חֲדָשָׁה",
+      "translit": "ḥadasha",
+      "ca": "nova",
+      "pagina": "pag-02",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "sparkle",
+      "audio": {
+        "normal": "ce0ec71ef892.m4a",
+        "lent": "c8da415f9476.m4a"
       }
     },
     {
@@ -184,25 +208,36 @@
       ],
       "icona": "suitcase-rolling",
       "audio": {
-        "normal": "8104a4ca00b1.m4a",
-        "lent": "6e6b547b9e17.m4a"
+        "normal": "36ac88ca2af8.m4a",
+        "lent": "129d6ea9f360.m4a"
       }
     },
     {
       "id": "u01-11",
       "hebreu": "הוּא",
-      "translit": "hu / hi",
-      "ca": "ell / ella",
+      "translit": "hu",
+      "ca": "ell",
       "pagina": "pag-02",
       "funcio": true,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "הִיא"
-      ],
       "audio": {
         "normal": "af401a2e17e9.m4a",
         "lent": "332ac7fb2c88.m4a"
+      }
+    },
+    {
+      "id": "u01-11-2",
+      "hebreu": "הִיא",
+      "translit": "hi",
+      "ca": "ella",
+      "pagina": "pag-02",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false,
+      "audio": {
+        "normal": "ef02fb572289.m4a",
+        "lent": "9d6a8f0698fb.m4a"
       }
     },
     {
@@ -218,8 +253,8 @@
         "מֵ־"
       ],
       "audio": {
-        "normal": "c6a634080cf5.m4a",
-        "lent": "07532e6772d9.m4a"
+        "normal": "739c85c5426f.m4a",
+        "lent": "5cd1f6ba154c.m4a"
       }
     },
     {
@@ -235,8 +270,8 @@
         "וּ־"
       ],
       "audio": {
-        "normal": "e9e52f524454.m4a",
-        "lent": "a982cc68239f.m4a"
+        "normal": "18cb5799c7eb.m4a",
+        "lent": "8cfee0fceeed.m4a"
       }
     },
     {
@@ -287,15 +322,12 @@
     {
       "id": "u01-17",
       "hebreu": "מוֹרֶה",
-      "translit": "more / mora",
-      "ca": "mestre / mestra",
+      "translit": "more",
+      "ca": "mestre",
       "pagina": "pag-03",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "מוֹרָה"
-      ],
       "icona": "chalkboard-teacher",
       "audio": {
         "normal": "84f31750bdb1.m4a",
@@ -303,17 +335,29 @@
       }
     },
     {
-      "id": "u01-18",
-      "hebreu": "טוֹב",
-      "translit": "tov / tova",
-      "ca": "bo / bona",
+      "id": "u01-17-2",
+      "hebreu": "מוֹרָה",
+      "translit": "mora",
+      "ca": "mestra",
       "pagina": "pag-03",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "טוֹבָה"
-      ],
+      "icona": "chalkboard-teacher",
+      "audio": {
+        "normal": "7e0ebfef67f7.m4a",
+        "lent": "43178d789add.m4a"
+      }
+    },
+    {
+      "id": "u01-18",
+      "hebreu": "טוֹב",
+      "translit": "tov",
+      "ca": "bo",
+      "pagina": "pag-03",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
       "icona": "thumbs-up",
       "audio": {
         "normal": "58867d3abf36.m4a",
@@ -321,21 +365,48 @@
       }
     },
     {
+      "id": "u01-18-2",
+      "hebreu": "טוֹבָה",
+      "translit": "tova",
+      "ca": "bona",
+      "pagina": "pag-03",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "thumbs-up",
+      "audio": {
+        "normal": "91bea3f693da.m4a",
+        "lent": "d6f5a67bb768.m4a"
+      }
+    },
+    {
       "id": "u01-19",
       "hebreu": "חָבֵר",
-      "translit": "ḥaver / ḥavera",
-      "ca": "amic / amiga; company",
+      "translit": "ḥaver",
+      "ca": "amic; company",
       "pagina": "pag-04",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "חֲבֵרָה"
-      ],
       "icona": "users",
       "audio": {
         "normal": "30f998c2063a.m4a",
         "lent": "220edf74208d.m4a"
+      }
+    },
+    {
+      "id": "u01-19-2",
+      "hebreu": "חֲבֵרָה",
+      "translit": "ḥavera",
+      "ca": "amiga",
+      "pagina": "pag-04",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "users",
+      "audio": {
+        "normal": "23158b5c6f4e.m4a",
+        "lent": "fcdda0b52f79.m4a"
       }
     },
     {
@@ -397,35 +468,57 @@
     {
       "id": "u01-24",
       "hebreu": "אַתֶּם",
-      "translit": "atem / aten",
-      "ca": "vosaltres masc. / fem.",
+      "translit": "atem",
+      "ca": "vosaltres (masc.)",
       "pagina": "pag-05",
       "funcio": true,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "אַתֶּן"
-      ],
       "audio": {
         "normal": "16efc3efa785.m4a",
         "lent": "ada3b453578b.m4a"
       }
     },
     {
-      "id": "u01-25",
-      "hebreu": "הֵם",
-      "translit": "hem / hen",
-      "ca": "ells / elles",
+      "id": "u01-24-2",
+      "hebreu": "אַתֶּן",
+      "translit": "aten",
+      "ca": "vosaltres (fem.)",
       "pagina": "pag-05",
       "funcio": true,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "הֵן"
-      ],
+      "audio": {
+        "normal": "89980085756e.m4a",
+        "lent": "9278578007cc.m4a"
+      }
+    },
+    {
+      "id": "u01-25",
+      "hebreu": "הֵם",
+      "translit": "hem",
+      "ca": "ells",
+      "pagina": "pag-05",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false,
       "audio": {
         "normal": "e1802dde1c48.m4a",
         "lent": "07789b3a1f7b.m4a"
+      }
+    },
+    {
+      "id": "u01-25-2",
+      "hebreu": "הֵן",
+      "translit": "hen",
+      "ca": "elles",
+      "pagina": "pag-05",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false,
+      "audio": {
+        "normal": "e1663ab8c1f5.m4a",
+        "lent": "329663ef21f2.m4a"
       }
     },
     {
@@ -501,8 +594,8 @@
       ],
       "icona": "squares-four",
       "audio": {
-        "normal": "bcceb8add4ed.m4a",
-        "lent": "a022b465241d.m4a"
+        "normal": "7ab371e4fa4d.m4a",
+        "lent": "8a3f40113931.m4a"
       }
     },
     {
@@ -552,19 +645,31 @@
     {
       "id": "u01-34",
       "hebreu": "תַּרְגִּיל",
-      "translit": "targil / targilim",
-      "ca": "exercici / exercicis",
+      "translit": "targil",
+      "ca": "exercici",
       "pagina": "pag-08",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "תַּרְגִּילִים"
-      ],
       "icona": "exam",
       "audio": {
         "normal": "5fa52d68bbb5.m4a",
         "lent": "094536fd39d9.m4a"
+      }
+    },
+    {
+      "id": "u01-34-2",
+      "hebreu": "תַּרְגִּילִים",
+      "translit": "targilim",
+      "ca": "exercicis",
+      "pagina": "pag-08",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "exam",
+      "audio": {
+        "normal": "980c3ca17503.m4a",
+        "lent": "11bb9233cd58.m4a"
       }
     },
     {
@@ -585,15 +690,12 @@
     {
       "id": "u01-36",
       "hebreu": "מִלָּה",
-      "translit": "mila / milim",
-      "ca": "paraula / paraules",
+      "translit": "mila",
+      "ca": "paraula",
       "pagina": "pag-09",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "מִלִּים"
-      ],
       "icona": "text-aa",
       "audio": {
         "normal": "5da32f9d09ba.m4a",
@@ -601,21 +703,48 @@
       }
     },
     {
-      "id": "u01-37",
-      "hebreu": "מִשְׁפָּט",
-      "translit": "mishpat / mishpatim",
-      "ca": "frase / frases",
+      "id": "u01-36-2",
+      "hebreu": "מִלִּים",
+      "translit": "milim",
+      "ca": "paraules",
       "pagina": "pag-09",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "מִשְׁפָּטִים"
-      ],
+      "icona": "text-aa",
+      "audio": {
+        "normal": "e302edd40da4.m4a",
+        "lent": "9106f48b5972.m4a"
+      }
+    },
+    {
+      "id": "u01-37",
+      "hebreu": "מִשְׁפָּט",
+      "translit": "mishpat",
+      "ca": "frase",
+      "pagina": "pag-09",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
       "icona": "text-align-left",
       "audio": {
         "normal": "ee6b1ad2dd03.m4a",
         "lent": "de7aad32f431.m4a"
+      }
+    },
+    {
+      "id": "u01-37-2",
+      "hebreu": "מִשְׁפָּטִים",
+      "translit": "mishpatim",
+      "ca": "frases",
+      "pagina": "pag-09",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "text-align-left",
+      "audio": {
+        "normal": "0f661d6cbebd.m4a",
+        "lent": "fbdfbe135d31.m4a"
       }
     }
   ],

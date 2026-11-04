@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'preact/hooks'
 import type { Paraula } from '../contingut/tipus'
+import { textParaula } from '../contingut/formes'
 import { treuVocals } from '../hebreu'
 import { BotoSo } from '../peces/BotoSo'
 import { usePreferencies } from '../preferencies'
@@ -21,8 +22,8 @@ const Hebr = ({ p }: { p: Paraula }) => {
   const { vocals } = usePreferencies()
   return (
     <span class="dues-lletres">
-      <span dir="rtl" lang="he" class="quadrada gran">{vocals ? p.hebreu : treuVocals(p.hebreu)}</span>
-      <span dir="rtl" lang="he" class="cursiva">{treuVocals(p.hebreu)}</span>
+      <span dir="rtl" lang="he" class="quadrada gran">{vocals ? textParaula(p) : treuVocals(textParaula(p))}</span>
+      <span dir="rtl" lang="he" class="cursiva">{treuVocals(textParaula(p))}</span>
     </span>
   )
 }

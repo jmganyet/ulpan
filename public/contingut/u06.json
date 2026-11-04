@@ -42,25 +42,36 @@
       ],
       "icona": "identification-badge",
       "audio": {
-        "normal": "b55ad7c33555.m4a",
-        "lent": "b65ca6be3aba.m4a"
+        "normal": "4908f1563bc3.m4a",
+        "lent": "5b6094566f9e.m4a"
       }
     },
     {
       "id": "u06-2",
       "hebreu": "עֲרָבִי",
-      "translit": "aravi / aravim",
-      "ca": "àrab / àrabs",
+      "translit": "aravi",
+      "ca": "àrab",
       "pagina": "pag-33",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "עֲרָבִים"
-      ],
       "audio": {
         "normal": "5dac231e627e.m4a",
         "lent": "4899951733e2.m4a"
+      }
+    },
+    {
+      "id": "u06-2-2",
+      "hebreu": "עֲרָבִים",
+      "translit": "aravim",
+      "ca": "àrabs",
+      "pagina": "pag-33",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "audio": {
+        "normal": "55357ecc47f9.m4a",
+        "lent": "1a879ceb1412.m4a"
       }
     },
     {
@@ -81,18 +92,29 @@
     {
       "id": "u06-4",
       "hebreu": "יְהוּדִי",
-      "translit": "yehudi / yehudim",
-      "ca": "jueu / jueus",
+      "translit": "yehudi",
+      "ca": "jueu",
       "pagina": "pag-33",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "יְהוּדִים"
-      ],
       "audio": {
         "normal": "a1e2559dd6f4.m4a",
         "lent": "7bbb90a99fb6.m4a"
+      }
+    },
+    {
+      "id": "u06-4-2",
+      "hebreu": "יְהוּדִים",
+      "translit": "yehudim",
+      "ca": "jueus",
+      "pagina": "pag-33",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "audio": {
+        "normal": "5d7d4e470d95.m4a",
+        "lent": "5689995a80cb.m4a"
       }
     },
     {
@@ -109,8 +131,8 @@
       ],
       "icona": "table",
       "audio": {
-        "normal": "d8dbfdf1c2c6.m4a",
-        "lent": "dce462af61eb.m4a"
+        "normal": "2b7b14132fc2.m4a",
+        "lent": "f0202b23a812.m4a"
       }
     },
     {
@@ -127,8 +149,8 @@
       ],
       "icona": "chair",
       "audio": {
-        "normal": "65c3675fc687.m4a",
-        "lent": "4eb549b40dff.m4a"
+        "normal": "5b4bda69e2a3.m4a",
+        "lent": "ace49cee3fad.m4a"
       }
     },
     {
@@ -145,8 +167,8 @@
       ],
       "icona": "lockers",
       "audio": {
-        "normal": "c3818dc153b9.m4a",
-        "lent": "375136bd3588.m4a"
+        "normal": "fe6c3da24356.m4a",
+        "lent": "2633180151f7.m4a"
       }
     },
     {
@@ -163,8 +185,8 @@
       ],
       "icona": "propia:finestra.svg",
       "audio": {
-        "normal": "7f4b699ee780.m4a",
-        "lent": "e59d121136e8.m4a"
+        "normal": "08e0460066e3.m4a",
+        "lent": "05484b74e313.m4a"
       }
     },
     {
@@ -181,8 +203,8 @@
       ],
       "icona": "chalkboard-simple",
       "audio": {
-        "normal": "a1c07e410f80.m4a",
-        "lent": "11f8423db233.m4a"
+        "normal": "7835cb751f5b.m4a",
+        "lent": "e06c2516a682.m4a"
       }
     },
     {
@@ -199,8 +221,8 @@
       ],
       "icona": "notepad",
       "audio": {
-        "normal": "3c31fac2ad31.m4a",
-        "lent": "0460d02a11da.m4a"
+        "normal": "0bfa142634b5.m4a",
+        "lent": "656afaadb521.m4a"
       }
     },
     {
@@ -217,8 +239,8 @@
       ],
       "icona": "pen",
       "audio": {
-        "normal": "3fe164d664b1.m4a",
-        "lent": "723ca78bef0b.m4a"
+        "normal": "ff0a425e3f93.m4a",
+        "lent": "76cee49e55e2.m4a"
       }
     },
     {
@@ -235,8 +257,8 @@
       ],
       "icona": "pencil",
       "audio": {
-        "normal": "5e7f801985c2.m4a",
-        "lent": "2cccd61ff584.m4a"
+        "normal": "1a0c6c610e92.m4a",
+        "lent": "4b0b124816e7.m4a"
       }
     },
     {
@@ -324,8 +346,8 @@
       ],
       "icona": "rug",
       "audio": {
-        "normal": "f79df37bc7cc.m4a",
-        "lent": "83cadcbea464.m4a"
+        "normal": "383fb0af84fd.m4a",
+        "lent": "cb45da60a00b.m4a"
       }
     },
     {
@@ -342,8 +364,8 @@
       ],
       "icona": "propia:llit.svg",
       "audio": {
-        "normal": "db1af44bc3a6.m4a",
-        "lent": "894093d7f817.m4a"
+        "normal": "8e5f02ca62a7.m4a",
+        "lent": "acd7e1a7c8f1.m4a"
       }
     },
     {
@@ -361,8 +383,8 @@
         "שְׁחוֹרוֹת"
       ],
       "audio": {
-        "normal": "ab58a61e8c6e.m4a",
-        "lent": "93ef87e0d943.m4a"
+        "normal": "c425bc0842d2.m4a",
+        "lent": "51e3b2d7315a.m4a"
       }
     },
     {
@@ -379,8 +401,8 @@
       ],
       "icona": "door",
       "audio": {
-        "normal": "030e0d949c47.m4a",
-        "lent": "645e9c455a34.m4a"
+        "normal": "1b43787ca9be.m4a",
+        "lent": "c4775e630ac8.m4a"
       }
     },
     {
@@ -397,8 +419,8 @@
       ],
       "icona": "couch",
       "audio": {
-        "normal": "e38af21b0abf.m4a",
-        "lent": "8f262cd0896b.m4a"
+        "normal": "e532cbda4d52.m4a",
+        "lent": "9429d96d9bbb.m4a"
       }
     },
     {
@@ -415,8 +437,8 @@
       ],
       "icona": "building-office",
       "audio": {
-        "normal": "7830f8d87569.m4a",
-        "lent": "19c9f6ec2a07.m4a"
+        "normal": "b212a0fbf040.m4a",
+        "lent": "35e31f776d56.m4a"
       }
     },
     {
@@ -523,8 +545,8 @@
         "לְבָנוֹת"
       ],
       "audio": {
-        "normal": "9c09df5e92bc.m4a",
-        "lent": "cc9dece8688b.m4a"
+        "normal": "f9fc6177e48e.m4a",
+        "lent": "3e6384a60095.m4a"
       }
     },
     {

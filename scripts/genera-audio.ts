@@ -5,6 +5,7 @@ import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { promisify } from 'node:util'
 import type { Hebreu, Linia, Paraula, Unitat } from '../src/contingut/tipus'
+import { textAudioParaula } from '../src/contingut/formes'
 import { clauAudio, type Velocitat } from './audio-clau'
 
 const exec = promisify(execFile)
@@ -19,7 +20,8 @@ export const textAudible = (h: Hebreu): string => h.n ?? h.u
 /** Paraules (hebreu amb vocals), línies i exemples de gramàtica; sense perComprovar, notes (R25) ni buits `____`. */
 export function itemsAudibles(u: Unitat): { text: string; desti: Paraula | Linia }[] {
   const out: { text: string; desti: Paraula | Linia }[] = []
-  for (const p of u.vocabulari) if (!p.perComprovar && p.hebreu) out.push({ text: p.hebreu, desti: p })
+  // Una entrada amb diverses formes (הוּא / הִיא) les diu totes, com la targeta les mostra.
+  for (const p of u.vocabulari) if (!p.perComprovar && p.hebreu) out.push({ text: textAudioParaula(p), desti: p })
   const linies = [...u.textos.flatMap((t) => t.linies), ...u.gramatica.flatMap((g) => g.exemples)]
   for (const l of linies) {
     const text = textAudible(l.text)
