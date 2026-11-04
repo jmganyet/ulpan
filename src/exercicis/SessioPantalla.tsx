@@ -3,6 +3,7 @@ import type { Exercici, Paraula, Unitat } from '../contingut/tipus'
 import { marcaVist } from '../progres/magatzem'
 import { respon, type Progres } from '../progres/srs'
 import { TargetaParaula } from '../peces/TargetaParaula'
+import { sonaResposta } from '../peces/sonsResposta'
 import { usePreferencies } from '../preferencies'
 import { Autocorreccio } from './Autocorreccio'
 import { Comprensio } from './Comprensio'
@@ -38,6 +39,7 @@ export function SessioPantalla({ titol, color, enrere, passos, unitats, progres,
 
   const onRespon = (encert: boolean) => {
     if (!pas) return
+    if (pref.sons) sonaResposta(encert)
     canvia(respon(progres, pas.ref, encert, ara()))
     setE((s) => ({
       ...s, respost: true,

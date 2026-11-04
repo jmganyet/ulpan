@@ -38,6 +38,7 @@ export function Ajustos({ progres, alImportar }: Props) {
       <h1>Ajustos</h1>
       <label class="fila"><input type="checkbox" checked={pref.vocals} onChange={(e) => pref.setVocals((e.currentTarget as HTMLInputElement).checked)} /> Mostra les vocals als diàlegs i exercicis</label>
       <label class="fila"><input type="checkbox" checked={pref.lletra === 'cursiva'} onChange={(e) => pref.setLletra((e.currentTarget as HTMLInputElement).checked ? 'cursiva' : 'quadrada')} /> Lletra cursiva en lloc de quadrada</label>
+      <label class="fila"><input type="checkbox" checked={pref.sons} onChange={(e) => pref.setSons((e.currentTarget as HTMLInputElement).checked)} /> Sons d'encert i d'error</label>
       <h2>Progrés</h2>
       <button type="button" class="btn" onClick={baixa}>Exporta el progrés</button>
       <button type="button" class="btn" onClick={() => entrada.current?.click()}>Importa el progrés</button>

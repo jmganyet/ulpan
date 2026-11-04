@@ -5,7 +5,7 @@ import { desaPreferencies } from '../preferencies'
 
 beforeEach(() => {
   cleanup()
-  desaPreferencies({ vocals: false, lletra: 'quadrada' })
+  desaPreferencies({ vocals: false, lletra: 'quadrada', sons: true })
 })
 
 describe('Hebreu', () => {
@@ -16,7 +16,7 @@ describe('Hebreu', () => {
     expect(e.getAttribute('lang')).toBe('he')
   })
   it('amb vocals mostra n, o u si no n\'hi ha', () => {
-    desaPreferencies({ vocals: true, lletra: 'quadrada' })
+    desaPreferencies({ vocals: true, lletra: 'quadrada', sons: true })
     const { unmount } = render(<Hebreu valor={{ u: 'שלום', n: 'שָׁלוֹם' }} />)
     expect(screen.getByText('שָׁלוֹם')).toBeTruthy()
     unmount()
@@ -24,7 +24,7 @@ describe('Hebreu', () => {
     expect(screen.getByText('אני')).toBeTruthy()
   })
   it('amb extraVocals i vocals visibles porta la marca extra', () => {
-    desaPreferencies({ vocals: true, lletra: 'quadrada' })
+    desaPreferencies({ vocals: true, lletra: 'quadrada', sons: true })
     render(<Hebreu valor={{ u: 'שלום', n: 'שָׁלוֹם', extraVocals: true }} />)
     expect(screen.getByText('extra')).toBeTruthy()
   })
@@ -33,7 +33,7 @@ describe('Hebreu', () => {
     expect(screen.queryByText('extra')).toBeNull()
   })
   it('la preferència de lletra tria la classe', () => {
-    desaPreferencies({ vocals: false, lletra: 'cursiva' })
+    desaPreferencies({ vocals: false, lletra: 'cursiva', sons: true })
     render(<Hebreu valor={{ u: 'שלום' }} />)
     expect(screen.getByText('שלום').className).toContain('cursiva')
   })
@@ -43,7 +43,7 @@ describe('Hebreu', () => {
     expect([...container.querySelectorAll('u')].map((e) => e.textContent)).toEqual(['אתה'])
     expect(container.textContent).toBe('3. מאין אתה? אני מרוסיה.')
     unmount()
-    desaPreferencies({ vocals: true, lletra: 'quadrada' })
+    desaPreferencies({ vocals: true, lletra: 'quadrada', sons: true })
     const r = render(<Hebreu valor={valor} subratllat={['אתה']} />)
     expect([...r.container.querySelectorAll('u')].map((e) => e.textContent)).toEqual(['אַתָּה'])
   })
