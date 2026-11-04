@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diàleg i interruptors</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;425;500;600;650&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../node_modules/@phosphor-icons/web/src/duotone/style.css">
+<style>
+/* Valors del web (copiar-los del style.css viu abans de començar: poden haver canviat). */
+:root { --tinta: #141415; --text: #34343a; --retol: #6d6e71; --apagat: #a9aab0; --fons: #f4f4f6; --accent: #23706b; color-scheme: light; }
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: #fff; color: var(--tinta); font-family: Inter, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+button, select, input { font: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.tema-llengues { --c: #2a5f95; } .tema-escriptura { --c: #23706b; } .tema-textos { --c: #8a5a12; } .tema-historia { --c: #a63a37; } .tema-idees { --c: #714788; } .tema-maquines { --c: #56692b; }
+
+/* Tauler (no tocar: és igual a tots els prototips) */
+.app { display: grid; grid-template-columns: 300px minmax(0, 1fr); min-height: 100vh; }
+.tauler { background: #fafafa; border-right: 1px solid #ececef; height: 100vh; overflow-y: auto; overscroll-behavior: contain; padding: 20px 18px 40px; position: sticky; top: 0; }
+.tauler h1 { font: 650 18px/1.2 Inter; margin: 0 0 4px; }
+.tauler .sub { color: var(--retol); font: 400 13px/1.45 Inter; margin: 0 0 16px; }
+.tauler fieldset { border: 0; margin: 0 0 18px; padding: 0; }
+.tauler legend { color: var(--retol); font: 600 11px/1 Inter; letter-spacing: .08em; margin-bottom: 8px; padding: 0; text-transform: uppercase; }
+.ctl { display: grid; gap: 4px; margin-bottom: 10px; }
+.ctl > span { display: flex; font: 500 13px/1.3 Inter; justify-content: space-between; }
+.ctl output { color: var(--retol); font-variant-numeric: tabular-nums; }
+.ctl select, .ctl input[type=range] { width: 100%; }
+.ctl select { background: #fff; color: var(--tinta); border: 1px solid #dcdce0; border-radius: 4px; padding: 6px 8px; }
+.pres { display: grid; gap: 6px; }
+.pres button { background: #fff; border: 1px solid #e2e2e6; border-radius: 6px; cursor: pointer; padding: 8px 10px; text-align: left; touch-action: manipulation; }
+.pres button b { display: block; font: 600 13px/1.3 Inter; }
+.pres button span { color: var(--retol); display: block; font: 400 12px/1.4 Inter; margin-top: 2px; }
+.pres button[aria-pressed=true] { border-color: var(--tinta); box-shadow: inset 0 0 0 1px var(--tinta); }
+.accions { display: grid; gap: 6px; grid-template-columns: 1fr 1fr; margin: 0 0 18px; }
+.accions button { background: #fff; border: 1px solid #dcdce0; border-radius: 6px; color: var(--tinta); cursor: pointer; font: 600 13px/1.2 Inter; padding: 8px 10px; touch-action: manipulation; }
+.accions button:disabled { color: #b8b8be; cursor: default; }
+.pres button .rec { color: var(--accent); display: inline; font: 600 11px/1 Inter; letter-spacing: .06em; margin-left: 6px; text-transform: uppercase; }
+.vull { background: var(--tinta); border: 0; border-radius: 6px; color: #fff; cursor: pointer; font-weight: 600; margin-top: 6px; padding: 10px; touch-action: manipulation; width: 100%; }
+.linia { color: var(--retol); font: 400 11px/1.4 ui-monospace, monospace; margin: 8px 0 0; overflow-wrap: anywhere; }
+.barra-v { align-items: center; background: #fff; border-bottom: 1px solid #ececef; display: flex; flex-wrap: wrap; gap: 8px 16px; padding: 10px 24px; position: sticky; top: 0; z-index: 5; }
+.seg { border: 1px solid #dcdce0; border-radius: 6px; display: inline-flex; overflow: hidden; }
+.seg button { background: #fff; border: 0; cursor: pointer; font: 500 13px Inter; padding: 6px 12px; touch-action: manipulation; }
+.seg button[aria-pressed=true] { background: var(--tinta); color: #fff; }
+.barra-v .nota { color: var(--retol); font: 400 13px/1.4 Inter; margin-left: auto; }
+.escena { padding: 40px 24px 120px; }
+/* L'amplada de mòbil es prova amb un contenidor de 390 px i consultes de contenidor (mai redimensionant el navegador). */
+.vista { container-type: inline-size; margin: 0 auto; max-width: 1180px; }
+.vista.mobil { border: 1px solid #ececef; max-width: 390px; padding: 0 16px; }
+@media (max-width: 860px) {
+  .app { grid-template-columns: 1fr; }
+  .tauler { border-bottom: 1px solid #ececef; border-right: 0; height: auto; max-height: 55vh; position: relative; }
+  .escena { padding: 24px 16px 80px; }
+  .barra-v { padding: 10px 16px; }
+}
+
+/* Estils del web que el prototip reprodueix (rètol, títol, extracte, títols de secció amb el punt de color, sense filets) */
+.k { color: var(--c, var(--accent)); display: block; font: 500 13px/1.4 Inter; letter-spacing: .08em; text-transform: uppercase; }
+.t { color: var(--tinta); font: 600 22px/1.2 Inter; letter-spacing: -.01em; margin: 6px 0; overflow-wrap: break-word; text-wrap: balance; }
+.x { color: var(--retol); display: block; font: 500 16px/1.55 Inter; text-wrap: pretty; }
+.cap { font: 650 24px/1.1 Inter; letter-spacing: -.01em; margin: 0 0 20px; }
+.cap::after { color: var(--c, var(--accent)); content: "."; }
+.bloc { margin-bottom: 88px; }
+
+/* Estils del prototip: els de l'app (src/estil/base.css i components.css) */
+@font-face { font-family: 'FrankRuehl'; src: url('../public/fonts/FrankRuehlCLM-Medium.otf'); font-display: swap; }
+@font-face { font-family: 'Gveret'; src: url('../public/fonts/GveretLevin-Regular.ttf'); font-display: swap; }
+.vista { --tinta: #1f2430; --gris: #7a7f8c; --fons-app: #f6f4ef; --blanc: #fff; --filet: #e4e1d9; --gris-clar: #ece9e1; }
+.tel { position: relative; max-width: 520px; height: 700px; margin: 0 auto; background: var(--fons-app); color: var(--tinta); font-family: -apple-system, system-ui, sans-serif; line-height: 1.4; overflow: hidden; border-radius: 22px; border: 1px solid #e2e2e6; }
+.vista.mobil .tel { max-width: 358px; }
+.pant { height: 100%; overflow-y: auto; overscroll-behavior: contain; padding: 0 14px; }
+.pant button { touch-action: manipulation; cursor: pointer; font: inherit; color: inherit; }
+.pant :focus-visible, .full :focus-visible { outline: 2px solid var(--tinta); outline-offset: 2px; }
+.cap-u { color: #fff; border-radius: 18px; padding: 12px 14px; margin: 14px 0 10px; }
+.cap-u .enrere { color: rgb(255 255 255 / .85); font-size: 13px; }
+.cap-u h1 { font-size: 20px; margin: 2px 0 0; text-wrap: balance; }
+.petit { font-size: 13px; color: var(--gris); }
+.q { font-family: 'FrankRuehl', serif; } .c { font-family: 'Gveret', cursive; }
+.titol-b { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 18px; margin: 4px 0 8px; }
+.fila-x { display: flex; gap: 6px; flex-wrap: wrap; margin: 6px 0; align-items: center; }
+.xip { border: 0; background: var(--gris-clar); border-radius: 99px; padding: 8px 12px; font-size: 13px; }
+.xip.on, .xip[aria-pressed=true] { background: var(--tinta); color: #fff; }
+.ull { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--filet); background: #fff; border-radius: 99px; padding: 6px 12px; font-size: 13px; }
+.ull i { font-size: 18px; color: var(--gris); }
+.ull[aria-pressed=true] { background: var(--tinta); color: #fff; border-color: var(--tinta); } .ull[aria-pressed=true] i { color: #fff; }
+.sel-fas { border: 0; background: var(--gris-clar); border-radius: 99px; padding: 8px 12px; font-size: 13px; color: var(--tinta); }
+/* barra d'aspecte amb icones (fixa a dalt) */
+.aspecte { position: sticky; top: 0; z-index: 3; background: var(--fons-app); margin: 0 -14px; padding: 8px 14px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; justify-content: space-between; box-shadow: 0 1px 0 var(--filet); }
+.grup { display: inline-flex; background: #fff; border-radius: 12px; padding: 3px; gap: 2px; }
+.ic { border: 0; background: transparent; border-radius: 9px; min-width: 36px; height: 40px; padding: 0 5px; display: inline-flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1; }
+.ic b { font-size: 18px; font-weight: 400; } .ic small { font-size: 9px; color: var(--gris); margin-top: 2px; letter-spacing: .02em; }
+.ic[aria-pressed=true] { background: var(--tinta); color: #fff; } .ic[aria-pressed=true] small { color: rgb(255 255 255 / .8); }
+.ic.sense-text small { display: none; }
+/* xat */
+.xat { display: flex; flex-direction: column; gap: 8px; margin: 10px 0 18px; }
+.bomb { max-width: 86%; border-radius: 18px; padding: 8px 12px; font-size: var(--mh); line-height: 1.35; background: #fff; }
+.bomb.dreta { align-self: flex-end; border-bottom-right-radius: 6px; }
+.bomb.esq { align-self: flex-start; border-bottom-left-radius: 6px; }
+.bomb.fosc { background: var(--cu); color: #fff; }
+.bomb .qui { display: block; font-size: 11px; font-weight: 600; opacity: .75; }
+.bomb.actual { box-shadow: 0 0 0 3px var(--tinta); }
+.text-l { border: 0; background: none; padding: 0; text-align: right; display: block; width: 100%; }
+.dues { display: flex; flex-direction: column; } .dues .c { font-size: .78em; opacity: .7; }
+.tr { display: block; font-size: 13px; font-style: italic; opacity: .75; direction: ltr; text-align: left; }
+.ca-l { display: block; font-size: 14px; opacity: .85; direction: ltr; text-align: left; margin-top: 2px; }
+.mini-ca { border: 0; background: var(--gris-clar); color: var(--tinta); border-radius: 99px; font-size: 11px; min-width: 32px; height: 28px; margin-top: 4px; }
+/* guió */
+.guio { display: flex; flex-direction: column; gap: 2px; margin: 10px 0 18px; }
+.rep { display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 10px; direction: rtl; padding: 8px 10px; border-radius: 12px; align-items: start; }
+.rep .nom { font-size: 13px; font-weight: 700; padding-top: .35em; overflow-wrap: anywhere; }
+.rep .cos { font-size: var(--mh); line-height: 1.35; min-width: 0; }
+.rep.actual { background: #fff; box-shadow: inset -4px 0 0 var(--cu); }
+/* reproductor */
+.ctl-final { display: flex; justify-content: center; align-items: center; gap: 18px; padding: 8px 0 30px; }
+.rodo { border: 0; background: var(--gris-clar); border-radius: 99px; min-width: 44px; height: 44px; font-size: 22px; display: inline-flex; align-items: center; justify-content: center; }
+.rodo.gran { width: var(--mp); height: var(--mp); background: var(--tinta); color: #fff; font-size: calc(var(--mp) * .42); }
+.fab-wrap { position: sticky; bottom: 16px; display: flex; justify-content: flex-end; pointer-events: none; padding-bottom: 4px; }
+.fab-wrap .rodo { pointer-events: auto; box-shadow: 0 6px 18px rgb(31 36 48 / .28); }
+.fab-grup { display: inline-flex; align-items: center; gap: 6px; pointer-events: auto; background: #fff; border-radius: 99px; padding: 5px; box-shadow: 0 6px 18px rgb(31 36 48 / .2); }
+.barra-so { position: sticky; bottom: 0; z-index: 3; margin: 0 -14px; padding: 8px 14px calc(10px + env(safe-area-inset-bottom)); background: #fff; display: flex; align-items: center; gap: 10px; box-shadow: 0 -1px 0 var(--filet); }
+.barra-so .info { flex: 1; min-width: 0; font-size: 13px; }
+.barra-so .info b { display: block; font-variant-numeric: tabular-nums; }
+.barra-so .info span { color: var(--gris); display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.prog { height: 3px; background: var(--filet); border-radius: 3px; margin-top: 4px; overflow: hidden; } .prog i { display: block; height: 100%; background: var(--cu); }
+.vel { border: 1px solid var(--filet); background: #fff; border-radius: 99px; padding: 6px 10px; font-size: 13px; font-variant-numeric: tabular-nums; }
+.vel[aria-pressed=true] { background: var(--tinta); color: #fff; border-color: var(--tinta); }
+/* full d'opcions */
+.velo { position: absolute; inset: 0; background: rgb(31 36 48 / .35); z-index: 8; }
+.full { position: absolute; left: 0; right: 0; bottom: 0; z-index: 9; background: #fff; border-radius: 20px 20px 0 0; padding: 10px 18px calc(18px + env(safe-area-inset-bottom)); font-family: -apple-system, system-ui, sans-serif; color: var(--tinta); overscroll-behavior: contain; }
+.full .ansa { width: 36px; height: 4px; border-radius: 4px; background: var(--filet); margin: 0 auto 12px; }
+.full h3 { margin: 0 0 8px; font-size: 16px; }
+.opcio-f { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--gris-clar); font-size: 15px; }
+.opcio-f:last-of-type { border-bottom: 0; }
+.opcio-f small { display: block; color: var(--gris); font-size: 12px; }
+.sw { position: relative; width: 46px; height: 28px; border-radius: 99px; border: 0; background: var(--filet); flex: none; }
+.sw::after { content: ''; position: absolute; top: 3px; left: 3px; width: 22px; height: 22px; border-radius: 50%; background: #fff; box-shadow: 0 1px 2px rgb(0 0 0 / .2); }
+.sw[aria-checked=true] { background: var(--tinta); } .sw[aria-checked=true]::after { left: 21px; }
+@media (prefers-reduced-motion: no-preference) { .sw::after { transition: left .15s; } }
+.seg3 { display: inline-flex; background: var(--gris-clar); border-radius: 10px; padding: 3px; }
+.seg3 button { border: 0; background: transparent; border-radius: 8px; padding: 6px 10px; font-size: 15px; }
+.seg3 button[aria-pressed=true] { background: #fff; box-shadow: 0 1px 2px rgb(0 0 0 / .12); }
+.boto-aa { border: 1px solid var(--filet); background: #fff; border-radius: 12px; height: 40px; min-width: 44px; font-size: 20px; display: inline-flex; align-items: center; justify-content: center; gap: 4px; padding: 0 10px; }
+.boto-aa .punt { width: 7px; height: 7px; border-radius: 50%; background: var(--cu); }
+/* exercici */
+.barra-sessio { height: 8px; background: var(--filet); border-radius: 9px; overflow: hidden; margin: 14px 0 8px; } .barra-sessio b { display: block; height: 100%; width: 40%; background: var(--cu); }
+.targeta { background: #fff; border-radius: 20px; padding: 18px; text-align: center; margin: 10px 0; }
+.targeta .heb { font-size: 40px; line-height: 1.2; }
+.opcions { display: grid; gap: 8px; }
+.opcions button { border: 2px solid var(--filet); background: #fff; border-radius: 16px; padding: 12px; font-size: 16px; min-height: 48px; }
+
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="tauler" aria-label="Paràmetres">
+    <h1>Diàleg i interruptors</h1>
+    <p class="sub">Restyling de l'app d'hebreu: on va el play als diàlegs llargs i com es mostren niqqud, lletra, transcripció i traducció. Dades reals del dossier (u04 pàg. 22 i u09 pàg. 50).</p>
+    <div class="accions"><button type="button" id="recom">La meva recomanació</button><button type="button" id="desfes" disabled>Desfés</button></div>
+    <fieldset><legend>Propostes</legend><div class="pres" id="pres"></div></fieldset>
+    <div id="controls"></div>
+    <button class="vull" id="vull" type="button">La vull</button>
+    <p class="linia" id="linia" aria-live="polite"></p>
+  </aside>
+  <main>
+    <div class="barra-v">
+      <div class="seg" role="group" aria-label="Pàgina" id="vistes"></div>
+      <div class="seg" role="group" aria-label="Amplada"><button type="button" data-w="escriptori">Escriptori</button><button type="button" data-w="mobil">Mòbil</button></div>
+      <span class="nota" id="nota"></span>
+    </div>
+    <div class="escena"><div class="vista" id="vista"></div></div>
+  </main>
+</div>
+<script src="dialeg-dades.js"></script>
+<script>
+// ── El que canvia a cada prototip ───────────────────────────────────────────────────────────────────────────
+const CLAU = 'dialeg';
+const CONTROLS = [
+  ['Reproductor', [
+    { id: 'play', nom: 'On viu el play', tipus: 'select', opcions: [['final', 'Al final del diàleg (com ara)'], ['flotant', 'Botó flotant a baix a la dreta'], ['barra', 'Barra fixa a baix, com un reproductor']] },
+    { id: 'midaPlay', nom: 'Mida del play', tipus: 'range', min: 44, max: 72, pas: 4, unitat: ' px' },
+    { id: 'info', nom: 'Què diu la barra', tipus: 'select', opcions: [['res', 'Només els botons'], ['linia', 'Línia 3 de 20'], ['qui', 'Línia i qui parla, amb progrés']] },
+    { id: 'velocitat', nom: 'On es posa a poc a poc', tipus: 'select', opcions: [['xip', 'Un botó «Lent» a dalt'], ['so', 'Al costat del play (0,7×)']] },
+  ]],
+  ['Com es veu el text', [
+    { id: 'controls', nom: 'Forma dels interruptors', tipus: 'select', opcions: [['xips', 'Botons de text en dues files (com ara)'], ['ulls', 'Pastilles amb ull, en una fila'], ['icones', 'Barra fixa a dalt, amb icones'], ['full', 'Un sol botó Aa que obre un full']] },
+    { id: 'etiquetes', nom: 'Les icones porten nom', tipus: 'select', opcions: [['si', 'Sí, a sota (petit)'], ['no', 'No, només la icona']] },
+    { id: 'nom', nom: 'Com es diuen les vocals', tipus: 'select', opcions: [['vocals', 'Vocals'], ['niqqud', 'Niqqud']] },
+    { id: 'lletra', nom: 'Lletra de sortida', tipus: 'select', opcions: [['q', 'Quadrada'], ['c', 'Cursiva'], ['dues', 'Totes dues (quadrada i, a sota, cursiva)']] },
+    { id: 'niqqud', nom: 'Niqqud de sortida', tipus: 'select', opcions: [['no', 'Amagat'], ['si', 'Visible']] },
+    { id: 'translit', nom: 'Transcripció de sortida', tipus: 'select', opcions: [['no', 'Amagada'], ['si', 'Visible']] },
+    { id: 'traduccio', nom: 'Traducció', tipus: 'select', opcions: [['boto', 'Un botó «ca» a cada línia (com ara)'], ['global', 'Un interruptor per a totes']] },
+    { id: 'revela', nom: 'Què fa tocar una línia', tipus: 'select', opcions: [['so', 'La fa sonar'], ['tot', 'La fa sonar i hi destapa niqqud, transcripció i traducció']] },
+  ]],
+  ['Diàleg', [
+    { id: 'estil', nom: 'Forma del diàleg', tipus: 'select', opcions: [['xat', 'Bombolles de xat (com ara)'], ['guio', 'Guió: nom i rèplica, sense bombolles']] },
+    { id: 'colors', nom: 'Color dels personatges', tipus: 'select', opcions: [['dos', 'Dos colors alterns (com ara)'], ['cadascun', 'Un color per personatge']] },
+    { id: 'midaHeb', nom: 'Mida de l\'hebreu', tipus: 'range', min: 18, max: 30, pas: 1, unitat: ' px' },
+    { id: 'fas', nom: 'Fer d\'un personatge', tipus: 'select', opcions: [['dos', 'Botons dels dos primers (com ara)'], ['tots', 'Un selector amb tots']] },
+  ]],
+];
+const BASE = { play: 'final', midaPlay: 56, info: 'res', velocitat: 'xip', controls: 'xips', etiquetes: 'si', nom: 'vocals', lletra: 'q', niqqud: 'no', translit: 'no', traduccio: 'boto', revela: 'so', estil: 'xat', colors: 'dos', midaHeb: 22, fas: 'dos' };
+const PRESETS = [
+  ['ara', 'Com ara', 'El que hi ha a l\'app: el play al final del diàleg i tres menes d\'interruptor diferents.', {}],
+  ['flotant', 'Play flotant', 'Conservadora: el play no es mou de sota el polze, a baix a la dreta; la resta, gairebé igual.', { play: 'flotant', controls: 'ulls', nom: 'niqqud', fas: 'tots' }],
+  ['dues-zones', 'Dues zones fixes', 'Racional: a dalt, com es veu el text; a baix, com sona. Totes dues sempre a la vista.', { play: 'barra', info: 'qui', velocitat: 'so', controls: 'icones', nom: 'niqqud', traduccio: 'global', colors: 'cadascun', fas: 'tots' }],
+  ['full', 'Un sol botó Aa', 'La pantalla per al text: totes les opcions de lectura en un full que s\'obre i es tanca.', { play: 'barra', info: 'qui', velocitat: 'so', controls: 'full', nom: 'niqqud', traduccio: 'global', colors: 'cadascun', fas: 'tots' }],
+  ['guio', 'Guió de teatre', 'Radical: amb cinc personatges, nom i rèplica en columna es llegeixen millor que bombolles.', { play: 'barra', info: 'qui', velocitat: 'so', controls: 'icones', etiquetes: 'no', nom: 'niqqud', traduccio: 'global', estil: 'guio', colors: 'cadascun', midaHeb: 24, fas: 'tots' }],
+  ['lectura', 'Destapar línia a línia', 'Fora del marc: res no s\'encén per a tot el text; tocar una línia hi destapa només a ella niqqud, transcripció i traducció.', { play: 'barra', info: 'qui', velocitat: 'so', controls: 'full', nom: 'niqqud', traduccio: 'global', revela: 'tot', colors: 'cadascun', fas: 'tots' }],
+];
+const RECOMANACIO = 'dues-zones';
+const VISTES = [['llarg', 'Diàleg llarg (u09)'], ['curt', 'Diàleg amb niqqud (u04)'], ['exercici', 'Exercici']];
+
+// Estat de la maqueta (el que l'usuari toca dins del mòbil). Es reinicia quan canvia la proposta.
+let CU = '#7B6CF6', VS = null, clauVS = '', timer = null, scrollGuardat = 0;
+const PALETA = ['#ffffff', '#d7f0e9', '#e6e1fb', '#fbe5d3', '#dcebfb'];
+const TINTES = ['#1f2430', '#1d7a67', '#5b47c9', '#a65a1f', '#2563a8'];
+function estatInicial(C) {
+  return { niqqud: C.niqqud === 'si', translit: C.translit === 'si', lletra: C.lletra, ca: false, lent: false, full: false, sonant: false, linia: 0, cas: new Set(), destapades: new Set(), jo: -1, tornVist: false, triada: -1 };
+}
+const D = window.DADES;
+const nomV = C => C.nom === 'niqqud' ? 'Niqqud' : 'Vocals';
+
+function hebreu(obj, C, forçat) {
+  const ok = forçat ?? VS.niqqud;
+  const t = esc(ok && obj.n ? obj.n : obj.u);
+  if (VS.lletra === 'dues') return `<span class="dues" dir="rtl" lang="he"><span class="q">${t}</span><span class="c">${t}</span></span>`;
+  return `<span dir="rtl" lang="he" class="${VS.lletra === 'c' ? 'c' : 'q'}">${t}</span>`;
+}
+
+// Interruptors en la forma que toqui
+function interruptors(C, ctx) {
+  const tr = ctx.teTranslit, teCa = ctx.teCa && C.traduccio === 'global';
+  if (C.controls === 'xips') return `
+    <div class="fila-x" role="group" aria-label="Aspecte">
+      <button type="button" class="xip" aria-pressed="${VS.niqqud}" data-a="niqqud">${nomV(C)}</button>
+      <button type="button" class="xip" aria-pressed="${VS.lletra === 'c'}" data-a="cursiva">Cursiva</button>
+      ${C.velocitat === 'xip' && ctx.dialeg ? `<button type="button" class="xip" aria-pressed="${VS.lent}" data-a="lent">Lent</button>` : ''}
+      ${tr ? `<button type="button" class="xip" aria-pressed="${VS.translit}" data-a="translit">Transcripció</button>` : ''}
+      ${teCa ? `<button type="button" class="xip" aria-pressed="${VS.ca}" data-a="ca">Traducció</button>` : ''}
+    </div>`;
+  if (C.controls === 'ulls') {
+    const u = (on, a, nom) => `<button type="button" class="ull" aria-pressed="${on}" data-a="${a}"><i class="ph-duotone ${on ? 'ph-eye' : 'ph-eye-slash'}" aria-hidden="true"></i>${nom}</button>`;
+    return `<div class="fila-x" role="group" aria-label="Aspecte">${u(VS.niqqud, 'niqqud', nomV(C))}${u(VS.lletra === 'c', 'cursiva', 'Cursiva')}${tr ? u(VS.translit, 'translit', 'Transcripció') : ''}${teCa ? u(VS.ca, 'ca', 'Traducció') : ''}${C.velocitat === 'xip' && ctx.dialeg ? u(VS.lent, 'lent', 'Lent') : ''}</div>`;
+  }
+  if (C.controls === 'icones') {
+    const st = C.etiquetes === 'no' ? ' sense-text' : '';
+    const ic = (on, a, glif, nom, extra = '') => `<button type="button" class="ic${st}" aria-pressed="${on}" data-a="${a}" aria-label="${nom}" title="${nom}"><b ${extra}>${glif}</b><small>${nom}</small></button>`;
+    return `<div class="aspecte" role="toolbar" aria-label="Com es veu el text">
+      ${ctx.mobil
+        ? `<span class="grup"><button type="button" class="ic${st}" data-a="cicle" aria-label="Lletra: ${{ q: 'quadrada', c: 'cursiva', dues: 'les dues' }[VS.lletra]} (toca per canviar)"><b>${{ q: '<span class="q">א</span>', c: '<span class="c">א</span>', dues: '<span class="q">א</span><span class="c">א</span>' }[VS.lletra]}</b><small>${{ q: 'Quadrada', c: 'Cursiva', dues: 'Les dues' }[VS.lletra]}</small></button></span>`
+        : `<span class="grup" role="group" aria-label="Lletra">
+        ${ic(VS.lletra === 'q', 'lq', 'א', 'Quadrada', 'class="q"')}${ic(VS.lletra === 'c', 'lc', 'א', 'Cursiva', 'class="c"')}${ic(VS.lletra === 'dues', 'ld', '<span class="q">א</span><span class="c">א</span>', 'Les dues')}
+      </span>`}
+      <span class="grup" role="group" aria-label="Ajudes">
+        ${ic(VS.niqqud, 'niqqud', '<span class="q">בָּ</span>', nomV(C))}${tr ? ic(VS.translit, 'translit', 'Abc', 'Transcripció') : ''}${teCa ? ic(VS.ca, 'ca', 'CA', 'Traducció') : ''}${C.velocitat === 'xip' && ctx.dialeg ? ic(VS.lent, 'lent', '0,7×', 'Lent') : ''}
+      </span>
+    </div>`;
+  }
+  return ''; // 'full': el botó Aa va a la capçalera o a la barra
+}
+function botoAa(C) {
+  const actiu = VS.niqqud || VS.translit || VS.ca || VS.lletra !== C.lletra;
+  return `<button type="button" class="boto-aa" data-a="obre-full" aria-label="Opcions de lectura" aria-expanded="${VS.full}"><i class="ph-duotone ph-text-aa" aria-hidden="true"></i>${actiu ? '<span class="punt" aria-hidden="true"></span>' : ''}</button>`;
+}
+function fullOpcions(C, ctx) {
+  if (!VS.full) return '';
+  const sw = (on, a, nom, sub) => `<div class="opcio-f"><span>${nom}${sub ? `<small>${sub}</small>` : ''}</span><button type="button" class="sw" role="switch" aria-checked="${on}" aria-label="${nom}" data-a="${a}"></button></div>`;
+  const s3 = `<div class="opcio-f"><span>Lletra</span><span class="seg3" role="group" aria-label="Lletra">
+    <button type="button" aria-pressed="${VS.lletra === 'q'}" data-a="lq"><span class="q">א</span> Quadrada</button>
+    <button type="button" aria-pressed="${VS.lletra === 'c'}" data-a="lc"><span class="c">א</span> Cursiva</button>
+    <button type="button" aria-pressed="${VS.lletra === 'dues'}" data-a="ld">Totes dues</button></span></div>`;
+  return `<div class="velo" data-a="tanca-full"></div><div class="full" role="dialog" aria-label="Opcions de lectura">
+    <div class="ansa"></div><h3>Lectura</h3>
+    ${sw(VS.niqqud, 'niqqud', nomV(C), 'Els punts de les vocals')}
+    ${s3}
+    ${ctx.teTranslit ? sw(VS.translit, 'translit', 'Transcripció', 'Sota cada línia, en lletres llatines') : ''}
+    ${ctx.teCa && C.traduccio === 'global' ? sw(VS.ca, 'ca', 'Traducció', 'En català, sota cada línia') : ''}
+    ${ctx.dialeg && C.velocitat === 'xip' ? sw(VS.lent, 'lent', 'A poc a poc', 'El diàleg sona al 70 %') : ''}
+    <p class="petit" style="margin:10px 0 0">Es manté a tota l'app fins que ho tornis a canviar.</p></div>`;
+}
+
+function renderDialeg(C, d, mobil) {
+  const noms = d.personatges, n = d.linies.length;
+  const ctx = { dialeg: true, mobil, teTranslit: d.linies.some(l => l.t), teCa: d.linies.some(l => l.ca) };
+  const qui = l => Math.max(0, noms.indexOf(l.qui));
+  const fas = C.fas === 'dos'
+    ? noms.slice(0, 2).map((x, i) => `<button type="button" class="xip" aria-pressed="${VS.jo === i}" data-jo="${i}">Fas de <span dir="rtl">${esc(x)}</span></button>`).join('')
+    : `<label><span class="petit" style="margin-inline-end:6px">Fas de</span><select class="sel-fas" data-a="fas" aria-label="Fas de"><option value="-1">ningú</option>${noms.map((x, i) => `<option value="${i}" ${VS.jo === i ? 'selected' : ''}>${esc(x)}</option>`).join('')}</select></label>`;
+  const destapa = i => C.revela === 'tot' && VS.destapades.has(i);
+  const linies = d.linies.map((l, i) => {
+    const p = qui(l), actual = (VS.sonant || VS.toc) && VS.linia === i;
+    const meva = VS.jo === p && !VS.tornVist;
+    const niq = VS.niqqud || destapa(i);
+    const extres = `${(VS.translit || destapa(i)) && l.t ? `<span class="tr">${esc(l.t)}</span>` : ''}${l.ca && (VS.ca && C.traduccio === 'global' || VS.cas.has(i) || destapa(i)) ? `<span class="ca-l">${esc(l.ca)}</span>` : ''}${C.traduccio === 'boto' && l.ca ? `<button type="button" class="mini-ca" data-ca="${i}" aria-expanded="${VS.cas.has(i)}" aria-label="Traducció de la línia ${i + 1}">ca</button>` : ''}`;
+    const cos = meva ? `<span class="petit">El teu torn: digues-ho en veu alta</span>` : `<button type="button" class="text-l" data-l="${i}" aria-label="Escolta la línia ${i + 1}">${hebreu(l, C, niq)}</button>${extres}`;
+    if (C.estil === 'guio') {
+      const col = C.colors === 'cadascun' ? TINTES[p % TINTES.length] : (p % 2 ? CU : '#1f2430');
+      return `<div class="rep${actual ? ' actual' : ''}" id="l${i}"><span class="nom" style="color:${col}">${esc(l.qui)}</span><div class="cos">${cos}</div></div>`;
+    }
+    const costat = p % 2 ? 'esq' : 'dreta';
+    const fons = C.colors === 'cadascun' ? `style="background:${PALETA[p % PALETA.length]}"` : '';
+    const fosc = C.colors === 'dos' && p % 2 ? ' fosc' : '';
+    return `<div class="bomb ${costat}${fosc}${actual ? ' actual' : ''}" id="l${i}" ${fons}><span class="qui" dir="rtl">${esc(l.qui)}</span>${cos}</div>`;
+  }).join('');
+  const playBtn = `<button type="button" class="rodo gran" data-a="play" aria-label="${VS.sonant ? 'Pausa' : 'Reprodueix'}"><i class="ph-duotone ${VS.sonant ? 'ph-pause' : 'ph-play'}" aria-hidden="true"></i></button>`;
+  const prev = `<button type="button" class="rodo" data-a="prev" aria-label="Línia anterior"><i class="ph-duotone ph-skip-back" aria-hidden="true"></i></button>`;
+  const next = `<button type="button" class="rodo" data-a="next" aria-label="Línia següent"><i class="ph-duotone ph-skip-forward" aria-hidden="true"></i></button>`;
+  const vel = C.velocitat === 'so' ? `<button type="button" class="vel" aria-pressed="${VS.lent}" data-a="lent" aria-label="A poc a poc">0,7×</button>` : '';
+  let repro = '';
+  if (C.play === 'final') repro = `<div class="ctl-final">${prev}${playBtn}${next}${vel}</div>`;
+  if (C.play === 'flotant') repro = `<div class="fab-wrap">${vel ? `<span class="fab-grup">${vel}${playBtn}</span>` : playBtn}</div>`;
+  if (C.play === 'barra') {
+    const info = C.info === 'res' ? '<span class="info"></span>' : `<span class="info"><b>Línia ${VS.linia + 1} de ${n}</b>${C.info === 'qui' ? `<span dir="rtl" style="text-align:start">${esc(d.linies[VS.linia].qui)}</span><span class="prog"><i style="width:${Math.round((VS.linia + 1) / n * 100)}%"></i></span>` : ''}</span>`;
+    repro = `<div class="barra-so">${prev}${playBtn}${next}${info}${vel}${C.controls === 'full' ? botoAa(C) : ''}</div>`;
+  }
+  const capAa = C.controls === 'full' && C.play !== 'barra' ? botoAa(C) : '';
+  const tornBtn = VS.jo >= 0 && !VS.tornVist ? `<button type="button" class="xip" data-a="torn">Mostra el meu torn</button>` : '';
+  return `<div class="pant" id="pant">
+    ${C.controls === 'icones' ? interruptors(C, ctx) : ''}
+    <header class="cap-u" style="background:${d.color}"><span class="enrere">‹ ${esc(d.unitat)}</span><h1 dir="rtl" class="q">${esc(d.titol.u)}</h1><span class="petit" style="color:rgb(255 255 255/.8)">${esc(d.titol.ca)}</span></header>
+    <div class="fila-x" role="group" aria-label="Mode">
+      <button type="button" class="xip" aria-pressed="${VS.jo < 0}" data-jo="-1">Escoltar</button>
+      ${fas}${tornBtn}${capAa ? `<span style="margin-inline-start:auto">${capAa}</span>` : ''}
+    </div>
+    ${C.controls === 'xips' || C.controls === 'ulls' ? interruptors(C, ctx) : ''}
+    <div class="${C.estil === 'guio' ? 'guio' : 'xat'}">${linies}</div>
+    ${repro}
+  </div>${fullOpcions(C, ctx)}`;
+}
+
+function renderExercici(C, mobil) {
+  const e = D.exercici, ctx = { dialeg: false, mobil, teTranslit: true, teCa: false };
+  const capAa = C.controls === 'full' ? `<div style="display:flex;justify-content:flex-end">${botoAa(C)}</div>` : '';
+  return `<div class="pant" id="pant">
+    ${C.controls === 'icones' ? interruptors(C, ctx) : ''}
+    <div class="barra-sessio"><b></b></div>
+    ${C.controls === 'xips' || C.controls === 'ulls' ? interruptors(C, ctx) : capAa}
+    <p class="petit" style="text-align:center;margin:10px 0 0">${esc(e.enunciat)}</p>
+    <div class="targeta"><div class="heb">${hebreu(e.paraula, C)}</div>${VS.translit ? `<span class="tr" style="text-align:center;font-size:15px">${esc(e.paraula.t)}</span>` : ''}</div>
+    <div class="opcions">${e.opcions.map((o, i) => `<button type="button" data-t="${i}" style="${VS.triada === i ? (i === 0 ? 'border-color:#2e9f5b;background:#e6f6ec' : 'border-color:#c94a4a;background:#fbe3e3') : ''}">${esc(o)}</button>`).join('')}</div>
+  </div>${fullOpcions(C, ctx)}`;
+}
+
+function render(C, vista, mobil) {
+  const k = JSON.stringify(C) + vista;
+  if (k !== clauVS) { clauVS = k; VS = estatInicial(C); clearInterval(timer); scrollGuardat = 0; }
+  const d = vista === 'exercici' ? null : D[vista];
+  const cu = d ? d.color : '#7B6CF6';
+  CU = cu;
+  const cos = vista === 'exercici' ? renderExercici(C, mobil) : renderDialeg(C, d, mobil);
+  return `<div class="tel" style="--cu:${cu};--mh:${C.midaHeb}px;--mp:${C.midaPlay}px">${cos}</div>
+    <p class="petit" style="text-align:center;margin-top:14px;font-family:Inter">Es pot tocar: interruptors, play (avança sol), línies, «Fas de», el full d'opcions.${vista === 'llarg' ? ' Les unitats 7–10 encara no porten niqqud ni traducció a les línies.' : ''}</p>`;
+}
+
+function repinta() {
+  const p = document.getElementById('pant'); if (p) scrollGuardat = p.scrollTop;
+  const vEl = document.getElementById('vista'), mobil = vEl.classList.contains('mobil');
+  vEl.innerHTML = render(C, vista, mobil);
+  despres(C, vista, mobil);
+}
+function despres(C, vista, mobil) {
+  const pant = document.getElementById('pant'); if (!pant) return;
+  pant.scrollTop = scrollGuardat;
+  const tel = pant.closest('.tel');
+  tel.onclick = ev => {
+    const b = ev.target.closest('[data-a],[data-l],[data-ca],[data-jo],[data-t]'); if (!b) return;
+    const a = b.dataset.a;
+    if (b.dataset.l !== undefined) { const i = +b.dataset.l; VS.linia = i; VS.toc = true; if (C.revela === 'tot') { VS.destapades.has(i) ? VS.destapades.delete(i) : VS.destapades.add(i); } }
+    else if (b.dataset.ca !== undefined) { const i = +b.dataset.ca; VS.cas.has(i) ? VS.cas.delete(i) : VS.cas.add(i); }
+    else if (b.dataset.jo !== undefined) { VS.jo = +b.dataset.jo; VS.tornVist = false; }
+    else if (b.dataset.t !== undefined) { VS.triada = +b.dataset.t; }
+    else if (a === 'niqqud') VS.niqqud = !VS.niqqud;
+    else if (a === 'translit') VS.translit = !VS.translit;
+    else if (a === 'ca') VS.ca = !VS.ca;
+    else if (a === 'lent') VS.lent = !VS.lent;
+    else if (a === 'cursiva') VS.lletra = VS.lletra === 'c' ? 'q' : 'c';
+    else if (a === 'cicle') VS.lletra = { q: 'c', c: 'dues', dues: 'q' }[VS.lletra];
+    else if (a === 'lq') VS.lletra = 'q'; else if (a === 'lc') VS.lletra = 'c'; else if (a === 'ld') VS.lletra = 'dues';
+    else if (a === 'obre-full') VS.full = true; else if (a === 'tanca-full') VS.full = false;
+    else if (a === 'torn') VS.tornVist = true;
+    else if (a === 'prev') { VS.linia = Math.max(0, VS.linia - 1); VS.toc = true; }
+    else if (a === 'next') { VS.linia = Math.min(D[vista].linies.length - 1, VS.linia + 1); VS.toc = true; }
+    else if (a === 'play') {
+      VS.sonant = !VS.sonant; clearInterval(timer);
+      if (VS.sonant) timer = setInterval(() => {
+        const n = D[vista].linies.length;
+        if (VS.linia >= n - 1) { VS.sonant = false; clearInterval(timer); } else VS.linia++;
+        repinta();
+        const el = document.getElementById('l' + VS.linia);
+        if (el && VS.sonant) el.scrollIntoView({ block: 'nearest', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+      }, VS.lent ? 1800 : 1200);
+    } else if (a === 'fas') return;
+    repinta();
+  };
+  const sel = tel.querySelector('select[data-a=fas]');
+  if (sel) sel.onchange = () => { VS.jo = +sel.value; VS.tornVist = false; repinta(); };
+  if (VS.full) { const f = tel.querySelector('.full button'); if (f && document.activeElement?.closest('.tel') !== tel) f.focus(); }
+}
+
+// ── Infraestructura (no cal tocar-la) ───────────────────────────────────────────────────────────────────────
+const IDS = Object.keys(BASE);
+let C = { ...BASE }, preset = 'ara', vista = VISTES[0][0], amplada = 'escriptori';
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+document.getElementById('controls').innerHTML = CONTROLS.map(([g, cs]) => `<fieldset><legend>${esc(g)}</legend>${cs.map(c => c.tipus === 'range'
+  ? `<label class="ctl"><span>${esc(c.nom)} <output id="o-${c.id}"></output></span><input type="range" id="${c.id}" min="${c.min}" max="${c.max}" step="${c.pas}"></label>`
+  : `<label class="ctl"><span>${esc(c.nom)}</span><select id="${c.id}">${c.opcions.map(([v, n]) => `<option value="${esc(v)}">${esc(n)}</option>`).join('')}</select></label>`).join('')}</fieldset>`).join('');
+document.getElementById('vistes').innerHTML = VISTES.map(([k, n]) => `<button type="button" data-v="${k}">${esc(n)}</button>`).join('');
+document.getElementById('pres').innerHTML = PRESETS.map(([k, n, d]) => `<button type="button" data-p="${k}"><b>${esc(n)}${k === RECOMANACIO ? '<span class="rec">Recomanada</span>' : ''}</b><span>${esc(d)}</span></button>`).join('');
+// «Desfés»: cada canvi (una proposta, un control) desa abans l'estat d'on venia; el botó hi torna, pas a pas.
+const pila = [];
+let canviant = false;
+const estat = () => JSON.stringify({ preset, C });
+function desa() { const s = estat(); if (pila[pila.length - 1] !== s) { pila.push(s); if (pila.length > 60) pila.shift(); } document.getElementById('desfes').disabled = false; }
+const unitat = Object.fromEntries(CONTROLS.flatMap(g => g[1]).map(c => [c.id, c.unitat || '']));
+function linia() { return `${CLAU}: preset=${preset}; ` + IDS.map(k => `${k}=${C[k]}`).join('; '); }
+function pinta() {
+  const v = document.getElementById('vista');
+  v.className = 'vista' + (amplada === 'mobil' ? ' mobil' : '');
+  v.innerHTML = render(C, vista, amplada === 'mobil');
+  if (typeof despres === 'function') despres(C, vista, amplada === 'mobil');
+  IDS.forEach(k => { const el = document.getElementById(k); if (el) el.value = C[k]; const o = document.getElementById('o-' + k); if (o) o.textContent = C[k] + unitat[k]; });
+  document.querySelectorAll('[data-p]').forEach(b => b.setAttribute('aria-pressed', b.dataset.p === preset));
+  document.querySelectorAll('[data-v]').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === vista));
+  document.querySelectorAll('[data-w]').forEach(b => b.setAttribute('aria-pressed', b.dataset.w === amplada));
+  document.getElementById('linia').textContent = linia();
+  const p = PRESETS.find(x => x[0] === preset);
+  document.getElementById('nota').textContent = p ? `${p[1]}: ${p[2]}` : 'Proposta modificada';
+  try { history.replaceState(null, '', '#' + new URLSearchParams({ preset, vista, amplada, ...C })); } catch (e) {}
+}
+function posaPreset(k) { const p = PRESETS.find(x => x[0] === k); if (!p) return; desa(); preset = p[0]; C = { ...BASE, ...p[3] }; pinta(); }
+document.getElementById('pres').onclick = ev => { const b = ev.target.closest('button'); if (!b) return; posaPreset(b.dataset.p); };
+document.getElementById('recom').onclick = () => posaPreset(RECOMANACIO);
+document.getElementById('desfes').onclick = () => { const s = pila.pop(); if (s) { const x = JSON.parse(s); preset = x.preset; C = x.C; pinta(); } document.getElementById('desfes').disabled = !pila.length; };
+IDS.forEach(k => { const el = document.getElementById(k); if (el) { el.addEventListener('input', () => { if (!canviant) { desa(); canviant = true; } C[k] = el.type === 'range' ? +el.value : el.value; preset = 'propi'; pinta(); }); el.addEventListener('change', () => { canviant = false; }); } });
+document.querySelectorAll('[data-v]').forEach(b => b.onclick = () => { vista = b.dataset.v; pinta(); });
+document.querySelectorAll('[data-w]').forEach(b => b.onclick = () => { amplada = b.dataset.w; pinta(); });
+document.getElementById('vull').onclick = ev => {
+  const b = ev.currentTarget;
+  (navigator.clipboard ? navigator.clipboard.writeText(linia()) : Promise.reject()).then(() => { b.textContent = 'Copiat'; }, () => { b.textContent = 'Copia la línia de sota'; });
+  setTimeout(() => { b.textContent = 'La vull'; }, 1600);
+};
+try {
+  const q = new URLSearchParams(location.hash.slice(1));
+  if (q.has('preset')) {
+    preset = q.get('preset'); vista = q.get('vista') || vista; amplada = q.get('amplada') || amplada;
+    const pr = PRESETS.find(x => x[0] === preset); if (pr) C = { ...BASE, ...pr[3] };
+    IDS.forEach(k => { if (q.has(k)) C[k] = typeof BASE[k] === 'number' ? +q.get(k) : q.get(k); });
+  }
+} catch (e) {}
+pinta();
+</script>
+</body>
+</html>

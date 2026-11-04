@@ -3,6 +3,7 @@ import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { describe, expect, it } from 'vitest'
 import { clauAudio } from './audio-clau'
+import { VEU_BASE } from './veus'
 import { itemsAudibles, textAudible, generaAudio, afegeixAudio } from './genera-audio'
 import type { Unitat } from '../src/contingut/tipus'
 
@@ -41,15 +42,15 @@ describe('itemsAudibles', () => {
 })
 
 describe('generaAudio', () => {
-  it('genera les dues velocitats, salta els existents i usa el runner', async () => {
+  it('genera només la velocitat normal, salta els existents i usa el runner', async () => {
     const dir = mkdtempSync(join(tmpdir(), 'aud-'))
     const trucades: string[] = []
     const runner = async (text: string, vel: 'normal' | 'lent', dest: string) => { trucades.push(`${vel}:${text}`); writeFileSync(dest, 'x') }
     writeFileSync(join(dir, clauAudio('שלום', 'normal')), 'x')
     const r = await generaAudio([{ text: 'שלום' }, { text: 'שלום' }, { text: 'אני' }], dir, runner, 2)
-    expect(trucades.sort()).toEqual(['lent:אני', 'lent:שלום', 'normal:אני'])
-    expect(r).toEqual({ generats: 3, existents: 1 })
-    expect(existsSync(join(dir, clauAudio('אני', 'lent')))).toBe(true)
+    expect(trucades.sort()).toEqual(['normal:אני'])
+    expect(r).toEqual({ generats: 1, existents: 1 })
+    expect(existsSync(join(dir, clauAudio('אני', 'normal')))).toBe(true)
   })
 })
 
@@ -63,10 +64,10 @@ describe('generaAudio errors', () => {
 })
 
 describe('afegeixAudio', () => {
-  it('només si existeixen tots dos fitxers', () => {
-    const ok = clauAudio('שָׁלוֹם', 'normal'), ok2 = clauAudio('שָׁלוֹם', 'lent')
-    const r = afegeixAudio(u, (f) => f === ok || f === ok2 || f === clauAudio('שלום', 'normal'))
-    expect(r.vocabulari[0].audio).toEqual({ normal: ok, lent: ok2 })
+  it('només si el fitxer existeix, amb la veu de base (el lent és el mateix fitxer)', () => {
+    const ok = clauAudio('שָׁלוֹם', 'normal', VEU_BASE)
+    const r = afegeixAudio(u, (f) => f === ok)
+    expect(r.vocabulari[0].audio).toEqual({ normal: ok, lent: ok })
     expect(r.textos[0].linies[0].audio).toBeUndefined()
     expect(r.vocabulari[1].audio).toBeUndefined()
   })

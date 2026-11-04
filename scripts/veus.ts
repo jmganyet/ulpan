@@ -1,11 +1,13 @@
 // Veus dels diàlegs: les neuronals hebrees de Microsoft (Avri, home; Hila, dona) via `edge-tts`.
 // Si dos personatges del mateix diàleg tenen la mateixa veu, el segon la té amb un altre to; «cor» en barreja tres.
-// Les paraules i la gramàtica continuen amb la Carmit (macOS `say`).
+// Les paraules, la gramàtica i els textos sense personatges, amb la Hila (VEU_BASE).
 import type { Text } from '../src/contingut/tipus'
 
 /** Id de veu: `carmit`, `ms:<Avri|Hila>:<to>` (to en Hz, p. ex. `+0Hz`) o `cor`. */
 export type Veu = string
 export const CARMIT: Veu = 'carmit'
+/** Veu de les paraules, la gramàtica i els textos que no són diàlegs. */
+export const VEU_BASE: Veu = 'ms:Hila:+0Hz'
 
 type Classe = 'dona' | 'home' | 'nen' | 'cor'
 

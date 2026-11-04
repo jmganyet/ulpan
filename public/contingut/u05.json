@@ -22,8 +22,8 @@
       "perComprovar": false,
       "icona": "check-square",
       "audio": {
-        "normal": "97fdd3cd65f1.m4a",
-        "lent": "94fbad072f75.m4a"
+        "normal": "c709e797a4c7.m4a",
+        "lent": "c709e797a4c7.m4a"
       }
     },
     {
@@ -37,8 +37,8 @@
       "perComprovar": false,
       "icona": "stack",
       "audio": {
-        "normal": "f0d8de541dcd.m4a",
-        "lent": "75e7f90f31d0.m4a"
+        "normal": "e49bfe570a21.m4a",
+        "lent": "e49bfe570a21.m4a"
       }
     },
     {
@@ -52,8 +52,8 @@
       "perComprovar": false,
       "icona": "prohibit",
       "audio": {
-        "normal": "f997143c5915.m4a",
-        "lent": "639c80610509.m4a"
+        "normal": "6760a889ecad.m4a",
+        "lent": "6760a889ecad.m4a"
       }
     },
     {
@@ -67,8 +67,8 @@
       "perComprovar": false,
       "icona": "desk",
       "audio": {
-        "normal": "0502b16a8e5d.m4a",
-        "lent": "1058a63fffa6.m4a"
+        "normal": "ac379733bef4.m4a",
+        "lent": "ac379733bef4.m4a"
       }
     },
     {
@@ -82,8 +82,8 @@
       "perComprovar": false,
       "icona": "desk",
       "audio": {
-        "normal": "55f181767a45.m4a",
-        "lent": "bd773840a80f.m4a"
+        "normal": "be99f272cddb.m4a",
+        "lent": "be99f272cddb.m4a"
       }
     },
     {
@@ -96,8 +96,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "fbfbb532ed20.m4a",
-        "lent": "f776df8728c8.m4a"
+        "normal": "338840f5fedf.m4a",
+        "lent": "338840f5fedf.m4a"
       }
     },
     {
@@ -111,8 +111,8 @@
       "perComprovar": false,
       "icona": "flag",
       "audio": {
-        "normal": "9afbcf67957f.m4a",
-        "lent": "4b3588b9f3f8.m4a"
+        "normal": "c2c19595b9b8.m4a",
+        "lent": "c2c19595b9b8.m4a"
       }
     },
     {
@@ -126,8 +126,8 @@
       "perComprovar": false,
       "icona": "drop",
       "audio": {
-        "normal": "be521e6e6ef9.m4a",
-        "lent": "569c0fd6d400.m4a"
+        "normal": "e7a66e4b6d22.m4a",
+        "lent": "e7a66e4b6d22.m4a"
       }
     },
     {
@@ -140,8 +140,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "a22c590ce5ac.m4a",
-        "lent": "2b24d0d14ba9.m4a"
+        "normal": "3e4282575544.m4a",
+        "lent": "3e4282575544.m4a"
       }
     },
     {
@@ -155,8 +155,8 @@
       "perComprovar": false,
       "icona": "presentation",
       "audio": {
-        "normal": "2fd6ad3a8fb3.m4a",
-        "lent": "0262896cdf45.m4a"
+        "normal": "15d7fd80c22a.m4a",
+        "lent": "15d7fd80c22a.m4a"
       }
     },
     {
@@ -170,8 +170,8 @@
       "perComprovar": false,
       "icona": "presentation",
       "audio": {
-        "normal": "10b552750456.m4a",
-        "lent": "4da72d179b39.m4a"
+        "normal": "53041bc829eb.m4a",
+        "lent": "53041bc829eb.m4a"
       }
     },
     {
@@ -185,8 +185,8 @@
       "perComprovar": false,
       "icona": "person-simple-walk",
       "audio": {
-        "normal": "d92a99c9cbc8.m4a",
-        "lent": "1a7b630dbfa0.m4a"
+        "normal": "46cf17e91d98.m4a",
+        "lent": "46cf17e91d98.m4a"
       }
     },
     {
@@ -200,8 +200,8 @@
       "perComprovar": false,
       "icona": "person-simple-walk",
       "audio": {
-        "normal": "e7c5dffc4378.m4a",
-        "lent": "2cb6d5ea373c.m4a"
+        "normal": "5bf4663ced38.m4a",
+        "lent": "5bf4663ced38.m4a"
       }
     },
     {
@@ -215,8 +215,8 @@
       "perComprovar": false,
       "icona": "person-simple-walk",
       "audio": {
-        "normal": "94647a325e1e.m4a",
-        "lent": "769a5aa68359.m4a"
+        "normal": "770462de1f73.m4a",
+        "lent": "770462de1f73.m4a"
       }
     },
     {
@@ -229,8 +229,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "3d60524db66f.m4a",
-        "lent": "a540a7364239.m4a"
+        "normal": "2675a872e1e8.m4a",
+        "lent": "2675a872e1e8.m4a"
       }
     },
     {
@@ -243,8 +243,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "43f85076c6d1.m4a",
-        "lent": "c860d99b46c8.m4a"
+        "normal": "a2c9a53fb209.m4a",
+        "lent": "a2c9a53fb209.m4a"
       }
     },
     {
@@ -258,8 +258,8 @@
       "perComprovar": false,
       "icona": "sign-in",
       "audio": {
-        "normal": "f8c60cc82d1d.m4a",
-        "lent": "e9286ebade87.m4a"
+        "normal": "08474a985c2e.m4a",
+        "lent": "08474a985c2e.m4a"
       }
     },
     {
@@ -273,8 +273,8 @@
       "perComprovar": false,
       "icona": "sign-in",
       "audio": {
-        "normal": "c4f1e78ff340.m4a",
-        "lent": "b2c4a312dd1e.m4a"
+        "normal": "75bc3c148bbd.m4a",
+        "lent": "75bc3c148bbd.m4a"
       }
     },
     {
@@ -287,8 +287,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "50c3146a462e.m4a",
-        "lent": "b4f487a3e4bb.m4a"
+        "normal": "f476e5661e94.m4a",
+        "lent": "f476e5661e94.m4a"
       }
     },
     {
@@ -302,8 +302,8 @@
       "perComprovar": false,
       "icona": "house-line",
       "audio": {
-        "normal": "93bf53f309da.m4a",
-        "lent": "d8df26f6ae91.m4a"
+        "normal": "36f41ff3122c.m4a",
+        "lent": "36f41ff3122c.m4a"
       }
     },
     {
@@ -316,8 +316,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "b8ae56b6f210.m4a",
-        "lent": "04d3a57b454d.m4a"
+        "normal": "1f4f24cb29de.m4a",
+        "lent": "1f4f24cb29de.m4a"
       }
     },
     {
@@ -331,8 +331,8 @@
       "perComprovar": false,
       "icona": "lightning",
       "audio": {
-        "normal": "e84ce851acb0.m4a",
-        "lent": "9b1c64eb6803.m4a"
+        "normal": "f051cbcde7a2.m4a",
+        "lent": "f051cbcde7a2.m4a"
       }
     },
     {
@@ -346,8 +346,8 @@
       "perComprovar": false,
       "icona": "lightning",
       "audio": {
-        "normal": "392073b58d4d.m4a",
-        "lent": "9b00426bd424.m4a"
+        "normal": "3648decd3fb0.m4a",
+        "lent": "3648decd3fb0.m4a"
       }
     },
     {
@@ -361,8 +361,8 @@
       "perComprovar": false,
       "icona": "seal-question",
       "audio": {
-        "normal": "7f89dbc7f6dd.m4a",
-        "lent": "8e7c45e52af4.m4a"
+        "normal": "7c12d0827275.m4a",
+        "lent": "7c12d0827275.m4a"
       }
     },
     {
@@ -376,8 +376,8 @@
       "perComprovar": false,
       "icona": "seal-question",
       "audio": {
-        "normal": "902fc9f1654f.m4a",
-        "lent": "b657dadadd85.m4a"
+        "normal": "9c4e6b7d060a.m4a",
+        "lent": "9c4e6b7d060a.m4a"
       }
     },
     {
@@ -391,8 +391,8 @@
       "perComprovar": false,
       "icona": "arrow-bend-up-left",
       "audio": {
-        "normal": "74c9a4384905.m4a",
-        "lent": "acc2860ddb03.m4a"
+        "normal": "a96be508161e.m4a",
+        "lent": "a96be508161e.m4a"
       }
     },
     {
@@ -406,8 +406,8 @@
       "perComprovar": false,
       "icona": "arrow-bend-up-left",
       "audio": {
-        "normal": "defbb21096c0.m4a",
-        "lent": "533afdff3976.m4a"
+        "normal": "a25837b4942b.m4a",
+        "lent": "a25837b4942b.m4a"
       }
     },
     {
@@ -421,8 +421,8 @@
       "extra": false,
       "icona": "person-simple-walk",
       "audio": {
-        "normal": "c2c00b96556a.m4a",
-        "lent": "e2b2e4ba8c80.m4a"
+        "normal": "294753e929f1.m4a",
+        "lent": "294753e929f1.m4a"
       }
     },
     {
@@ -436,8 +436,8 @@
       "extra": false,
       "icona": "person-simple-walk",
       "audio": {
-        "normal": "65eb98210edf.m4a",
-        "lent": "dc5e171528ba.m4a"
+        "normal": "03605b683a7f.m4a",
+        "lent": "03605b683a7f.m4a"
       }
     },
     {
@@ -451,8 +451,8 @@
       "extra": false,
       "icona": "person-simple-walk",
       "audio": {
-        "normal": "f4b4c6335349.m4a",
-        "lent": "b03e446779a2.m4a"
+        "normal": "c7805436365d.m4a",
+        "lent": "c7805436365d.m4a"
       }
     },
     {
@@ -466,8 +466,8 @@
       "extra": false,
       "icona": "sign-in",
       "audio": {
-        "normal": "24e36e08f985.m4a",
-        "lent": "254adddd6c21.m4a"
+        "normal": "a5e02704c460.m4a",
+        "lent": "a5e02704c460.m4a"
       }
     },
     {
@@ -481,8 +481,8 @@
       "extra": false,
       "icona": "sign-in",
       "audio": {
-        "normal": "3cbdf25dea10.m4a",
-        "lent": "4b430698a84c.m4a"
+        "normal": "796720e5e091.m4a",
+        "lent": "796720e5e091.m4a"
       }
     },
     {
@@ -496,8 +496,8 @@
       "extra": false,
       "icona": "sign-in",
       "audio": {
-        "normal": "7d748e14fbe2.m4a",
-        "lent": "520f33c226ae.m4a"
+        "normal": "204dd76e45d7.m4a",
+        "lent": "204dd76e45d7.m4a"
       }
     }
   ],
@@ -518,8 +518,8 @@
           "ca": "Sí, a Galilea hi ha molts quibutsos.",
           "perComprovar": false,
           "audio": {
-            "normal": "a8f247a86d8f.m4a",
-            "lent": "c8c10a572467.m4a"
+            "normal": "e75837707ef6.m4a",
+            "lent": "e75837707ef6.m4a"
           }
         },
         {
@@ -532,8 +532,8 @@
           "ca": "No, a Sud-amèrica no hi ha quibutsos.",
           "perComprovar": false,
           "audio": {
-            "normal": "07b5576642cd.m4a",
-            "lent": "d5c22d8861e2.m4a"
+            "normal": "051f40685716.m4a",
+            "lent": "051f40685716.m4a"
           }
         },
         {
@@ -546,8 +546,8 @@
           "ca": "Al quibuts Dan hi ha ulpan?",
           "perComprovar": false,
           "audio": {
-            "normal": "a410551767e1.m4a",
-            "lent": "b591f9aa7c5c.m4a"
+            "normal": "c49f99c0a469.m4a",
+            "lent": "c49f99c0a469.m4a"
           }
         },
         {
@@ -560,8 +560,8 @@
           "ca": "Hi ha molts alumnes dels Estats Units a l'ulpan?",
           "perComprovar": false,
           "audio": {
-            "normal": "b28ef0317e01.m4a",
-            "lent": "fc3db1f36d25.m4a"
+            "normal": "f0c19b83fed5.m4a",
+            "lent": "f0c19b83fed5.m4a"
           }
         }
       ]
@@ -582,8 +582,8 @@
           "ca": "A l'ulpan hi ha moltes classes?",
           "perComprovar": false,
           "audio": {
-            "normal": "a26123b5dad1.m4a",
-            "lent": "4926576e7856.m4a"
+            "normal": "16d8421e3b2e.m4a",
+            "lent": "16d8421e3b2e.m4a"
           }
         },
         {
@@ -596,8 +596,8 @@
           "ca": "No, dels Estats Units no n'hi ha gaires.",
           "perComprovar": false,
           "audio": {
-            "normal": "4b54b9dfd69e.m4a",
-            "lent": "4824998524e5.m4a"
+            "normal": "5d3c746e6309.m4a",
+            "lent": "5d3c746e6309.m4a"
           }
         },
         {
@@ -610,8 +610,8 @@
           "ca": "Del Brasil també només hi ha pocs alumnes.",
           "perComprovar": false,
           "audio": {
-            "normal": "de55af92a2be.m4a",
-            "lent": "bd98a70d964a.m4a"
+            "normal": "61bb6a59903f.m4a",
+            "lent": "61bb6a59903f.m4a"
           }
         },
         {
@@ -624,8 +624,8 @@
           "ca": "No, a l'ulpan del quibuts Dan només hi ha tres classes.",
           "perComprovar": false,
           "audio": {
-            "normal": "0a6f01b11ac8.m4a",
-            "lent": "068dcd83baf8.m4a"
+            "normal": "76e621a445ca.m4a",
+            "lent": "76e621a445ca.m4a"
           }
         },
         {
@@ -638,8 +638,8 @@
           "ca": "A l'ulpan hi ha mestres homes o mestres dones?",
           "perComprovar": false,
           "audio": {
-            "normal": "8e49fcb4e3a9.m4a",
-            "lent": "c0863fa08c38.m4a"
+            "normal": "ba3b19f5ffa4.m4a",
+            "lent": "ba3b19f5ffa4.m4a"
           }
         }
       ]
@@ -660,8 +660,8 @@
           "ca": "va · va · van · van (m. sg. · f. sg. · m. pl. · f. pl.)",
           "perComprovar": false,
           "audio": {
-            "normal": "c3b71cc65e55.m4a",
-            "lent": "f9bdd253bfaa.m4a"
+            "normal": "a1e69030f260.m4a",
+            "lent": "a1e69030f260.m4a"
           }
         },
         {
@@ -674,8 +674,8 @@
           "ca": "ve · ve · venen · venen (m. sg. · f. sg. · m. pl. · f. pl.)",
           "perComprovar": false,
           "audio": {
-            "normal": "ff5b1b0ff9b5.m4a",
-            "lent": "094cacd07f0e.m4a"
+            "normal": "4921f7e60d77.m4a",
+            "lent": "4921f7e60d77.m4a"
           }
         },
         {
@@ -688,8 +688,8 @@
           "ca": "No, vaig al concert. (parla una dona)",
           "perComprovar": false,
           "audio": {
-            "normal": "df9d01d24224.m4a",
-            "lent": "7e63c1ad3b29.m4a"
+            "normal": "58db3c3a0ebd.m4a",
+            "lent": "58db3c3a0ebd.m4a"
           }
         },
         {
@@ -702,8 +702,8 @@
           "ca": "Tu també vens al teatre? (a una dona)",
           "perComprovar": false,
           "audio": {
-            "normal": "0efdad9334ce.m4a",
-            "lent": "70151618210f.m4a"
+            "normal": "c774219366da.m4a",
+            "lent": "c774219366da.m4a"
           }
         },
         {
@@ -716,8 +716,8 @@
           "ca": "va (m. sg.) – anar (passat: ell va anar) · ve (m. sg.) – venir (passat: ell va venir)",
           "perComprovar": false,
           "audio": {
-            "normal": "b64fb6b9ecea.m4a",
-            "lent": "d2b0a5a3bda9.m4a"
+            "normal": "b82b19427481.m4a",
+            "lent": "b82b19427481.m4a"
           }
         }
       ]
@@ -738,8 +738,8 @@
           "ca": "D'on...? · On...? · Cap a on...?",
           "perComprovar": false,
           "audio": {
-            "normal": "9ae3b9cdd270.m4a",
-            "lent": "74264c93df62.m4a"
+            "normal": "4f05381c5549.m4a",
+            "lent": "4f05381c5549.m4a"
           }
         },
         {
@@ -752,8 +752,8 @@
           "ca": "On és la Rakhel? — La Rakhel és a casa.",
           "perComprovar": false,
           "audio": {
-            "normal": "e927834eb269.m4a",
-            "lent": "daad9849aa90.m4a"
+            "normal": "48bf3493fda9.m4a",
+            "lent": "48bf3493fda9.m4a"
           }
         },
         {
@@ -766,8 +766,8 @@
           "ca": "Iossi, on vas?",
           "perComprovar": false,
           "audio": {
-            "normal": "3343362fb7a4.m4a",
-            "lent": "2ed1efc771de.m4a"
+            "normal": "006c98a7aafd.m4a",
+            "lent": "006c98a7aafd.m4a"
           }
         },
         {
@@ -780,8 +780,8 @@
           "ca": "D'on vens i on vas?",
           "perComprovar": false,
           "audio": {
-            "normal": "56c7af801285.m4a",
-            "lent": "fa670457d1dd.m4a"
+            "normal": "85032cd6cdc6.m4a",
+            "lent": "85032cd6cdc6.m4a"
           }
         },
         {
@@ -794,8 +794,8 @@
           "ca": "On van el Roberto i el Iaakov? (el verb davant del subjecte)",
           "perComprovar": false,
           "audio": {
-            "normal": "b5ed459b1fec.m4a",
-            "lent": "7e125da38598.m4a"
+            "normal": "9722733d6729.m4a",
+            "lent": "9722733d6729.m4a"
           }
         }
       ]
@@ -816,8 +816,8 @@
           "ca": "El Roberto va venir del Brasil al quibuts Dan.",
           "perComprovar": false,
           "audio": {
-            "normal": "02eb47f6c6f1.m4a",
-            "lent": "0fc94e01de4f.m4a"
+            "normal": "07bf3dc5c8e8.m4a",
+            "lent": "07bf3dc5c8e8.m4a"
           }
         },
         {
@@ -830,8 +830,8 @@
           "ca": "Va arribar al quibuts al febrer.",
           "perComprovar": false,
           "audio": {
-            "normal": "438ebbffd14a.m4a",
-            "lent": "b29974069a41.m4a"
+            "normal": "e3d2b84786d6.m4a",
+            "lent": "e3d2b84786d6.m4a"
           }
         },
         {
@@ -844,8 +844,8 @@
           "ca": "Ara el Roberto viu al quibuts Dan.",
           "perComprovar": false,
           "audio": {
-            "normal": "bae563441079.m4a",
-            "lent": "67119caaf88a.m4a"
+            "normal": "c66d78439d99.m4a",
+            "lent": "c66d78439d99.m4a"
           }
         },
         {
@@ -858,8 +858,8 @@
           "ca": "Al quibuts treballa i estudia.",
           "perComprovar": false,
           "audio": {
-            "normal": "afefea18ff67.m4a",
-            "lent": "524fb28f5b6a.m4a"
+            "normal": "989301b85b9b.m4a",
+            "lent": "989301b85b9b.m4a"
           }
         },
         {
@@ -873,8 +873,8 @@
           "perComprovar": false,
           "extra": true,
           "audio": {
-            "normal": "3f3e6e19c7b7.m4a",
-            "lent": "d4909296ba72.m4a"
+            "normal": "282b50721708.m4a",
+            "lent": "282b50721708.m4a"
           }
         }
       ]
@@ -895,8 +895,8 @@
           "ca": "També hi ha quibutsos a Sud-amèrica?",
           "perComprovar": false,
           "audio": {
-            "normal": "1e4172899ed2.m4a",
-            "lent": "a9ba33894f85.m4a"
+            "normal": "9d65373bfca9.m4a",
+            "lent": "9d65373bfca9.m4a"
           }
         },
         {
@@ -909,8 +909,8 @@
           "ca": "No, a Sud-amèrica no hi ha quibutsos.",
           "perComprovar": false,
           "audio": {
-            "normal": "07b5576642cd.m4a",
-            "lent": "d5c22d8861e2.m4a"
+            "normal": "051f40685716.m4a",
+            "lent": "051f40685716.m4a"
           }
         }
       ]
@@ -931,8 +931,8 @@
           "ca": "La Rakhel és a casa.",
           "perComprovar": false,
           "audio": {
-            "normal": "1bbedb610bca.m4a",
-            "lent": "b3f70aed9d0c.m4a"
+            "normal": "875638735176.m4a",
+            "lent": "875638735176.m4a"
           }
         },
         {
@@ -945,8 +945,8 @@
           "ca": "El Roberto va a casa de la Rakhel i el Iaakov.",
           "perComprovar": false,
           "audio": {
-            "normal": "ce10d7fcbb80.m4a",
-            "lent": "6f7880b61a04.m4a"
+            "normal": "e3bb2dd4c02c.m4a",
+            "lent": "e3bb2dd4c02c.m4a"
           }
         },
         {
@@ -959,8 +959,8 @@
           "ca": "El Iaakov va cap a casa.",
           "perComprovar": false,
           "audio": {
-            "normal": "a9cf31f74c0f.m4a",
-            "lent": "5ca75bc462ab.m4a"
+            "normal": "1b0a306592a3.m4a",
+            "lent": "1b0a306592a3.m4a"
           }
         },
         {
@@ -973,8 +973,8 @@
           "ca": "Vaig cap a casa. A reveure!",
           "perComprovar": false,
           "audio": {
-            "normal": "418679f9b64f.m4a",
-            "lent": "64372e3a81c0.m4a"
+            "normal": "5d1a3bc9c16e.m4a",
+            "lent": "5d1a3bc9c16e.m4a"
           }
         }
       ]
@@ -995,8 +995,8 @@
           "ca": "Perdó, ara hi ha classe. Adéu! Vaig a classe.",
           "perComprovar": false,
           "audio": {
-            "normal": "6cf70b7ccd06.m4a",
-            "lent": "8491b3605b22.m4a"
+            "normal": "36240e96007c.m4a",
+            "lent": "36240e96007c.m4a"
           }
         },
         {
@@ -1009,8 +1009,8 @@
           "ca": "La classe és gran? És bonica?",
           "perComprovar": false,
           "audio": {
-            "normal": "1992028d7c83.m4a",
-            "lent": "fc2e5dda3171.m4a"
+            "normal": "736bc31ce2f8.m4a",
+            "lent": "736bc31ce2f8.m4a"
           }
         }
       ]
@@ -1022,7 +1022,7 @@
       "pagina": "pag-28",
       "titol": {
         "u": "בָּאוּלְפָּן בְּקִיבּוּץ דָּן",
-        "perComprovar": true,
+        "perComprovar": false,
         "ca": "A l'ulpan del quibuts Dan"
       },
       "tipus": "text",
@@ -1037,8 +1037,8 @@
           "perComprovar": false,
           "ca": "On vius, Roberto?",
           "audio": {
-            "normal": "6b3f2966e127.m4a",
-            "lent": "2e0700c32ab3.m4a"
+            "normal": "ab4e5b48ebe7.m4a",
+            "lent": "ab4e5b48ebe7.m4a"
           }
         },
         {
@@ -1051,8 +1051,8 @@
           "perComprovar": false,
           "ca": "Visc al quibuts Dan, a Galilea.",
           "audio": {
-            "normal": "0b90ac1b61bc.m4a",
-            "lent": "6b243a459dc1.m4a"
+            "normal": "1f21d202905f.m4a",
+            "lent": "1f21d202905f.m4a"
           }
         },
         {
@@ -1065,8 +1065,8 @@
           "perComprovar": false,
           "ca": "A Galilea hi ha molts quibutsos?",
           "audio": {
-            "normal": "c3a838ed0d0c.m4a",
-            "lent": "b9c65606d78f.m4a"
+            "normal": "ede87a495902.m4a",
+            "lent": "ede87a495902.m4a"
           }
         },
         {
@@ -1079,8 +1079,8 @@
           "perComprovar": false,
           "ca": "Sí, a Galilea hi ha molts quibutsos.",
           "audio": {
-            "normal": "a8f247a86d8f.m4a",
-            "lent": "c8c10a572467.m4a"
+            "normal": "e75837707ef6.m4a",
+            "lent": "e75837707ef6.m4a"
           }
         },
         {
@@ -1093,8 +1093,8 @@
           "perComprovar": false,
           "ca": "També hi ha quibutsos a Sud-amèrica?",
           "audio": {
-            "normal": "1e4172899ed2.m4a",
-            "lent": "a9ba33894f85.m4a"
+            "normal": "9d65373bfca9.m4a",
+            "lent": "9d65373bfca9.m4a"
           }
         },
         {
@@ -1107,8 +1107,8 @@
           "perComprovar": false,
           "ca": "No, a Sud-amèrica no hi ha quibutsos.",
           "audio": {
-            "normal": "07b5576642cd.m4a",
-            "lent": "d5c22d8861e2.m4a"
+            "normal": "051f40685716.m4a",
+            "lent": "051f40685716.m4a"
           }
         },
         {
@@ -1121,8 +1121,8 @@
           "perComprovar": false,
           "ca": "Al quibuts Dan hi ha ulpan?",
           "audio": {
-            "normal": "a410551767e1.m4a",
-            "lent": "b591f9aa7c5c.m4a"
+            "normal": "c49f99c0a469.m4a",
+            "lent": "c49f99c0a469.m4a"
           }
         },
         {
@@ -1135,8 +1135,8 @@
           "perComprovar": false,
           "ca": "Sí, al quibuts Dan hi ha un ulpan de treball.",
           "audio": {
-            "normal": "bc94e76a62f9.m4a",
-            "lent": "cf903f0502a6.m4a"
+            "normal": "3ccff2a1df83.m4a",
+            "lent": "3ccff2a1df83.m4a"
           }
         },
         {
@@ -1149,8 +1149,8 @@
           "perComprovar": false,
           "ca": "Estudies a l'ulpan del quibuts Dan?",
           "audio": {
-            "normal": "c93e058bbaa9.m4a",
-            "lent": "e6d9e12e85ab.m4a"
+            "normal": "d0a87ec1fdd4.m4a",
+            "lent": "d0a87ec1fdd4.m4a"
           }
         },
         {
@@ -1163,8 +1163,8 @@
           "perComprovar": false,
           "ca": "Sí, hi estudio.",
           "audio": {
-            "normal": "2566cc6c40dc.m4a",
-            "lent": "2466a5e72c08.m4a"
+            "normal": "4085fa1a1b77.m4a",
+            "lent": "4085fa1a1b77.m4a"
           }
         },
         {
@@ -1177,8 +1177,8 @@
           "perComprovar": false,
           "ca": "A l'ulpan hi ha moltes classes?",
           "audio": {
-            "normal": "a26123b5dad1.m4a",
-            "lent": "4926576e7856.m4a"
+            "normal": "16d8421e3b2e.m4a",
+            "lent": "16d8421e3b2e.m4a"
           }
         },
         {
@@ -1191,8 +1191,8 @@
           "perComprovar": false,
           "ca": "No, a l'ulpan del quibuts Dan només hi ha tres classes.",
           "audio": {
-            "normal": "0a6f01b11ac8.m4a",
-            "lent": "068dcd83baf8.m4a"
+            "normal": "76e621a445ca.m4a",
+            "lent": "76e621a445ca.m4a"
           }
         },
         {
@@ -1205,8 +1205,8 @@
           "perComprovar": false,
           "ca": "Hi ha molts alumnes dels Estats Units a l'ulpan?",
           "audio": {
-            "normal": "b28ef0317e01.m4a",
-            "lent": "fc3db1f36d25.m4a"
+            "normal": "f0c19b83fed5.m4a",
+            "lent": "f0c19b83fed5.m4a"
           }
         },
         {
@@ -1219,8 +1219,8 @@
           "perComprovar": false,
           "ca": "No, dels Estats Units no n'hi ha gaires.",
           "audio": {
-            "normal": "4b54b9dfd69e.m4a",
-            "lent": "4824998524e5.m4a"
+            "normal": "5d3c746e6309.m4a",
+            "lent": "5d3c746e6309.m4a"
           }
         },
         {
@@ -1233,8 +1233,8 @@
           "perComprovar": false,
           "ca": "I del Brasil?",
           "audio": {
-            "normal": "6e72d384404a.m4a",
-            "lent": "0f5e3f585fed.m4a"
+            "normal": "06d445aa9039.m4a",
+            "lent": "06d445aa9039.m4a"
           }
         },
         {
@@ -1247,8 +1247,8 @@
           "perComprovar": false,
           "ca": "Del Brasil també només hi ha pocs alumnes.",
           "audio": {
-            "normal": "de55af92a2be.m4a",
-            "lent": "bd98a70d964a.m4a"
+            "normal": "61bb6a59903f.m4a",
+            "lent": "61bb6a59903f.m4a"
           }
         },
         {
@@ -1261,8 +1261,8 @@
           "perComprovar": false,
           "ca": "A l'ulpan hi ha mestres homes o mestres dones?",
           "audio": {
-            "normal": "8e49fcb4e3a9.m4a",
-            "lent": "c0863fa08c38.m4a"
+            "normal": "ba3b19f5ffa4.m4a",
+            "lent": "ba3b19f5ffa4.m4a"
           }
         },
         {
@@ -1275,8 +1275,8 @@
           "perComprovar": false,
           "ca": "A l'ulpan del quibuts Dan només hi ha mestres dones.",
           "audio": {
-            "normal": "4ba5886e3c64.m4a",
-            "lent": "15a718e31e1a.m4a"
+            "normal": "530ac7b9f988.m4a",
+            "lent": "530ac7b9f988.m4a"
           }
         },
         {
@@ -1289,8 +1289,8 @@
           "perComprovar": false,
           "ca": "La classe és gran? És bonica?",
           "audio": {
-            "normal": "1992028d7c83.m4a",
-            "lent": "fc2e5dda3171.m4a"
+            "normal": "736bc31ce2f8.m4a",
+            "lent": "736bc31ce2f8.m4a"
           }
         },
         {
@@ -1303,8 +1303,8 @@
           "perComprovar": false,
           "ca": "Així així.",
           "audio": {
-            "normal": "0bc34dd8de05.m4a",
-            "lent": "b6c9e068219d.m4a"
+            "normal": "86e99fbd1259.m4a",
+            "lent": "86e99fbd1259.m4a"
           }
         }
       ]
@@ -1329,8 +1329,8 @@
           "perComprovar": false,
           "ca": "Què hi ha a la classe?",
           "audio": {
-            "normal": "defa0d614ffd.m4a",
-            "lent": "2dc205ce68d9.m4a"
+            "normal": "27c3d0624718.m4a",
+            "lent": "27c3d0624718.m4a"
           }
         },
         {
@@ -1343,8 +1343,8 @@
           "perComprovar": false,
           "ca": "Perdó, ara hi ha classe. Adéu! Vaig a classe.",
           "audio": {
-            "normal": "6cf70b7ccd06.m4a",
-            "lent": "8491b3605b22.m4a"
+            "normal": "36240e96007c.m4a",
+            "lent": "36240e96007c.m4a"
           }
         },
         {
@@ -1357,8 +1357,8 @@
           "perComprovar": false,
           "ca": "Tu també vens a classe?",
           "audio": {
-            "normal": "acc2e25871f7.m4a",
-            "lent": "fb30330ae8e0.m4a"
+            "normal": "4c02c04c3458.m4a",
+            "lent": "4c02c04c3458.m4a"
           }
         },
         {
@@ -1371,8 +1371,8 @@
           "perComprovar": false,
           "ca": "No.",
           "audio": {
-            "normal": "e97431ea5167.m4a",
-            "lent": "6c6ee31323d6.m4a"
+            "normal": "f823ce999ea7.m4a",
+            "lent": "f823ce999ea7.m4a"
           }
         },
         {
@@ -1385,8 +1385,8 @@
           "perComprovar": false,
           "ca": "On vas?",
           "audio": {
-            "normal": "c461eb508a4f.m4a",
-            "lent": "daf4e930b76e.m4a"
+            "normal": "69ef4c74d211.m4a",
+            "lent": "69ef4c74d211.m4a"
           }
         },
         {
@@ -1399,8 +1399,8 @@
           "perComprovar": false,
           "ca": "Vaig cap a casa. A reveure!",
           "audio": {
-            "normal": "418679f9b64f.m4a",
-            "lent": "64372e3a81c0.m4a"
+            "normal": "5d1a3bc9c16e.m4a",
+            "lent": "5d1a3bc9c16e.m4a"
           }
         },
         {
@@ -1413,8 +1413,8 @@
           "perComprovar": false,
           "ca": "A reveure!",
           "audio": {
-            "normal": "491dac615436.m4a",
-            "lent": "62a4d1b5f484.m4a"
+            "normal": "bff177e1fc2f.m4a",
+            "lent": "bff177e1fc2f.m4a"
           }
         }
       ]
@@ -1437,8 +1437,8 @@
           "perComprovar": false,
           "ca": "anar, en present: m. sg. · f. sg. · m. pl. · f. pl.",
           "audio": {
-            "normal": "c3b71cc65e55.m4a",
-            "lent": "f9bdd253bfaa.m4a"
+            "normal": "a1e69030f260.m4a",
+            "lent": "a1e69030f260.m4a"
           }
         },
         {
@@ -1449,8 +1449,8 @@
           "perComprovar": false,
           "ca": "venir, en present: m. sg. · f. sg. · m. pl. · f. pl.",
           "audio": {
-            "normal": "ff5b1b0ff9b5.m4a",
-            "lent": "094cacd07f0e.m4a"
+            "normal": "4921f7e60d77.m4a",
+            "lent": "4921f7e60d77.m4a"
           }
         }
       ]
@@ -1473,8 +1473,8 @@
           "perComprovar": false,
           "ca": "Exercici de substitució",
           "audio": {
-            "normal": "59e1f582ec5e.m4a",
-            "lent": "5b16a9c65ffd.m4a"
+            "normal": "1ce92ea61fac.m4a",
+            "lent": "1ce92ea61fac.m4a"
           }
         }
       ]
@@ -1499,8 +1499,8 @@
           "perComprovar": false,
           "ca": "1. [La Hanà] ve a classe. (l'Itshak, la Sara i la Xoixanà, els alumnes)",
           "audio": {
-            "normal": "f5e816e42154.m4a",
-            "lent": "b71e2b0783f2.m4a"
+            "normal": "71e3cb27ac03.m4a",
+            "lent": "71e3cb27ac03.m4a"
           }
         },
         {
@@ -1513,8 +1513,8 @@
           "perComprovar": false,
           "ca": "2. Ell ve [a classe]. (de Tel Aviv, a l'habitació, a Israel, cap a casa)",
           "audio": {
-            "normal": "9a57ba75ebc9.m4a",
-            "lent": "96bc2947275c.m4a"
+            "normal": "f606014008e9.m4a",
+            "lent": "f606014008e9.m4a"
           }
         },
         {
@@ -1527,8 +1527,8 @@
           "perComprovar": false,
           "ca": "3. [L'Steve] va a la feina. (l'Itshak i jo, les mestres, la Hanà)",
           "audio": {
-            "normal": "4bfed32f925b.m4a",
-            "lent": "0739e0adecf9.m4a"
+            "normal": "e6288c5fc030.m4a",
+            "lent": "e6288c5fc030.m4a"
           }
         },
         {
@@ -1541,8 +1541,8 @@
           "perComprovar": false,
           "ca": "4. D'on vens [tu] i on vas? (vosaltres m., tu f., vosaltres f., la Hanà)",
           "audio": {
-            "normal": "ed0d801056ed.m4a",
-            "lent": "6d41c18252dc.m4a"
+            "normal": "6376adeb0098.m4a",
+            "lent": "6376adeb0098.m4a"
           }
         }
       ]
@@ -1565,8 +1565,8 @@
           "perComprovar": false,
           "ca": "Cap a on?",
           "audio": {
-            "normal": "50c3146a462e.m4a",
-            "lent": "b4f487a3e4bb.m4a"
+            "normal": "f476e5661e94.m4a",
+            "lent": "f476e5661e94.m4a"
           }
         },
         {
@@ -1577,8 +1577,8 @@
           "perComprovar": false,
           "ca": "le- · la- (amb l'article)",
           "audio": {
-            "normal": "ee2fdb533f91.m4a",
-            "lent": "a720dd25ad3e.m4a"
+            "normal": "becf81515536.m4a",
+            "lent": "becf81515536.m4a"
           }
         }
       ]
@@ -1609,7 +1609,7 @@
           "ca": "Iossi, on vas?",
           "audio": {
             "normal": "006c98a7aafd.m4a",
-            "lent": "4291302f32de.m4a"
+            "lent": "006c98a7aafd.m4a"
           }
         },
         {
@@ -1624,7 +1624,7 @@
           "ca": "Vaig al teatre. Tu també vens al teatre?",
           "audio": {
             "normal": "586fa7e85678.m4a",
-            "lent": "3c0ad86b81cb.m4a"
+            "lent": "586fa7e85678.m4a"
           }
         },
         {
@@ -1639,7 +1639,7 @@
           "ca": "No, vaig al concert.",
           "audio": {
             "normal": "58db3c3a0ebd.m4a",
-            "lent": "8fc975309018.m4a"
+            "lent": "58db3c3a0ebd.m4a"
           }
         },
         {
@@ -1654,7 +1654,7 @@
           "ca": "La Dina també va al concert?",
           "audio": {
             "normal": "2b8c83875a55.m4a",
-            "lent": "6f1b4af56d84.m4a"
+            "lent": "2b8c83875a55.m4a"
           }
         },
         {
@@ -1669,7 +1669,7 @@
           "ca": "No.",
           "audio": {
             "normal": "f823ce999ea7.m4a",
-            "lent": "b3d47b8c1047.m4a"
+            "lent": "f823ce999ea7.m4a"
           }
         },
         {
@@ -1684,7 +1684,7 @@
           "ca": "On va?",
           "audio": {
             "normal": "d34773075fb8.m4a",
-            "lent": "b1f6b7d8e0c9.m4a"
+            "lent": "d34773075fb8.m4a"
           }
         },
         {
@@ -1692,8 +1692,12 @@
           "text": {
             "u": "היא הולכת לאולפָן. היא לומדת עברית."
           },
-          "perComprovar": true,
-          "qui": "אסתר"
+          "perComprovar": false,
+          "qui": "אסתר",
+          "audio": {
+            "normal": "8c9af699f571.m4a",
+            "lent": "8c9af699f571.m4a"
+          }
         }
       ]
     },
@@ -1717,8 +1721,8 @@
           "perComprovar": false,
           "ca": "El Roberto va venir del Brasil al quibuts Dan.",
           "audio": {
-            "normal": "02eb47f6c6f1.m4a",
-            "lent": "0fc94e01de4f.m4a"
+            "normal": "07bf3dc5c8e8.m4a",
+            "lent": "07bf3dc5c8e8.m4a"
           }
         },
         {
@@ -1731,8 +1735,8 @@
           "perComprovar": false,
           "ca": "Va arribar al quibuts al febrer.",
           "audio": {
-            "normal": "438ebbffd14a.m4a",
-            "lent": "b29974069a41.m4a"
+            "normal": "e3d2b84786d6.m4a",
+            "lent": "e3d2b84786d6.m4a"
           }
         }
       ]
@@ -1757,8 +1761,8 @@
           "perComprovar": false,
           "ca": "Ara el Roberto viu al quibuts Dan.",
           "audio": {
-            "normal": "bae563441079.m4a",
-            "lent": "67119caaf88a.m4a"
+            "normal": "c66d78439d99.m4a",
+            "lent": "c66d78439d99.m4a"
           }
         },
         {
@@ -1771,8 +1775,8 @@
           "perComprovar": false,
           "ca": "Al quibuts treballa i estudia.",
           "audio": {
-            "normal": "afefea18ff67.m4a",
-            "lent": "524fb28f5b6a.m4a"
+            "normal": "989301b85b9b.m4a",
+            "lent": "989301b85b9b.m4a"
           }
         }
       ]
@@ -1797,8 +1801,8 @@
           "perComprovar": false,
           "ca": "D'on...? · On...? · Cap a on...?",
           "audio": {
-            "normal": "9ae3b9cdd270.m4a",
-            "lent": "74264c93df62.m4a"
+            "normal": "4f05381c5549.m4a",
+            "lent": "4f05381c5549.m4a"
           }
         },
         {
@@ -1809,8 +1813,8 @@
           "perComprovar": false,
           "ca": "me-, me- · be-, ba- (ba-) · le-, la- (la-)",
           "audio": {
-            "normal": "81258fb3873f.m4a",
-            "lent": "37052e2f6112.m4a"
+            "normal": "c0951ac80415.m4a",
+            "lent": "c0951ac80415.m4a"
           }
         }
       ]
@@ -1835,8 +1839,8 @@
           "perComprovar": false,
           "ca": "Aquesta és la casa de la Rakhel i el Iaakov.",
           "audio": {
-            "normal": "1cca44720273.m4a",
-            "lent": "7358ba6d806b.m4a"
+            "normal": "861c947d1a52.m4a",
+            "lent": "861c947d1a52.m4a"
           }
         },
         {
@@ -1849,8 +1853,8 @@
           "perComprovar": false,
           "ca": "On és la Rakhel?",
           "audio": {
-            "normal": "ba532cf8798a.m4a",
-            "lent": "435f36c60707.m4a"
+            "normal": "0861718a0da9.m4a",
+            "lent": "0861718a0da9.m4a"
           }
         },
         {
@@ -1863,8 +1867,8 @@
           "perComprovar": false,
           "ca": "La Rakhel és a casa.",
           "audio": {
-            "normal": "1bbedb610bca.m4a",
-            "lent": "b3f70aed9d0c.m4a"
+            "normal": "875638735176.m4a",
+            "lent": "875638735176.m4a"
           }
         },
         {
@@ -1877,8 +1881,8 @@
           "perComprovar": false,
           "ca": "On van el Roberto i el Iaakov?",
           "audio": {
-            "normal": "b5ed459b1fec.m4a",
-            "lent": "7e125da38598.m4a"
+            "normal": "9722733d6729.m4a",
+            "lent": "9722733d6729.m4a"
           }
         },
         {
@@ -1891,8 +1895,8 @@
           "perComprovar": false,
           "ca": "El Roberto va a casa de la Rakhel i el Iaakov.",
           "audio": {
-            "normal": "ce10d7fcbb80.m4a",
-            "lent": "6f7880b61a04.m4a"
+            "normal": "e3bb2dd4c02c.m4a",
+            "lent": "e3bb2dd4c02c.m4a"
           }
         },
         {
@@ -1905,8 +1909,8 @@
           "perComprovar": false,
           "ca": "El Iaakov va cap a casa.",
           "audio": {
-            "normal": "a9cf31f74c0f.m4a",
-            "lent": "5ca75bc462ab.m4a"
+            "normal": "1b0a306592a3.m4a",
+            "lent": "1b0a306592a3.m4a"
           }
         }
       ]
@@ -1931,8 +1935,8 @@
           "perComprovar": false,
           "ca": "ell ← estudia / treballa / viu",
           "audio": {
-            "normal": "546fbcd25c49.m4a",
-            "lent": "cc25b85f2a88.m4a"
+            "normal": "3e77e941be2a.m4a",
+            "lent": "3e77e941be2a.m4a"
           }
         },
         {
@@ -1945,8 +1949,8 @@
           "perComprovar": false,
           "ca": "be- / ba- ← ulpan, quibuts",
           "audio": {
-            "normal": "43be83775778.m4a",
-            "lent": "44b14943c2a7.m4a"
+            "normal": "4e3077a7ff2c.m4a",
+            "lent": "4e3077a7ff2c.m4a"
           }
         },
         {
@@ -1959,8 +1963,8 @@
           "perComprovar": false,
           "ca": "be- ← Israel, Haifa",
           "audio": {
-            "normal": "710fed23aa2b.m4a",
-            "lent": "42c2df1a51a2.m4a"
+            "normal": "81429c0693af.m4a",
+            "lent": "81429c0693af.m4a"
           }
         },
         {
@@ -1973,8 +1977,8 @@
           "perComprovar": false,
           "ca": "ell ← va / ve",
           "audio": {
-            "normal": "dde8fb6435b0.m4a",
-            "lent": "73a1191765b0.m4a"
+            "normal": "59289be3aa75.m4a",
+            "lent": "59289be3aa75.m4a"
           }
         },
         {
@@ -1987,8 +1991,8 @@
           "perComprovar": false,
           "ca": "le- / la- ← concert, classe, museu",
           "audio": {
-            "normal": "7fc3434dd7af.m4a",
-            "lent": "9057085b6b98.m4a"
+            "normal": "cb8f6e015072.m4a",
+            "lent": "cb8f6e015072.m4a"
           }
         },
         {
@@ -2001,8 +2005,8 @@
           "perComprovar": false,
           "ca": "le- ← quibuts Dan, Hanà",
           "audio": {
-            "normal": "ec996d4818b9.m4a",
-            "lent": "41a6a80d3a2b.m4a"
+            "normal": "894cee4dc470.m4a",
+            "lent": "894cee4dc470.m4a"
           }
         },
         {
@@ -2015,8 +2019,8 @@
           "perComprovar": false,
           "ca": "← cap a casa",
           "audio": {
-            "normal": "2f3bdc596f22.m4a",
-            "lent": "bc0125d36ccf.m4a"
+            "normal": "ec342f29b8c7.m4a",
+            "lent": "ec342f29b8c7.m4a"
           }
         }
       ]
@@ -2041,8 +2045,8 @@
           "perComprovar": false,
           "ca": "Escriu preguntes per a les respostes. Fes servir les paraules: on, d'on, cap a on.",
           "audio": {
-            "normal": "8f9af14f5fa3.m4a",
-            "lent": "017fa9451a1b.m4a"
+            "normal": "1260cbb4a88f.m4a",
+            "lent": "1260cbb4a88f.m4a"
           }
         }
       ]
@@ -2169,8 +2173,8 @@
           "perComprovar": false,
           "ca": "Escriu: be-, ba-, le-, la-",
           "audio": {
-            "normal": "eae201bd2049.m4a",
-            "lent": "e7a16b53a82c.m4a"
+            "normal": "0fd944f5769e.m4a",
+            "lent": "0fd944f5769e.m4a"
           }
         }
       ]

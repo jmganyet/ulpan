@@ -24,8 +24,8 @@
       "perComprovar": false,
       "icona": "bank",
       "audio": {
-        "normal": "c973dae468e5.m4a",
-        "lent": "31c0aa73b1fb.m4a"
+        "normal": "d7855b53fce3.m4a",
+        "lent": "d7855b53fce3.m4a"
       }
     },
     {
@@ -39,8 +39,8 @@
       "perComprovar": false,
       "icona": "identification-badge",
       "audio": {
-        "normal": "b55ad7c33555.m4a",
-        "lent": "b65ca6be3aba.m4a"
+        "normal": "f89125a6e6e9.m4a",
+        "lent": "f89125a6e6e9.m4a"
       }
     },
     {
@@ -54,8 +54,8 @@
       "perComprovar": false,
       "icona": "identification-badge",
       "audio": {
-        "normal": "c8b4eafe2617.m4a",
-        "lent": "517802562e98.m4a"
+        "normal": "438200e4847f.m4a",
+        "lent": "438200e4847f.m4a"
       }
     },
     {
@@ -68,8 +68,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "5dac231e627e.m4a",
-        "lent": "4899951733e2.m4a"
+        "normal": "0cc8b737279f.m4a",
+        "lent": "0cc8b737279f.m4a"
       }
     },
     {
@@ -82,8 +82,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "55357ecc47f9.m4a",
-        "lent": "1a879ceb1412.m4a"
+        "normal": "5493df4d04f3.m4a",
+        "lent": "5493df4d04f3.m4a"
       }
     },
     {
@@ -97,8 +97,8 @@
       "perComprovar": false,
       "icona": "gas-pump",
       "audio": {
-        "normal": "da8daf4f4a16.m4a",
-        "lent": "7df418094171.m4a"
+        "normal": "c0101e79bb44.m4a",
+        "lent": "c0101e79bb44.m4a"
       }
     },
     {
@@ -111,8 +111,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "a1e2559dd6f4.m4a",
-        "lent": "7bbb90a99fb6.m4a"
+        "normal": "1cd2582cae99.m4a",
+        "lent": "1cd2582cae99.m4a"
       }
     },
     {
@@ -125,8 +125,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "5d7d4e470d95.m4a",
-        "lent": "5689995a80cb.m4a"
+        "normal": "cbbb9afdac43.m4a",
+        "lent": "cbbb9afdac43.m4a"
       }
     },
     {
@@ -140,8 +140,8 @@
       "perComprovar": false,
       "icona": "table",
       "audio": {
-        "normal": "d8dbfdf1c2c6.m4a",
-        "lent": "dce462af61eb.m4a"
+        "normal": "ba7c35fb372d.m4a",
+        "lent": "ba7c35fb372d.m4a"
       }
     },
     {
@@ -155,8 +155,8 @@
       "perComprovar": false,
       "icona": "table",
       "audio": {
-        "normal": "c3ea33c02d63.m4a",
-        "lent": "7f21bc68f711.m4a"
+        "normal": "7a8ca4932b81.m4a",
+        "lent": "7a8ca4932b81.m4a"
       }
     },
     {
@@ -170,8 +170,8 @@
       "perComprovar": false,
       "icona": "chair",
       "audio": {
-        "normal": "65c3675fc687.m4a",
-        "lent": "4eb549b40dff.m4a"
+        "normal": "a9626a2b8a16.m4a",
+        "lent": "a9626a2b8a16.m4a"
       }
     },
     {
@@ -185,8 +185,8 @@
       "perComprovar": false,
       "icona": "chair",
       "audio": {
-        "normal": "141eb4513305.m4a",
-        "lent": "ae0135033d80.m4a"
+        "normal": "05d0dd52ab75.m4a",
+        "lent": "05d0dd52ab75.m4a"
       }
     },
     {
@@ -200,8 +200,8 @@
       "perComprovar": false,
       "icona": "lockers",
       "audio": {
-        "normal": "c3818dc153b9.m4a",
-        "lent": "375136bd3588.m4a"
+        "normal": "ed72a6136993.m4a",
+        "lent": "ed72a6136993.m4a"
       }
     },
     {
@@ -215,8 +215,8 @@
       "perComprovar": false,
       "icona": "lockers",
       "audio": {
-        "normal": "d679656f813a.m4a",
-        "lent": "f56904121e63.m4a"
+        "normal": "585508e10d8f.m4a",
+        "lent": "585508e10d8f.m4a"
       }
     },
     {
@@ -230,8 +230,8 @@
       "perComprovar": false,
       "icona": "propia:finestra.svg",
       "audio": {
-        "normal": "7f4b699ee780.m4a",
-        "lent": "e59d121136e8.m4a"
+        "normal": "0ed2e1c27c62.m4a",
+        "lent": "0ed2e1c27c62.m4a"
       }
     },
     {
@@ -245,8 +245,8 @@
       "perComprovar": false,
       "icona": "propia:finestra.svg",
       "audio": {
-        "normal": "bf299552f174.m4a",
-        "lent": "7271aa969280.m4a"
+        "normal": "dd96285eb11a.m4a",
+        "lent": "dd96285eb11a.m4a"
       }
     },
     {
@@ -260,8 +260,8 @@
       "perComprovar": false,
       "icona": "chalkboard-simple",
       "audio": {
-        "normal": "a1c07e410f80.m4a",
-        "lent": "11f8423db233.m4a"
+        "normal": "9c019c69ca6c.m4a",
+        "lent": "9c019c69ca6c.m4a"
       }
     },
     {
@@ -275,8 +275,8 @@
       "perComprovar": false,
       "icona": "chalkboard-simple",
       "audio": {
-        "normal": "df34dd9fd7af.m4a",
-        "lent": "5235501f27d4.m4a"
+        "normal": "4023800e30d5.m4a",
+        "lent": "4023800e30d5.m4a"
       }
     },
     {
@@ -290,8 +290,8 @@
       "perComprovar": false,
       "icona": "notepad",
       "audio": {
-        "normal": "3c31fac2ad31.m4a",
-        "lent": "0460d02a11da.m4a"
+        "normal": "7ba7272889df.m4a",
+        "lent": "7ba7272889df.m4a"
       }
     },
     {
@@ -305,8 +305,8 @@
       "perComprovar": false,
       "icona": "notepad",
       "audio": {
-        "normal": "2b6df5c86e53.m4a",
-        "lent": "ff4a3462c328.m4a"
+        "normal": "7c3d3296ede5.m4a",
+        "lent": "7c3d3296ede5.m4a"
       }
     },
     {
@@ -320,8 +320,8 @@
       "perComprovar": false,
       "icona": "pen",
       "audio": {
-        "normal": "3fe164d664b1.m4a",
-        "lent": "723ca78bef0b.m4a"
+        "normal": "6e756ea03b29.m4a",
+        "lent": "6e756ea03b29.m4a"
       }
     },
     {
@@ -335,8 +335,8 @@
       "perComprovar": false,
       "icona": "pen",
       "audio": {
-        "normal": "eb317ae4b922.m4a",
-        "lent": "da71b6a690ce.m4a"
+        "normal": "299eca4f0686.m4a",
+        "lent": "299eca4f0686.m4a"
       }
     },
     {
@@ -350,8 +350,8 @@
       "perComprovar": false,
       "icona": "pencil",
       "audio": {
-        "normal": "5e7f801985c2.m4a",
-        "lent": "2cccd61ff584.m4a"
+        "normal": "494e968201f2.m4a",
+        "lent": "494e968201f2.m4a"
       }
     },
     {
@@ -365,8 +365,8 @@
       "perComprovar": false,
       "icona": "pencil",
       "audio": {
-        "normal": "42046ed02c20.m4a",
-        "lent": "82805ef0cfaa.m4a"
+        "normal": "5e8d678fbd37.m4a",
+        "lent": "5e8d678fbd37.m4a"
       }
     },
     {
@@ -380,8 +380,8 @@
       "perComprovar": false,
       "icona": "cat",
       "audio": {
-        "normal": "622ebfccdfb1.m4a",
-        "lent": "ffd3862fc2ba.m4a"
+        "normal": "5aa82f521723.m4a",
+        "lent": "5aa82f521723.m4a"
       }
     },
     {
@@ -394,8 +394,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "9689e3197c83.m4a",
-        "lent": "b2ef3b9306d1.m4a"
+        "normal": "5cbee7106526.m4a",
+        "lent": "5cbee7106526.m4a"
       }
     },
     {
@@ -408,8 +408,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "d51a8adc83f4.m4a",
-        "lent": "0a58732182f2.m4a"
+        "normal": "d6ded6a0c214.m4a",
+        "lent": "d6ded6a0c214.m4a"
       }
     },
     {
@@ -422,8 +422,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "ee9db6995f29.m4a",
-        "lent": "f9f5bf08e92f.m4a"
+        "normal": "454e5e7b75e3.m4a",
+        "lent": "454e5e7b75e3.m4a"
       }
     },
     {
@@ -436,8 +436,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "d92655c9a0a3.m4a",
-        "lent": "a148d54e0c34.m4a"
+        "normal": "7e30e57ff6b6.m4a",
+        "lent": "7e30e57ff6b6.m4a"
       }
     },
     {
@@ -451,8 +451,8 @@
       "perComprovar": false,
       "icona": "rug",
       "audio": {
-        "normal": "f79df37bc7cc.m4a",
-        "lent": "83cadcbea464.m4a"
+        "normal": "8121a9a742a5.m4a",
+        "lent": "8121a9a742a5.m4a"
       }
     },
     {
@@ -466,8 +466,8 @@
       "perComprovar": false,
       "icona": "rug",
       "audio": {
-        "normal": "6ec4da11f82a.m4a",
-        "lent": "e5607d1ca4ba.m4a"
+        "normal": "3c4bdb793601.m4a",
+        "lent": "3c4bdb793601.m4a"
       }
     },
     {
@@ -481,8 +481,8 @@
       "perComprovar": false,
       "icona": "propia:llit.svg",
       "audio": {
-        "normal": "db1af44bc3a6.m4a",
-        "lent": "894093d7f817.m4a"
+        "normal": "aca71b49069a.m4a",
+        "lent": "aca71b49069a.m4a"
       }
     },
     {
@@ -496,8 +496,8 @@
       "perComprovar": false,
       "icona": "propia:llit.svg",
       "audio": {
-        "normal": "4a63a64f2fef.m4a",
-        "lent": "35e59119d0af.m4a"
+        "normal": "cd6b089df39e.m4a",
+        "lent": "cd6b089df39e.m4a"
       }
     },
     {
@@ -510,8 +510,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "ab58a61e8c6e.m4a",
-        "lent": "93ef87e0d943.m4a"
+        "normal": "ecd073c4bd98.m4a",
+        "lent": "ecd073c4bd98.m4a"
       }
     },
     {
@@ -524,8 +524,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "bcb5770890ea.m4a",
-        "lent": "738d0dfb0fc4.m4a"
+        "normal": "ec67d6e85d90.m4a",
+        "lent": "ec67d6e85d90.m4a"
       }
     },
     {
@@ -538,8 +538,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "b7146dc3b392.m4a",
-        "lent": "ac92b3101be0.m4a"
+        "normal": "92fd256606fa.m4a",
+        "lent": "92fd256606fa.m4a"
       }
     },
     {
@@ -552,8 +552,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "02c603cbc3f8.m4a",
-        "lent": "d104b790bb0a.m4a"
+        "normal": "92d71ac314a4.m4a",
+        "lent": "92d71ac314a4.m4a"
       }
     },
     {
@@ -567,8 +567,8 @@
       "perComprovar": false,
       "icona": "door",
       "audio": {
-        "normal": "030e0d949c47.m4a",
-        "lent": "645e9c455a34.m4a"
+        "normal": "f07c9af6edb8.m4a",
+        "lent": "f07c9af6edb8.m4a"
       }
     },
     {
@@ -582,8 +582,8 @@
       "perComprovar": false,
       "icona": "door",
       "audio": {
-        "normal": "a760e54a76f5.m4a",
-        "lent": "816e556a1939.m4a"
+        "normal": "8073f1372d54.m4a",
+        "lent": "8073f1372d54.m4a"
       }
     },
     {
@@ -597,8 +597,8 @@
       "perComprovar": false,
       "icona": "couch",
       "audio": {
-        "normal": "e38af21b0abf.m4a",
-        "lent": "8f262cd0896b.m4a"
+        "normal": "87a09048666b.m4a",
+        "lent": "87a09048666b.m4a"
       }
     },
     {
@@ -612,8 +612,8 @@
       "perComprovar": false,
       "icona": "couch",
       "audio": {
-        "normal": "fc1e514654f8.m4a",
-        "lent": "18f7d8978cbb.m4a"
+        "normal": "9c6e11790e6d.m4a",
+        "lent": "9c6e11790e6d.m4a"
       }
     },
     {
@@ -627,8 +627,8 @@
       "perComprovar": false,
       "icona": "building-office",
       "audio": {
-        "normal": "7830f8d87569.m4a",
-        "lent": "19c9f6ec2a07.m4a"
+        "normal": "fa5d800be459.m4a",
+        "lent": "fa5d800be459.m4a"
       }
     },
     {
@@ -642,8 +642,8 @@
       "perComprovar": false,
       "icona": "building-office",
       "audio": {
-        "normal": "ce75dd31456c.m4a",
-        "lent": "9972001de9a0.m4a"
+        "normal": "75191c14e497.m4a",
+        "lent": "75191c14e497.m4a"
       }
     },
     {
@@ -657,8 +657,8 @@
       "perComprovar": false,
       "icona": "map-pin-area",
       "audio": {
-        "normal": "597cd9ccba13.m4a",
-        "lent": "c8f000e20312.m4a"
+        "normal": "d1007c05206a.m4a",
+        "lent": "d1007c05206a.m4a"
       }
     },
     {
@@ -672,8 +672,8 @@
       "perComprovar": false,
       "icona": "propia:assegut.svg",
       "audio": {
-        "normal": "52d27646b5ff.m4a",
-        "lent": "57ab893ff3ca.m4a"
+        "normal": "aeb45ca56baf.m4a",
+        "lent": "aeb45ca56baf.m4a"
       }
     },
     {
@@ -687,8 +687,8 @@
       "perComprovar": false,
       "icona": "propia:assegut.svg",
       "audio": {
-        "normal": "ce7410ef8af3.m4a",
-        "lent": "ff50587c9ccb.m4a"
+        "normal": "708bad680eef.m4a",
+        "lent": "708bad680eef.m4a"
       }
     },
     {
@@ -702,8 +702,8 @@
       "perComprovar": false,
       "icona": "propia:assegut.svg",
       "audio": {
-        "normal": "3078803e231b.m4a",
-        "lent": "7b1dedcd222d.m4a"
+        "normal": "b7654258c933.m4a",
+        "lent": "b7654258c933.m4a"
       }
     },
     {
@@ -717,8 +717,8 @@
       "perComprovar": false,
       "icona": "person-simple",
       "audio": {
-        "normal": "7f8d53bca7e9.m4a",
-        "lent": "a386f7245686.m4a"
+        "normal": "3653b0b00783.m4a",
+        "lent": "3653b0b00783.m4a"
       }
     },
     {
@@ -732,8 +732,8 @@
       "perComprovar": false,
       "icona": "person-simple",
       "audio": {
-        "normal": "e1745e6f095c.m4a",
-        "lent": "870960a506b5.m4a"
+        "normal": "5fd9119e36e3.m4a",
+        "lent": "5fd9119e36e3.m4a"
       }
     },
     {
@@ -747,8 +747,8 @@
       "perComprovar": false,
       "icona": "person-simple",
       "audio": {
-        "normal": "21bd0ca78d09.m4a",
-        "lent": "340baca843f4.m4a"
+        "normal": "34690f3c6bf1.m4a",
+        "lent": "34690f3c6bf1.m4a"
       }
     },
     {
@@ -762,8 +762,8 @@
       "perComprovar": false,
       "icona": "note-pencil",
       "audio": {
-        "normal": "b7eca2eaa6e8.m4a",
-        "lent": "c1718ec01760.m4a"
+        "normal": "e00f4073a7b0.m4a",
+        "lent": "e00f4073a7b0.m4a"
       }
     },
     {
@@ -777,8 +777,8 @@
       "perComprovar": false,
       "icona": "note-pencil",
       "audio": {
-        "normal": "6471e90e26ca.m4a",
-        "lent": "bdccc9a7517c.m4a"
+        "normal": "b2d7c712ca21.m4a",
+        "lent": "b2d7c712ca21.m4a"
       }
     },
     {
@@ -792,8 +792,8 @@
       "perComprovar": false,
       "icona": "note-pencil",
       "audio": {
-        "normal": "1a8f487d1822.m4a",
-        "lent": "cb6bfd5096eb.m4a"
+        "normal": "b63c104cdf10.m4a",
+        "lent": "b63c104cdf10.m4a"
       }
     },
     {
@@ -806,8 +806,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "c053e550b9ee.m4a",
-        "lent": "7672748db3da.m4a"
+        "normal": "1042d54d362e.m4a",
+        "lent": "1042d54d362e.m4a"
       }
     },
     {
@@ -821,8 +821,8 @@
       "perComprovar": false,
       "icona": "propia:guix.svg",
       "audio": {
-        "normal": "a6bd54b802d9.m4a",
-        "lent": "4a735f38fce9.m4a"
+        "normal": "75c4bee37f97.m4a",
+        "lent": "75c4bee37f97.m4a"
       }
     },
     {
@@ -835,8 +835,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "9c09df5e92bc.m4a",
-        "lent": "cc9dece8688b.m4a"
+        "normal": "d1bb60071e50.m4a",
+        "lent": "d1bb60071e50.m4a"
       }
     },
     {
@@ -849,8 +849,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "2775e8b94edf.m4a",
-        "lent": "99e63a56924d.m4a"
+        "normal": "edce2d3518b6.m4a",
+        "lent": "edce2d3518b6.m4a"
       }
     },
     {
@@ -863,8 +863,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "db455428bd01.m4a",
-        "lent": "052550e2eccf.m4a"
+        "normal": "cdf757d4c6d2.m4a",
+        "lent": "cdf757d4c6d2.m4a"
       }
     },
     {
@@ -877,8 +877,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "8050df2fe9fc.m4a",
-        "lent": "d64f0d1d7d40.m4a"
+        "normal": "92f394d172b3.m4a",
+        "lent": "92f394d172b3.m4a"
       }
     },
     {
@@ -891,8 +891,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "ec5960572d6e.m4a",
-        "lent": "2a5955fabebe.m4a"
+        "normal": "3614e01621d8.m4a",
+        "lent": "3614e01621d8.m4a"
       }
     },
     {
@@ -906,8 +906,8 @@
       "perComprovar": false,
       "icona": "chat-teardrop-text",
       "audio": {
-        "normal": "aa18551b15c5.m4a",
-        "lent": "4e57963a46ef.m4a"
+        "normal": "317cef10b6f1.m4a",
+        "lent": "317cef10b6f1.m4a"
       }
     },
     {
@@ -921,8 +921,8 @@
       "perComprovar": false,
       "icona": "chat-teardrop-text",
       "audio": {
-        "normal": "4e034410cc74.m4a",
-        "lent": "a5a68e2d98e1.m4a"
+        "normal": "d154f3923530.m4a",
+        "lent": "d154f3923530.m4a"
       }
     },
     {
@@ -936,8 +936,8 @@
       "perComprovar": false,
       "icona": "chat-teardrop-text",
       "audio": {
-        "normal": "2aabc4a0feba.m4a",
-        "lent": "83df3bc1c5b0.m4a"
+        "normal": "67896191964f.m4a",
+        "lent": "67896191964f.m4a"
       }
     },
     {
@@ -950,8 +950,8 @@
       "extra": false,
       "perComprovar": false,
       "audio": {
-        "normal": "e614f515b5d5.m4a",
-        "lent": "b42180c774f0.m4a"
+        "normal": "54ac788b1491.m4a",
+        "lent": "54ac788b1491.m4a"
       }
     },
     {
@@ -965,8 +965,8 @@
       "perComprovar": false,
       "icona": "chats",
       "audio": {
-        "normal": "df022fea69ef.m4a",
-        "lent": "7ee2d3969e40.m4a"
+        "normal": "0351634679de.m4a",
+        "lent": "0351634679de.m4a"
       }
     },
     {
@@ -980,8 +980,8 @@
       "extra": false,
       "icona": "propia:assegut.svg",
       "audio": {
-        "normal": "781fb2a41ded.m4a",
-        "lent": "387475ec9d68.m4a"
+        "normal": "11f5dd21c4c6.m4a",
+        "lent": "11f5dd21c4c6.m4a"
       }
     },
     {
@@ -995,8 +995,8 @@
       "extra": false,
       "icona": "propia:assegut.svg",
       "audio": {
-        "normal": "1eb39c30294c.m4a",
-        "lent": "6362d279c843.m4a"
+        "normal": "7fe9cdb13baf.m4a",
+        "lent": "7fe9cdb13baf.m4a"
       }
     },
     {
@@ -1010,8 +1010,8 @@
       "extra": false,
       "icona": "propia:assegut.svg",
       "audio": {
-        "normal": "b67bffc460ad.m4a",
-        "lent": "e5226bb07f94.m4a"
+        "normal": "c6dc60082fcf.m4a",
+        "lent": "c6dc60082fcf.m4a"
       }
     },
     {
@@ -1025,8 +1025,8 @@
       "extra": false,
       "icona": "person-simple",
       "audio": {
-        "normal": "34af4176c6c4.m4a",
-        "lent": "e8055524d55f.m4a"
+        "normal": "40f7453d10be.m4a",
+        "lent": "40f7453d10be.m4a"
       }
     },
     {
@@ -1040,8 +1040,8 @@
       "extra": false,
       "icona": "person-simple",
       "audio": {
-        "normal": "15adb603c8d3.m4a",
-        "lent": "0663de778615.m4a"
+        "normal": "82eadfa7003c.m4a",
+        "lent": "82eadfa7003c.m4a"
       }
     },
     {
@@ -1055,8 +1055,8 @@
       "extra": false,
       "icona": "person-simple",
       "audio": {
-        "normal": "6552fc18665d.m4a",
-        "lent": "5ae4a11861a5.m4a"
+        "normal": "9ebcba59d6d4.m4a",
+        "lent": "9ebcba59d6d4.m4a"
       }
     },
     {
@@ -1070,8 +1070,8 @@
       "extra": false,
       "icona": "note-pencil",
       "audio": {
-        "normal": "e1dfa1135a57.m4a",
-        "lent": "c2f3921ebbb3.m4a"
+        "normal": "a72835e22b92.m4a",
+        "lent": "a72835e22b92.m4a"
       }
     },
     {
@@ -1085,8 +1085,8 @@
       "extra": false,
       "icona": "note-pencil",
       "audio": {
-        "normal": "9b44e9c98d5f.m4a",
-        "lent": "ac865a23394a.m4a"
+        "normal": "8646e4c71b1e.m4a",
+        "lent": "8646e4c71b1e.m4a"
       }
     },
     {
@@ -1100,8 +1100,8 @@
       "extra": false,
       "icona": "note-pencil",
       "audio": {
-        "normal": "8ac7fa025e65.m4a",
-        "lent": "f71ddf878a76.m4a"
+        "normal": "d36d70fc673b.m4a",
+        "lent": "d36d70fc673b.m4a"
       }
     },
     {
@@ -1115,8 +1115,8 @@
       "extra": false,
       "icona": "chat-teardrop-text",
       "audio": {
-        "normal": "17867a0f263f.m4a",
-        "lent": "af3526eb1238.m4a"
+        "normal": "016cd36e5bbe.m4a",
+        "lent": "016cd36e5bbe.m4a"
       }
     },
     {
@@ -1130,8 +1130,8 @@
       "extra": false,
       "icona": "chat-teardrop-text",
       "audio": {
-        "normal": "8655626c733b.m4a",
-        "lent": "a5174bcb1468.m4a"
+        "normal": "c378abd3c93e.m4a",
+        "lent": "c378abd3c93e.m4a"
       }
     },
     {
@@ -1145,8 +1145,8 @@
       "extra": false,
       "icona": "chat-teardrop-text",
       "audio": {
-        "normal": "d51f3923d93e.m4a",
-        "lent": "6fdf4cc8f7ad.m4a"
+        "normal": "20d592a395c9.m4a",
+        "lent": "20d592a395c9.m4a"
       }
     }
   ],
@@ -1167,8 +1167,8 @@
           "ca": "A Israel hi ha quibutsos. A Anglaterra no hi ha quibutsos.",
           "perComprovar": false,
           "audio": {
-            "normal": "6dc86f0caa68.m4a",
-            "lent": "c32e0abca737.m4a"
+            "normal": "ca557a53fc4a.m4a",
+            "lent": "ca557a53fc4a.m4a"
           }
         },
         {
@@ -1181,8 +1181,8 @@
           "ca": "El mateix, amb יֵשׁ i אֵין al davant.",
           "perComprovar": false,
           "audio": {
-            "normal": "d1afbfcc9988.m4a",
-            "lent": "49b9907f376f.m4a"
+            "normal": "567c22be315d.m4a",
+            "lent": "567c22be315d.m4a"
           }
         },
         {
@@ -1195,8 +1195,8 @@
           "ca": "El mateix, amb el lloc al final.",
           "perComprovar": false,
           "audio": {
-            "normal": "e8846a7932fa.m4a",
-            "lent": "7445d08fc651.m4a"
+            "normal": "d157ef774d39.m4a",
+            "lent": "d157ef774d39.m4a"
           }
         },
         {
@@ -1209,8 +1209,8 @@
           "ca": "No. A la classe tampoc no hi ha telèfon. Telèfon n'hi ha a l'oficina.",
           "perComprovar": false,
           "audio": {
-            "normal": "24df4486c124.m4a",
-            "lent": "a8530c756a9e.m4a"
+            "normal": "83b74154c17e.m4a",
+            "lent": "83b74154c17e.m4a"
           }
         },
         {
@@ -1224,8 +1224,8 @@
           "perComprovar": false,
           "extra": true,
           "audio": {
-            "normal": "800ad5a4f7c8.m4a",
-            "lent": "ea9b115f1ecb.m4a"
+            "normal": "c7f7ae37d592.m4a",
+            "lent": "c7f7ae37d592.m4a"
           }
         }
       ]
@@ -1246,8 +1246,8 @@
           "ca": "A la classe hi ha una pissarra gran i negra, finestres grans i una porta.",
           "perComprovar": false,
           "audio": {
-            "normal": "2b3c70575770.m4a",
-            "lent": "28db50fd37ab.m4a"
+            "normal": "0b1292cb07c6.m4a",
+            "lent": "0b1292cb07c6.m4a"
           }
         },
         {
@@ -1260,8 +1260,8 @@
           "ca": "Aquí hi ha moltes cadires.",
           "perComprovar": false,
           "audio": {
-            "normal": "60607fd5c171.m4a",
-            "lent": "dc536e7a533f.m4a"
+            "normal": "b18f51ef7614.m4a",
+            "lent": "b18f51ef7614.m4a"
           }
         },
         {
@@ -1274,8 +1274,8 @@
           "ca": "taula · cadira · armari (singular, plural)",
           "perComprovar": false,
           "audio": {
-            "normal": "496398588872.m4a",
-            "lent": "fa42167d9dcc.m4a"
+            "normal": "c3e76dae4649.m4a",
+            "lent": "c3e76dae4649.m4a"
           }
         },
         {
@@ -1288,8 +1288,8 @@
           "ca": "finestra · pissarra · llapis (singular, plural)",
           "perComprovar": false,
           "audio": {
-            "normal": "933824c133da.m4a",
-            "lent": "609c8f02f01f.m4a"
+            "normal": "deb480eb528e.m4a",
+            "lent": "deb480eb528e.m4a"
           }
         },
         {
@@ -1302,8 +1302,8 @@
           "ca": "llibreta (femení) · ploma (singular, plural)",
           "perComprovar": false,
           "audio": {
-            "normal": "58720fba2829.m4a",
-            "lent": "181c765a0e74.m4a"
+            "normal": "7810ebc43e8f.m4a",
+            "lent": "7810ebc43e8f.m4a"
           }
         }
       ]
@@ -1324,8 +1324,8 @@
           "ca": "El gat és damunt la cadira, al costat de la taula.",
           "perComprovar": false,
           "audio": {
-            "normal": "180e213e68dc.m4a",
-            "lent": "aa0e160dc501.m4a"
+            "normal": "885284894820.m4a",
+            "lent": "885284894820.m4a"
           }
         },
         {
@@ -1338,8 +1338,8 @@
           "ca": "El gat és damunt la cadira, entre la taula i l'armari.",
           "perComprovar": false,
           "audio": {
-            "normal": "96c68dc5c8d2.m4a",
-            "lent": "17bd4020ff67.m4a"
+            "normal": "14c933be8a4d.m4a",
+            "lent": "14c933be8a4d.m4a"
           }
         },
         {
@@ -1352,8 +1352,8 @@
           "ca": "On és el gos? — El gos és sota la taula.",
           "perComprovar": false,
           "audio": {
-            "normal": "367b2275e92e.m4a",
-            "lent": "22cbb9991f72.m4a"
+            "normal": "d00bb90f02be.m4a",
+            "lent": "d00bb90f02be.m4a"
           }
         },
         {
@@ -1366,8 +1366,8 @@
           "ca": "Damunt la taula hi ha un llibre, una llibreta i una ploma.",
           "perComprovar": false,
           "audio": {
-            "normal": "5c623807c1ac.m4a",
-            "lent": "65b92a9f37a0.m4a"
+            "normal": "c18c88cb97c4.m4a",
+            "lent": "c18c88cb97c4.m4a"
           }
         }
       ]
@@ -1388,8 +1388,8 @@
           "ca": "La mestra escriu amb guix. L'alumne escriu amb ploma.",
           "perComprovar": false,
           "audio": {
-            "normal": "72d09aeb5a5a.m4a",
-            "lent": "563db3eaf9d2.m4a"
+            "normal": "b32edf0c878f.m4a",
+            "lent": "b32edf0c878f.m4a"
           }
         },
         {
@@ -1402,8 +1402,8 @@
           "ca": "No, escriuen a les llibretes (lloc) amb llapis o amb ploma (eina).",
           "perComprovar": false,
           "audio": {
-            "normal": "bdc06b362965.m4a",
-            "lent": "d5e50e9d14e6.m4a"
+            "normal": "f0d62f319cfa.m4a",
+            "lent": "f0d62f319cfa.m4a"
           }
         },
         {
@@ -1416,8 +1416,8 @@
           "ca": "És dreta al costat de la pissarra i escriu a la pissarra amb guix blanc.",
           "perComprovar": false,
           "audio": {
-            "normal": "a517ead0ee0c.m4a",
-            "lent": "7e50ec9b4f47.m4a"
+            "normal": "6693b57032ae.m4a",
+            "lent": "6693b57032ae.m4a"
           }
         }
       ]
@@ -1438,8 +1438,8 @@
           "ca": "està assegut · està asseguda · estan asseguts · estan assegudes",
           "perComprovar": false,
           "audio": {
-            "normal": "41bbfa09b532.m4a",
-            "lent": "8e67934de8ff.m4a"
+            "normal": "6b8cec6a69f6.m4a",
+            "lent": "6b8cec6a69f6.m4a"
           }
         },
         {
@@ -1452,8 +1452,8 @@
           "ca": "està dret · està dreta · estan drets · estan dretes",
           "perComprovar": false,
           "audio": {
-            "normal": "0211f873a0f4.m4a",
-            "lent": "f0e59b4e63a1.m4a"
+            "normal": "72373b103c10.m4a",
+            "lent": "72373b103c10.m4a"
           }
         },
         {
@@ -1466,8 +1466,8 @@
           "ca": "escriu · escriu · escriuen · escriuen (m. sg. · f. sg. · m. pl. · f. pl.)",
           "perComprovar": false,
           "audio": {
-            "normal": "fe28850b9230.m4a",
-            "lent": "314917040372.m4a"
+            "normal": "0665191d34b9.m4a",
+            "lent": "0665191d34b9.m4a"
           }
         },
         {
@@ -1480,8 +1480,8 @@
           "ca": "diu · diu · diuen · diuen (m. sg. · f. sg. · m. pl. · f. pl.)",
           "perComprovar": false,
           "audio": {
-            "normal": "f621c265d5ce.m4a",
-            "lent": "8a0e2a46879f.m4a"
+            "normal": "1d7c30381c49.m4a",
+            "lent": "1d7c30381c49.m4a"
           }
         },
         {
@@ -1494,8 +1494,8 @@
           "ca": "seu (m. sg.) – seure (passat: ell va seure) · està dret – estar dret (passat: ell va estar dret)",
           "perComprovar": false,
           "audio": {
-            "normal": "f5cf47b33f03.m4a",
-            "lent": "6de253ad9dee.m4a"
+            "normal": "eaf1a71c1948.m4a",
+            "lent": "eaf1a71c1948.m4a"
           }
         },
         {
@@ -1508,8 +1508,8 @@
           "ca": "escriu (m. sg.) – escriure (passat: ell va escriure) · diu (m. sg.) – dir (passat: ell va dir)",
           "perComprovar": false,
           "audio": {
-            "normal": "7c8bcbc872d3.m4a",
-            "lent": "965729d7245f.m4a"
+            "normal": "72af971dbd4c.m4a",
+            "lent": "72af971dbd4c.m4a"
           }
         },
         {
@@ -1522,8 +1522,8 @@
           "ca": "«Bon dia, Itshak! Aquí tens una cadira. Seu, si us plau!» (l'infinitiu fa d'ordre educada)",
           "perComprovar": false,
           "audio": {
-            "normal": "7dd103272d77.m4a",
-            "lent": "ac401c069bef.m4a"
+            "normal": "d325bcad4ba8.m4a",
+            "lent": "d325bcad4ba8.m4a"
           }
         }
       ]
@@ -1544,8 +1544,8 @@
           "ca": "La mestra diu: «Bon dia, Itshak!»",
           "perComprovar": false,
           "audio": {
-            "normal": "00fae9b2a3cf.m4a",
-            "lent": "5f9be72ec94f.m4a"
+            "normal": "a7913e84f42a.m4a",
+            "lent": "a7913e84f42a.m4a"
           }
         },
         {
@@ -1558,8 +1558,8 @@
           "ca": "La mestra diu bon dia a l'Itshak.",
           "perComprovar": false,
           "audio": {
-            "normal": "a7afcf1b5107.m4a",
-            "lent": "526961b2abf4.m4a"
+            "normal": "4222c292b265.m4a",
+            "lent": "4222c292b265.m4a"
           }
         },
         {
@@ -1572,8 +1572,8 @@
           "ca": "Em dic Dani. — Diu que es diu Dani.",
           "perComprovar": false,
           "audio": {
-            "normal": "3a1d1c6f7156.m4a",
-            "lent": "13c037172de7.m4a"
+            "normal": "a726b94c7ec0.m4a",
+            "lent": "a726b94c7ec0.m4a"
           }
         },
         {
@@ -1586,8 +1586,8 @@
           "ca": "Visc a Haifa. — Diu que viu a Haifa.",
           "perComprovar": false,
           "audio": {
-            "normal": "92cd7c1e2697.m4a",
-            "lent": "69b010ac6b4d.m4a"
+            "normal": "a1f0acf7697d.m4a",
+            "lent": "a1f0acf7697d.m4a"
           }
         },
         {
@@ -1600,8 +1600,8 @@
           "ca": "El Roberto li diu al Boris que la Rakhel diu que l'Steve és a l'oficina.",
           "perComprovar": false,
           "audio": {
-            "normal": "d4de812510bc.m4a",
-            "lent": "9417a885cbdb.m4a"
+            "normal": "b83edb010c42.m4a",
+            "lent": "b83edb010c42.m4a"
           }
         },
         {
@@ -1614,8 +1614,8 @@
           "ca": "«Bon dia», diu l'Itshak, i s'asseu.",
           "perComprovar": false,
           "audio": {
-            "normal": "48f89e87bcf7.m4a",
-            "lent": "418bb0473918.m4a"
+            "normal": "3644e93584f0.m4a",
+            "lent": "3644e93584f0.m4a"
           }
         }
       ]
@@ -1636,8 +1636,8 @@
           "ca": "Es diu: a Israel hi ha quibutsos.",
           "perComprovar": false,
           "audio": {
-            "normal": "165b0b364a8c.m4a",
-            "lent": "98c8765edeab.m4a"
+            "normal": "3b043ca253d5.m4a",
+            "lent": "3b043ca253d5.m4a"
           }
         },
         {
@@ -1650,8 +1650,8 @@
           "ca": "Com es diu en hebreu...?",
           "perComprovar": false,
           "audio": {
-            "normal": "6d5930431fa0.m4a",
-            "lent": "9f227a26a78c.m4a"
+            "normal": "4b19094710f1.m4a",
+            "lent": "4b19094710f1.m4a"
           }
         }
       ]
@@ -1673,7 +1673,11 @@
           "text": {
             "u": "יֵשׁ בְּ..."
           },
-          "perComprovar": true
+          "perComprovar": false,
+          "audio": {
+            "normal": "93bbde5403ff.m4a",
+            "lent": "93bbde5403ff.m4a"
+          }
         },
         {
           "id": "pag-33-b0-l1",
@@ -1683,8 +1687,8 @@
           "perComprovar": false,
           "ca": "No hi ha a...",
           "audio": {
-            "normal": "55dd397f17f3.m4a",
-            "lent": "035c02b4cd23.m4a"
+            "normal": "b6e7563f90bb.m4a",
+            "lent": "b6e7563f90bb.m4a"
           }
         }
       ]
@@ -1709,8 +1713,8 @@
           "perComprovar": false,
           "ca": "Es diu: a Israel hi ha quibutsos. A Anglaterra no hi ha quibutsos.",
           "audio": {
-            "normal": "a2e0e3d40250.m4a",
-            "lent": "eaf075cfd5cb.m4a"
+            "normal": "0d58f35fda52.m4a",
+            "lent": "0d58f35fda52.m4a"
           }
         },
         {
@@ -1723,8 +1727,8 @@
           "perComprovar": false,
           "ca": "O bé: hi ha quibutsos a Israel. No hi ha quibutsos a Anglaterra.",
           "audio": {
-            "normal": "56559f31b4ef.m4a",
-            "lent": "1af21774e633.m4a"
+            "normal": "326c22031151.m4a",
+            "lent": "326c22031151.m4a"
           }
         },
         {
@@ -1737,8 +1741,8 @@
           "perComprovar": false,
           "ca": "O bé: hi ha quibutsos a Israel. No hi ha quibutsos a Anglaterra.",
           "audio": {
-            "normal": "34f719d143d9.m4a",
-            "lent": "c411b5204c5b.m4a"
+            "normal": "d361e7345fbb.m4a",
+            "lent": "d361e7345fbb.m4a"
           }
         }
       ]
@@ -1761,8 +1765,8 @@
           "perComprovar": false,
           "ca": "Respon...!",
           "audio": {
-            "normal": "ec5fc7c1b98c.m4a",
-            "lent": "ebc6d1c15577.m4a"
+            "normal": "d7c57ed7c5fc.m4a",
+            "lent": "d7c57ed7c5fc.m4a"
           }
         }
       ]
@@ -1787,8 +1791,8 @@
           "perComprovar": false,
           "ca": "Respon les preguntes.",
           "audio": {
-            "normal": "d3afc1d7aa2e.m4a",
-            "lent": "f16d47a42cef.m4a"
+            "normal": "0aac682d8aae.m4a",
+            "lent": "0aac682d8aae.m4a"
           }
         }
       ]
@@ -1975,8 +1979,8 @@
           "perComprovar": false,
           "ca": "taula",
           "audio": {
-            "normal": "d8dbfdf1c2c6.m4a",
-            "lent": "dce462af61eb.m4a"
+            "normal": "ba7c35fb372d.m4a",
+            "lent": "ba7c35fb372d.m4a"
           }
         },
         {
@@ -1989,8 +1993,8 @@
           "perComprovar": false,
           "ca": "cadira",
           "audio": {
-            "normal": "65c3675fc687.m4a",
-            "lent": "4eb549b40dff.m4a"
+            "normal": "a9626a2b8a16.m4a",
+            "lent": "a9626a2b8a16.m4a"
           }
         },
         {
@@ -2003,8 +2007,8 @@
           "perComprovar": false,
           "ca": "armari",
           "audio": {
-            "normal": "c3818dc153b9.m4a",
-            "lent": "375136bd3588.m4a"
+            "normal": "ed72a6136993.m4a",
+            "lent": "ed72a6136993.m4a"
           }
         },
         {
@@ -2017,8 +2021,8 @@
           "perComprovar": false,
           "ca": "finestra",
           "audio": {
-            "normal": "7f4b699ee780.m4a",
-            "lent": "e59d121136e8.m4a"
+            "normal": "0ed2e1c27c62.m4a",
+            "lent": "0ed2e1c27c62.m4a"
           }
         }
       ]
@@ -2043,8 +2047,8 @@
           "perComprovar": false,
           "ca": "pissarra",
           "audio": {
-            "normal": "a1c07e410f80.m4a",
-            "lent": "11f8423db233.m4a"
+            "normal": "9c019c69ca6c.m4a",
+            "lent": "9c019c69ca6c.m4a"
           }
         },
         {
@@ -2057,8 +2061,8 @@
           "perComprovar": false,
           "ca": "llibreta",
           "audio": {
-            "normal": "3c31fac2ad31.m4a",
-            "lent": "0460d02a11da.m4a"
+            "normal": "7ba7272889df.m4a",
+            "lent": "7ba7272889df.m4a"
           }
         },
         {
@@ -2071,8 +2075,8 @@
           "perComprovar": false,
           "ca": "ploma",
           "audio": {
-            "normal": "3fe164d664b1.m4a",
-            "lent": "723ca78bef0b.m4a"
+            "normal": "6e756ea03b29.m4a",
+            "lent": "6e756ea03b29.m4a"
           }
         },
         {
@@ -2085,8 +2089,8 @@
           "perComprovar": false,
           "ca": "llapis",
           "audio": {
-            "normal": "5e7f801985c2.m4a",
-            "lent": "2cccd61ff584.m4a"
+            "normal": "494e968201f2.m4a",
+            "lent": "494e968201f2.m4a"
           }
         }
       ]
@@ -2109,8 +2113,8 @@
           "perComprovar": false,
           "ca": "sobre, damunt de",
           "audio": {
-            "normal": "9689e3197c83.m4a",
-            "lent": "b2ef3b9306d1.m4a"
+            "normal": "5cbee7106526.m4a",
+            "lent": "5cbee7106526.m4a"
           }
         },
         {
@@ -2121,8 +2125,8 @@
           "perComprovar": false,
           "ca": "al costat de",
           "audio": {
-            "normal": "d51a8adc83f4.m4a",
-            "lent": "0a58732182f2.m4a"
+            "normal": "d6ded6a0c214.m4a",
+            "lent": "d6ded6a0c214.m4a"
           }
         },
         {
@@ -2133,8 +2137,8 @@
           "perComprovar": false,
           "ca": "entre",
           "audio": {
-            "normal": "9af95b834b48.m4a",
-            "lent": "b8143e6202bc.m4a"
+            "normal": "bb8a94acabc6.m4a",
+            "lent": "bb8a94acabc6.m4a"
           }
         },
         {
@@ -2145,8 +2149,8 @@
           "perComprovar": false,
           "ca": "sota",
           "audio": {
-            "normal": "d92655c9a0a3.m4a",
-            "lent": "a148d54e0c34.m4a"
+            "normal": "7e30e57ff6b6.m4a",
+            "lent": "7e30e57ff6b6.m4a"
           }
         }
       ]
@@ -2171,8 +2175,8 @@
           "perComprovar": false,
           "ca": "El gat és damunt la cadira,",
           "audio": {
-            "normal": "cfe50cb28c01.m4a",
-            "lent": "e152dda8929d.m4a"
+            "normal": "5a12fcd77d2f.m4a",
+            "lent": "5a12fcd77d2f.m4a"
           }
         },
         {
@@ -2185,8 +2189,8 @@
           "perComprovar": false,
           "ca": "al costat de la taula.",
           "audio": {
-            "normal": "893b0e3e946f.m4a",
-            "lent": "b43aa0844678.m4a"
+            "normal": "c258ac23ebec.m4a",
+            "lent": "c258ac23ebec.m4a"
           }
         }
       ]
@@ -2211,8 +2215,8 @@
           "perComprovar": false,
           "ca": "El gat és damunt la cadira,",
           "audio": {
-            "normal": "cfe50cb28c01.m4a",
-            "lent": "e152dda8929d.m4a"
+            "normal": "5a12fcd77d2f.m4a",
+            "lent": "5a12fcd77d2f.m4a"
           }
         },
         {
@@ -2225,8 +2229,8 @@
           "perComprovar": false,
           "ca": "entre la taula i l'armari.",
           "audio": {
-            "normal": "d1ca533e8e71.m4a",
-            "lent": "56e89f5305a3.m4a"
+            "normal": "9bc3581f4293.m4a",
+            "lent": "9bc3581f4293.m4a"
           }
         }
       ]
@@ -2251,8 +2255,8 @@
           "perComprovar": false,
           "ca": "On és el gos?",
           "audio": {
-            "normal": "3c1a9ecad2b1.m4a",
-            "lent": "e5719114e93b.m4a"
+            "normal": "5c013b8d9b13.m4a",
+            "lent": "5c013b8d9b13.m4a"
           }
         }
       ]
@@ -2277,8 +2281,8 @@
           "perComprovar": false,
           "ca": "El gos és sota la taula.",
           "audio": {
-            "normal": "6866c151a031.m4a",
-            "lent": "ef63130b4d96.m4a"
+            "normal": "1460941323bd.m4a",
+            "lent": "1460941323bd.m4a"
           }
         }
       ]
@@ -2301,8 +2305,8 @@
           "perComprovar": false,
           "ca": "sobre, damunt de",
           "audio": {
-            "normal": "9689e3197c83.m4a",
-            "lent": "b2ef3b9306d1.m4a"
+            "normal": "5cbee7106526.m4a",
+            "lent": "5cbee7106526.m4a"
           }
         },
         {
@@ -2313,8 +2317,8 @@
           "perComprovar": false,
           "ca": "al costat de",
           "audio": {
-            "normal": "d51a8adc83f4.m4a",
-            "lent": "0a58732182f2.m4a"
+            "normal": "d6ded6a0c214.m4a",
+            "lent": "d6ded6a0c214.m4a"
           }
         },
         {
@@ -2325,8 +2329,8 @@
           "perComprovar": false,
           "ca": "entre",
           "audio": {
-            "normal": "9af95b834b48.m4a",
-            "lent": "b8143e6202bc.m4a"
+            "normal": "bb8a94acabc6.m4a",
+            "lent": "bb8a94acabc6.m4a"
           }
         },
         {
@@ -2337,8 +2341,8 @@
           "perComprovar": false,
           "ca": "sota",
           "audio": {
-            "normal": "d92655c9a0a3.m4a",
-            "lent": "a148d54e0c34.m4a"
+            "normal": "7e30e57ff6b6.m4a",
+            "lent": "7e30e57ff6b6.m4a"
           }
         }
       ]
@@ -2363,8 +2367,8 @@
           "perComprovar": false,
           "ca": "Escriu: sobre, al costat de, entre, sota",
           "audio": {
-            "normal": "11db2c59787e.m4a",
-            "lent": "bea49b9e4d11.m4a"
+            "normal": "fd47e4b4cf44.m4a",
+            "lent": "fd47e4b4cf44.m4a"
           }
         }
       ]
@@ -2521,8 +2525,8 @@
           "perComprovar": false,
           "ca": "Aquesta és una classe de l'ulpan. Què hi ha a la classe?",
           "audio": {
-            "normal": "729e6514833e.m4a",
-            "lent": "977a944051c3.m4a"
+            "normal": "61fce21e8074.m4a",
+            "lent": "61fce21e8074.m4a"
           }
         }
       ]
@@ -2547,8 +2551,8 @@
           "perComprovar": false,
           "ca": "A la classe hi ha una taula. Damunt la taula hi ha un llibre, una llibreta i una ploma.",
           "audio": {
-            "normal": "c3d5ce134823.m4a",
-            "lent": "64e8d04dc582.m4a"
+            "normal": "67462bff1292.m4a",
+            "lent": "67462bff1292.m4a"
           }
         },
         {
@@ -2561,8 +2565,8 @@
           "perComprovar": false,
           "ca": "A la classe hi ha una pissarra gran i negra, finestres grans i una porta.",
           "audio": {
-            "normal": "2b3c70575770.m4a",
-            "lent": "28db50fd37ab.m4a"
+            "normal": "0b1292cb07c6.m4a",
+            "lent": "0b1292cb07c6.m4a"
           }
         }
       ]
@@ -2587,8 +2591,8 @@
           "perComprovar": false,
           "ca": "Hi ha televisor a la classe?",
           "audio": {
-            "normal": "2960f158b6be.m4a",
-            "lent": "b278926fa198.m4a"
+            "normal": "a70980fca430.m4a",
+            "lent": "a70980fca430.m4a"
           }
         }
       ]
@@ -2613,8 +2617,8 @@
           "perComprovar": false,
           "ca": "No, televisor n'hi ha al club de l'ulpan.",
           "audio": {
-            "normal": "cc0bf8030d80.m4a",
-            "lent": "b964cb6fd5c3.m4a"
+            "normal": "3cb6d7a3cb85.m4a",
+            "lent": "3cb6d7a3cb85.m4a"
           }
         }
       ]
@@ -2639,8 +2643,8 @@
           "perComprovar": false,
           "ca": "I telèfon, n'hi ha a la classe?",
           "audio": {
-            "normal": "0e9d98f25725.m4a",
-            "lent": "397714a036a5.m4a"
+            "normal": "e2d5092fd998.m4a",
+            "lent": "e2d5092fd998.m4a"
           }
         }
       ]
@@ -2665,8 +2669,8 @@
           "perComprovar": false,
           "ca": "No. A la classe tampoc no hi ha telèfon. Telèfon n'hi ha a l'oficina.",
           "audio": {
-            "normal": "24df4486c124.m4a",
-            "lent": "a8530c756a9e.m4a"
+            "normal": "83b74154c17e.m4a",
+            "lent": "83b74154c17e.m4a"
           }
         }
       ]
@@ -2691,8 +2695,8 @@
           "perComprovar": false,
           "ca": "Hi ha cap cadira, aquí?",
           "audio": {
-            "normal": "58bc18743ab8.m4a",
-            "lent": "8b37fb4a045c.m4a"
+            "normal": "7f80bca657f0.m4a",
+            "lent": "7f80bca657f0.m4a"
           }
         }
       ]
@@ -2717,8 +2721,8 @@
           "perComprovar": false,
           "ca": "Aquí hi ha moltes cadires.",
           "audio": {
-            "normal": "60607fd5c171.m4a",
-            "lent": "dc536e7a533f.m4a"
+            "normal": "b18f51ef7614.m4a",
+            "lent": "b18f51ef7614.m4a"
           }
         }
       ]
@@ -2743,8 +2747,8 @@
           "perComprovar": false,
           "ca": "I on són els alumnes? Què fan?",
           "audio": {
-            "normal": "6512a4d920c8.m4a",
-            "lent": "3c6bed67a835.m4a"
+            "normal": "ad87d6ea66af.m4a",
+            "lent": "ad87d6ea66af.m4a"
           }
         }
       ]
@@ -2769,8 +2773,8 @@
           "perComprovar": false,
           "ca": "Els alumnes són a la classe. Estan asseguts a les cadires i estudien.",
           "audio": {
-            "normal": "407248a1cce6.m4a",
-            "lent": "12561bc5bdd5.m4a"
+            "normal": "1c6c4e547b96.m4a",
+            "lent": "1c6c4e547b96.m4a"
           }
         }
       ]
@@ -2795,8 +2799,8 @@
           "perComprovar": false,
           "ca": "On és la mestra? Què fa?",
           "audio": {
-            "normal": "ab9b66fcb9a6.m4a",
-            "lent": "f74ef37b80c7.m4a"
+            "normal": "09f596d9c44c.m4a",
+            "lent": "09f596d9c44c.m4a"
           }
         }
       ]
@@ -2821,8 +2825,8 @@
           "perComprovar": false,
           "ca": "Ella també és a la classe. És dreta al costat de la pissarra i escriu a la pissarra amb guix blanc. Escriu paraules noves a la pissarra.",
           "audio": {
-            "normal": "c5601ef96fc6.m4a",
-            "lent": "26b555360d34.m4a"
+            "normal": "b8af3945091a.m4a",
+            "lent": "b8af3945091a.m4a"
           }
         }
       ]
@@ -2847,8 +2851,8 @@
           "perComprovar": false,
           "ca": "Els alumnes també escriuen a la pissarra amb guix?",
           "audio": {
-            "normal": "dbe9b3128dbf.m4a",
-            "lent": "9a7a87d603a4.m4a"
+            "normal": "910588a2d445.m4a",
+            "lent": "910588a2d445.m4a"
           }
         }
       ]
@@ -2873,8 +2877,8 @@
           "perComprovar": false,
           "ca": "No, escriuen a les llibretes amb llapis o amb ploma.",
           "audio": {
-            "normal": "bdc06b362965.m4a",
-            "lent": "d5e50e9d14e6.m4a"
+            "normal": "f0d62f319cfa.m4a",
+            "lent": "f0d62f319cfa.m4a"
           }
         }
       ]
@@ -2899,8 +2903,8 @@
           "perComprovar": false,
           "ca": "Qui és dret al costat de la porta?",
           "audio": {
-            "normal": "f2da5291e0b8.m4a",
-            "lent": "9952b2db321d.m4a"
+            "normal": "e84cd67571b9.m4a",
+            "lent": "e84cd67571b9.m4a"
           }
         }
       ]
@@ -2925,8 +2929,8 @@
           "perComprovar": false,
           "ca": "L'Itshak és dret al costat de la porta. La mestra diu:",
           "audio": {
-            "normal": "40a5e7e5a1b6.m4a",
-            "lent": "498d465f1e17.m4a"
+            "normal": "2350aed2e110.m4a",
+            "lent": "2350aed2e110.m4a"
           }
         },
         {
@@ -2939,8 +2943,8 @@
           "perComprovar": false,
           "ca": "«Bon dia, Itshak! Aquí tens una cadira. Seu, si us plau!»",
           "audio": {
-            "normal": "7dd103272d77.m4a",
-            "lent": "ac401c069bef.m4a"
+            "normal": "d325bcad4ba8.m4a",
+            "lent": "d325bcad4ba8.m4a"
           }
         },
         {
@@ -2953,8 +2957,8 @@
           "perComprovar": false,
           "ca": "«Bon dia», diu l'Itshak, i s'asseu.",
           "audio": {
-            "normal": "48f89e87bcf7.m4a",
-            "lent": "418bb0473918.m4a"
+            "normal": "3644e93584f0.m4a",
+            "lent": "3644e93584f0.m4a"
           }
         },
         {
@@ -2967,8 +2971,8 @@
           "perComprovar": false,
           "ca": "Ara l'Itshak també estudia. Ara l'Itshak també escriu.",
           "audio": {
-            "normal": "5d05147c4ee2.m4a",
-            "lent": "6e1705f8971d.m4a"
+            "normal": "0474e6d75f58.m4a",
+            "lent": "0474e6d75f58.m4a"
           }
         }
       ]
@@ -2993,8 +2997,8 @@
           "perComprovar": false,
           "ca": "La mestra escriu amb guix. L'alumne escriu amb ploma.",
           "audio": {
-            "normal": "72d09aeb5a5a.m4a",
-            "lent": "563db3eaf9d2.m4a"
+            "normal": "b32edf0c878f.m4a",
+            "lent": "b32edf0c878f.m4a"
           }
         }
       ]
@@ -3019,8 +3023,8 @@
           "perComprovar": false,
           "ca": "estar assegut, en present: m. sg. · f. sg. · m. pl. · f. pl.",
           "audio": {
-            "normal": "be4e065c964f.m4a",
-            "lent": "9edc545abbac.m4a"
+            "normal": "fb2e3680a724.m4a",
+            "lent": "fb2e3680a724.m4a"
           }
         },
         {
@@ -3033,8 +3037,8 @@
           "perComprovar": false,
           "ca": "estar dret, en present: m. sg. · f. sg. · m. pl. · f. pl.",
           "audio": {
-            "normal": "f66279a2759f.m4a",
-            "lent": "a66d52ae9384.m4a"
+            "normal": "17090f6b65c5.m4a",
+            "lent": "17090f6b65c5.m4a"
           }
         },
         {
@@ -3047,8 +3051,8 @@
           "perComprovar": false,
           "ca": "escriure, en present: m. sg. · f. sg. · m. pl. · f. pl.",
           "audio": {
-            "normal": "62117cba4636.m4a",
-            "lent": "2a1269647433.m4a"
+            "normal": "c32404869161.m4a",
+            "lent": "c32404869161.m4a"
           }
         },
         {
@@ -3061,8 +3065,8 @@
           "perComprovar": false,
           "ca": "dir, en present: m. sg. · f. sg. · m. pl. · f. pl.",
           "audio": {
-            "normal": "519f60c08593.m4a",
-            "lent": "ad65ddeb5c57.m4a"
+            "normal": "f0e3624ffb28.m4a",
+            "lent": "f0e3624ffb28.m4a"
           }
         }
       ]
@@ -3087,8 +3091,8 @@
           "perComprovar": false,
           "ca": "diu: «...»",
           "audio": {
-            "normal": "5921bba044ad.m4a",
-            "lent": "c44a50d87fa3.m4a"
+            "normal": "177cf3f1b9cf.m4a",
+            "lent": "177cf3f1b9cf.m4a"
           }
         },
         {
@@ -3101,8 +3105,8 @@
           "perComprovar": false,
           "ca": "diu a...",
           "audio": {
-            "normal": "4ecbc746faa1.m4a",
-            "lent": "43a8d6b5ca92.m4a"
+            "normal": "66cf731aff0a.m4a",
+            "lent": "66cf731aff0a.m4a"
           }
         },
         {
@@ -3115,8 +3119,8 @@
           "perComprovar": false,
           "ca": "diu que...",
           "audio": {
-            "normal": "09d5413fbddc.m4a",
-            "lent": "2f5cddb2e222.m4a"
+            "normal": "b70831ec869f.m4a",
+            "lent": "b70831ec869f.m4a"
           }
         }
       ]
@@ -3141,8 +3145,8 @@
           "perComprovar": false,
           "ca": "La mestra diu: «Bon dia, Itshak!»",
           "audio": {
-            "normal": "00fae9b2a3cf.m4a",
-            "lent": "5f9be72ec94f.m4a"
+            "normal": "a7913e84f42a.m4a",
+            "lent": "a7913e84f42a.m4a"
           }
         }
       ]
@@ -3167,8 +3171,8 @@
           "perComprovar": false,
           "ca": "Què li diu la mestra a l'Itshak?",
           "audio": {
-            "normal": "7a680fde8b21.m4a",
-            "lent": "5957d659dfac.m4a"
+            "normal": "88a11b8345d1.m4a",
+            "lent": "88a11b8345d1.m4a"
           }
         },
         {
@@ -3181,8 +3185,8 @@
           "perComprovar": false,
           "ca": "La mestra diu bon dia a l'Itshak.",
           "audio": {
-            "normal": "a7afcf1b5107.m4a",
-            "lent": "526961b2abf4.m4a"
+            "normal": "4222c292b265.m4a",
+            "lent": "4222c292b265.m4a"
           }
         }
       ]
@@ -3213,7 +3217,7 @@
           "ca": "Nen, com et dius?",
           "audio": {
             "normal": "0265686a92d6.m4a",
-            "lent": "5f8a1af70446.m4a"
+            "lent": "0265686a92d6.m4a"
           }
         },
         {
@@ -3228,7 +3232,7 @@
           "ca": "Em dic Dani.",
           "audio": {
             "normal": "30c7af731080.m4a",
-            "lent": "bfa5d074ad7a.m4a"
+            "lent": "30c7af731080.m4a"
           }
         }
       ]
@@ -3253,8 +3257,8 @@
           "perComprovar": false,
           "ca": "Què li diu el nen a l'home? Diu que es diu Dani.",
           "audio": {
-            "normal": "3c3c8328098a.m4a",
-            "lent": "9a5442a3bfe4.m4a"
+            "normal": "3ecc22eeb9f5.m4a",
+            "lent": "3ecc22eeb9f5.m4a"
           }
         }
       ]
@@ -3285,7 +3289,7 @@
           "ca": "On vius?",
           "audio": {
             "normal": "c23d31c6692d.m4a",
-            "lent": "7dc207862bad.m4a"
+            "lent": "c23d31c6692d.m4a"
           }
         },
         {
@@ -3300,7 +3304,7 @@
           "ca": "Visc a Haifa.",
           "audio": {
             "normal": "53d461ac5f13.m4a",
-            "lent": "7327941dbdcf.m4a"
+            "lent": "53d461ac5f13.m4a"
           }
         }
       ]
@@ -3325,8 +3329,8 @@
           "perComprovar": false,
           "ca": "Què li diu la Tamar al Iossef?",
           "audio": {
-            "normal": "feec0566cbae.m4a",
-            "lent": "028d6fe1c263.m4a"
+            "normal": "5126b5e0bd96.m4a",
+            "lent": "5126b5e0bd96.m4a"
           }
         },
         {
@@ -3339,8 +3343,8 @@
           "perComprovar": false,
           "ca": "Diu que viu a Haifa.",
           "audio": {
-            "normal": "31c8a12f2324.m4a",
-            "lent": "06a70604bc2f.m4a"
+            "normal": "9066dc28f238.m4a",
+            "lent": "9066dc28f238.m4a"
           }
         }
       ]
@@ -3371,7 +3375,7 @@
           "ca": "On és l'Steve?",
           "audio": {
             "normal": "d9ffcb6965dc.m4a",
-            "lent": "903bb0065fef.m4a"
+            "lent": "d9ffcb6965dc.m4a"
           }
         },
         {
@@ -3386,7 +3390,7 @@
           "ca": "La Rakhel diu que és a l'oficina.",
           "audio": {
             "normal": "b09ae87dc3e2.m4a",
-            "lent": "cfb506af0394.m4a"
+            "lent": "b09ae87dc3e2.m4a"
           }
         }
       ]
@@ -3411,8 +3415,8 @@
           "perComprovar": false,
           "ca": "Què li diu el Roberto al Boris?",
           "audio": {
-            "normal": "b0f26036f5a9.m4a",
-            "lent": "286aa20cd21f.m4a"
+            "normal": "ee233343c04a.m4a",
+            "lent": "ee233343c04a.m4a"
           }
         },
         {
@@ -3425,8 +3429,8 @@
           "perComprovar": false,
           "ca": "El Roberto li diu al Boris que la Rakhel diu que l'Steve és a l'oficina.",
           "audio": {
-            "normal": "d4de812510bc.m4a",
-            "lent": "9417a885cbdb.m4a"
+            "normal": "b83edb010c42.m4a",
+            "lent": "b83edb010c42.m4a"
           }
         }
       ]
@@ -3451,8 +3455,8 @@
           "perComprovar": false,
           "ca": "Com es diu en hebreu...?",
           "audio": {
-            "normal": "6d5930431fa0.m4a",
-            "lent": "9f227a26a78c.m4a"
+            "normal": "4b19094710f1.m4a",
+            "lent": "4b19094710f1.m4a"
           }
         }
       ]
@@ -3475,8 +3479,8 @@
           "perComprovar": false,
           "ca": "Exercici de substitució",
           "audio": {
-            "normal": "2707cf4fdfe6.m4a",
-            "lent": "72c37150c99b.m4a"
+            "normal": "e37450d0ae61.m4a",
+            "lent": "e37450d0ae61.m4a"
           }
         }
       ]
@@ -3501,8 +3505,8 @@
           "perComprovar": false,
           "ca": "1. [La mestra] és dreta al costat de la pissarra i escriu amb guix.",
           "audio": {
-            "normal": "5a9e1fc7b050.m4a",
-            "lent": "4a7b7117ccd1.m4a"
+            "normal": "6f9f3d591cf5.m4a",
+            "lent": "6f9f3d591cf5.m4a"
           }
         },
         {
@@ -3515,8 +3519,8 @@
           "perComprovar": false,
           "ca": "(el mestre, ells, les alumnes)",
           "audio": {
-            "normal": "afa0abde3497.m4a",
-            "lent": "c3e63c1f15ee.m4a"
+            "normal": "9c764e0cc726.m4a",
+            "lent": "9c764e0cc726.m4a"
           }
         },
         {
@@ -3529,8 +3533,8 @@
           "perComprovar": false,
           "ca": "2. L'Itshak és dret [aquí].",
           "audio": {
-            "normal": "c0377128d0e4.m4a",
-            "lent": "72a8e14f9e33.m4a"
+            "normal": "330ac0936a22.m4a",
+            "lent": "330ac0936a22.m4a"
           }
         },
         {
@@ -3543,8 +3547,8 @@
           "perComprovar": false,
           "ca": "(allà, al costat de la finestra, a la classe, entre la finestra i la porta)",
           "audio": {
-            "normal": "5eced6b08c95.m4a",
-            "lent": "1d4058de1730.m4a"
+            "normal": "3e6544b8b77e.m4a",
+            "lent": "3e6544b8b77e.m4a"
           }
         },
         {
@@ -3557,8 +3561,8 @@
           "perComprovar": false,
           "ca": "3. [Ell] diu «hola» i s'asseu.",
           "audio": {
-            "normal": "a5e77eea4745.m4a",
-            "lent": "7660d37a9a1a.m4a"
+            "normal": "31ab0d81adb2.m4a",
+            "lent": "31ab0d81adb2.m4a"
           }
         },
         {
@@ -3571,8 +3575,8 @@
           "perComprovar": false,
           "ca": "(el Dani i jo, la Sara i la Doris, la mestra)",
           "audio": {
-            "normal": "1315c7a7f1a4.m4a",
-            "lent": "d7f38ba8cd78.m4a"
+            "normal": "bd95a7331690.m4a",
+            "lent": "bd95a7331690.m4a"
           }
         },
         {
@@ -3585,8 +3589,8 @@
           "perComprovar": false,
           "ca": "4. Què dius [tu]?",
           "audio": {
-            "normal": "66d7ea7dc864.m4a",
-            "lent": "0ae451c7129b.m4a"
+            "normal": "db0210894ae7.m4a",
+            "lent": "db0210894ae7.m4a"
           }
         },
         {
@@ -3599,8 +3603,8 @@
           "perComprovar": false,
           "ca": "(tu f., vosaltres m., les nenes)",
           "audio": {
-            "normal": "3ff5740a16e9.m4a",
-            "lent": "cb4c544e8462.m4a"
+            "normal": "9f389505f891.m4a",
+            "lent": "9f389505f891.m4a"
           }
         },
         {
@@ -3613,8 +3617,8 @@
           "perComprovar": false,
           "ca": "5. L'Steve diu que [l'Ester és bonica].",
           "audio": {
-            "normal": "2a6c5f403ba2.m4a",
-            "lent": "3898be201ed6.m4a"
+            "normal": "95a0bd35449b.m4a",
+            "lent": "95a0bd35449b.m4a"
           }
         },
         {
@@ -3627,8 +3631,8 @@
           "perComprovar": false,
           "ca": "(ells són a casa, la lliçó és interessant, l'habitació és bonica)",
           "audio": {
-            "normal": "64048004eb8c.m4a",
-            "lent": "bc3366a36e6e.m4a"
+            "normal": "3ad8019ab4be.m4a",
+            "lent": "3ad8019ab4be.m4a"
           }
         },
         {
@@ -3641,8 +3645,8 @@
           "perComprovar": false,
           "ca": "6. La Hanà escriu [amb ploma].",
           "audio": {
-            "normal": "b6e2eaa1bcdd.m4a",
-            "lent": "b0b47b246b53.m4a"
+            "normal": "bf3b89e7701d.m4a",
+            "lent": "bf3b89e7701d.m4a"
           }
         },
         {
@@ -3650,7 +3654,11 @@
           "text": {
             "u": "(בעיפרון, במחברת, על הלוח, לַהורים)"
           },
-          "perComprovar": true
+          "perComprovar": false,
+          "audio": {
+            "normal": "71ee62811e40.m4a",
+            "lent": "71ee62811e40.m4a"
+          }
         }
       ]
     }

@@ -1,4 +1,4 @@
-// Àudio amb la veu Carmit (macOS `say`) i, als diàlegs, les de Microsoft (edge-tts) → public/audio/<clau>.m4a
+// Àudio amb les veus hebrees de Microsoft (edge-tts; la Carmit de macOS queda de reserva) → public/audio/<clau>.m4a
 import { execFile } from 'node:child_process'
 import { existsSync, mkdirSync, mkdtempSync, renameSync, rmSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
@@ -7,11 +7,12 @@ import { promisify } from 'node:util'
 import type { Hebreu, Linia, Paraula, Unitat } from '../src/contingut/tipus'
 import { textAudioParaula } from '../src/contingut/formes'
 import { clauAudio, type Velocitat } from './audio-clau'
-import { CARMIT, componentsVeu, veusDialeg, type Veu } from './veus'
+import { CARMIT, VEU_BASE, componentsVeu, veusDialeg, type Veu } from './veus'
 
 const exec = promisify(execFile)
 const TAXA: Record<Velocitat, string> = { normal: '170', lent: '110' }
-export const VELOCITATS: Velocitat[] = ['normal', 'lent']
+// Només la velocitat normal: el «lent» el fa l'app en reproduir-lo (playbackRate), sense fitxer propi.
+export const VELOCITATS: Velocitat[] = ['normal']
 
 export type Runner = (text: string, velocitat: Velocitat, desti: string, veu?: Veu) => Promise<void>
 
@@ -25,13 +26,13 @@ export type ItemAudible = { text: string; veu?: Veu; desti: Paraula | Linia }
 export function itemsAudibles(u: Unitat): ItemAudible[] {
   const out: ItemAudible[] = []
   // Una entrada amb diverses formes (הוּא / הִיא) les diu totes, com la targeta les mostra.
-  for (const p of u.vocabulari) if (!p.perComprovar && p.hebreu) out.push({ text: textAudioParaula(p), desti: p })
+  for (const p of u.vocabulari) if (!p.perComprovar && p.hebreu) out.push({ text: textAudioParaula(p), veu: VEU_BASE, desti: p })
   const linies: { l: Linia; veu: Veu }[] = [
     ...u.textos.flatMap((t) => {
       const veus = veusDialeg(t)
-      return t.linies.map((l) => ({ l, veu: (l.qui && veus.get(l.qui)) || CARMIT }))
+      return t.linies.map((l) => ({ l, veu: (l.qui && veus.get(l.qui)) || VEU_BASE }))
     }),
-    ...u.gramatica.flatMap((g) => g.exemples.map((l) => ({ l, veu: CARMIT }))),
+    ...u.gramatica.flatMap((g) => g.exemples.map((l) => ({ l, veu: VEU_BASE }))),
   ]
   for (const { l, veu } of linies) {
     const text = textAudible(l.text)
@@ -115,8 +116,8 @@ export async function generaAudio(
 export function afegeixAudio(u: Unitat, existeix: (fitxer: string) => boolean): Unitat {
   const c: Unitat = structuredClone(u)
   for (const { text, veu, desti } of itemsAudibles(c)) {
-    const normal = clauAudio(text, 'normal', veu), lent = clauAudio(text, 'lent', veu)
-    if (existeix(normal) && existeix(lent)) desti.audio = { normal, lent }
+    const normal = clauAudio(text, 'normal', veu)
+    if (existeix(normal)) desti.audio = { normal, lent: normal }
   }
   return c
 }
