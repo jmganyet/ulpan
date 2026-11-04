@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { veusDialeg, filtreVeu, CARMIT } from './veus'
+import { veusDialeg, componentsVeu, CARMIT } from './veus'
 import { clauAudio } from './audio-clau'
 import type { Text } from '../src/contingut/tipus'
 
@@ -11,8 +11,8 @@ const dialeg = (personatges: string[]): Text => ({
 describe('veusDialeg', () => {
   it('dona i home tenen veus diferents', () => {
     const v = veusDialeg(dialeg(['דוריס', 'רוברטו']))
-    expect(v.get('דוריס')).toBe(CARMIT)
-    expect(v.get('רוברטו')).not.toBe(CARMIT)
+    expect(v.get('דוריס')).toMatch(/Hila/)
+    expect(v.get('רוברטו')).toMatch(/Avri/)
   })
   it('tres homes al mateix diàleg: tres veus diferents', () => {
     const v = veusDialeg(dialeg(['יוסף', 'מורה', 'סטיב', 'עמנואל', 'תלמידים']))
@@ -28,13 +28,14 @@ describe('veusDialeg', () => {
   })
 })
 
-describe('filtreVeu i clau', () => {
+describe('componentsVeu i clau', () => {
   it('la Carmit no es transforma i conserva la clau d\'abans', () => {
-    expect(filtreVeu(CARMIT)).toBeNull()
+    expect(componentsVeu(CARMIT)).toBeNull()
     expect(clauAudio('שלום', 'normal', CARMIT)).toBe(clauAudio('שלום', 'normal'))
   })
   it('una altra veu dona un altre fitxer', () => {
-    expect(clauAudio('שלום', 'normal', 'f0.80')).not.toBe(clauAudio('שלום', 'normal'))
-    expect(filtreVeu('f0.80')).toContain('asetrate')
+    expect(clauAudio('שלום', 'normal', 'ms:Avri:+0Hz')).not.toBe(clauAudio('שלום', 'normal'))
+    expect(componentsVeu('ms:Avri:-12Hz')).toEqual([{ nom: 'he-IL-AvriNeural', to: '-12Hz', retard: 0 }])
+    expect(componentsVeu('cor')).toHaveLength(3)
   })
 })

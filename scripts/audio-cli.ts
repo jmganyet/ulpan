@@ -1,4 +1,5 @@
 // Ús: npm run audio [-- u01]  → genera l'àudio que falta (opcionalment d'una sola unitat) i refà el contingut
+// Requisits: macOS (`say`, `afconvert`), ffmpeg i edge-tts (`uv tool install edge-tts`) per a les veus dels diàlegs.
 import { readFileSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
 import { execFileSync } from 'node:child_process'

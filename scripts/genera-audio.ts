@@ -1,4 +1,4 @@
-// Àudio amb la veu Carmit (macOS `say`) → public/audio/<clau>.m4a
+// Àudio amb la veu Carmit (macOS `say`) i, als diàlegs, les de Microsoft (edge-tts) → public/audio/<clau>.m4a
 import { execFile } from 'node:child_process'
 import { existsSync, mkdirSync, mkdtempSync, renameSync, rmSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
@@ -7,7 +7,7 @@ import { promisify } from 'node:util'
 import type { Hebreu, Linia, Paraula, Unitat } from '../src/contingut/tipus'
 import { textAudioParaula } from '../src/contingut/formes'
 import { clauAudio, type Velocitat } from './audio-clau'
-import { CARMIT, filtreVeu, veusDialeg, type Veu } from './veus'
+import { CARMIT, componentsVeu, veusDialeg, type Veu } from './veus'
 
 const exec = promisify(execFile)
 const TAXA: Record<Velocitat, string> = { normal: '170', lent: '110' }
@@ -44,15 +44,38 @@ export function itemsAudibles(u: Unitat): ItemAudible[] {
 export const runnerMac: Runner = async (text, velocitat, desti, veu = CARMIT) => {
   const tmp = mkdtempSync(join(tmpdir(), 'ulpan-say-'))
   try {
-    const txt = join(tmp, 't.txt'), aiff = join(tmp, 't.aiff'), wav = join(tmp, 'v.wav')
+    const txt = join(tmp, 't.txt'), aiff = join(tmp, 't.aiff')
     writeFileSync(txt, text, 'utf8')
-    await exec('say', ['-v', 'Carmit', '-r', TAXA[velocitat], '-f', txt, '-o', aiff])
-    // Les altres veus surten de la Carmit transformada amb ffmpeg (vegeu veus.ts).
-    const filtre = filtreVeu(veu)
-    if (filtre) await exec('ffmpeg', ['-v', 'error', '-y', '-i', aiff, '-filter_complex', filtre, '-ar', '22050', '-ac', '1', wav])
-    await exec('afconvert', ['-f', 'm4af', '-d', 'aac', filtre ? wav : aiff, desti])
+    const ms = componentsVeu(veu)
+    if (!ms) {
+      await exec('say', ['-v', 'Carmit', '-r', TAXA[velocitat], '-f', txt, '-o', aiff])
+    } else {
+      // Veus de Microsoft (edge-tts): una per personatge, o tres barrejades per al cor (vegeu veus.ts).
+      const mp3s: string[] = []
+      for (const [k, v] of ms.entries()) {
+        const mp3 = join(tmp, `v${k}.mp3`)
+        await ambReintents(() => exec('edge-tts', ['--voice', v.nom, `--pitch=${v.to}`, `--rate=${TAXA_MS[velocitat]}`, '-f', txt, '--write-media', mp3]))
+        mp3s.push(mp3)
+      }
+      const filtre = ms.length === 1 ? 'anull'
+        : ms.map((v, k) => `[${k}:a]adelay=${v.retard}[a${k}]`).join(';') + ';' + ms.map((_, k) => `[a${k}]`).join('') + `amix=inputs=${ms.length}:normalize=0,volume=0.55`
+      await exec('ffmpeg', ['-v', 'error', '-y', ...mp3s.flatMap((m) => ['-i', m]), '-filter_complex', filtre, '-ac', '1', aiff])
+    }
+    await exec('afconvert', ['-f', 'm4af', '-d', 'aac', aiff, desti])
   } finally {
     rmSync(tmp, { recursive: true, force: true })
+  }
+}
+
+const TAXA_MS: Record<Velocitat, string> = { normal: '+0%', lent: '-35%' }
+
+/** El servei en línia de vegades falla d'un en un: es torna a provar abans de donar-ho per perdut. */
+async function ambReintents<T>(f: () => Promise<T>, vegades = 4): Promise<T> {
+  for (let i = 1; ; i++) {
+    try { return await f() } catch (e) {
+      if (i >= vegades) throw e
+      await new Promise((r) => setTimeout(r, 1500 * i))
+    }
   }
 }
 

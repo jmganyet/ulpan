@@ -1,18 +1,19 @@
-// Veus dels diàlegs. Al Mac només hi ha una veu hebrea (Carmit): les altres en surten transformant-la amb ffmpeg.
-// Un factor < 1 baixa el to i el timbre (veu d'home), > 1 l'apuja (nen); «cor» barreja dues veus (un grup que parla).
+// Veus dels diàlegs: les neuronals hebrees de Microsoft (Avri, home; Hila, dona) via `edge-tts`.
+// Si dos personatges del mateix diàleg tenen la mateixa veu, el segon la té amb un altre to; «cor» en barreja tres.
+// Les paraules i la gramàtica continuen amb la Carmit (macOS `say`).
 import type { Text } from '../src/contingut/tipus'
 
-/** Id de veu: `carmit` (sense transformar), `f<factor>` (to i timbre per factor) o `cor`. */
+/** Id de veu: `carmit`, `ms:<Avri|Hila>:<to>` (to en Hz, p. ex. `+0Hz`) o `cor`. */
 export type Veu = string
 export const CARMIT: Veu = 'carmit'
 
 type Classe = 'dona' | 'home' | 'nen' | 'cor'
 
-/** Variants per classe: si dos personatges del mateix diàleg són de la mateixa classe, cadascun té la seva. */
+/** Variants per classe: cada personatge d'un diàleg en té una de diferent dins la seva classe. */
 const VARIANTS: Record<Classe, Veu[]> = {
-  dona: [CARMIT, 'f1.08', 'f0.94'],
-  home: ['f0.80', 'f0.87', 'f0.74'],
-  nen: ['f1.16', 'f1.24'],
+  dona: ['ms:Hila:+0Hz', 'ms:Hila:-12Hz', 'ms:Hila:+12Hz'],
+  home: ['ms:Avri:+0Hz', 'ms:Avri:-12Hz', 'ms:Avri:+12Hz'],
+  nen: ['ms:Hila:+40Hz', 'ms:Hila:+55Hz'],
   cor: ['cor'],
 }
 
@@ -39,13 +40,17 @@ export function veusDialeg(t: Text): Map<string, Veu> {
   return veus
 }
 
-const SR = 22050 // la freqüència de sortida de `say`
-const transposa = (f: string) => `asetrate=${Math.round(SR * Number(f))},aresample=${SR},atempo=${(1 / Number(f)).toFixed(4)}`
+export type VeuMs = { nom: string; to: string; retard: number }
 
-/** Filtre d'ffmpeg (-filter_complex) per a una veu; `null` si no cal transformar-la. */
-export function filtreVeu(veu: Veu): string | null {
+/** Les veus de Microsoft que componen una veu (una sola, o tres per al cor); `null` per a la Carmit. */
+export function componentsVeu(veu: Veu): VeuMs[] | null {
   if (veu === CARMIT) return null
-  if (veu === 'cor') return `[0:a]asplit=3[a][b][c];[b]${transposa('0.80')},adelay=35[b2];[c]${transposa('1.08')},adelay=20[c2];[a][b2][c2]amix=inputs=3:normalize=0,volume=0.6`
-  if (/^f\d\.\d+$/.test(veu)) return `[0:a]${transposa(veu.slice(1))}`
+  if (veu === 'cor') return [
+    { nom: 'he-IL-AvriNeural', to: '+0Hz', retard: 0 },
+    { nom: 'he-IL-HilaNeural', to: '+0Hz', retard: 30 },
+    { nom: 'he-IL-AvriNeural', to: '+15Hz', retard: 55 },
+  ]
+  const m = /^ms:(Avri|Hila):([+-]\d+Hz)$/.exec(veu)
+  if (m) return [{ nom: `he-IL-${m[1]}Neural`, to: m[2], retard: 0 }]
   throw new Error(`Veu desconeguda: ${veu}`)
 }
