@@ -4,11 +4,11 @@ type Nota = { freq: number; fins?: number; inici: number; durada: number; forma:
 
 // Encert: dues notes ascendents curtes (mi5 → la5). Error: una nota greu que baixa una mica.
 const ENCERT: Nota[] = [
-  { freq: 659.25, inici: 0, durada: 0.09, forma: 'sine', volum: 0.06 },
-  { freq: 880, inici: 0.08, durada: 0.14, forma: 'sine', volum: 0.06 },
+  { freq: 659.25, inici: 0, durada: 0.09, forma: 'sine', volum: 0.12 },
+  { freq: 880, inici: 0.08, durada: 0.14, forma: 'sine', volum: 0.12 },
 ]
 const ERROR: Nota[] = [
-  { freq: 220, fins: 185, inici: 0, durada: 0.2, forma: 'triangle', volum: 0.05 },
+  { freq: 220, fins: 185, inici: 0, durada: 0.2, forma: 'triangle', volum: 0.12 },
 ]
 
 let context: AudioContext | null = null
@@ -43,8 +43,10 @@ export function sonaResposta(encert: boolean): void {
   try {
     const ctx = obteContext()
     if (!ctx) return
-    if (ctx.state === 'suspended') void ctx.resume().catch(() => {})
-    for (const n of encert ? ENCERT : ERROR) toca(ctx, n)
+    const notes = encert ? ENCERT : ERROR
+    // Chrome i Safari creen el context aturat: cal esperar que es desperti abans de programar les notes.
+    if (ctx.state === 'running') notes.forEach((n) => toca(ctx, n))
+    else void ctx.resume().then(() => notes.forEach((n) => toca(ctx, n))).catch(() => {})
   } catch {
     // sense àudio: res
   }
