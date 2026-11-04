@@ -79,8 +79,8 @@ describe('Comprensio i Conjugar', () => {
   })
   it('Conjugar: opció errònia → false', () => {
     const f = vi.fn()
-    render(<Conjugar ex={{ ...base, tipus: 'conjugar', base: { u: 'גר' }, demana: 'femení', opcions: ['גר', 'גרה'], correcta: 1 }} onRespon={f} />)
-    fireEvent.click(screen.getAllByRole('button')[0])
+    const { container } = render(<Conjugar ex={{ ...base, tipus: 'conjugar', base: { u: 'גר' }, demana: 'femení', opcions: ['גר', 'גרה'], correcta: 1 }} onRespon={f} />)
+    fireEvent.click(container.querySelectorAll('.opcio')[0])
     expect(f).toHaveBeenCalledWith(false)
   })
 })

@@ -33,7 +33,8 @@ describe('clauAudio', () => {
 describe('itemsAudibles', () => {
   const textos = itemsAudibles(u).map((i) => i.text)
   it('exclou perComprovar, notes del transcriptor (R25), buits ____ i títols', () => {
-    expect(textos).toEqual(['שָׁלוֹם', 'שלום', 'אֶקְס', 'אֲנִי'])
+    // Les línies, sense niqqud (pronuncia.ts)
+    expect(textos).toEqual(['שָׁלוֹם', 'שלום', 'אקס', 'אני'])
   })
   it('fa servir n si n\'hi ha', () => {
     expect(textAudible({ u: 'x', n: 'אֶקְס' })).toBe('אֶקְס')

@@ -4,6 +4,7 @@ import { BotoSo } from '../peces/BotoSo'
 import { usePreferencies } from '../preferencies'
 import { Icona } from '../peces/Icona'
 import { ParaulaHeb } from '../peces/ParaulaHeb'
+import { RETARD_ENCERT } from '../peces/sonsResposta'
 import { ambIconaDistinta, barreja, opcionsDistractores, type Rng, type TipusParaula } from './sessio'
 
 type Props = {
@@ -34,10 +35,10 @@ export function TriaImatge({ paraula: p, totes, color, tipus, onRespon, rng }: P
   }
   const estat = (id: string) => (triada === null ? '' : id === p.id ? 'bona' : id === triada ? 'dolenta' : '')
   const enunciat =
-    tipus === 'tria-imatge' ? <><p class="petit">Quina imatge és?</p><p class="enunciat"><Hebr p={p} ambTranslit /></p></>
+    tipus === 'tria-imatge' ? <><p class="petit">Quina imatge és?</p><p class="enunciat"><Hebr p={p} ambTranslit /> <BotoSo audio={p.audio} etiqueta={p.hebreu} /></p></>
     : tipus === 'imatge-paraula' ? <><p class="petit">Quina paraula és?</p><div class="plafo gran-plafo" style={{ background: color }}><Icona nom={p.icona!} /></div></>
     : tipus === 'so-paraula' ? <><p class="petit">Escolta i tria la paraula</p><p class="enunciat"><BotoSo audio={p.audio} etiqueta={p.ca} autoplay /></p></>
-    : <><p class="petit">Què vol dir?</p><p class="enunciat"><Hebr p={p} ambTranslit /></p></>
+    : <><p class="petit">Què vol dir?</p><p class="enunciat"><Hebr p={p} ambTranslit /> <BotoSo audio={p.audio} etiqueta={p.hebreu} /></p></>
   return (
     <div class="exercici">
       {enunciat}
@@ -50,7 +51,8 @@ export function TriaImatge({ paraula: p, totes, color, tipus, onRespon, rng }: P
           </button>
         ))}
       </div>
-      {triada !== null && <p class="retro"><Hebr p={p} />{translit && <> · {p.translit}</>} · {p.ca}</p>}
+      {/* En encertar, la paraula sona sola, just després del so d'encert. */}
+      {triada !== null && <p class="retro"><Hebr p={p} />{translit && <> · {p.translit}</>} · {p.ca} <BotoSo audio={p.audio} etiqueta={p.hebreu} autoplay={triada === p.id} retard={RETARD_ENCERT} /></p>}
     </div>
   )
 }

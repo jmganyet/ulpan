@@ -2,6 +2,8 @@ import { useState } from 'preact/hooks'
 import type { Exercici } from '../contingut/tipus'
 import { iguals } from '../hebreu'
 import { TextMixt } from './Opcions'
+import { BotoSo } from '../peces/BotoSo'
+import { RETARD_ENCERT } from '../peces/sonsResposta'
 
 type Props = { ex: Extract<Exercici, { tipus: 'construir' }>; onRespon: (encert: boolean) => void }
 
@@ -33,6 +35,7 @@ export function Construir({ ex, onRespon }: Props) {
       </div>
       {!bloquejat && <button type="button" class="btn" disabled={col.length === 0} onClick={comprova}>Comprova</button>}
       {resultat === false && <p class="retro">La frase correcta: <span class="model"><TextMixt s={frase(ex.ordre)} /></span></p>}
+      {resultat !== null && <p class="retro"><BotoSo audio={ex.audio} etiqueta={frase(ex.ordre)} autoplay={resultat} retard={RETARD_ENCERT} lent /></p>}
     </div>
   )
 }

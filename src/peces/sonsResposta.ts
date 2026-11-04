@@ -51,3 +51,6 @@ export function sonaResposta(encert: boolean): void {
     // sense àudio: res
   }
 }
+
+/** Ms entre el so d'encert i la paraula dita en veu alta (perquè no es trepitgin). */
+export const RETARD_ENCERT = 450

@@ -4,9 +4,10 @@ import { existsSync, mkdirSync, mkdtempSync, renameSync, rmSync, writeFileSync }
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { promisify } from 'node:util'
-import type { Hebreu, Linia, Paraula, Unitat } from '../src/contingut/tipus'
+import type { Exercici, Hebreu, Linia, Paraula, Unitat } from '../src/contingut/tipus'
 import { textAudioParaula } from '../src/contingut/formes'
 import { clauAudio, type Velocitat } from './audio-clau'
+import { pronunciaFrase, pronunciaParaula } from './pronuncia'
 import { CARMIT, VEU_BASE, componentsVeu, veusDialeg, type Veu } from './veus'
 
 const exec = promisify(execFile)
@@ -19,14 +20,26 @@ export type Runner = (text: string, velocitat: Velocitat, desti: string, veu?: V
 /** El text que es diu: `n` si n'hi ha, si no `u`. */
 export const textAudible = (h: Hebreu): string => h.n ?? h.u
 
-export type ItemAudible = { text: string; veu?: Veu; desti: Paraula | Linia }
+export type ItemAudible = { text: string; veu?: Veu; desti: Paraula | Linia | Exercici }
+
+const esHebreu = (s: string) => /[א-ת]/.test(s)
+
+/** La frase sencera d'un exercici, ja resolta (el forat omplert, la frase construïda…); null si no n'hi ha cap per dir. */
+export function textExercici(ex: Exercici): string | null {
+  const t = ex.tipus === 'forat' ? textAudible(ex.frase).replace(/_{3,}/, ex.opcions[ex.correcta] ?? '')
+    : ex.tipus === 'construir' ? ex.ordre.map((i) => ex.fitxes[i]).join(' ')
+    : ex.tipus === 'comprensio' ? ex.text
+    : ex.tipus === 'conjugar' ? textAudible(ex.base)
+    : textAudible(ex.model)
+  return t && esHebreu(t) && !t.includes('____') ? t : null
+}
 
 /** Paraules (hebreu amb vocals), línies i exemples de gramàtica; sense perComprovar, notes (R25) ni buits `____`.
  * Als diàlegs, cada personatge parla amb la seva veu. */
 export function itemsAudibles(u: Unitat): ItemAudible[] {
   const out: ItemAudible[] = []
   // Una entrada amb diverses formes (הוּא / הִיא) les diu totes, com la targeta les mostra.
-  for (const p of u.vocabulari) if (!p.perComprovar && p.hebreu) out.push({ text: textAudioParaula(p), veu: VEU_BASE, desti: p })
+  for (const p of u.vocabulari) if (!p.perComprovar && p.hebreu) out.push({ text: pronunciaParaula(textAudioParaula(p)), veu: VEU_BASE, desti: p })
   const linies: { l: Linia; veu: Veu }[] = [
     ...u.textos.flatMap((t) => {
       const veus = veusDialeg(t)
@@ -36,7 +49,11 @@ export function itemsAudibles(u: Unitat): ItemAudible[] {
   ]
   for (const { l, veu } of linies) {
     const text = textAudible(l.text)
-    if (!l.perComprovar && !l.nota && text && !text.includes('____')) out.push({ text, veu, desti: l })
+    if (!l.perComprovar && !l.nota && text && !text.includes('____')) out.push({ text: pronunciaFrase(text), veu, desti: l })
+  }
+  for (const ex of u.exercicis) {
+    const text = textExercici(ex)
+    if (text) out.push({ text: pronunciaFrase(text), veu: VEU_BASE, desti: ex })
   }
   return out
 }

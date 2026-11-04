@@ -1,6 +1,7 @@
 import { useState } from 'preact/hooks'
 import type { Exercici } from '../contingut/tipus'
 import { Hebreu } from '../peces/Hebreu'
+import { BotoSo } from '../peces/BotoSo'
 
 type Props = { ex: Extract<Exercici, { tipus: 'autocorreccio' }>; onRespon: (encert: boolean) => void }
 
@@ -15,7 +16,7 @@ export function Autocorreccio({ ex, onRespon }: Props) {
       {!model && <button type="button" class="btn clar" onClick={() => setModel(true)}>Mostra el model</button>}
       {model && (
         <>
-          <p class="model"><span class="petit">Model</span><br /><Hebreu valor={ex.model} classe="gran" /></p>
+          <p class="model"><span class="petit">Model</span><br /><Hebreu valor={ex.model} classe="gran" /> <BotoSo audio={ex.audio} etiqueta={ex.model.u} autoplay lent /></p>
           <div class="duo">
             <button type="button" class="btn clar" disabled={fet} onClick={() => puntua(true)}>L'he encertat</button>
             <button type="button" class="btn clar" disabled={fet} onClick={() => puntua(false)}>M'he equivocat</button>

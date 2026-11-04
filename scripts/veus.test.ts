@@ -39,3 +39,16 @@ describe('componentsVeu i clau', () => {
     expect(componentsVeu('cor')).toHaveLength(3)
   })
 })
+
+import { pronunciaFrase, pronunciaParaula } from './pronuncia'
+describe('pronúncia (què s\'envia a la veu)', () => {
+  it('els pronoms del vocabulari es diuen amb la grafia triada; la resta, amb niqqud', () => {
+    expect(pronunciaParaula('אַתְּ')).toBe('אַת')
+    expect(pronunciaParaula('אַתָּה')).toBe('אתה')
+    expect(pronunciaParaula('הוּא, הִיא')).toBe('הוּא, הִיא')
+    expect(pronunciaParaula('שָׁלוֹם')).toBe('שָׁלוֹם')
+  })
+  it('les frases van sense niqqud', () => {
+    expect(pronunciaFrase('שָׂרָה, אַתְּ תַּלְמִידָה?')).toBe('שרה, את תלמידה?')
+  })
+})

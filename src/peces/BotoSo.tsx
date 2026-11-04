@@ -7,9 +7,10 @@ type Props = {
   audio: Audio | undefined; /** Paraula o frase, per a l'etiqueta accessible. */ etiqueta?: string
   /** Sona tot sol en aparèixer (p. ex. a «Escolta i tria la paraula»). */ autoplay?: boolean
   /** Botó «lent» al costat: només per a frases llargues (les paraules no en porten). */ lent?: boolean
+  /** Ms d'espera abans de l'autoplay (perquè no trepitgi el so d'encert). */ retard?: number
 }
 
-export function BotoSo({ audio, etiqueta, autoplay = false, lent = false }: Props) {
+export function BotoSo({ audio, etiqueta, autoplay = false, lent = false, retard = 0 }: Props) {
   const el = useRef<HTMLAudioElement>(null)
   const [fallat, setFallat] = useState(false)
   const inactiu = !audio || fallat
@@ -33,7 +34,10 @@ export function BotoSo({ audio, etiqueta, autoplay = false, lent = false }: Prop
 
   // Sona en aparèixer; si el navegador no ho deixa (NotAllowedError), el botó continua disponible.
   useEffect(() => {
-    if (autoplay && audio) toca(audio.normal)
+    if (!autoplay || !audio) return
+    if (!retard) { toca(audio.normal); return }
+    const t = setTimeout(() => toca(audio.normal), retard)
+    return () => clearTimeout(t)
   }, [autoplay, audio?.normal])
 
   return (

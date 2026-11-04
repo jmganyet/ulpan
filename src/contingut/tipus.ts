@@ -28,7 +28,8 @@ export type Text = {
 
 export type PuntGramatica = { id: string; titol: string; explicacio: string; exemples: Linia[]; extra: boolean }
 
-type Base = { id: string; origen: string; extra: boolean; linies?: string[] } // origen = "pag-08 ex. 1.3" o "extra"
+// origen = "pag-08 ex. 1.3" o "extra"; audio = la frase sencera (resolta): forat omplert, frase construïda, text, base o model
+type Base = { id: string; origen: string; extra: boolean; linies?: string[]; audio?: Audio }
 
 export type Exercici =
   | (Base & { tipus: 'forat'; frase: Hebreu; opcions: string[]; correcta: number; retro: string })

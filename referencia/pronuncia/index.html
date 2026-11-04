@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pronúncia dels pronoms</title>
+<style>
+  :root { --tinta: #1f2430; --gris: #7a7f8c; --fons: #f6f4ef; --filet: #e4e1d9; color-scheme: light; }
+  body { margin: 0; background: var(--fons); color: var(--tinta); font: 15px/1.45 -apple-system, system-ui, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 80px; }
+  h1 { font-size: 22px; margin: 0 0 4px; text-wrap: balance; }
+  p.sub { color: var(--gris); margin: 0 0 20px; }
+  section { background: #fff; border-radius: 16px; padding: 14px 16px; margin-bottom: 14px; }
+  h2 { font-size: 16px; margin: 0 0 8px; }
+  .fila { display: grid; grid-template-columns: 64px minmax(0, 1fr) auto auto; gap: 10px; align-items: center; padding: 6px 0; border-top: 1px solid var(--filet); }
+  .veu { color: var(--gris); font-size: 13px; }
+  .heb { font-family: 'Times New Roman', serif; font-size: 24px; direction: rtl; text-align: right; overflow-wrap: anywhere; }
+  button { font: inherit; touch-action: manipulation; cursor: pointer; border-radius: 99px; border: 1px solid var(--filet); background: #fff; color: var(--tinta); padding: 6px 12px; min-height: 40px; }
+  button[aria-pressed=true] { background: var(--tinta); color: #fff; border-color: var(--tinta); }
+  :focus-visible { outline: 3px solid var(--tinta); outline-offset: 2px; }
+  .peu { position: sticky; bottom: 0; background: var(--fons); padding: 12px 0; }
+  .peu button { background: var(--tinta); color: #fff; border: 0; padding: 10px 16px; }
+  #linia { font: 12px/1.4 ui-monospace, monospace; color: var(--gris); overflow-wrap: anywhere; margin: 8px 0 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Pronúncia dels pronoms</h1>
+  <p class="sub">Escolta cada variant i marca «Bé» a les que la veu diu correctament (pot ser més d'una). Totes es generen amb les veus que fa servir l'app: Hila (dona) i Avri (home).</p>
+  <div id="grups"></div>
+  <div class="peu"><button type="button" id="copia">Copia les tries</button><p id="linia" aria-live="polite"></p></div>
+</main>
+<script src="variants.js"></script>
+<script>
+const V = window.VARIANTS, tries = new Set()
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]))
+const grups = [...new Set(V.map(v => v.grup))]
+const so = new Audio()
+document.getElementById('grups').innerHTML = grups.map(g => `<section><h2>${esc(g)}</h2>${V.map((v, i) => [v, i]).filter(([v]) => v.grup === g).map(([v, i]) => `
+  <div class="fila"><span class="veu">${esc(v.veu)}</span><span class="heb" lang="he">${esc(v.text)}</span>
+  <button type="button" data-so="${i}" aria-label="Escolta ${esc(v.text)} (${esc(v.veu)})">▶ Escolta</button>
+  <button type="button" data-tria="${i}" aria-pressed="false">Bé</button></div>`).join('')}</section>`).join('')
+function linia() { return 'pronuncia: ' + [...tries].sort((a, b) => a - b).map(i => `${V[i].grup} | ${V[i].veu} | ${V[i].text}`).join(' ; ') }
+document.body.addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return
+  if (b.dataset.so) { so.src = V[+b.dataset.so].fitxer; so.play() }
+  if (b.dataset.tria) { const i = +b.dataset.tria; tries.has(i) ? tries.delete(i) : tries.add(i); b.setAttribute('aria-pressed', tries.has(i)); document.getElementById('linia').textContent = linia() }
+  if (b.id === 'copia') { const t = linia(); (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).then(() => { b.textContent = 'Copiat' }, () => { b.textContent = 'Copia la línia de sota' }); setTimeout(() => { b.textContent = 'Copia les tries' }, 1600) }
+})
+</script>
+</body>
+</html>

@@ -90,6 +90,13 @@ describe('BotoSo autoplay', () => {
     await new Promise((r) => setTimeout(r, 0))
     expect(play).toHaveBeenCalledTimes(1)
   })
+  it('amb retard, l\'autoplay espera (perquè no trepitgi el so d\'encert)', async () => {
+    render(<BotoSo audio={audio} autoplay retard={40} />)
+    await new Promise((r) => setTimeout(r, 0))
+    expect(play).not.toHaveBeenCalled()
+    await new Promise((r) => setTimeout(r, 60))
+    expect(play).toHaveBeenCalledTimes(1)
+  })
   it('sense autoplay no sona fins que es toca', async () => {
     render(<BotoSo audio={audio} />)
     await new Promise((r) => setTimeout(r, 0))
