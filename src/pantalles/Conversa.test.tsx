@@ -27,16 +27,20 @@ describe('Conversa', () => {
   it('mostra tots els blocs de la pàgina; el mode personatge només als diàlegs', () => {
     render(<Conversa unitat={unitat} pag="pag-28" deps={fals().deps} />)
     expect(document.querySelectorAll('section.bloc-conversa').length).toBe(2)
-    expect(screen.getAllByText('Escoltar').length).toBe(2)
-    expect(screen.getAllByText(/^Fas de /).length).toBe(2)
+    // Tots els personatges a la vista, en una línia; el text narratiu no en té.
+    expect(screen.getAllByText('Escolta').length).toBe(1)
+    expect(screen.getAllByLabelText(/^Fas de /).length).toBe(2)
+    // Cada bloc té el seu reproductor (barra fixa a baix) i el seu botó Aa.
+    expect(screen.getAllByLabelText('Reprodueix').length).toBe(2)
+    expect(screen.getAllByLabelText('Opcions de lectura').length).toBe(2)
   })
   it('en mode personatge les meves línies s\'amaguen fins que es toca «Mostra el meu torn»', () => {
     render(<Conversa unitat={unitat} pag="pag-28" deps={fals().deps} />)
     expect(screen.getByText('מה שלומך')).toBeTruthy()
-    fireEvent.click(screen.getByText('Fas de Roberto'))
+    fireEvent.click(screen.getByLabelText('Fas de Roberto'))
     expect(screen.queryByText('מה שלומך')).toBeNull()
-    expect(screen.getByText('El teu torn: digues-ho en veu alta')).toBeTruthy()
-    fireEvent.click(screen.getByText('Mostra el meu torn'))
+    expect(screen.getByText(/El teu torn/)).toBeTruthy()
+    fireEvent.click(screen.getByText(/toca per veure-ho/))
     expect(screen.getByText('מה שלומך')).toBeTruthy()
   })
   it('la línia per comprovar porta la marca i no es pot tocar', () => {
@@ -50,10 +54,11 @@ describe('Conversa', () => {
     fireEvent.click(screen.getAllByLabelText('Escolta la línia 2')[0])
     await waitFor(() => expect(reg).toEqual(['pag-28-b0-l1']))
   })
-  it('la traducció es mostra a demanda', () => {
+  it('la traducció es mostra a totes les línies des del full d\'opcions', () => {
     render(<Conversa unitat={unitat} pag="pag-28" deps={fals().deps} />)
     expect(screen.queryByText('Hola')).toBeNull()
-    fireEvent.click(screen.getByLabelText('Traducció de la línia 1'))
+    fireEvent.click(screen.getAllByLabelText('Opcions de lectura')[0])
+    fireEvent.click(screen.getByRole('switch', { name: 'Traducció' }))
     expect(screen.getByText('Hola')).toBeTruthy()
   })
   it('play recorre les línies reproduïbles; marxar de la pantalla atura', async () => {

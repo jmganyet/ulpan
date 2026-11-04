@@ -8,7 +8,7 @@ const p: Paraula = {
   id: 'u01-0', hebreu: 'שָׁלוֹם', translit: 'shalom', ca: 'hola, adéu', pagina: 'pag-02',
   icona: 'hand-waving', funcio: false, extra: false, perComprovar: false, audio: { normal: 'a.m4a', lent: 'b.m4a' },
 }
-beforeEach(() => desaPreferencies({ vocals: false, lletra: 'quadrada', sons: true, translit: true, dialegLent: false }))
+beforeEach(() => desaPreferencies({ vocals: false, lletra: 'quadrada', sons: true, translit: true, dialegLent: false, traduccio: false, repetir: false }))
 afterEach(cleanup)
 
 describe('TargetaParaula', () => {
@@ -41,7 +41,7 @@ describe('TargetaParaula', () => {
 
 describe('TargetaParaula i la transcripció', () => {
   it('amb la transcripció amagada (preferència de tota l’app) no la mostra', () => {
-    desaPreferencies({ vocals: false, lletra: 'quadrada', sons: true, translit: false, dialegLent: false })
+    desaPreferencies({ vocals: false, lletra: 'quadrada', sons: true, translit: false, dialegLent: false, traduccio: false, repetir: false })
     const { container } = render(<TargetaParaula paraula={p} color="#E35D8F" />)
     expect(container.querySelector('.translit')).toBeNull()
   })

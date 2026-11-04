@@ -1,6 +1,7 @@
 import { useState } from 'preact/hooks'
 import { treuVocals } from '../hebreu'
 import { usePreferencies } from '../preferencies'
+import { EnLletra } from '../peces/Hebreu'
 
 const esHebreu = (s: string) => /[֐-׿]/.test(s)
 
@@ -8,7 +9,7 @@ const esHebreu = (s: string) => /[֐-׿]/.test(s)
 export function TextMixt({ s }: { s: string }) {
   const { vocals, lletra } = usePreferencies()
   if (!esHebreu(s)) return <span>{s}</span>
-  return <span dir="rtl" lang="he" class={lletra}>{vocals ? s : treuVocals(s)}</span>
+  return <EnLletra lletra={lletra}>{vocals ? s : treuVocals(s)}</EnLletra>
 }
 
 type Props = {

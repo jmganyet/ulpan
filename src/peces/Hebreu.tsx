@@ -1,7 +1,7 @@
-import { Fragment } from 'preact'
+import { Fragment, type ComponentChildren } from 'preact'
 import type { Hebreu as HebreuT } from '../contingut/tipus'
 import { treuVocals } from '../hebreu'
-import { usePreferencies } from '../preferencies'
+import { usePreferencies, type Lletra } from '../preferencies'
 import { Marques } from './Marques'
 
 type Props = {
@@ -21,6 +21,19 @@ function ambSubratllat(text: string, clau: Set<string>) {
   })
 }
 
+/** Text hebreu en la lletra triada; amb «totes dues», la quadrada i, a sota, la cursiva. */
+export function EnLletra({ lletra, classe, children }: { lletra: Lletra; classe?: string; children: ComponentChildren }) {
+  if (lletra === 'dues') {
+    return (
+      <span dir="rtl" lang="he" class={`dues ${classe ?? ''}`.trim()}>
+        <span class="quadrada">{children}</span>
+        <span class="cursiva" aria-hidden="true">{children}</span>
+      </span>
+    )
+  }
+  return <span dir="rtl" lang="he" class={`${lletra} ${classe ?? ''}`.trim()}>{children}</span>
+}
+
 export function Hebreu({ valor, sempreVocals, classe, subratllat }: Props) {
   const { vocals, lletra } = usePreferencies()
   const ambVocals = sempreVocals || vocals
@@ -28,7 +41,7 @@ export function Hebreu({ valor, sempreVocals, classe, subratllat }: Props) {
   const clau = new Set((subratllat ?? []).flatMap((s) => s.split(/\s+/)).map(lletres).filter(Boolean))
   return (
     <>
-      <span dir="rtl" lang="he" class={`${lletra} ${classe ?? ''}`.trim()}>{clau.size ? ambSubratllat(text, clau) : text}</span>
+      <EnLletra lletra={lletra} classe={classe}>{clau.size ? ambSubratllat(text, clau) : text}</EnLletra>
       {ambVocals && valor.n !== undefined && <Marques extra={valor.extraVocals} />}
     </>
   )

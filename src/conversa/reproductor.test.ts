@@ -37,6 +37,11 @@ describe('quiDe', () => {
     const u = text([l(0, { qui: 'Dana' }), l(1, { qui: 'Roberto' })], { personatges: ['Roberto', 'Dana'] })
     expect([quiDe(u, 0), quiDe(u, 1)]).toEqual([1, 0])
   })
+  it('amb més de dos personatges, cadascun té el seu índex (es pot fer del tercer)', () => {
+    const v = text([l(0, { qui: 'A' }), l(1, { qui: 'B' }), l(2, { qui: 'C' })], { personatges: ['A', 'B', 'C'] })
+    expect([0, 1, 2].map((i) => quiDe(v, i))).toEqual([0, 1, 2])
+    expect(passos(v, { tipus: 'personatge', jo: 2 }).map((p) => p.accio)).toEqual(['sona', 'sona', 'silenci'])
+  })
 })
 
 it('silenci = durada × 1,3 + 1 s', () => { expect(silenci(2)).toBeCloseTo(3600) })

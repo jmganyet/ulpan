@@ -1,10 +1,17 @@
 import { useEffect, useState } from 'preact/hooks'
 
-export type Lletra = 'quadrada' | 'cursiva'
-export type Preferencies = { vocals: boolean; lletra: Lletra; sons: boolean; translit: boolean; dialegLent: boolean }
+/** Lletra de l'hebreu: quadrada, cursiva o totes dues (la quadrada i, a sota, la cursiva). */
+export type Lletra = 'quadrada' | 'cursiva' | 'dues'
+export type Preferencies = {
+  vocals: boolean; lletra: Lletra; sons: boolean; translit: boolean; dialegLent: boolean
+  /** Traducció catalana sota cada línia dels diàlegs i textos. */ traduccio: boolean
+  /** Als diàlegs, una pausa després de cada línia per repetir-la. */ repetir: boolean
+}
 
 const CLAU = 'ulpan:preferencies'
-const PER_DEFECTE: Preferencies = { vocals: false, lletra: 'quadrada', sons: true, translit: false, dialegLent: false }
+// Niqqud visible d'entrada (triat a referencia/dialeg.html el 2026-11-04: `niqqud=si`).
+const PER_DEFECTE: Preferencies = { vocals: true, lletra: 'quadrada', sons: true, translit: false, dialegLent: false, traduccio: false, repetir: false }
+const LLETRES: Lletra[] = ['quadrada', 'cursiva', 'dues']
 
 function llegeix(): Preferencies {
   try {
@@ -12,10 +19,12 @@ function llegeix(): Preferencies {
     if (x && typeof x === 'object') {
       return {
         vocals: typeof x.vocals === 'boolean' ? x.vocals : PER_DEFECTE.vocals,
-        lletra: x.lletra === 'cursiva' ? 'cursiva' : 'quadrada',
+        lletra: LLETRES.includes(x.lletra) ? x.lletra : PER_DEFECTE.lletra,
         sons: typeof x.sons === 'boolean' ? x.sons : PER_DEFECTE.sons,
         translit: typeof x.translit === 'boolean' ? x.translit : PER_DEFECTE.translit,
         dialegLent: typeof x.dialegLent === 'boolean' ? x.dialegLent : PER_DEFECTE.dialegLent,
+        traduccio: typeof x.traduccio === 'boolean' ? x.traduccio : PER_DEFECTE.traduccio,
+        repetir: typeof x.repetir === 'boolean' ? x.repetir : PER_DEFECTE.repetir,
       }
     }
   } catch {
@@ -56,5 +65,7 @@ export function usePreferencies() {
     setSons: (sons: boolean) => desaPreferencies({ ...actual, sons }),
     setTranslit: (translit: boolean) => desaPreferencies({ ...actual, translit }),
     setDialegLent: (dialegLent: boolean) => desaPreferencies({ ...actual, dialegLent }),
+    setTraduccio: (traduccio: boolean) => desaPreferencies({ ...actual, traduccio }),
+    setRepetir: (repetir: boolean) => desaPreferencies({ ...actual, repetir }),
   }
 }

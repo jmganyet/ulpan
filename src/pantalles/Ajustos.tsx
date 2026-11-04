@@ -36,8 +36,16 @@ export function Ajustos({ progres, alImportar }: Props) {
     <div class="ajustos">
       <a class="enrere" href="#/">‹ Inici</a>
       <h1>Ajustos</h1>
-      <label class="fila"><input type="checkbox" checked={pref.vocals} onChange={(e) => pref.setVocals((e.currentTarget as HTMLInputElement).checked)} /> Mostra les vocals als diàlegs i exercicis</label>
-      <label class="fila"><input type="checkbox" checked={pref.lletra === 'cursiva'} onChange={(e) => pref.setLletra((e.currentTarget as HTMLInputElement).checked ? 'cursiva' : 'quadrada')} /> Lletra cursiva en lloc de quadrada</label>
+      <h2>Lectura</h2>
+      <label class="fila"><input type="checkbox" checked={pref.vocals} onChange={(e) => pref.setVocals((e.currentTarget as HTMLInputElement).checked)} /> Niqqud (els punts de les vocals) fora del vocabulari</label>
+      <fieldset class="fila grup-lletra">
+        <legend>Lletra</legend>
+        {([['quadrada', 'Quadrada'], ['cursiva', 'Cursiva'], ['dues', 'Totes dues']] as const).map(([v, nom]) => (
+          <label key={v}><input type="radio" name="lletra" checked={pref.lletra === v} onChange={() => pref.setLletra(v)} /> {nom}</label>
+        ))}
+      </fieldset>
+      <label class="fila"><input type="checkbox" checked={pref.translit} onChange={(e) => pref.setTranslit((e.currentTarget as HTMLInputElement).checked)} /> Transcripció</label>
+      <label class="fila"><input type="checkbox" checked={pref.traduccio} onChange={(e) => pref.setTraduccio((e.currentTarget as HTMLInputElement).checked)} /> Traducció sota les línies dels diàlegs</label>
       <label class="fila"><input type="checkbox" checked={pref.sons} onChange={(e) => pref.setSons((e.currentTarget as HTMLInputElement).checked)} /> Sons d'encert i d'error</label>
       <h2>Progrés</h2>
       <button type="button" class="btn" onClick={baixa}>Exporta el progrés</button>

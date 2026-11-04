@@ -8,11 +8,11 @@ export const PERSONATGES_PER_DEFECTE = ['Persona A', 'Persona B']
 
 export const noms = (t: Text): string[] => (t.personatges?.length ? t.personatges : PERSONATGES_PER_DEFECTE)
 
-/** Quin personatge (0 o 1, el primer és l'esquerra) diu la línia i; sense `qui`, s'alternen. */
+/** Quin personatge (índex dins `noms`) diu la línia i; sense `qui`, s'alternen A i B. */
 export function quiDe(t: Text, i: number): number {
   const qui = t.linies[i]?.qui
   const pos = qui ? noms(t).indexOf(qui) : -1
-  return pos >= 0 ? pos % 2 : i % 2
+  return pos >= 0 ? pos : i % 2
 }
 
 /** Una línia només és reproduïble si té àudio i no és «per comprovar». */

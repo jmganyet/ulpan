@@ -4,7 +4,7 @@ import { marcaVist } from '../progres/magatzem'
 import { respon, type Progres } from '../progres/srs'
 import { TargetaParaula } from '../peces/TargetaParaula'
 import { sonaResposta } from '../peces/sonsResposta'
-import { BotoTranslit, BotoVocals } from '../peces/BotoTranslit'
+import { OpcionsLectura } from '../peces/OpcionsLectura'
 import { usePreferencies } from '../preferencies'
 import { Autocorreccio } from './Autocorreccio'
 import { Comprensio } from './Comprensio'
@@ -93,7 +93,7 @@ export function SessioPantalla({ titol, color, enrere, passos, unitats, progres,
         <>
           <div class="barra-sessio" role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={pct}><b style={{ width: `${pct}%`, background: color }} /></div>
           {e.enReintents && <p class="petit">Repàs dels errors</p>}
-          <div class="interruptors"><BotoVocals /><BotoTranslit /></div>
+          <div class="eines-lectura"><OpcionsLectura ambTranslit /></div>
           {cos()}
           {(e.respost || pas.tipus === 'paraula-nova') && (
             <button type="button" class="btn continua-btn" onClick={continua}>Continua</button>
