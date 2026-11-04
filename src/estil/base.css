@@ -8,7 +8,7 @@
      Català: xs etiquetes · s secundari · m cos i botons · l títols · xl xifres. Hebreu: s dins del text català ·
      m frases (diàlegs, opcions, fitxes, exemples) · l paraules soles (targetes, enunciats). Pesos: 400 i 600. */
   --t-xs: 12px; --t-s: 14px; --t-m: 17px; --t-l: 22px; --t-xl: 32px;
-  --h-s: 22px; --h-m: 30px; --h-l: 40px; --ic: 22px;
+  --h-s: 18px; --h-m: 24px; --h-l: 30px; --ic: 22px; /* hebreu: 75 % de la primera escala (l'autor, 2026-11-04) */
   --avis-fons: #fff3cd; --avis-text: #6b5300; --error-fons: #fbe3e3;
 }
 * { box-sizing: border-box; }
