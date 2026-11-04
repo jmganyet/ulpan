@@ -104,3 +104,10 @@
 .dues-lletres .quadrada { font-size: 30px; }
 .dues-lletres .cursiva { font-size: 22px; color: var(--gris); }
 .retro .dues-lletres { display: inline-flex; vertical-align: middle; }
+
+/* Interruptors de vocals i transcripció: en una sola línia, amb icona d'ull */
+.interruptors { display: flex; gap: 8px; flex-wrap: wrap; margin: 0 0 10px; }
+.interruptor { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--filet); background: var(--blanc); color: var(--tinta); border-radius: 99px; padding: 6px 12px; font-size: 13px; cursor: pointer; }
+.interruptor i { font-size: 18px; color: var(--gris); }
+.interruptor.on { background: var(--tinta); color: var(--blanc); border-color: var(--tinta); }
+.interruptor.on i { color: var(--blanc); }

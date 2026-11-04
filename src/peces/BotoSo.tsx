@@ -6,9 +6,10 @@ import { reprodueix, VELOCITAT_LENTA } from './so'
 type Props = {
   audio: Audio | undefined; /** Paraula o frase, per a l'etiqueta accessible. */ etiqueta?: string
   /** Sona tot sol en aparèixer (p. ex. a «Escolta i tria la paraula»). */ autoplay?: boolean
+  /** Botó «lent» al costat: només per a frases llargues (les paraules no en porten). */ lent?: boolean
 }
 
-export function BotoSo({ audio, etiqueta, autoplay = false }: Props) {
+export function BotoSo({ audio, etiqueta, autoplay = false, lent = false }: Props) {
   const el = useRef<HTMLAudioElement>(null)
   const [fallat, setFallat] = useState(false)
   const inactiu = !audio || fallat
@@ -42,10 +43,12 @@ export function BotoSo({ audio, etiqueta, autoplay = false }: Props) {
         onClick={() => audio && toca(audio.normal)}>
         <i class="ph-duotone ph-speaker-high" aria-hidden="true" />
       </button>
-      <button type="button" class="so lent" aria-label={`Escolta lent${nom}`} disabled={inactiu}
-        onClick={() => audio && toca(audio.normal, VELOCITAT_LENTA)}>
-        lent
-      </button>
+      {lent && (
+        <button type="button" class="so lent" aria-label={`Escolta lent${nom}`} disabled={inactiu}
+          onClick={() => audio && toca(audio.normal, VELOCITAT_LENTA)}>
+          lent
+        </button>
+      )}
     </span>
   )
 }

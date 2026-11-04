@@ -20,7 +20,7 @@ describe('BotoSo', () => {
     for (const b of screen.getAllByRole('button')) expect((b as HTMLButtonElement).disabled).toBe(true)
   })
   it('el toc reprodueix a velocitat normal i el botó lent el mateix fitxer més a poc a poc, via blob', async () => {
-    const { container } = render(<BotoSo audio={audio} />)
+    const { container } = render(<BotoSo audio={audio} lent />)
     const el = () => container.querySelector('audio')!
     fireEvent.click(screen.getByLabelText('Escolta'))
     await new Promise((r) => setTimeout(r, 0))
@@ -74,9 +74,13 @@ describe('BotoSo', () => {
     expect(pause).toHaveBeenCalledTimes(1)
   })
   it('l\'etiqueta inclou la paraula', () => {
-    render(<BotoSo audio={audio} etiqueta="שָׁלוֹם" />)
+    render(<BotoSo audio={audio} etiqueta="שָׁלוֹם" lent />)
     expect(screen.getByLabelText('Escolta שָׁלוֹם')).toBeTruthy()
     expect(screen.getByLabelText('Escolta lent שָׁלוֹם')).toBeTruthy()
+  })
+  it('per defecte (paraules) no porta botó lent', () => {
+    render(<BotoSo audio={audio} etiqueta="שָׁלוֹם" />)
+    expect(screen.queryByLabelText('Escolta lent שָׁלוֹם')).toBeNull()
   })
 })
 

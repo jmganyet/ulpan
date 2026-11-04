@@ -4,7 +4,7 @@ import { marcaVist } from '../progres/magatzem'
 import { respon, type Progres } from '../progres/srs'
 import { TargetaParaula } from '../peces/TargetaParaula'
 import { sonaResposta } from '../peces/sonsResposta'
-import { BotoTranslit } from '../peces/BotoTranslit'
+import { BotoTranslit, BotoVocals } from '../peces/BotoTranslit'
 import { usePreferencies } from '../preferencies'
 import { Autocorreccio } from './Autocorreccio'
 import { Comprensio } from './Comprensio'
@@ -93,10 +93,7 @@ export function SessioPantalla({ titol, color, enrere, passos, unitats, progres,
         <>
           <div class="barra-sessio" role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={pct}><b style={{ width: `${pct}%`, background: color }} /></div>
           {e.enReintents && <p class="petit">Repàs dels errors</p>}
-          <button type="button" class="btn clar vocals" onClick={() => pref.setVocals(!pref.vocals)}>
-            {pref.vocals ? 'Amaga les vocals' : 'Mostra les vocals'}
-          </button>
-          <BotoTranslit />
+          <div class="interruptors"><BotoVocals /><BotoTranslit /></div>
           {cos()}
           {(e.respost || pas.tipus === 'paraula-nova') && (
             <button type="button" class="btn continua-btn" onClick={continua}>Continua</button>

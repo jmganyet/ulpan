@@ -15,7 +15,7 @@ export function Vocabulari({ unitat: u, alVeure }: Props) {
         <a class="enrere" href={`#/u/${u.id}`}>‹ {u.titol}</a>
         <h1>Vocabulari</h1>
       </header>
-      <BotoTranslit />
+      <div class="interruptors"><BotoTranslit /></div>
       <div class="targetes">
         {u.vocabulari.map((p) => <TargetaParaula key={p.id} paraula={p} color={u.color} />)}
       </div>
