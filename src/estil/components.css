@@ -110,6 +110,13 @@
 .velocitat { border: 1px solid var(--filet); background: var(--blanc); color: var(--tinta); border-radius: 99px; height: 36px; padding: 0 10px; font-size: 13px; font-variant-numeric: tabular-nums; cursor: pointer; flex: none; }
 .velocitat[aria-pressed='true'] { background: var(--tinta); color: var(--blanc); border-color: var(--tinta); }
 
+/* Paraula en la lletra del full d'opcions (quadrada, cursiva o totes dues) i transcripció */
+.paraula-heb { display: inline-flex; flex-direction: column; align-items: center; gap: 2px; line-height: 1.2; }
+.paraula-heb .quadrada.gran { font-size: 30px; }
+.paraula-heb .cursiva { font-size: 22px; color: var(--gris); }
+.paraula-heb .cursiva.gran { font-size: 30px; color: var(--tinta); }
+.targeta .paraula-heb .quadrada.gran, .targeta .paraula-heb .cursiva.gran { font-size: 36px; }
+.retro .paraula-heb { display: inline-flex; vertical-align: middle; }
 /* Paraula en quadrada amb vocals i cursiva sense vocals (reconeixement de paraules) */
 .dues-lletres { display: inline-flex; flex-direction: column; align-items: center; gap: 2px; line-height: 1.2; }
 .dues-lletres .quadrada { font-size: 30px; }

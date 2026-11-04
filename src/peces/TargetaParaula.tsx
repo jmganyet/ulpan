@@ -1,14 +1,11 @@
 import type { Paraula } from '../contingut/tipus'
-import { textParaula } from '../contingut/formes'
-import { treuVocals } from '../hebreu'
 import { BotoSo } from './BotoSo'
 import { Icona } from './Icona'
 import { Marques } from './Marques'
-import { usePreferencies } from '../preferencies'
+import { ParaulaHeb } from './ParaulaHeb'
 
-/** `vocals` (per defecte, sí): a les sessions segueix «Mostra les vocals». La transcripció segueix sempre «Mostra la transcripció». */
+/** `vocals` (per defecte, sí): a les sessions segueix el niqqud del full d'opcions. Lletra i transcripció, sempre les del full. */
 export function TargetaParaula({ paraula: p, color, vocals = true }: { paraula: Paraula; color: string; vocals?: boolean }) {
-  const { translit } = usePreferencies()
   return (
     <article class="targeta" style={{ '--color': color } as never}>
       {!p.funcio && (
@@ -17,11 +14,7 @@ export function TargetaParaula({ paraula: p, color, vocals = true }: { paraula: 
         </div>
       )}
       <div class="targeta-cos">
-        <div class="hebreu-vocals">
-          <span dir="rtl" lang="he" class="quadrada gran">{vocals ? textParaula(p) : treuVocals(textParaula(p))}</span>
-        </div>
-        <div><span dir="rtl" lang="he" class="cursiva">{treuVocals(textParaula(p))}</span></div>
-        {translit && <div class="translit">{p.translit}</div>}
+        <ParaulaHeb paraula={p} vocals={vocals} />
         <div class="ca">{p.ca}</div>
         <div class="targeta-peu">
           <Marques extra={p.extra} perComprovar={p.perComprovar} />

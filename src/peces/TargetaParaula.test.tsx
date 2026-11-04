@@ -12,15 +12,22 @@ beforeEach(() => desaPreferencies({ vocals: false, lletra: 'quadrada', sons: tru
 afterEach(cleanup)
 
 describe('TargetaParaula', () => {
-  it('mostra quadrada amb vocals, cursiva sense vocals, transliteració i català', () => {
-    const { container } = render(<TargetaParaula paraula={p} color="#E35D8F" />)
+  it('segueix la lletra del full d\'opcions: quadrada, cursiva o totes dues', () => {
+    const { container, rerender } = render(<TargetaParaula paraula={p} color="#E35D8F" />)
     expect(screen.getByText('שָׁלוֹם').className).toContain('quadrada')
-    const cursiva = container.querySelector('.cursiva')!
-    expect(cursiva.textContent).toBe('שלום')
-    expect(cursiva.getAttribute('lang')).toBe('he')
+    expect(container.querySelector('.cursiva')).toBeNull()
     expect(screen.getByText('shalom')).toBeTruthy()
     expect(screen.getByText('hola, adéu')).toBeTruthy()
     expect(container.querySelector('.plafo i.ph-duotone')).toBeTruthy()
+    desaPreferencies({ vocals: false, lletra: 'cursiva', sons: true, translit: false, dialegLent: false, traduccio: false, repetir: false })
+    rerender(<TargetaParaula paraula={p} color="#E35D8F" />)
+    expect(container.querySelector('.quadrada')).toBeNull()
+    expect(container.querySelector('.cursiva')!.getAttribute('lang')).toBe('he')
+    expect(screen.queryByText('shalom')).toBeNull()
+    desaPreferencies({ vocals: false, lletra: 'dues', sons: true, translit: true, dialegLent: false, traduccio: false, repetir: false })
+    rerender(<TargetaParaula paraula={p} color="#E35D8F" />)
+    expect(container.querySelectorAll('.quadrada, .cursiva').length).toBe(2)
+    expect(screen.getByText('shalom')).toBeTruthy()
   })
   it('sense icona mostra el plafó sense imatge', () => {
     const { container } = render(<TargetaParaula paraula={{ ...p, icona: undefined }} color="#E35D8F" />)

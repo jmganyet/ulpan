@@ -1,10 +1,9 @@
 import { useMemo, useState } from 'preact/hooks'
 import type { Paraula } from '../contingut/tipus'
-import { textParaula } from '../contingut/formes'
-import { treuVocals } from '../hebreu'
 import { BotoSo } from '../peces/BotoSo'
 import { usePreferencies } from '../preferencies'
 import { Icona } from '../peces/Icona'
+import { ParaulaHeb } from '../peces/ParaulaHeb'
 import { ambIconaDistinta, barreja, opcionsDistractores, type Rng, type TipusParaula } from './sessio'
 
 type Props = {
@@ -17,16 +16,8 @@ const filtre = (tipus: Props['tipus'], c: Paraula) =>
   : tipus === 'traduccio' ? () => true
   : ambIconaDistinta(c)
 
-// La paraula en quadrada (amb vocals si el botó «Mostra les vocals» és actiu) i, a sota, en cursiva sense vocals.
-const Hebr = ({ p }: { p: Paraula }) => {
-  const { vocals } = usePreferencies()
-  return (
-    <span class="dues-lletres">
-      <span dir="rtl" lang="he" class="quadrada gran">{vocals ? textParaula(p) : treuVocals(textParaula(p))}</span>
-      <span dir="rtl" lang="he" class="cursiva">{treuVocals(textParaula(p))}</span>
-    </span>
-  )
-}
+// La paraula en la lletra i amb el niqqud del full d'opcions; la transcripció, a l'enunciat (a les opcions la regalaria).
+const Hebr = ({ p, ambTranslit = false }: { p: Paraula; ambTranslit?: boolean }) => <ParaulaHeb paraula={p} ambTranslit={ambTranslit} />
 
 /** Pregunta sobre una paraula: tria la imatge, tria la paraula (per imatge o per so) o tria la traducció. */
 export function TriaImatge({ paraula: p, totes, color, tipus, onRespon, rng }: Props) {
@@ -43,10 +34,10 @@ export function TriaImatge({ paraula: p, totes, color, tipus, onRespon, rng }: P
   }
   const estat = (id: string) => (triada === null ? '' : id === p.id ? 'bona' : id === triada ? 'dolenta' : '')
   const enunciat =
-    tipus === 'tria-imatge' ? <><p class="petit">Quina imatge és?</p><p class="enunciat"><Hebr p={p} /></p></>
+    tipus === 'tria-imatge' ? <><p class="petit">Quina imatge és?</p><p class="enunciat"><Hebr p={p} ambTranslit /></p></>
     : tipus === 'imatge-paraula' ? <><p class="petit">Quina paraula és?</p><div class="plafo gran-plafo" style={{ background: color }}><Icona nom={p.icona!} /></div></>
     : tipus === 'so-paraula' ? <><p class="petit">Escolta i tria la paraula</p><p class="enunciat"><BotoSo audio={p.audio} etiqueta={p.ca} autoplay /></p></>
-    : <><p class="petit">Què vol dir?</p><p class="enunciat"><Hebr p={p} /></p></>
+    : <><p class="petit">Què vol dir?</p><p class="enunciat"><Hebr p={p} ambTranslit /></p></>
   return (
     <div class="exercici">
       {enunciat}
