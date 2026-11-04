@@ -2,11 +2,11 @@
 .inici { display: flex; flex-direction: column; gap: 10px; padding-top: 22px; }
 .gran-bloc { background: var(--tinta); color: var(--blanc); border-radius: 22px; padding: 16px; }
 .gran-bloc .petit { color: rgb(255 255 255 / .75); }
-.gran-bloc .x { font-size: 22px; font-weight: 700; }
+.gran-bloc .x { font-size: var(--t-l); font-weight: 600; }
 .continua { display: flex; gap: 10px; align-items: center; background: var(--blanc); border-radius: 18px; padding: 12px; text-decoration: none; }
 .continua-text { display: flex; flex-direction: column; }
 .pastilla { width: 44px; height: 44px; border-radius: 12px; flex: none; }
-.unitat { display: flex; gap: 10px; align-items: center; font-size: 14px; padding: 8px 0; text-decoration: none; }
+.unitat { display: flex; gap: 10px; align-items: center; font-size: var(--t-m); padding: 8px 0; text-decoration: none; }
 .unitat .pt { width: 12px; height: 12px; border-radius: 4px; flex: none; }
 .unitat .nom { flex: 1; }
 .barra { display: block; height: 6px; width: 70px; background: var(--filet); border-radius: 9px; overflow: hidden; }
@@ -25,59 +25,59 @@
 .plafo { height: 110px; display: flex; align-items: center; justify-content: center; color: var(--blanc); font-size: 64px; }
 .plafo img { height: 64px; width: 64px; }
 .targeta-cos { padding: 12px 14px 14px; text-align: center; }
-.targeta .quadrada.gran { font-size: 36px; }
-.targeta .cursiva { font-size: 24px; color: var(--gris); }
-.translit { font-style: italic; color: var(--gris); font-size: 13px; }
-.ca { font-size: 15px; margin-top: 2px; }
+.targeta .quadrada.gran { font-size: var(--h-l); }
+.targeta .cursiva { font-size: var(--h-l); color: var(--gris); }
+.translit { font-style: italic; color: var(--gris); font-size: var(--t-s); }
+.ca { font-size: var(--t-m); margin-top: 2px; }
 .targeta-peu { margin-top: 8px; display: flex; justify-content: center; align-items: center; gap: 6px; }
 
 /* Botó de so */
 .so-grup { display: inline-flex; gap: 6px; align-items: center; }
-.so { border: 0; background: var(--gris-clar); border-radius: 99px; min-width: 44px; height: 44px; font-size: 18px; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; color: var(--tinta); }
-.so.lent { font-size: 12px; padding: 0 12px; }
+.so { border: 0; background: var(--gris-clar); border-radius: 99px; min-width: 44px; height: 44px; font-size: var(--ic); cursor: pointer; display: inline-flex; align-items: center; justify-content: center; color: var(--tinta); }
+.so.lent { font-size: var(--t-xs); padding: 0 12px; }
 .so:disabled { opacity: .4; cursor: default; }
 
 .llista-enllacos a.text-enllac { font-weight: 400; }
-.titol-text { display: flex; flex-direction: column; gap: 2px; font-size: 16px; }
-.titol-text [lang='he'] { font-family: 'FrankRuehl', serif; font-size: 20px; }
+.titol-text { display: flex; flex-direction: column; gap: 2px; font-size: var(--t-m); }
+.titol-text [lang='he'] { font-family: 'FrankRuehl', serif; font-size: var(--h-s); }
 
 /* Sessions d'exercicis */
 .sessio { padding-top: 8px; }
 .barra-sessio { height: 8px; background: var(--filet); border-radius: 9px; overflow: hidden; margin-bottom: 8px; }
 .barra-sessio b { display: block; height: 100%; border-radius: 9px; }
-.btn.vocals { font-size: 12px; padding: 6px; margin: 0 0 8px; }
+.btn.vocals { font-size: var(--t-xs); padding: 6px; margin: 0 0 8px; }
 .exercici { display: flex; flex-direction: column; gap: 8px; }
 .enunciat { text-align: center; margin: 8px 0; }
 .opcions { display: grid; grid-template-columns: 1fr; gap: 8px; }
 .opcions.imatges { grid-template-columns: 1fr 1fr; }
-.opcio { border: 2px solid var(--filet); background: var(--blanc); border-radius: 16px; padding: 12px; font-size: 16px; font-family: inherit; cursor: pointer; color: var(--tinta); min-height: 48px; }
+.opcio { border: 2px solid var(--filet); background: var(--blanc); border-radius: 16px; padding: 12px; font-size: var(--t-m); font-family: inherit; cursor: pointer; color: var(--tinta); min-height: 48px; }
 .opcio .plafo { height: 80px; border-radius: 12px; font-size: 44px; }
 .opcio.bona { border-color: #2e9f5b; background: #e6f6ec; }
 .opcio.dolenta { border-color: #c94a4a; background: var(--error-fons); }
 .opcio:disabled:not(.bona):not(.dolenta) { opacity: .5; }
-.retro { background: var(--blanc); border-radius: 14px; padding: 10px 12px; font-size: 14px; margin: 4px 0; }
+.retro { background: var(--blanc); border-radius: 14px; padding: 10px 12px; font-size: var(--t-s); margin: 4px 0; }
 /* Retorn d'un exercici: verd si l'encertes, vermell si no; la frase bona, gran i amb el so */
 .retro.bona, .retro.dolenta { display: flex; flex-direction: column; gap: 6px; border: 2px solid; padding: 12px 14px; }
 .retro.bona { background: #e6f6ec; border-color: #2e9f5b; }
 .retro.dolenta { background: var(--error-fons); border-color: #c94a4a; }
-.retro-cap { display: flex; align-items: center; gap: 6px; font-size: 17px; font-weight: 700; }
-.retro-cap i { font-size: 24px; }
-.retro-sub { font-weight: 400; font-size: 15px; color: var(--tinta); }
+.retro-cap { display: flex; align-items: center; gap: 6px; font-size: var(--t-m); font-weight: 600; }
+.retro-cap i { font-size: var(--ic); }
+.retro-sub { font-weight: 400; font-size: var(--t-m); color: var(--tinta); }
 .retro.bona .retro-cap { color: #1f7a45; } .retro.dolenta .retro-cap { color: #a33; }
-.retro .model { display: flex; align-items: center; justify-content: flex-end; gap: 10px; flex-wrap: wrap; font-size: 28px; line-height: 1.3; }
+.retro .model { display: flex; align-items: center; justify-content: flex-end; gap: 10px; flex-wrap: wrap; font-size: var(--h-m); line-height: 1.3; }
 .retro .model .cursiva { font-size: .8em; }
-.retro-nota { font-size: 14px; color: var(--tinta); }
+.retro-nota { font-size: var(--t-s); color: var(--tinta); }
 .linia-construir.bona { border-bottom-color: #2e9f5b; }
 .linia-construir.dolenta { border-bottom-color: #c94a4a; }
 .gran-plafo { height: 130px; border-radius: 18px; }
 .text-comprensio { background: var(--blanc); border-radius: 14px; padding: 10px 12px; margin: 0; }
 .linia-construir { min-height: 56px; border-bottom: 2px solid var(--filet); display: flex; flex-wrap: wrap; gap: 6px; padding: 6px 0; }
 .fitxes { display: flex; flex-wrap: wrap; gap: 6px; padding: 8px 0; }
-.fitxa { border: 0; background: var(--blanc); border-radius: 12px; padding: 8px 12px; font-size: 20px; cursor: pointer; box-shadow: 0 1px 0 var(--filet); color: var(--tinta); font-family: inherit; }
+.fitxa { border: 0; background: var(--blanc); border-radius: 12px; padding: 8px 12px; font-size: var(--h-m); cursor: pointer; box-shadow: 0 1px 0 var(--filet); color: var(--tinta); font-family: inherit; }
 .fitxa.col { background: var(--gris-clar); }
 .duo { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .resum { text-align: center; padding: 24px 0; }
-.resum-x { font-size: 36px; font-weight: 700; margin: 4px 0; }
+.resum-x { font-size: var(--t-xl); font-weight: 600; margin: 4px 0; }
 .petit.blanc { color: rgb(255 255 255 / .8); }
 .explicacio { background: var(--blanc); border-radius: 16px; padding: 12px 14px; white-space: pre-line; }
 .exemples { list-style: none; padding: 0; margin: 0 0 8px; display: flex; flex-direction: column; gap: 8px; }
@@ -85,16 +85,16 @@
 
 /* conversa (triat a referencia/dialeg.html el 2026-11-04) */
 .bloc-conversa { margin: 14px 0 26px; }
-.titol-bloc { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 18px; margin: 0 0 8px; text-wrap: balance; }
-.xip { border: 0; background: var(--gris-clar); color: var(--tinta); border-radius: 99px; padding: 7px 11px; font-size: 13px; cursor: pointer; flex: none; }
+.titol-bloc { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: var(--t-l); margin: 0 0 8px; text-wrap: balance; }
+.xip { border: 0; background: var(--gris-clar); color: var(--tinta); border-radius: 99px; padding: 7px 11px; font-size: var(--t-s); cursor: pointer; flex: none; }
 .xip[aria-pressed='true'] { background: var(--tinta); color: var(--blanc); }
 /* Qui fas tu: tots els personatges a la vista, en una línia */
 .fas-de { margin: 6px 0 4px; }
 .personatges { display: flex; align-items: center; gap: 5px; flex-wrap: nowrap; margin: 0 0 6px; min-width: 0; }
 .personatges .xip { padding: 7px 9px; flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.personatges [lang='he'] { font-family: 'FrankRuehl', serif; font-size: 15px; }
+.personatges [lang='he'] { font-family: 'FrankRuehl', serif; font-size: var(--h-s); }
 .xat { display: flex; flex-direction: column; gap: 8px; margin: 10px 0 14px; }
-.bomb { --pf: var(--blanc); --pt: var(--tinta); max-width: 88%; border-radius: 18px; padding: 8px 12px; font-size: 28px; line-height: 1.35; background: var(--pf); scroll-margin: 90px 0; }
+.bomb { --pf: var(--blanc); --pt: var(--tinta); max-width: 88%; border-radius: 18px; padding: 8px 12px; font-size: var(--h-m); line-height: 1.35; background: var(--pf); scroll-margin: 90px 0; }
 .bomb.dreta { align-self: flex-end; border-bottom-right-radius: 6px; }
 .bomb.esq { align-self: flex-start; border-bottom-left-radius: 6px; }
 /* Un color per personatge (fons clar i tinta del nom) */
@@ -103,60 +103,60 @@
 .xip.pc0, .xip.pc1, .xip.pc2, .xip.pc3, .xip.pc4 { background: var(--pf); color: var(--pt); box-shadow: inset 0 0 0 1px rgb(31 36 48 / .08); }
 .xip[class*='pc'][aria-pressed='true'] { background: var(--pt); color: var(--blanc); }
 .bomb.actual { box-shadow: 0 0 0 3px var(--tinta); }
-.bomb .qui { display: block; font-size: 11px; font-weight: 600; color: var(--pt); }
+.bomb .qui { display: block; font-size: var(--t-xs); font-weight: 600; color: var(--pt); }
 .bomb-text { border: 0; background: none; color: inherit; font: inherit; cursor: pointer; padding: 0; text-align: inherit; display: block; }
 .bomb-text:disabled { cursor: default; }
-.bomb .ca-linia { display: block; font-size: 14px; line-height: 1.35; color: var(--tinta); opacity: .8; direction: ltr; text-align: left; margin-top: 2px; }
+.bomb .ca-linia { display: block; font-size: var(--t-s); line-height: 1.35; color: var(--tinta); opacity: .8; direction: ltr; text-align: left; margin-top: 2px; }
 .nota-linia { margin: 4px 0; text-align: left; font-style: italic; }
 .bomb.amagat { background: repeating-linear-gradient(45deg, var(--gris-clar), var(--gris-clar) 6px, var(--filet) 6px, var(--filet) 12px); }
-.bomb .torn { border: 0; background: none; color: var(--tinta); font-size: 14px; padding: 4px 0; text-align: start; cursor: pointer; }
+.bomb .torn { border: 0; background: none; color: var(--tinta); font-size: var(--t-s); padding: 4px 0; text-align: start; cursor: pointer; }
 /* Reproductor: barra fixa a baix mentre el bloc és a la vista */
 .barra-so { position: sticky; bottom: 0; z-index: 4; display: flex; align-items: center; gap: 8px; margin: 0 -16px; padding: 8px 16px calc(10px + env(safe-area-inset-bottom)); background: var(--blanc); box-shadow: 0 -1px 0 var(--filet); }
-.rodo { border: 0; background: var(--gris-clar); color: var(--tinta); border-radius: 99px; width: 44px; height: 44px; flex: none; font-size: 22px; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; }
-.rodo.gran-play { width: 56px; height: 56px; background: var(--tinta); color: var(--blanc); font-size: 24px; }
+.rodo { border: 0; background: var(--gris-clar); color: var(--tinta); border-radius: 99px; width: 44px; height: 44px; flex: none; font-size: var(--ic); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; }
+.rodo.gran-play { width: 56px; height: 56px; background: var(--tinta); color: var(--blanc); font-size: var(--ic); }
 .rodo:disabled { opacity: .4; cursor: default; }
-.info-so { flex: 1; min-width: 0; display: flex; flex-direction: column; font-size: 13px; line-height: 1.3; }
+.info-so { flex: 1; min-width: 0; display: flex; flex-direction: column; font-size: var(--t-s); line-height: 1.3; }
 .info-so b { font-variant-numeric: tabular-nums; white-space: nowrap; }
 .info-so .qui-ara { color: var(--gris); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: start; }
 .progres-so { display: block; height: 3px; border-radius: 3px; background: var(--filet); margin-top: 4px; overflow: hidden; }
 .progres-so i { display: block; height: 100%; background: var(--color-unitat, var(--tinta)); }
-.velocitat { border: 1px solid var(--filet); background: var(--blanc); color: var(--tinta); border-radius: 99px; height: 36px; padding: 0 10px; font-size: 13px; font-variant-numeric: tabular-nums; cursor: pointer; flex: none; }
+.velocitat { border: 1px solid var(--filet); background: var(--blanc); color: var(--tinta); border-radius: 99px; height: 36px; padding: 0 10px; font-size: var(--t-s); font-variant-numeric: tabular-nums; cursor: pointer; flex: none; }
 .velocitat[aria-pressed='true'] { background: var(--tinta); color: var(--blanc); border-color: var(--tinta); }
 
 /* Paraula en la lletra del full d'opcions (quadrada, cursiva o totes dues) i transcripció */
 .paraula-heb { display: inline-flex; flex-direction: column; align-items: center; gap: 2px; line-height: 1.2; }
-.paraula-heb .quadrada.gran { font-size: 30px; }
-.paraula-heb .cursiva { font-size: 22px; color: var(--gris); }
-.paraula-heb .cursiva.gran { font-size: 30px; color: var(--tinta); }
-.targeta .paraula-heb .quadrada.gran, .targeta .paraula-heb .cursiva.gran { font-size: 36px; }
+.paraula-heb .quadrada.gran { font-size: var(--h-l); }
+.paraula-heb .cursiva { font-size: calc(var(--h-l) * .8); color: var(--gris); }
+.paraula-heb .cursiva.gran { font-size: var(--h-l); color: var(--tinta); }
+.targeta .paraula-heb .quadrada.gran, .targeta .paraula-heb .cursiva.gran { font-size: var(--h-l); }
 .retro .paraula-heb { display: inline-flex; vertical-align: middle; }
 /* Paraula en quadrada amb vocals i cursiva sense vocals (reconeixement de paraules) */
 .dues-lletres { display: inline-flex; flex-direction: column; align-items: center; gap: 2px; line-height: 1.2; }
-.dues-lletres .quadrada { font-size: 30px; }
-.dues-lletres .cursiva { font-size: 22px; color: var(--gris); }
+.dues-lletres .quadrada { font-size: var(--h-l); }
+.dues-lletres .cursiva { font-size: calc(var(--h-l) * .8); color: var(--gris); }
 .retro .dues-lletres { display: inline-flex; vertical-align: middle; }
 
 /* Opcions de lectura: botó Aa i full que s'obre des de baix (triat a referencia/dialeg.html el 2026-11-04) */
 .eines-lectura { display: flex; justify-content: flex-end; margin: 0 0 8px; }
-.boto-aa { position: relative; border: 1px solid var(--filet); background: var(--blanc); color: var(--tinta); border-radius: 12px; width: 44px; height: 44px; flex: none; font-size: 22px; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; }
+.boto-aa { position: relative; border: 1px solid var(--filet); background: var(--blanc); color: var(--tinta); border-radius: 12px; width: 44px; height: 44px; flex: none; font-size: var(--ic); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; }
 .boto-aa .punt { position: absolute; top: 7px; right: 7px; width: 7px; height: 7px; border-radius: 50%; background: var(--color-unitat, var(--tinta)); }
 .vel-full { position: fixed; inset: 0; background: rgb(31 36 48 / .35); z-index: 20; }
 .full-opcions { position: fixed; left: 0; right: 0; bottom: 0; z-index: 21; max-width: 520px; margin: 0 auto; max-height: 85vh; overflow-y: auto; overscroll-behavior: contain; background: var(--blanc); border-radius: 20px 20px 0 0; padding: 10px 18px calc(18px + env(safe-area-inset-bottom)); }
 .full-opcions .ansa { width: 36px; height: 4px; border-radius: 4px; background: var(--filet); margin: 0 auto 8px; }
 .full-cap { display: flex; align-items: center; justify-content: space-between; }
-.full-cap h2 { font-size: 17px; margin: 0; }
-.tanca-full { border: 0; background: none; color: var(--tinta); font-size: 15px; font-weight: 600; padding: 10px 4px; cursor: pointer; }
-.opcio-full { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--gris-clar); font-size: 15px; }
-.opcio-full small { display: block; color: var(--gris); font-size: 12px; }
+.full-cap h2 { font-size: var(--t-m); margin: 0; }
+.tanca-full { border: 0; background: none; color: var(--tinta); font-size: var(--t-m); font-weight: 600; padding: 10px 4px; cursor: pointer; }
+.opcio-full { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--gris-clar); font-size: var(--t-m); }
+.opcio-full small { display: block; color: var(--gris); font-size: var(--t-xs); }
 .commutador { position: relative; width: 50px; height: 30px; flex: none; border-radius: 99px; border: 0; background: var(--filet); cursor: pointer; }
 .commutador::after { content: ''; position: absolute; top: 3px; left: 3px; width: 24px; height: 24px; border-radius: 50%; background: var(--blanc); box-shadow: 0 1px 2px rgb(0 0 0 / .2); }
 .commutador[aria-checked='true'] { background: var(--tinta); }
 .commutador[aria-checked='true']::after { transform: translateX(20px); }
 @media (prefers-reduced-motion: no-preference) { .commutador::after { transition: transform .15s; } }
 .segments { display: inline-flex; background: var(--gris-clar); border-radius: 10px; padding: 3px; flex: none; }
-.segments button { border: 0; background: transparent; color: var(--tinta); border-radius: 8px; padding: 7px 9px; font-size: 14px; cursor: pointer; }
+.segments button { border: 0; background: transparent; color: var(--tinta); border-radius: 8px; padding: 7px 9px; font-size: var(--t-s); cursor: pointer; }
 .segments button[aria-pressed='true'] { background: var(--blanc); box-shadow: 0 1px 2px rgb(0 0 0 / .12); }
-.segments .quadrada, .segments .cursiva { font-size: 16px; }
+.segments .quadrada, .segments .cursiva { font-size: var(--h-s); }
 .full-opcions > .petit { margin: 12px 0 0; }
 
 /* Lletra «totes dues»: la quadrada i, a sota, la cursiva */
@@ -166,15 +166,19 @@
 .grup-lletra legend { padding: 0; margin-bottom: 4px; }
 
 /* L'hebreu de les opcions i de les fitxes, prou gran per llegir-lo d'una ullada (2026-11-04) */
-.opcio [lang='he'] { font-size: 28px; line-height: 1.25; }
-.opcio .paraula-heb .quadrada { font-size: 38px; }
-.opcio .paraula-heb .cursiva { font-size: 30px; }
-.opcio .paraula-heb .cursiva.gran { font-size: 38px; }
-.enunciat .paraula-heb .quadrada.gran { font-size: 44px; }
-.enunciat .paraula-heb .cursiva { font-size: 32px; }
-.enunciat .paraula-heb .cursiva.gran { font-size: 44px; }
-.fitxa { font-size: 26px; padding: 8px 14px; }
+.opcio [lang='he'] { font-size: var(--h-l); line-height: 1.25; }
+.opcio .paraula-heb .quadrada { font-size: var(--h-l); }
+.opcio .paraula-heb .cursiva { font-size: calc(var(--h-l) * .8); }
+.opcio .paraula-heb .cursiva.gran { font-size: var(--h-l); }
+.enunciat .paraula-heb .quadrada.gran { font-size: var(--h-l); }
+.enunciat .paraula-heb .cursiva { font-size: calc(var(--h-l) * .8); }
+.enunciat .paraula-heb .cursiva.gran { font-size: var(--h-l); }
+.fitxa { font-size: var(--h-m); padding: 8px 14px; }
 .text-comprensio { padding: 12px 16px; }
-.text-comprensio .replica { margin: 0 0 6px; direction: rtl; text-align: right; font-size: 30px; line-height: 1.4; }
-.text-comprensio [lang='he'] { font-size: 30px; line-height: 1.4; }
+.text-comprensio .replica { margin: 0 0 6px; direction: rtl; text-align: right; font-size: var(--h-m); line-height: 1.4; }
+.text-comprensio [lang='he'] { font-size: var(--h-m); line-height: 1.4; }
 .so-comprensio { margin: 4px 0 0; }
+
+/* L'enunciat en hebreu, a la mida de les opcions (no més petit que elles) */
+.enunciat [lang='he'].gran, .enunciat .gran [lang='he'] { font-size: var(--h-l); line-height: 1.25; }
+.exercici .petit [lang='he'] { font-size: var(--h-s); color: var(--tinta); }
