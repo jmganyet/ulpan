@@ -23,8 +23,8 @@ textos:
       2: "אוֹ: יֵשׁ קִיבּוּצִים בְּיִשְׂרָאֵל. אֵין קִיבּוּצִים בְּאַנְגְלִיָּה."
     ca:
       0: "Es diu: a Israel hi ha quibutsos. A Anglaterra no hi ha quibutsos."
-      1: "O bé, amb יֵשׁ i אֵין al davant: hi ha quibutsos a Israel. No hi ha quibutsos a Anglaterra."
-      2: "O bé, amb el lloc al final: hi ha quibutsos a Israel. No hi ha quibutsos a Anglaterra."
+      1: "O bé: hi ha quibutsos a Israel. No hi ha quibutsos a Anglaterra."
+      2: "O bé: hi ha quibutsos a Israel. No hi ha quibutsos a Anglaterra."
   pag-33-b2:
     ca:
       0: "Respon...!"
@@ -410,7 +410,7 @@ gramatica:
       - { n: "עַל הַשּׁוּלְחָן יֵשׁ סֵפֶר, מַחְבֶּרֶת וְעֵט.", ca: "Damunt la taula hi ha un llibre, una llibreta i una ploma." }
   - id: be-instrument
     titol: "בְּ־ d'instrument: «amb»"
-    explicacio: "A més de «a, en», בְּ־ vol dir «amb» quan introdueix l'eina: בְּגִיר, בְּעֵט. Una frase pot dur les dues, i l'«amb» de companyia no és בְּ־ sinó עִם."
+    explicacio: "A més de «a, en», בְּ־ vol dir «amb» quan introdueix l'eina: בְּגִיר, בְּעֵט. Una frase pot dur les dues."
     exemples:
       - { n: "הַמּוֹרָה כּוֹתֶבֶת בְּגִיר. הַתַּלְמִיד כּוֹתֵב בְּעֵט.", ca: "La mestra escriu amb guix. L'alumne escriu amb ploma." }
       - { n: "לֹא, הֵם כּוֹתְבִים בַּמַּחְבָּרוֹת בְּעִיפָּרוֹן, אוֹ בְּעֵט.", ca: "No, escriuen a les llibretes (lloc) amb llapis o amb ploma (eina)." }
@@ -446,6 +446,7 @@ gramatica:
 exercicis:
   # pag-33, תרגיל 19: respon les preguntes amb una frase sencera. Es deixen fora les preguntes obertes
   # o d'opinió (2, 3, 4, 10, 11). Respostes segons context-kenesset (5, 6, 7, 9) i el text de la pag-36 (12, 13).
+  # 19.12 i 19.14 adaptats: la pregunta és del dossier; el marc de resposta amb el buit (לֹא, … ____ …) és afegit.
   - { tipus: autocorreccio, origen: "pag-33 ex. 19.1", extra: false, linies: [pag-33-b4-l0],
       enunciat: { n: "בְּיִשְׂרָאֵל יֵשׁ דֶּמוֹקְרַטְיָה?", u: "בישראל יש דמוקרטיה?" },
       model: { n: "כֵּן, בְּיִשְׂרָאֵל יֵשׁ דֶּמוֹקְרַטְיָה.", u: "כן, בישראל יש דמוקרטיה." } }
@@ -466,7 +467,7 @@ exercicis:
       model: { n: "לֹא, בְּיִשְׂרָאֵל אֵין נֵפְט.", u: "לא, בישראל אין נפט." } }
   - { tipus: forat, origen: "pag-33 ex. 19.12", extra: false, linies: [pag-33-b4-l11],
       frase: { u: "בכיתה יש טלוויזיה? – לא, בכיתה ____ טלוויזיה.", n: "בַּכִּיתָּה יֵשׁ טֶלֶווִיזְיָה? – לֹא, בַּכִּיתָּה ____ טֶלֶווִיזְיָה." },
-      opcions: ["יֵשׁ", "אֵין", "לֹא"], correcta: 1, retro: "No hi ha: אֵין, mai לֹא davant del nom." }
+      opcions: ["יֵשׁ", "אֵין", "לֹא"], correcta: 1, retro: "La negació de יֵשׁ és אֵין; לֹא només és el «no» de la resposta." }
   - { tipus: autocorreccio, origen: "pag-33 ex. 19.13", extra: false, linies: [pag-33-b4-l12],
       enunciat: { n: "יֵשׁ טֶלֶפוֹן בַּכִּיתָּה?", u: "יש טלפון בכיתה?" },
       model: { n: "לֹא, אֵין טֶלֶפוֹן בַּכִּיתָּה.", u: "לא, אין טלפון בכיתה." } }

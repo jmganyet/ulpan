@@ -811,7 +811,7 @@
     {
       "id": "be-instrument",
       "titol": "בְּ־ d'instrument: «amb»",
-      "explicacio": "A més de «a, en», בְּ־ vol dir «amb» quan introdueix l'eina: בְּגִיר, בְּעֵט. Una frase pot dur les dues, i l'«amb» de companyia no és בְּ־ sinó עִם.",
+      "explicacio": "A més de «a, en», בְּ־ vol dir «amb» quan introdueix l'eina: בְּגִיר, בְּעֵט. Una frase pot dur les dues.",
       "extra": false,
       "exemples": [
         {
@@ -1157,7 +1157,7 @@
             "extraVocals": true
           },
           "perComprovar": false,
-          "ca": "O bé, amb יֵשׁ i אֵין al davant: hi ha quibutsos a Israel. No hi ha quibutsos a Anglaterra.",
+          "ca": "O bé: hi ha quibutsos a Israel. No hi ha quibutsos a Anglaterra.",
           "audio": {
             "normal": "56559f31b4ef.m4a",
             "lent": "1af21774e633.m4a"
@@ -1171,7 +1171,7 @@
             "extraVocals": true
           },
           "perComprovar": false,
-          "ca": "O bé, amb el lloc al final: hi ha quibutsos a Israel. No hi ha quibutsos a Anglaterra.",
+          "ca": "O bé: hi ha quibutsos a Israel. No hi ha quibutsos a Anglaterra.",
           "audio": {
             "normal": "34f719d143d9.m4a",
             "lent": "c411b5204c5b.m4a"
@@ -3211,7 +3211,7 @@
         "לֹא"
       ],
       "correcta": 1,
-      "retro": "No hi ha: אֵין, mai לֹא davant del nom.",
+      "retro": "La negació de יֵשׁ és אֵין; לֹא només és el «no» de la resposta.",
       "id": "u06-ex-6"
     },
     {
