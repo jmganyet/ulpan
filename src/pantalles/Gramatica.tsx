@@ -21,9 +21,9 @@ export function Gramatica({ unitat: u, n }: { unitat: Unitat; n: string }) {
       <header class="capcalera-unitat" style={{ background: u.color }}>
         <a class="enrere" href={base}>‹ {u.titol}</a>
         <h1>{punt.titol}</h1>
-        <span class="petit blanc">Gramàtica {k}/{u.gramatica.length}</span>
+        <span class="petit blanc">{k}/{u.gramatica.length}</span>
+        <OpcionsLectura />
       </header>
-      <div class="eines-lectura"><OpcionsLectura /></div>
       <p class="explicacio">{punt.explicacio}<Marques extra={punt.extra} /></p>
       <ul class="exemples">
         {punt.exemples.map((l) => (

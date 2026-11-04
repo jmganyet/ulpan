@@ -221,3 +221,19 @@
 
 .capcalera-linia { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; padding: 8px 14px; }
 .capcalera-linia .enrere { margin: 0; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* Capçaleres: una sola barra baixa per a totes les pantalles (2026-11-04): enrere · títol · (pàgina, Aa) */
+.capcalera-unitat, .sessio .capcalera-unitat, .capcalera-linia { display: flex; align-items: center; gap: 10px; min-height: 48px; padding: 4px 6px 4px 14px; margin: 0 0 8px; border-radius: 14px; }
+.capcalera-unitat .enrere { flex: 0 1 auto; max-width: 50%; margin: 0; font-size: var(--t-s); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.capcalera-unitat h1 { flex: 1; min-width: 0; font-size: var(--t-m); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.capcalera-unitat > .petit { flex: none; padding-right: 8px; }
+.capcalera-unitat .boto-aa { width: 40px; height: 40px; border: 0; }
+.capcalera-unitat .amagat-visual + *, .capcalera-linia .enrere { flex: 1; max-width: none; }
+.app { padding-top: 12px; }
+
+/* Exemples de gramàtica: hebreu i traducció a l'esquerra, el so al costat (sense files buides) */
+.exemples li { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: 'heb so' 'ca so'; align-items: center; gap: 2px 10px; padding: 8px 10px 8px 14px; }
+.exemples li > [lang='he'] { grid-area: heb; justify-self: end; }
+.exemples li > .marca { grid-column: 1; grid-row: 3; justify-self: start; margin: 2px 0 0; }
+.exemples li > .ca { grid-area: ca; margin: 0; font-size: var(--t-s); }
+.exemples li > .so-grup { grid-area: so; }
