@@ -62,7 +62,7 @@ export function SessioPantalla({ titol, color, enrere, passos, unitats, progres,
   const cos = () => {
     if (!pas) return null
     const par = mapaParaules.get(pas.ref)
-    if (pas.tipus === 'paraula-nova') return par && <TargetaParaula paraula={par} color={colorDe(par.id)} />
+    if (pas.tipus === 'paraula-nova') return par && <TargetaParaula paraula={par} color={colorDe(par.id)} vocals={pref.vocals} />
     if (par && esPregunta(pas.tipus)) return <TriaImatge key={e.i} paraula={par} totes={paraules} color={colorDe(par.id)} tipus={pas.tipus} onRespon={onRespon} />
     const ex = exercicis.get(pas.ref)
     if (!ex) return <p class="avis">Aquest exercici ja no existeix.</p>
