@@ -43,3 +43,5 @@ h2 { font-size: var(--t-s); font-weight: 600; margin: 16px 0 4px; }
 .missatge { font-size: var(--t-s); }
 .alefat table { border-collapse: collapse; width: 100%; }
 .alefat td, .alefat th { text-align: center; padding: 4px; border-bottom: 1px solid var(--filet); }
+
+.amagat-visual { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }

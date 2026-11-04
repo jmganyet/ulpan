@@ -14,10 +14,11 @@ export function Conversa({ unitat, pag, deps }: Props) {
   const blocs = unitat.textos.filter((t) => t.pagina === pag)
   return (
     <div class="conversa-pantalla" style={{ '--color-unitat': unitat.color } as never}>
-      <header class="capcalera-unitat" style={{ background: unitat.color }}>
+      {/* Capçalera d'una línia: el títol del text ja hi és, al bloc (no es repeteix a la vista) */}
+      <header class="capcalera-unitat capcalera-linia" style={{ background: unitat.color }}>
         <a class="enrere" href={`#/u/${unitat.id}`}>‹ {unitat.titol}</a>
-        <h1>{blocs[0] ? titol(blocs[0]) : unitat.titol}</h1>
-        <span class="petit">pàg. {Number(pag.replace(/\D/g, '')) || pag}</span>
+        <span class="petit blanc">pàg. {Number(pag.replace(/\D/g, '')) || pag}</span>
+        <h1 class="amagat-visual">{blocs[0] ? titol(blocs[0]) : unitat.titol}</h1>
       </header>
       {blocs.length === 0 && <p class="petit">No hi ha cap text en aquesta pàgina.</p>}
       {blocs.map((t) => <BlocText key={t.id} text={t} deps={reals} />)}

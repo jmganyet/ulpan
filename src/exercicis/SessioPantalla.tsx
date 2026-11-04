@@ -91,9 +91,12 @@ export function SessioPantalla({ titol, color, enrere, passos, unitats, progres,
         </section>
       ) : (
         <>
-          <div class="barra-sessio" role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={pct}><b style={{ width: `${pct}%`, background: color }} /></div>
+          {/* Progrés i opcions de lectura en una sola fila, per deixar lloc a l'exercici */}
+          <div class="fila-sessio">
+            <div class="barra-sessio" role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={pct}><b style={{ width: `${pct}%`, background: color }} /></div>
+            <OpcionsLectura ambTranslit />
+          </div>
           {e.enReintents && <p class="petit">Repàs dels errors</p>}
-          <div class="eines-lectura"><OpcionsLectura ambTranslit /></div>
           {cos()}
           {(e.respost || pas.tipus === 'paraula-nova') && (
             <button type="button" class="btn continua-btn" onClick={continua}>Continua</button>

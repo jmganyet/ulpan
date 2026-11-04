@@ -182,3 +182,42 @@
 /* L'enunciat en hebreu, a la mida de les opcions (no més petit que elles) */
 .enunciat [lang='he'].gran, .enunciat .gran [lang='he'] { font-size: var(--h-l); line-height: 1.25; }
 .exercici .petit [lang='he'] { font-size: var(--h-s); color: var(--tinta); }
+
+/* Mòbil: tot ha de cabre en una pantalla (2026-11-04). Capçaleres i imatges més baixes, retorn compacte i
+   «Continua» / «Comprova» sempre a la vista, enganxats a baix. */
+.capcalera-unitat { padding: 10px 14px; margin-bottom: 10px; }
+.sessio .capcalera-unitat { display: flex; align-items: baseline; gap: 10px; padding: 8px 14px; margin-bottom: 8px; }
+.sessio .capcalera-unitat .enrere { margin: 0; flex: none; }
+.sessio .capcalera-unitat h1 { font-size: var(--t-m); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.fila-sessio { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; }
+.fila-sessio .barra-sessio { flex: 1; margin: 0; }
+.exercici { gap: 6px; }
+.enunciat { margin: 4px 0; }
+.exercici > .petit { margin: 0; }
+.opcions { gap: 6px; }
+.opcio { padding: 8px 12px; border-radius: 14px; }
+.opcio .plafo { height: 60px; font-size: 36px; }
+.gran-plafo { height: 92px; font-size: 52px; }
+.plafo { height: 76px; font-size: 48px; }
+.targeta-cos { padding: 8px 12px 10px; }
+.targetes { gap: 10px; }
+.retro.bona, .retro.dolenta { gap: 2px; padding: 8px 12px; }
+.retro-cap { font-size: var(--t-s); }
+.retro-cap i { font-size: 20px; }
+.retro-sub { font-size: var(--t-s); }
+.continua-btn, .exercici > .btn { position: sticky; bottom: calc(10px + env(safe-area-inset-bottom)); z-index: 5; box-shadow: 0 6px 16px rgb(31 36 48 / .22); }
+.text-comprensio { padding: 10px 14px; margin: 0; }
+
+/* Llista de vocabulari: cada paraula en una fila (icona · paraula i traducció · so), perquè en càpiguen unes quantes */
+.targetes { gap: 8px; }
+.targetes .targeta { display: grid; grid-template-columns: 60px minmax(0, 1fr); border-radius: 16px; }
+.targetes .targeta:not(:has(.plafo)) { grid-template-columns: minmax(0, 1fr); }
+.targetes .plafo { height: auto; min-height: 64px; font-size: 30px; }
+.targetes .targeta-cos { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: 'heb peu' 'ca peu'; align-items: center; gap: 0 10px; padding: 6px 10px 6px 12px; text-align: start; }
+.targetes .paraula-heb { grid-area: heb; align-items: flex-start; }
+.targetes .paraula-heb .quadrada.gran, .targetes .paraula-heb .cursiva.gran { font-size: var(--h-m); }
+.targetes .ca { grid-area: ca; margin: 0; font-size: var(--t-s); }
+.targetes .targeta-peu { grid-area: peu; margin: 0; }
+
+.capcalera-linia { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; padding: 8px 14px; }
+.capcalera-linia .enrere { margin: 0; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
