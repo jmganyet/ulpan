@@ -1,6 +1,7 @@
 import { useEffect } from 'preact/hooks'
 import type { Unitat } from '../contingut/tipus'
 import { TargetaParaula } from '../peces/TargetaParaula'
+import { BotoTranslit } from '../peces/BotoTranslit'
 
 type Props = { unitat: Unitat; alVeure?: (ids: string[]) => void }
 
@@ -14,6 +15,7 @@ export function Vocabulari({ unitat: u, alVeure }: Props) {
         <a class="enrere" href={`#/u/${u.id}`}>‹ {u.titol}</a>
         <h1>Vocabulari</h1>
       </header>
+      <BotoTranslit />
       <div class="targetes">
         {u.vocabulari.map((p) => <TargetaParaula key={p.id} paraula={p} color={u.color} />)}
       </div>

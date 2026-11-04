@@ -38,3 +38,11 @@ describe('TargetaParaula', () => {
     expect(screen.queryByLabelText(/^Escolta/)).toBeNull()
   })
 })
+
+describe('TargetaParaula i la transcripció', () => {
+  it('amb la transcripció amagada (preferència de tota l’app) no la mostra', () => {
+    desaPreferencies({ vocals: false, lletra: 'quadrada', sons: true, translit: false, dialegLent: false })
+    const { container } = render(<TargetaParaula paraula={p} color="#E35D8F" />)
+    expect(container.querySelector('.translit')).toBeNull()
+  })
+})

@@ -4,9 +4,11 @@ import { treuVocals } from '../hebreu'
 import { BotoSo } from './BotoSo'
 import { Icona } from './Icona'
 import { Marques } from './Marques'
+import { usePreferencies } from '../preferencies'
 
-/** `vocals` i `translit` (per defecte, sí): a les sessions segueixen els botons «Mostra les vocals» i «Mostra la transcripció». */
-export function TargetaParaula({ paraula: p, color, vocals = true, translit = true }: { paraula: Paraula; color: string; vocals?: boolean; translit?: boolean }) {
+/** `vocals` (per defecte, sí): a les sessions segueix «Mostra les vocals». La transcripció segueix sempre «Mostra la transcripció». */
+export function TargetaParaula({ paraula: p, color, vocals = true }: { paraula: Paraula; color: string; vocals?: boolean }) {
+  const { translit } = usePreferencies()
   return (
     <article class="targeta" style={{ '--color': color } as never}>
       {!p.funcio && (
