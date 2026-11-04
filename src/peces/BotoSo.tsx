@@ -1,7 +1,7 @@
 import { useRef, useState } from 'preact/hooks'
 import type { Audio } from '../contingut/tipus'
 import { BASE } from '../contingut/index'
-import { reprodueix } from './so'
+import { reprodueix, VELOCITAT_LENTA } from './so'
 
 type Props = { audio: Audio | undefined; /** Paraula o frase, per a l'etiqueta accessible. */ etiqueta?: string }
 
@@ -11,11 +11,11 @@ export function BotoSo({ audio, etiqueta }: Props) {
   const inactiu = !audio || fallat
   const nom = etiqueta ? ` ${etiqueta}` : ''
 
-  const toca = (fitxer: string) => {
+  const toca = (fitxer: string, velocitat = 1) => {
     const a = el.current
     if (!a) return
     try {
-      const r = reprodueix(a, `${BASE}audio/${fitxer}`)
+      const r = reprodueix(a, `${BASE}audio/${fitxer}`, velocitat)
       r?.catch?.((e: unknown) => {
         // Un toc ràpid (AbortError) o l'autoplay bloquejat (NotAllowedError) no vol dir que el fitxer falli.
         const n = (e as { name?: string })?.name
@@ -35,7 +35,7 @@ export function BotoSo({ audio, etiqueta }: Props) {
         <i class="ph-duotone ph-speaker-high" aria-hidden="true" />
       </button>
       <button type="button" class="so lent" aria-label={`Escolta lent${nom}`} disabled={inactiu}
-        onClick={() => audio && toca(audio.lent)}>
+        onClick={() => audio && toca(audio.normal, VELOCITAT_LENTA)}>
         lent
       </button>
     </span>

@@ -1,6 +1,7 @@
 import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest'
 import { render, screen, fireEvent, cleanup } from '@testing-library/preact'
 import { BotoSo } from './BotoSo'
+import { VELOCITAT_LENTA } from './so'
 
 const audio = { normal: 'a.m4a', lent: 'b.m4a' }
 let play: ReturnType<typeof vi.fn>
@@ -18,17 +19,20 @@ describe('BotoSo', () => {
     render(<BotoSo audio={undefined} />)
     for (const b of screen.getAllByRole('button')) expect((b as HTMLButtonElement).disabled).toBe(true)
   })
-  it('el toc reprodueix la velocitat normal i el botó lent la lenta, via blob', async () => {
+  it('el toc reprodueix a velocitat normal i el botó lent el mateix fitxer més a poc a poc, via blob', async () => {
     const { container } = render(<BotoSo audio={audio} />)
+    const el = () => container.querySelector('audio')!
     fireEvent.click(screen.getByLabelText('Escolta'))
     await new Promise((r) => setTimeout(r, 0))
-    expect(container.querySelector('audio')!.getAttribute('src')).toMatch(/^blob:/)
+    expect(el().getAttribute('src')).toMatch(/^blob:/)
+    expect(el().playbackRate).toBe(1)
     fireEvent.click(screen.getByLabelText('Escolta lent'))
     await new Promise((r) => setTimeout(r, 0))
-    expect(container.querySelector('audio')!.getAttribute('src')).toMatch(/^blob:/)
+    expect(el().getAttribute('src')).toMatch(/^blob:/)
+    expect(el().playbackRate).toBe(VELOCITAT_LENTA)
+    expect(el().preservesPitch).toBe(true)
     const urls = (fetch as ReturnType<typeof vi.fn>).mock.calls.map((c) => String(c[0]))
-    expect(urls.some((u) => u.endsWith('audio/a.m4a'))).toBe(true)
-    expect(urls.some((u) => u.endsWith('audio/b.m4a'))).toBe(true)
+    expect(urls.every((u) => u.endsWith('audio/a.m4a'))).toBe(true)
     expect(play).toHaveBeenCalledTimes(2)
   })
   it('si el fitxer no es pot baixar, desactiva els botons, sense llançar', async () => {
