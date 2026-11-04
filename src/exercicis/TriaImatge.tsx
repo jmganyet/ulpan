@@ -5,17 +5,17 @@ import { treuVocals } from '../hebreu'
 import { BotoSo } from '../peces/BotoSo'
 import { usePreferencies } from '../preferencies'
 import { Icona } from '../peces/Icona'
-import { barreja, opcionsDistractores, teIcona, type Rng, type TipusParaula } from './sessio'
+import { ambIconaDistinta, barreja, opcionsDistractores, type Rng, type TipusParaula } from './sessio'
 
 type Props = {
   paraula: Paraula; totes: Paraula[]; color: string
   tipus: Exclude<TipusParaula, 'paraula-nova'>; onRespon: (encert: boolean) => void; rng?: Rng
 }
 
-const filtre = (tipus: Props['tipus']) =>
+const filtre = (tipus: Props['tipus'], c: Paraula) =>
   tipus === 'so-paraula' ? (p: Paraula) => !!p.audio
   : tipus === 'traduccio' ? () => true
-  : teIcona
+  : ambIconaDistinta(c)
 
 // La paraula en quadrada (amb vocals si el botó «Mostra les vocals» és actiu) i, a sota, en cursiva sense vocals.
 const Hebr = ({ p }: { p: Paraula }) => {
@@ -32,7 +32,7 @@ const Hebr = ({ p }: { p: Paraula }) => {
 export function TriaImatge({ paraula: p, totes, color, tipus, onRespon, rng }: Props) {
   const { translit } = usePreferencies()
   const opcions = useMemo(
-    () => barreja([p, ...opcionsDistractores(p, totes, 3, rng, filtre(tipus))], rng),
+    () => barreja([p, ...opcionsDistractores(p, totes, 3, rng, filtre(tipus, p))], rng),
     [p.id, tipus],
   )
   const [triada, setTriada] = useState<string | null>(null)

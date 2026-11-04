@@ -57,6 +57,9 @@ describe('valida', () => {
     const e = errors({ extres: { vocabulari: [{ id: 'u05-x0', hebreu: 'א', translit: 'a', ca: 'a', pagina: 'extra', funcio: false, extra: false, perComprovar: false }] } })
     expect(e.some((m) => m.includes('extra'))).toBe(true)
   })
+  it('extres del dossier (pagina: pag-NN) amb extra: false', () => {
+    expect(errors({ extres: { vocabulari: [{ id: 'u05-x0', hebreu: 'א', translit: 'a', ca: 'a', pagina: 'pag-29', funcio: false, extra: false, perComprovar: false }] } })).toEqual([])
+  })
 })
 
 describe('valida: claus i índexs', () => {

@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest'
-import { opcionsDistractores, sessioRepas, sessioUnitat } from './sessio'
+import { ambIconaDistinta, opcionsDistractores, sessioRepas, sessioUnitat } from './sessio'
+import type { Paraula } from '../contingut/tipus'
 import { dues, llavor, par, forat } from './fixtures'
 import { progresBuit, respon } from '../progres/srs'
 
@@ -26,6 +27,19 @@ describe('opcionsDistractores', () => {
     const o = opcionsDistractores(totes.find((p) => p.id === 'u02-0')!, totes, 3, llavor(2), (p) => !!p.icona)
     expect(o.length).toBe(3)
     expect(o.some((p) => p.id.startsWith('u02-'))).toBe(true)
+  })
+  it('mai una forma que sense vocals s\'escriu igual, ni la mateixa icona a les preguntes d\'imatge', () => {
+    const w = (id: string, hebreu: string, ca: string, icona?: string): Paraula =>
+      ({ id, hebreu, translit: '', ca, pagina: 'pag-18', funcio: false, extra: false, perComprovar: false, ...(icona ? { icona } : {}) })
+    const ose = w('u03-19', 'עוֹשֶׂה', 'fer, m.', 'hand')
+    const llista = [ose, w('u03-x0', 'עוֹשָׂה', 'fer, f.', 'hand'), w('u03-x1', 'עוֹשִׂים', 'fer, m. pl.', 'hand'),
+      w('u03-1', 'סֵפֶר', 'llibre', 'book'), w('u03-2', 'יֶלֶד', 'nen', 'kid'), w('u03-3', 'בַּיִת', 'casa', 'home')]
+    for (let s = 1; s < 20; s++) {
+      const o = opcionsDistractores(ose, llista, 3, llavor(s))
+      expect(o.some((p) => p.id === 'u03-x0')).toBe(false)
+      const im = opcionsDistractores(ose, llista, 3, llavor(s), ambIconaDistinta(ose))
+      expect(im.some((p) => p.icona === 'hand')).toBe(false)
+    }
   })
 })
 

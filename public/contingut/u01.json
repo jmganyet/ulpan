@@ -47,7 +47,7 @@
       "id": "u01-2",
       "hebreu": "נָעִים מְאוֹד",
       "translit": "naim meod",
-      "ca": "encantat, molt de gust",
+      "ca": "molt de gust (no canvia: el diu un home o una dona)",
       "pagina": "pag-02",
       "funcio": false,
       "extra": false,
@@ -134,19 +134,31 @@
     {
       "id": "u01-7",
       "hebreu": "עוֹלֶה",
-      "translit": "ole / ola",
-      "ca": "immigrant jueu a Israel, el que fa l'aliyà",
+      "translit": "ole",
+      "ca": "immigrant (home), el que fa l'aliyà",
       "pagina": "pag-02",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "עוֹלָה"
-      ],
       "icona": "airplane-landing",
       "audio": {
-        "normal": "38cbc966d34d.m4a",
-        "lent": "1df6bdc43760.m4a"
+        "normal": "abd53ac5eae0.m4a",
+        "lent": "0f1031c5c45e.m4a"
+      }
+    },
+    {
+      "id": "u01-7-2",
+      "hebreu": "עוֹלָה",
+      "translit": "ola",
+      "ca": "immigrant (dona), la que fa l'aliyà",
+      "pagina": "pag-02",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "airplane-landing",
+      "audio": {
+        "normal": "25b6a962f0d9.m4a",
+        "lent": "0cebb9502ff7.m4a"
       }
     },
     {
@@ -197,19 +209,31 @@
     {
       "id": "u01-10",
       "hebreu": "תַּיָּר",
-      "translit": "tayar / tayeret",
-      "ca": "turista",
+      "translit": "tayar",
+      "ca": "turista (masc.)",
       "pagina": "pag-02",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "תַּיֶּרֶת"
-      ],
       "icona": "suitcase-rolling",
       "audio": {
-        "normal": "36ac88ca2af8.m4a",
-        "lent": "129d6ea9f360.m4a"
+        "normal": "8104a4ca00b1.m4a",
+        "lent": "6e6b547b9e17.m4a"
+      }
+    },
+    {
+      "id": "u01-10-2",
+      "hebreu": "תַּיֶּרֶת",
+      "translit": "tayeret",
+      "ca": "turista (fem.)",
+      "pagina": "pag-02",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "suitcase-rolling",
+      "audio": {
+        "normal": "8e6f610fbc4d.m4a",
+        "lent": "b5e0c0dc227e.m4a"
       }
     },
     {
@@ -243,35 +267,57 @@
     {
       "id": "u01-12",
       "hebreu": "מִ־",
-      "translit": "mi- / me-",
+      "translit": "mi-",
       "ca": "de, des de (procedència)",
       "pagina": "pag-02",
       "funcio": true,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "מֵ־"
-      ],
       "audio": {
-        "normal": "739c85c5426f.m4a",
-        "lent": "5cd1f6ba154c.m4a"
+        "normal": "c6a634080cf5.m4a",
+        "lent": "07532e6772d9.m4a"
+      }
+    },
+    {
+      "id": "u01-12-2",
+      "hebreu": "מֵ־",
+      "translit": "me-",
+      "ca": "de, des de (davant de gutural o ר)",
+      "pagina": "pag-02",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false,
+      "audio": {
+        "normal": "174c0cea869c.m4a",
+        "lent": "945c5cf2aeee.m4a"
       }
     },
     {
       "id": "u01-13",
       "hebreu": "וְ־",
-      "translit": "ve- / u-",
+      "translit": "ve-",
       "ca": "i",
       "pagina": "pag-02",
       "funcio": true,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "וּ־"
-      ],
       "audio": {
-        "normal": "18cb5799c7eb.m4a",
-        "lent": "8cfee0fceeed.m4a"
+        "normal": "e9e52f524454.m4a",
+        "lent": "a982cc68239f.m4a"
+      }
+    },
+    {
+      "id": "u01-13-2",
+      "hebreu": "וּ־",
+      "translit": "u-",
+      "ca": "i (davant de ב, מ, פ o de xevà)",
+      "pagina": "pag-02",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false,
+      "audio": {
+        "normal": "9f003d2474cb.m4a",
+        "lent": "6c7de31e3e8d.m4a"
       }
     },
     {
@@ -398,7 +444,7 @@
       "id": "u01-19-2",
       "hebreu": "חֲבֵרָה",
       "translit": "ḥavera",
-      "ca": "amiga",
+      "ca": "amiga; companya",
       "pagina": "pag-04",
       "funcio": false,
       "extra": false,
@@ -583,19 +629,31 @@
     {
       "id": "u01-30",
       "hebreu": "רַבִּים",
-      "translit": "rabim / rabot",
-      "ca": "plural",
+      "translit": "rabim",
+      "ca": "plural (masc.)",
       "pagina": "pag-06",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "רַבּוֹת"
-      ],
       "icona": "squares-four",
       "audio": {
-        "normal": "7ab371e4fa4d.m4a",
-        "lent": "8a3f40113931.m4a"
+        "normal": "bcceb8add4ed.m4a",
+        "lent": "a022b465241d.m4a"
+      }
+    },
+    {
+      "id": "u01-30-2",
+      "hebreu": "רַבּוֹת",
+      "translit": "rabot",
+      "ca": "plural (fem.)",
+      "pagina": "pag-06",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "squares-four",
+      "audio": {
+        "normal": "84703f8c18c3.m4a",
+        "lent": "2e1acc403964.m4a"
       }
     },
     {
@@ -1110,7 +1168,7 @@
     {
       "id": "particules",
       "titol": "Les partícules enganxades al mot",
-      "explicacio": "הַ־ (el, la, els, les), מִ־ / מֵ־ (de, procedència) i וְ־ / וּ־ (i) s'escriuen unides al mot que les segueix. הַ־ no canvia per gènere ni per nombre.",
+      "explicacio": "הַ־ (el, la, els, les; no canvia), מִ־ (de, procedència) i וְ־ (i) s'escriuen unides al mot. מִ־ fa מֵ־ davant de gutural o ר (מֵאַנְגְלִיָּה), i וְ־ fa וּ־ davant de ב, מ, פ o de xevà (וּסְטִיב).",
       "extra": false,
       "exemples": [
         {
@@ -2227,7 +2285,7 @@
             "extraVocals": true
           },
           "perComprovar": false,
-          "ca": "No són turistes. · No són turistes.",
+          "ca": "No són turistes (m.). · No són turistes (f.).",
           "audio": {
             "normal": "63b6c7cfe28d.m4a",
             "lent": "a71b4da016c6.m4a"
@@ -2295,7 +2353,7 @@
             "extraVocals": true
           },
           "perComprovar": false,
-          "ca": "jo · turista",
+          "ca": "jo · turista (m.)",
           "audio": {
             "normal": "db0697aa287f.m4a",
             "lent": "286e70ceb2e7.m4a"
@@ -2335,7 +2393,7 @@
             "u": "עוֹלֶה"
           },
           "perComprovar": false,
-          "ca": "immigrant",
+          "ca": "immigrant (home)",
           "audio": {
             "normal": "abd53ac5eae0.m4a",
             "lent": "0f1031c5c45e.m4a"
@@ -2387,7 +2445,7 @@
             "u": "עוֹלָה"
           },
           "perComprovar": false,
-          "ca": "immigrant",
+          "ca": "immigrant (dona)",
           "audio": {
             "normal": "25b6a962f0d9.m4a",
             "lent": "0cebb9502ff7.m4a"
@@ -2413,7 +2471,7 @@
             "extraVocals": true
           },
           "perComprovar": false,
-          "ca": "nosaltres · turistes",
+          "ca": "nosaltres · turistes (m.)",
           "audio": {
             "normal": "7f0669374739.m4a",
             "lent": "dd92de379e0b.m4a"
@@ -2427,7 +2485,7 @@
             "extraVocals": true
           },
           "perComprovar": false,
-          "ca": "vosaltres · alumnes",
+          "ca": "vosaltres · alumnes (m.)",
           "audio": {
             "normal": "740c71050493.m4a",
             "lent": "88cf32d81b33.m4a"
@@ -2455,7 +2513,7 @@
             "extraVocals": true
           },
           "perComprovar": false,
-          "ca": "immigrants",
+          "ca": "immigrants (m.)",
           "audio": {
             "normal": "8f9240fd5ff5.m4a",
             "lent": "d1b98676d8d9.m4a"
@@ -2481,7 +2539,7 @@
             "extraVocals": true
           },
           "perComprovar": false,
-          "ca": "nosaltres · turistes",
+          "ca": "nosaltres · turistes (f.)",
           "audio": {
             "normal": "054f6e2bffed.m4a",
             "lent": "182582c54e50.m4a"
@@ -2495,7 +2553,7 @@
             "extraVocals": true
           },
           "perComprovar": false,
-          "ca": "vosaltres · alumnes",
+          "ca": "vosaltres · alumnes (f.)",
           "audio": {
             "normal": "cdcc1edcf3d0.m4a",
             "lent": "1fd2e8a5a536.m4a"
@@ -2523,7 +2581,7 @@
             "extraVocals": true
           },
           "perComprovar": false,
-          "ca": "immigrants",
+          "ca": "immigrants (f.)",
           "audio": {
             "normal": "61a795ece029.m4a",
             "lent": "7e852d4b514e.m4a"

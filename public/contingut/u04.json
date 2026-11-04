@@ -327,7 +327,7 @@
       "id": "u04-15",
       "hebreu": "שֵׁם",
       "translit": "shem",
-      "ca": "nom (masc.)",
+      "ca": "nom",
       "pagina": "pag-22",
       "funcio": false,
       "extra": false,
@@ -342,7 +342,7 @@
       "id": "u04-15-2",
       "hebreu": "שֵׁמוֹת",
       "translit": "shemot",
-      "ca": "noms",
+      "ca": "noms (masculí, amb el plural en ־וֹת)",
       "pagina": "pag-22",
       "funcio": false,
       "extra": false,
@@ -357,7 +357,7 @@
       "id": "u04-16",
       "hebreu": "עִבְרִי",
       "translit": "ivri",
-      "ca": "hebreu",
+      "ca": "hebreu (adjectiu)",
       "pagina": "pag-22",
       "funcio": false,
       "extra": false,
@@ -372,7 +372,7 @@
       "id": "u04-16-2",
       "hebreu": "עִבְרִית",
       "translit": "ivrit",
-      "ca": "hebrea, adjectiu",
+      "ca": "hebrea (adjectiu)",
       "pagina": "pag-22",
       "funcio": false,
       "extra": false,
@@ -627,36 +627,59 @@
     {
       "id": "u04-28",
       "hebreu": "מְצוּיָן",
-      "translit": "metsuyan / metsuyenet",
-      "ca": "excel·lent, molt bé",
+      "translit": "metsuyan",
+      "ca": "excel·lent (masc.); molt bé",
       "pagina": "pag-24",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "מְצוּיֶנֶת"
-      ],
       "icona": "medal",
       "audio": {
-        "normal": "2e78d4da8f9c.m4a",
-        "lent": "9dde467a3eef.m4a"
+        "normal": "774c7f81cca6.m4a",
+        "lent": "bf9773a23212.m4a"
+      }
+    },
+    {
+      "id": "u04-28-2",
+      "hebreu": "מְצוּיֶנֶת",
+      "translit": "metsuyenet",
+      "ca": "excel·lent (fem.)",
+      "pagina": "pag-24",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "medal",
+      "audio": {
+        "normal": "05ba523e026f.m4a",
+        "lent": "dc1bfb4a8cea.m4a"
       }
     },
     {
       "id": "u04-29",
       "hebreu": "מְצוּיָנִים",
-      "translit": "metsuyanim / metsuyanot",
-      "ca": "excel·lents",
+      "translit": "metsuyanim",
+      "ca": "excel·lents (masc.)",
       "pagina": "pag-24",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "מְצוּיָנוֹת"
-      ],
       "audio": {
-        "normal": "842693a585f5.m4a",
-        "lent": "1b02f0e37ca9.m4a"
+        "normal": "b0a199010966.m4a",
+        "lent": "6da7f923dc7a.m4a"
+      }
+    },
+    {
+      "id": "u04-29-2",
+      "hebreu": "מְצוּיָנוֹת",
+      "translit": "metsuyanot",
+      "ca": "excel·lents (fem.)",
+      "pagina": "pag-24",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "audio": {
+        "normal": "c8ffb5975947.m4a",
+        "lent": "28b7dd3f3a72.m4a"
       }
     },
     {
@@ -780,7 +803,7 @@
       "id": "u04-35-2",
       "hebreu": "שׁוּרוֹת",
       "translit": "shurot",
-      "ca": "files",
+      "ca": "files, línies",
       "pagina": "pag-26",
       "funcio": false,
       "extra": false,
@@ -1316,7 +1339,7 @@
             "n": "מְצוּיָּן, מְצוּיֶּנֶת, מְצוּיָּנִים, מְצוּיָּנוֹת",
             "extraVocals": true
           },
-          "ca": "excel·lent (m. sg., f. sg., m. pl., f. pl.)",
+          "ca": "excel·lent, excel·lent, excel·lents, excel·lents (m. sg., f. sg., m. pl., f. pl.)",
           "perComprovar": false,
           "extra": true,
           "audio": {
@@ -1586,7 +1609,7 @@
             "extraVocals": true
           },
           "perComprovar": false,
-          "ca": "De qui són · els quadres / el llibre / el cotxe / els cigarrets?",
+          "ca": "De qui són · les imatges / el llibre / el cotxe / els cigarrets?",
           "audio": {
             "normal": "a38cf2a2a721.m4a",
             "lent": "0e3ef362e91f.m4a"
@@ -1646,7 +1669,7 @@
             "extraVocals": true
           },
           "perComprovar": false,
-          "ca": "els quadres / el llibre / el cotxe / els cigarrets · de · el senyor Leví / la Hanà",
+          "ca": "les imatges / el llibre / el cotxe / els cigarrets · de · el senyor Leví / la Hanà",
           "audio": {
             "normal": "299b39c122df.m4a",
             "lent": "82c154092375.m4a"
@@ -1873,7 +1896,7 @@
             "extraVocals": true
           },
           "perComprovar": false,
-          "ca": "3. Els quadres són nous? — No, ____ no són nous."
+          "ca": "3. Les imatges són noves? — No, ____ no són noves."
         },
         {
           "id": "pag-21-b3-l3",
@@ -1883,7 +1906,7 @@
             "extraVocals": true
           },
           "perComprovar": false,
-          "ca": "4. El quadre és bonic? — Sí, ____ és bonic."
+          "ca": "4. La imatge és bonica? — Sí, ____ és bonica."
         },
         {
           "id": "pag-21-b3-l4",
@@ -2817,7 +2840,7 @@
             "extraVocals": true
           },
           "perComprovar": false,
-          "ca": "1. Com esteu? — ____ perfectament."
+          "ca": "1. Com esteu (vosaltres, nois)? — ____ perfectament."
         },
         {
           "id": "pag-25-b3-l1",
@@ -3100,7 +3123,7 @@
             "extraVocals": true
           },
           "perComprovar": false,
-          "ca": "B: amigues, família, persones, cotxe, habitació, carrer",
+          "ca": "B: amigues, família, homes o gent, cotxe, habitació, carrer",
           "audio": {
             "normal": "7699fbc1f693.m4a",
             "lent": "2da2112207bb.m4a"
@@ -4412,7 +4435,7 @@
         "pag-26-b3-l1",
         "pag-26-b3-l2"
       ],
-      "ca": "Aquestes són persones interessants.",
+      "ca": "Aquests són homes interessants.",
       "fitxes": [
         "אֵלֶּה",
         "אֲנָשִׁים",

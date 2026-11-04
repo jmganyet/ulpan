@@ -46,7 +46,7 @@ textos:
       0: "שֶׁל מִי · הַ + תְּמוּנוֹת / סֵפֶר / מְכוֹנִית / סִיגַרְיּוֹת ?"
       1: "זֶה"
     ca:
-      0: "De qui són · els quadres / el llibre / el cotxe / els cigarrets?"
+      0: "De qui són · les imatges / el llibre / el cotxe / els cigarrets?"
       1: "això"
   pag-20-b9:
     vocals:
@@ -54,7 +54,7 @@ textos:
       1: "הַ + מוֹרֶה / תַּלְמִיד"
       2: "זֶה"
     ca:
-      0: "els quadres / el llibre / el cotxe / els cigarrets · de · el senyor Leví / la Hanà"
+      0: "les imatges / el llibre / el cotxe / els cigarrets · de · el senyor Leví / la Hanà"
       1: "el mestre / l'alumne"
       2: "això"
   pag-21-b0:
@@ -96,8 +96,8 @@ textos:
       7: "8. הַסְּפָרִים מְעַנְייְנִים? – לֹא, ____לֹא מְעַנְייְנִים."
     ca:
       1: "2. El cotxe del Moixè és bo? — Sí, ____ és molt bo."
-      2: "3. Els quadres són nous? — No, ____ no són nous."
-      3: "4. El quadre és bonic? — Sí, ____ és bonic."
+      2: "3. Les imatges són noves? — No, ____ no són noves."
+      3: "4. La imatge és bonica? — Sí, ____ és bonica."
       4: "5. El llibre és interessant? — Sí, ____ és molt interessant."
       5: "6. L'habitació del Roberto és bonica? — No, ____ no és bonica."
       6: "7. Els cigarrets són bons? — No, ____ no són bons."
@@ -245,7 +245,7 @@ textos:
       3: "4. מַה ____ הַיְּלָדִים? – ____ לֹא רַע."
       5: "6. מַה ____, שָׂרָה וְצִפּוֹרָה? – ____ טוֹב תּוֹדָה."
     ca:
-      0: "1. Com esteu? — ____ perfectament."
+      0: "1. Com esteu (vosaltres, nois)? — ____ perfectament."
       1: "2. Com esteu (vosaltres, noies)? — ____ bé."
       2: "3. Com ____ la Sara i l'Itshak? — ____ bé."
       3: "4. Com ____ els nens? — ____ no gaire malament."
@@ -291,7 +291,7 @@ textos:
       1: "ב' חֲבֵרוֹת, מִשְׁפָּחָה, אֲנָשִׁים, מְכוֹנִית, חֶדֶר, רְחוֹב"
     ca:
       0: "A: aquest, aquesta, aquests o aquestes, ells, elles"
-      1: "B: amigues, família, persones, cotxe, habitació, carrer"
+      1: "B: amigues, família, homes o gent, cotxe, habitació, carrer"
       2: "C: petita, bones, interessants, nova, bonic o bonica, gran, excel·lent, dolents"
   pag-27-b0:
     vocals:
@@ -415,7 +415,7 @@ gramatica:
     titol: מְצוּיָּן i רַע en quatre formes
     explicacio: "Concorden com els adjectius de la unitat 2. A les altres formes, רַע passa a רָ־ (רָעָה, רָעִים, רָעוֹת), però sona igual."
     exemples:
-      - { u: "מצוין, מצוינת, מצוינים, מצוינות", n: "מְצוּיָּן, מְצוּיֶּנֶת, מְצוּיָּנִים, מְצוּיָּנוֹת", ca: "excel·lent (m. sg., f. sg., m. pl., f. pl.)", extra: true }
+      - { u: "מצוין, מצוינת, מצוינים, מצוינות", n: "מְצוּיָּן, מְצוּיֶּנֶת, מְצוּיָּנִים, מְצוּיָּנוֹת", ca: "excel·lent, excel·lent, excel·lents, excel·lents (m. sg., f. sg., m. pl., f. pl.)", extra: true }
       - { n: "רַע, רָעָה, רָעִים, רָעוֹת", ca: "dolent, dolenta, dolents, dolentes", extra: true }
       - { n: "גַּם שְׁלוֹמוֹ לֹא רַע.", ca: "Ell també: no està malament." }
 
@@ -589,7 +589,7 @@ exercicis:
       ca: "Elles són bones amigues.",
       fitxes: ["הֵן", "חֲבֵרוֹת", "טוֹבוֹת", "הֵם", "רָעִים"], ordre: [0, 1, 2] }
   - { tipus: construir, origen: "pag-26 ex. 14", extra: false, linies: [pag-26-b3-l0, pag-26-b3-l1, pag-26-b3-l2],
-      ca: "Aquestes són persones interessants.",
+      ca: "Aquests són homes interessants.",
       fitxes: ["אֵלֶּה", "אֲנָשִׁים", "מְעַנְייְנִים", "זֹאת", "טוֹבוֹת"], ordre: [0, 1, 2] }
 
   # pag-27, תרגיל 15: conversa en grup (el model és una resposta possible)
@@ -619,3 +619,21 @@ exercicis:
   - { tipus: construir, origen: extra, extra: true, linies: [pag-20-b5-l0],
       ca: "El gos és dels nens.",
       fitxes: ["הַכֶּלֶב", "שֶׁל", "הַיְּלָדִים", "יְלָדִים", "מִי"], ordre: [0, 1, 2] }
+
+# Una paraula per forma: cada forma amb la seva transliteració i el seu significat.
+formes:
+  u04-15:
+    - { hebreu: "שֵׁם", translit: "shem", ca: "nom" }
+    - { hebreu: "שֵׁמוֹת", translit: "shemot", ca: "noms (masculí, amb el plural en ־וֹת)" }
+  u04-16:
+    - { hebreu: "עִבְרִי", translit: "ivri", ca: "hebreu (adjectiu)" }
+    - { hebreu: "עִבְרִית", translit: "ivrit", ca: "hebrea (adjectiu)" }
+  u04-28:
+    - { hebreu: "מְצוּיָן", translit: "metsuyan", ca: "excel·lent (masc.); molt bé" }
+    - { hebreu: "מְצוּיֶנֶת", translit: "metsuyenet", ca: "excel·lent (fem.)" }
+  u04-29:
+    - { hebreu: "מְצוּיָנִים", translit: "metsuyanim", ca: "excel·lents (masc.)" }
+    - { hebreu: "מְצוּיָנוֹת", translit: "metsuyanot", ca: "excel·lents (fem.)" }
+  u04-35:
+    - { hebreu: "שׁוּרָה", translit: "shura", ca: "fila, línia" }
+    - { hebreu: "שׁוּרוֹת", translit: "shurot", ca: "files, línies" }

@@ -59,19 +59,31 @@
     {
       "id": "u05-3",
       "hebreu": "כִּיתָּה",
-      "translit": "kita / kitot",
+      "translit": "kita",
       "ca": "classe (grup), aula",
       "pagina": "pag-28",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "כִּיתּוֹת"
-      ],
       "icona": "desk",
       "audio": {
-        "normal": "2dc58fb15b0c.m4a",
-        "lent": "23abdb90dfae.m4a"
+        "normal": "0502b16a8e5d.m4a",
+        "lent": "1058a63fffa6.m4a"
+      }
+    },
+    {
+      "id": "u05-3-2",
+      "hebreu": "כִּיתּוֹת",
+      "translit": "kitot",
+      "ca": "classes (grups), aules",
+      "pagina": "pag-28",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "desk",
+      "audio": {
+        "normal": "55f181767a45.m4a",
+        "lent": "bd773840a80f.m4a"
       }
     },
     {
@@ -135,66 +147,134 @@
     {
       "id": "u05-8",
       "hebreu": "שִׁיעוּר",
-      "translit": "shiur / shiurim",
+      "translit": "shiur",
       "ca": "lliçó, sessió de classe",
       "pagina": "pag-29",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "שִׁיעוּרִים"
-      ],
       "icona": "presentation",
       "audio": {
-        "normal": "6dc935a1f510.m4a",
-        "lent": "8f53c46b7d85.m4a"
+        "normal": "2fd6ad3a8fb3.m4a",
+        "lent": "0262896cdf45.m4a"
+      }
+    },
+    {
+      "id": "u05-8-2",
+      "hebreu": "שִׁיעוּרִים",
+      "translit": "shiurim",
+      "ca": "lliçons, sessions de classe",
+      "pagina": "pag-29",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "presentation",
+      "audio": {
+        "normal": "10b552750456.m4a",
+        "lent": "4da72d179b39.m4a"
       }
     },
     {
       "id": "u05-9",
-      "hebreu": "הוֹלֵךְ – לָלֶכֶת (הָלַךְ)",
-      "translit": "holekh – lalékhet (halakh)",
-      "ca": "anar, caminar; present – infinitiu (passat)",
+      "hebreu": "הוֹלֵךְ",
+      "translit": "holekh",
+      "ca": "anar, caminar — present, masc. sing.",
       "pagina": "pag-29",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
       "icona": "person-simple-walk",
       "audio": {
-        "normal": "986848ffa565.m4a",
-        "lent": "17f5c1f422d9.m4a"
+        "normal": "d92a99c9cbc8.m4a",
+        "lent": "1a7b630dbfa0.m4a"
+      }
+    },
+    {
+      "id": "u05-9-2",
+      "hebreu": "לָלֶכֶת",
+      "translit": "lalékhet",
+      "ca": "anar, caminar — infinitiu",
+      "pagina": "pag-29",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "person-simple-walk",
+      "audio": {
+        "normal": "e7c5dffc4378.m4a",
+        "lent": "2cb6d5ea373c.m4a"
+      }
+    },
+    {
+      "id": "u05-9-3",
+      "hebreu": "הָלַךְ",
+      "translit": "halakh",
+      "ca": "anar, caminar — passat, ell",
+      "pagina": "pag-29",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "person-simple-walk",
+      "audio": {
+        "normal": "94647a325e1e.m4a",
+        "lent": "769a5aa68359.m4a"
       }
     },
     {
       "id": "u05-10",
       "hebreu": "לְ־",
-      "translit": "le- / la-",
-      "ca": "a, cap a (direcció); לַ־ amb l'article",
+      "translit": "le-",
+      "ca": "a, cap a (direcció)",
       "pagina": "pag-29",
       "funcio": true,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "לַ־"
-      ],
       "audio": {
-        "normal": "327fd38b6a5d.m4a",
-        "lent": "17208e74cf6f.m4a"
+        "normal": "3d60524db66f.m4a",
+        "lent": "a540a7364239.m4a"
+      }
+    },
+    {
+      "id": "u05-10-2",
+      "hebreu": "לַ־",
+      "translit": "la-",
+      "ca": "al, a la, cap al (amb l'article)",
+      "pagina": "pag-29",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false,
+      "audio": {
+        "normal": "43f85076c6d1.m4a",
+        "lent": "c860d99b46c8.m4a"
       }
     },
     {
       "id": "u05-11",
-      "hebreu": "בָּא – לָבוֹא (בָּא)",
-      "translit": "ba – lavo (ba)",
-      "ca": "venir, arribar; present – infinitiu (passat)",
+      "hebreu": "בָּא",
+      "translit": "ba",
+      "ca": "venir, arribar — present, masc. sing.; passat, ell",
       "pagina": "pag-29",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
       "icona": "sign-in",
       "audio": {
-        "normal": "a49be685c9c2.m4a",
-        "lent": "9f80ceaabb33.m4a"
+        "normal": "f8c60cc82d1d.m4a",
+        "lent": "e9286ebade87.m4a"
+      }
+    },
+    {
+      "id": "u05-11-2",
+      "hebreu": "לָבוֹא",
+      "translit": "lavo",
+      "ca": "venir, arribar — infinitiu",
+      "pagina": "pag-29",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "sign-in",
+      "audio": {
+        "normal": "c4f1e78ff340.m4a",
+        "lent": "b2c4a312dd1e.m4a"
       }
     },
     {
@@ -243,55 +323,181 @@
     {
       "id": "u05-15",
       "hebreu": "פּוֹעַל",
-      "translit": "póal / pealim",
+      "translit": "póal",
       "ca": "verb",
       "pagina": "pag-29",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "פְּעָלִים"
-      ],
       "icona": "lightning",
       "audio": {
-        "normal": "ce51f474439e.m4a",
-        "lent": "d2292e36333e.m4a"
+        "normal": "e84ce851acb0.m4a",
+        "lent": "9b1c64eb6803.m4a"
+      }
+    },
+    {
+      "id": "u05-15-2",
+      "hebreu": "פְּעָלִים",
+      "translit": "pealim",
+      "ca": "verbs",
+      "pagina": "pag-29",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "lightning",
+      "audio": {
+        "normal": "392073b58d4d.m4a",
+        "lent": "9b00426bd424.m4a"
       }
     },
     {
       "id": "u05-16",
       "hebreu": "שְׁאֵלָה",
-      "translit": "sheela / sheelot",
+      "translit": "sheela",
       "ca": "pregunta",
       "pagina": "pag-32",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "שְׁאֵלוֹת"
-      ],
       "icona": "seal-question",
       "audio": {
-        "normal": "8ccd55eb8f7e.m4a",
-        "lent": "0ed71421f137.m4a"
+        "normal": "7f89dbc7f6dd.m4a",
+        "lent": "8e7c45e52af4.m4a"
+      }
+    },
+    {
+      "id": "u05-16-2",
+      "hebreu": "שְׁאֵלוֹת",
+      "translit": "sheelot",
+      "ca": "preguntes",
+      "pagina": "pag-32",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "seal-question",
+      "audio": {
+        "normal": "902fc9f1654f.m4a",
+        "lent": "b657dadadd85.m4a"
       }
     },
     {
       "id": "u05-17",
       "hebreu": "תְּשׁוּבָה",
-      "translit": "teshuva / teshuvot",
+      "translit": "teshuva",
       "ca": "resposta",
       "pagina": "pag-32",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "תְּשׁוּבוֹת"
-      ],
       "icona": "arrow-bend-up-left",
       "audio": {
-        "normal": "f81deb2ba1af.m4a",
-        "lent": "20d6547b9471.m4a"
+        "normal": "74c9a4384905.m4a",
+        "lent": "acc2860ddb03.m4a"
+      }
+    },
+    {
+      "id": "u05-17-2",
+      "hebreu": "תְּשׁוּבוֹת",
+      "translit": "teshuvot",
+      "ca": "respostes",
+      "pagina": "pag-32",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "arrow-bend-up-left",
+      "audio": {
+        "normal": "defbb21096c0.m4a",
+        "lent": "533afdff3976.m4a"
+      }
+    },
+    {
+      "id": "u05-x0",
+      "translit": "holékhet",
+      "ca": "anar, caminar — present, fem. sing.",
+      "pagina": "pag-29",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "הוֹלֶכֶת",
+      "extra": false,
+      "icona": "person-simple-walk",
+      "audio": {
+        "normal": "c2c00b96556a.m4a",
+        "lent": "e2b2e4ba8c80.m4a"
+      }
+    },
+    {
+      "id": "u05-x1",
+      "translit": "holkhim",
+      "ca": "anar, caminar — present, masc. pl.",
+      "pagina": "pag-29",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "הוֹלְכִים",
+      "extra": false,
+      "icona": "person-simple-walk",
+      "audio": {
+        "normal": "65eb98210edf.m4a",
+        "lent": "dc5e171528ba.m4a"
+      }
+    },
+    {
+      "id": "u05-x2",
+      "translit": "holkhot",
+      "ca": "anar, caminar — present, fem. pl.",
+      "pagina": "pag-29",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "הוֹלְכוֹת",
+      "extra": false,
+      "icona": "person-simple-walk",
+      "audio": {
+        "normal": "f4b4c6335349.m4a",
+        "lent": "b03e446779a2.m4a"
+      }
+    },
+    {
+      "id": "u05-x3",
+      "translit": "baá",
+      "ca": "venir, arribar — present, fem. sing.",
+      "pagina": "pag-29",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "בָּאָה",
+      "extra": false,
+      "icona": "sign-in",
+      "audio": {
+        "normal": "24e36e08f985.m4a",
+        "lent": "254adddd6c21.m4a"
+      }
+    },
+    {
+      "id": "u05-x4",
+      "translit": "baím",
+      "ca": "venir, arribar — present, masc. pl.",
+      "pagina": "pag-29",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "בָּאִים",
+      "extra": false,
+      "icona": "sign-in",
+      "audio": {
+        "normal": "3cbdf25dea10.m4a",
+        "lent": "4b430698a84c.m4a"
+      }
+    },
+    {
+      "id": "u05-x5",
+      "translit": "baót",
+      "ca": "venir, arribar — present, fem. pl.",
+      "pagina": "pag-29",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "בָּאוֹת",
+      "extra": false,
+      "icona": "sign-in",
+      "audio": {
+        "normal": "7d748e14fbe2.m4a",
+        "lent": "520f33c226ae.m4a"
       }
     }
   ],
@@ -451,7 +657,7 @@
             "n": "הוֹלֵךְ · הוֹלֶכֶת · הוֹלְכִים · הוֹלְכוֹת",
             "extraVocals": true
           },
-          "ca": "va (m. sg. · f. sg. · m. pl. · f. pl.)",
+          "ca": "va · va · van · van (m. sg. · f. sg. · m. pl. · f. pl.)",
           "perComprovar": false,
           "audio": {
             "normal": "c3b71cc65e55.m4a",
@@ -465,7 +671,7 @@
             "n": "בָּא · בָּאָה · בָּאִים · בָּאוֹת",
             "extraVocals": true
           },
-          "ca": "ve (m. sg. · f. sg. · m. pl. · f. pl.)",
+          "ca": "ve · ve · venen · venen (m. sg. · f. sg. · m. pl. · f. pl.)",
           "perComprovar": false,
           "audio": {
             "normal": "ff5b1b0ff9b5.m4a",
@@ -507,7 +713,7 @@
             "n": "הוֹלֵךְ - לָלֶכֶת (הָלַךְ) · בָּא - לָבוֹא (בָּא)",
             "extraVocals": true
           },
-          "ca": "va – anar (va anar) · ve – venir (va venir)",
+          "ca": "va (m. sg.) – anar (passat: ell va anar) · ve (m. sg.) – venir (passat: ell va venir)",
           "perComprovar": false,
           "audio": {
             "normal": "b64fb6b9ecea.m4a",
@@ -1333,7 +1539,7 @@
             "extraVocals": true
           },
           "perComprovar": false,
-          "ca": "4. D'on vens [tu] i on vas? (vosaltres, tu a una dona, vosaltres a dones, la Hanà)",
+          "ca": "4. D'on vens [tu] i on vas? (vosaltres m., tu f., vosaltres f., la Hanà)",
           "audio": {
             "normal": "ed0d801056ed.m4a",
             "lent": "6d41c18252dc.m4a"

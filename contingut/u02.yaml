@@ -85,11 +85,11 @@ textos:
       6: "— כָּכָה - כָּכָה."
     ca:
       0: "Què és això?"
-      1: "— És un quadre."
-      2: "— És un quadre petit?"
-      3: "— No, no és un quadre petit."
-      4: "És un quadre gran."
-      5: "— El quadre és bonic?"
+      1: "— És una imatge."
+      2: "— És una imatge petita?"
+      3: "— No, no és una imatge petita."
+      4: "És una imatge gran."
+      5: "— La imatge és bonica?"
       6: "— Així així."
   pag-11-b2:
     vocals:
@@ -194,7 +194,7 @@ textos:
     ca:
       0: "1. És un llibre nou. (gran, petit, bonic, interessant)"
       1: "2. És un nen maco. (ella, aquesta, ells, elles)"
-      2: "3. El quadre no és bonic. (gran, petit, nou, interessant)"
+      2: "3. La imatge no és bonica. (gran, petita, nova, interessant)"
       3: "4. Els llibres de l'Itshak són interessants. (bonics, petits, nous)"
       4: "5. No és bonica, però és interessant. (ell, ells, elles)"
       5: "6. És una dona interessant. (ell, la Tsiporà i la Sara, ells, aquesta)"
@@ -220,7 +220,7 @@ textos:
       0: "1. ____ és? — L'Itshak."
       1: "2. ____ és? — Alumne."
       2: "3. ____ és? — La Sara."
-      3: "4. ____ és això? — És un quadre."
+      3: "4. ____ és això? — És una imatge."
       4: "5. ____ és alumne? — El Roberto."
       5: "6. ____ és mestre? — El Iossef."
       6: "7. ____ és això? — El llibre del Roberto."
@@ -259,26 +259,26 @@ gramatica:
     explicacio: מַה? pregunta per coses i מִי? per persones. Per a coses es diu sempre מַה זֶּה?, encara que la resposta sigui femenina.
     exemples:
       - { n: "מַה זֶּה? — זֶה סֵפֶר.", ca: "Què és això? — És un llibre." }
-      - { n: "מַה זֶּה? — זֹאת תְּמוּנָה.", ca: "Què és això? — És un quadre." }
+      - { n: "מַה זֶּה? — זֹאת תְּמוּנָה.", ca: "Què és això? — És una imatge." }
       - { n: "מִי זֶה? — זֶה אָדוֹן יִצְחָק לֵוִי.", ca: "Qui és? — És el senyor Itshak Leví." }
       - { n: "מִי זֹאת? — הָאָחוֹת שֶׁל רוֹבֶּרְטוֹ.", ca: "Qui és? — La germana del Roberto." }
-      - { n: "הַתְּמוּנָה יָפָה? — כָּכָה-כָּכָה.", ca: "El quadre és bonic? — Així així." }
+      - { n: "הַתְּמוּנָה יָפָה? — כָּכָה-כָּכָה.", ca: "La imatge és bonica? — Així així." }
   - id: adjectiu-quatre-formes
     titol: L'adjectiu en quatre formes
     explicacio: Les terminacions són les de la unitat 1, i sovint s'escurça la primera vocal (גָּדוֹל → גְּדוֹלָה). Sense vocals, יפה és igual en masculí i femení; מעניין s'escriu amb dues י, i amb vocals el dossier en posa una (מְעַנְיֵן).
     exemples:
-      - { n: "גָּדוֹל, גְּדוֹלָה, גְּדוֹלִים, גְּדוֹלוֹת", ca: "gran (m. sg., f. sg., m. pl., f. pl.)" }
+      - { n: "גָּדוֹל, גְּדוֹלָה, גְּדוֹלִים, גְּדוֹלוֹת", ca: "gran, gran, grans, grans (m. sg., f. sg., m. pl., f. pl.)" }
       - { n: "קָטָן, קְטַנָּה, קְטַנִּים, קְטַנּוֹת", ca: "petit, petita, petits, petites" }
       - { n: "יָפֶה, יָפָה, יָפִים, יָפוֹת", ca: "bonic, bonica, bonics, boniques" }
-      - { u: "מעניין, מעניינת, מעניינים, מעניינות", n: "מְעַנְייֵן, מְעַנְייֶנֶת, מְעַנְייְנִים, מְעַנְייְנוֹת", ca: "interessant (m. sg., f. sg., m. pl., f. pl.)" }
+      - { u: "מעניין, מעניינת, מעניינים, מעניינות", n: "מְעַנְייֵן, מְעַנְייֶנֶת, מְעַנְייְנִים, מְעַנְייְנוֹת", ca: "interessant, interessant, interessants, interessants (m. sg., f. sg., m. pl., f. pl.)" }
       - { n: "אֵלֶּה יְלָדוֹת קְטַנּוֹת.", ca: "Aquestes són nenes petites." }
   - id: nom-amb-article
     titol: Nom amb article i adjectiu sense
     explicacio: Si el nom porta הַ־ i l'adjectiu no, és una frase amb «ser» sobreentès. לֹא va davant del que es nega.
     exemples:
       - { n: "הַסֵּפֶר מְעַנְייֵן מְאוֹד.", ca: "El llibre és molt interessant." }
-      - { n: "הַתְּמוּנָה לֹא יָפָה.", ca: "El quadre no és bonic." }
-      - { n: "זֹאת לֹא תְּמוּנָה קְטַנָּה.", ca: "No és un quadre petit." }
+      - { n: "הַתְּמוּנָה לֹא יָפָה.", ca: "La imatge no és bonica." }
+      - { n: "זֹאת לֹא תְּמוּנָה קְטַנָּה.", ca: "No és una imatge petita." }
       - { n: "הַסְּפָרִים שֶׁל יִצְחָק לֹא חֲדָשִׁים.", ca: "Els llibres de l'Itshak no són nous.", extra: true }
   - id: plurals
     titol: Plurals que s'han d'aprendre
@@ -319,7 +319,7 @@ exercicis:
       opcions: ["מִי", "מַה"], correcta: 0, retro: "La resposta és una persona: מִי." }
   - { tipus: forat, origen: "pag-14 ex. 4.4", extra: false, linies: [pag-14-b4-l3],
       frase: { u: "____ זה? — זאת תמונה.", n: "____ זֶה? — זֹאת תְּמוּנָה." },
-      opcions: ["מִי", "מַה"], correcta: 1, retro: "Un quadre és una cosa: מַה." }
+      opcions: ["מִי", "מַה"], correcta: 1, retro: "Una imatge és una cosa: מַה." }
   - { tipus: forat, origen: "pag-14 ex. 4.5", extra: false, linies: [pag-14-b4-l4],
       frase: { u: "____ תלמיד? — רוברטו.", n: "____ תַּלְמִיד? — רוֹבֶּרְטוֹ." },
       opcions: ["מִי", "מַה"], correcta: 0, retro: "Es pregunta quina persona és alumne: מִי." }
@@ -389,7 +389,7 @@ exercicis:
       pregunta: "Com és el llibre?", opcions: ["Petit i interessant", "Gran i molt interessant", "Gran i no gaire interessant"], correcta: 1 }
   - { tipus: comprensio, origen: extra, extra: true, linies: [pag-11-b1-l3, pag-11-b1-l4, pag-11-b1-l5, pag-11-b1-l6],
       text: "לֹא, זֹאת לֹא תְּמוּנָה קְטַנָּה. זֹאת תְּמוּנָה גְּדוֹלָה. — הַתְּמוּנָה יָפָה? — כָּכָה - כָּכָה.",
-      pregunta: "El quadre és bonic?", opcions: ["Sí, molt", "Així així", "No, gens"], correcta: 1 }
+      pregunta: "La imatge és bonica?", opcions: ["Sí, molt", "Així així", "No, gens"], correcta: 1 }
   - { tipus: comprensio, origen: extra, extra: true, linies: [pag-13-b0-l0, pag-13-b0-l1, pag-13-b0-l2],
       text: "הֵם רוֹבֶּרְטוֹ וְאֶסְתֵּר. אֵלֶּה הַיְּלָדִים שֶׁל שָׂרָה וְיִצְחָק. אֶסְתֵּר - בַּת. הִיא הַבַּת שֶׁל שָׂרָה וְיִצְחָק. רוֹבֶּרְטוֹ - בֵּן. הוּא הַבֵּן שֶׁל שָׂרָה וְיִצְחָק.",
       pregunta: "Qui és l'Ester?", opcions: ["La mare del Roberto", "La filla de la Sara i l'Itshak", "La dona de l'Itshak"], correcta: 1 }
@@ -399,3 +399,18 @@ exercicis:
   - { tipus: construir, origen: extra, extra: true, linies: [pag-10-b4-l3],
       ca: "Aquestes són nenes petites.",
       fitxes: ["קְטַנּוֹת", "אֵלֶּה", "זֹאת", "יְלָדוֹת", "קְטַנִּים"], ordre: [1, 3, 0] }
+
+# Una paraula per forma: cada forma amb la seva transliteració i el seu significat.
+formes:
+  u02-0:
+    - { hebreu: "זֶה", translit: "ze", ca: "aquest; això" }
+    - { hebreu: "זֹאת", translit: "zot", ca: "aquesta" }
+  u02-4:
+    - { hebreu: "אִישׁ", translit: "ish", ca: "home; persona" }
+    - { hebreu: "אֲנָשִׁים", translit: "anashim", ca: "homes; gent" }
+  u02-11:
+    - { hebreu: "תְּמוּנָה", translit: "tmuna", ca: "imatge, foto; quadre" }
+    - { hebreu: "תְּמוּנוֹת", translit: "tmunot", ca: "imatges, fotos; quadres" }
+  u02-12:
+    - { hebreu: "יָפֶה", translit: "yafe", ca: "bonic; maco" }
+    - { hebreu: "יָפָה", translit: "yafa", ca: "bonica; maca" }

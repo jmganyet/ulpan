@@ -350,9 +350,9 @@ textos:
       4: "3. [Ell] diu «hola» i s'asseu."
       5: "(el Dani i jo, la Sara i la Doris, la mestra)"
       6: "4. Què dius [tu]?"
-      7: "(tu, a una dona; vosaltres; les nenes)"
+      7: "(tu f., vosaltres m., les nenes)"
       8: "5. L'Steve diu que [l'Ester és bonica]."
-      9: "(són a casa, la classe és interessant, l'habitació és bonica)"
+      9: "(ells són a casa, la lliçó és interessant, l'habitació és bonica)"
       10: "6. La Hanà escriu [amb ploma]."
 
 icones:
@@ -419,12 +419,12 @@ gramatica:
     titol: "Els verbs nous: יוֹשֵׁב, עוֹמֵד, כּוֹתֵב, אוֹמֵר"
     explicacio: "Fan el present com לוֹמֵד: femení en ‑ֶת (יוֹשֶׁבֶת) i plurals que perden la vocal del mig (יוֹשְׁבִים). Només לִכְתּוֹב fa l'infinitiu regular; לָשֶׁבֶת, לַעֲמוֹד i לוֹמַר s'han d'aprendre."
     exemples:
-      - { u: "יושב · יושבת · יושבים · יושבות", n: "יוֹשֵׁב · יוֹשֶׁבֶת · יוֹשְׁבִים · יוֹשְׁבוֹת", ca: "està assegut (m. sg. · f. sg. · m. pl. · f. pl.)" }
-      - { u: "עומד · עומדת · עומדים · עומדות", n: "עוֹמֵד · עוֹמֶדֶת · עוֹמְדִים · עוֹמְדוֹת", ca: "està dret (m. sg. · f. sg. · m. pl. · f. pl.)" }
-      - { u: "כותב · כותבת · כותבים · כותבות", n: "כּוֹתֵב · כּוֹתֶבֶת · כּוֹתְבִים · כּוֹתְבוֹת", ca: "escriu (m. sg. · f. sg. · m. pl. · f. pl.)" }
-      - { u: "אומר · אומרת · אומרים · אומרות", n: "אוֹמֵר · אוֹמֶרֶת · אוֹמְרִים · אוֹמְרוֹת", ca: "diu (m. sg. · f. sg. · m. pl. · f. pl.)" }
-      - { n: "יוֹשֵׁב - לָשֶׁבֶת (יָשַׁב) · עוֹמֵד - לַעֲמוֹד (עָמַד)", ca: "seu – seure (va seure) · està dret – estar dret (va estar dret)" }
-      - { n: "כּוֹתֵב - לִכְתּוֹב (כָּתַב) · אוֹמֵר - לוֹמַר (אָמַר)", ca: "escriu – escriure (va escriure) · diu – dir (va dir)" }
+      - { u: "יושב · יושבת · יושבים · יושבות", n: "יוֹשֵׁב · יוֹשֶׁבֶת · יוֹשְׁבִים · יוֹשְׁבוֹת", ca: "està assegut · està asseguda · estan asseguts · estan assegudes" }
+      - { u: "עומד · עומדת · עומדים · עומדות", n: "עוֹמֵד · עוֹמֶדֶת · עוֹמְדִים · עוֹמְדוֹת", ca: "està dret · està dreta · estan drets · estan dretes" }
+      - { u: "כותב · כותבת · כותבים · כותבות", n: "כּוֹתֵב · כּוֹתֶבֶת · כּוֹתְבִים · כּוֹתְבוֹת", ca: "escriu · escriu · escriuen · escriuen (m. sg. · f. sg. · m. pl. · f. pl.)" }
+      - { u: "אומר · אומרת · אומרים · אומרות", n: "אוֹמֵר · אוֹמֶרֶת · אוֹמְרִים · אוֹמְרוֹת", ca: "diu · diu · diuen · diuen (m. sg. · f. sg. · m. pl. · f. pl.)" }
+      - { n: "יוֹשֵׁב - לָשֶׁבֶת (יָשַׁב) · עוֹמֵד - לַעֲמוֹד (עָמַד)", ca: "seu (m. sg.) – seure (passat: ell va seure) · està dret – estar dret (passat: ell va estar dret)" }
+      - { n: "כּוֹתֵב - לִכְתּוֹב (כָּתַב) · אוֹמֵר - לוֹמַר (אָמַר)", ca: "escriu (m. sg.) – escriure (passat: ell va escriure) · diu (m. sg.) – dir (passat: ell va dir)" }
       - { n: '"בּוֹקֶר טוֹב יִצְחָק! הִנֵּה כִּיסֵּא. בְּבַקָּשָׁה לָשֶׁבֶת!"', ca: "«Bon dia, Itshak! Aquí tens una cadira. Seu, si us plau!» (l'infinitiu fa d'ordre educada)" }
   - id: omer
     titol: "Dir: אוֹמֵר: \"...\", אוֹמֵר לְ..., אוֹמֵר שֶׁ..."
@@ -556,7 +556,7 @@ exercicis:
       base: { n: "סְטִיב אוֹמֵר שֶׁאֶסְתֵּר יָפָה.", u: "סטיב אומר שאסתר יפה." }, demana: "que ells són a casa",
       opcions: ["סְטִיב אוֹמֵר שֶׁהֵם הַבַּיְתָה.", "סְטִיב אוֹמֵר שֶׁהֵם בַּבַּיִת.", "סְטִיב אוֹמֵר שֶׁהֵן בַּבַּיִת."], correcta: 1 }
   - { tipus: conjugar, origen: "pag-39 ex. 21.5", extra: false, linies: [pag-39-b1-l8, pag-39-b1-l9],
-      base: { n: "סְטִיב אוֹמֵר שֶׁאֶסְתֵּר יָפָה.", u: "סטיב אומר שאסתר יפה." }, demana: "que la classe és interessant",
+      base: { n: "סְטִיב אוֹמֵר שֶׁאֶסְתֵּר יָפָה.", u: "סטיב אומר שאסתר יפה." }, demana: "que הַשִּׁיעוּר (la lliçó, masc. en hebreu) és interessant",
       opcions: ["סְטִיב אוֹמֵר שֶׁהַשִּׁיעוּר מְעַנְייֵן.", "סְטִיב אוֹמֵר שֶׁהַשִּׁיעוּר מְעַנְייֶנֶת.", "סְטִיב אוֹמֵר שֶׁהַשִּׁיעוּר מְעַנְייְנִים."], correcta: 0 }
 
   # Extra: plurals i concordança, verbs nous, estil indirecte, comprensió i construir
@@ -593,3 +593,93 @@ exercicis:
   - { tipus: construir, origen: extra, extra: true, linies: [pag-34-b4-l1],
       ca: "entre la taula i l'armari",
       fitxes: ["בֵּין", "הַשּׁוּלְחָן", "וְהָאָרוֹן", "עַל-יַד", "הָאָרוֹן"], ordre: [0, 1, 2] }
+
+# Una paraula per forma. Verbs: «<infinitiu català> — present, masc. sing.» · «— infinitiu» · «— passat, ell»;
+# les altres formes del present (taula de la pag-37), a extres.
+formes:
+  u06-1:
+    - { hebreu: "חֲבֵר כְּנֶסֶת", translit: "ḥaver kneset", ca: "diputat, membre de la Kenésset" }
+    - { hebreu: "חַבְרֵי כְּנֶסֶת", translit: "ḥavre kneset", ca: "diputats, membres de la Kenésset" }
+  u06-2:
+    - { hebreu: "עֲרָבִי", translit: "aravi", ca: "àrab (masc.)" }
+    - { hebreu: "עֲרָבִים", translit: "aravim", ca: "àrabs (masc.)" }
+  u06-5:
+    - { hebreu: "שׁוּלְחָן", translit: "shulḥan", ca: "taula" }
+    - { hebreu: "שׁוּלְחָנוֹת", translit: "shulḥanot", ca: "taules" }
+  u06-6:
+    - { hebreu: "כִּיסֵּא", translit: "kise", ca: "cadira" }
+    - { hebreu: "כִּיסְאוֹת", translit: "kisot", ca: "cadires" }
+  u06-7:
+    - { hebreu: "אָרוֹן", translit: "aron", ca: "armari" }
+    - { hebreu: "אֲרוֹנוֹת", translit: "aronot", ca: "armaris" }
+  u06-8:
+    - { hebreu: "חַלּוֹן", translit: "ḥalon", ca: "finestra" }
+    - { hebreu: "חַלּוֹנוֹת", translit: "ḥalonot", ca: "finestres" }
+  u06-9:
+    - { hebreu: "לוּחַ", translit: "luaḥ", ca: "pissarra" }
+    - { hebreu: "לוּחוֹת", translit: "luḥot", ca: "pissarres" }
+  u06-10:
+    - { hebreu: "מַחְבֶּרֶת", translit: "maḥberet", ca: "llibreta" }
+    - { hebreu: "מַחְבָּרוֹת", translit: "maḥbarot", ca: "llibretes" }
+  u06-11:
+    - { hebreu: "עֵט", translit: "et", ca: "ploma, bolígraf" }
+    - { hebreu: "עֵטִים", translit: "etim", ca: "plomes, bolígrafs" }
+  u06-12:
+    - { hebreu: "עִיפָּרוֹן", translit: "iparon", ca: "llapis" }
+    - { hebreu: "עֶפְרוֹנוֹת", translit: "efronot", ca: "llapis (plural)" }
+  u06-18:
+    - { hebreu: "שָׁטִיחַ", translit: "shatiaḥ", ca: "catifa" }
+    - { hebreu: "שְׁטִיחִים", translit: "shtiḥim", ca: "catifes" }
+  u06-19:
+    - { hebreu: "מִיטָּה", translit: "mita", ca: "llit" }
+    - { hebreu: "מִיטּוֹת", translit: "mitot", ca: "llits" }
+  u06-20:
+    - { hebreu: "שָׁחוֹר", translit: "shaḥor", ca: "negre" }
+    - { hebreu: "שְׁחוֹרָה", translit: "shḥora", ca: "negra" }
+    - { hebreu: "שְׁחוֹרִים", translit: "shḥorim", ca: "negres (masc.)" }
+    - { hebreu: "שְׁחוֹרוֹת", translit: "shḥorot", ca: "negres (fem.)" }
+  u06-21:
+    - { hebreu: "דֶּלֶת", translit: "delet", ca: "porta" }
+    - { hebreu: "דְּלָתוֹת", translit: "dlatot", ca: "portes" }
+  u06-22:
+    - { hebreu: "מוֹעֲדוֹן", translit: "moadon", ca: "club, sala social" }
+    - { hebreu: "מוֹעֲדוֹנִים", translit: "moadonim", ca: "clubs, sales socials" }
+  u06-23:
+    - { hebreu: "מִשְׂרָד", translit: "misrad", ca: "oficina, despatx" }
+    - { hebreu: "מִשְׂרָדִים", translit: "misradim", ca: "oficines, despatxos" }
+  u06-25:
+    - { hebreu: "יוֹשֵׁב", translit: "yoshev", ca: "seure — present, masc. sing." }
+    - { hebreu: "לָשֶׁבֶת", translit: "lashevet", ca: "seure — infinitiu" }
+    - { hebreu: "יָשַׁב", translit: "yashav", ca: "seure — passat, ell" }
+  u06-26:
+    - { hebreu: "עוֹמֵד", translit: "omed", ca: "estar dret — present, masc. sing." }
+    - { hebreu: "לַעֲמוֹד", translit: "laamod", ca: "estar dret — infinitiu" }
+    - { hebreu: "עָמַד", translit: "amad", ca: "estar dret — passat, ell" }
+  u06-27:
+    - { hebreu: "כּוֹתֵב", translit: "kotev", ca: "escriure — present, masc. sing." }
+    - { hebreu: "לִכְתּוֹב", translit: "likhtov", ca: "escriure — infinitiu" }
+    - { hebreu: "כָּתַב", translit: "katav", ca: "escriure — passat, ell" }
+  u06-30:
+    - { hebreu: "לָבָן", translit: "lavan", ca: "blanc" }
+    - { hebreu: "לְבָנָה", translit: "levana", ca: "blanca" }
+    - { hebreu: "לְבָנִים", translit: "levanim", ca: "blancs" }
+    - { hebreu: "לְבָנוֹת", translit: "levanot", ca: "blanques" }
+  u06-32:
+    - { hebreu: "אוֹמֵר", translit: "omer", ca: "dir — present, masc. sing." }
+    - { hebreu: "לוֹמַר", translit: "lomar", ca: "dir — infinitiu" }
+    - { hebreu: "אָמַר", translit: "amar", ca: "dir — passat, ell" }
+
+extres:
+  vocabulari:
+    - { hebreu: "יוֹשֶׁבֶת", translit: "yo-SHE-vet", ca: "seure — present, fem. sing.", pagina: pag-37, extra: false, icona: "propia:assegut.svg" }
+    - { hebreu: "יוֹשְׁבִים", translit: "yoshvim", ca: "seure — present, masc. pl.", pagina: pag-37, extra: false, icona: "propia:assegut.svg" }
+    - { hebreu: "יוֹשְׁבוֹת", translit: "yoshvot", ca: "seure — present, fem. pl.", pagina: pag-37, extra: false, icona: "propia:assegut.svg" }
+    - { hebreu: "עוֹמֶדֶת", translit: "o-ME-det", ca: "estar dret — present, fem. sing.", pagina: pag-37, extra: false, icona: person-simple }
+    - { hebreu: "עוֹמְדִים", translit: "omdim", ca: "estar dret — present, masc. pl.", pagina: pag-37, extra: false, icona: person-simple }
+    - { hebreu: "עוֹמְדוֹת", translit: "omdot", ca: "estar dret — present, fem. pl.", pagina: pag-37, extra: false, icona: person-simple }
+    - { hebreu: "כּוֹתֶבֶת", translit: "ko-TE-vet", ca: "escriure — present, fem. sing.", pagina: pag-37, extra: false, icona: note-pencil }
+    - { hebreu: "כּוֹתְבִים", translit: "kotvim", ca: "escriure — present, masc. pl.", pagina: pag-37, extra: false, icona: note-pencil }
+    - { hebreu: "כּוֹתְבוֹת", translit: "kotvot", ca: "escriure — present, fem. pl.", pagina: pag-37, extra: false, icona: note-pencil }
+    - { hebreu: "אוֹמֶרֶת", translit: "o-ME-ret", ca: "dir — present, fem. sing.", pagina: pag-37, extra: false, icona: chat-teardrop-text }
+    - { hebreu: "אוֹמְרִים", translit: "omrim", ca: "dir — present, masc. pl.", pagina: pag-37, extra: false, icona: chat-teardrop-text }
+    - { hebreu: "אוֹמְרוֹת", translit: "omrot", ca: "dir — present, fem. pl.", pagina: pag-37, extra: false, icona: chat-teardrop-text }

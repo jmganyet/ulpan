@@ -14,18 +14,29 @@
     {
       "id": "u02-0",
       "hebreu": "זֶה",
-      "translit": "ze / zot",
-      "ca": "aquest, aquesta; això",
+      "translit": "ze",
+      "ca": "aquest; això",
       "pagina": "pag-10",
       "funcio": true,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "זֹאת"
-      ],
       "audio": {
-        "normal": "2840730bca56.m4a",
-        "lent": "990a9e052c62.m4a"
+        "normal": "79a80760b91a.m4a",
+        "lent": "a6ae5c464b54.m4a"
+      }
+    },
+    {
+      "id": "u02-0-2",
+      "hebreu": "זֹאת",
+      "translit": "zot",
+      "ca": "aquesta",
+      "pagina": "pag-10",
+      "funcio": true,
+      "extra": false,
+      "perComprovar": false,
+      "audio": {
+        "normal": "0c2a3d70fd7f.m4a",
+        "lent": "a1aa87ae6932.m4a"
       }
     },
     {
@@ -105,19 +116,31 @@
     {
       "id": "u02-4",
       "hebreu": "אִישׁ",
-      "translit": "ish / anashim",
-      "ca": "home / homes; persona / gent",
+      "translit": "ish",
+      "ca": "home; persona",
       "pagina": "pag-10",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "אֲנָשִׁים"
-      ],
       "icona": "propia:senyor.svg",
       "audio": {
-        "normal": "7d4a04052130.m4a",
-        "lent": "1ab7876b4ecf.m4a"
+        "normal": "93175b3bf67b.m4a",
+        "lent": "201a5a3ba9f8.m4a"
+      }
+    },
+    {
+      "id": "u02-4-2",
+      "hebreu": "אֲנָשִׁים",
+      "translit": "anashim",
+      "ca": "homes; gent",
+      "pagina": "pag-10",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "propia:senyor.svg",
+      "audio": {
+        "normal": "433fc72f1844.m4a",
+        "lent": "728103f001b0.m4a"
       }
     },
     {
@@ -288,7 +311,7 @@
       "id": "u02-11",
       "hebreu": "תְּמוּנָה",
       "translit": "tmuna",
-      "ca": "quadre, imatge, foto",
+      "ca": "imatge, foto; quadre",
       "pagina": "pag-11",
       "funcio": false,
       "extra": false,
@@ -303,7 +326,7 @@
       "id": "u02-11-2",
       "hebreu": "תְּמוּנוֹת",
       "translit": "tmunot",
-      "ca": "quadres",
+      "ca": "imatges, fotos; quadres",
       "pagina": "pag-11",
       "funcio": false,
       "extra": false,
@@ -333,7 +356,7 @@
       "id": "u02-12-2",
       "hebreu": "יָפָה",
       "translit": "yafa",
-      "ca": "bonica",
+      "ca": "bonica; maca",
       "pagina": "pag-11",
       "funcio": false,
       "extra": false,
@@ -696,7 +719,7 @@
             "n": "מַה זֶּה? — זֹאת תְּמוּנָה.",
             "extraVocals": true
           },
-          "ca": "Què és això? — És un quadre.",
+          "ca": "Què és això? — És una imatge.",
           "perComprovar": false,
           "audio": {
             "normal": "2a8a315fd997.m4a",
@@ -738,7 +761,7 @@
             "n": "הַתְּמוּנָה יָפָה? — כָּכָה-כָּכָה.",
             "extraVocals": true
           },
-          "ca": "El quadre és bonic? — Així així.",
+          "ca": "La imatge és bonica? — Així així.",
           "perComprovar": false,
           "audio": {
             "normal": "3eb1de3d07df.m4a",
@@ -760,7 +783,7 @@
             "n": "גָּדוֹל, גְּדוֹלָה, גְּדוֹלִים, גְּדוֹלוֹת",
             "extraVocals": true
           },
-          "ca": "gran (m. sg., f. sg., m. pl., f. pl.)",
+          "ca": "gran, gran, grans, grans (m. sg., f. sg., m. pl., f. pl.)",
           "perComprovar": false,
           "audio": {
             "normal": "f1d7865a4d23.m4a",
@@ -802,7 +825,7 @@
             "n": "מְעַנְייֵן, מְעַנְייֶנֶת, מְעַנְייְנִים, מְעַנְייְנוֹת",
             "extraVocals": true
           },
-          "ca": "interessant (m. sg., f. sg., m. pl., f. pl.)",
+          "ca": "interessant, interessant, interessants, interessants (m. sg., f. sg., m. pl., f. pl.)",
           "perComprovar": false,
           "audio": {
             "normal": "0844928eac75.m4a",
@@ -852,7 +875,7 @@
             "n": "הַתְּמוּנָה לֹא יָפָה.",
             "extraVocals": true
           },
-          "ca": "El quadre no és bonic.",
+          "ca": "La imatge no és bonica.",
           "perComprovar": false,
           "audio": {
             "normal": "790ef71970ad.m4a",
@@ -866,7 +889,7 @@
             "n": "זֹאת לֹא תְּמוּנָה קְטַנָּה.",
             "extraVocals": true
           },
-          "ca": "No és un quadre petit.",
+          "ca": "No és una imatge petita.",
           "perComprovar": false,
           "audio": {
             "normal": "655ccd741053.m4a",
@@ -1550,7 +1573,7 @@
           },
           "perComprovar": false,
           "qui": "Persona B",
-          "ca": "— És un quadre.",
+          "ca": "— És una imatge.",
           "audio": {
             "normal": "bdf970d3a2a7.m4a",
             "lent": "883e76c5fcad.m4a"
@@ -1565,7 +1588,7 @@
           },
           "perComprovar": false,
           "qui": "Persona A",
-          "ca": "— És un quadre petit?",
+          "ca": "— És una imatge petita?",
           "audio": {
             "normal": "5a0a72c2e971.m4a",
             "lent": "2c40bf14288b.m4a"
@@ -1580,7 +1603,7 @@
           },
           "perComprovar": false,
           "qui": "Persona B",
-          "ca": "— No, no és un quadre petit.",
+          "ca": "— No, no és una imatge petita.",
           "audio": {
             "normal": "56c90fb7a0e1.m4a",
             "lent": "94047fcd2ee6.m4a"
@@ -1595,7 +1618,7 @@
           },
           "perComprovar": false,
           "qui": "Persona B",
-          "ca": "És un quadre gran.",
+          "ca": "És una imatge gran.",
           "audio": {
             "normal": "08330da32ea7.m4a",
             "lent": "8ab74e3eb262.m4a"
@@ -1610,7 +1633,7 @@
           },
           "perComprovar": false,
           "qui": "Persona A",
-          "ca": "— El quadre és bonic?",
+          "ca": "— La imatge és bonica?",
           "audio": {
             "normal": "744a3dd4f219.m4a",
             "lent": "7dda0cfb69ef.m4a"
@@ -2277,7 +2300,7 @@
           "subratllat": [
             "יפה"
           ],
-          "ca": "3. El quadre no és bonic. (gran, petit, nou, interessant)",
+          "ca": "3. La imatge no és bonica. (gran, petita, nova, interessant)",
           "audio": {
             "normal": "f094b42f71ec.m4a",
             "lent": "55b99dc15390.m4a"
@@ -2476,7 +2499,7 @@
             "extraVocals": true
           },
           "perComprovar": false,
-          "ca": "4. ____ és això? — És un quadre."
+          "ca": "4. ____ és això? — És una imatge."
         },
         {
           "id": "pag-14-b4-l4",
@@ -2605,7 +2628,7 @@
         "מַה"
       ],
       "correcta": 1,
-      "retro": "Un quadre és una cosa: מַה.",
+      "retro": "Una imatge és una cosa: מַה.",
       "id": "u02-ex-3"
     },
     {
@@ -3037,7 +3060,7 @@
         "pag-11-b1-l6"
       ],
       "text": "לֹא, זֹאת לֹא תְּמוּנָה קְטַנָּה. זֹאת תְּמוּנָה גְּדוֹלָה. — הַתְּמוּנָה יָפָה? — כָּכָה - כָּכָה.",
-      "pregunta": "El quadre és bonic?",
+      "pregunta": "La imatge és bonica?",
       "opcions": [
         "Sí, molt",
         "Així així",

@@ -58,7 +58,7 @@
       "id": "u03-2-2",
       "hebreu": "בַּ־",
       "translit": "ba-",
-      "ca": "al, a la",
+      "ca": "al, a la (amb l'article)",
       "pagina": "pag-15",
       "funcio": true,
       "extra": false,
@@ -86,55 +86,91 @@
     {
       "id": "u03-4",
       "hebreu": "אוּלְפָּן",
-      "translit": "ulpan / ulpanim",
+      "translit": "ulpan",
       "ca": "ulpan, escola d'hebreu intensiu",
       "pagina": "pag-15",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "אוּלְפָּנִים"
-      ],
       "icona": "chalkboard",
       "audio": {
-        "normal": "14c1a326698e.m4a",
-        "lent": "10f13ed854bd.m4a"
+        "normal": "c080bfffc1c9.m4a",
+        "lent": "4ad450b37df3.m4a"
+      }
+    },
+    {
+      "id": "u03-4-2",
+      "hebreu": "אוּלְפָּנִים",
+      "translit": "ulpanim",
+      "ca": "ulpans",
+      "pagina": "pag-15",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "chalkboard",
+      "audio": {
+        "normal": "8ec070319ebe.m4a",
+        "lent": "a65a447b8d64.m4a"
       }
     },
     {
       "id": "u03-5",
       "hebreu": "קִיבּוּץ",
-      "translit": "kibuts / kibutsim",
+      "translit": "kibuts",
       "ca": "quibuts, colònia agrícola col·lectiva",
       "pagina": "pag-15",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "קִיבּוּצִים"
-      ],
       "icona": "farm",
       "audio": {
-        "normal": "9e49627eaa98.m4a",
-        "lent": "83e6acd1293d.m4a"
+        "normal": "3ea83796753e.m4a",
+        "lent": "2f184d5f65e4.m4a"
+      }
+    },
+    {
+      "id": "u03-5-2",
+      "hebreu": "קִיבּוּצִים",
+      "translit": "kibutsim",
+      "ca": "quibutsos",
+      "pagina": "pag-15",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "farm",
+      "audio": {
+        "normal": "5d8be17a7336.m4a",
+        "lent": "ecd47864c1c8.m4a"
       }
     },
     {
       "id": "u03-6",
       "hebreu": "אֶרֶץ",
-      "translit": "erets / aratsot",
-      "ca": "país, terra; fem.",
+      "translit": "erets",
+      "ca": "país, terra (femení en hebreu)",
       "pagina": "pag-15",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "אֲרָצוֹת (נ׳)"
-      ],
       "icona": "map-trifold",
       "audio": {
-        "normal": "3d68a55fdf98.m4a",
-        "lent": "bb9e6fbf96fe.m4a"
+        "normal": "08b44b7e612b.m4a",
+        "lent": "f26ac61ef67c.m4a"
+      }
+    },
+    {
+      "id": "u03-6-2",
+      "hebreu": "אֲרָצוֹת",
+      "translit": "aratsot",
+      "ca": "països, terres",
+      "pagina": "pag-15",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "map-trifold",
+      "audio": {
+        "normal": "29aee249cbc0.m4a",
+        "lent": "48cc96cde760.m4a"
       }
     },
     {
@@ -154,50 +190,92 @@
     },
     {
       "id": "u03-8",
-      "hebreu": "גָּר – לָגוּר",
-      "translit": "gar – lagur",
-      "ca": "viu – viure, residir",
+      "hebreu": "גָּר",
+      "translit": "gar",
+      "ca": "viure — present, masc. sing.; passat, ell",
       "pagina": "pag-17",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
       "icona": "house",
       "audio": {
-        "normal": "5b9d3cc6e19c.m4a",
-        "lent": "c62777a95858.m4a"
+        "normal": "5b6bc4b169a1.m4a",
+        "lent": "188b2939142d.m4a"
+      }
+    },
+    {
+      "id": "u03-8-2",
+      "hebreu": "לָגוּר",
+      "translit": "lagur",
+      "ca": "viure — infinitiu",
+      "pagina": "pag-17",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "house",
+      "audio": {
+        "normal": "06a41064ca28.m4a",
+        "lent": "1565cdb5f51e.m4a"
       }
     },
     {
       "id": "u03-9",
       "hebreu": "רְחוֹב",
-      "translit": "reḥov / reḥovot",
-      "ca": "carrer; masc.",
+      "translit": "reḥov",
+      "ca": "carrer",
       "pagina": "pag-17",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "רְחוֹבוֹת (ז׳)"
-      ],
       "icona": "road-horizon",
       "audio": {
-        "normal": "e623da8fa062.m4a",
-        "lent": "4b81298a7e58.m4a"
+        "normal": "bddfa81a639b.m4a",
+        "lent": "9f6f46e75088.m4a"
+      }
+    },
+    {
+      "id": "u03-9-2",
+      "hebreu": "רְחוֹבוֹת",
+      "translit": "reḥovot",
+      "ca": "carrers (masculí, amb el plural en ־וֹת)",
+      "pagina": "pag-17",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "road-horizon",
+      "audio": {
+        "normal": "998a3b9dc6b5.m4a",
+        "lent": "1c207f94fad2.m4a"
       }
     },
     {
       "id": "u03-10",
-      "hebreu": "לוֹמֵד – לִלְמוֹד",
-      "translit": "lomed – lilmod",
-      "ca": "estudia, aprèn – estudiar, aprendre",
+      "hebreu": "לוֹמֵד",
+      "translit": "lomed",
+      "ca": "estudiar, aprendre — present, masc. sing.",
       "pagina": "pag-17",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
       "icona": "notebook",
       "audio": {
-        "normal": "92d59b57e594.m4a",
-        "lent": "6ff3303113eb.m4a"
+        "normal": "7c8de391f161.m4a",
+        "lent": "5ae2eec1ba3f.m4a"
+      }
+    },
+    {
+      "id": "u03-10-2",
+      "hebreu": "לִלְמוֹד",
+      "translit": "lilmod",
+      "ca": "estudiar, aprendre — infinitiu",
+      "pagina": "pag-17",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "notebook",
+      "audio": {
+        "normal": "358f2b601940.m4a",
+        "lent": "fe83f31cea43.m4a"
       }
     },
     {
@@ -233,19 +311,31 @@
     {
       "id": "u03-13",
       "hebreu": "עֲבוֹדָה",
-      "translit": "avoda / avodot",
+      "translit": "avoda",
       "ca": "feina, treball",
       "pagina": "pag-17",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "עֲבוֹדוֹת"
-      ],
       "icona": "briefcase",
       "audio": {
-        "normal": "7046472b5930.m4a",
-        "lent": "90f85311c613.m4a"
+        "normal": "acb73b42626e.m4a",
+        "lent": "0b6595d229df.m4a"
+      }
+    },
+    {
+      "id": "u03-13-2",
+      "hebreu": "עֲבוֹדוֹת",
+      "translit": "avodot",
+      "ca": "feines, treballs",
+      "pagina": "pag-17",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "briefcase",
+      "audio": {
+        "normal": "0ec6f4c1b4f0.m4a",
+        "lent": "7175fadb66d4.m4a"
       }
     },
     {
@@ -265,17 +355,32 @@
     },
     {
       "id": "u03-15",
-      "hebreu": "עוֹבֵד – לַעֲבוֹד",
-      "translit": "oved – laavod",
-      "ca": "treballa – treballar",
+      "hebreu": "עוֹבֵד",
+      "translit": "oved",
+      "ca": "treballar — present, masc. sing.",
       "pagina": "pag-17",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
       "icona": "hammer",
       "audio": {
-        "normal": "cd4fb1f8119f.m4a",
-        "lent": "7fd71b918af5.m4a"
+        "normal": "c6319011ae7d.m4a",
+        "lent": "ac1610701afa.m4a"
+      }
+    },
+    {
+      "id": "u03-15-2",
+      "hebreu": "לַעֲבוֹד",
+      "translit": "laavod",
+      "ca": "treballar — infinitiu",
+      "pagina": "pag-17",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "hammer",
+      "audio": {
+        "normal": "09ffe7fc0543.m4a",
+        "lent": "93f56eea01f2.m4a"
       }
     },
     {
@@ -311,7 +416,7 @@
       "id": "u03-17-2",
       "hebreu": "סְטוּדֶנְטִיּוֹת",
       "translit": "studentiyot",
-      "ca": "estudiants",
+      "ca": "estudiants universitàries",
       "pagina": "pag-17",
       "funcio": false,
       "extra": false,
@@ -325,34 +430,61 @@
     {
       "id": "u03-18",
       "hebreu": "מִסְפָּר",
-      "translit": "mispar / misparim",
+      "translit": "mispar",
       "ca": "número, nombre",
       "pagina": "pag-17",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "מִסְפָּרִים"
-      ],
       "icona": "hash",
       "audio": {
-        "normal": "d65be2e38800.m4a",
-        "lent": "c11ec9d7b3ad.m4a"
+        "normal": "a4595fc6f710.m4a",
+        "lent": "6a6a660eb4f8.m4a"
+      }
+    },
+    {
+      "id": "u03-18-2",
+      "hebreu": "מִסְפָּרִים",
+      "translit": "misparim",
+      "ca": "números, nombres",
+      "pagina": "pag-17",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "hash",
+      "audio": {
+        "normal": "764421a28f40.m4a",
+        "lent": "467648ab96d6.m4a"
       }
     },
     {
       "id": "u03-19",
-      "hebreu": "עוֹשֶׂה – לַעֲשׂוֹת",
-      "translit": "ose – laasot",
-      "ca": "fa – fer",
+      "hebreu": "עוֹשֶׂה",
+      "translit": "ose",
+      "ca": "fer — present, masc. sing.",
       "pagina": "pag-18",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
       "icona": "hand-grabbing",
       "audio": {
-        "normal": "b261a62bff49.m4a",
-        "lent": "4d29089b87e7.m4a"
+        "normal": "b3e27cbcc02d.m4a",
+        "lent": "34d6c7d1ecfb.m4a"
+      }
+    },
+    {
+      "id": "u03-19-2",
+      "hebreu": "לַעֲשׂוֹת",
+      "translit": "laasot",
+      "ca": "fer — infinitiu",
+      "pagina": "pag-18",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "hand-grabbing",
+      "audio": {
+        "normal": "41dd3659f00c.m4a",
+        "lent": "8faff9f1cef6.m4a"
       }
     },
     {
@@ -389,7 +521,7 @@
       "id": "u03-22",
       "hebreu": "שְׁתַּיִם",
       "translit": "shtayim",
-      "ca": "dos",
+      "ca": "dos (forma femenina, la de comptar)",
       "pagina": "pag-19",
       "funcio": false,
       "extra": false,
@@ -593,6 +725,231 @@
         "normal": "fb97eb571047.m4a",
         "lent": "a0f76cbbe228.m4a"
       }
+    },
+    {
+      "id": "u03-x0",
+      "translit": "gara",
+      "ca": "viure — present, fem. sing.",
+      "pagina": "pag-18",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "גָּרָה",
+      "extra": false,
+      "icona": "house",
+      "audio": {
+        "normal": "a5160ed5380e.m4a",
+        "lent": "ba3a4cdcf8f5.m4a"
+      }
+    },
+    {
+      "id": "u03-x1",
+      "translit": "garim",
+      "ca": "viure — present, masc. pl.",
+      "pagina": "pag-18",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "גָּרִים",
+      "extra": false,
+      "icona": "house",
+      "audio": {
+        "normal": "19685c0f4a2b.m4a",
+        "lent": "5c8cea551bc1.m4a"
+      }
+    },
+    {
+      "id": "u03-x2",
+      "translit": "garot",
+      "ca": "viure — present, fem. pl.",
+      "pagina": "pag-18",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "גָּרוֹת",
+      "extra": false,
+      "icona": "house",
+      "audio": {
+        "normal": "4308f8b5f719.m4a",
+        "lent": "84118b011e99.m4a"
+      }
+    },
+    {
+      "id": "u03-x3",
+      "translit": "lomedet",
+      "ca": "estudiar, aprendre — present, fem. sing.",
+      "pagina": "pag-18",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "לוֹמֶדֶת",
+      "extra": false,
+      "icona": "notebook",
+      "audio": {
+        "normal": "4b9c1c0e782e.m4a",
+        "lent": "c8a84a15e23c.m4a"
+      }
+    },
+    {
+      "id": "u03-x4",
+      "translit": "lomdim",
+      "ca": "estudiar, aprendre — present, masc. pl.",
+      "pagina": "pag-18",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "לוֹמְדִים",
+      "extra": false,
+      "icona": "notebook",
+      "audio": {
+        "normal": "5d94def98e3c.m4a",
+        "lent": "e4a6ed7595e3.m4a"
+      }
+    },
+    {
+      "id": "u03-x5",
+      "translit": "lomdot",
+      "ca": "estudiar, aprendre — present, fem. pl.",
+      "pagina": "pag-18",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "לוֹמְדוֹת",
+      "extra": false,
+      "icona": "notebook",
+      "audio": {
+        "normal": "7ef2d2025b0e.m4a",
+        "lent": "44f0b7c16d10.m4a"
+      }
+    },
+    {
+      "id": "u03-x6",
+      "translit": "lamad",
+      "ca": "estudiar, aprendre — passat, ell",
+      "pagina": "pag-17",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "לָמַד",
+      "extra": false,
+      "icona": "notebook",
+      "audio": {
+        "normal": "864238ffeaac.m4a",
+        "lent": "f7aba13f2fa8.m4a"
+      }
+    },
+    {
+      "id": "u03-x7",
+      "translit": "ovedet",
+      "ca": "treballar — present, fem. sing.",
+      "pagina": "pag-18",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "עוֹבֶדֶת",
+      "extra": false,
+      "icona": "hammer",
+      "audio": {
+        "normal": "2d3323ceccce.m4a",
+        "lent": "f6e616da98a3.m4a"
+      }
+    },
+    {
+      "id": "u03-x8",
+      "translit": "ovdim",
+      "ca": "treballar — present, masc. pl.",
+      "pagina": "pag-18",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "עוֹבְדִים",
+      "extra": false,
+      "icona": "hammer",
+      "audio": {
+        "normal": "b01e0f2ae6c1.m4a",
+        "lent": "b3b1a118e789.m4a"
+      }
+    },
+    {
+      "id": "u03-x9",
+      "translit": "ovdot",
+      "ca": "treballar — present, fem. pl.",
+      "pagina": "pag-18",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "עוֹבְדוֹת",
+      "extra": false,
+      "icona": "hammer",
+      "audio": {
+        "normal": "f61164b9a74b.m4a",
+        "lent": "e24acd32549c.m4a"
+      }
+    },
+    {
+      "id": "u03-x10",
+      "translit": "avad",
+      "ca": "treballar — passat, ell",
+      "pagina": "pag-17",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "עָבַד",
+      "extra": false,
+      "icona": "hammer",
+      "audio": {
+        "normal": "cbea741c2d8b.m4a",
+        "lent": "203a42256fff.m4a"
+      }
+    },
+    {
+      "id": "u03-x11",
+      "translit": "osa",
+      "ca": "fer — present, fem. sing.",
+      "pagina": "pag-18",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "עוֹשָׂה",
+      "extra": false,
+      "icona": "hand-grabbing",
+      "audio": {
+        "normal": "a52614b277cb.m4a",
+        "lent": "92b3c376cb49.m4a"
+      }
+    },
+    {
+      "id": "u03-x12",
+      "translit": "osim",
+      "ca": "fer — present, masc. pl.",
+      "pagina": "pag-18",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "עוֹשִׂים",
+      "extra": false,
+      "icona": "hand-grabbing",
+      "audio": {
+        "normal": "c45d864a5444.m4a",
+        "lent": "4e05a9fbc9f7.m4a"
+      }
+    },
+    {
+      "id": "u03-x13",
+      "translit": "osot",
+      "ca": "fer — present, fem. pl.",
+      "pagina": "pag-18",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "עוֹשׂוֹת",
+      "extra": false,
+      "icona": "hand-grabbing",
+      "audio": {
+        "normal": "adc2a926df76.m4a",
+        "lent": "7724a251e180.m4a"
+      }
+    },
+    {
+      "id": "u03-x14",
+      "translit": "asa",
+      "ca": "fer — passat, ell",
+      "pagina": "pag-18",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "עָשָׂה",
+      "extra": false,
+      "icona": "hand-grabbing",
+      "audio": {
+        "normal": "32a5c87ea1c5.m4a",
+        "lent": "2f3d4bcaeea8.m4a"
+      }
     }
   ],
   "gramatica": [
@@ -737,7 +1094,7 @@
             "n": "לוֹמֵד, לוֹמֶדֶת, לוֹמְדִים, לוֹמְדוֹת",
             "extraVocals": true
           },
-          "ca": "estudia (m. sg., f. sg., m. pl., f. pl.)",
+          "ca": "estudia, estudia, estudien, estudien (m. sg., f. sg., m. pl., f. pl.)",
           "perComprovar": false,
           "audio": {
             "normal": "6e533e0424e1.m4a",
@@ -751,7 +1108,7 @@
             "n": "עוֹבֵד, עוֹבֶדֶת, עוֹבְדִים, עוֹבְדוֹת",
             "extraVocals": true
           },
-          "ca": "treballa (m. sg., f. sg., m. pl., f. pl.)",
+          "ca": "treballa, treballa, treballen, treballen (m. sg., f. sg., m. pl., f. pl.)",
           "perComprovar": false,
           "audio": {
             "normal": "485f7c5164d1.m4a",
@@ -801,7 +1158,7 @@
             "n": "עוֹשֶׂה, עוֹשָׂה, עוֹשִׂים, עוֹשׂוֹת",
             "extraVocals": true
           },
-          "ca": "fa (m. sg., f. sg., m. pl., f. pl.)",
+          "ca": "fa, fa, fan, fan (m. sg., f. sg., m. pl., f. pl.)",
           "perComprovar": false,
           "audio": {
             "normal": "466d86d7e719.m4a",
@@ -1074,7 +1431,7 @@
             "n": "סֵפֶר אֶחָד · תְּמוּנָה אַחַת",
             "extraVocals": true
           },
-          "ca": "un llibre · un quadre",
+          "ca": "un llibre · una imatge",
           "perComprovar": false,
           "extra": true,
           "audio": {
@@ -1089,7 +1446,7 @@
             "n": "שְׁנֵי סְפָרִים · שְׁתֵּי תְּמוּנוֹת",
             "extraVocals": true
           },
-          "ca": "dos llibres · dos quadres",
+          "ca": "dos llibres · dues imatges",
           "perComprovar": false,
           "extra": true,
           "audio": {
@@ -1104,7 +1461,7 @@
             "n": "שְׁלוֹשָׁה סְפָרִים · שָׁלוֹשׁ תְּמוּנוֹת",
             "extraVocals": true
           },
-          "ca": "tres llibres · tres quadres",
+          "ca": "tres llibres · tres imatges",
           "perComprovar": false,
           "extra": true,
           "audio": {
@@ -2161,7 +2518,7 @@
             "extraVocals": true
           },
           "perComprovar": false,
-          "ca": "2 dos",
+          "ca": "2 dos (forma femenina)",
           "audio": {
             "normal": "2c5d6dfca407.m4a",
             "lent": "cc051252f037.m4a"

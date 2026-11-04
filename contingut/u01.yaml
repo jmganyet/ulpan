@@ -151,7 +151,7 @@ textos:
       1: "El Roberto i l'Emanuel són alumnes. · La Xoixanà i la Rakhel són alumnes."
       2: "Són alumnes nous. · Són alumnes noves."
       3: "Són bons alumnes. · Són bones alumnes."
-      4: "No són turistes. · No són turistes."
+      4: "No són turistes (m.). · No són turistes (f.)."
       5: "Són immigrants nous. · Són immigrants noves."
       6: "El Roberto i l'Emanuel són amics. · La Xoixanà i la Rakhel són amigues."
       7: "Són bons amics. · Són bones amigues."
@@ -161,16 +161,16 @@ textos:
       1: "אַתָּה · תַּלְמִיד"
       2: "הוּא · מוֹרֶה"
     ca:
-      0: "jo · turista"
+      0: "jo · turista (m.)"
       1: "tu · alumne"
       2: "ell · mestre"
-      3: "immigrant"
+      3: "immigrant (home)"
   pag-06-b2:
     vocals:
       2: "הִיא · מוֹרָה"
     ca:
       2: "ella · mestra"
-      3: "immigrant"
+      3: "immigrant (dona)"
   pag-06-b3:
     vocals:
       0: "אֲנַחְנוּ · תַּייָּרִים"
@@ -178,10 +178,10 @@ textos:
       2: "הֵם · מוֹרִים"
       3: "עוֹלִים"
     ca:
-      0: "nosaltres · turistes"
-      1: "vosaltres · alumnes"
+      0: "nosaltres · turistes (m.)"
+      1: "vosaltres · alumnes (m.)"
       2: "ells · mestres"
-      3: "immigrants"
+      3: "immigrants (m.)"
   pag-06-b4:
     vocals:
       0: "אֲנַחְנוּ · תַּייָּרוֹת"
@@ -189,10 +189,10 @@ textos:
       2: "הֵן · מוֹרוֹת"
       3: "עוֹלוֹת"
     ca:
-      0: "nosaltres · turistes"
-      1: "vosaltres · alumnes"
+      0: "nosaltres · turistes (f.)"
+      1: "vosaltres · alumnes (f.)"
       2: "elles · mestres"
-      3: "immigrants"
+      3: "immigrants (f.)"
   pag-07-b0:
     ca:
       0: "D'on?"
@@ -349,7 +349,7 @@ gramatica:
       - { n: "טוֹב מְאוֹד", ca: "molt bo" }
   - id: particules
     titol: Les partícules enganxades al mot
-    explicacio: הַ־ (el, la, els, les), מִ־ / מֵ־ (de, procedència) i וְ־ / וּ־ (i) s'escriuen unides al mot que les segueix. הַ־ no canvia per gènere ni per nombre.
+    explicacio: הַ־ (el, la, els, les; no canvia), מִ־ (de, procedència) i וְ־ (i) s'escriuen unides al mot. מִ־ fa מֵ־ davant de gutural o ר (מֵאַנְגְלִיָּה), i וְ־ fa וּ־ davant de ב, מ, פ o de xevà (וּסְטִיב).
     exemples:
       - { n: "הַמּוֹרִים", ca: "els mestres" }
       - { n: "מִבְּרָזִיל, מֵאַנְגְלִיָּה", ca: "del Brasil, d'Anglaterra" }
@@ -453,3 +453,27 @@ exercicis:
   - { tipus: autocorreccio, origen: extra, extra: true, linies: [pag-07-b2-l0, u01-14, u01-31],
       enunciat: { n: "מִי אַתָּה? מֵאַיִן אַתָּה?", u: "מי אתה? מאין אתה?" },
       model: { n: "אֲנִי רוֹבֶּרְטוֹ. אֲנִי מִבְּרָזִיל.", u: "אני רוברטו. אני מברזיל." } }
+
+# Una paraula per forma: cada forma amb la seva transliteració i el seu significat, amb el gènere i el nombre
+# que du l'hebreu. Les variants d'un prefix (מִ־ / מֵ־, וְ־ / וּ־) diuen quan es fa servir cadascuna.
+formes:
+  u01-2:
+    - { hebreu: "נָעִים מְאוֹד", translit: "naim meod", ca: "molt de gust (no canvia: el diu un home o una dona)" }
+  u01-7:
+    - { hebreu: "עוֹלֶה", translit: "ole", ca: "immigrant (home), el que fa l'aliyà" }
+    - { hebreu: "עוֹלָה", translit: "ola", ca: "immigrant (dona), la que fa l'aliyà" }
+  u01-10:
+    - { hebreu: "תַּיָּר", translit: "tayar", ca: "turista (masc.)" }
+    - { hebreu: "תַּיֶּרֶת", translit: "tayeret", ca: "turista (fem.)" }
+  u01-12:
+    - { hebreu: "מִ־", translit: "mi-", ca: "de, des de (procedència)" }
+    - { hebreu: "מֵ־", translit: "me-", ca: "de, des de (davant de gutural o ר)" }
+  u01-13:
+    - { hebreu: "וְ־", translit: "ve-", ca: "i" }
+    - { hebreu: "וּ־", translit: "u-", ca: "i (davant de ב, מ, פ o de xevà)" }
+  u01-19:
+    - { hebreu: "חָבֵר", translit: "ḥaver", ca: "amic; company" }
+    - { hebreu: "חֲבֵרָה", translit: "ḥavera", ca: "amiga; companya" }
+  u01-30:
+    - { hebreu: "רַבִּים", translit: "rabim", ca: "plural (masc.)" }
+    - { hebreu: "רַבּוֹת", translit: "rabot", ca: "plural (fem.)" }

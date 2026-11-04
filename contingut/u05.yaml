@@ -90,7 +90,7 @@ textos:
       0: "1. [La Hanà] ve a classe. (l'Itshak, la Sara i la Xoixanà, els alumnes)"
       1: "2. Ell ve [a classe]. (de Tel Aviv, a l'habitació, a Israel, cap a casa)"
       2: "3. [L'Steve] va a la feina. (l'Itshak i jo, les mestres, la Hanà)"
-      3: "4. D'on vens [tu] i on vas? (vosaltres, tu a una dona, vosaltres a dones, la Hanà)"
+      3: "4. D'on vens [tu] i on vas? (vosaltres m., tu f., vosaltres f., la Hanà)"
   pag-30-b0:
     ca:
       0: "Cap a on?"
@@ -250,11 +250,11 @@ gramatica:
     titol: "Anar i venir: הוֹלֵךְ i בָּא"
     explicacio: "El present té quatre formes, com לוֹמֵד: הוֹלֶכֶת fa el femení en ‑ֶת i בָּאָה en ‑ָה. Els infinitius són לָלֶכֶת (sense ה) i לָבוֹא; de בָּא, el present i el passat (ell) s'escriuen igual."
     exemples:
-      - { u: "הולך · הולכת · הולכים · הולכות", n: "הוֹלֵךְ · הוֹלֶכֶת · הוֹלְכִים · הוֹלְכוֹת", ca: "va (m. sg. · f. sg. · m. pl. · f. pl.)" }
-      - { u: "בא · באה · באים · באות", n: "בָּא · בָּאָה · בָּאִים · בָּאוֹת", ca: "ve (m. sg. · f. sg. · m. pl. · f. pl.)" }
+      - { u: "הולך · הולכת · הולכים · הולכות", n: "הוֹלֵךְ · הוֹלֶכֶת · הוֹלְכִים · הוֹלְכוֹת", ca: "va · va · van · van (m. sg. · f. sg. · m. pl. · f. pl.)" }
+      - { u: "בא · באה · באים · באות", n: "בָּא · בָּאָה · בָּאִים · בָּאוֹת", ca: "ve · ve · venen · venen (m. sg. · f. sg. · m. pl. · f. pl.)" }
       - { n: "לֹא, אֲנִי הוֹלֶכֶת לַקּוֹנְצֶרְט.", ca: "No, vaig al concert. (parla una dona)" }
       - { n: "גַּם אַתְּ בָּאָה לַתֵּיאַטְרוֹן?", ca: "Tu també vens al teatre? (a una dona)" }
-      - { n: "הוֹלֵךְ - לָלֶכֶת (הָלַךְ) · בָּא - לָבוֹא (בָּא)", ca: "va – anar (va anar) · ve – venir (va venir)" }
+      - { n: "הוֹלֵךְ - לָלֶכֶת (הָלַךְ) · בָּא - לָבוֹא (בָּא)", ca: "va (m. sg.) – anar (passat: ell va anar) · ve (m. sg.) – venir (passat: ell va venir)" }
   - id: preguntes-lloc
     titol: "D'on, on, cap a on: מֵאַיִן, אֵיפֹה, לְאָן"
     explicacio: "Cada pregunta té la seva preposició: מֵאַיִן amb מִ־ (de), אֵיפֹה amb בְּ־ (quiet: גָּר, לוֹמֵד, עוֹבֵד) i לְאָן amb לְ־ (en moviment: הוֹלֵךְ, בָּא). En català diem «on» tant per al lloc com per a la direcció."
@@ -434,3 +434,41 @@ exercicis:
   - { tipus: construir, origen: extra, extra: true, linies: [pag-28-b0-l12],
       ca: "molts alumnes dels Estats Units",
       fitxes: ["הַרְבֵּה", "תַּלְמִידִים", "מֵאַרְצוֹת-הַבְּרִית", "מְעַט", "בְּאַרְצוֹת-הַבְּרִית"], ordre: [0, 1, 2] }
+
+# Una paraula per forma. Verbs: «<infinitiu català> — present, masc. sing.» · «— infinitiu» · «— passat, ell»;
+# les altres formes del present (quadre de la pag-29), a extres.
+formes:
+  u05-3:
+    - { hebreu: "כִּיתָּה", translit: "kita", ca: "classe (grup), aula" }
+    - { hebreu: "כִּיתּוֹת", translit: "kitot", ca: "classes (grups), aules" }
+  u05-8:
+    - { hebreu: "שִׁיעוּר", translit: "shiur", ca: "lliçó, sessió de classe" }
+    - { hebreu: "שִׁיעוּרִים", translit: "shiurim", ca: "lliçons, sessions de classe" }
+  u05-9:
+    - { hebreu: "הוֹלֵךְ", translit: "holekh", ca: "anar, caminar — present, masc. sing." }
+    - { hebreu: "לָלֶכֶת", translit: "lalékhet", ca: "anar, caminar — infinitiu" }
+    - { hebreu: "הָלַךְ", translit: "halakh", ca: "anar, caminar — passat, ell" }
+  u05-10:
+    - { hebreu: "לְ־", translit: "le-", ca: "a, cap a (direcció)" }
+    - { hebreu: "לַ־", translit: "la-", ca: "al, a la, cap al (amb l'article)" }
+  u05-11:
+    - { hebreu: "בָּא", translit: "ba", ca: "venir, arribar — present, masc. sing.; passat, ell" }
+    - { hebreu: "לָבוֹא", translit: "lavo", ca: "venir, arribar — infinitiu" }
+  u05-15:
+    - { hebreu: "פּוֹעַל", translit: "póal", ca: "verb" }
+    - { hebreu: "פְּעָלִים", translit: "pealim", ca: "verbs" }
+  u05-16:
+    - { hebreu: "שְׁאֵלָה", translit: "sheela", ca: "pregunta" }
+    - { hebreu: "שְׁאֵלוֹת", translit: "sheelot", ca: "preguntes" }
+  u05-17:
+    - { hebreu: "תְּשׁוּבָה", translit: "teshuva", ca: "resposta" }
+    - { hebreu: "תְּשׁוּבוֹת", translit: "teshuvot", ca: "respostes" }
+
+extres:
+  vocabulari:
+    - { hebreu: "הוֹלֶכֶת", translit: "holékhet", ca: "anar, caminar — present, fem. sing.", pagina: pag-29, extra: false, icona: person-simple-walk }
+    - { hebreu: "הוֹלְכִים", translit: "holkhim", ca: "anar, caminar — present, masc. pl.", pagina: pag-29, extra: false, icona: person-simple-walk }
+    - { hebreu: "הוֹלְכוֹת", translit: "holkhot", ca: "anar, caminar — present, fem. pl.", pagina: pag-29, extra: false, icona: person-simple-walk }
+    - { hebreu: "בָּאָה", translit: "baá", ca: "venir, arribar — present, fem. sing.", pagina: pag-29, extra: false, icona: sign-in }
+    - { hebreu: "בָּאִים", translit: "baím", ca: "venir, arribar — present, masc. pl.", pagina: pag-29, extra: false, icona: sign-in }
+    - { hebreu: "בָּאוֹת", translit: "baót", ca: "venir, arribar — present, fem. pl.", pagina: pag-29, extra: false, icona: sign-in }

@@ -31,26 +31,38 @@
     {
       "id": "u06-1",
       "hebreu": "חֲבֵר כְּנֶסֶת",
-      "translit": "ḥaver kneset / ḥavre kneset",
+      "translit": "ḥaver kneset",
       "ca": "diputat, membre de la Kenésset",
       "pagina": "pag-33",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "חַבְרֵי כְּנֶסֶת"
-      ],
       "icona": "identification-badge",
       "audio": {
-        "normal": "4908f1563bc3.m4a",
-        "lent": "5b6094566f9e.m4a"
+        "normal": "b55ad7c33555.m4a",
+        "lent": "b65ca6be3aba.m4a"
+      }
+    },
+    {
+      "id": "u06-1-2",
+      "hebreu": "חַבְרֵי כְּנֶסֶת",
+      "translit": "ḥavre kneset",
+      "ca": "diputats, membres de la Kenésset",
+      "pagina": "pag-33",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "identification-badge",
+      "audio": {
+        "normal": "c8b4eafe2617.m4a",
+        "lent": "517802562e98.m4a"
       }
     },
     {
       "id": "u06-2",
       "hebreu": "עֲרָבִי",
       "translit": "aravi",
-      "ca": "àrab",
+      "ca": "àrab (masc.)",
       "pagina": "pag-33",
       "funcio": false,
       "extra": false,
@@ -64,7 +76,7 @@
       "id": "u06-2-2",
       "hebreu": "עֲרָבִים",
       "translit": "aravim",
-      "ca": "àrabs",
+      "ca": "àrabs (masc.)",
       "pagina": "pag-33",
       "funcio": false,
       "extra": false,
@@ -120,145 +132,241 @@
     {
       "id": "u06-5",
       "hebreu": "שׁוּלְחָן",
-      "translit": "shulḥan / shulḥanot",
+      "translit": "shulḥan",
       "ca": "taula",
       "pagina": "pag-34",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "שׁוּלְחָנוֹת"
-      ],
       "icona": "table",
       "audio": {
-        "normal": "2b7b14132fc2.m4a",
-        "lent": "f0202b23a812.m4a"
+        "normal": "d8dbfdf1c2c6.m4a",
+        "lent": "dce462af61eb.m4a"
+      }
+    },
+    {
+      "id": "u06-5-2",
+      "hebreu": "שׁוּלְחָנוֹת",
+      "translit": "shulḥanot",
+      "ca": "taules",
+      "pagina": "pag-34",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "table",
+      "audio": {
+        "normal": "c3ea33c02d63.m4a",
+        "lent": "7f21bc68f711.m4a"
       }
     },
     {
       "id": "u06-6",
       "hebreu": "כִּיסֵּא",
-      "translit": "kise / kisot",
+      "translit": "kise",
       "ca": "cadira",
       "pagina": "pag-34",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "כִּיסְאוֹת"
-      ],
       "icona": "chair",
       "audio": {
-        "normal": "5b4bda69e2a3.m4a",
-        "lent": "ace49cee3fad.m4a"
+        "normal": "65c3675fc687.m4a",
+        "lent": "4eb549b40dff.m4a"
+      }
+    },
+    {
+      "id": "u06-6-2",
+      "hebreu": "כִּיסְאוֹת",
+      "translit": "kisot",
+      "ca": "cadires",
+      "pagina": "pag-34",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "chair",
+      "audio": {
+        "normal": "141eb4513305.m4a",
+        "lent": "ae0135033d80.m4a"
       }
     },
     {
       "id": "u06-7",
       "hebreu": "אָרוֹן",
-      "translit": "aron / aronot",
+      "translit": "aron",
       "ca": "armari",
       "pagina": "pag-34",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "אֲרוֹנוֹת"
-      ],
       "icona": "lockers",
       "audio": {
-        "normal": "fe6c3da24356.m4a",
-        "lent": "2633180151f7.m4a"
+        "normal": "c3818dc153b9.m4a",
+        "lent": "375136bd3588.m4a"
+      }
+    },
+    {
+      "id": "u06-7-2",
+      "hebreu": "אֲרוֹנוֹת",
+      "translit": "aronot",
+      "ca": "armaris",
+      "pagina": "pag-34",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "lockers",
+      "audio": {
+        "normal": "d679656f813a.m4a",
+        "lent": "f56904121e63.m4a"
       }
     },
     {
       "id": "u06-8",
       "hebreu": "חַלּוֹן",
-      "translit": "ḥalon / ḥalonot",
+      "translit": "ḥalon",
       "ca": "finestra",
       "pagina": "pag-34",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "חַלּוֹנוֹת"
-      ],
       "icona": "propia:finestra.svg",
       "audio": {
-        "normal": "08e0460066e3.m4a",
-        "lent": "05484b74e313.m4a"
+        "normal": "7f4b699ee780.m4a",
+        "lent": "e59d121136e8.m4a"
+      }
+    },
+    {
+      "id": "u06-8-2",
+      "hebreu": "חַלּוֹנוֹת",
+      "translit": "ḥalonot",
+      "ca": "finestres",
+      "pagina": "pag-34",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "propia:finestra.svg",
+      "audio": {
+        "normal": "bf299552f174.m4a",
+        "lent": "7271aa969280.m4a"
       }
     },
     {
       "id": "u06-9",
       "hebreu": "לוּחַ",
-      "translit": "luaḥ / luḥot",
+      "translit": "luaḥ",
       "ca": "pissarra",
       "pagina": "pag-34",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "לוּחוֹת"
-      ],
       "icona": "chalkboard-simple",
       "audio": {
-        "normal": "7835cb751f5b.m4a",
-        "lent": "e06c2516a682.m4a"
+        "normal": "a1c07e410f80.m4a",
+        "lent": "11f8423db233.m4a"
+      }
+    },
+    {
+      "id": "u06-9-2",
+      "hebreu": "לוּחוֹת",
+      "translit": "luḥot",
+      "ca": "pissarres",
+      "pagina": "pag-34",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "chalkboard-simple",
+      "audio": {
+        "normal": "df34dd9fd7af.m4a",
+        "lent": "5235501f27d4.m4a"
       }
     },
     {
       "id": "u06-10",
       "hebreu": "מַחְבֶּרֶת",
-      "translit": "maḥberet / maḥbarot",
+      "translit": "maḥberet",
       "ca": "llibreta",
       "pagina": "pag-34",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "מַחְבָּרוֹת"
-      ],
       "icona": "notepad",
       "audio": {
-        "normal": "0bfa142634b5.m4a",
-        "lent": "656afaadb521.m4a"
+        "normal": "3c31fac2ad31.m4a",
+        "lent": "0460d02a11da.m4a"
+      }
+    },
+    {
+      "id": "u06-10-2",
+      "hebreu": "מַחְבָּרוֹת",
+      "translit": "maḥbarot",
+      "ca": "llibretes",
+      "pagina": "pag-34",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "notepad",
+      "audio": {
+        "normal": "2b6df5c86e53.m4a",
+        "lent": "ff4a3462c328.m4a"
       }
     },
     {
       "id": "u06-11",
       "hebreu": "עֵט",
-      "translit": "et / etim",
+      "translit": "et",
       "ca": "ploma, bolígraf",
       "pagina": "pag-34",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "עֵטִים"
-      ],
       "icona": "pen",
       "audio": {
-        "normal": "ff0a425e3f93.m4a",
-        "lent": "76cee49e55e2.m4a"
+        "normal": "3fe164d664b1.m4a",
+        "lent": "723ca78bef0b.m4a"
+      }
+    },
+    {
+      "id": "u06-11-2",
+      "hebreu": "עֵטִים",
+      "translit": "etim",
+      "ca": "plomes, bolígrafs",
+      "pagina": "pag-34",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "pen",
+      "audio": {
+        "normal": "eb317ae4b922.m4a",
+        "lent": "da71b6a690ce.m4a"
       }
     },
     {
       "id": "u06-12",
       "hebreu": "עִיפָּרוֹן",
-      "translit": "iparon / efronot",
+      "translit": "iparon",
       "ca": "llapis",
       "pagina": "pag-34",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "עֶפְרוֹנוֹת"
-      ],
       "icona": "pencil",
       "audio": {
-        "normal": "1a0c6c610e92.m4a",
-        "lent": "4b0b124816e7.m4a"
+        "normal": "5e7f801985c2.m4a",
+        "lent": "2cccd61ff584.m4a"
+      }
+    },
+    {
+      "id": "u06-12-2",
+      "hebreu": "עֶפְרוֹנוֹת",
+      "translit": "efronot",
+      "ca": "llapis (plural)",
+      "pagina": "pag-34",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "pencil",
+      "audio": {
+        "normal": "42046ed02c20.m4a",
+        "lent": "82805ef0cfaa.m4a"
       }
     },
     {
@@ -335,110 +443,207 @@
     {
       "id": "u06-18",
       "hebreu": "שָׁטִיחַ",
-      "translit": "shatiaḥ / shtiḥim",
+      "translit": "shatiaḥ",
       "ca": "catifa",
       "pagina": "pag-35",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "שְׁטִיחִים"
-      ],
       "icona": "rug",
       "audio": {
-        "normal": "383fb0af84fd.m4a",
-        "lent": "cb45da60a00b.m4a"
+        "normal": "f79df37bc7cc.m4a",
+        "lent": "83cadcbea464.m4a"
+      }
+    },
+    {
+      "id": "u06-18-2",
+      "hebreu": "שְׁטִיחִים",
+      "translit": "shtiḥim",
+      "ca": "catifes",
+      "pagina": "pag-35",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "rug",
+      "audio": {
+        "normal": "6ec4da11f82a.m4a",
+        "lent": "e5607d1ca4ba.m4a"
       }
     },
     {
       "id": "u06-19",
       "hebreu": "מִיטָּה",
-      "translit": "mita / mitot",
+      "translit": "mita",
       "ca": "llit",
       "pagina": "pag-35",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "מִיטּוֹת"
-      ],
       "icona": "propia:llit.svg",
       "audio": {
-        "normal": "8e5f02ca62a7.m4a",
-        "lent": "acd7e1a7c8f1.m4a"
+        "normal": "db1af44bc3a6.m4a",
+        "lent": "894093d7f817.m4a"
+      }
+    },
+    {
+      "id": "u06-19-2",
+      "hebreu": "מִיטּוֹת",
+      "translit": "mitot",
+      "ca": "llits",
+      "pagina": "pag-35",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "propia:llit.svg",
+      "audio": {
+        "normal": "4a63a64f2fef.m4a",
+        "lent": "35e59119d0af.m4a"
       }
     },
     {
       "id": "u06-20",
       "hebreu": "שָׁחוֹר",
-      "translit": "shaḥor / shḥora / shḥorim / shḥorot",
+      "translit": "shaḥor",
       "ca": "negre",
       "pagina": "pag-36",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "שְׁחוֹרָה",
-        "שְׁחוֹרִים",
-        "שְׁחוֹרוֹת"
-      ],
       "audio": {
-        "normal": "c425bc0842d2.m4a",
-        "lent": "51e3b2d7315a.m4a"
+        "normal": "ab58a61e8c6e.m4a",
+        "lent": "93ef87e0d943.m4a"
+      }
+    },
+    {
+      "id": "u06-20-2",
+      "hebreu": "שְׁחוֹרָה",
+      "translit": "shḥora",
+      "ca": "negra",
+      "pagina": "pag-36",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "audio": {
+        "normal": "bcb5770890ea.m4a",
+        "lent": "738d0dfb0fc4.m4a"
+      }
+    },
+    {
+      "id": "u06-20-3",
+      "hebreu": "שְׁחוֹרִים",
+      "translit": "shḥorim",
+      "ca": "negres (masc.)",
+      "pagina": "pag-36",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "audio": {
+        "normal": "b7146dc3b392.m4a",
+        "lent": "ac92b3101be0.m4a"
+      }
+    },
+    {
+      "id": "u06-20-4",
+      "hebreu": "שְׁחוֹרוֹת",
+      "translit": "shḥorot",
+      "ca": "negres (fem.)",
+      "pagina": "pag-36",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "audio": {
+        "normal": "02c603cbc3f8.m4a",
+        "lent": "d104b790bb0a.m4a"
       }
     },
     {
       "id": "u06-21",
       "hebreu": "דֶּלֶת",
-      "translit": "delet / dlatot",
+      "translit": "delet",
       "ca": "porta",
       "pagina": "pag-36",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "דְּלָתוֹת"
-      ],
       "icona": "door",
       "audio": {
-        "normal": "1b43787ca9be.m4a",
-        "lent": "c4775e630ac8.m4a"
+        "normal": "030e0d949c47.m4a",
+        "lent": "645e9c455a34.m4a"
+      }
+    },
+    {
+      "id": "u06-21-2",
+      "hebreu": "דְּלָתוֹת",
+      "translit": "dlatot",
+      "ca": "portes",
+      "pagina": "pag-36",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "door",
+      "audio": {
+        "normal": "a760e54a76f5.m4a",
+        "lent": "816e556a1939.m4a"
       }
     },
     {
       "id": "u06-22",
       "hebreu": "מוֹעֲדוֹן",
-      "translit": "moadon / moadonim",
+      "translit": "moadon",
       "ca": "club, sala social",
       "pagina": "pag-36",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "מוֹעֲדוֹנִים"
-      ],
       "icona": "couch",
       "audio": {
-        "normal": "e532cbda4d52.m4a",
-        "lent": "9429d96d9bbb.m4a"
+        "normal": "e38af21b0abf.m4a",
+        "lent": "8f262cd0896b.m4a"
+      }
+    },
+    {
+      "id": "u06-22-2",
+      "hebreu": "מוֹעֲדוֹנִים",
+      "translit": "moadonim",
+      "ca": "clubs, sales socials",
+      "pagina": "pag-36",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "couch",
+      "audio": {
+        "normal": "fc1e514654f8.m4a",
+        "lent": "18f7d8978cbb.m4a"
       }
     },
     {
       "id": "u06-23",
       "hebreu": "מִשְׂרָד",
-      "translit": "misrad / misradim",
+      "translit": "misrad",
       "ca": "oficina, despatx",
       "pagina": "pag-36",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "מִשְׂרָדִים"
-      ],
       "icona": "building-office",
       "audio": {
-        "normal": "b212a0fbf040.m4a",
-        "lent": "35e31f776d56.m4a"
+        "normal": "7830f8d87569.m4a",
+        "lent": "19c9f6ec2a07.m4a"
+      }
+    },
+    {
+      "id": "u06-23-2",
+      "hebreu": "מִשְׂרָדִים",
+      "translit": "misradim",
+      "ca": "oficines, despatxos",
+      "pagina": "pag-36",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "building-office",
+      "audio": {
+        "normal": "ce75dd31456c.m4a",
+        "lent": "9972001de9a0.m4a"
       }
     },
     {
@@ -458,47 +663,137 @@
     },
     {
       "id": "u06-25",
-      "hebreu": "יוֹשֵׁב – לָשֶׁבֶת (יָשַׁב)",
-      "translit": "yoshev – lashevet",
-      "ca": "seure, estar assegut",
+      "hebreu": "יוֹשֵׁב",
+      "translit": "yoshev",
+      "ca": "seure — present, masc. sing.",
       "pagina": "pag-36",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
       "icona": "propia:assegut.svg",
       "audio": {
-        "normal": "3f0da254b0a1.m4a",
-        "lent": "ad5bc3d48ceb.m4a"
+        "normal": "52d27646b5ff.m4a",
+        "lent": "57ab893ff3ca.m4a"
+      }
+    },
+    {
+      "id": "u06-25-2",
+      "hebreu": "לָשֶׁבֶת",
+      "translit": "lashevet",
+      "ca": "seure — infinitiu",
+      "pagina": "pag-36",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "propia:assegut.svg",
+      "audio": {
+        "normal": "ce7410ef8af3.m4a",
+        "lent": "ff50587c9ccb.m4a"
+      }
+    },
+    {
+      "id": "u06-25-3",
+      "hebreu": "יָשַׁב",
+      "translit": "yashav",
+      "ca": "seure — passat, ell",
+      "pagina": "pag-36",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "propia:assegut.svg",
+      "audio": {
+        "normal": "3078803e231b.m4a",
+        "lent": "7b1dedcd222d.m4a"
       }
     },
     {
       "id": "u06-26",
-      "hebreu": "עוֹמֵד – לַעֲמוֹד (עָמַד)",
-      "translit": "omed – laamod",
-      "ca": "estar dret, estar dempeus",
+      "hebreu": "עוֹמֵד",
+      "translit": "omed",
+      "ca": "estar dret — present, masc. sing.",
       "pagina": "pag-36",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
       "icona": "person-simple",
       "audio": {
-        "normal": "7cb867434a11.m4a",
-        "lent": "d32eb1c4b38e.m4a"
+        "normal": "7f8d53bca7e9.m4a",
+        "lent": "a386f7245686.m4a"
+      }
+    },
+    {
+      "id": "u06-26-2",
+      "hebreu": "לַעֲמוֹד",
+      "translit": "laamod",
+      "ca": "estar dret — infinitiu",
+      "pagina": "pag-36",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "person-simple",
+      "audio": {
+        "normal": "e1745e6f095c.m4a",
+        "lent": "870960a506b5.m4a"
+      }
+    },
+    {
+      "id": "u06-26-3",
+      "hebreu": "עָמַד",
+      "translit": "amad",
+      "ca": "estar dret — passat, ell",
+      "pagina": "pag-36",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "person-simple",
+      "audio": {
+        "normal": "21bd0ca78d09.m4a",
+        "lent": "340baca843f4.m4a"
       }
     },
     {
       "id": "u06-27",
-      "hebreu": "כּוֹתֵב – לִכְתּוֹב (כָּתַב)",
-      "translit": "kotev – likhtov",
-      "ca": "escriure",
+      "hebreu": "כּוֹתֵב",
+      "translit": "kotev",
+      "ca": "escriure — present, masc. sing.",
       "pagina": "pag-36",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
       "icona": "note-pencil",
       "audio": {
-        "normal": "a7d8ab15c82a.m4a",
-        "lent": "71ff92fa942e.m4a"
+        "normal": "b7eca2eaa6e8.m4a",
+        "lent": "c1718ec01760.m4a"
+      }
+    },
+    {
+      "id": "u06-27-2",
+      "hebreu": "לִכְתּוֹב",
+      "translit": "likhtov",
+      "ca": "escriure — infinitiu",
+      "pagina": "pag-36",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "note-pencil",
+      "audio": {
+        "normal": "6471e90e26ca.m4a",
+        "lent": "bdccc9a7517c.m4a"
+      }
+    },
+    {
+      "id": "u06-27-3",
+      "hebreu": "כָּתַב",
+      "translit": "katav",
+      "ca": "escriure — passat, ell",
+      "pagina": "pag-36",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "note-pencil",
+      "audio": {
+        "normal": "1a8f487d1822.m4a",
+        "lent": "cb6bfd5096eb.m4a"
       }
     },
     {
@@ -533,20 +828,57 @@
     {
       "id": "u06-30",
       "hebreu": "לָבָן",
-      "translit": "lavan / levana / levanim / levanot",
+      "translit": "lavan",
       "ca": "blanc",
       "pagina": "pag-37",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
-      "formes": [
-        "לְבָנָה",
-        "לְבָנִים",
-        "לְבָנוֹת"
-      ],
       "audio": {
-        "normal": "f9fc6177e48e.m4a",
-        "lent": "3e6384a60095.m4a"
+        "normal": "9c09df5e92bc.m4a",
+        "lent": "cc9dece8688b.m4a"
+      }
+    },
+    {
+      "id": "u06-30-2",
+      "hebreu": "לְבָנָה",
+      "translit": "levana",
+      "ca": "blanca",
+      "pagina": "pag-37",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "audio": {
+        "normal": "2775e8b94edf.m4a",
+        "lent": "99e63a56924d.m4a"
+      }
+    },
+    {
+      "id": "u06-30-3",
+      "hebreu": "לְבָנִים",
+      "translit": "levanim",
+      "ca": "blancs",
+      "pagina": "pag-37",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "audio": {
+        "normal": "db455428bd01.m4a",
+        "lent": "052550e2eccf.m4a"
+      }
+    },
+    {
+      "id": "u06-30-4",
+      "hebreu": "לְבָנוֹת",
+      "translit": "levanot",
+      "ca": "blanques",
+      "pagina": "pag-37",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "audio": {
+        "normal": "8050df2fe9fc.m4a",
+        "lent": "d64f0d1d7d40.m4a"
       }
     },
     {
@@ -565,17 +897,47 @@
     },
     {
       "id": "u06-32",
-      "hebreu": "אוֹמֵר – לוֹמַר (אָמַר)",
-      "translit": "omer – lomar",
-      "ca": "dir",
+      "hebreu": "אוֹמֵר",
+      "translit": "omer",
+      "ca": "dir — present, masc. sing.",
       "pagina": "pag-37",
       "funcio": false,
       "extra": false,
       "perComprovar": false,
       "icona": "chat-teardrop-text",
       "audio": {
-        "normal": "95030a9ab1ed.m4a",
-        "lent": "8f218d1329d1.m4a"
+        "normal": "aa18551b15c5.m4a",
+        "lent": "4e57963a46ef.m4a"
+      }
+    },
+    {
+      "id": "u06-32-2",
+      "hebreu": "לוֹמַר",
+      "translit": "lomar",
+      "ca": "dir — infinitiu",
+      "pagina": "pag-37",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "chat-teardrop-text",
+      "audio": {
+        "normal": "4e034410cc74.m4a",
+        "lent": "a5a68e2d98e1.m4a"
+      }
+    },
+    {
+      "id": "u06-32-3",
+      "hebreu": "אָמַר",
+      "translit": "amar",
+      "ca": "dir — passat, ell",
+      "pagina": "pag-37",
+      "funcio": false,
+      "extra": false,
+      "perComprovar": false,
+      "icona": "chat-teardrop-text",
+      "audio": {
+        "normal": "2aabc4a0feba.m4a",
+        "lent": "83df3bc1c5b0.m4a"
       }
     },
     {
@@ -605,6 +967,186 @@
       "audio": {
         "normal": "df022fea69ef.m4a",
         "lent": "7ee2d3969e40.m4a"
+      }
+    },
+    {
+      "id": "u06-x0",
+      "translit": "yo-SHE-vet",
+      "ca": "seure — present, fem. sing.",
+      "pagina": "pag-37",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "יוֹשֶׁבֶת",
+      "extra": false,
+      "icona": "propia:assegut.svg",
+      "audio": {
+        "normal": "781fb2a41ded.m4a",
+        "lent": "387475ec9d68.m4a"
+      }
+    },
+    {
+      "id": "u06-x1",
+      "translit": "yoshvim",
+      "ca": "seure — present, masc. pl.",
+      "pagina": "pag-37",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "יוֹשְׁבִים",
+      "extra": false,
+      "icona": "propia:assegut.svg",
+      "audio": {
+        "normal": "1eb39c30294c.m4a",
+        "lent": "6362d279c843.m4a"
+      }
+    },
+    {
+      "id": "u06-x2",
+      "translit": "yoshvot",
+      "ca": "seure — present, fem. pl.",
+      "pagina": "pag-37",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "יוֹשְׁבוֹת",
+      "extra": false,
+      "icona": "propia:assegut.svg",
+      "audio": {
+        "normal": "b67bffc460ad.m4a",
+        "lent": "e5226bb07f94.m4a"
+      }
+    },
+    {
+      "id": "u06-x3",
+      "translit": "o-ME-det",
+      "ca": "estar dret — present, fem. sing.",
+      "pagina": "pag-37",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "עוֹמֶדֶת",
+      "extra": false,
+      "icona": "person-simple",
+      "audio": {
+        "normal": "34af4176c6c4.m4a",
+        "lent": "e8055524d55f.m4a"
+      }
+    },
+    {
+      "id": "u06-x4",
+      "translit": "omdim",
+      "ca": "estar dret — present, masc. pl.",
+      "pagina": "pag-37",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "עוֹמְדִים",
+      "extra": false,
+      "icona": "person-simple",
+      "audio": {
+        "normal": "15adb603c8d3.m4a",
+        "lent": "0663de778615.m4a"
+      }
+    },
+    {
+      "id": "u06-x5",
+      "translit": "omdot",
+      "ca": "estar dret — present, fem. pl.",
+      "pagina": "pag-37",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "עוֹמְדוֹת",
+      "extra": false,
+      "icona": "person-simple",
+      "audio": {
+        "normal": "6552fc18665d.m4a",
+        "lent": "5ae4a11861a5.m4a"
+      }
+    },
+    {
+      "id": "u06-x6",
+      "translit": "ko-TE-vet",
+      "ca": "escriure — present, fem. sing.",
+      "pagina": "pag-37",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "כּוֹתֶבֶת",
+      "extra": false,
+      "icona": "note-pencil",
+      "audio": {
+        "normal": "e1dfa1135a57.m4a",
+        "lent": "c2f3921ebbb3.m4a"
+      }
+    },
+    {
+      "id": "u06-x7",
+      "translit": "kotvim",
+      "ca": "escriure — present, masc. pl.",
+      "pagina": "pag-37",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "כּוֹתְבִים",
+      "extra": false,
+      "icona": "note-pencil",
+      "audio": {
+        "normal": "9b44e9c98d5f.m4a",
+        "lent": "ac865a23394a.m4a"
+      }
+    },
+    {
+      "id": "u06-x8",
+      "translit": "kotvot",
+      "ca": "escriure — present, fem. pl.",
+      "pagina": "pag-37",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "כּוֹתְבוֹת",
+      "extra": false,
+      "icona": "note-pencil",
+      "audio": {
+        "normal": "8ac7fa025e65.m4a",
+        "lent": "f71ddf878a76.m4a"
+      }
+    },
+    {
+      "id": "u06-x9",
+      "translit": "o-ME-ret",
+      "ca": "dir — present, fem. sing.",
+      "pagina": "pag-37",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "אוֹמֶרֶת",
+      "extra": false,
+      "icona": "chat-teardrop-text",
+      "audio": {
+        "normal": "17867a0f263f.m4a",
+        "lent": "af3526eb1238.m4a"
+      }
+    },
+    {
+      "id": "u06-x10",
+      "translit": "omrim",
+      "ca": "dir — present, masc. pl.",
+      "pagina": "pag-37",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "אוֹמְרִים",
+      "extra": false,
+      "icona": "chat-teardrop-text",
+      "audio": {
+        "normal": "8655626c733b.m4a",
+        "lent": "a5174bcb1468.m4a"
+      }
+    },
+    {
+      "id": "u06-x11",
+      "translit": "omrot",
+      "ca": "dir — present, fem. pl.",
+      "pagina": "pag-37",
+      "funcio": false,
+      "perComprovar": false,
+      "hebreu": "אוֹמְרוֹת",
+      "extra": false,
+      "icona": "chat-teardrop-text",
+      "audio": {
+        "normal": "d51f3923d93e.m4a",
+        "lent": "6fdf4cc8f7ad.m4a"
       }
     }
   ],
@@ -893,7 +1435,7 @@
             "n": "יוֹשֵׁב · יוֹשֶׁבֶת · יוֹשְׁבִים · יוֹשְׁבוֹת",
             "extraVocals": true
           },
-          "ca": "està assegut (m. sg. · f. sg. · m. pl. · f. pl.)",
+          "ca": "està assegut · està asseguda · estan asseguts · estan assegudes",
           "perComprovar": false,
           "audio": {
             "normal": "41bbfa09b532.m4a",
@@ -907,7 +1449,7 @@
             "n": "עוֹמֵד · עוֹמֶדֶת · עוֹמְדִים · עוֹמְדוֹת",
             "extraVocals": true
           },
-          "ca": "està dret (m. sg. · f. sg. · m. pl. · f. pl.)",
+          "ca": "està dret · està dreta · estan drets · estan dretes",
           "perComprovar": false,
           "audio": {
             "normal": "0211f873a0f4.m4a",
@@ -921,7 +1463,7 @@
             "n": "כּוֹתֵב · כּוֹתֶבֶת · כּוֹתְבִים · כּוֹתְבוֹת",
             "extraVocals": true
           },
-          "ca": "escriu (m. sg. · f. sg. · m. pl. · f. pl.)",
+          "ca": "escriu · escriu · escriuen · escriuen (m. sg. · f. sg. · m. pl. · f. pl.)",
           "perComprovar": false,
           "audio": {
             "normal": "fe28850b9230.m4a",
@@ -935,7 +1477,7 @@
             "n": "אוֹמֵר · אוֹמֶרֶת · אוֹמְרִים · אוֹמְרוֹת",
             "extraVocals": true
           },
-          "ca": "diu (m. sg. · f. sg. · m. pl. · f. pl.)",
+          "ca": "diu · diu · diuen · diuen (m. sg. · f. sg. · m. pl. · f. pl.)",
           "perComprovar": false,
           "audio": {
             "normal": "f621c265d5ce.m4a",
@@ -949,7 +1491,7 @@
             "n": "יוֹשֵׁב - לָשֶׁבֶת (יָשַׁב) · עוֹמֵד - לַעֲמוֹד (עָמַד)",
             "extraVocals": true
           },
-          "ca": "seu – seure (va seure) · està dret – estar dret (va estar dret)",
+          "ca": "seu (m. sg.) – seure (passat: ell va seure) · està dret – estar dret (passat: ell va estar dret)",
           "perComprovar": false,
           "audio": {
             "normal": "f5cf47b33f03.m4a",
@@ -963,7 +1505,7 @@
             "n": "כּוֹתֵב - לִכְתּוֹב (כָּתַב) · אוֹמֵר - לוֹמַר (אָמַר)",
             "extraVocals": true
           },
-          "ca": "escriu – escriure (va escriure) · diu – dir (va dir)",
+          "ca": "escriu (m. sg.) – escriure (passat: ell va escriure) · diu (m. sg.) – dir (passat: ell va dir)",
           "perComprovar": false,
           "audio": {
             "normal": "7c8bcbc872d3.m4a",
@@ -3055,7 +3597,7 @@
             "extraVocals": true
           },
           "perComprovar": false,
-          "ca": "(tu, a una dona; vosaltres; les nenes)",
+          "ca": "(tu f., vosaltres m., les nenes)",
           "audio": {
             "normal": "3ff5740a16e9.m4a",
             "lent": "cb4c544e8462.m4a"
@@ -3083,7 +3625,7 @@
             "extraVocals": true
           },
           "perComprovar": false,
-          "ca": "(són a casa, la classe és interessant, l'habitació és bonica)",
+          "ca": "(ells són a casa, la lliçó és interessant, l'habitació és bonica)",
           "audio": {
             "normal": "64048004eb8c.m4a",
             "lent": "bc3366a36e6e.m4a"
@@ -3758,7 +4300,7 @@
         "n": "סְטִיב אוֹמֵר שֶׁאֶסְתֵּר יָפָה.",
         "u": "סטיב אומר שאסתר יפה."
       },
-      "demana": "que la classe és interessant",
+      "demana": "que הַשִּׁיעוּר (la lliçó, masc. en hebreu) és interessant",
       "opcions": [
         "סְטִיב אוֹמֵר שֶׁהַשִּׁיעוּר מְעַנְייֵן.",
         "סְטִיב אוֹמֵר שֶׁהַשִּׁיעוּר מְעַנְייֶנֶת.",

@@ -1,5 +1,7 @@
 import type { Exercici, Paraula, Unitat } from '../contingut/tipus'
 import { pendents, type Progres } from '../progres/srs'
+import { textParaula } from '../contingut/formes'
+import { treuVocals } from '../hebreu'
 
 export type TipusParaula = 'paraula-nova' | 'tria-imatge' | 'imatge-paraula' | 'so-paraula' | 'traduccio'
 export type TipusPregunta = Exclude<TipusParaula, 'paraula-nova'>
@@ -25,16 +27,24 @@ const unitatDe = (id: string) => id.split('-')[0]
 
 export const teIcona = (p: Paraula) => !!p.icona && !p.funcio
 
+const lletres = (p: Paraula) => treuVocals(textParaula(p))
+
+/** Filtre de distractors per a les preguntes d'imatge: amb icona i no la mateixa que la correcta
+ *  (les formes d'una entrada, תַּיָּר i תַּיֶּרֶת, comparteixen icona). */
+export const ambIconaDistinta = (c: Paraula) => (p: Paraula) => teIcona(p) && p.icona !== c.icona
+
 /**
  * Distractors per a una paraula: mai la correcta, mai una paraula per comprovar;
  * de la mateixa unitat si n'hi ha prou i, si no, completats amb les d'altres unitats.
  * Una paraula de funció només en té d'altres de funció; `cal` filtra més (p. ex. que tinguin icona).
+ * Mai una paraula que sense vocals s'escrigui igual (עוֹשֶׂה / עוֹשָׂה, בְּ־ / בַּ־): no es podrien distingir.
  */
 export function opcionsDistractores(
   correcta: Paraula, totes: Paraula[], n = 3, rng: Rng = Math.random, cal: (p: Paraula) => boolean = () => true,
 ): Paraula[] {
   const valides = totes.filter((p) =>
-    p.id !== correcta.id && !p.perComprovar && p.funcio === correcta.funcio && p.ca !== correcta.ca && cal(p))
+    p.id !== correcta.id && !p.perComprovar && p.funcio === correcta.funcio && p.ca !== correcta.ca &&
+    lletres(p) !== lletres(correcta) && cal(p))
   const mateixa = barreja(valides.filter((p) => unitatDe(p.id) === unitatDe(correcta.id)), rng)
   const altres = barreja(valides.filter((p) => unitatDe(p.id) !== unitatDe(correcta.id)), rng)
   return [...mateixa, ...altres].slice(0, n)
@@ -44,7 +54,7 @@ export function opcionsDistractores(
 export function tipusPossibles(p: Paraula, totes: Paraula[]): TipusParaula[] {
   const t: TipusParaula[] = []
   const prou = (cal: (x: Paraula) => boolean) => opcionsDistractores(p, totes, 3, () => 0, cal).length === 3
-  if (teIcona(p) && prou(teIcona)) t.push('tria-imatge', 'imatge-paraula')
+  if (teIcona(p) && prou(ambIconaDistinta(p))) t.push('tria-imatge', 'imatge-paraula')
   if (p.audio && prou((x) => !!x.audio)) t.push('so-paraula')
   if (prou(() => true)) t.push('traduccio')
   return t

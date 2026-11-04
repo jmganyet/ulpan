@@ -185,7 +185,7 @@ textos:
     ca:
       0: "0 zero"
       1: "1 u, una"
-      2: "2 dos"
+      2: "2 dos (forma femenina)"
       3: "3 tres"
       4: "4 quatre"
       5: "5 cinc"
@@ -268,15 +268,15 @@ gramatica:
     explicacio: "En present el verb canvia per gènere i nombre, no per persona, i per això el pronom és obligatori. Les terminacions són les dels adjectius; al plural, la e de dins cau (לוֹמֵד → לוֹמְדִים)."
     exemples:
       - { n: "גָּר, גָּרָה, גָּרִים, גָּרוֹת", ca: "viu, viu, viuen, viuen (m. sg., f. sg., m. pl., f. pl.)" }
-      - { n: "לוֹמֵד, לוֹמֶדֶת, לוֹמְדִים, לוֹמְדוֹת", ca: "estudia (m. sg., f. sg., m. pl., f. pl.)" }
-      - { n: "עוֹבֵד, עוֹבֶדֶת, עוֹבְדִים, עוֹבְדוֹת", ca: "treballa (m. sg., f. sg., m. pl., f. pl.)" }
+      - { n: "לוֹמֵד, לוֹמֶדֶת, לוֹמְדִים, לוֹמְדוֹת", ca: "estudia, estudia, estudien, estudien (m. sg., f. sg., m. pl., f. pl.)" }
+      - { n: "עוֹבֵד, עוֹבֶדֶת, עוֹבְדִים, עוֹבְדוֹת", ca: "treballa, treballa, treballen, treballen (m. sg., f. sg., m. pl., f. pl.)" }
       - { n: "אֲנִי לוֹמֵד בָּאוּלְפָּן.", ca: "Estudio a l'ulpan (parla un home)." }
       - { n: "הִיא לֹא עוֹבֶדֶת, הִיא לוֹמֶדֶת.", ca: "No treballa, estudia." }
   - id: oseh
     titol: עוֹשֶׂה, «fa»
     explicacio: "עוֹשֶׂה fa el femení en ‑ָה, com מוֹרֶה. Sense vocals, עושה serveix per als dos gèneres i el context decideix."
     exemples:
-      - { n: "עוֹשֶׂה, עוֹשָׂה, עוֹשִׂים, עוֹשׂוֹת", ca: "fa (m. sg., f. sg., m. pl., f. pl.)" }
+      - { n: "עוֹשֶׂה, עוֹשָׂה, עוֹשִׂים, עוֹשׂוֹת", ca: "fa, fa, fan, fan (m. sg., f. sg., m. pl., f. pl.)" }
       - { n: "מָה עוֹשֶׂה רוֹבֶּרְטוֹ?", ca: "Què fa el Roberto?" }
       - { n: "מָה עוֹשָׂה אֶסְתֵּר?", ca: "Què fa l'Ester?" }
       - { n: "מָה אַתְּ עוֹשָׂה?", ca: "Què fas? (a una dona)", extra: true }
@@ -310,9 +310,9 @@ gramatica:
     exemples:
       - { u: "אחד, שניים, שלושה, ארבעה, חמישה", n: "אֶחָד, שְׁנַייִם, שְׁלוֹשָׁה, אַרְבָּעָה, חֲמִישָּׁה", ca: "de l'1 al 5, amb un nom masculí", extra: true }
       - { u: "שישה, שבעה, שמונה, תשעה, עשרה", n: "שִׁישָּׁה, שִׁבְעָה, שְׁמוֹנָה, תִּשְׁעָה, עֲשָׂרָה", ca: "del 6 al 10, amb un nom masculí", extra: true }
-      - { n: "סֵפֶר אֶחָד · תְּמוּנָה אַחַת", ca: "un llibre · un quadre", extra: true }
-      - { u: "שני ספרים · שתי תמונות", n: "שְׁנֵי סְפָרִים · שְׁתֵּי תְּמוּנוֹת", ca: "dos llibres · dos quadres", extra: true }
-      - { u: "שלושה ספרים · שלוש תמונות", n: "שְׁלוֹשָׁה סְפָרִים · שָׁלוֹשׁ תְּמוּנוֹת", ca: "tres llibres · tres quadres", extra: true }
+      - { n: "סֵפֶר אֶחָד · תְּמוּנָה אַחַת", ca: "un llibre · una imatge", extra: true }
+      - { u: "שני ספרים · שתי תמונות", n: "שְׁנֵי סְפָרִים · שְׁתֵּי תְּמוּנוֹת", ca: "dos llibres · dues imatges", extra: true }
+      - { u: "שלושה ספרים · שלוש תמונות", n: "שְׁלוֹשָׁה סְפָרִים · שָׁלוֹשׁ תְּמוּנוֹת", ca: "tres llibres · tres imatges", extra: true }
       - { n: "שְׁמוֹנָה · שְׁמוֹנֶה", ca: "vuit (m.) · vuit (f.): sense vocals, s'escriuen igual", extra: true }
 
 exercicis:
@@ -430,3 +430,63 @@ exercicis:
   - { tipus: construir, origen: extra, extra: true, linies: [u03-24],
       ca: "quatre llibres",
       fitxes: ["סְפָרִים", "אַרְבַּע", "אַרְבָּעָה"], ordre: [2, 0] }
+
+# Una paraula per forma. Verbs: «<infinitiu català> — present, masc. sing.» · «— infinitiu» · «— passat, ell»;
+# les altres formes del present (taula de la pag-18) i els passats del marge (pag-17, pag-18), a extres.
+formes:
+  u03-2:
+    - { hebreu: "בְּ־", translit: "be-", ca: "a, en" }
+    - { hebreu: "בַּ־", translit: "ba-", ca: "al, a la (amb l'article)" }
+  u03-4:
+    - { hebreu: "אוּלְפָּן", translit: "ulpan", ca: "ulpan, escola d'hebreu intensiu" }
+    - { hebreu: "אוּלְפָּנִים", translit: "ulpanim", ca: "ulpans" }
+  u03-5:
+    - { hebreu: "קִיבּוּץ", translit: "kibuts", ca: "quibuts, colònia agrícola col·lectiva" }
+    - { hebreu: "קִיבּוּצִים", translit: "kibutsim", ca: "quibutsos" }
+  u03-6:
+    - { hebreu: "אֶרֶץ", translit: "erets", ca: "país, terra (femení en hebreu)" }
+    - { hebreu: "אֲרָצוֹת", translit: "aratsot", ca: "països, terres" }
+  u03-8:
+    - { hebreu: "גָּר", translit: "gar", ca: "viure — present, masc. sing.; passat, ell" }
+    - { hebreu: "לָגוּר", translit: "lagur", ca: "viure — infinitiu" }
+  u03-9:
+    - { hebreu: "רְחוֹב", translit: "reḥov", ca: "carrer" }
+    - { hebreu: "רְחוֹבוֹת", translit: "reḥovot", ca: "carrers (masculí, amb el plural en ־וֹת)" }
+  u03-10:
+    - { hebreu: "לוֹמֵד", translit: "lomed", ca: "estudiar, aprendre — present, masc. sing." }
+    - { hebreu: "לִלְמוֹד", translit: "lilmod", ca: "estudiar, aprendre — infinitiu" }
+  u03-13:
+    - { hebreu: "עֲבוֹדָה", translit: "avoda", ca: "feina, treball" }
+    - { hebreu: "עֲבוֹדוֹת", translit: "avodot", ca: "feines, treballs" }
+  u03-15:
+    - { hebreu: "עוֹבֵד", translit: "oved", ca: "treballar — present, masc. sing." }
+    - { hebreu: "לַעֲבוֹד", translit: "laavod", ca: "treballar — infinitiu" }
+  u03-17:
+    - { hebreu: "סְטוּדֶנְטִית", translit: "studentit", ca: "estudiant universitària" }
+    - { hebreu: "סְטוּדֶנְטִיּוֹת", translit: "studentiyot", ca: "estudiants universitàries" }
+  u03-18:
+    - { hebreu: "מִסְפָּר", translit: "mispar", ca: "número, nombre" }
+    - { hebreu: "מִסְפָּרִים", translit: "misparim", ca: "números, nombres" }
+  u03-19:
+    - { hebreu: "עוֹשֶׂה", translit: "ose", ca: "fer — present, masc. sing." }
+    - { hebreu: "לַעֲשׂוֹת", translit: "laasot", ca: "fer — infinitiu" }
+  u03-22:
+    - { hebreu: "שְׁתַּיִם", translit: "shtayim", ca: "dos (forma femenina, la de comptar)" }
+
+extres:
+  vocabulari:
+    - { hebreu: "גָּרָה", translit: "gara", ca: "viure — present, fem. sing.", pagina: pag-18, extra: false, icona: house }
+    - { hebreu: "גָּרִים", translit: "garim", ca: "viure — present, masc. pl.", pagina: pag-18, extra: false, icona: house }
+    - { hebreu: "גָּרוֹת", translit: "garot", ca: "viure — present, fem. pl.", pagina: pag-18, extra: false, icona: house }
+    - { hebreu: "לוֹמֶדֶת", translit: "lomedet", ca: "estudiar, aprendre — present, fem. sing.", pagina: pag-18, extra: false, icona: notebook }
+    - { hebreu: "לוֹמְדִים", translit: "lomdim", ca: "estudiar, aprendre — present, masc. pl.", pagina: pag-18, extra: false, icona: notebook }
+    - { hebreu: "לוֹמְדוֹת", translit: "lomdot", ca: "estudiar, aprendre — present, fem. pl.", pagina: pag-18, extra: false, icona: notebook }
+    - { hebreu: "לָמַד", translit: "lamad", ca: "estudiar, aprendre — passat, ell", pagina: pag-17, extra: false, icona: notebook }
+    - { hebreu: "עוֹבֶדֶת", translit: "ovedet", ca: "treballar — present, fem. sing.", pagina: pag-18, extra: false, icona: hammer }
+    - { hebreu: "עוֹבְדִים", translit: "ovdim", ca: "treballar — present, masc. pl.", pagina: pag-18, extra: false, icona: hammer }
+    - { hebreu: "עוֹבְדוֹת", translit: "ovdot", ca: "treballar — present, fem. pl.", pagina: pag-18, extra: false, icona: hammer }
+    - { hebreu: "עָבַד", translit: "avad", ca: "treballar — passat, ell", pagina: pag-17, extra: false, icona: hammer }
+    - { hebreu: "עוֹשָׂה", translit: "osa", ca: "fer — present, fem. sing.", pagina: pag-18, extra: false, icona: hand-grabbing }
+    - { hebreu: "עוֹשִׂים", translit: "osim", ca: "fer — present, masc. pl.", pagina: pag-18, extra: false, icona: hand-grabbing }
+    - { hebreu: "עוֹשׂוֹת", translit: "osot", ca: "fer — present, fem. pl.", pagina: pag-18, extra: false, icona: hand-grabbing }
+    - { hebreu: "עָשָׂה", translit: "asa", ca: "fer — passat, ell", pagina: pag-18, extra: false, icona: hand-grabbing }

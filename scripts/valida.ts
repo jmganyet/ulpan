@@ -95,7 +95,9 @@ export function valida(u: Unitat, curat: Curat, context: ContextValida = ctx()):
 
   // Extres.
   for (const [i, p] of (curat.extres?.vocabulari ?? []).entries())
-    if (p.extra !== true) err.push(`extres.vocabulari[${i}] («${p.hebreu}»): falta extra: true`)
+    // Una forma impresa al dossier fora del TSV (p. ex. el present d'una taula de verbs) porta la pàgina i extra: false.
+    if (p.extra !== true && !/^pag-\d+$/.test(p.pagina ?? ''))
+      err.push(`extres.vocabulari[${i}] («${p.hebreu}»): falta extra: true (o pagina: pag-NN si és del dossier)`)
 
   return err.map((m) => new Error(`${u.id}: ${m}`))
 }
