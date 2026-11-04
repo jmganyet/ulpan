@@ -41,6 +41,14 @@ describe('Construir', () => {
     fireEvent.click(screen.getByText('Comprova'))
     expect(f).toHaveBeenCalledWith(true)
   })
+  it('«מאוד» davant de l\'adjectiu també val', () => {
+    const f = vi.fn()
+    const ex2: De<'construir'> = { ...base, tipus: 'construir', ca: 'Molt bona amiga', fitxes: ['חברה', 'טובה', 'מאוד.'], ordre: [0, 1, 2] }
+    render(<Construir ex={ex2} onRespon={f} />)
+    toca('חברה'); toca('מאוד.'); toca('טובה')
+    fireEvent.click(screen.getByText('Comprova'))
+    expect(f).toHaveBeenCalledWith(true)
+  })
   it('la fitxa que sobra a la línia → false', () => {
     const f = vi.fn()
     render(<Construir ex={ex} onRespon={f} />)

@@ -30,3 +30,21 @@ export function esNota(s: string): boolean {
   const m = s.match(/[\u05D0-\u05EAA-Za-zÀ-ÿ]/)
   return !!m && !/[\u05D0-\u05EA]/.test(m[0])
 }
+
+/** «מאוד» pot anar darrere o davant de l'adjectiu (טובה מאוד / מאוד טובה): les dues ordenacions valen (2026-11-04). */
+export function frasesAcceptades(frase: string): string[] {
+  const mots = frase.trim().split(/\s+/)
+  const out = new Set([mots.join(' ')])
+  mots.forEach((m, i) => {
+    const net = (s: string) => normalitza(s).replace(/[.,?!]/g, '')
+    if (i > 0 && net(m) === 'מאוד' && net(mots[i - 1]) !== 'מאוד') {
+      // Es mou la puntuació final perquè quedi al final de la frase
+      const punt = /[.,?!]+$/.exec(m)?.[0] ?? ''
+      const v = [...mots]
+      v[i - 1] = m.replace(/[.,?!]+$/, '')
+      v[i] = mots[i - 1] + punt
+      out.add(v.join(' '))
+    }
+  })
+  return [...out]
+}

@@ -1,6 +1,6 @@
 import { useState } from 'preact/hooks'
 import type { Exercici } from '../contingut/tipus'
-import { iguals } from '../hebreu'
+import { frasesAcceptades, iguals } from '../hebreu'
 import { TextMixt } from './Opcions'
 import { BotoSo } from '../peces/BotoSo'
 import { RETARD_ENCERT } from '../peces/sonsResposta'
@@ -16,7 +16,9 @@ export function Construir({ ex, onRespon }: Props) {
   const posa = (i: number) => { if (!bloquejat) setCol([...col, i]) }
   const treu = (i: number) => { if (!bloquejat) setCol(col.filter((x) => x !== i)) }
   const comprova = () => {
-    const ok = iguals(frase(col), frase(ex.ordre))
+    // Es compara l'ordre dels mots, no la puntuació (el punt va enganxat a una fitxa)
+    const sensePunt = (t: string) => t.replace(/[.,?!]/g, '')
+    const ok = frasesAcceptades(frase(ex.ordre)).some((f) => iguals(sensePunt(frase(col)), sensePunt(f)))
     setResultat(ok)
     onRespon(ok)
   }
